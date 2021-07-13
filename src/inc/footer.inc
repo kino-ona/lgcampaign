@@ -1027,8 +1027,8 @@
 							</div>
 						</div>
 					</footer>
-				</div><input type="hidden" id="kinesisorigin" value="PROD" /><input type="hidden" id="kinesislocale"
-					value="UK" />
+				</div>
+				<input type="hidden" id="kinesisorigin" value="PROD" /><input type="hidden" id="kinesislocale" value="UK" />
 				<script src="https://www.lg.com/lg5-common/library/aws-sdk-kinesis-2.617.0.min.min.js"></script>
 				<script src="https://www.lg.com/lg5-common-gp/js/gp-kinesis-webdata.min.js"></script>
 			</div>

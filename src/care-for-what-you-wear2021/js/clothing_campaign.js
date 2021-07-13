@@ -41,4 +41,19 @@ $(document).ready(function(){
 	});
 
 
+	if($('.clothing_story').length > 0){
+		$('.box_row-campaign .box_slide-wrap').slick({
+			slide: 'div.box_slide-item',
+			dots:false,
+			infinite: true,
+			slidesToShow: 2,
+			centerMode: false,
+			nextArrow: '.slick-next',
+			prevArrow: '.slick-prev'
+			// prevArrow:'<button class="slick-prev slick-arrow" adobe-click="" adobe-value="" data-link-name="" aria-label="Previous" type="button"><i></i>Previous</button>',
+			// nextArrow:'<button class="slick-next slick-arrow" adobe-click="" adobe-value="" data-link-name="" aria-label="Next" type="button"><i></i>Next</button>',
+		});
+	}
+
+
 });
