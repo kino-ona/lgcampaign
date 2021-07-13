@@ -43,6 +43,9 @@
 		// font-family: "LGSmartH", "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
 		font-family: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
 	}
+	p {
+		margin-bottom:0;
+	}
 	.a11y {
 		position: absolute;
 		width: 1px;
@@ -63,9 +66,11 @@
 			font-size:20px;
 		}
 	}
-	.box_row {
-		max-width: 1600px;
-    margin: 0 auto;
+	.box_content-campaign {
+		position:relative;
+		&:after {
+			@extend %clearer;
+		}
 	}
 	.clothing_keyvisual {
 		position:relative;
@@ -158,6 +163,7 @@
 				position:center bottom 45px;
 			}
 			.sub_print {
+				text-align: left;
 				p {
 					font-size:40px;
 					font-weight: 700;
@@ -200,6 +206,51 @@
 	} // .clothing_keyvisual
 
 	.clothing_story {
+		height:550px;
 		margin:120px auto 150px;
+		// padding-bottom:27.414%;
+		overflow: hidden;
+		.desc {
+			position:absolute;
+			left:0;
+			top:50%;
+			@include transform(translateY(-50%));
+			width:50%;
+			padding-left:5%;
+			padding-right:6%;
+			.tit {
+				font-size:36px;
+				font-weight: 700;
+				line-height:1.25;
+			}
+			.txt {
+				margin-top:30px;
+				font-size:20px;
+			}
+			.btn_watch {
+				display: inline-block;
+				margin-top:60px;
+				padding-right:18px;
+				background: {
+					image: url(../images/ico_watch.png);
+					size: 14px;
+					repeat: no-repeat;
+					position: right center;
+				}
+				font-weight: 700;
+				color:#B50031;
+			}
+		}
+		.story_swipe {
+			margin-left:50%;
+			width:50%;
+			height:100%;
+			background: {
+				image: url(../images/story_bgcut.png);
+				size: cover;
+				repeat: no-repeat;
+				position: right center;
+			}
+		}
 	} // .clothing_story
 }
