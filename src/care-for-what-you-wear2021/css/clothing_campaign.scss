@@ -57,6 +57,84 @@
 		border: 0;
 	}
 
+	.box_content-tab {
+		.list_tab-nav {
+			display: flex;	
+			max-width: 768px;
+			margin: 0 auto;
+			border:0;
+			.list-item {
+				flex:1;
+				width:auto;
+				background: {
+					size: 60px;
+					position: left center;
+					repeat: no-repeat;
+				}
+				&.item01 {
+					background-image: url('../images/ico_sus01.png');
+				}
+				&.item02 {
+					background-image: url('../images/ico_sus02.png');
+				}
+				&.item03 {
+					background-image: url('../images/ico_sus03.png');
+				}
+			}
+			.link {
+				position:relative;
+				display: block;
+				height:100%;
+				padding:10px 0 10px 70px;
+				font-size:20px;
+				font-weight: 400;	
+				&.active, &:hover {
+					font-weight: 700;
+					&:before {
+						content: '';
+						position:absolute;
+						left:0;
+						bottom:0;
+						display: block;
+						width:100%;
+						height:100%;
+						background: {
+							image: url(../images/sustab_over.png);
+							size:auto 34px;
+							repeat: no-repeat;
+							position: left 45px bottom;
+						}
+						z-index: -1;
+					}
+					&:after {
+						display: none;
+					}
+				}
+				&:hover:not(.active){ 
+					font-weight: 400;
+				}
+			}
+		}
+		.box_tab-view {
+			position: relative;
+			margin: 40px auto 0;
+		}
+		.box_view-detail {
+			position: relative;
+
+			.box_view-item {
+				position: relative;
+				text-align: center;
+				visibility: hidden;
+				height: 0;
+				&.active {
+					visibility: visible;
+    			height: auto;
+				}
+			}
+		}
+	} // .box_content-tab
+
 	.box_main-title {
 		.text_title {
 			font-weight: 700;
@@ -418,8 +496,8 @@
 			}
 			.desc {
 				float:left;
-				width:50%;
-				padding:90px 110px 0 110px;
+				width:40%;
+				padding:80px 0px 0 110px;
 			}
 			.dot_line {
 				margin:30px 0;
@@ -433,7 +511,7 @@
 			ul {
 				> li {
 					position:relative;
-					margin-top:40px;
+					margin-top:30px;
 					padding-left:12px;
 					font-size:24px;
 					line-height:1.25;
@@ -449,7 +527,7 @@
 						content: '';
 						position:absolute;
 						left:0;
-						top:17px;
+						top:15px;
 						display: block;
 						width:4px;
 						height:4px;
@@ -465,10 +543,22 @@
 				font-weight: 700;
 				color:#D62B59;
 			}
+			.more_link {
+				position:relative;
+				display: inline-block;
+				margin-top:60px;
+			}
 			.sns_link {
+				margin-bottom:40px;
 				a {
 					display:inline-block;
+					min-width:160px;
+					height:45px;
+					line-height:45px;
 					background-color: #000;
+					color:#fff;
+					font-size:18px;
+					text-align: center;
 					i {
 						display: inline-block;
 						width:28px;
@@ -478,6 +568,9 @@
 							repeat: no-repeat;
 							position:center center;
 						}
+						margin-top:-4px;
+						margin-right:9px;
+						vertical-align: middle;
 					}
 				}
 				.btn_yt {
@@ -485,14 +578,116 @@
 						background-image: url(../images/ico_youtube.png);
 					}
 				}
+				.btn_fb {
+					i {
+						background-image: url(../images/ico_facebook.png);
+					}
+				}
+				.btn_ins {
+					i {
+						background-image: url(../images/ico_instagram.png);
+					}
+				}
+			}
+			.btn_more {
+				display: inline-block;
+				padding-right:18px;
+				background: {
+					image: url(../images/ico_morevw.png);
+					size: 14px;
+					repeat: no-repeat;
+					position: right center;
+				}
+				font-size:15px;
+				font-weight: 700;
+				color:#B50031;
+			}
+			.btn_terms {
+				position:absolute;
+				right:0;
+				bottom:0;
+				display: inline-block;
+				color:#999999;
+				text-align: right;
+				i {
+					@include iconAngle($direction: 'right', $width: 6px, $height: 14px, $thick: 1px, $color: #999999, $display: inline-block, $position: relative); 
+					margin-left:8px;
+					margin-top:-2px;
+					vertical-align: middle;
+				}
 			}
 			.figure {
 				float:right;
-				width:50%;
+				width:60%;
 				img {
 					max-width:100%;
 				}
 			}
 		}
-	} // .clothing_goods
+	} // .clothing_howto
+
+	.clothing_sustain {
+		margin-top:40px;
+		margin-bottom:120px;
+		.row-stit {
+			margin-top:20px;
+		}
+		.box_content-tab {
+			margin-top:35px;
+		}
+	} // .clothing_sustain
+
+	.clothing_quiz {
+		padding:120px 0;
+		background: {
+			image: url(../images/quiz_bgcut.png);
+			size:cover;
+			repeat: no-repeat;
+			position:center center;
+		}
+		.howto_enter {
+			position:relative;
+			h3 {
+				margin-bottom:15px;
+				font-size:30px;
+				font-weight: 700;
+			}
+			ul {
+				max-width:60%;
+			}
+			li {
+				position:relative;
+				padding-left:13px;
+				font-size:24px;
+				&:before {
+					content: '';
+					position:absolute;
+					left:0;
+					top:17px;
+					display: inline-block;
+					width: 4px;
+					height:4px;
+					border-radius: 25px;
+					background-color: #000;
+				}
+				strong {
+					font-weight: 600;
+				}
+				.hashtags {
+					font-weight: 700;
+					color:#289B4C;
+				}
+			}
+			.desc {
+				position:absolute;
+				right:0;
+				bottom:0;
+				width:40%;
+				padding-left:2.5%;
+				font-size: 24px;
+				font-weight: 700;
+			}
+		}
+	} // .clothing_quiz
+
 }

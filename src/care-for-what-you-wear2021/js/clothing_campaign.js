@@ -55,5 +55,15 @@ $(document).ready(function(){
 		});
 	}
 
+	if($('.clothing_sustain').length > 0){
+		$('.clothing_sustain .list_tab-nav .link').on('click', function(){
+			var buttonIdx = $(this).parent().index();
+			$(this).parents('.list_tab-nav').find('.link').removeClass('active');
+			$(this).addClass('active');
+			$('.clothing_sustain .box_view-detail .box_view-item').removeClass('active');
+			$('.clothing_sustain .box_view-detail .box_view-item').eq(buttonIdx).addClass('active');
+		});
+	}
+
 
 });
