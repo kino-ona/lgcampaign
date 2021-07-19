@@ -43,7 +43,8 @@
 		// font-family: "LGSmartH", "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
 		font-family: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
 	}
-	p {
+	ul, li, dt, dd, dl {margin:0;padding:0;}
+	p, label {
 		margin-bottom:0;
 	}
 	.a11y {
@@ -55,6 +56,39 @@
 		overflow: hidden;
 		clip: rect(0, 0, 0, 0);
 		border: 0;
+	}
+
+	.btn_area {
+		clear:both;
+		margin-top:40px;
+		text-align: center;
+		._btn {
+			display: inline-block;
+			min-width:10px;
+			height:60px;
+			padding-left:80px;
+			padding-right:80px;
+			font-size:20px;
+			font-weight:600;
+			line-height:3;
+			& + ._btn {
+				margin-left:8px;
+			}
+		}
+		.btn_back {
+			background-color: #626465;
+			color:#fff;
+		}
+		.btn_next {
+			background-color: #000000;
+			color:#fff;
+		}
+		.btn_red {
+			padding-left:20px;
+			padding-right:20px;
+			background-color: #B50031;
+			color:#fff;
+		}
 	}
 
 	.box_content-tab {
@@ -71,21 +105,12 @@
 					position: left center;
 					repeat: no-repeat;
 				}
-				&.item01 {
-					background-image: url('../images/ico_sus01.png');
-				}
-				&.item02 {
-					background-image: url('../images/ico_sus02.png');
-				}
-				&.item03 {
-					background-image: url('../images/ico_sus03.png');
-				}
 			}
 			.link {
 				position:relative;
 				display: block;
 				height:100%;
-				padding:10px 0 10px 70px;
+				padding:11px 0 12px 70px;
 				font-size:20px;
 				font-weight: 400;	
 				&.active, &:hover {
@@ -634,6 +659,17 @@
 		}
 		.box_content-tab {
 			margin-top:35px;
+			.list-item {
+				&.item01 {
+					background-image: url('../images/ico_sus01.png');
+				}
+				&.item02 {
+					background-image: url('../images/ico_sus02.png');
+				}
+				&.item03 {
+					background-image: url('../images/ico_sus03.png');
+				}
+			}
 		}
 	} // .clothing_sustain
 
@@ -647,13 +683,21 @@
 		}
 		.howto_enter {
 			position:relative;
+			padding-left:50px;
+			padding-right:50px;
+			margin-bottom:40px;
+			&:after {
+				@extend %clearer;
+			}
 			h3 {
 				margin-bottom:15px;
 				font-size:30px;
 				font-weight: 700;
 			}
 			ul {
+				position:relative;
 				max-width:60%;
+				float:left;
 			}
 			li {
 				position:relative;
@@ -679,15 +723,398 @@
 				}
 			}
 			.desc {
-				position:absolute;
-				right:0;
-				bottom:0;
+				position:relative;
+				float:right;
 				width:40%;
+				padding-top:35px;
 				padding-left:2.5%;
 				font-size: 24px;
 				font-weight: 700;
+				background: {
+					image: url(../images/ico_crown.png);
+					size:33px;
+					repeat: no-repeat;
+					position: left 13px top 7px;
+				}
+				&:before {
+					content: '';
+					position:absolute;
+					left:0;
+					bottom:5px;
+					display: inline-block;
+					width:1px;
+					height:calc(100% - 55px);
+					background-color: rgba(112,112,112, 0.2);
+				}
+			}
+		}
+		.quiz_wrap {
+			position:relative;
+			width:100%;
+			margin:0 auto;
+			padding:40px 10% 60px;
+			background-color: #fff;
+			text-align: center;
+			-webkit-box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
+			-moz-box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
+			box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
+			.btn_refresh {
+				position:absolute;
+				top:12px;
+				right:16px;
+				border:0;
+				outline: 0;
+				width:30px;
+				height:30px;
+				background: {
+					color:transparent;
+					image: url(../images/ico_refresh.png);
+					size:cover;
+					repeat: no-repeat;
+					position: center center;
+				}
+			}
+		}
+		.q_step {
+			color:#999;
+			strong {
+				font-weight: 700;
+				color:#000;
+			}
+		}
+		.q_title {
+			margin-top:10px;
+			font-size:34px;
+			font-weight: 700;
+			line-height:1;
+		}
+		.q_items {
+			display: flex;
+			margin-top:60px;
+			.item {
+				flex:1;
+				padding-top:55px;
+				margin-right:20px;
+				background-color:#F4F4F5;
+				cursor: pointer;
+				&:last-child {
+					margin-right:0;
+				}
+				// &:hover {
+				// 	.figure {
+				// 		img {
+				// 			top:55%;
+				// 			width:300%;
+				// 			height:300%;
+				// 		}
+				// 	}
+				// }
+			}
+			.figure {
+				position:relative;
+				width:240px;
+				margin-bottom:25px;
+				padding-bottom:100%;
+				overflow: hidden;
+				cursor: pointer;
+				img {
+					position:absolute;
+					left:50%;
+					top:50%;
+					width:100%;
+					height:100%;
+					@include transform(translate(-50%, -50%));
+					-o-object-fit: cover;
+					object-fit: cover;
+					-webkit-transition: all 0.4s ease-in-out;
+					transition: all 0.4s ease-in-out;
+				}
+			}
+			.txt {
+				margin-bottom: 30px;
+			}
+			._sel {
+				input[type=radio] {
+					position: absolute;
+					left:0;
+					top:0;
+					visibility: hidden;
+					&:checked + .figure > img {
+						top:55%;
+						width:220%;
+						height:220%;
+					}
+				}
+			}
+			&:after {
+				@extend %clearer;
 			}
 		}
 	} // .clothing_quiz
 
+	.clothing_product {
+		padding-top:120px;
+		padding-bottom:120px;
+		.row-tit {
+			max-width: 770px;
+			margin:0 auto;
+		}
+		.row-stit {
+			max-width:70%;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+		.box_content-tab {
+			margin-top:35px;
+			.list_tab-nav {
+				max-width:570px;
+				.link {
+					padding:25px 0 25px 75px;
+					&.active, &:hover {
+						&:before {
+							background-image: url(../images/prodtab_over.png);
+							background-size:auto 34px;
+						}
+					}
+				}
+			}
+			.list-item {
+				&.item01 {
+					background-image: url('../images/ico_prod01.png');
+				}
+				&.item02 {
+					background-image: url('../images/ico_prod02.png');
+				}
+				&.item03 {
+					.link {
+						padding-left:60px;
+					}
+					background-image: url('../images/ico_prod03.png');
+					background-size:40px;
+				}
+			}
+			.box_tab-view {
+				position:relative;
+				padding:60px 8.75% 0;
+				&:before {
+					content: '';
+					position: absolute;
+					left:0;
+					top:0;
+					width:100%;
+					height:80%;
+					display: block;
+					background: {
+						color:#FAF9E8;
+						image: url(../images/product_boxbg.png);
+						repeat: no-repeat;
+						position: left -80px bottom -150px;
+						size: 50%;
+					}
+				}
+				.box_view-detail {
+					&:after {
+						@extend %clearer;
+					}
+				}
+				.figure {
+					float:left;
+					width:45%;
+					img {
+						max-width:100%;
+					}
+				}
+				.desc {
+					float:left;
+					width:55%;
+					margin-top:20px;
+					.btn_area {
+						clear:both;
+						padding-top:30px;
+					}
+					&:after {
+						@extend %clearer;
+					}
+				}
+				._item {
+					float:left;
+					width:50%;
+					margin-bottom:50px;
+					text-align: left;
+					&:nth-child(2n + 1) {
+						clear:left;
+					}
+					dt {
+						position:relative;
+						padding-left:55px;
+						font-size:24px;
+						font-weight: 700;
+						line-height:1;
+					}
+					dd {
+						margin-top:20px;
+						padding-left:55px;
+					}
+					i {
+						position:absolute;
+						left:0;
+						top:0;
+						display: inline-block;
+						width:55px;
+						height:55px;
+						background: {
+							repeat: no-repeat;
+							size:auto;
+							position:0 0;
+						}
+					}
+					&.item01 {
+						dt > i {
+							background-image: url(../images/washer_ico01.png);
+							background-size:42px;
+						}
+					}
+					&.item02 {
+						dt > i {
+							background-image: url(../images/washer_ico02.png);
+							background-size:35px;
+						}
+					}
+					&.item03 {
+						dt > i {
+							background-image: url(../images/washer_ico03.png);
+							background-size:39px;
+						}
+					}
+					&.item04 {
+						dt > i {
+							background-image: url(../images/washer_ico04.png);
+							background-size:34px;
+						}
+					}
+					.btn_watch {
+						position: relative;
+						display: inline-block;
+						margin-top:10px;
+						padding-right:18px;
+						background: {
+							image: url(../images/ico_morevw.png);
+							size: 14px;
+							repeat: no-repeat;
+							position: right center;
+						}
+						font-weight: 700;
+						color:#B50031;
+					}
+				}
+			}
+		}
+	} // .clothing_product
+
+	.clothing_project {
+		padding-bottom:60px;
+		.row-stit {
+			max-width:80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.proj_step {
+			display: flex;
+			max-width:640px;
+			margin:60px auto 0;
+			._step {
+				position:relative;
+				flex:1;
+				&:after {
+					content: '';
+					position:absolute;
+					right:-15%;
+					top:30%;
+					display: block;
+					width:46px;
+					height:20px;
+					background: {
+						image: url(../images/project_arrow.png);
+						repeat: no-repeat;
+						position:	0 0;
+						size: auto 19px;
+					}
+				}
+				&:last-child {
+					&:after {
+						display: none;
+					}
+				}
+			}
+			.st-ico {
+				display: inline-block;
+				width:100%;
+				height:98px;
+				margin:0 auto;
+				background: {
+					repeat: no-repeat;
+					position:center center;
+				}
+			}
+			.st-logo {
+				margin-top:30px;
+				text-align: center;
+			}
+			.step01 {
+				.st-ico {
+					background-image: url(../images/project_ico01.png);
+					background-size: 123px;
+				}
+				.st-logo {
+					img {
+						max-width:154px;
+					}
+				}
+			}
+			.step02 {
+				.st-ico {
+					background-image: url(../images/project_ico02.png);
+					background-size: 87px;
+				}
+				.st-logo {
+					img {
+						max-width:105px;
+					}
+				}
+			}
+			.step03 {
+				.st-ico {
+					background-image: url(../images/project_ico03.png);
+					background-size: 80px;
+				}
+				.st-logo {
+					img {
+						max-width:118px;
+					}
+				}
+			}
+			.btn_more {
+				display: inline-block;
+				margin-top:10px;
+				font-weight: 700;
+				i {
+					display: inline-block;
+					width:14px;
+					height:14px;
+					background: {
+						image: url(../images/ico_morevw-bk.png);
+						size:14px;
+						repeat: no-repeat;
+						position:0 0;
+					}
+					margin-left:3px;
+					margin-top: -4px;
+					vertical-align: middle;
+				}
+			}
+		}
+	} // .clothing_project
+
 }
+
