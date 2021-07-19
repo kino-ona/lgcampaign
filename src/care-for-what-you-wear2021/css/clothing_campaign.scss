@@ -306,7 +306,11 @@
 				position:center bottom 45px;
 			}
 			.sub_print {
+				display: none;
 				text-align: left;
+				&.active {
+					display: block;
+				}
 				p {
 					font-size:40px;
 					font-weight: 700;

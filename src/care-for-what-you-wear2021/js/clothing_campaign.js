@@ -7,6 +7,8 @@ $(document).ready(function(){
 
 		if($('.clothing_keyvisual .vodbg').find('video').length > 0) {
 			$Item.hover(function() {
+				$('.clothing_keyvisual').find('.sub_print').removeClass('active')
+				$('.clothing_keyvisual').find('.print0' + $(this).index()).addClass('active')
 				$('.clothing_keyvisual').removeClass('origin');
 				$('.clothing_keyvisual').addClass('active');
 				$('.clothing_keyvisual .vodbg').find('video').get(0).pause();
@@ -15,6 +17,7 @@ $(document).ready(function(){
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
 			}, function() {
+				$('.clothing_keyvisual').find('.sub_print').removeClass('active')
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
 			});
