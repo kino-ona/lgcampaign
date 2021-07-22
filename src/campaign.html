@@ -45,9 +45,9 @@
 	<link rel="icon" type="image/png" href="https://www.lg.com/lg5-common-gp/favicons/32x32.png" sizes="32x32">
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<link rel="preload" href="./lg5-common-gp/webfonts/LG_Smart_Regular.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="./lg5-common-gp/webfonts/LG_Smart_Bold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="./lg5-common-gp/webfonts/LG_Smart_SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+	<!-- <link rel="preload" href="https://www.lg.com/lg5-common-gp/webfonts/LG_Smart_Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.lg.com/lg5-common-gp/webfonts/LG_Smart_Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.lg.com/lg5-common-gp/webfonts/LG_Smart_SemiBold.woff2" as="font" type="font/woff2" crossorigin> -->
 
 	<link href="https://www.lg.com/uk/appliances/care-for-what-you-wear/css/index.css" type="text/css" rel="stylesheet">
 </head>
@@ -124,6 +124,8 @@
 
 <!-- contents start -->
 		<link href="/care-for-what-you-wear2021/css/clothing_campaign.css" type="text/css" rel="stylesheet">
+		<link media="only screen and (max-width: 991px)" href="/care-for-what-you-wear2021/css/clothing_campaign-response.css" type="text/css" rel="stylesheet">
+		
 		<div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
 			<div class="box_main-title">
 				<h2 class="text_title">#CareForWhatYouWear</h2>
@@ -147,17 +149,20 @@
 			<div class="clothing_keyvisual box_row-campaign">
 				<div class="over_text">
 					<div class="item item_title">
-						<div class="sub_print print01 active">
+						<div class="sub_print print01">
 							<p>Baby</p>
-							<span>Our story lies within<br>these clothes</span>
+							<span>Our story lies within these clothes</span>
+							<a href="#" class="btn_play">PLAY<i></i></a>
 						</div>
 						<div class="sub_print print02">
 							<p>Couple - Long married</p>
 							<span>Our story lies within these clothes</span>
+							<a href="#" class="btn_play">PLAY<i></i></a>
 						</div>
 						<div class="sub_print print03">
 							<p>Hero</p>
 							<span>Our story lies within these clothes</span>
+							<a href="#" class="btn_play">PLAY<i></i></a>
 						</div>
 					</div>
 					<div class="item">
@@ -211,22 +216,22 @@
 						<button class="slick-prev slick-arrow" adobe-click="" adobe-value="" data-link-name="" aria-label="Previous" type="button"><i></i>Previous</button>
 						<button class="slick-next slick-arrow" adobe-click="" adobe-value="" data-link-name="" aria-label="Next" type="button"><i></i>Next</button>
 						<div class="box_slide-wrap">
-							<div class="box_slide-item">
+							<div class="box_slide-item" data-slideidx="1">
 								<div class="box_slide-image">
-									<img src="/care-for-what-you-wear2021/images/@story_img01.png" class="image" alt="">
+									<img src="/care-for-what-you-wear2021/images/@story_img01-mo.png" class="image" alt="">
 								</div>
 							</div>
-							<div class="box_slide-item">
+							<div class="box_slide-item" data-slideidx="2">
 								<div class="box_slide-image">
-									<img src="/care-for-what-you-wear2021/images/@story_img02.png" class="image" alt="">
+									<img src="/care-for-what-you-wear2021/images/@story_img02-mo.png" class="image" alt="">
 								</div>
 							</div>
-							<div class="box_slide-item">
+							<div class="box_slide-item" data-slideidx="3">
 								<div class="box_slide-image">
-									<img src="/care-for-what-you-wear2021/images/@story_img03.png" class="image" alt="">
+									<img src="/care-for-what-you-wear2021/images/@story_img03-mo.png" class="image" alt="">
 								</div>
 							</div>
-							<div class="box_slide-item">
+							<div class="box_slide-item" data-slideidx="4">
 								<div class="box_slide-image">
 									<img
 										src="https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-net-a-porter-collection-fabric-w.jpg"
@@ -236,7 +241,7 @@
 						</div>
 
 						<div class="explan">
-							<i></i><p>Responsible<br>Consumption&amp;<br>Production</p>
+							<i></i><p>Responsible<br>Consumption&amp;Production</p>
 						</div>
 						<p class="story_cut"><span class="a11y">Image</span></p>
 					</div>
@@ -252,30 +257,31 @@
 						<div class="desc">
 							<p>How to enter</p>
 							<ul>
-								<li>Share a story about a piece of clothing that holds special meaning for you as a comment on this post.</li>
+								<li><span>Share a story about a piece of clothing that holds special meaning for you as a comment on this post.</span></li>
 							</ul>
 							<hr class="dot_line _or" />
 							<ul>
-								<li>Post your cherished clothing story with a photo on your social media.</li>
+								<li><span>Post your cherished clothing story with a photo on your social media.</span></li>
 								<li><strong>Use the following hashtags :</strong> 
-									<div>
+									<div class="hashtag_group">
 										<span class="hashtags">#CareForWhatYouWear</span><span class="hashtags">#MyCherishedClothes</span><span class="hashtags">#SustainableStories</span>
 									</div>
 								</li>
-							</ul>
-							
+							</ul>							
 							<div class="more_link">
 								<div class="sns_link">
-									<a href="#" class="btn_yt"><i></i>Youtube</a>
-									<a href="#" class="btn_fb"><i></i>Facebook</a>
-									<a href="#" class="btn_ins"><i></i>Instagram</a>
+									<a href="#" class="btn_yt"><i></i> <span class="a11y-mobile">Youtube</span></a>
+									<a href="#" class="btn_fb"><i></i> <span class="a11y-mobile">Facebook</span></a>
+									<a href="#" class="btn_ins"><i></i> <span class="a11y-mobile">Instagram</span></a>
 								</div>
-
 								<a href="#" class="btn_more">FIND OUT MORE</a>
 								<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 							</div>
 						</div>
-						<div class="figure"><img src="/care-for-what-you-wear2021/images/goods_cut.png"></div>
+						<div class="figure">
+							<img src="/care-for-what-you-wear2021/images/goods_cut.png">						
+							<a href="#" class="btn_more">FIND OUT MORE</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -321,16 +327,20 @@
 					<div class="howto_enter">
 						<h3>How to enter</h3>
 						<ul>
-							<li>Take the test below</li>
-							<li>Share your score on Instagram, Facebook or Twitter by clicking the 'share' button.</li>
-							<li><strong>Use following hashtags :</strong> <span class="hashtags">#CareForWhatYouWear</span> <span class="hashtags">#CherishedClothesTest</span></li>
+							<li><span>Take the test below</span></li>
+							<li><span>Share your score on Instagram, Facebook or Twitter by clicking the 'share' button.</span></li>
+							<li><strong>Use following hashtags :</strong>
+								<div class="hashtag_group">
+									<span class="hashtags">#CareForWhatYouWear</span> <span class="hashtags">#CherishedClothesTest</span>
+								</div>
+							</li>
 						</ul>
 						<div class="desc">
 							Share on Instagram, Facebook or Twitter and enter your info to receive a 10% off voucher for LG.com
 						</div>
 					</div>
 
-					<div class="quiz_wrap">
+					<div class="quiz_wrap" style="display: none;">
 						<button class="btn_refresh"><span class="a11y">Refresh</span></button>
 						<div class="q_step"><strong>1</strong> / 10</div>
 						<p class="q_title">When out of dryer sheets, what’s another option?</p>
@@ -384,7 +394,13 @@
 					<div class="box_tab-view">
 						<div class="box_view-detail">
 							<div id="washer" class="box_view-item box_view-item1 active">
-								<p class="figure"><img src="/care-for-what-you-wear2021/images/product_thumn.png" alt="washer"></p>
+								<div class="figure">
+									<img src="/care-for-what-you-wear2021/images/product_thumn.png" alt="washer"/>
+								</div>
+								<div class="btn_area">
+									<a href="#" class="_btn">FIND OUT MORE</a>
+									<a href="#" class="_btn">WHERE TO BUY</a>
+								</div>
 								<div class="desc">
 									<dl class="_item item01">
 										<dt><i></i>Fabric Protection</dt>
@@ -401,7 +417,7 @@
 										</dd>
 									</dl>
 									<dl class="_item item03">
-										<dt><i></i>Reduce Water<br>Consumption</dt>
+										<dt><i></i>Reduce Water Consumption</dt>
 										<dd>
 											Bigger washing capacity reduces water consumption
 											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
@@ -414,7 +430,6 @@
 											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
 										</dd>
 									</dl>
-
 									<div class="btn_area">
 										<a href="#" class="_btn btn_red">FIND OUT MORE</a>
 										<a href="#" class="_btn btn_red">WHERE TO BUY</a>
@@ -436,7 +451,7 @@
 			<div class="clothing_project box_row-campaign">
 				<p class="row-tit">Climate Resilience project</p>
 				<p class="row-stit">LG will make a donation of USD 100,000 to OXFAM, with plans to run a Climate Resilience project in Nepal.
-					Nepal is facing increasing climate-related disasters such as floods, landslides anddroughts brough in part from excessive clothing production and consumption.
+					Nepal is facing increasing climate-related disasters such as floods, landslides anddroughts brough in part from excessive clothing production and consumption.<br>
 					This project supports community-based organisations in one of the most vulnerable provinces in Nepal to improve knowledge of climate change, offer training on climate-smart livelihoods, and enhance the capability of local organisations to influence local decision-making and raise income.</p>
 
 					<div class="proj_step">
@@ -534,6 +549,7 @@
 		<script type="text/javascript" src="/care-for-what-you-wear2021/js/index.js"></script>
 
 		<script type="text/javascript" src="/care-for-what-you-wear2021/js/clothing_campaign.js"></script>
+		<!-- <script media="only screen and (max-width: 991px)" type="text/javascript" src="/care-for-what-you-wear2021/js/clothing_campaign-response.js"></script> -->
 </body>
 
 </html>

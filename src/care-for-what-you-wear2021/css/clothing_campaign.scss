@@ -57,6 +57,9 @@
 		clip: rect(0, 0, 0, 0);
 		border: 0;
 	}
+	.slick-dots {
+		display: none!important;
+	}
 
 	.btn_area {
 		clear:both;
@@ -324,6 +327,9 @@
 					color:rgba(153, 153, 153, 0.6);
 				}
 			}
+			> .btn_play {
+				display: none;
+			}
 		}
 		.sub_print {
 			position:absolute;
@@ -503,17 +509,25 @@
 					object-fit: cover;
 				}
 			}
+			&[data-slideidx="1"] {
+				.box_slide-image {
+					img {	
+
+					}
+				}
+			}
 		}
 	} // .clothing_story
 
 	.clothing_howto {
 		width:100%;
 		padding:120px 0 0;
+		background-color: #FAF4F1;
 		background: {
-			image: url(../images/goods_bgcut.png);
-			size:100%;
+			image: url(../images/goods_bgcut-1.png);
+			size: 28.5%;
 			repeat: no-repeat;
-			position:left top;
+			position: left -2% top 45%;
 		}
 		.howto {
 			position:relative;
@@ -574,8 +588,21 @@
 			}
 			.more_link {
 				position:relative;
-				display: inline-block;
+				display:inline-block;
 				margin-top:60px;
+				> .btn_more {
+					display: inline-block;
+					padding-right:18px;
+					background: {
+						image: url(../images/ico_morevw.png);
+						size: 14px;
+						repeat: no-repeat;
+						position: right center;
+					}
+					font-size:15px;
+					font-weight: 700;
+					color:#B50031;
+				}
 			}
 			.sns_link {
 				margin-bottom:40px;
@@ -618,19 +645,6 @@
 					}
 				}
 			}
-			.btn_more {
-				display: inline-block;
-				padding-right:18px;
-				background: {
-					image: url(../images/ico_morevw.png);
-					size: 14px;
-					repeat: no-repeat;
-					position: right center;
-				}
-				font-size:15px;
-				font-weight: 700;
-				color:#B50031;
-			}
 			.btn_terms {
 				position:absolute;
 				right:0;
@@ -650,6 +664,9 @@
 				width:60%;
 				img {
 					max-width:100%;
+				}
+				.btn_more {
+					display: none;
 				}
 			}
 		}
@@ -928,6 +945,9 @@
 					img {
 						max-width:100%;
 					}
+					& + .btn_area {
+						display: none;
+					}
 				}
 				.desc {
 					float:left;
@@ -951,6 +971,7 @@
 					}
 					dt {
 						position:relative;
+						max-width: 310px;
 						padding-left:55px;
 						font-size:24px;
 						font-weight: 700;

@@ -2,7 +2,7 @@
 			<div class="row iw_row iw_stretch">
 				<div class="iw_columns col-lg-12">
 					<div class="iw_component">
-						<div class="C0076 floating-menu top call-yet">
+						<div class="C0076 floating-menu top call-yet" style="display: none;">
 							<div class="back-to-top">
 								<button type="button"><span class="sr-only">Go to page top</span></button>
 							</div>
