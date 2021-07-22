@@ -95,53 +95,53 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	if($(window).width() < 990) {
-		$('.clothing_keyvisual .over_text .item_title .slick-dots li button)').each(function(i, e) {
-			var $Item = $(this);
-			var r = i + 1;
+		// $('.clothing_keyvisual .over_text .item_title .slick-dots li button)').each(function(i, e) {
+		// 	var $Item = $(this);
+		// 	var r = i + 1;
 			
-			$Item.each(function(){
-				$(this).click(function(){
-					if($('.clothing_keyvisual .vodbg').find('video').length > 0){
-						$('.clothing_keyvisual .vodbg').find('video').get(0).pause();
-						$('.clothing_keyvisual .vodbg').find('video').stop().fadeOut(500);
+		// 	$Item.each(function(){
+		// 		$(this).click(function(){
+		// 			if($('.clothing_keyvisual .vodbg').find('video').length > 0){
+		// 				$('.clothing_keyvisual .vodbg').find('video').get(0).pause();
+		// 				$('.clothing_keyvisual .vodbg').find('video').stop().fadeOut(500);
 				
-						$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
-						$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
-					}
-				});
-			});
+		// 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
+		// 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
+		// 			}
+		// 		});
+		// 	});
 			
-			/* $('.clothing_keyvisual .over_text .item_title .slick-dots li button)').on('click', function(){
-				var kvidx = $('.clothing_keyvisual .over_text .item_title .slick-current').attr('data-slick-index');
-				var r = Number(kvidx) + Number(1);
-				console.log('the idx is ' +  r);			
+		// 	/* $('.clothing_keyvisual .over_text .item_title .slick-dots li button)').on('click', function(){
+		// 		var kvidx = $('.clothing_keyvisual .over_text .item_title .slick-current').attr('data-slick-index');
+		// 		var r = Number(kvidx) + Number(1);
+		// 		console.log('the idx is ' +  r);			
 				
-				$('.clothing_keyvisual .vodbg video').get(0).pause();
-				$('.clothing_keyvisual .vodbg video').get(0).fadeOut(500);
-				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
-				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
-			}); */
-		});
+		// 		$('.clothing_keyvisual .vodbg video').get(0).pause();
+		// 		$('.clothing_keyvisual .vodbg video').get(0).fadeOut(500);
+		// 		$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
+		// 		$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
+		// 	}); */
+		// });
 	}
 });
 
-$(window).resize(function(){
-	var kvslider = $('.clothing_keyvisual .item_title');
-	var kvsliderOptions = {
-		slide: 'div.sub_print',
-		dots: true,
-		infinite: true,
-		speed: 200,
-		fade: true,
-		arrows: false,
-		cssEase: 'linear'
-	};
+// $(window).resize(function(){
+// 	var kvslider = $('.clothing_keyvisual .item_title');
+// 	var kvsliderOptions = {
+// 		slide: 'div.sub_print',
+// 		dots: true,
+// 		infinite: true,
+// 		speed: 200,
+// 		fade: true,
+// 		arrows: false,
+// 		cssEase: 'linear'
+// 	};
 
-	if($(window).width() > 990) {
-		$('.clothing_keyvisual .item_title').slick('unslick');
-	} else {
-		$('.clothing_keyvisual .item_title').not('.slick-initialized').slick(kvsliderOptions);
-	}
-});
+// 	if($(window).width() > 990) {
+// 		$('.clothing_keyvisual .item_title').slick('unslick');
+// 	} else {
+// 		$('.clothing_keyvisual .item_title').not('.slick-initialized').slick(kvsliderOptions);
+// 	}
+// });
 
 /* 20210722 responsive e */

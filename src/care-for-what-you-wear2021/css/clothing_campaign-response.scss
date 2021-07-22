@@ -12,6 +12,7 @@
 	border: 0;
 }
 
+
 .clothing-campaign {
 	.box_row-campaign {
 		.row-tit {
@@ -229,19 +230,20 @@
 	} // .clothing_story
 
 	.clothing_howto {
-		padding: 55px 0;
+		padding: 60px 0 55px;
 		background-color: #FAF4F1;
 		overflow: hidden;
 		background: {
 			image: url(../images/goods_bgcut-2.png);
 			size: 42.5%;
-			position: right -2.5% top 18.5%;
+			position: right -30px top 20%;
 		}
 		.row-tit {
 			font-size: 26px;
 			padding: 0 20px;
 		}
 		.row-stit {
+			margin-top:20px;
 			font-size: 15px;
 			padding: 0 20px;			
 		}
@@ -417,6 +419,7 @@
 	} // .clothing_sustain
 
 	.clothing_quiz {		
+		display: none; //임시
 		padding: 55px 0;
 		background: {
 			position: left 20% center;
@@ -494,7 +497,7 @@
 					font-weight: 700;
 					&:before {
 						background-image: url(../images/prodtab_over.png);
-						background-size: 100%;
+						background-size: 70%;
 						background-position: center bottom;
 					}
 				}
@@ -511,7 +514,7 @@
 						.link {
 							padding-left: 0;
 						}
-					}
+					} 
 				}	
 				.link {
 					text-align: center;
@@ -535,7 +538,8 @@
 					float: none;
 					width: 100%;
 					position: relative;
-					padding-bottom: 74.2%;
+					padding-bottom: 91.2%;
+					overflow: hidden;
 					img {
 						max-width:100%;
 						position: absolute;
