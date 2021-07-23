@@ -82,6 +82,24 @@ $(document).ready(function(){
 			$('.clothing_product .box_view-detail .box_view-item').eq(buttonIdx).addClass('active');
 		});
 	}
+
+	if($('.clothing_quiz').length > 0){
+		$('.quiz_wrap .item').each(function() {
+			var $Item = $(this);
+			$Item.find('label').on('click', function(){ 
+				$('.quiz_wrap .q_items').find('img').each(function() {
+					$(this).attr("src",$(this).attr("src").replace("-hover.png", ".png"))
+				});
+
+				if($(this).find('input:radio').is(':checked')){
+					$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace(".png", "-hover.png"))
+				}else{
+					$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace("-hover.png", ".png"))
+				}
+			});
+		});
+	}
+	
 });
 
 /* 20210722 responsive s */

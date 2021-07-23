@@ -93,7 +93,12 @@
 			color:#fff;
 		}
 	}
-
+	._pc {
+		display: block;
+	}
+	._mo {
+		display: none;
+	}
 	.box_content-tab {
 		.list_tab-nav {
 			display: flex;	
@@ -153,11 +158,9 @@
 			.box_view-item {
 				position: relative;
 				text-align: center;
-				visibility: hidden;
-				height: 0;
+				display: none;
 				&.active {
-					visibility: visible;
-    			height: auto;
+					display: block;
 				}
 			}
 		}
@@ -611,6 +614,7 @@
 					min-width:160px;
 					height:45px;
 					line-height:45px;
+					margin-bottom:3px;
 					background-color: #000;
 					color:#fff;
 					font-size:18px;
@@ -665,9 +669,9 @@
 				img {
 					max-width:100%;
 				}
-				// .btn_more {
-				// 	display: none;
-				// }
+				.btn_more {
+					display: none;
+				}
 			}
 		}
 	} // .clothing_howto
@@ -677,6 +681,21 @@
 		margin-bottom:120px;
 		.row-stit {
 			margin-top:20px;
+		}
+		.list_tab-nav {
+			margin-bottom:55px;
+		}
+		.box_tab-view {
+			max-width:1220px;
+			height:820px;
+			margin:0 auto 0;
+			background: {
+				image: url(../images/sustain_bgcut.png);
+				size:57%;
+				repeat: no-repeat;
+				position:0 0;
+			}
+			overflow: hidden;
 		}
 		.box_content-tab {
 			margin-top:35px;
@@ -691,11 +710,27 @@
 					background-image: url('../images/ico_sus03.png');
 				}
 			}
+			.box_view-detail {
+				height:100%;
+				.box_view-item {
+					height:100%;
+				}
+				.figure {
+					position:absolute;
+					top:50%;
+					left:130px;
+					transform: translateY(-50%);
+					width:calc(100% - 130px);
+					img {
+						max-width:100%;
+					}
+				}
+			}
 		}
 	} // .clothing_sustain
 
 	.clothing_quiz {
-		padding:120px 0;
+		padding:120px 0 150px;
 		background: {
 			image: url(../images/quiz_bgcut.png);
 			size:cover;
@@ -844,7 +879,7 @@
 					top:50%;
 					width:100%;
 					height:100%;
-					@include transform(translate(-50%, -50%));
+					@include transform(translate(-50%, -50%));	
 					-o-object-fit: cover;
 					object-fit: cover;
 					-webkit-transition: all 0.4s ease-in-out;
@@ -860,11 +895,6 @@
 					left:0;
 					top:0;
 					visibility: hidden;
-					&:checked + .figure > img {
-						top:55%;
-						width:220%;
-						height:220%;
-					}
 				}
 			}
 			&:after {
@@ -925,6 +955,7 @@
 					top:0;
 					width:100%;
 					height:80%;
+					min-height:520px;
 					display: block;
 					background: {
 						color:#FAF9E8;
@@ -944,6 +975,7 @@
 					width:45%;
 					img {
 						max-width:100%;
+						max-height:590px;
 					}
 					& + .btn_area {
 						display: none;
@@ -952,7 +984,7 @@
 				.desc {
 					float:left;
 					width:55%;
-					margin-top:20px;
+					margin-top:30px;
 					.btn_area {
 						clear:both;
 						padding-top:30px;
@@ -964,7 +996,7 @@
 				._item {
 					float:left;
 					width:50%;
-					margin-bottom:50px;
+					margin-bottom:55px;
 					text-align: left;
 					&:nth-child(2n + 1) {
 						clear:left;
@@ -978,7 +1010,9 @@
 						line-height:1;
 					}
 					dd {
-						margin-top:20px;
+						max-width:80%;
+						min-height:100px;
+						margin-top:15px;
 						padding-left:55px;
 					}
 					i {
@@ -1017,6 +1051,9 @@
 							background-image: url(../images/washer_ico04.png);
 							background-size:34px;
 						}
+						dd {
+							max-width:100%;
+						}
 					}
 					.btn_watch {
 						position: relative;
@@ -1027,13 +1064,32 @@
 							image: url(../images/ico_morevw.png);
 							size: 14px;
 							repeat: no-repeat;
-							position: right center;
+							position: right 1px center;
 						}
 						font-weight: 700;
 						color:#B50031;
 					}
 				}
-			}
+
+				@media screen and (min-width:992px) and (max-width:1600px) {
+					&:before {
+						min-height:auto;
+					}
+					padding:80px 6% 0;
+					.desc {
+						margin-top:0;
+					}
+					._item {
+						dt {
+							max-width:80%;
+							font-size:20px;
+						}
+						dd {
+							font-size:14px;
+						}
+					}
+				}
+			} //.box_tab-view 
 		}
 	} // .clothing_product
 
@@ -1140,6 +1196,8 @@
 			}
 		}
 	} // .clothing_project
-
 }
 
+@media screen and (max-width:991px) {
+	@import "clothing_campaign-response";
+}
