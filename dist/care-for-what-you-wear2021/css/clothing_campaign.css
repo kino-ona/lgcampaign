@@ -18,7 +18,7 @@
 
 .layer_body { position: fixed; min-height: 100vh; z-index: 1000; top: 0; left: 0; display: none; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); }
 
-.layer_wrap { position: absolute; z-index: 999; top: 50%; left: 50%; max-width: 1020px; width: 100%; background-color: #fff; opacity: 0; transform: translate(-50%, -50%); transition: visibility 0.2s 0.1s, opacity 0.2; }
+.layer_wrap { position: absolute; z-index: 999; top: 50%; left: 50%; max-width: 1020px; width: 100%; background-color: #fff; opacity: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transition: visibility 0.2s 0.1s, opacity 0.2; transition: visibility 0.2s 0.1s, opacity 0.2; }
 
 .layer_close { position: absolute; z-index: 1000; max-width: 1020px; width: 100%; top: 20px; right: 0; }
 
@@ -67,9 +67,9 @@
 
 .clothing-campaign ._mo { display: none; }
 
-.clothing-campaign .box_content-tab .list_tab-nav { display: flex; max-width: 768px; margin: 0 auto; border: 0; }
+.clothing-campaign .box_content-tab .list_tab-nav { display: -webkit-box; display: -ms-flexbox; display: flex; max-width: 768px; margin: 0 auto; border: 0; }
 
-.clothing-campaign .box_content-tab .list_tab-nav .list-item { flex: 1; width: auto; background-size: 60px; background-position: left center; background-repeat: no-repeat; }
+.clothing-campaign .box_content-tab .list_tab-nav .list-item { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; width: auto; background-size: 60px; background-position: left center; background-repeat: no-repeat; }
 
 .clothing-campaign .box_content-tab .list_tab-nav .link { position: relative; display: block; height: 100%; padding: 11px 0 12px 70px; font-size: 20px; font-weight: 400; }
 
@@ -101,7 +101,7 @@
 
 .clothing-campaign .box_row-campaign .dot_line { clear: both; position: relative; width: 100%; background-image: url(../images/dot_line.png); background-size: auto 1px; background-repeat: repeat-x; background-position: 0 center; }
 
-.clothing-campaign .box_row-campaign .dot_line._or:before { content: 'or'; position: absolute; left: 50%; top: -15px; transform: translateX(-50%); display: block; background-color: #fff; padding: 3px 10px; font-size: 20px; line-height: 1; color: #999999; }
+.clothing-campaign .box_row-campaign .dot_line._or:before { content: 'or'; position: absolute; left: 50%; top: -15px; -webkit-transform: translateX(-50%); transform: translateX(-50%); display: block; background-color: #fff; padding: 3px 10px; font-size: 20px; line-height: 1; color: #999999; }
 
 .clothing-campaign .clothing_keyvisual { position: relative; padding-top: 45%; background-color: #000000; background-image: url(../images/visual_bgcut.png); background-size: cover; background-repeat: no-repeat; background-position: center center; }
 
@@ -109,7 +109,7 @@
 
 .clothing-campaign .clothing_keyvisual.active { background-image: none; }
 
-.clothing-campaign .vodbg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: left 10% top; background-size: 80% 100%; transition: 0.4s ease-out; overflow: hidden; }
+.clothing-campaign .vodbg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: left 10% top; background-size: 80% 100%; -webkit-transition: 0.4s ease-out; transition: 0.4s ease-out; overflow: hidden; }
 
 .clothing-campaign .vodbg video { display: none; min-width: 100%; min-height: 100%; }
 
@@ -119,7 +119,7 @@
 
 .clothing-campaign .over_text .item:not(.item_title) { background-color: rgba(0, 0, 0, 0.55); border-left: 1px solid rgba(255, 255, 255, 0.15); cursor: pointer; }
 
-.clothing-campaign .over_text .item:not(.item_title) .sub_print p { font-size: 20px; font-weight: 700; color: rgba(213, 213, 213, 0.3); text-align: center; letter-spacing: 8px; transition: 0.2s ease-in-out; }
+.clothing-campaign .over_text .item:not(.item_title) .sub_print p { font-size: 20px; font-weight: 700; color: rgba(213, 213, 213, 0.3); text-align: center; letter-spacing: 8px; -webkit-transition: 0.2s ease-in-out; transition: 0.2s ease-in-out; }
 
 .clothing-campaign .over_text .item:not(.item_title) .sub_print p > span { display: block; margin-top: 5px; font-size: inherit; font-weight: inherit; color: inherit; letter-spacing: 1px; }
 
@@ -139,7 +139,7 @@
 
 .clothing-campaign .over_text .item_title > .btn_play { display: none; }
 
-.clothing-campaign .over_text .sub_print { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%; padding-left: 20%; padding-right: 20%; text-align: center; }
+.clothing-campaign .over_text .sub_print { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; padding-left: 20%; padding-right: 20%; text-align: center; }
 
 .clothing-campaign .over_text .btn_play { display: none; margin-top: 10px; font-size: 14px; color: #FBD431; letter-spacing: 5px; }
 
@@ -147,7 +147,7 @@
 
 .clothing-campaign .clothing_story { height: 550px; margin: 120px auto 150px; overflow: hidden; }
 
-.clothing-campaign .clothing_story .desc { position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 55.6%; padding-left: 5%; padding-right: 15%; }
+.clothing-campaign .clothing_story .desc { position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 55.6%; padding-left: 5%; padding-right: 15%; }
 
 .clothing-campaign .clothing_story .desc .tit { font-size: 36px; font-weight: 700; line-height: 1.25; }
 
@@ -173,21 +173,21 @@
 
 .clothing-campaign .clothing_story .slick-prev i { position: relative; display: inline-block; width: 15px; height: 30px; overflow: hidden; }
 
-.clothing-campaign .clothing_story .slick-prev i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 17px; height: 17px; transform: translate(-50%, -50%) rotate(45deg); margin-left: 6px; border-left: 2px solid #999999; border-bottom: 2px solid #999999; }
+.clothing-campaign .clothing_story .slick-prev i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 17px; height: 17px; -webkit-transform: translate(-50%, -50%) rotate(45deg); transform: translate(-50%, -50%) rotate(45deg); margin-left: 6px; border-left: 2px solid #999999; border-bottom: 2px solid #999999; }
 
 .clothing-campaign .clothing_story .slick-next { position: absolute; right: 20px; top: 50%; width: 30px; height: 30px; border: 0; font-size: 0; z-index: 10; }
 
 .clothing-campaign .clothing_story .slick-next i { position: relative; display: inline-block; width: 15px; height: 30px; overflow: hidden; }
 
-.clothing-campaign .clothing_story .slick-next i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 17px; height: 17px; transform: translate(-50%, -50%) rotate(45deg); margin-left: -6px; border-top: 2px solid #fff; border-right: 2px solid #fff; }
+.clothing-campaign .clothing_story .slick-next i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 17px; height: 17px; -webkit-transform: translate(-50%, -50%) rotate(45deg); transform: translate(-50%, -50%) rotate(45deg); margin-left: -6px; border-top: 2px solid #fff; border-right: 2px solid #fff; }
 
 .clothing-campaign .clothing_story .box_slide-wrap { position: relative; max-width: 570px; margin-left: 35px; overflow: hidden; }
 
-.clothing-campaign .clothing_story .box_slide-item { position: relative; display: inline-block; vertical-align: top; box-sizing: border-box; text-align: center; max-width: 260px; margin-left: 15px; margin-right: 15px; }
+.clothing-campaign .clothing_story .box_slide-item { position: relative; display: inline-block; vertical-align: top; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; max-width: 260px; margin-left: 15px; margin-right: 15px; }
 
 .clothing-campaign .clothing_story .box_slide-item .box_slide-image { position: relative; padding-bottom: 142.31%; overflow: hidden; }
 
-.clothing-campaign .clothing_story .box_slide-item .box_slide-image img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
+.clothing-campaign .clothing_story .box_slide-item .box_slide-image img { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; }
 
 .clothing-campaign .clothing_howto { width: 100%; padding: 120px 0 0; background-color: #FAF4F1; background-image: url(../images/goods_bgcut-1.png); background-size: 28.5%; background-repeat: no-repeat; background-position: left -2% top 45%; }
 
@@ -229,7 +229,7 @@
 
 .clothing-campaign .clothing_howto .howto .btn_terms i { position: relative; display: inline-block; width: 6px; height: 14px; overflow: hidden; margin-left: 8px; margin-top: -2px; vertical-align: middle; }
 
-.clothing-campaign .clothing_howto .howto .btn_terms i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 7px; height: 7px; transform: translate(-50%, -50%) scale(0.857143, 1) rotate(45deg); margin-left: -2px; border-top: 1px solid #999999; border-right: 1px solid #999999; }
+.clothing-campaign .clothing_howto .howto .btn_terms i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 7px; height: 7px; -webkit-transform: translate(-50%, -50%) scale(0.857143, 1) rotate(45deg); transform: translate(-50%, -50%) scale(0.857143, 1) rotate(45deg); margin-left: -2px; border-top: 1px solid #999999; border-right: 1px solid #999999; }
 
 .clothing-campaign .clothing_howto .howto .figure { float: right; width: 60%; }
 
@@ -257,7 +257,7 @@
 
 .clothing-campaign .clothing_sustain .box_content-tab .box_view-detail .box_view-item { height: 100%; }
 
-.clothing-campaign .clothing_sustain .box_content-tab .box_view-detail .figure { position: absolute; top: 50%; left: 130px; transform: translateY(-50%); width: calc(100% - 130px); }
+.clothing-campaign .clothing_sustain .box_content-tab .box_view-detail .figure { position: absolute; top: 50%; left: 130px; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: calc(100% - 130px); }
 
 .clothing-campaign .clothing_sustain .box_content-tab .box_view-detail .figure img { max-width: 100%; }
 
@@ -281,7 +281,7 @@
 
 .clothing-campaign .clothing_quiz .howto_enter .desc:before { content: ''; position: absolute; left: 0; bottom: 5px; display: inline-block; width: 1px; height: calc(100% - 55px); background-color: rgba(112, 112, 112, 0.2); }
 
-.clothing-campaign .clothing_quiz .quiz_wrap { position: relative; width: 100%; margin: 0 auto; padding: 40px 10% 60px; background-color: #fff; text-align: center; box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2); margin-bottom: 50px; }
+.clothing-campaign .clothing_quiz .quiz_wrap { position: relative; width: 100%; margin: 0 auto; padding: 40px 10% 60px; background-color: #fff; text-align: center; -webkit-box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2); box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2); margin-bottom: 50px; }
 
 .clothing-campaign .clothing_quiz .quiz_wrap .btn_refresh { position: absolute; top: 12px; right: 16px; border: 0; outline: 0; width: 30px; height: 30px; background-color: transparent; background-image: url(../images/ico_refresh.png); background-size: cover; background-repeat: no-repeat; background-position: center center; }
 
@@ -291,15 +291,15 @@
 
 .clothing-campaign .clothing_quiz .q_title { margin-top: 10px; font-size: 34px; font-weight: 700; line-height: 1; }
 
-.clothing-campaign .clothing_quiz .q_items { display: flex; margin-top: 60px; }
+.clothing-campaign .clothing_quiz .q_items { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 60px; }
 
-.clothing-campaign .clothing_quiz .q_items .item { flex: 1; padding-top: 55px; margin-right: 20px; background-color: #F4F4F5; cursor: pointer; }
+.clothing-campaign .clothing_quiz .q_items .item { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; padding-top: 55px; margin-right: 20px; background-color: #F4F4F5; cursor: pointer; }
 
 .clothing-campaign .clothing_quiz .q_items .item:last-child { margin-right: 0; }
 
 .clothing-campaign .clothing_quiz .q_items .figure { position: relative; width: 240px; margin-bottom: 25px; padding-bottom: 100%; overflow: hidden; cursor: pointer; }
 
-.clothing-campaign .clothing_quiz .q_items .figure img { position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%); -o-object-fit: cover; object-fit: cover; transition: all 0.4s ease-in-out; }
+.clothing-campaign .clothing_quiz .q_items .figure img { position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -o-object-fit: cover; object-fit: cover; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
 
 .clothing-campaign .clothing_quiz .q_items .txt { margin-bottom: 30px; }
 
@@ -311,7 +311,7 @@
 
 .clothing-campaign .clothing_quiz .btn_terms i { position: relative; display: inline-block; width: 6px; height: 14px; overflow: hidden; margin-left: 8px; margin-top: -2px; vertical-align: middle; }
 
-.clothing-campaign .clothing_quiz .btn_terms i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 7px; height: 7px; transform: translate(-50%, -50%) scale(0.857143, 1) rotate(45deg); margin-left: -2px; border-top: 1px solid #999999; border-right: 1px solid #999999; }
+.clothing-campaign .clothing_quiz .btn_terms i:before { content: ''; position: absolute; top: 50%; left: 50%; width: 7px; height: 7px; -webkit-transform: translate(-50%, -50%) scale(0.857143, 1) rotate(45deg); transform: translate(-50%, -50%) scale(0.857143, 1) rotate(45deg); margin-left: -2px; border-top: 1px solid #999999; border-right: 1px solid #999999; }
 
 .clothing-campaign .clothing_product { padding-top: 120px; padding-bottom: 120px; }
 
@@ -382,9 +382,9 @@
 
 .clothing-campaign .clothing_project .row-stit { max-width: 80%; margin-left: auto; margin-right: auto; }
 
-.clothing-campaign .clothing_project .proj_step { display: flex; max-width: 640px; margin: 60px auto 0; }
+.clothing-campaign .clothing_project .proj_step { display: -webkit-box; display: -ms-flexbox; display: flex; max-width: 640px; margin: 60px auto 0; }
 
-.clothing-campaign .clothing_project .proj_step ._step { position: relative; flex: 1; }
+.clothing-campaign .clothing_project .proj_step ._step { position: relative; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
 
 .clothing-campaign .clothing_project .proj_step ._step:after { content: ''; position: absolute; right: -15%; top: 30%; display: block; width: 46px; height: 20px; background-image: url(../images/project_arrow.png); background-repeat: no-repeat; background-position: 0 0; background-size: auto 19px; }
 
@@ -410,74 +410,79 @@
 
 .clothing-campaign .clothing_project .proj_step .btn_more i { display: inline-block; width: 14px; height: 14px; background-image: url(../images/ico_morevw-bk.png); background-size: 14px; background-repeat: no-repeat; background-position: 0 0; margin-left: 3px; margin-top: -4px; vertical-align: middle; }
 
-.popup.QzResult .layer_inner { padding: 5px 0; text-align: center; }
+.popup.QzTips .layer_inner { padding: 5px 0; text-align: center; }
 
-.popup.QzResult .layer_cont { padding: 50px 85px 30px; border-bottom: 1px dotted #707070; }
+.popup.QzTips .layer_cont { padding: 50px 85px 30px; border-bottom: 1px dotted #707070; }
 
-.popup.QzResult h4 { font-size: 30px; font-weight: 700; margin-bottom: 45px; }
+.popup.QzTips h4 { font-size: 30px; font-weight: 700; margin-bottom: 45px; }
 
-.popup.QzResult .q_result { display: flex; justify-content: space-between; }
+.popup.QzTips .q_tips { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.popup.QzResult .q_result > div .figure { max-width: 420px; margin-bottom: 27px; }
+.popup.QzTips .q_tips > div .figure { max-width: 420px; margin-bottom: 27px; }
 
-.popup.QzResult .q_result > div .figure img { max-width: 100%; }
+.popup.QzTips .q_tips > div .figure img { max-width: 100%; }
 
-.popup.QzResult .q_result > div .txt { font-size: 18px; margin-bottom: 0; }
+.popup.QzTips .q_tips > div .txt { font-size: 18px; margin-bottom: 0; }
 
-.popup.QzResult .q_result > div .txt em { font-style: normal; font-weight: 900; }
+.popup.QzTips .q_tips > div .txt em { font-style: normal; font-weight: 900; }
 
-.popup.QzResult .q_result > div:nth-of-type(1) { width: 100%; max-width: 420px; }
+.popup.QzTips .q_tips > div:nth-of-type(1) { width: 100%; max-width: 420px; }
 
-.popup.QzResult .q_result > div:nth-of-type(2) { max-width: 340px; }
+.popup.QzTips .q_tips > div:nth-of-type(2) { max-width: 340px; }
 
-.popup.QzResult .q_result > div:nth-of-type(2) .btn_area { margin-top: 10px; }
+.popup.QzTips .q_tips > div:nth-of-type(2) .btn_area { margin-top: 10px; }
 
-.popup.QzResult .btn_area { margin-top: 30px; }
+.popup.QzTips .btn_area { margin-top: 30px; }
 
-.popup.QzResult .btn_area ._btn { display: inline-block; min-width: 180px; height: 60px; font-size: 20px; font-weight: 900; line-height: 60px; }
+.popup.QzTips .btn_area ._btn { display: inline-block; min-width: 180px; height: 60px; font-size: 20px; font-weight: 900; line-height: 60px; }
 
-.popup.QzResult .btn_area ._btn + ._btn { margin-left: 10px; }
+.popup.QzTips .btn_area ._btn + ._btn { margin-left: 10px; }
 
-.popup.QzResult .btn_area .btn_red, .popup.QzResult .btn_area .btn_gray { padding: 0; border-radius: 5px; color: #fff; text-transform: uppercase; }
+.popup.QzTips .btn_area .btn_red, .popup.QzTips .btn_area .btn_gray { padding: 0; border-radius: 5px; color: #fff; text-transform: uppercase; }
 
-.popup.QzResult .btn_area .btn_red { background-color: #B50031; }
+.popup.QzTips .btn_area .btn_red { background-color: #B50031; }
 
-.popup.QzResult .btn_area .btn_gray { background-color: #3E3E3E; }
+.popup.QzTips .btn_area .btn_gray { background-color: #3E3E3E; }
 
-.popup.QzResult .btn_area .btn_more { display: inline-block; padding-right: 20px; font-size: 15px; font-weight: 700; color: #B50031; background-image: url(../images/ico_morevw.png); background-size: 14px; background-repeat: no-repeat; background-position: right center; }
+.popup.QzTips .btn_area .btn_more { display: inline-block; padding-right: 20px; font-size: 15px; font-weight: 700; color: #B50031; background-image: url(../images/ico_morevw.png); background-size: 14px; background-repeat: no-repeat; background-position: right center; }
 
-.popup.QzResult .btn_area .btn_more + .btn_more { margin-left: 30px; }
+.popup.QzTips .btn_area .btn_more + .btn_more { margin-left: 30px; }
 
-.popup.QzResult .promo_area { position: relative; width: 100%; padding: 30px 100px 50px; display: flex; justify-content: flex-end; }
+.popup.QzTips .promo_area { position: relative; width: 100%; padding: 30px 100px 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.popup.QzResult .frm_field { width: 100%; display: flex; justify-content: flex-end; }
+.popup.QzTips .frm_field { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.popup.QzResult .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }
+.popup.QzTips .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }
 
-.popup.QzResult .frm_field .frm + .frm { margin-left: 10px; }
+.popup.QzTips .frm_field .frm + .frm { margin-left: 10px; }
 
-.popup.QzResult .frm_field dd { width: 100%; margin-bottom: 0; }
+.popup.QzTips .frm_field dd { width: 100%; margin-bottom: 0; }
 
-.popup.QzResult .frm_field dt { height: 0; }
+.popup.QzTips .frm_field dt { height: 0; }
 
-.popup.QzResult .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background: #F5F5F5; font-size: 18px; }
+.popup.QzTips .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background: #F5F5F5; font-size: 18px; }
 
-.popup.QzResult .frm_field input ::-moz-placeholder { color: #999; }
+.popup.QzTips .frm_field input ::-webkit-input-placeholder { color: #999; }
 
-.popup.QzResult .frm_field input :-ms-input-placeholder { color: #999; }
+.popup.QzTips .frm_field input ::-moz-placeholder { color: #999; }
 
-.popup.QzResult .frm_field input ::placeholder { color: #999; }
+.popup.QzTips .frm_field input :-ms-input-placeholder { color: #999; }
 
-.popup.QzResult .slogan { position: absolute; left: 100px; top: 40px; font-style: 18px; font-weight: 7600; vertical-align: middle; }
+.popup.QzTips .frm_field input ::-ms-input-placeholder { color: #999; }
+
+.popup.QzTips .frm_field input ::placeholder { color: #999; }
+
+.popup.QzTips .slogan { position: absolute; left: 100px; top: 40px; font-size: 18px; font-weight: 600; vertical-align: middle; }
 
 @media screen and (max-width: 991px) {
   .clothing-campaign .box_row-campaign:after, .clothing-campaign .over_text:after, .clothing-campaign .clothing_howto .howto:after, .clothing-campaign .clothing_quiz .howto_enter:after, .clothing-campaign .clothing_quiz .q_items:after, .clothing-campaign .clothing_product .box_content-tab .box_tab-view .box_view-detail:after, .clothing-campaign .clothing_product .box_content-tab .box_tab-view .desc:after { content: ""; display: block; clear: both; }
   .a11y-mobile { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
   /* 20210727 ui s */
-  .layer_wrap { min-width: 290px; width: calc(100% - 50px); }
-  .layer_close { min-width: 290px; width: calc(100% - 50px); right: 20px; transform: translate(50%, 50%); }
-  .layer_close .close_btn { top: -40px; left: 50%; width: 40px; height: 40px; background-size: 40px; }
+  .layer_wrap { max-width: 340px; width: calc(100% - 50px); }
+  .layer_close { max-width: 340px; width: calc(100% - 50px); right: 20px; -webkit-transform: translate(50%, 50%); transform: translate(50%, 50%); }
+  .layer_close .close_btn { top: -40px; left: 48%; width: 40px; height: 40px; background-size: 40px; border: 0; border-radius: 50%; text-indent: -9999px; }
   .layer_inner { max-height: 75vh; }
+  .layer_cont { padding: 25px 25px 30px 25px; }
   /* 20210727 ui e */
   .clothing-campaign ._pc { display: none; }
   .clothing-campaign ._mo { display: block; }
@@ -492,7 +497,7 @@
   .clothing-campaign .box_main-title .text_title { font-size: 26px; white-space: nowrap; }
   .clothing-campaign .box_main-title .text_sub { margin-top: 20px; font-size: 15px; }
   .clothing-campaign .clothing_keyvisual { padding-top: 133.335%; }
-  .clothing-campaign .vodbg video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; opacity: 1; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; }
+  .clothing-campaign .vodbg video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; opacity: 1; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; }
   .clothing-campaign .vodbg .active { display: block; }
   .clothing-campaign .over_text { top: inherit; bottom: 0; width: 100%; height: initial; overflow: hidden; }
   .clothing-campaign .over_text:before { content: ''; position: absolute; right: 25px; top: 5px; display: block; width: 90px; height: 100px; background-image: url(../images/mvisual_elimg01.png); background-position: right center; background-repeat: no-repeat; background-size: 83px; z-index: 1; }
@@ -502,18 +507,18 @@
   .clothing-campaign .over_text .item:not(.item_title) .sub_print p { font-size: 14px; color: #fff; letter-spacing: 1px; text-align: left; }
   .clothing-campaign .over_text .item:not(.item_title) .sub_print p > span { display: block; margin-top: 0px; font-size: 22px; font-weight: inherit; letter-spacing: 2px; color: #fff; opacity: 1; }
   .clothing-campaign .over_text .item:not(.item_title) .sub_print > .btn_play { margin-top: 13px; display: block; text-align: left; font-size: 10px; line-height: 15px; font-weight: 700; }
-  .clothing-campaign .over_text .item:not(.item_title) .sub_print > .btn_play i { transform: translateY(1px); margin-left: 10px; border-left-width: 8px; border-right-width: 8px; border-top-width: 4px; border-bottom-width: 4px; }
+  .clothing-campaign .over_text .item:not(.item_title) .sub_print > .btn_play i { -webkit-transform: translateY(1px); transform: translateY(1px); margin-left: 10px; border-left-width: 8px; border-right-width: 8px; border-top-width: 4px; border-bottom-width: 4px; }
   .clothing-campaign .over_text .btn_play { display: block; }
-  .clothing-campaign .over_text .sub_print { position: static; transform: none; width: 100%; padding-left: 0; padding-right: 0; text-align: center; }
+  .clothing-campaign .over_text .sub_print { position: static; -webkit-transform: none; transform: none; width: 100%; padding-left: 0; padding-right: 0; text-align: center; }
   .clothing-campaign .clothing_story { height: auto; margin: 35px auto 0; }
-  .clothing-campaign .clothing_story .desc { position: static; width: 100%; padding: 0 20px; transform: none; text-align: center; }
+  .clothing-campaign .clothing_story .desc { position: static; width: 100%; padding: 0 20px; -webkit-transform: none; transform: none; text-align: center; }
   .clothing-campaign .clothing_story .desc .tit { font-size: 20px; }
   .clothing-campaign .clothing_story .desc .txt { margin-top: 17px; font-size: 15px; }
   .clothing-campaign .clothing_story .desc .btn_watch { display: none; }
   .clothing-campaign .clothing_story .visual { position: relative; float: none; width: 100%; background-position: center center; }
   .clothing-campaign .clothing_story .visual:before { content: ''; display: block; position: absolute; top: -120px; right: -25px; width: 150px; height: 150px; background-image: url(../images/story_cut.png); background-size: 150px; background-repeat: no-repeat; background-position: right top; }
-  .clothing-campaign .clothing_story .story_slide { margin-top: 100px; margin-left: 0; transform: translateY(-55px); padding-bottom: 80px; }
-  .clothing-campaign .clothing_story .story_slide .explan { max-width: 100%; left: 50%; right: unset; transform: translateX(-50%); bottom: 0; }
+  .clothing-campaign .clothing_story .story_slide { margin-top: 100px; margin-left: 0; -webkit-transform: translateY(-55px); transform: translateY(-55px); padding-bottom: 80px; }
+  .clothing-campaign .clothing_story .story_slide .explan { max-width: 100%; left: 50%; right: unset; -webkit-transform: translateX(-50%); transform: translateX(-50%); bottom: 0; }
   .clothing-campaign .clothing_story .story_slide .explan i { width: 52px; height: 26.5px; }
   .clothing-campaign .clothing_story .story_slide .explan p { padding-top: 12px; font-size: 22px; white-space: nowrap; }
   .clothing-campaign .clothing_story .story_slide .story_cut { bottom: -55px; left: 7px; }
@@ -524,7 +529,7 @@
   .clothing-campaign .clothing_howto { padding: 60px 0 50px; background-color: #FAF4F1; overflow: hidden; background-image: url(../images/goods_bgcut-2.png); background-size: 42.5%; background-position: right -30px top 20%; }
   .clothing-campaign .clothing_howto .row-tit { font-size: 26px; padding: 0 20px; }
   .clothing-campaign .clothing_howto .row-stit { margin-top: 20px; font-size: 15px; padding: 0 20px; }
-  .clothing-campaign .clothing_howto .howto { margin: 25px 20px 20px; width: calc(100% - 40px); padding-bottom: 55px; box-shadow: 16px 20px 40px 10px rgba(142, 99, 39, 0.15); }
+  .clothing-campaign .clothing_howto .howto { margin: 25px 20px 20px; width: calc(100% - 40px); padding-bottom: 55px; -webkit-box-shadow: 16px 20px 40px 10px rgba(142, 99, 39, 0.15); box-shadow: 16px 20px 40px 10px rgba(142, 99, 39, 0.15); }
   .clothing-campaign .clothing_howto .howto .desc { float: none; width: 100%; padding: 30px 25px 0 25px; text-align: center; }
   .clothing-campaign .clothing_howto .howto .desc p { margin-bottom: 15px; font-size: 18px; }
   .clothing-campaign .clothing_howto .howto .dot_line { display: none; }
@@ -546,26 +551,26 @@
   .clothing-campaign .clothing_howto .howto .sns_link .btn_yt i { background-image: url(../images/ico_youtube-b.png); }
   .clothing-campaign .clothing_howto .howto .sns_link .btn_fb i { background-image: url(../images/ico_facebook-b.png); }
   .clothing-campaign .clothing_howto .howto .sns_link .btn_ins i { background-image: url(../images/ico_instagram-b.png); }
-  .clothing-campaign .clothing_howto .howto .btn_terms { bottom: unset; top: 50%; transform: translateY(-50%); font-size: 13px; }
+  .clothing-campaign .clothing_howto .howto .btn_terms { bottom: unset; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); font-size: 13px; }
   .clothing-campaign .clothing_howto .howto .figure { display: block; float: none; width: 100%; position: relative; text-align: center; }
   .clothing-campaign .clothing_howto .howto .figure img { max-width: 100%; }
   .clothing-campaign .clothing_howto .howto .figure > .btn_more { display: inline-block; padding-right: 16px; background-image: url(../images/ico_morevw.png); background-size: 12px; background-repeat: no-repeat; background-position: right center; font-size: 13px; font-weight: 700; color: #B50031; }
   .clothing-campaign .clothing_sustain { margin-top: 55px; margin-bottom: 60px; }
   .clothing-campaign .clothing_sustain .row-tit { max-width: 280px; width: 100%; margin: 0 auto; }
   .clothing-campaign .clothing_sustain .box_content-tab { margin-top: 15px; padding: 0 0; }
-  .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .list-item { flex: 1; width: auto; background-size: 45px; background-position: top center; }
+  .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .list-item { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; width: auto; background-size: 45px; background-position: top center; }
   .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .link { text-align: center; padding: 45px 0 0 0; font-size: 15px; text-decoration: none; }
   .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav { margin-bottom: 25px; padding: 0 20px; }
   .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .link.active, .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .link:hover { font-weight: 700; }
   .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .link.active:before, .clothing-campaign .clothing_sustain .box_content-tab .list_tab-nav .link:hover:before { background-size: 100%; background-position: center bottom; }
   .clothing-campaign .clothing_sustain .box_content-tab .box_tab-view { height: auto; background-size: 100%; }
-  .clothing-campaign .clothing_sustain .box_content-tab .box_view-detail .figure { position: relative; top: 0; left: 0; transform: translateY(0); width: calc(100% - 40px); margin: 40px auto 0; }
+  .clothing-campaign .clothing_sustain .box_content-tab .box_view-detail .figure { position: relative; top: 0; left: 0; -webkit-transform: translateY(0); transform: translateY(0); width: calc(100% - 40px); margin: 40px auto 0; }
   .clothing-campaign .clothing_quiz { padding: 55px 0 65px; background-image: url(../images/quiz_bgcut-2.png); background-position: left 25% bottom 25%; background-size: 180%; background-color: #EBFAC0; }
   .clothing-campaign .clothing_quiz .row-tit { max-width: 280px; width: 100%; margin: 0 auto; line-height: 28px; }
   .clothing-campaign .clothing_quiz .howto_enter { margin: 40px 0 25px; padding: 0 25px; text-align: center; }
   .clothing-campaign .clothing_quiz .howto_enter h3 { margin-bottom: 13px; font-size: 18px; }
   .clothing-campaign .clothing_quiz .howto_enter ul { float: none; max-width: 100%; width: 100%; }
-  .clothing-campaign .clothing_quiz .howto_enter ul > li { margin-top: 11px; padding-left: 0; font-size: 15px; }
+  .clothing-campaign .clothing_quiz .howto_enter ul > li { margin-top: 5px; padding-left: 0; font-size: 15px; }
   .clothing-campaign .clothing_quiz .howto_enter ul > li:first-child { margin-top: 0; }
   .clothing-campaign .clothing_quiz .howto_enter ul > li:before { content: none; }
   .clothing-campaign .clothing_quiz .howto_enter ul > li > span, .clothing-campaign .clothing_quiz .howto_enter ul > li strong { position: relative; }
@@ -573,17 +578,18 @@
   .clothing-campaign .clothing_quiz .howto_enter .hashtag_group { display: block; }
   .clothing-campaign .clothing_quiz .howto_enter .hashtags:before { content: none; }
   .clothing-campaign .clothing_quiz .howto_enter .desc { display: none; }
-  .clothing-campaign .clothing_quiz .quiz_wrap { width: calc(100% - 40px); margin: 0 auto; padding: 30px 20px; margin-bottom: 50px; }
-  .clothing-campaign .clothing_quiz .q_title { font-size: 20px; }
+  .clothing-campaign .clothing_quiz .quiz_wrap { width: calc(100% - 40px); margin: 0 auto; }
+  .clothing-campaign .clothing_quiz .quiz_wrap .btn_refresh { width: 29px; height: 29px; }
+  .clothing-campaign .clothing_quiz .q_title { font-size: 20px; line-height: 1.2; }
   .clothing-campaign .clothing_quiz .q_items { display: block; margin-top: 20px; }
-  .clothing-campaign .clothing_quiz .q_items .item { position: relative; flex: none; margin-right: 0; padding: 10px 0; margin-top: 10px; }
+  .clothing-campaign .clothing_quiz .q_items .item { position: relative; -webkit-box-flex: 0; -ms-flex: none; flex: none; margin-right: 0; padding: 5px 0; margin-top: 10px; }
   .clothing-campaign .clothing_quiz .q_items .item:first-child { margin-top: 0; }
   .clothing-campaign .clothing_quiz .q_items ._sel { display: block; width: 100%; }
   .clothing-campaign .clothing_quiz .q_items .figure { display: block; width: 35%; padding-top: 5px; padding-bottom: 25%; margin-bottom: 0; }
-  .clothing-campaign .clothing_quiz .q_items .figure img { max-width: 90px; height: auto; }
-  .clothing-campaign .clothing_quiz .q_items .txt { position: absolute; left: 40%; top: 50%; transform: translateY(-50%); width: 90%; margin-bottom: 0; text-align: left; font-size: 15px; }
-  .clothing-campaign .clothing_quiz .btn_area { display: flex; }
-  .clothing-campaign .clothing_quiz .btn_area ._btn { flex: 1; height: 50px; padding-left: 0; padding-right: 0; border-radius: 5px; font-size: 15px; line-height: 50px; text-transform: initial; }
+  .clothing-campaign .clothing_quiz .q_items .figure img { min-width: 65px; max-width: 65px; height: auto; }
+  .clothing-campaign .clothing_quiz .q_items .txt { position: absolute; left: 40%; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 50%; margin-bottom: 0; text-align: left; font-size: 15px; }
+  .clothing-campaign .clothing_quiz .btn_area { display: -webkit-box; display: -ms-flexbox; display: flex; }
+  .clothing-campaign .clothing_quiz .btn_area ._btn { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; height: 50px; padding-left: 0; padding-right: 0; border-radius: 5px; font-size: 15px; line-height: 50px; text-transform: initial; }
   .clothing-campaign .clothing_quiz .btn_terms { bottom: -35px; }
   .clothing-campaign .clothing_product { padding: 55px 0 50px; }
   .clothing-campaign .clothing_product .row-stit { max-width: 100%; }
@@ -592,7 +598,7 @@
   .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .link.active, .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .link:hover { font-weight: 700; }
   .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .link.active:before, .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .link:hover:before { background-image: url(../images/prodtab_over.png); background-size: 70%; background-position: center bottom; }
   .clothing-campaign .clothing_product .box_content-tab .list_tab-nav { padding: 0 20px; }
-  .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .list-item { flex: 1; width: auto; background-size: 55px; background-position: top center; }
+  .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .list-item { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; width: auto; background-size: 55px; background-position: top center; }
   .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .list-item.item03 { background-size: 30px; }
   .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .list-item.item03 .link { padding-left: 0; }
   .clothing-campaign .clothing_product .box_content-tab .list_tab-nav .link { text-align: center; padding: 75px 0 5px 0; font-size: 15px; text-decoration: none; }
@@ -639,16 +645,19 @@
   .clothing-campaign .clothing_project .proj_step .step03 .st-logo img { max-width: 68px; }
   .clothing-campaign .clothing_project .proj_step .btn_more { display: inline-block; max-width: 70px; width: 100%; margin-right: 0; font-size: 15px; }
   .clothing-campaign .clothing_project .proj_step .btn_more i { width: 12px; height: 12px; background-size: 12px; margin-left: 4px; }
-  .popup.QzResult .layer_inner { padding: 5px 0; text-align: center; }
-  .popup.QzResult .layer_cont { padding: 25px; border-bottom: 1px dotted #707070; }
-  .popup.QzResult .q_result { flex: none; display: block; }
-  .popup.QzResult .q_result > div { flex: none; display: block; }
-  .popup.QzResult .q_result > div .figure { margin-bottom: 20px; }
-  .popup.QzResult .q_result > div .txt { font-size: 14px; }
-  .popup.QzResult .q_result > div:nth-of-type(1), .popup.QzResult .q_result > div:nth-of-type(2) { max-width: 100%; }
-  .popup.QzResult .q_result > div:nth-of-type(2) { margin-top: 20px; }
-  .popup.QzResult .btn_area ._btn { width: calc(50% - 10px); min-width: 10px; height: 50px; line-height: 50px; }
-  .popup.QzResult .btn_area .btn_more { display: inline-block; padding-right: 20px; font-size: 15px; font-weight: 700; color: #B50031; background-image: url(../images/ico_morevw.png); background-size: 14px; background-repeat: no-repeat; background-position: right center; }
-  .popup.QzResult .btn_area .btn_more + .btn_more { margin-left: 5px; }
-  .popup.QzResult .promo_area { padding: 0; }
-  .popup.QzResult .slogan { position: static; display: block; } }
+  .popup.QzTips .layer_cont { padding: 25px 25px 15px; }
+  .popup.QzTips h4 { max-width: 70%; font-size: 20px; margin: 0 auto 25px; }
+  .popup.QzTips .q_tips { display: block; }
+  .popup.QzTips .q_tips > div { max-width: 100% !important; margin-top: 30px; }
+  .popup.QzTips .q_tips > div:first-child { margin-top: 0; }
+  .popup.QzTips .q_tips > div .figure { margin-bottom: 15px; }
+  .popup.QzTips .q_tips > div .txt { font-size: 14px; }
+  .popup.QzTips .btn_area { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; }
+  .popup.QzTips .btn_area .btn_more { font-size: 12px; }
+  .popup.QzTips .btn_area .btn_more + .btn_more { margin-left: 10px; }
+  .popup.QzTips .btn_area ._btn { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; min-width: 10px; height: 45px; font-size: 15px; line-height: 3; }
+  .popup.QzTips .promo_area { display: block; padding: 25px 20px; }
+  .popup.QzTips .slogan { position: relative; left: 0; top: 0; font-size: 14px; width: 100%; }
+  .popup.QzTips .frm_field { display: block; }
+  .popup.QzTips .frm_field input { font-size: 12px; }
+  .popup.QzTips .frm_field .frm + .frm { margin-left: 0; margin-top: 10px; } }
