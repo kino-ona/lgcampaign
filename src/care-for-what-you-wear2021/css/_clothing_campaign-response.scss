@@ -12,6 +12,37 @@
 	border: 0;
 }
 
+/* 20210727 ui s */
+.layer_wrap {
+	max-width: 340px;
+	width: calc(100% - 50px);
+}
+.layer_close {
+	max-width: 340px;
+	width: calc(100% - 50px);
+	right: 20px;
+	transform: translate(50%, 50%);	
+	.close_btn {
+		top: -20px;
+		left: 50%;
+		width: 40px;
+		height: 40px;
+		background: {
+			size: 40px;
+		}
+		border: 0;
+		border-radius: 50%;
+		text-indent: -9999px;
+	}
+}
+.layer_inner {
+  max-height: 75vh;
+}
+.layer_cont {
+	padding: 25px 25px 30px 25px;
+}
+/* 20210727 ui e */
+
 .clothing-campaign {
 	._pc {
 		display: none;
@@ -471,15 +502,19 @@
 	.clothing_quiz {		
 		padding: 55px 0 65px;
 		background: {
-			position: left 20% center;
+			image: url(../images/quiz_bgcut-2.png);
+			position: left 25% bottom 25%;
+			size: 180%;
+			color: #EBFAC0;
 		}
 		.row-tit {
 			max-width: 280px;
 			width: 100%;
 			margin: 0 auto;
+			line-height: 28px;
 		}
 		.howto_enter {
-			margin: 30px 0 25px;
+			margin: 40px 0 25px;
 			padding: 0 25px;
 			text-align: center;
 			h3 {
@@ -532,6 +567,7 @@
 			width:calc(100% - 40px);
 			margin:0 auto;
 			padding:30px 20px;
+			margin-bottom: 50px; //임시
 		}
 		.q_title {
 			font-size:20px;
@@ -560,7 +596,7 @@
 				padding-bottom:25%;
 				margin-bottom:0;
 				img {
-					max-width:65px;
+					max-width: 90px;
 					height:auto;
 				}
 			}
@@ -569,21 +605,27 @@
 				left:40%;
 				top:50%;
 				@include transform(translateY(-50%));	
-				width:65%;
+				width: 90%;
 				margin-bottom:0;
 				text-align:left;
+				font-size: 15px;
 			}
 		}
 		.btn_area {
 			display: flex;
 			._btn {
-				flex:1;
-				height:50px;
-				padding-left:0;
-				padding-right:0;
-				line-height:3;
-				font-size:15px;
+				flex: 1;
+				height: 50px;
+				padding-left: 0;
+				padding-right: 0;
+				border-radius: 5px;
+				font-size: 15px;
+				line-height: 50px;
+				text-transform: initial;
 			}
+		}
+		.btn_terms {
+			bottom: -35px;
 		}
 	} // .clothing_quiz
 
