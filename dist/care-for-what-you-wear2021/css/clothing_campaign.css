@@ -478,11 +478,10 @@
   .clothing-campaign .box_row-campaign:after, .clothing-campaign .over_text:after, .clothing-campaign .clothing_howto .howto:after, .clothing-campaign .clothing_quiz .howto_enter:after, .clothing-campaign .clothing_quiz .q_items:after, .clothing-campaign .clothing_product .box_content-tab .box_tab-view .box_view-detail:after, .clothing-campaign .clothing_product .box_content-tab .box_tab-view .desc:after { content: ""; display: block; clear: both; }
   .a11y-mobile { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
   /* 20210727 ui s */
-  .layer_wrap { max-width: 340px; width: calc(100% - 50px); }
-  .layer_close { max-width: 340px; width: calc(100% - 50px); right: 20px; -webkit-transform: translate(50%, 50%); transform: translate(50%, 50%); }
-  .layer_close .close_btn { top: -40px; left: 48%; width: 40px; height: 40px; background-size: 40px; border: 0; border-radius: 50%; text-indent: -9999px; }
+  .layer_wrap { min-width: 290px; width: calc(100% - 50px); }
+  .layer_close { min-width: 290px; width: calc(100% - 50px); right: 20px; -webkit-transform: translate(50%, 50%); transform: translate(50%, 50%); }
+  .layer_close .close_btn { top: -40px; left: 48%; width: 40px; height: 40px; background-size: 40px; }
   .layer_inner { max-height: 75vh; }
-  .layer_cont { padding: 25px 25px 30px 25px; }
   /* 20210727 ui e */
   .clothing-campaign ._pc { display: none; }
   .clothing-campaign ._mo { display: block; }
