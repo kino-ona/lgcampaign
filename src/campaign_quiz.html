@@ -24,14 +24,15 @@
 	<meta property="og:image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg" />
 	<link rel="canonical" href="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
 
-	<link href="https://www.lg.com/lg5-common-gp/css/fonts.min.css" type="text/css" rel="stylesheet">
-	<link href="https://www.lg.com/lg5-common-gp/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-	<link href="https://www.lg.com/lg5-common-gp/css/default.min.css" type="text/css" rel="stylesheet">
-	<link href="https://www.lg.com/lg5-common-gp/css/components.min.css" type="text/css" rel="stylesheet">
+	<link href="./lg5-common-gp/css/fonts.min.css" type="text/css" rel="stylesheet">
+	<link href="./lg5-common-gp/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="./lg5-common-gp/css/default.min.css" type="text/css" rel="stylesheet">
+	<link href="./lg5-common-gp/css/components.min.css" type="text/css" rel="stylesheet">
 	<!--[if IE 9]>
 		<link href="https://www.lg.com/lg5-common-gp/css/default-for-ie9.min.css" type="text/css" rel="stylesheet">
 	<![endif]-->
-
+	<!-- <link href="https://www.lg.com/uk/appliances/care-for-what-you-wear/css/index.css" type="text/css" rel="stylesheet"> -->
+	<link href="./appliances/care-for-what-you-wear/css/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
@@ -46,8 +47,8 @@
 				<div class="howto_enter">
 					<h3>How to enter</h3>
 					<ul>
-						<li>Take the test below</li>
-						<li>Share your score on Instagram, Facebook or Twitter by clicking the 'share' button.</li>
+						<li><span>Take the test below</span></li>
+						<li><span>Share your score on Instagram, Facebook or Twitter by clicking the 'share' button.</span></li>
 						<li><strong>Use following hashtags :</strong> <span class="hashtags">#CareForWhatYouWear</span> <span class="hashtags">#CherishedClothesTest</span></li>
 					</ul>
 					<div class="desc">
@@ -86,8 +87,9 @@
 					</div>
 
 					<div class="btn_area">
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 01 -->
 
@@ -124,8 +126,9 @@
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 02 -->
 
@@ -141,29 +144,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa03" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q03_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Once</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa03" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q03_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Twice</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa03" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q03_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Weekly</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 03 -->
 				<br>
@@ -178,29 +182,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa04" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q04_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Shampoo</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa04" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q04_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Hair conditioner</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa04" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q04_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Body wash</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 04 -->
 				<br>
@@ -215,29 +220,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa05" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q05_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Fridge</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa05" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q05_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Freezer</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa05" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q05_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Microwave</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 04 -->
 				<br>
@@ -252,29 +258,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa06" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q06_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Always</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa06" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q06_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Sometimes</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa06" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q06_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Never</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 06 -->
 				<br>
@@ -289,29 +296,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa07" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q07_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Fridge</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa07" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q07_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Freezer</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa07" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q07_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Microwave</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 07 -->
 				<br>
@@ -326,29 +334,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa08" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q08_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Fold</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa08" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q08_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Toss into a pile</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa08" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q08_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Any way you want</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 08 -->
 				<br>
@@ -363,29 +372,30 @@
 							<label class="_sel">
 								<input type="radio" name="qa09" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q09_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">A ball of aluminium foil</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa09" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q09_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">A ball of yarn </p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa09" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q09_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">A tennis ball</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 09 -->
 				<br>
@@ -400,39 +410,84 @@
 							<label class="_sel">
 								<input type="radio" name="qa10" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q10_item01.png" alt=""></p>
-								<p class="txt">Leave it in the water</p>
+								<p class="txt">Fold</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa10" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q10_item02.png" alt=""></p>
-								<p class="txt">Rub</p>
+								<p class="txt">Toss into a pile</p>
 							</label>
 						</div>
 						<div class="item">
 							<label class="_sel">
 								<input type="radio" name="qa10" id="">
 								<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q10_item03.png" alt=""></p>
-								<p class="txt">Press</p>
+								<p class="txt">Any way you want</p>
 							</label>
 						</div>
 					</div>
 
 					<div class="btn_area">
 						<a href="#" class="_btn btn_back">Back</a>
-						<a href="#" class="_btn btn_next">Next</a>
+						<a href="#" class="_btn btn_next" onclick="hlayerOpen('QzResult')">Next</a>
 					</div>
+					<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 				</div>
 				<!--// quiz 10 -->
-
-
 
 			</div>
 		</div>
 		<!--// clothing_quiz -->
 		
 	</div>
+
+	<!-- popup: Quiz Result-->
+	<div class="layer_body popup QzResult" id="QzResult" aria-hidden="true" role="dialog">
+		<div class="layer_wrap">
+			<div class="layer_close">
+				<button onclick="hlayerClose('QzResult')" class="close_btn">close</button>
+			</div>
+			<div class="layer_inner">
+				<div class="layer_cont">
+					<h4>Become a master of clothing care tips!</h4>
+					<div class="q_result">
+						<div>
+							<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q_result01.png"/></p>
+							<p class="txt">if you’re out of dryer sheets, throw <em>a ball of <br>aluminum foil</em> in your dyer. The aluminum will fight static buildup and help keep your clothing separated.</p>
+						</div>
+						<div>
+							<p class="figure"><img src="/care-for-what-you-wear2021/images/quiz/q_option4u-styler.png"/></p>
+							<p class="txt">If out of dryer sheet, try LG Styler! Dry faster than air drying with low temperature heat pump drying system.</p>
+							<div class="btn_area">
+								<a href="#" class="btn_more">FIND OUT MORE</a>
+								<a href="#" class="btn_more">WHERE TO BUY</a>
+							</div>
+						</div>
+					</div>
+					<div class="btn_area">
+						<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzResult')">Try Again</a>
+						<a href="#" class="_btn btn_red" onclick="hlayerClose('QzResult')">Share</a>
+					</div>
+				</div>
+				<div class="promo_area">
+					<p class="slogan">Fancy a 10% off promo code?</p>
+					<div class="frm_field">
+						<dl class="frm">
+							<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
+							<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
+						</dl>
+						<dl class="frm">
+							<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
+							<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// Quiz Result-->
 
 	<script src="./lg5-common-gp/library/jquery.min.js"></script>
 	<script type="text/javascript" src="/care-for-what-you-wear2021/js/clothing_campaign.js"></script>

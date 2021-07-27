@@ -154,3 +154,45 @@ $(document).ready(function(){
 	})
 });
 /* 20210722 responsive e */
+
+
+/* 20210727 layer popup control s */
+var isOpen = false;
+function hlayerOpen(layerId) {
+	var curPos = $(window).scrollTop();
+	// $('html').addClass('noscroll');
+	$('#' + layerId).addClass('is-visible');
+	var $layerID = $('#' + layerId);
+	$layerID.attr({
+		'aria-hidden': 'false',
+		'open': 'true',
+		// 'tabindex': '0'
+	});
+
+	if ($('[role="dialog"]:visible').length <= 1 && isOpen == false) {
+		$('#container').css('top', -curPos);
+		isOpen = true;
+	}
+
+	var delay = setTimeout(function () {
+		if (!$('html').hasClass('noscroll')) {
+			$('html').addClass('noscroll');
+		}
+		clearTimeout(delay);
+	}, 50);
+}
+function hlayerClose(layerId) {
+	var curPos = -(parseInt($('#container').css('top')));
+	$('#' + layerId).removeClass('is-visible');
+	$('#' + layerId).attr('aria-hidden', 'true');
+	// $('#' + layerId).removeAttr('open tabindex');
+	$('html').removeClass('noscroll');
+	if ($('[role="dialog"].is-visible').length < 1) {
+		$('html').removeClass('noscroll').find('#container').css({
+			'top': 0
+		});
+		$(window).scrollTop(curPos);
+		isOpen = false;
+	}
+}
+/* 20210727 layer popup control e */
