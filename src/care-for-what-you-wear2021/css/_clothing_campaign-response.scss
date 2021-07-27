@@ -197,9 +197,25 @@
 			}
 		}
 		.visual {
+			position:relative;
 			float: none;
 			width: 100%;
 			background-position: center center;
+			&:before {
+				content: '';
+				display: block;
+				position:absolute;
+				top:-120px;
+				right:-25px;
+				width:150px;
+				height:150px;
+				background: {
+					image: url(../images/story_cut.png);
+					size:150px;
+					repeat: no-repeat;
+					position:right top;
+				}
+			}
 		}
 		.story_slide {
 			margin-top: 100px;
@@ -439,13 +455,15 @@
 				height:auto;
 				background-size:100%;
 			}
-			.box_view-detail .figure {
-				position:relative;
-				top:0;
-				left:0;
-				transform: translateY(0);
-				width:calc(100% - 40px);
-				margin:40px auto 0;
+			.box_view-detail {
+				.figure {
+					position:relative;
+					top:0;
+					left:0;
+					transform: translateY(0);
+					width:calc(100% - 40px);
+					margin:40px auto 0;
+				}
 			}
 		}
 	} // .clothing_sustain
@@ -723,6 +741,17 @@
 						}
 					}
 				}
+				.box_view-detail {
+					.box_view-item2 {
+						.figure {
+							img {
+								max-height: 330px;
+								// margin-left:0;
+							}
+						}
+					}
+				}
+
 				@media screen and (min-width:768px) and (max-width:992px) {
 					&:before {
 						max-height:380px;
