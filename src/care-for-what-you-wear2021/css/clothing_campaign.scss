@@ -1326,7 +1326,7 @@
 	} // .clothing_project
 }
 .popup {
-	&.QzResult {
+	&.QzTips {
 		.layer_inner {
 			padding: 5px 0;
 			text-align: center;
@@ -1340,7 +1340,7 @@
 			font-weight: 700;
 			margin-bottom: 45px;
 		}
-		.q_result {
+		.q_tips {
 			display: flex;
 			justify-content: space-between;
 			> div {
@@ -1455,8 +1455,8 @@
 			position: absolute;
 			left: 100px;
 			top: 40px;
-			font-style: 18px;
-			font-weight: 7600;
+			font-size: 18px;
+			font-weight: 600;
 			vertical-align: middle;
 		}
 	}
