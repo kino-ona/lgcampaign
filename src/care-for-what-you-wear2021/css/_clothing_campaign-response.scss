@@ -990,12 +990,13 @@
 			display: block;
 			> div {
 				position: static;
+				max-width: 100%;
 				transform: translateY(0);
 				text-align: center;
 				margin: 0 auto;
 				.slogan {
 					width: 100%;
-					background-size:auto 100%;
+					background-size: 100%;
 					background-position: center center;
 				}
 				.txt {
