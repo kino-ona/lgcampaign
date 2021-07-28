@@ -124,14 +124,7 @@ $(document).ready(function(){
 		});
 	}
 });
-// $(window)
-// .on('resize',function(){ //WINDOW RESIZE
-// 	if($(window).width() < 991) {
-// 	}
-// })
-
 /* 20210722 responsive e */
-
 
 /* 20210727 layer popup control s */
 var isOpen = false;

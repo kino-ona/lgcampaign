@@ -983,6 +983,7 @@
 		}
 		.q_tips {
 			max-width: 100%;
+			font-size:16px;
 		}
 		.q_option4u {
 			position: relative;
@@ -994,6 +995,7 @@
 				margin: 0 auto;
 				.slogan {
 					width: 100%;
+					background-size:auto 100%;
 					background-position: center center;
 				}
 				.txt {
@@ -1007,7 +1009,8 @@
 				}
 			}
 			.figure {
-				padding-bottom: 355px;
+				// padding-bottom: 355px;
+				padding-bottom:100%;
 				&.dryer {
 					margin-left: 5.5%;
 				}

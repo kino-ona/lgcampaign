@@ -18,9 +18,9 @@
 
 .layer_body { position: fixed; min-height: 100vh; z-index: 1000; top: 0; left: 0; display: none; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.9); }
 
-.layer_wrap { position: absolute; z-index: 999; top: 50%; left: 50%; max-width: 1020px; width: 100%; background-color: #fff; opacity: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transition: visibility 0.2s 0.1s, opacity 0.2; transition: visibility 0.2s 0.1s, opacity 0.2; }
+.layer_wrap { position: absolute; z-index: 999; top: 50%; left: 50%; max-width: 950px; width: 100%; background-color: #fff; opacity: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transition: visibility 0.2s 0.1s, opacity 0.2; transition: visibility 0.2s 0.1s, opacity 0.2; }
 
-.layer_close { position: absolute; z-index: 1000; max-width: 1020px; width: 100%; top: 20px; right: 0; }
+.layer_close { position: absolute; z-index: 1000; max-width: 950px; width: 100%; top: 20px; right: 0; }
 
 .layer_close .close_btn { position: absolute; top: -45px; right: -20px; width: 40px; height: 40px; background-image: url(../images/btn_close-popup.png); background-size: 40px; background-repeat: no-repeat; background-position: center center; background-color: transparent; border: 0; border-radius: 50%; text-indent: -9999px; }
 
@@ -410,69 +410,73 @@
 
 .clothing-campaign .clothing_project .proj_step .btn_more i { display: inline-block; width: 14px; height: 14px; background-image: url(../images/ico_morevw-bk.png); background-size: 14px; background-repeat: no-repeat; background-position: 0 0; margin-left: 3px; margin-top: -4px; vertical-align: middle; }
 
-.popup.QzTips .layer_inner { padding: 5px 0; text-align: center; }
+.popup.QzTipLayer .layer_inner { padding: 5px 0; text-align: center; }
 
-.popup.QzTips .layer_cont { padding: 50px 85px 30px; border-bottom: 1px dotted #707070; }
+.popup.QzTipLayer .layer_cont { padding: 50px 85px 30px; border-bottom: 1px dotted #707070; }
 
-.popup.QzTips h4 { font-size: 30px; font-weight: 700; margin-bottom: 45px; }
+.popup.QzTipLayer h4 { font-size: 30px; font-weight: 700; margin-bottom: 20px; }
 
-.popup.QzTips .q_tips { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.popup.QzTipLayer .q_tips { max-width: 750px; width: 100%; margin: 0 auto; font-size: 20px; margin-bottom: 25px; }
 
-.popup.QzTips .q_tips > div .figure { max-width: 420px; margin-bottom: 27px; }
+.popup.QzTipLayer .q_option4u { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.popup.QzTips .q_tips > div .figure img { max-width: 100%; }
+.popup.QzTipLayer .q_option4u > div { position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); transform: translateY(-50%); max-width: 380px; width: 100%; -ms-flex-item-align: center; align-self: center; }
 
-.popup.QzTips .q_tips > div .txt { font-size: 18px; margin-bottom: 0; }
+.popup.QzTipLayer .q_option4u > div .slogan { display: block; width: 295px; height: 52px; background-image: url("../images/quiz/q_option4u-slogan.png"); background-size: 295px; background-repeat: no-repeat; background-position: 0 0; }
 
-.popup.QzTips .q_tips > div .txt em { font-style: normal; font-weight: 900; }
+.popup.QzTipLayer .q_option4u > div .txt { max-width: 350px; margin-left: auto; text-align: left; font-size: 18px; margin-bottom: 0; }
 
-.popup.QzTips .q_tips > div:nth-of-type(1) { width: 100%; max-width: 420px; }
+.popup.QzTipLayer .q_option4u > div .txt em { font-style: normal; font-weight: inherit; }
 
-.popup.QzTips .q_tips > div:nth-of-type(2) { max-width: 340px; }
+.popup.QzTipLayer .q_option4u .figure { width: 100%; -ms-flex-negative: 0; flex-shrink: 0; padding-bottom: 47.96%; vertical-align: top; background-size: 100%; background-repeat: no-repeat; background-position: center center; }
 
-.popup.QzTips .q_tips > div:nth-of-type(2) .btn_area { margin-top: 10px; }
+.popup.QzTipLayer .q_option4u .figure.dryer { max-width: 455px; background-image: url("../images/quiz/q_option4u-dryer.png"); }
 
-.popup.QzTips .btn_area { margin-top: 30px; }
+.popup.QzTipLayer .q_option4u .figure.styler { max-width: 350px; background-image: url("../images/quiz/q_option4u-styler.png"); }
 
-.popup.QzTips .btn_area ._btn { display: inline-block; min-width: 180px; height: 60px; font-size: 20px; font-weight: 900; line-height: 60px; }
+.popup.QzTipLayer .q_option4u .btn_area { margin-top: 35px; }
 
-.popup.QzTips .btn_area ._btn + ._btn { margin-left: 10px; }
+.popup.QzTipLayer .btn_area { margin-top: 10px; }
 
-.popup.QzTips .btn_area .btn_red, .popup.QzTips .btn_area .btn_gray { padding: 0; border-radius: 5px; color: #fff; text-transform: uppercase; }
+.popup.QzTipLayer .btn_area ._btn { display: inline-block; min-width: 180px; height: 60px; font-size: 20px; font-weight: 900; line-height: 60px; }
 
-.popup.QzTips .btn_area .btn_red { background-color: #B50031; }
+.popup.QzTipLayer .btn_area ._btn + ._btn { margin-left: 10px; }
 
-.popup.QzTips .btn_area .btn_gray { background-color: #3E3E3E; }
+.popup.QzTipLayer .btn_area .btn_red, .popup.QzTipLayer .btn_area .btn_gray { padding: 0; border-radius: 5px; color: #fff; text-transform: uppercase; }
 
-.popup.QzTips .btn_area .btn_more { display: inline-block; padding-right: 20px; font-size: 15px; font-weight: 700; color: #B50031; background-image: url(../images/ico_morevw.png); background-size: 14px; background-repeat: no-repeat; background-position: right center; }
+.popup.QzTipLayer .btn_area .btn_red { background-color: #B50031; }
 
-.popup.QzTips .btn_area .btn_more + .btn_more { margin-left: 30px; }
+.popup.QzTipLayer .btn_area .btn_gray { background-color: #3E3E3E; }
 
-.popup.QzTips .promo_area { position: relative; width: 100%; padding: 30px 100px 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.popup.QzTipLayer .btn_area .btn_more { display: inline-block; padding-right: 20px; font-size: 15px; font-weight: 700; color: #B50031; background-image: url(../images/ico_morevw.png); background-size: 14px; background-repeat: no-repeat; background-position: right center; }
 
-.popup.QzTips .frm_field { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.popup.QzTipLayer .btn_area .btn_more + .btn_more { margin-left: 30px; }
 
-.popup.QzTips .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }
+.popup.QzTipLayer .promo_area { position: relative; width: 100%; padding: 30px 60px 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.popup.QzTips .frm_field .frm + .frm { margin-left: 10px; }
+.popup.QzTipLayer .promo_area .slogan { position: absolute; left: 60px; top: 40px; font-size: 18px; font-weight: 600; vertical-align: middle; }
 
-.popup.QzTips .frm_field dd { width: 100%; margin-bottom: 0; }
+.popup.QzTipLayer .frm_field { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.popup.QzTips .frm_field dt { height: 0; }
+.popup.QzTipLayer .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }
 
-.popup.QzTips .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background: #F5F5F5; font-size: 18px; }
+.popup.QzTipLayer .frm_field .frm + .frm { margin-left: 10px; }
 
-.popup.QzTips .frm_field input ::-webkit-input-placeholder { color: #999; }
+.popup.QzTipLayer .frm_field dd { width: 100%; margin-bottom: 0; }
 
-.popup.QzTips .frm_field input ::-moz-placeholder { color: #999; }
+.popup.QzTipLayer .frm_field dt { height: 0; }
 
-.popup.QzTips .frm_field input :-ms-input-placeholder { color: #999; }
+.popup.QzTipLayer .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background: #F5F5F5; font-size: 18px; }
 
-.popup.QzTips .frm_field input ::-ms-input-placeholder { color: #999; }
+.popup.QzTipLayer .frm_field input ::-webkit-input-placeholder { color: #999; }
 
-.popup.QzTips .frm_field input ::placeholder { color: #999; }
+.popup.QzTipLayer .frm_field input ::-moz-placeholder { color: #999; }
 
-.popup.QzTips .slogan { position: absolute; left: 100px; top: 40px; font-size: 18px; font-weight: 600; vertical-align: middle; }
+.popup.QzTipLayer .frm_field input :-ms-input-placeholder { color: #999; }
+
+.popup.QzTipLayer .frm_field input ::-ms-input-placeholder { color: #999; }
+
+.popup.QzTipLayer .frm_field input ::placeholder { color: #999; }
 
 @media screen and (max-width: 991px) {
   .clothing-campaign .box_row-campaign:after, .clothing-campaign .over_text:after, .clothing-campaign .clothing_howto .howto:after, .clothing-campaign .clothing_quiz .howto_enter:after, .clothing-campaign .clothing_quiz .q_items:after, .clothing-campaign .clothing_product .box_content-tab .box_tab-view .box_view-detail:after, .clothing-campaign .clothing_product .box_content-tab .box_tab-view .desc:after { content: ""; display: block; clear: both; }
@@ -644,19 +648,25 @@
   .clothing-campaign .clothing_project .proj_step .step03 .st-logo img { max-width: 68px; }
   .clothing-campaign .clothing_project .proj_step .btn_more { display: inline-block; max-width: 70px; width: 100%; margin-right: 0; font-size: 15px; }
   .clothing-campaign .clothing_project .proj_step .btn_more i { width: 12px; height: 12px; background-size: 12px; margin-left: 4px; }
-  .popup.QzTips .layer_cont { padding: 25px 25px 15px; }
-  .popup.QzTips h4 { max-width: 70%; font-size: 20px; margin: 0 auto 25px; }
-  .popup.QzTips .q_tips { display: block; }
-  .popup.QzTips .q_tips > div { max-width: 100% !important; margin-top: 30px; }
-  .popup.QzTips .q_tips > div:first-child { margin-top: 0; }
-  .popup.QzTips .q_tips > div .figure { margin-bottom: 15px; }
-  .popup.QzTips .q_tips > div .txt { font-size: 14px; }
-  .popup.QzTips .btn_area { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; }
-  .popup.QzTips .btn_area .btn_more { font-size: 12px; }
-  .popup.QzTips .btn_area .btn_more + .btn_more { margin-left: 10px; }
-  .popup.QzTips .btn_area ._btn { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; min-width: 10px; height: 45px; font-size: 15px; line-height: 3; }
-  .popup.QzTips .promo_area { display: block; padding: 25px 20px; }
-  .popup.QzTips .slogan { position: relative; left: 0; top: 0; font-size: 14px; width: 100%; }
-  .popup.QzTips .frm_field { display: block; }
-  .popup.QzTips .frm_field input { font-size: 12px; }
-  .popup.QzTips .frm_field .frm + .frm { margin-left: 0; margin-top: 10px; } }
+  /* .popup { &.QzTips { .layer_cont { padding:25px 25px 15px } h4 { max-width:70%; font-size:20px; margin:0 auto 25px; } .q_tips { display: block; > div { max-width:100% !important; margin-top:30px; &:first-child { margin-top:0; } .figure { margin-bottom:15px; } .txt { font-size:14px; } } } .btn_area { display: flex; text-align: center; .btn_more { font-size:12px; & + .btn_more {  margin-left:10px; } } ._btn { flex:1; min-width:10px; height:45px; font-size:15px; line-height:3; } } .promo_area { display: block; padding:25px 20px; } .slogan { position:relative; left:0; top:0; font-size:14px; width:100%; } .frm_field { display: block; input { font-size:12px; } .frm { & + .frm { margin-left:0; margin-top:10px; } } } } }*/
+  .popup.QzTipLayer .layer_cont { padding: 40px 20px 30px; }
+  .popup.QzTipLayer h4 { max-width: 350px; width: 100%; margin-left: auto; margin-right: auto; }
+  .popup.QzTipLayer .q_tips { max-width: 100%; font-size: 16px; }
+  .popup.QzTipLayer .q_option4u { position: relative; display: block; }
+  .popup.QzTipLayer .q_option4u > div { position: static; -webkit-transform: translateY(0); transform: translateY(0); text-align: center; margin: 0 auto; }
+  .popup.QzTipLayer .q_option4u > div .slogan { width: 100%; background-size: auto 100%; background-position: center center; }
+  .popup.QzTipLayer .q_option4u > div .txt { max-width: 100%; display: block; text-align: center; }
+  .popup.QzTipLayer .q_option4u > div .txt em { font-style: normal; font-weight: inherit; }
+  .popup.QzTipLayer .q_option4u .figure { padding-bottom: 100%; }
+  .popup.QzTipLayer .q_option4u .figure.dryer { margin-left: 5.5%; }
+  .popup.QzTipLayer .btn_area { margin-top: 30px; }
+  .popup.QzTipLayer .btn_area ._btn { min-width: 10px; max-width: calc(50% - 20px); width: 100%; height: 50px; font-size: 18px; line-height: 50px; }
+  .popup.QzTipLayer .btn_area ._btn + ._btn { margin-left: 5px; }
+  .popup.QzTipLayer .btn_area .btn_more { padding-top: 2px; font-size: 16px; line-height: 1; }
+  .popup.QzTipLayer .btn_area .btn_more + .btn_more { margin-left: 10px; }
+  .popup.QzTipLayer .promo_area { position: relative; width: 100%; padding: 30px 30px 50px; display: block; }
+  .popup.QzTipLayer .promo_area .slogan { position: static; display: block; }
+  .popup.QzTipLayer .frm_field { width: 100%; display: block; }
+  .popup.QzTipLayer .frm_field .frm { max-width: 100%; width: 100%; }
+  .popup.QzTipLayer .frm_field .frm + .frm { margin-left: 0; }
+  .popup.QzTipLayer .frm_field dd { margin-bottom: 10px; } }
