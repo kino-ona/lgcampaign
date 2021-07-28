@@ -1392,6 +1392,12 @@
 					repeat: no-repeat;
 					position: center center;
 				}
+				&.washer {
+					max-width: 455px;
+					background: {
+						image: url("../images/quiz/q_option4u-washer.png");
+					}
+				}
 				&.dryer {
 					max-width: 455px;
 					background: {
