@@ -72,7 +72,7 @@
 	z-index: 999;
 	top:50%;
 	left:50%;
-	max-width: 1020px;
+	max-width: 950px;
 	width: 100%;
 	background-color: #fff;
 	opacity: 0;
@@ -86,7 +86,7 @@
 .layer_close {
 	position: absolute;
 	z-index: 1000;
-	max-width: 1020px;
+	max-width: 950px;
 	width: 100%;
 	top: 20px;
 	right: 0;
@@ -1326,7 +1326,7 @@
 	} // .clothing_project
 }
 .popup {
-	&.QzTips {
+	&.QzTipLayer {
 		.layer_inner {
 			padding: 5px 0;
 			text-align: center;
@@ -1338,41 +1338,79 @@
 		h4 {
 			font-size: 30px;
 			font-weight: 700;
-			margin-bottom: 45px;
+			margin-bottom: 20px;
 		}
 		.q_tips {
+			max-width: 750px;
+			width: 100%;
+			margin: 0 auto;
+			font-size: 20px;
+			margin-bottom: 25px;
+		}
+		.q_option4u {
+			position: relative;
 			display: flex;
 			justify-content: space-between;
 			> div {
-				.figure {
-					max-width: 420px;
-					margin-bottom: 27px;
-					img {
-						max-width: 100%;
-					}
+				position: absolute;
+				top: 50%;
+				right: 0;
+				transform: translateY(-50%);
+				max-width: 380px;
+				width: 100%;
+				align-self: center;
+				.slogan {
+					display: block;
+					width: 295px;
+					height: 52px;
+					background: {
+						image: url("../images/quiz/q_option4u-slogan.png");
+						size: 295px;
+						repeat: no-repeat;
+						position: 0 0;
+					}			
 				}
 				.txt {
+					max-width: 350px;
+					margin-left: auto;
+					text-align: left;
 					font-size: 18px;
 					margin-bottom: 0;
 					em {
 						font-style: normal;
-						font-weight: 900;
-					}
-				}
-				&:nth-of-type(1) {
-					width: 100%;
-					max-width: 420px;
-				}
-				&:nth-of-type(2) {
-					max-width: 340px;
-					.btn_area {
-						margin-top: 10px;
+						font-weight: inherit;
 					}
 				}
 			}
+			.figure {
+				width: 100%;
+				flex-shrink: 0;
+				padding-bottom: 47.96%;
+				vertical-align: top;
+				background: {
+					size: 100%;
+					repeat: no-repeat;
+					position: center center;
+				}
+				&.dryer {
+					max-width: 455px;
+					background: {
+						image: url("../images/quiz/q_option4u-dryer.png");
+					}
+				}
+				&.styler {
+					max-width: 350px;
+					background: {
+						image: url("../images/quiz/q_option4u-styler.png");
+					}
+				}
+			}
+			.btn_area {
+				margin-top: 35px;
+			}
 		}
 		.btn_area {
-			margin-top: 30px;
+			margin-top: 10px;
 			._btn {
 				display: inline-block;
 				min-width: 180px;
@@ -1416,9 +1454,17 @@
 		.promo_area {
 			position: relative;
 			width: 100%;
-			padding: 30px 100px 50px;
+			padding: 30px 60px 50px;
 			display: flex;
 			justify-content: flex-end;
+			.slogan {
+				position: absolute;
+				left: 60px;
+				top: 40px;
+				font-size: 18px;
+				font-weight: 600;
+				vertical-align: middle;
+			}
 		}
 		.frm_field {
 			width: 100%;
@@ -1450,14 +1496,6 @@
 					color: #999;
 				}
 			}
-		}
-		.slogan {
-			position: absolute;
-			left: 100px;
-			top: 40px;
-			font-size: 18px;
-			font-weight: 600;
-			vertical-align: middle;
 		}
 	}
 }
