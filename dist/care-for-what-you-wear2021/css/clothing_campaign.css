@@ -38,6 +38,16 @@
 
 .layer_body.is-visible[role="dialog"] { display: block; }
 
+/* 20210802 ui s */	
+#btn_float { display: none; z-index: 99; position: fixed; right: 40px; bottom: 40px; cursor: pointer; width: 210px; height: 130px; box-sizing: border-box; background-image: url(../images/btn-float.png); background-size: 100%; background-repeat: no-repeat; background-position: 0 0; }	
+#btn_float::before { content: ''; position: absolute; top: 0; left: 0; width: 210px; height: 130px; background-color: #000; opacity: .6; }	
+#btn_float .btn_float_inner { position: relative; display: block; width: 210px; height: 130px; }	
+#btn_float .btn_float-vplay { position: absolute; top: 45px; left: 50%; transform: translatex(-50%); display: block; width: 18px; height: 24px; margin: 0 auto; background-image: url(../images/btn-float_vplay.png); background-size: 18px; background-repeat: no-repeat; background-position: center center; }	
+#btn_float .title { width: 100%; position: absolute; top: 75px; left: 50%; transform: translatex(-50%); color: #fff; text-align: center; font-size: 18px; font-weight: 700; }	
+/* 20210802 ui e */	
+
+.clothing-campaign { /* 20210802 ui s */ /* 20210802 ui e */ }
+
 /* 20210727 ui e */
 .clothing-campaign * { font-family: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif; }
 
@@ -409,6 +419,19 @@
 .clothing-campaign .clothing_project .proj_step .btn_more { display: inline-block; margin-top: 10px; font-weight: 700; }
 
 .clothing-campaign .clothing_project .proj_step .btn_more i { display: inline-block; width: 14px; height: 14px; background-image: url(../images/ico_morevw-bk.png); background-size: 14px; background-repeat: no-repeat; background-position: 0 0; margin-left: 3px; margin-top: -4px; vertical-align: middle; }
+	
+.clothing-campaign > .promo_area { width: 100%; padding: 50px 0; background-color: #F1F2F4; margin-bottom: 120px; }	
+.clothing-campaign > .promo_area > div { margin: 0 auto; max-width: 840px; display: flex; justify-content: flex-end; }	
+.clothing-campaign > .promo_area .slogan { font-size: 18px; line-height: 44px; font-weight: 600; vertical-align: middle; white-space: nowrap; }	
+.clothing-campaign > .promo_area .frm_field { width: 100%; display: flex; justify-content: flex-end; }	
+.clothing-campaign > .promo_area .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }	
+.clothing-campaign > .promo_area .frm_field .frm + .frm { margin-left: 10px; }	
+.clothing-campaign > .promo_area .frm_field dd { width: 100%; margin-bottom: 0; }	
+.clothing-campaign > .promo_area .frm_field dt { height: 0; }	
+.clothing-campaign > .promo_area .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background-color: #fff; font-size: 18px; }	
+.clothing-campaign > .promo_area .frm_field input ::-moz-placeholder { color: #999; }	
+.clothing-campaign > .promo_area .frm_field input :-ms-input-placeholder { color: #999; }	
+.clothing-campaign > .promo_area .frm_field input ::placeholder { color: #999; }	
 
 .popup.QzTipLayer .layer_inner { padding: 5px 0; text-align: center; }
 
@@ -489,6 +512,14 @@
   .layer_close .close_btn { top: -40px; left: 48%; width: 40px; height: 40px; background-size: 40px; }
   .layer_inner { max-height: 75vh; }
   /* 20210727 ui e */
+  /* 20210802 ui s */	
+  #btn_float { right: 20px; bottom: 20px; width: 120px; height: 75px; }	
+  #btn_float::before { width: 120px; height: 75px; }	
+  #btn_float .btn_float_inner { width: 120px; height: 75px; }	
+  #btn_float .btn_float_inner .btn_float-vplay { top: 22px; width: 12px; height: 17px; background-size: 12px; }	
+  #btn_float .btn_float_inner .title { top: 45px; font-size: 12px; }	
+  /* 20210802 ui e */	
+  .clothing-campaign { /* 20210802 ui s */ /* 20210802 ui e */ }
   .clothing-campaign ._pc { display: none; }
   .clothing-campaign ._mo { display: block; }
   .clothing-campaign .box_row-campaign .row-tit { font-size: 26px; line-height: 1; padding: 0 20px; }
@@ -650,6 +681,13 @@
   .clothing-campaign .clothing_project .proj_step .step03 .st-logo img { max-width: 68px; }
   .clothing-campaign .clothing_project .proj_step .btn_more { display: inline-block; max-width: 70px; width: 100%; margin-right: 0; font-size: 15px; }
   .clothing-campaign .clothing_project .proj_step .btn_more i { width: 12px; height: 12px; background-size: 12px; margin-left: 4px; }
+  .clothing-campaign > .promo_area { padding: 30px 30px 50px; }	
+  .clothing-campaign > .promo_area > div { display: block; }	
+  .clothing-campaign > .promo_area .slogan { width: 100%; text-align: center; }	
+  .clothing-campaign > .promo_area .frm_field { display: block; }	
+  .clothing-campaign > .promo_area .frm_field .frm { max-width: 100%; }	
+  .clothing-campaign > .promo_area .frm_field .frm + .frm { margin-left: 0; }	
+  .clothing-campaign > .promo_area .frm_field dd { margin-bottom: 10px; }
   .popup.QzTipLayer .layer_cont { padding: 40px 20px 30px; }
   .popup.QzTipLayer h4 { max-width: 350px; width: 100%; margin-left: auto; margin-right: auto; }
   .popup.QzTipLayer .q_tips { max-width: 100%; font-size: 16px; }
