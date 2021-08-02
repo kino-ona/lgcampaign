@@ -36,6 +36,34 @@
   max-height: 75vh;
 }
 /* 20210727 ui e */
+/* 20210802 ui s */
+#btn_float {
+	right: 20px;
+	bottom: 20px;
+	width: 120px;
+	height: 75px;
+	&::before {
+		width: 120px;
+		height: 75px;
+	}
+	.btn_float_inner {
+		width: 120px;
+		height: 75px;
+		.btn_float-vplay {
+			top: 22px;
+			width: 12px;
+			height: 17px;
+			background: {
+				size: 12px;
+			}
+		}
+		.title {
+			top: 45px;
+			font-size: 12px;
+		}
+	}
+}
+/* 20210802 ui e */
 
 .clothing-campaign {
 	._pc {
@@ -898,6 +926,31 @@
 			}
 		}
 	} // .clothing_project
+	
+	/* 20210802 ui s */
+	> .promo_area {
+		padding: 30px 30px 50px;
+		> div {
+			display: block;
+		}
+		.slogan {
+			width: 100%;
+			text-align: center;
+		}
+		.frm_field {
+			display: block;
+			.frm {
+				max-width: 100%;
+				& + .frm {
+					margin-left: 0;
+				}
+			}
+			dd {
+				margin-bottom: 10px;
+			}
+		}
+	}	
+	/* 20210802 ui e */
 }
 
 .popup {

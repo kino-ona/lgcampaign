@@ -166,3 +166,19 @@ function hlayerClose(layerId) {
 	}
 }
 /* 20210727 layer popup control e */
+
+/* 20210802 ui 추가 s */
+$(window).scroll(function(){
+	var gotoSec = $('#btn_float-goto').outerHeight(true);
+	if($(this).scrollTop() > gotoSec){
+		$('#btn_float').css('display', 'block');
+	}else{
+		$('#btn_float').css('display', 'none');
+	}
+});
+$('#btn_float').click(function(e){
+	var gotoSec = $('#btn_float-goto').outerHeight(true);
+	e.preventDefault();
+	$('html, body').animate({scrollTop:gotoSec}, 400);
+});
+/* 20210802 ui 추가 e */

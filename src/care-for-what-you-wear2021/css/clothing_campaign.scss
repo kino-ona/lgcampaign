@@ -133,6 +133,68 @@
 	}
 }
 /* 20210727 ui e */
+/* 20210802 ui s */
+#btn_float {
+	display: none;
+	z-index: 99;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	cursor: pointer;
+	width: 210px;
+	height: 130px;
+	box-sizing: border-box;
+	background: {
+		image: url(../images/btn-float.png);
+		size: 100%;
+		repeat: no-repeat;
+		position: 0 0;
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 210px;
+		height: 130px;
+		background-color: #000;
+		opacity: .6;
+	}
+	.btn_float_inner {
+		position: relative;
+		display: block;
+		width: 210px;
+		height: 130px;
+	}
+	.btn_float-vplay {
+		position: absolute;
+		top: 45px;
+		left: 50%;
+		transform: translatex(-50%);
+		display: block;
+		width: 18px;
+		height: 24px;
+		margin: 0 auto;
+		background: {
+			image: url(../images/btn-float_vplay.png);
+			size: 18px;
+			repeat: no-repeat;
+			position: center center;
+		}
+	}
+	.title {
+		width: 100%;
+		position: absolute;
+		top: 75px;
+		left: 50%;
+		transform: translatex(-50%);
+		color: #fff;
+		text-align: center;
+		font-size: 18px;
+		font-weight: 700;
+	}
+}
+/* 20210802 ui e */
 
 .clothing-campaign {
 	* {
@@ -1324,7 +1386,61 @@
 			}
 		}
 	} // .clothing_project
+
+	/* 20210802 ui s */
+	> .promo_area {
+		width: 100%;
+		padding: 50px 0;
+		background-color: #F1F2F4;
+		margin-bottom: 120px;
+		> div {
+			margin: 0 auto;
+			max-width: 840px;
+			display: flex;
+			justify-content: flex-end;
+		}
+		.slogan {
+			font-size: 18px;
+			line-height: 44px;
+			font-weight: 600;
+			vertical-align: middle;
+			white-space: nowrap;
+		}
+		.frm_field {
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+			.frm {
+				max-width: 280px;
+				width: 100%;
+				margin-bottom: 0;
+				& + .frm {
+					margin-left: 10px;
+				}
+			}
+			dd {
+				width: 100%;
+				margin-bottom: 0;
+			}
+			dt {
+				height: 0;
+			}
+			input {
+				width: 100%;
+				border: none;
+				border-radius: 5px;
+				padding-left: 20px;
+				background-color: #fff;
+				font-size: 18px;
+				::placeholder {
+					color: #999;
+				}
+			}
+		}
+	}
+	/* 20210802 ui e */
 }
+
 .popup {
 	&.QzTipLayer {
 		.layer_inner {
