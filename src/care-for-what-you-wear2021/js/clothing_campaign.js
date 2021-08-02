@@ -5,19 +5,45 @@ $(document).ready(function(){
 		var r = i + 1;
 
 		if($('.clothing_keyvisual .vodbg').find('video').length > 0) {
+		// if($('.clothing_keyvisual .vodbg').find('.btmiframe').length > 0) {
 			$Item.hover(function() {
 				$('.clothing_keyvisual .over_text._pc').find('.sub_print').removeClass('active')
 				$('.clothing_keyvisual .over_text._pc').find('.print0' + $(this).index()).addClass('active')
 				$('.clothing_keyvisual .over_text._pc').removeClass('origin');
 				$('.clothing_keyvisual .over_text._pc').addClass('active');
+
 				$('.clothing_keyvisual .vodbg').find('video').get(0).pause();
 				$('.clothing_keyvisual .vodbg').find('video').stop().fadeOut(500);
-
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
+
+				// $('.clothing_keyvisual .vodbg').find('.yt_video0' + r).css('display', 'block')	
+				// setTimeout(function(){
+				// 	$('.clothing_keyvisual .vodbg').find('.yt_video0' + r).src += "&autoplay=1"
+				// 	$('.clothing_keyvisual .vodbg').find('.yt_video0' + r)[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+				// }, 500);
+
 			}, function() {
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
+			});
+		}
+
+		if($('.clothing_keyvisual .vodbg').find('iframe').length > 0) {
+			$Item.find('.btn_play').on('click', function() { 
+				$('.clothing_keyvisual .vodbg').find('.YTframe0' + r).css('display', 'block')	
+				setTimeout(function(){
+					$('.clothing_keyvisual .vodbg').find('.YTframe0' + r + ' #youtube_video')[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+				}, 300);
+			})
+
+			$('.clothing_keyvisual .vodbg').find('.iframebody').each(function() {
+				$(this).find('.btn-close').on('click', function() { 
+					$('.clothing_keyvisual .vodbg').find('.YTframe0' + r).css('display', 'none')	
+					setTimeout(function(){
+						$('.clothing_keyvisual .vodbg').find('.YTframe0' + r + ' #youtube_video')[0].contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+					}, 300);
+				})
 			});
 		}
 
@@ -102,6 +128,19 @@ $(document).ready(function(){
 	
 });
 
+$('.clothing-campaign .btn_watch').on('click', function(){
+	var movieCode = $(this).attr('id');
+	$('.clothing-campaign').find('.pop_ytiframe').css('display','block')
+	$('.clothing-campaign').find('.pop_ytiframe').append('<iframe width="100%" height="100%" frameborder="0" src="https://www.youtube.com/embed/'+movieCode+'?enablejsapi=1&rel=0&showinfo=0&hl=en" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen></iframe>');
+	
+	return false;
+})
+$('.clothing-campaign .pop_ytiframe .btn-close').on('click', function(){
+	$('.clothing-campaign').find('.pop_ytiframe').css('display','none')
+	$('.clothing-campaign .pop_ytiframe').find('iframe').remove();
+})
+
+
 /* 20210722 responsive s */
 $(document).ready(function(){
 	if($('#clothing_keyvisual').length > 0) {
@@ -122,6 +161,30 @@ $(document).ready(function(){
 			$('.clothing_keyvisual .vodbg').find('.video0' + (currentSlide + 1)).stop().fadeIn(300);
 			$('.clothing_keyvisual .vodbg').find('.video0' + (currentSlide + 1)).get(0).play();
 		});
+
+		$('#clothing_keyvisual.over_text .item:not(.item_title)').each(function(i, e) {
+			var $Item = $(this);
+			var r = i + 1;
+
+			if($('.clothing_keyvisual .vodbg').find('iframe').length > 0) {
+				$Item.find('.btn_play').on('click', function() { 
+					$('.clothing_keyvisual .vodbg').find('.YTframe0' + r).css('display', 'block')	
+					setTimeout(function(){
+						$('.clothing_keyvisual .vodbg').find('.YTframe0' + r + ' #youtube_video')[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+					}, 300);
+				})
+	
+				$('.clothing_keyvisual .vodbg').find('.iframebody').each(function() {
+					$(this).find('.btn-close').on('click', function() { 
+						$('.clothing_keyvisual .vodbg').find('.YTframe0' + r).css('display', 'none')	
+						setTimeout(function(){
+							$('.clothing_keyvisual .vodbg').find('.YTframe0' + r + ' #youtube_video')[0].contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+						}, 300);
+					})
+				});
+			}
+		})
+
 	}
 });
 /* 20210722 responsive e */

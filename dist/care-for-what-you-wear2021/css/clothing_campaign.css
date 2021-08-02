@@ -38,17 +38,21 @@
 
 .layer_body.is-visible[role="dialog"] { display: block; }
 
-/* 20210802 ui s */	
-#btn_float { display: none; z-index: 99; position: fixed; right: 40px; bottom: 40px; cursor: pointer; width: 210px; height: 130px; box-sizing: border-box; background-image: url(../images/btn-float.png); background-size: 100%; background-repeat: no-repeat; background-position: 0 0; }	
-#btn_float::before { content: ''; position: absolute; top: 0; left: 0; width: 210px; height: 130px; background-color: #000; opacity: .6; }	
-#btn_float .btn_float_inner { position: relative; display: block; width: 210px; height: 130px; }	
-#btn_float .btn_float-vplay { position: absolute; top: 45px; left: 50%; transform: translatex(-50%); display: block; width: 18px; height: 24px; margin: 0 auto; background-image: url(../images/btn-float_vplay.png); background-size: 18px; background-repeat: no-repeat; background-position: center center; }	
-#btn_float .title { width: 100%; position: absolute; top: 75px; left: 50%; transform: translatex(-50%); color: #fff; text-align: center; font-size: 18px; font-weight: 700; }	
-/* 20210802 ui e */	
+/* 20210727 ui e */
+/* 20210802 ui s */
+#btn_float { display: none; z-index: 99; position: fixed; right: 40px; bottom: 40px; cursor: pointer; width: 210px; height: 130px; -webkit-box-sizing: border-box; box-sizing: border-box; background-image: url(../images/btn-float.png); background-size: 100%; background-repeat: no-repeat; background-position: 0 0; }
 
+#btn_float::before { content: ''; position: absolute; top: 0; left: 0; width: 210px; height: 130px; background-color: #000; opacity: .6; }
+
+#btn_float .btn_float_inner { position: relative; display: block; width: 210px; height: 130px; }
+
+#btn_float .btn_float-vplay { position: absolute; top: 45px; left: 50%; -webkit-transform: translatex(-50%); transform: translatex(-50%); display: block; width: 18px; height: 24px; margin: 0 auto; background-image: url(../images/btn-float_vplay.png); background-size: 18px; background-repeat: no-repeat; background-position: center center; }
+
+#btn_float .title { width: 100%; position: absolute; top: 75px; left: 50%; -webkit-transform: translatex(-50%); transform: translatex(-50%); color: #fff; text-align: center; font-size: 18px; font-weight: 700; }
+
+/* 20210802 ui e */
 .clothing-campaign { /* 20210802 ui s */ /* 20210802 ui e */ }
 
-/* 20210727 ui e */
 .clothing-campaign * { font-family: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif; }
 
 .clothing-campaign ul, .clothing-campaign li, .clothing-campaign dt, .clothing-campaign dd, .clothing-campaign dl { margin: 0; padding: 0; }
@@ -122,6 +126,16 @@
 .clothing-campaign .vodbg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: left 10% top; background-size: 80% 100%; -webkit-transition: 0.4s ease-out; transition: 0.4s ease-out; overflow: hidden; }
 
 .clothing-campaign .vodbg video { display: none; min-width: 100%; min-height: 100%; }
+
+.clothing-campaign .vodbg .btmiframe { display: none; }
+
+.clothing-campaign .vodbg .iframebody { display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 10001; padding: 10%; background-color: #000; }
+
+.clothing-campaign .vodbg .iframebody iframe { width: 100%; height: 100%; }
+
+.clothing-campaign .vodbg .iframebody .btn-close { position: absolute; right: 5%; top: 5%; display: block; width: 40px; height: 40px; outline: none; border: 0; background-color: transparent; background-image: url(../images/btn_close-popup.png); background-size: cover; background-position: center center; background-repeat: no-repeat; cursor: pointer; }
+
+.clothing-campaign .vodbg .iframebody.show { display: block; }
 
 .clothing-campaign .over_text { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
 
@@ -419,19 +433,38 @@
 .clothing-campaign .clothing_project .proj_step .btn_more { display: inline-block; margin-top: 10px; font-weight: 700; }
 
 .clothing-campaign .clothing_project .proj_step .btn_more i { display: inline-block; width: 14px; height: 14px; background-image: url(../images/ico_morevw-bk.png); background-size: 14px; background-repeat: no-repeat; background-position: 0 0; margin-left: 3px; margin-top: -4px; vertical-align: middle; }
-	
-.clothing-campaign > .promo_area { width: 100%; padding: 50px 0; background-color: #F1F2F4; margin-bottom: 120px; }	
-.clothing-campaign > .promo_area > div { margin: 0 auto; max-width: 840px; display: flex; justify-content: flex-end; }	
-.clothing-campaign > .promo_area .slogan { font-size: 18px; line-height: 44px; font-weight: 600; vertical-align: middle; white-space: nowrap; }	
-.clothing-campaign > .promo_area .frm_field { width: 100%; display: flex; justify-content: flex-end; }	
-.clothing-campaign > .promo_area .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }	
-.clothing-campaign > .promo_area .frm_field .frm + .frm { margin-left: 10px; }	
-.clothing-campaign > .promo_area .frm_field dd { width: 100%; margin-bottom: 0; }	
-.clothing-campaign > .promo_area .frm_field dt { height: 0; }	
-.clothing-campaign > .promo_area .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background-color: #fff; font-size: 18px; }	
-.clothing-campaign > .promo_area .frm_field input ::-moz-placeholder { color: #999; }	
-.clothing-campaign > .promo_area .frm_field input :-ms-input-placeholder { color: #999; }	
-.clothing-campaign > .promo_area .frm_field input ::placeholder { color: #999; }	
+
+.clothing-campaign > .promo_area { width: 100%; padding: 50px 0; background-color: #F1F2F4; margin-bottom: 120px; }
+
+.clothing-campaign > .promo_area > div { margin: 0 auto; max-width: 840px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.clothing-campaign > .promo_area .slogan { font-size: 18px; line-height: 44px; font-weight: 600; vertical-align: middle; white-space: nowrap; }
+
+.clothing-campaign > .promo_area .frm_field { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.clothing-campaign > .promo_area .frm_field .frm { max-width: 280px; width: 100%; margin-bottom: 0; }
+
+.clothing-campaign > .promo_area .frm_field .frm + .frm { margin-left: 10px; }
+
+.clothing-campaign > .promo_area .frm_field dd { width: 100%; margin-bottom: 0; }
+
+.clothing-campaign > .promo_area .frm_field dt { height: 0; }
+
+.clothing-campaign > .promo_area .frm_field input { width: 100%; border: none; border-radius: 5px; padding-left: 20px; background-color: #fff; font-size: 18px; }
+
+.clothing-campaign > .promo_area .frm_field input ::-webkit-input-placeholder { color: #999; }
+
+.clothing-campaign > .promo_area .frm_field input ::-moz-placeholder { color: #999; }
+
+.clothing-campaign > .promo_area .frm_field input :-ms-input-placeholder { color: #999; }
+
+.clothing-campaign > .promo_area .frm_field input ::-ms-input-placeholder { color: #999; }
+
+.clothing-campaign > .promo_area .frm_field input ::placeholder { color: #999; }
+
+.pop_ytiframe { display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 1005; padding: 15%; background-color: rgba(0, 0, 0, 0.8); }
+
+.pop_ytiframe .btn-close { position: absolute; right: 15%; top: 15%; display: block; width: 40px; height: 40px; outline: none; border: 0; background-color: transparent; background-image: url(../images/btn_close-popup.png); background-size: cover; background-position: center center; background-repeat: no-repeat; cursor: pointer; }
 
 .popup.QzTipLayer .layer_inner { padding: 5px 0; text-align: center; }
 
@@ -512,13 +545,13 @@
   .layer_close .close_btn { top: -40px; left: 48%; width: 40px; height: 40px; background-size: 40px; }
   .layer_inner { max-height: 75vh; }
   /* 20210727 ui e */
-  /* 20210802 ui s */	
-  #btn_float { right: 20px; bottom: 20px; width: 120px; height: 75px; }	
-  #btn_float::before { width: 120px; height: 75px; }	
-  #btn_float .btn_float_inner { width: 120px; height: 75px; }	
-  #btn_float .btn_float_inner .btn_float-vplay { top: 22px; width: 12px; height: 17px; background-size: 12px; }	
-  #btn_float .btn_float_inner .title { top: 45px; font-size: 12px; }	
-  /* 20210802 ui e */	
+  /* 20210802 ui s */
+  #btn_float { right: 20px; bottom: 20px; width: 120px; height: 75px; }
+  #btn_float::before { width: 120px; height: 75px; }
+  #btn_float .btn_float_inner { width: 120px; height: 75px; }
+  #btn_float .btn_float_inner .btn_float-vplay { top: 22px; width: 12px; height: 17px; background-size: 12px; }
+  #btn_float .btn_float_inner .title { top: 45px; font-size: 12px; }
+  /* 20210802 ui e */
   .clothing-campaign { /* 20210802 ui s */ /* 20210802 ui e */ }
   .clothing-campaign ._pc { display: none; }
   .clothing-campaign ._mo { display: block; }
@@ -535,10 +568,12 @@
   .clothing-campaign .clothing_keyvisual { padding-top: 133.335%; }
   .clothing-campaign .vodbg video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; opacity: 1; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; }
   .clothing-campaign .vodbg .active { display: block; }
+  .clothing-campaign .vodbg .iframebody { padding: 25px; }
+  .clothing-campaign .vodbg .iframebody .btn-close { right: 5px; top: 20px; }
   .clothing-campaign .over_text { top: inherit; bottom: 0; width: 100%; height: initial; overflow: hidden; }
   .clothing-campaign .over_text:before { content: ''; position: absolute; right: 25px; top: 5px; display: block; width: 90px; height: 100px; background-image: url(../images/mvisual_elimg01.png); background-position: right center; background-repeat: no-repeat; background-size: 83px; z-index: 1; }
   .clothing-campaign .over_text .item_title { display: none; }
-  .clothing-campaign .over_text .item:not(.item_title) { float: none; display: inline-block; width: 100%; height: 120px; background-color: rgba(0, 0, 0, 0.8); }
+  .clothing-campaign .over_text .item:not(.item_title) { float: none; display: inline-block; width: 100%; height: 140px; background-color: rgba(0, 0, 0, 0.8); }
   .clothing-campaign .over_text .item:not(.item_title) .sub_print { padding: 15px 20px 20px 20px; text-align: left; }
   .clothing-campaign .over_text .item:not(.item_title) .sub_print p { font-size: 14px; color: #fff; letter-spacing: 1px; text-align: left; }
   .clothing-campaign .over_text .item:not(.item_title) .sub_print p > span { display: block; margin-top: 0px; font-size: 22px; font-weight: inherit; letter-spacing: 2px; color: #fff; opacity: 1; }
@@ -681,12 +716,12 @@
   .clothing-campaign .clothing_project .proj_step .step03 .st-logo img { max-width: 68px; }
   .clothing-campaign .clothing_project .proj_step .btn_more { display: inline-block; max-width: 70px; width: 100%; margin-right: 0; font-size: 15px; }
   .clothing-campaign .clothing_project .proj_step .btn_more i { width: 12px; height: 12px; background-size: 12px; margin-left: 4px; }
-  .clothing-campaign > .promo_area { padding: 30px 30px 50px; }	
-  .clothing-campaign > .promo_area > div { display: block; }	
-  .clothing-campaign > .promo_area .slogan { width: 100%; text-align: center; }	
-  .clothing-campaign > .promo_area .frm_field { display: block; }	
-  .clothing-campaign > .promo_area .frm_field .frm { max-width: 100%; }	
-  .clothing-campaign > .promo_area .frm_field .frm + .frm { margin-left: 0; }	
+  .clothing-campaign > .promo_area { padding: 30px 30px 50px; }
+  .clothing-campaign > .promo_area > div { display: block; }
+  .clothing-campaign > .promo_area .slogan { width: 100%; text-align: center; }
+  .clothing-campaign > .promo_area .frm_field { display: block; }
+  .clothing-campaign > .promo_area .frm_field .frm { max-width: 100%; }
+  .clothing-campaign > .promo_area .frm_field .frm + .frm { margin-left: 0; }
   .clothing-campaign > .promo_area .frm_field dd { margin-bottom: 10px; }
   .popup.QzTipLayer .layer_cont { padding: 40px 20px 30px; }
   .popup.QzTipLayer h4 { max-width: 350px; width: 100%; margin-left: auto; margin-right: auto; }
