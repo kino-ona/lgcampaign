@@ -900,76 +900,6 @@
 	} // .clothing_project
 }
 
-/*
-.popup {
-	&.QzTips {
-		.layer_cont {
-			padding:25px 25px 15px
-		}
-		h4 {
-			max-width:70%;
-			font-size:20px;
-			margin:0 auto 25px;
-		}
-		.q_tips {
-			display: block;
-			> div {
-				max-width:100% !important;
-				margin-top:30px;
-				&:first-child {
-					margin-top:0;
-				}
-				.figure {
-					margin-bottom:15px;
-				}
-				.txt {
-					font-size:14px;
-				}
-			}
-		}
-		.btn_area {
-			display: flex;
-			text-align: center;
-			.btn_more {
-				font-size:12px;
-				& + .btn_more { 
-					margin-left:10px;
-				}
-			}
-			._btn {
-				flex:1;
-				min-width:10px;
-				height:45px;
-				font-size:15px;
-				line-height:3;
-			}
-		}
-		.promo_area {
-			display: block;
-			padding:25px 20px;
-		}
-		.slogan {
-			position:relative;
-			left:0;
-			top:0;
-			font-size:14px;
-			width:100%;
-		}
-		.frm_field {
-			display: block;
-			input {
-				font-size:12px;
-			}
-			.frm {
-				& + .frm {
-					margin-left:0;
-					margin-top:10px;
-				}
-			}
-		}
-	}
-}*/
-
 .popup {
 	&.QzTipLayer {
 		.layer_cont {
@@ -990,12 +920,13 @@
 			display: block;
 			> div {
 				position: static;
+				max-width: 100%;
 				transform: translateY(0);
 				text-align: center;
 				margin: 0 auto;
 				.slogan {
 					width: 100%;
-					background-size:auto 100%;
+					background-size: auto 100%;
 					background-position: center center;
 				}
 				.txt {
