@@ -59,7 +59,7 @@
 .layer_body {
 	position: fixed;
   min-height: 100vh;
-	z-index: 1000;
+	z-index: 10001;
 	top: 0;
 	left: 0;
 	display: none;
@@ -106,6 +106,7 @@
 		border: 0;
 		border-radius: 50%;
 		text-indent:-9999px;
+		cursor: pointer;
 	}
 }
 .layer_inner {
@@ -1006,6 +1007,7 @@
 			}
 		}
 		.quiz_wrap {
+			display: none;
 			position:relative;
 			width:100%;
 			margin:0 auto;
@@ -1015,6 +1017,9 @@
 			-webkit-box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
 			-moz-box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
 			box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.2);
+			&.show {
+				display: block;
+			}
 			.btn_refresh {
 				position:absolute;
 				top:12px;
@@ -1030,6 +1035,7 @@
 					repeat: no-repeat;
 					position: center center;
 				}
+				cursor: pointer;
 			}
 			margin-bottom: 50px; //임시
 		}
@@ -1175,8 +1181,8 @@
 					left:0;
 					top:0;
 					width:100%;
-					height:80%;
-					min-height:510px;
+					// height:80%;
+					height:510px;
 					display: block;
 					background: {
 						color:#FAF9E8;
@@ -1685,6 +1691,15 @@
 				::placeholder {
 					color: #999;
 				}
+			}
+		}
+		.qzend-box {
+			padding-bottom:60%;
+			background: {
+				image: url(../images/quizend_bg.jpg);
+				size:100%;
+				repeat: no-repeat;
+				position:center bottom;
 			}
 		}
 	}

@@ -118,8 +118,10 @@ $(document).ready(function(){
 				});
 
 				if($(this).find('input:radio').is(':checked')){
+					$(this).parent('.item').addClass('checking');
 					$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace(".png", "-hover.png"))
 				}else{
+					$('.quiz_wrap .q_items .item').removeClass('checking');
 					$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace("-hover.png", ".png"))
 				}
 			});
@@ -193,7 +195,7 @@ $(document).ready(function(){
 var isOpen = false;
 function hlayerOpen(layerId) {
 	var curPos = $(window).scrollTop();
-	// $('html').addClass('noscroll');
+	$('html').addClass('noscroll');
 	$('#' + layerId).addClass('is-visible');
 	var $layerID = $('#' + layerId);
 	$layerID.attr({
@@ -203,7 +205,7 @@ function hlayerOpen(layerId) {
 	});
 
 	if ($('[role="dialog"]:visible').length <= 1 && isOpen == false) {
-		$('#container').css('top', -curPos);
+		$('.clothing-campaign').css('top', -curPos);
 		isOpen = true;
 	}
 
@@ -215,13 +217,13 @@ function hlayerOpen(layerId) {
 	}, 50);
 }
 function hlayerClose(layerId) {
-	var curPos = -(parseInt($('#container').css('top')));
+	var curPos = -(parseInt($('.clothing-campaign').css('top')));
 	$('#' + layerId).removeClass('is-visible');
 	$('#' + layerId).attr('aria-hidden', 'true');
 	// $('#' + layerId).removeAttr('open tabindex');
 	$('html').removeClass('noscroll');
 	if ($('[role="dialog"].is-visible').length < 1) {
-		$('html').removeClass('noscroll').find('#container').css({
+		$('html').removeClass('noscroll').find('.clothing-campaign').css({
 			'top': 0
 		});
 		$(window).scrollTop(curPos);
@@ -245,3 +247,64 @@ $('#btn_float').click(function(e){
 	$('html, body').animate({scrollTop:gotoSec}, 400);
 });
 /* 20210802 ui 추가 e */
+
+
+function quizCheck(set) {
+	var quizId = $('#' + set);
+
+	quizId.find('.q_items .item').each(function() {
+		if(quizId.find('.q_items .checking').length > 0) {
+			if(set == 'quiz01') {
+				var delay = setTimeout(function () {
+					if(quizId.find('.q_items .checking').find('input:radio:checked').attr('id') == 'qa01_item02') {
+						$('#quiz01').removeClass('show')
+						$('#quiz02').addClass('show')
+					} else {
+						hlayerOpen('QzTips02');
+					}
+
+					clearTimeout(delay);
+				}, 100);
+			} else if(set == 'quiz02') {
+				var delay = setTimeout(function () {
+					if(quizId.find('.q_items .checking').find('input:radio:checked').attr('id') == 'qa02_item02') {
+						$('#quiz02').removeClass('show')
+						$('#quiz03').addClass('show')
+					} else {
+						hlayerOpen('QzTips07');
+					}
+
+					clearTimeout(delay);
+				}, 100);
+			} else if(set == 'quiz03') {
+				var delay = setTimeout(function () {
+					if(quizId.find('.q_items .checking').find('input:radio:checked').attr('id') == 'qa03_item01') {
+						hlayerOpen('QzEnd');
+					} else {
+						hlayerOpen('QzTips09');
+					}
+
+					clearTimeout(delay);
+				}, 100);
+			}
+		}else {
+			alert('Please select an answer!');return false;
+		}
+	});
+}
+
+function quizBack(set) {
+	$('.quiz_wrap').removeClass('show')
+	$('#' + set).addClass('show')
+}
+
+function quizRefresh() {
+	$('.quiz_wrap').removeClass('show')
+	$('.quiz_wrap').find('.checking').removeClass('checking')
+	$('.quiz_wrap').find('.item').each(function() {
+		$(this).find('input:radio').prop('checked' , false);
+		$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace("-hover.png", ".png"))
+	});
+	$('#quiz01').addClass('show')
+}
+

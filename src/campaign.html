@@ -382,7 +382,7 @@
 						<h3>How to enter</h3>
 						<ul>
 							<li><span>Take the test below</span></li>
-							<li><span>Share your score on Instagram, Facebook or Twitter by clicking the 'share' button.</span></li>
+							<li><span>Share your score on Facebook or Twitter by clicking the 'share' button.</span></li>
 							<li><strong>Use following hashtags :</strong>
 								<div class="hashtag_group">
 									<span class="hashtags">#CareForWhatYouWear</span> <span class="hashtags">#CherishedClothesTest</span>
@@ -390,44 +390,123 @@
 							</li>
 						</ul>
 						<div class="desc">
-							Share on Instagram, Facebook or Twitter and enter your info to receive a 10% off voucher for LG.com
+							Share on Facebook or Twitter and enter your info to receive a 10% off voucher for LG.com
 						</div>
 					</div>
 
-					<div class="quiz_wrap">
-						<button class="btn_refresh"><span class="a11y">Refresh</span></button>
+					<!-- quiz 01 -->
+					<div class="quiz_wrap show" id="quiz01">
+						<button class="btn_refresh" onclick="quizRefresh()"><span class="a11y">Refresh</span></button>
 						<div class="q_step"><strong>1</strong> / 10</div>
-						<p class="q_title">When out of dryer sheets, what’s another option?</p>
+						<p class="q_title">How do you remove stain on your shirt?</p>
 
 						<div class="q_items">
 							<div class="item">
 								<label class="_sel">
-									<input type="radio" name="qa01" id="q-item01">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q01_item01.png" alt=""></p>
-									<p class="txt">Dry later</p>
+									<input type="radio" name="qa01" id="qa01_item01">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q02_item01.png" alt=""></p>
+									<p class="txt">Leave it in the water</p>
 								</label>
 							</div>
 							<div class="item">
 								<label class="_sel">
-									<input type="radio" name="qa01" id="q-item01">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q01_item02.png" alt=""></p>
-									<p class="txt">Throw toilet paper</p>
+									<input type="radio" name="qa01" id="qa01_item02">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q02_item02.png" alt=""></p>
+									<p class="txt">Rub</p>
 								</label>
 							</div>
 							<div class="item">
 								<label class="_sel">
-									<input type="radio" name="qa01" id="q-item01">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q01_item03.png" alt=""></p>
-									<p class="txt">Throw a dry towel</p>
+									<input type="radio" name="qa01" id="qa01_item03">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q02_item03.png" alt=""></p>
+									<p class="txt">Press</p>
 								</label>
 							</div>
 						</div>
 
 						<div class="btn_area">
-							<a href="#" class="_btn btn_back">Back</a>
-							<a href="#" class="_btn btn_next">Next</a>
+							<a href="#" onclick="quizCheck('quiz01');return false;" class="_btn btn_next">Next</a>
 						</div>
+
+						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
 					</div>
+					<!--// quiz 01 -->
+
+					<!-- quiz 02 -->
+					<div class="quiz_wrap" id="quiz02">
+						<button class="btn_refresh" onclick="quizRefresh()"><span class="a11y">Refresh</span></button>
+						<div class="q_step"><strong>2</strong> / 10</div>
+						<p class="q_title">How to refresh your jeans other than washing?</p>
+
+						<div class="q_items">
+							<div class="item">
+								<label class="_sel">
+									<input type="radio" name="qa02" id="qa02_item01">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q07_item01.png" alt=""></p>
+									<p class="txt">Fridge</p>
+								</label>
+							</div>
+							<div class="item">
+								<label class="_sel">
+									<input type="radio" name="qa02" id="qa02_item02">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q07_item02.png" alt=""></p>
+									<p class="txt">Freezer</p>
+								</label>
+							</div>
+							<div class="item">
+								<label class="_sel">
+									<input type="radio" name="qa02" id="qa02_item03">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q07_item03.png" alt=""></p>
+									<p class="txt">Microwave</p>
+								</label>
+							</div>
+						</div>
+
+						<div class="btn_area">
+							<a href="#" class="_btn btn_back" onclick="quizBack('quiz01');return false;">Back</a>
+							<a href="#" class="_btn btn_next" onclick="quizCheck('quiz02');return false;">Next</a>
+						</div>
+						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
+					</div>
+					<!--// quiz 02 -->
+
+					<!-- quiz 03 -->
+					<div class="quiz_wrap" id="quiz03">
+						<button class="btn_refresh" onclick="quizRefresh()"><span class="a11y">Refresh</span></button>
+						<div class="q_step"><strong>3</strong> / 10</div>
+						<p class="q_title">When out of dryer sheets, what's another option?</p>
+
+						<div class="q_items">
+							<div class="item">
+								<label class="_sel">
+									<input type="radio" name="qa09" id="qa03_item01">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q09_item01.png" alt=""></p>
+									<p class="txt">A ball of aluminium foil</p>
+								</label>
+							</div>
+							<div class="item">
+								<label class="_sel">
+									<input type="radio" name="qa09" id="qa03_item02">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q09_item02.png" alt=""></p>
+									<p class="txt">A ball of yarn</p>
+								</label>
+							</div>
+							<div class="item">
+								<label class="_sel">
+									<input type="radio" name="qa09" id="qa03_item03">
+									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q09_item03.png" alt=""></p>
+									<p class="txt">A tennis ball</p>
+								</label>
+							</div>
+						</div>
+
+						<div class="btn_area">
+							<a href="#" class="_btn btn_back" onclick="quizBack('quiz02');return false;">Back</a>
+							<a href="#" class="_btn btn_next" onclick="quizCheck('quiz03');return false;">Next</a>
+						</div>
+						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
+					</div>
+					<!--// quiz 03 -->
 				</div>
 			</div>
 			<!--// clothing_quiz -->
@@ -502,29 +581,26 @@
 									<dl class="_item item01">
 										<dt><i></i>Fabric Protection</dt>
 										<dd>
-											Extend the life of your clothing with 18% more fabric protection by AI DD<sup>™</sup> Deep-learning technology
+											Protect your clothes from damage with low temperature heat pump technology
 											<p><a href="#" id="U803vsTGDPo" target="_blank" class="btn_watch">Watch<i></i></a></p>
 										</dd>
 									</dl>
 									<dl class="_item item02">
-										<dt><i></i>Energy Savings</dt>
+										<dt><i></i>Save energy</dt>
 										<dd>
-											Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash™
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
+											Save money and the planet with A+++ rated, energy-efficient DUAL Inverter Heat Pump™ dryer.<sup>1)</sup>
 										</dd>
 									</dl>
 									<dl class="_item item03">
-										<dt><i></i>Reduce Water Consumption</dt>
+										<dt><i></i>Minimize Environmental Impact</dt>
 										<dd>
-											Bigger washing capacity reduces water consumption
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
+											World's first dryer certified as a TUV Green product, recognizing our efforts to minimize environmental impact<sup>2)</sup>
 										</dd>
 									</dl>
 									<dl class="_item item04">
-										<dt><i></i>Eco-Friendly</dt>
+										<dt><i></i>Hygiene Care</dt>
 										<dd>
-											Use just the right amount of detergent conveniently without any chemical waste and save the planet with ezDispense™
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
+											Kill 99.9% bacteria and dust as fine as hair with Allergy Care program and Dual Filter<sup>3)</sup><sup>4)</sup>
 										</dd>
 									</dl>
 									<div class="btn_area">
@@ -543,31 +619,23 @@
 								</div>
 								<div class="desc">
 									<dl class="_item item01">
-										<dt><i></i>Fabric Protection</dt>
+										<dt><i></i>Fabric Protection from Drying Process</dt>
 										<dd>
-											Extend the life of your clothing with 18% more fabric protection by AI DD<sup>™</sup> Deep-learning technology
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
+											Dry delicates like lingerie and sweaters faster than air drying with low-temperature heat pump drying system
+											<p><a href="#" id="IRrMuJmIvA8" class="btn_watch">Watch<i></i></a></p>
 										</dd>
 									</dl>
 									<dl class="_item item02">
-										<dt><i></i>Energy Savings</dt>
+										<dt><i></i>Less Detergent &amp; Chemical Use</dt>
 										<dd>
-											Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash™
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
+											The high-temperature steam uses pure water - refreshing clothes without harsh chemicals or soaps often left by traditional dry cleaning.<sup>1)</sup>
+											<p><a href="#" id="EJVuTJOl1TM" class="btn_watch">Watch<i></i></a></p>
 										</dd>
 									</dl>
 									<dl class="_item item03">
-										<dt><i></i>Reduce Water Consumption</dt>
+										<dt><i></i>Hygienic Care</dt>
 										<dd>
-											Bigger washing capacity reduces water consumption
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
-										</dd>
-									</dl>
-									<dl class="_item item04">
-										<dt><i></i>Eco-Friendly</dt>
-										<dd>
-											Use just the right amount of detergent conveniently without any chemical waste and save the planet with ezDispense™
-											<p><a href="#" class="btn_watch">Watch<i></i></a></p>
+											TrueSteam<sup>™</sup> kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home.<sup>2)</sup>
 										</dd>
 									</dl>
 									<div class="btn_area">
@@ -627,19 +695,153 @@
 			</div>
 			<!--// 20210802 ui 추가 -->
 
+			<!-- popup: Quiz Result 02-->
+			<div class="layer_body popup QzTipLayer QzTips02" id="QzTips02" aria-hidden="true" role="dialog">
+				<div class="layer_wrap">
+					<div class="layer_close">
+						<button onclick="hlayerClose('QzTips02')" class="close_btn">close</button>
+					</div>
+					<div class="layer_inner">
+						<div class="layer_cont">
+							<h4>Become a master of clothing care tips!</h4>
+							<p class="q_tips">4. Press on the stain, over and over, to lift it out.<br>
+								Resist the urge to rub, or you might damage the fabric.</p>
+							<div class="q_option4u">
+								<p class="figure dryer" style="background-image:url('./care-for-what-you-wear2021/images/quiz/q_option4u-dryer.png');"><span class="a11y">ezDispense&trade;</span></p>
+								<div>
+									<p class="slogan"><span class="a11y">Another option for you</span></p>
+									<p class="txt">Or simply choose LG washer with <em>AI DD&trade; technology</em> that automatically senses the weight and fabric softness of your load to determine the optimal wash pattern with 18% more fabric protection.</p>
+								</div>
+							</div>
+							<div class="btn_area">
+								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips02');return false;">Try Again</a>
+								<a href="#" class="_btn btn_red" onclick="hlayerClose('QzTips02');return false;">Share</a>
+							</div>
+						</div>
+						<div class="promo_area">
+							<p class="slogan">Fancy a 10% off promo code?</p>
+							<div class="frm_field">
+								<dl class="frm">
+									<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
+									<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
+								</dl>
+								<dl class="frm">
+									<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
+									<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Quiz Result 02-->
+			<!-- popup: Quiz Result 07 -->
+			<div class="layer_body popup QzTipLayer QzTips07" id="QzTips07" aria-hidden="true" role="dialog">
+				<div class="layer_wrap">
+					<div class="layer_close">
+						<button onclick="hlayerClose('QzTips07')" class="close_btn">close</button>
+					</div>
+					<div class="layer_inner">
+						<div class="layer_cont">
+							<h4>Become a master of clothing care tips!</h4>
+							<p class="q_tips">If you like to wear your jeans more than once between washings, stick them in the freezer between wears. The frigid air will kill bacteria that can cause odor.</p>
+							<div class="q_option4u">
+								<p class="figure styler" style="background-image:url('./care-for-what-you-wear2021/images/quiz/q_option4u-styler.png');"><span class="a11y">TrueSteam&trade;</span></p>
+								<div>
+									<p class="slogan"><span class="a11y">Another option for you</span></p>
+									<p class="txt"><em>TrueSteam&trade;</em> kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home. A fine way to refresh clothing!</p>
+								</div>
+							</div>
+							<div class="btn_area">
+								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips07');return false;">Try Again</a>
+								<a href="#" class="_btn btn_red" onclick="hlayerClose('QzTips07');return false;">Share</a>
+							</div>
+						</div>
+						<div class="promo_area">
+							<p class="slogan">Fancy a 10% off promo code?</p>
+							<div class="frm_field">
+								<dl class="frm">
+									<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
+									<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
+								</dl>
+								<dl class="frm">
+									<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
+									<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Quiz Result 07 -->
+
+			<!-- popup: Quiz Result 09 -->
+			<div class="layer_body popup QzTipLayer QzTips09" id="QzTips09" aria-hidden="true" role="dialog">
+				<div class="layer_wrap">
+					<div class="layer_close">
+						<button onclick="hlayerClose('QzTips09')" class="close_btn">close</button>
+					</div>
+					<div class="layer_inner">
+						<div class="layer_cont">
+							<h4>Become a master of clothing care tips!</h4>
+							<p class="q_tips">If you’re out of dryer sheets, throw a ball of aluminium foil in your tumble dryer. <br>The aluminium will fight static buildup and help keep your clothing separated.</p>
+							<div class="q_option4u">
+								<p class="figure styler" style="background-image:url('./care-for-what-you-wear2021/images/quiz/q_option4u-styler.png');"><span class="a11y">Heat Pump Drying</span></p>
+								<div>
+									<p class="slogan"><span class="a11y">Another option for you</span></p>
+									<p class="txt">If out of dryer sheets, use LG Styler and dry faster than air drying with low-temperature heat pump drying system.</p>
+								</div>
+							</div>
+							<div class="btn_area">
+								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips09');return false;">Try Again</a>
+								<a href="#" class="_btn btn_red" onclick="hlayerClose('QzTips09');return false;">Share</a>
+							</div>
+						</div>
+						<div class="promo_area">
+							<p class="slogan">Fancy a 10% off promo code?</p>
+							<div class="frm_field">
+								<dl class="frm">
+									<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
+									<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
+								</dl>
+								<dl class="frm">
+									<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
+									<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Quiz Result 09 -->
+			
+
+			<!-- Quiz End popup -->
+			<div class="layer_body popup QzTipLayer" id="QzEnd" aria-hidden="true" role="dialog">
+				<div class="layer_wrap">
+					<div class="layer_close">
+						<button onclick="hlayerClose('QzEnd')" class="close_btn">close</button>
+					</div>
+					<div class="layer_inner">
+						<div class="layer_cont qzend-box">
+							<h4>You are Grade a Hero!</h4>
+							<p class="q_tips">All you need now is proper LG Clothing Care Solutions to practice the tips. Oh, you already have LG products? Applause for the real master then!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Quiz End popup -->
+
 			<div class="pop_ytiframe"><button class="btn-close"><span class="a11y">close</span></button></div>
 
+			<div id="btn_float" class="btn_float">
+				<a href="#btn_float-goto" class="btn_float_inner">
+					<div class="btn_float-vplay"><span class="a11y">play</span></div>
+					<p class="title">LG Clothing Care</p>
+				</a>
+			</div>
 		</div>
 		<!--// box_content-wrapper clothing-campaign -->
-
-		<!-- 20210802 ui 추가 -->
-		<div id="btn_float" class="btn_float">
-			<a href="#btn_float-goto" class="btn_float_inner">
-				<div class="btn_float-vplay"><span class="a11y">play</span></div>
-				<p class="title">LG Clothing Care</p>
-			</a>
-		</div>
-		<!--// 20210802 ui 추가 -->
 
 <!--// contents start -->		
 

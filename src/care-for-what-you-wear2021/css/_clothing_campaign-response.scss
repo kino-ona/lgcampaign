@@ -762,10 +762,11 @@
 					width: 100%;
 					margin-bottom: 23px;
 					dt {
+						max-width:75%;
 						padding-left: 65px;
 						font-size: 15px;
-						line-height: 1.5;
-						white-space: nowrap;
+						line-height: 1.3;
+						// white-space: nowrap;
 					}
 					dd {
 						max-width:100%;
@@ -1052,6 +1053,9 @@
 			dd {
 				margin-bottom: 10px;
 			}
+		}
+		.qzend-box {
+			padding-bottom:60%;
 		}
 	}
 }
