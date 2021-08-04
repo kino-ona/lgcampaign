@@ -19,10 +19,10 @@
 	<meta name="keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, net-a-porter, washing machine, dryer, styler" />
 	<meta name="description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
 	<meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
-	<meta property="og:url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
+	<meta property="og:url" content="https://studioohna.cafe24.com/lg/campaign.html" />
 	<meta property="og:description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
-	<meta property="og:image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg" />
-	<link rel="canonical" href="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
+	<meta property="og:image" content="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/images/@story_img01-mo.png" />
+	<link rel="canonical" href="ttps://studioohna.cafe24.com/lg/campaign.html" />
 
 	<link href="./lg5-common-gp/css/fonts.min.css" type="text/css" rel="stylesheet">
 	<link href="./lg5-common-gp/css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -127,6 +127,9 @@
 		<link href="./care-for-what-you-wear2021/css/clothing_campaign.css" type="text/css" rel="stylesheet">
 		
 		<div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
+			<div id="fb-root"></div>
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v11.0" nonce="9B3Eco74"></script>
+
 			<!-- 20210802 ui 추가 -->
 			<div id="btn_float-goto" class="box_main-title">
 			<!--// 20210802 ui 추가 -->
@@ -425,7 +428,7 @@
 						</div>
 
 						<div class="btn_area">
-							<a href="#" onclick="quizCheck('quiz01');return false;" class="_btn btn_next">Next</a>
+							<a href="#"  data-metaurl="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png" onclick="quizCheck('quiz01');return false;" class="_btn btn_next">Next</a>
 						</div>
 
 						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
@@ -713,9 +716,26 @@
 									<p class="txt">Or simply choose LG washer with <em>AI DD&trade; technology</em> that automatically senses the weight and fabric softness of your load to determine the optimal wash pattern with 18% more fabric protection.</p>
 								</div>
 							</div>
+							<style>
+								.fb-share-button > span {display: block;width:200px !important;height:50px !important;}
+								.fb-share-button iframe {width:200px !important;height:50px !important;}
+
+							</style>
+
 							<div class="btn_area">
 								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips02');return false;">Try Again</a>
-								<a href="#" class="_btn btn_red" onclick="hlayerClose('QzTips02');return false;">Share</a>
+								
+								<div class="fb-share-button" data-href="https://studioohna.cafe24.com/lg/campaign.html" style="border:1px solid red;width:200px;">
+									<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png&amp;src=https://studioohna.cafe24.com/lg/campaign.html" class="fb-xfbml-parse-ignore">공유하기</a>
+								</div>
+								<a class="twitter-share-button" target="_blank" data-metaurl="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png"
+									href="https://twitter.com/intent/tweet?text=LGCampaign&url=https://studioohna.cafe24.com/lg/campaign.html"
+									>Tweet</a>
+
+								
+
+								
+								<a href="https://twitter.com/home?status=https://www.lg.com/at/lg-magazine/umwelt-und-nachhaltigkeit" target="_blank" class="_btn btn_red">Share-twitter</a>
 							</div>
 						</div>
 						<div class="promo_area">
@@ -735,6 +755,7 @@
 				</div>
 			</div>
 			<!--// Quiz Result 02-->
+	
 			<!-- popup: Quiz Result 07 -->
 			<div class="layer_body popup QzTipLayer QzTips07" id="QzTips07" aria-hidden="true" role="dialog">
 				<div class="layer_wrap">
@@ -916,6 +937,16 @@
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/index.js"></script>
 
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/clothing_campaign.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.btn_next').click(function(	){
+					var imgurl = $(this).data('metaurl')
+					$("meta[name='twitter\\:card']").attr("content", imgurl);
+				});
+			});
+		</script>
+
 </body>
 
 </html>

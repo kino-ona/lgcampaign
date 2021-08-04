@@ -1307,9 +1307,6 @@
 				}
 
 				@media screen and (min-width:992px) and (max-width:1600px) {
-					// &:before {
-					// 	min-height:auto;
-					// }
 					padding:80px 6% 0;
 					.desc {
 						margin-top:0;
@@ -1322,6 +1319,31 @@
 						dd {
 							font-size:14px;
 						}
+					}
+				}
+				.box_view-item2 { 
+					.item01 dt > i{
+						background-image: url(../images/dryer_ico01.png);
+					}
+					.item02 dt > i{
+						background-image: url(../images/dryer_ico02.png);
+					}
+					.item03 dt > i{
+						background-image: url(../images/dryer_ico03.png);
+					}
+					.item04 dt > i{
+						background-image: url(../images/dryer_ico04.png);
+					}
+				}
+				.box_view-item3 { 
+					.item01 dt > i{
+						background-image: url(../images/styler_ico01.png);
+					}
+					.item02 dt > i{
+						background-image: url(../images/styler_ico02.png);
+					}
+					.item03 dt > i{
+						background-image: url(../images/styler_ico03.png);
 					}
 				}
 			} //.box_tab-view 
