@@ -21,7 +21,7 @@
 	<meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
 	<meta property="og:url" content="https://studioohna.cafe24.com/lg/campaign.html" />
 	<meta property="og:description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
-	<meta property="og:image" content="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/images/@story_img01-mo.png" />
+	<meta property="og:image" content="@" />
 	<link rel="canonical" href="ttps://studioohna.cafe24.com/lg/campaign.html" />
 
 	<link href="./lg5-common-gp/css/fonts.min.css" type="text/css" rel="stylesheet">
@@ -127,8 +127,6 @@
 		<link href="./care-for-what-you-wear2021/css/clothing_campaign.css" type="text/css" rel="stylesheet">
 		
 		<div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
-			<div id="fb-root"></div>
-			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v11.0" nonce="9B3Eco74"></script>
 
 			<!-- 20210802 ui 추가 -->
 			<div id="btn_float-goto" class="box_main-title">
@@ -350,12 +348,12 @@
 				
 				<div class="box_content-tab">
 					<ul class="list_tab-nav scroll-fade" role="tablist">
-						<li class="list-item item01"><a href="#thennow" id="anchor_tab1" data-toggle="pill"
-								adobe-click="" adobe-value="" data-link-name="" class="link active">Then &amp; Now</a></li>
-						<li class="list-item item02"><a href="#runway" id="anchor_tab2" data-toggle="pill"
-								adobe-click="" adobe-value="" data-link-name="" class="link">Runway</a></li>
-						<li class="list-item item03"><a href="#productreview" id="anchor_tab3" data-toggle="pill"
-								adobe-click="" adobe-value="" data-link-name="" class="link">Product Review</a></li>
+						<li class="list-item item01" id="thennow"><a href="#thennow" id="anchor_tab1" data-toggle="pill"
+								adobe-click="" adobe-value="" data-link-name="thennow" class="link active">Then &amp; Now</a></li>
+						<li class="list-item item02" id="runway"><a href="#runway" id="anchor_tab2" data-toggle="pill"
+								adobe-click="" adobe-value="" data-link-name="runway" class="link">Runway</a></li>
+						<li class="list-item item03" id="productreview"><a href="#productreview" id="anchor_tab3" data-toggle="pill"
+								adobe-click="" adobe-value="" data-link-name="productreview" class="link">Product Review</a></li>
 					</ul>
  
 					<div class="box_tab-view">
@@ -519,11 +517,11 @@
 				<p class="row-stit">How we care for our clothes directly impacts the environment. LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
 				<div class="box_content-tab">
 					<ul class="list_tab-nav scroll-fade" role="tablist">
-						<li class="list-item item01"><a href="#washer" id="anchor_tab1" data-toggle="pill"
+						<li class="list-item item01" id="washer"><a href="#washer" id="anchor_tab1" data-toggle="pill"
 								adobe-click="" adobe-value="" data-link-name="" class="link active">Washer</a></li>
-						<li class="list-item item02"><a href="#drayer" id="anchor_tab2" data-toggle="pill"
+						<li class="list-item item02" id="dryer"><a href="#drayer" id="anchor_tab2" data-toggle="pill"
 								adobe-click="" adobe-value="" data-link-name="" class="link">Dryer</a></li>
-						<li class="list-item item03"><a href="#styler" id="anchor_tab3" data-toggle="pill"
+						<li class="list-item item03" id="styler"><a href="#styler" id="anchor_tab3" data-toggle="pill"
 								adobe-click="" adobe-value="" data-link-name="" class="link">Styler</a></li>
 					</ul>
  
@@ -716,26 +714,11 @@
 									<p class="txt">Or simply choose LG washer with <em>AI DD&trade; technology</em> that automatically senses the weight and fabric softness of your load to determine the optimal wash pattern with 18% more fabric protection.</p>
 								</div>
 							</div>
-							<style>
-								.fb-share-button > span {display: block;width:200px !important;height:50px !important;}
-								.fb-share-button iframe {width:200px !important;height:50px !important;}
-
-							</style>
 
 							<div class="btn_area">
 								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips02');return false;">Try Again</a>
-								
-								<div class="fb-share-button" data-href="https://studioohna.cafe24.com/lg/campaign.html" style="border:1px solid red;width:200px;">
-									<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png&amp;src=https://studioohna.cafe24.com/lg/campaign.html" class="fb-xfbml-parse-ignore">공유하기</a>
-								</div>
-								<a class="twitter-share-button" target="_blank" data-metaurl="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png"
-									href="https://twitter.com/intent/tweet?text=LGCampaign&url=https://studioohna.cafe24.com/lg/campaign.html"
-									>Tweet</a>
-
-								
-
-								
-								<a href="https://twitter.com/home?status=https://www.lg.com/at/lg-magazine/umwelt-und-nachhaltigkeit" target="_blank" class="_btn btn_red">Share-twitter</a>
+								<a data-url="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png" onclick="facebookSubmit();" class="_btn btn_red">Facebook</a>
+								<a href="https://twitter.com/intent/tweet?text=LGCampaign&url=https://studioohna.cafe24.com/lg/campaign.html" target="_blank" class="_btn btn_red">Twitter</a>
 							</div>
 						</div>
 						<div class="promo_area">
@@ -937,15 +920,6 @@
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/index.js"></script>
 
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/clothing_campaign.js"></script>
-
-		<script>
-			$(document).ready(function(){
-				$('.btn_next').click(function(	){
-					var imgurl = $(this).data('metaurl')
-					$("meta[name='twitter\\:card']").attr("content", imgurl);
-				});
-			});
-		</script>
 
 </body>
 

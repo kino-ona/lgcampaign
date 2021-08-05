@@ -89,7 +89,9 @@ $(document).ready(function(){
 		});
 	}
 
+
 	if($('.clothing_sustain').length > 0){
+
 		$('.clothing_sustain .list_tab-nav .link').on('click', function(){
 			var buttonIdx = $(this).parent().index();
 			$(this).parents('.list_tab-nav').find('.link').removeClass('active');
@@ -142,8 +144,7 @@ $('.clothing-campaign .pop_ytiframe .btn-close').on('click', function(){
 	$('.clothing-campaign .pop_ytiframe').find('iframe').remove();
 })
 
-
-/* 20210722 responsive s */
+/* responsive s */
 $(document).ready(function(){
 	if($('#clothing_keyvisual').length > 0) {
 		$('#clothing_keyvisual').slick({
@@ -189,9 +190,8 @@ $(document).ready(function(){
 
 	}
 });
-/* 20210722 responsive e */
+/* responsive e */
 
-/* 20210727 layer popup control s */
 var isOpen = false;
 function hlayerOpen(layerId) {
 	var curPos = $(window).scrollTop();
@@ -219,8 +219,7 @@ function hlayerOpen(layerId) {
 function hlayerClose(layerId) {
 	var curPos = -(parseInt($('.clothing-campaign').css('top')));
 	$('#' + layerId).removeClass('is-visible');
-	$('#' + layerId).attr('aria-hidden', 'true');
-	// $('#' + layerId).removeAttr('open tabindex');
+	$('#' + layerId).attr('aria-hidden', 'true'); 
 	$('html').removeClass('noscroll');
 	if ($('[role="dialog"].is-visible').length < 1) {
 		$('html').removeClass('noscroll').find('.clothing-campaign').css({
@@ -230,9 +229,7 @@ function hlayerClose(layerId) {
 		isOpen = false;
 	}
 }
-/* 20210727 layer popup control e */
 
-/* 20210802 ui 추가 s */
 $(window).scroll(function(){
 	var gotoSec = $('#btn_float-goto').outerHeight(true);
 	if($(this).scrollTop() > gotoSec){
@@ -246,8 +243,6 @@ $('#btn_float').click(function(e){
 	e.preventDefault();
 	$('html, body').animate({scrollTop:gotoSec}, 400);
 });
-/* 20210802 ui 추가 e */
-
 
 function quizCheck(set) {
 	var quizId = $('#' + set);
@@ -308,3 +303,11 @@ function quizRefresh() {
 	$('#quiz01').addClass('show')
 }
 
+function facebookSubmit(set) {
+	var thisurl = 'https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png';
+	var quote = 'https://studioohna.cafe24.com/lg/campaign.html';
+	
+	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
+			var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
+			window.open(popUrl,"",popOption);
+	}
