@@ -69,13 +69,15 @@ $(document).ready(function(){
 	
 	if($('.clothing_story').length > 0){
 		$('.box_row-campaign .box_slide-wrap').slick({
+			autoplay: true,
+    	autoplaySpeed: 2000,
 			slide: 'div.box_slide-item',
 			dots:false,
 			infinite: true,
 			slidesToShow: 2,
 			centerMode: false,
-			nextArrow: '.slick-next',
-			prevArrow: '.slick-prev',
+			// nextArrow: '.slick-next',
+			// prevArrow: '.slick-prev',
 			responsive: [
 				{
 					breakpoint: 991,
@@ -111,24 +113,19 @@ $(document).ready(function(){
 		});
 	}
 
-	if($('.clothing_quiz').length > 0){
-		$('.quiz_wrap .item').each(function() {
-			var $Item = $(this);
-			$Item.find('label').on('click', function(){ 
-				$('.quiz_wrap .q_items').find('img').each(function() {
-					$(this).attr("src",$(this).attr("src").replace("-hover.png", ".png"))
-				});
-
-				if($(this).find('input:radio').is(':checked')){
-					$(this).parent('.item').addClass('checking');
-					$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace(".png", "-hover.png"))
-				}else{
-					$('.quiz_wrap .q_items .item').removeClass('checking');
-					$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace("-hover.png", ".png"))
-				}
-			});
-		});
-	}
+	// if($('.clothing_quiz').length > 0){
+	// 	$('.quiz_wrap .item').each(function() {
+	// 		var $Item = $(this);
+	// 		$Item.find('label').on('click', function(){ 
+	// 			$('.quiz_wrap .q_items .item').removeClass('checking');
+	// 			if($(this).find('input:radio').is(':checked')){
+	// 				$(this).parent('.item').addClass('checking');
+	// 			}else{
+	// 				$('.quiz_wrap .q_items .item').removeClass('checking');
+	// 			}
+	// 		});
+	// 	});
+	// }
 	
 });
 
@@ -310,4 +307,4 @@ function facebookSubmit(set) {
 	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
 			var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
 			window.open(popUrl,"",popOption);
-	}
+}

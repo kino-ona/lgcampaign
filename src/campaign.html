@@ -186,7 +186,6 @@
 							<a href="#" class="btn_play">PLAY<i></i></a>
 						</div>
 					</div>
-					<!-- <div class="slick-list"><div class="slick-track"></div></div> -->
 				</div>
 
 				<div id="clothing_keyvisual" class="over_text _mo">
@@ -268,8 +267,6 @@
 
 				<div class="visual">
 					<div class="story_slide">
-						<button class="slick-prev slick-arrow" adobe-click="" adobe-value="" data-link-name="" aria-label="Previous" type="button"><i></i>Previous</button>
-						<button class="slick-next slick-arrow" adobe-click="" adobe-value="" data-link-name="" aria-label="Next" type="button"><i></i>Next</button>
 						<div class="box_slide-wrap">
 							<div class="box_slide-item" data-slideidx="1">
 								<div class="box_slide-image">
@@ -395,119 +392,84 @@
 						</div>
 					</div>
 
-					<!-- quiz 01 -->
-					<div class="quiz_wrap show" id="quiz01">
-						<button class="btn_refresh" onclick="quizRefresh()"><span class="a11y">Refresh</span></button>
-						<div class="q_step"><strong>1</strong> / 10</div>
-						<p class="q_title">How do you remove stain on your shirt?</p>
+					<div id="quiz" class="quiz_wrap"></div>
+					<script>
+						const quizData = [
+							{
+								question:'What should you do when you\'re running short on drying time?',
+								answers:['Dry later','Throw toilet paper ','Throw a dry towel'],
+								tips:'When you’re running short on drying time, throw a dry towel in with the load. The towel will help absorb some of the moisture and help your clothes dry quicker.',
+								product:'Washer', usp:'TuboWash360',
+								feedback:'With TurboWash™360˚your laundry can be thoroughly cleaned in just 39 minutes without compromising fabric protection. Then there’s no need to rush on dry time!'},
+							{
+								question:'How do you remove stain on your shirt?',
+								answers:['Leave it in the water','Rub','Press'],
+								tips:'4. Press on the stain, over and over, to lift it out. Resist the urge to rub, or you might damage the fabric.',
+								product:'Washer', usp:'AI DD',
+								feedback:'Or simply choose LG washer with AI DD™ technology that automatically senses the weight and fabric softness of your load to determine the optimal wash pattern with 18% more fabric protection.'},
+							{
+								question:'How many times per summer should you wash your pants?',
+								answers:['Once','Twice','Weekly'],
+								tips:'Clean pants twice during the summer. And then when you’re done with the season, clean them once again before you put them back into your closet.',
+								product:'Washer', usp:'Bigger Capacity',
+								feedback:'Do you have piles of pants you wore along summer? Get more laundry done without having to increase the space needed for your washer.'},
+							{
+								question:'What should you use for shrunken t-shirt?',
+								answers:['Shampoo','Hair conditioner','Body wash'],
+								tips:'Did your favorite T-shirt shrink? Soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.',
+								product:'Dryer', usp:'DUAL Inverter Heat Pump',
+								feedback:'Or, you can protect your clothes from damage with LG dryer’s low temperature heat pump technology.'},
+							{
+								question:'Where should you put the clothes if clothes moths happen?',
+								answers:['Fridge','Freezer','Microwave'],
+								tips:'If you do find moths have taken up residence in an item, pop it in the freezer for 24 hours, take it out and bring to room temperature, and then repeat again.',
+								product:'Dryer', usp:'DUAL Inverter Heat Pump',
+								feedback:'LG Dryer kills 99.9% bacteria and dust as fine as hair with Allergy Care program and Dual Filter, can you imagine moths!'},
+							{
+								question:'Is softener good for wool laundry?',
+								answers:['Always','Sometimes','Never'],
+								tips:'Contrary to popular belief, the technical Woolmark Company lab in Melbourne says we are never supposed to use softener!',
+								product:'Styler', usp:'TrueSteam',
+								feedback:'How to clean wool without softener? LG Styler’s TrueSteam™ sanitizes fabrics that are hard to wash at home.'},
+							{
+								question:'How to refresh your jeans other than washing?',
+								answers:['Fridge','Freezer','Microwave'],
+								tips:'If you like to wear your jeans more than once between washings, stick them in the freezer between wears. The frigid air will kill bacteria that can cause odor.',
+								product:'Styler', usp:'TrueSteam',
+								feedback:'TrueSteam™ kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home. A fine way to refresh clothing!'},
+							{
+								question:'How should you store your t-shirts?',
+								answers:['Fold','Toss into a pile','Any way you want'],
+								tips:'Don’t hang your T-shirts, folding T-shirts keeps them fluffy.',
+								product:'Styler', usp:'TrueSteam',
+								feedback:'If wrinkled, simply use LG Styler with TrueSteam™ technology that uses hot, vaporized water to lift dirt and odors, while also sanitizing and de-wrinkling any clothing.'},
+							{
+								question:'When out of dryer sheets, what\'s another option?',
+								answers:['A ball of aluminium foil','A ball of plastic bag','A tennis ball'],
+								tips:'If you’re out of dryer sheets, throw a ball of aluminium foil in your tumble dryer. The aluminium will fight static buildup and help keep your clothing separated.',
+								product:'Styler', usp:'Heat Pump Drying',
+								feedback:'If out of dryer sheets, use LG Styler and dry faster than air drying with low-temperature heat pump drying system. '},
+							{
+								question:'How should you store your denims?',
+								answers:['Fold','Toss into a pile','Any way you want'],
+								tips:'Don’t worry about how you store your denim, whether folded neatly in a drawer or tossed into a pile on a chair',
+								product:'Styler', usp:'Moving Hanger',
+								feedback:'The patented hangers gently move side to side up to 200 times per minute, brushing off 99% of the fine dust found on your clothing and allowing steam to evenly smooth away the wrinkles. How’s that for denim jeans sound?'}
+					]
+						const messageData = {
+								backButton: 'Back',
+								nextButton: 'Next',
+								unselect: 'Please select an answer!',
+								tipsTitle: 'Become a master of clothing care tips!',
+								another: 'Another option for you',
+								tryButton: 'Try Again',
+								shareButton: 'Share',
+								promoTitle: 'Fancy a 10% off promo code?',
+								placeholderName: 'Enter your name',
+								placeholderEmail: 'Enter your E-mail'
+						}
+					</script>
 
-						<div class="q_items">
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa01" id="qa01_item01">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q02_item01.png" alt=""></p>
-									<p class="txt">Leave it in the water</p>
-								</label>
-							</div>
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa01" id="qa01_item02">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q02_item02.png" alt=""></p>
-									<p class="txt">Rub</p>
-								</label>
-							</div>
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa01" id="qa01_item03">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q02_item03.png" alt=""></p>
-									<p class="txt">Press</p>
-								</label>
-							</div>
-						</div>
-
-						<div class="btn_area">
-							<a href="#"  data-metaurl="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png" onclick="quizCheck('quiz01');return false;" class="_btn btn_next">Next</a>
-						</div>
-
-						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
-					</div>
-					<!--// quiz 01 -->
-
-					<!-- quiz 02 -->
-					<div class="quiz_wrap" id="quiz02">
-						<button class="btn_refresh" onclick="quizRefresh()"><span class="a11y">Refresh</span></button>
-						<div class="q_step"><strong>2</strong> / 10</div>
-						<p class="q_title">How to refresh your jeans other than washing?</p>
-
-						<div class="q_items">
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa02" id="qa02_item01">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q07_item01.png" alt=""></p>
-									<p class="txt">Fridge</p>
-								</label>
-							</div>
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa02" id="qa02_item02">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q07_item02.png" alt=""></p>
-									<p class="txt">Freezer</p>
-								</label>
-							</div>
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa02" id="qa02_item03">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q07_item03.png" alt=""></p>
-									<p class="txt">Microwave</p>
-								</label>
-							</div>
-						</div>
-
-						<div class="btn_area">
-							<a href="#" class="_btn btn_back" onclick="quizBack('quiz01');return false;">Back</a>
-							<a href="#" class="_btn btn_next" onclick="quizCheck('quiz02');return false;">Next</a>
-						</div>
-						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
-					</div>
-					<!--// quiz 02 -->
-
-					<!-- quiz 03 -->
-					<div class="quiz_wrap" id="quiz03">
-						<button class="btn_refresh" onclick="quizRefresh()"><span class="a11y">Refresh</span></button>
-						<div class="q_step"><strong>3</strong> / 10</div>
-						<p class="q_title">When out of dryer sheets, what's another option?</p>
-
-						<div class="q_items">
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa09" id="qa03_item01">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q09_item01.png" alt=""></p>
-									<p class="txt">A ball of aluminium foil</p>
-								</label>
-							</div>
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa09" id="qa03_item02">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q09_item02.png" alt=""></p>
-									<p class="txt">A ball of yarn</p>
-								</label>
-							</div>
-							<div class="item">
-								<label class="_sel">
-									<input type="radio" name="qa09" id="qa03_item03">
-									<p class="figure"><img src="./care-for-what-you-wear2021/images/quiz/q09_item03.png" alt=""></p>
-									<p class="txt">A tennis ball</p>
-								</label>
-							</div>
-						</div>
-
-						<div class="btn_area">
-							<a href="#" class="_btn btn_back" onclick="quizBack('quiz02');return false;">Back</a>
-							<a href="#" class="_btn btn_next" onclick="quizCheck('quiz03');return false;">Next</a>
-						</div>
-						<a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
-					</div>
-					<!--// quiz 03 -->
 				</div>
 			</div>
 			<!--// clothing_quiz -->
@@ -651,34 +613,6 @@
 			</div>
 			<!--// clothing_product -->
 
-			<!--
-			<div class="clothing_project box_row-campaign">
-				<p class="row-tit">Climate Resilience project</p>
-				<p class="row-stit">LG will make a donation of USD 100,000 to OXFAM, with plans to run a Climate Resilience project in Nepal.
-					Nepal is facing increasing climate-related disasters such as floods, landslides anddroughts brough in part from excessive clothing production and consumption.<br>
-					This project supports community-based organisations in one of the most vulnerable provinces in Nepal to improve knowledge of climate change, offer training on climate-smart livelihoods, and enhance the capability of local organisations to influence local decision-making and raise income.</p>
-
-					<div class="proj_step">
-						<div class="_step step01">
-							<p class="st-ico"><span class="a11y">CUSTOMER</span></p>
-							<p class="st-logo"><img src="./care-for-what-you-wear2021/images/project_logo01.png" alt="CUSTOMER"></p>
-						</div>
-						<div class="_step step02">
-							<p class="st-ico"><span class="a11y">LG</span></p>
-							<p class="st-logo"><img src="./care-for-what-you-wear2021/images/project_logo02.png" alt="LG"></p>
-						</div>
-						<div class="_step step03">
-							<p class="st-ico"><span class="a11y">OXFORM</span></p>
-							<p class="st-logo">
-								<img src="./care-for-what-you-wear2021/images/project_logo03.png" alt="OXFORM">
-								<a href="#" class="btn_more">Explorer OXFAM<i></i></a>
-							</p>
-						</div>
-					</div>
-			</div>
-			-->
-
-			<!-- 20210802 ui 추가 -->
 			<div class="promo_area box_row-campaign">
 				<div>
 					<p class="slogan">Fancy a 10% off promo code?</p>
@@ -694,147 +628,6 @@
 					</div>
 				</div>
 			</div>
-			<!--// 20210802 ui 추가 -->
-
-			<!-- popup: Quiz Result 02-->
-			<div class="layer_body popup QzTipLayer QzTips02" id="QzTips02" aria-hidden="true" role="dialog">
-				<div class="layer_wrap">
-					<div class="layer_close">
-						<button onclick="hlayerClose('QzTips02')" class="close_btn">close</button>
-					</div>
-					<div class="layer_inner">
-						<div class="layer_cont">
-							<h4>Become a master of clothing care tips!</h4>
-							<p class="q_tips">4. Press on the stain, over and over, to lift it out.<br>
-								Resist the urge to rub, or you might damage the fabric.</p>
-							<div class="q_option4u">
-								<p class="figure dryer" style="background-image:url('./care-for-what-you-wear2021/images/quiz/q_option4u-dryer.png');"><span class="a11y">ezDispense&trade;</span></p>
-								<div>
-									<p class="slogan"><span class="a11y">Another option for you</span></p>
-									<p class="txt">Or simply choose LG washer with <em>AI DD&trade; technology</em> that automatically senses the weight and fabric softness of your load to determine the optimal wash pattern with 18% more fabric protection.</p>
-								</div>
-							</div>
-
-							<div class="btn_area">
-								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips02');return false;">Try Again</a>
-								<a data-url="https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png" onclick="facebookSubmit();" class="_btn btn_red">Facebook</a>
-								<a href="https://twitter.com/intent/tweet?text=LGCampaign&url=https://studioohna.cafe24.com/lg/campaign.html" target="_blank" class="_btn btn_red">Twitter</a>
-							</div>
-						</div>
-						<div class="promo_area">
-							<p class="slogan">Fancy a 10% off promo code?</p>
-							<div class="frm_field">
-								<dl class="frm">
-									<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
-									<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
-								</dl>
-								<dl class="frm">
-									<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
-									<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
-								</dl>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// Quiz Result 02-->
-	
-			<!-- popup: Quiz Result 07 -->
-			<div class="layer_body popup QzTipLayer QzTips07" id="QzTips07" aria-hidden="true" role="dialog">
-				<div class="layer_wrap">
-					<div class="layer_close">
-						<button onclick="hlayerClose('QzTips07')" class="close_btn">close</button>
-					</div>
-					<div class="layer_inner">
-						<div class="layer_cont">
-							<h4>Become a master of clothing care tips!</h4>
-							<p class="q_tips">If you like to wear your jeans more than once between washings, stick them in the freezer between wears. The frigid air will kill bacteria that can cause odor.</p>
-							<div class="q_option4u">
-								<p class="figure styler" style="background-image:url('./care-for-what-you-wear2021/images/quiz/q_option4u-styler.png');"><span class="a11y">TrueSteam&trade;</span></p>
-								<div>
-									<p class="slogan"><span class="a11y">Another option for you</span></p>
-									<p class="txt"><em>TrueSteam&trade;</em> kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home. A fine way to refresh clothing!</p>
-								</div>
-							</div>
-							<div class="btn_area">
-								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips07');return false;">Try Again</a>
-								<a href="#" class="_btn btn_red" onclick="hlayerClose('QzTips07');return false;">Share</a>
-							</div>
-						</div>
-						<div class="promo_area">
-							<p class="slogan">Fancy a 10% off promo code?</p>
-							<div class="frm_field">
-								<dl class="frm">
-									<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
-									<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
-								</dl>
-								<dl class="frm">
-									<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
-									<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
-								</dl>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// Quiz Result 07 -->
-
-			<!-- popup: Quiz Result 09 -->
-			<div class="layer_body popup QzTipLayer QzTips09" id="QzTips09" aria-hidden="true" role="dialog">
-				<div class="layer_wrap">
-					<div class="layer_close">
-						<button onclick="hlayerClose('QzTips09')" class="close_btn">close</button>
-					</div>
-					<div class="layer_inner">
-						<div class="layer_cont">
-							<h4>Become a master of clothing care tips!</h4>
-							<p class="q_tips">If you’re out of dryer sheets, throw a ball of aluminium foil in your tumble dryer. <br>The aluminium will fight static buildup and help keep your clothing separated.</p>
-							<div class="q_option4u">
-								<p class="figure styler" style="background-image:url('./care-for-what-you-wear2021/images/quiz/q_option4u-styler.png');"><span class="a11y">Heat Pump Drying</span></p>
-								<div>
-									<p class="slogan"><span class="a11y">Another option for you</span></p>
-									<p class="txt">If out of dryer sheets, use LG Styler and dry faster than air drying with low-temperature heat pump drying system.</p>
-								</div>
-							</div>
-							<div class="btn_area">
-								<a href="#" class="_btn btn_gray" onclick="hlayerClose('QzTips09');return false;">Try Again</a>
-								<a href="#" class="_btn btn_red" onclick="hlayerClose('QzTips09');return false;">Share</a>
-							</div>
-						</div>
-						<div class="promo_area">
-							<p class="slogan">Fancy a 10% off promo code?</p>
-							<div class="frm_field">
-								<dl class="frm">
-									<dt aria-hidden="true"><label for="UserName"><span class="required"><span class="a11y">required</span></span></label></dt>
-									<dd><input type="text" id="UserName" placeholder="Enter your name"></dd>
-								</dl>
-								<dl class="frm">
-									<dt aria-hidden="true"><label for="UserEmail"><span class="required"><span class="a11y">required</span></span></label></dt>
-									<dd><input type="email" id="UserEmail" placeholder="Enter your E-mail"></dd>
-								</dl>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// Quiz Result 09 -->
-			
-
-			<!-- Quiz End popup -->
-			<div class="layer_body popup QzTipLayer" id="QzEnd" aria-hidden="true" role="dialog">
-				<div class="layer_wrap">
-					<div class="layer_close">
-						<button onclick="hlayerClose('QzEnd')" class="close_btn">close</button>
-					</div>
-					<div class="layer_inner">
-						<div class="layer_cont qzend-box">
-							<h4>You are Grade a Hero!</h4>
-							<p class="q_tips">All you need now is proper LG Clothing Care Solutions to practice the tips. Oh, you already have LG products? Applause for the real master then!</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// Quiz End popup -->
 
 			<div class="pop_ytiframe"><button class="btn-close"><span class="a11y">close</span></button></div>
 
@@ -918,8 +711,8 @@
 
 		<!-- <script type="text/javascript" src="https://www.lg.com/uk/appliances/care-for-what-you-wear/js/index.js"></script> -->
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/index.js"></script>
-
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/clothing_campaign.js"></script>
+		<script type="text/javascript" src="./care-for-what-you-wear2021/js/quiz.js"></script>
 
 </body>
 

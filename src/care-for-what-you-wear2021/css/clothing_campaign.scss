@@ -388,14 +388,14 @@
 		padding-top:45%;
 		background: {
 			color:#000000;
-			image: url(../images/visual_bgcut.png);
+			// image: url(../images/visual_bgcut.png);
 			size: cover;
 			repeat: no-repeat;
 			position:center center;
 		}
-		&.origin {
-			background-image: url(../images/visual_bgcut.png);
-		}
+		// &.origin {
+		// 	background-image: url(../images/visual_bgcut.png);
+		// }
 		&.active {
 			background-image: none;
 		}
@@ -465,6 +465,11 @@
 		&:after {
 			@extend %clearer;
 		}
+		&:hover {
+			.item:not(.item_title) {
+				background-image: none !important;
+			}
+		}
 		.item {
 			position:relative;
 			float:left;
@@ -478,10 +483,12 @@
 					p {
 						font-size:20px;
 						font-weight:700;
-						color:rgba(213,213,213, 0.3);
+						// color:rgba(213,213,213, 0.3);
+						color:rgba(255, 255, 255, 1);
 						text-align: center;
 						letter-spacing: 8px;
 						@include transition(.2s, ease-in-out);
+						opacity:1;
 						> span {
 							display: block;
 							margin-top:5px;
@@ -489,6 +496,7 @@
 							font-weight: inherit;
 							color:inherit;
 							letter-spacing: 1px;
+							opacity:1;
 						}
 					}
 				}
@@ -496,10 +504,38 @@
 					.sub_print {
 						p {
 							color:rgba(213,213,213, 1);
+							color:rgba(255, 255, 255, 1);
 						}
 						.btn_play {
 							display: inline-block;
 						}
+					}
+				}
+				&:nth-child(2) {
+					opacity:0.3;
+					background: {
+						image: url(../images/visual_bgcut.png);
+						size:cover;
+						position:center center;
+						repeat: no-repeat;
+					}
+				}
+				&:nth-child(3) {
+					opacity:0.3;
+					background: {
+						image: url(../images/visual_bgcut.png);
+						size:cover;
+						position:center center;
+						repeat: no-repeat;
+					}
+				}
+				&:nth-child(4) {
+					opacity:0.3;
+					background: {
+						image: url(../images/visual_bgcut.png);
+						size:cover;
+						position:center center;
+						repeat: no-repeat;
 					}
 				}
 			}
@@ -548,7 +584,8 @@
 		.btn_play {
 			display: none;
 			margin-top:10px;
-			font-size:14px;
+			font-size:16px;
+			font-weight: 700;
 			color:#FBD431;
 			letter-spacing: 5px;
 			i {
@@ -594,6 +631,7 @@
 					repeat: no-repeat;
 					position: right center;
 				}
+				font-size:18px;
 				font-weight: 700;
 				color:#B50031;
 			}
@@ -1007,7 +1045,7 @@
 			}
 		}
 		.quiz_wrap {
-			display: none;
+			// display: none;
 			position:relative;
 			width:100%;
 			margin:0 auto;
@@ -1040,8 +1078,10 @@
 			margin-bottom: 50px; //임시
 		}
 		.q_step {
+			font-size:20px;
 			color:#999;
 			strong {
+				font-size:20px;
 				font-weight: 700;
 				color:#000;
 			}
@@ -1073,6 +1113,11 @@
 				// 		}
 				// 	}
 				// }
+				&.checking {
+					.figure { 
+						border:6px solid red;
+					}
+				}
 			}
 			.figure {
 				position:relative;
@@ -1081,6 +1126,7 @@
 				padding-bottom:100%;
 				overflow: hidden;
 				cursor: pointer;
+				border:0;
 				img {
 					position:absolute;
 					left:50%;
@@ -1301,6 +1347,7 @@
 							repeat: no-repeat;
 							position: right 1px center;
 						}
+						font-size:18px;
 						font-weight: 700;
 						color:#B50031;
 					}
