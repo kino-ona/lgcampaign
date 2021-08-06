@@ -227,19 +227,19 @@ function hlayerClose(layerId) {
 	}
 }
 
-$(window).scroll(function(){
-	var gotoSec = $('#btn_float-goto').outerHeight(true);
-	if($(this).scrollTop() > gotoSec){
-		$('#btn_float').css('display', 'block');
-	}else{
-		$('#btn_float').css('display', 'none');
-	}
-});
-$('#btn_float').click(function(e){
-	var gotoSec = $('#btn_float-goto').outerHeight(true);
-	e.preventDefault();
-	$('html, body').animate({scrollTop:gotoSec}, 400);
-});
+// $(window).scroll(function(){
+// 	var gotoSec = $('#btn_float-goto').outerHeight(true);
+// 	if($(this).scrollTop() > gotoSec){
+// 		$('#btn_float').css('display', 'block');
+// 	}else{
+// 		$('#btn_float').css('display', 'none');
+// 	}
+// });
+// $('#btn_float').click(function(e){
+// 	var gotoSec = $('#btn_float-goto').outerHeight(true);
+// 	e.preventDefault();
+// 	$('html, body').animate({scrollTop:gotoSec}, 400);
+// });
 
 function quizCheck(set) {
 	var quizId = $('#' + set);

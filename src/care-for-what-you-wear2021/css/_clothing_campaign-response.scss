@@ -132,6 +132,9 @@
 	}
 	.clothing_keyvisual {
 		padding-top: 133.335%;
+		background: {
+			image: url(../images/visual_bgcut.png);
+		}
 	}
 	.vodbg {
 		video {
@@ -187,6 +190,7 @@
 			width: 100%;
 			height: 140px; //auto
 			background-color:rgba(0,0,0, .8);
+			background-image: none !important;
 			.sub_print {
 				padding: 15px 20px 20px 20px;
 				text-align: left;
