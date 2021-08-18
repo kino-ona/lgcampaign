@@ -76,8 +76,8 @@ $(document).ready(function(){
 			infinite: true,
 			slidesToShow: 2,
 			centerMode: false,
-			// nextArrow: '.slick-next',
-			// prevArrow: '.slick-prev',
+			nextArrow: '.slick-next',
+			prevArrow: '.slick-prev',
 			responsive: [
 				{
 					breakpoint: 991,
