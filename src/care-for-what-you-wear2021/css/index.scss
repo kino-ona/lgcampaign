@@ -38,7 +38,16 @@
 			 url(/lg5-common-gp/webfonts/LGSmHaL.woff) format("woff")
 }
 
-/* 20210727 ui s */
+.box_content-info{padding:60px 0;margin-left:-15px;margin-right:-15px;background-color: #f5f5f5;}
+.box_content-info .box_info-inner{max-width:1280px;margin:0 auto}
+.box_content-info .box_info-inner .text_emphasis,
+.box_content-info .box_info-inner .text_strong,
+.box_content-info .box_info-inner .list_detail-info .list-item{font-size:14px;line-height:20px;color:#6b6b6b;font-weight:300;font-weight:400;}
+.box_content-info .box_info-inner .text_emphasis{margin:0;padding-bottom:15px;border-bottom:1px solid #e4e4e4;}
+.box_content-info .box_info-inner .box_product-info{margin-top:15px}
+.box_footer-wrap {
+  margin: 0 -15px;
+}
 .a11y {
 	position: absolute;
 	width: 1px;
@@ -97,7 +106,7 @@
 		width: 40px;
 		height: 40px;
 		background: {
-			image: url(../images/btn_close-popup.png);
+			image: url(/uk/appliances/care-for-what-you-wear_test/images/btn_close-popup.png);
 			size: 40px;
 			repeat: no-repeat;
 			position: center center;
@@ -133,8 +142,6 @@
 		display: block;
 	}
 }
-/* 20210727 ui e */
-/* 20210802 ui s */
 #btn_float {
 	display: none;
 	z-index: 99;
@@ -146,7 +153,7 @@
 	height: 130px;
 	box-sizing: border-box;
 	background: {
-		image: url(../images/btn-float.png);
+		image: url(/uk/appliances/care-for-what-you-wear_test/images/btn-float.png);
 		size: 100%;
 		repeat: no-repeat;
 		position: 0 0;
@@ -177,7 +184,7 @@
 		height: 24px;
 		margin: 0 auto;
 		background: {
-			image: url(../images/btn-float_vplay.png);
+			image: url(/uk/appliances/care-for-what-you-wear_test/images/btn-float_vplay.png);
 			size: 18px;
 			repeat: no-repeat;
 			position: center center;
@@ -195,17 +202,9 @@
 		font-weight: 700;
 	}
 }
-/* 20210802 ui e */
-.box_content-info{padding:60px 0;margin-left:-15px;margin-right:-15px;background-color: #f5f5f5;}
-.box_content-info .box_info-inner{max-width:1280px;margin:0 auto}
-.box_content-info .box_info-inner .text_emphasis,
-.box_content-info .box_info-inner .text_strong,
-.box_content-info .box_info-inner .list_detail-info .list-item{font-size:14px;line-height:20px;color:#6b6b6b;font-weight:300;font-weight:400;}
-.box_content-info .box_info-inner .text_emphasis{margin:0;padding-bottom:15px;border-bottom:1px solid #e4e4e4;}
-.box_content-info .box_info-inner .box_product-info{margin-top:15px}
+
 .clothing-campaign {
 	* {
-		// font-family: "LGSmartH", "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
 		font-family: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
 	}
 	ul, li, dt, dd, dl {margin:0;padding:0;}
@@ -300,7 +299,7 @@
 						width:100%;
 						height:100%;
 						background: {
-							image: url(../images/sustab_over.png);
+							image: url(/uk/appliances/care-for-what-you-wear_test/images/sustab_over.png);
 							size:auto 34px;
 							repeat: no-repeat;
 							position: left 45px bottom;
@@ -400,7 +399,7 @@
 			position:relative;
 			width:100%;
 			background: {
-				image: url(../images/dot_line.png);
+				image: url(/uk/appliances/care-for-what-you-wear_test/images/dot_line.png);
 				size:auto 1px;
 				repeat: repeat-x;
 				position: 0 center;
@@ -435,11 +434,10 @@
 			repeat: no-repeat;
 			position:center center;
 		}
-		overflow: hidden;
 		&.active {
 			background-image: none;
 		}
-		@media screen and (min-width:1940px) {
+    @media screen and (min-width:1940px) {
 			padding-top:860px;
 		}
 	}
@@ -486,7 +484,7 @@
 				border:0;
 				background: {
 					color:transparent;
-					image: url(../images/btn_close-popup.png);
+					image: url(/uk/appliances/care-for-what-you-wear_test/images/btn_close-popup.png);
 					size:cover;
 					position:center center;
 					repeat: no-repeat;
@@ -516,7 +514,6 @@
 		.item {
 			position:relative;
 			float:left;
-			// width:calc(100% / 4);
 			width:calc(100% / 3);
 			height:100%;
 			&:not(.item_title) {
@@ -535,7 +532,6 @@
 					p {
 						font-size:20px;
 						font-weight:700;
-						// color:rgba(213,213,213, 0.3);
 						color:rgba(255, 255, 255, 1);
 						text-align: center;
 						letter-spacing: 8px;
@@ -564,7 +560,7 @@
 				}
 				&:nth-child(1) {
 					background: {
-						image: url(../images/visual_bgcut.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/visual_bgcut.png);
 						size:cover;
 						position:center center;
 						repeat: no-repeat;
@@ -572,7 +568,7 @@
 				}
 				&:nth-child(2) {
 					background: {
-						image: url(../images/visual_bgcut.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/visual_bgcut.png);
 						size:cover;
 						position:center center;
 						repeat: no-repeat;
@@ -580,7 +576,7 @@
 				}
 				&:nth-child(3) {
 					background: {
-						image: url(../images/visual_bgcut.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/visual_bgcut.png);
 						size:cover;
 						position:center center;
 						repeat: no-repeat;
@@ -591,7 +587,7 @@
 		.item_title {
 			background: {
 				color:#000;
-				image: url(../images/visual_elimg01.png);
+				image: url(/uk/appliances/care-for-what-you-wear_test/images/visual_elimg01.png);
 				size: 70%;
 				repeat: no-repeat;
 				position:center bottom 45px;
@@ -675,7 +671,7 @@
 				margin-top:60px;
 				padding-right:18px;
 				background: {
-					image: url(../images/ico_morevw.png);
+					image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_morevw.png);
 					size: 14px;
 					repeat: no-repeat;
 					position: right center;
@@ -690,7 +686,7 @@
 			width:44.4%;
 			height:100%;
 			background: {
-				image: url(../images/story_bgcut.png);
+				image: url(/uk/appliances/care-for-what-you-wear_test/images/story_bgcut.png);
 				size: cover;
 				repeat: no-repeat;
 				position: right center;
@@ -709,7 +705,7 @@
 				width:78px;
 				height:56px;
 				background: {
-					image: url(../images/story_cut01.png);
+					image: url(/uk/appliances/care-for-what-you-wear_test/images/story_cut01.png);
 					size:cover;
 					position:0 0;
 					repeat: no-repeat;
@@ -724,7 +720,7 @@
 					width:63px;
 					height:36px;
 					background: {
-						image: url(../images/story_cut02.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/story_cut02.png);
 						size:cover;
 						position:0 0;
 						repeat: no-repeat;
@@ -816,7 +812,7 @@
 		padding:120px 0 0;
 		background-color: #FAF4F1;
 		background: {
-			image: url(../images/goods_bgcut-1.png);
+			image: url(/uk/appliances/care-for-what-you-wear_test/images/goods_bgcut-1.png);
 			size: 28.5%;
 			repeat: no-repeat;
 			position: left -2% top 45%;
@@ -886,7 +882,7 @@
 					display: inline-block;
 					padding-right:18px;
 					background: {
-						image: url(../images/ico_morevw.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_morevw.png);
 						size: 14px;
 						repeat: no-repeat;
 						position: right center;
@@ -924,17 +920,17 @@
 				}
 				.btn_yt {
 					i {
-						background-image: url(../images/ico_youtube.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_youtube.png);
 					}
 				}
 				.btn_fb {
 					i {
-						background-image: url(../images/ico_facebook.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_facebook.png);
 					}
 				}
 				.btn_ins {
 					i {
-						background-image: url(../images/ico_instagram.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_instagram.png);
 					}
 				}
 			}
@@ -979,7 +975,7 @@
 			height:820px;
 			margin:0 auto 0;
 			background: {
-				image: url(../images/sustain_bgcut.png);
+				image: url(/uk/appliances/care-for-what-you-wear_test/images/sustain_bgcut.png);
 				size:57%;
 				repeat: no-repeat;
 				position:0 0;
@@ -990,13 +986,13 @@
 			margin-top:35px;
 			.list-item {
 				&.item01 {
-					background-image: url('../images/ico_sus01.png');
+					background-image: url('/uk/appliances/care-for-what-you-wear_test/images/ico_sus01.png');
 				}
 				&.item02 {
-					background-image: url('../images/ico_sus02.png');
+					background-image: url('/uk/appliances/care-for-what-you-wear_test/images/ico_sus02.png');
 				}
 				&.item03 {
-					background-image: url('../images/ico_sus03.png');
+					background-image: url('/uk/appliances/care-for-what-you-wear_test/images/ico_sus03.png');
 				}
 			}
 			.box_view-detail {
@@ -1021,7 +1017,7 @@
 	.clothing_quiz {
 		padding:120px 0 150px;
 		background: {
-			image: url(../images/quiz_bgcut-1.png);
+			image: url(/uk/appliances/care-for-what-you-wear_test/images/quiz_bgcut-1.png);
 			size:cover;
 			repeat: no-repeat;
 			position:center center;
@@ -1076,7 +1072,7 @@
 				font-size: 24px;
 				font-weight: 700;
 				background: {
-					image: url(../images/ico_crown.png);
+					image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_crown.png);
 					size:33px;
 					repeat: no-repeat;
 					position: left 13px top 7px;
@@ -1117,7 +1113,7 @@
 				height:30px;
 				background: {
 					color:transparent;
-					image: url(../images/ico_refresh.png);
+					image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_refresh.png);
 					size:cover;
 					repeat: no-repeat;
 					position: center center;
@@ -1207,6 +1203,9 @@
 		.btn_area {
 			width: 100%;
 			text-transform: uppercase;
+      a {
+        cursor: pointer;
+      }
 		}
 		.btn_terms {
 			position: absolute;
@@ -1245,7 +1244,7 @@
 					padding:25px 0 25px 75px;
 					&.active, &:hover {
 						&:before {
-							background-image: url(../images/prodtab_over.png);
+							background-image: url(/uk/appliances/care-for-what-you-wear_test/images/prodtab_over.png);
 							background-size:auto 34px;
 						}
 					}
@@ -1253,16 +1252,16 @@
 			}
 			.list-item {
 				&.item01 {
-					background-image: url('../images/ico_prod01.png');
+					background-image: url('/uk/appliances/care-for-what-you-wear_test/images/ico_prod01.png');
 				}
 				&.item02 {
-					background-image: url('../images/ico_prod02.png');
+					background-image: url('/uk/appliances/care-for-what-you-wear_test/images/ico_prod02.png');
 				}
 				&.item03 {
 					.link {
 						padding-left:60px;
 					}
-					background-image: url('../images/ico_prod03.png');
+					background-image: url('/uk/appliances/care-for-what-you-wear_test/images/ico_prod03.png');
 					background-size:40px;
 				}
 			}
@@ -1281,7 +1280,7 @@
 					display: block;
 					background: {
 						color:#FAF9E8;
-						image: url(../images/product_boxbg.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/product_boxbg.png);
 						repeat: no-repeat;
 						position: left -80px bottom -150px;
 						size: 50%;
@@ -1360,25 +1359,25 @@
 					}
 					&.item01 {
 						dt > i {
-							background-image: url(../images/washer_ico01.png);
+							background-image: url(/uk/appliances/care-for-what-you-wear_test/images/washer_ico01.png);
 							background-size:42px;
 						}
 					}
 					&.item02 {
 						dt > i {
-							background-image: url(../images/washer_ico02.png);
+							background-image: url(/uk/appliances/care-for-what-you-wear_test/images/washer_ico02.png);
 							background-size:35px;
 						}
 					}
 					&.item03 {
 						dt > i {
-							background-image: url(../images/washer_ico03.png);
+							background-image: url(/uk/appliances/care-for-what-you-wear_test/images/washer_ico03.png);
 							background-size:39px;
 						}
 					}
 					&.item04 {
 						dt > i {
-							background-image: url(../images/washer_ico04.png);
+							background-image: url(/uk/appliances/care-for-what-you-wear_test/images/washer_ico04.png);
 							background-size:34px;
 						}
 						dd {
@@ -1391,7 +1390,7 @@
 						margin-top:10px;
 						padding-right:18px;
 						background: {
-							image: url(../images/ico_morevw.png);
+							image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_morevw.png);
 							size: 14px;
 							repeat: no-repeat;
 							position: right 1px center;
@@ -1419,27 +1418,27 @@
 				}
 				.box_view-item2 { 
 					.item01 dt > i{
-						background-image: url(../images/dryer_ico01.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/dryer_ico01.png);
 					}
 					.item02 dt > i{
-						background-image: url(../images/dryer_ico02.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/dryer_ico02.png);
 					}
 					.item03 dt > i{
-						background-image: url(../images/dryer_ico03.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/dryer_ico03.png);
 					}
 					.item04 dt > i{
-						background-image: url(../images/dryer_ico04.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/dryer_ico04.png);
 					}
 				}
 				.box_view-item3 { 
 					.item01 dt > i{
-						background-image: url(../images/styler_ico01.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/styler_ico01.png);
 					}
 					.item02 dt > i{
-						background-image: url(../images/styler_ico02.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/styler_ico02.png);
 					}
 					.item03 dt > i{
-						background-image: url(../images/styler_ico03.png);
+						background-image: url(/uk/appliances/care-for-what-you-wear_test/images/styler_ico03.png);
 					}
 				}
 			} //.box_tab-view 
@@ -1469,7 +1468,7 @@
 					width:46px;
 					height:20px;
 					background: {
-						image: url(../images/project_arrow.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/project_arrow.png);
 						repeat: no-repeat;
 						position:	0 0;
 						size: auto 19px;
@@ -1497,7 +1496,7 @@
 			}
 			.step01 {
 				.st-ico {
-					background-image: url(../images/project_ico01.png);
+					background-image: url(/uk/appliances/care-for-what-you-wear_test/images/project_ico01.png);
 					background-size: 123px;
 				}
 				.st-logo {
@@ -1508,7 +1507,7 @@
 			}
 			.step02 {
 				.st-ico {
-					background-image: url(../images/project_ico02.png);
+					background-image: url(/uk/appliances/care-for-what-you-wear_test/images/project_ico02.png);
 					background-size: 87px;
 				}
 				.st-logo {
@@ -1519,7 +1518,7 @@
 			}
 			.step03 {
 				.st-ico {
-					background-image: url(../images/project_ico03.png);
+					background-image: url(/uk/appliances/care-for-what-you-wear_test/images/project_ico03.png);
 					background-size: 80px;
 				}
 				.st-logo {
@@ -1537,7 +1536,7 @@
 					width:14px;
 					height:14px;
 					background: {
-						image: url(../images/ico_morevw-bk.png);
+						image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_morevw-bk.png);
 						size:14px;
 						repeat: no-repeat;
 						position:0 0;
@@ -1624,7 +1623,7 @@
 		border:0;
 		background: {
 			color:transparent;
-			image: url(../images/btn_close-popup.png);
+			image: url(/uk/appliances/care-for-what-you-wear_test/images/btn_close-popup.png);
 			size:cover;
 			position:center center;
 			repeat: no-repeat;
@@ -1672,7 +1671,7 @@
 					width: 295px;
 					height: 52px;
 					background: {
-						image: url("../images/quiz/q_option4u-slogan.png");
+						image: url("/uk/appliances/care-for-what-you-wear_test/images/quiz/q_option4u-slogan.png");
 						size: 295px;
 						repeat: no-repeat;
 						position: 0 0;
@@ -1703,19 +1702,19 @@
 				&.washer {
 					max-width: 455px;
 					background: {
-						image: url("../images/quiz/q_option4u-washer.png");
+						image: url("/uk/appliances/care-for-what-you-wear_test/images/quiz/q_option4u-washer.png");
 					}
 				}
 				&.dryer {
 					max-width: 455px;
 					background: {
-						image: url("../images/quiz/q_option4u-dryer.png");
+						image: url("/uk/appliances/care-for-what-you-wear_test/images/quiz/q_option4u-dryer.png");
 					}
 				}
 				&.styler {
 					max-width: 350px;
 					background: {
-						image: url("../images/quiz/q_option4u-styler.png");
+						image: url("/uk/appliances/care-for-what-you-wear_test/images/quiz/q_option4u-styler.png");
 					}
 				}
 			}
@@ -1755,7 +1754,7 @@
 				font-weight: 700;
 				color:#B50031;
 				background: {
-					image: url(../images/ico_morevw.png);
+					image: url(/uk/appliances/care-for-what-you-wear_test/images/ico_morevw.png);
 					size: 14px;
 					repeat: no-repeat;
 					position: right center;
@@ -1814,7 +1813,7 @@
 		.qzend-box {
 			padding-bottom:60%;
 			background: {
-				image: url(../images/quizend_bg.jpg);
+				image: url(/uk/appliances/care-for-what-you-wear_test/images/quizend_bg.jpg);
 				size:100%;
 				repeat: no-repeat;
 				position:center bottom;
@@ -1822,7 +1821,6 @@
 		}
 	}
 }
-
 @media screen and (max-width:991px) {
-	@import "clothing_campaign-response";
+	@import "index_response";
 }

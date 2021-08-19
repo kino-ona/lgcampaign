@@ -1,4 +1,9 @@
 $(document).ready(function(){
+	if( $('.box_main-title').length ){
+		$('.box_main-title .text_title').addClass('on');
+		$('.box_main-title .text_sub').addClass('on');
+		$('.box_main-visual').addClass('on');
+	}
 
 	$('.clothing_keyvisual .over_text._pc .item:not(".item_title")').each(function(i, e) {
 		var $Item = $(this);
@@ -91,7 +96,6 @@ $(document).ready(function(){
 		});
 	}
 
-
 	if($('.clothing_sustain').length > 0){
 
 		$('.clothing_sustain .list_tab-nav .link').on('click', function(){
@@ -112,20 +116,6 @@ $(document).ready(function(){
 			$('.clothing_product .box_view-detail .box_view-item').eq(buttonIdx).addClass('active');
 		});
 	}
-
-	// if($('.clothing_quiz').length > 0){
-	// 	$('.quiz_wrap .item').each(function() {
-	// 		var $Item = $(this);
-	// 		$Item.find('label').on('click', function(){ 
-	// 			$('.quiz_wrap .q_items .item').removeClass('checking');
-	// 			if($(this).find('input:radio').is(':checked')){
-	// 				$(this).parent('.item').addClass('checking');
-	// 			}else{
-	// 				$('.quiz_wrap .q_items .item').removeClass('checking');
-	// 			}
-	// 		});
-	// 	});
-	// }
 	
 });
 
@@ -227,84 +217,11 @@ function hlayerClose(layerId) {
 	}
 }
 
-// $(window).scroll(function(){
-// 	var gotoSec = $('#btn_float-goto').outerHeight(true);
-// 	if($(this).scrollTop() > gotoSec){
-// 		$('#btn_float').css('display', 'block');
-// 	}else{
-// 		$('#btn_float').css('display', 'none');
-// 	}
-// });
-// $('#btn_float').click(function(e){
-// 	var gotoSec = $('#btn_float-goto').outerHeight(true);
-// 	e.preventDefault();
-// 	$('html, body').animate({scrollTop:gotoSec}, 400);
-// });
-
-function quizCheck(set) {
-	var quizId = $('#' + set);
-
-	quizId.find('.q_items .item').each(function() {
-		if(quizId.find('.q_items .checking').length > 0) {
-			if(set == 'quiz01') {
-				var delay = setTimeout(function () {
-					if(quizId.find('.q_items .checking').find('input:radio:checked').attr('id') == 'qa01_item02') {
-						$('#quiz01').removeClass('show')
-						$('#quiz02').addClass('show')
-					} else {
-						hlayerOpen('QzTips02');
-					}
-
-					clearTimeout(delay);
-				}, 100);
-			} else if(set == 'quiz02') {
-				var delay = setTimeout(function () {
-					if(quizId.find('.q_items .checking').find('input:radio:checked').attr('id') == 'qa02_item02') {
-						$('#quiz02').removeClass('show')
-						$('#quiz03').addClass('show')
-					} else {
-						hlayerOpen('QzTips07');
-					}
-
-					clearTimeout(delay);
-				}, 100);
-			} else if(set == 'quiz03') {
-				var delay = setTimeout(function () {
-					if(quizId.find('.q_items .checking').find('input:radio:checked').attr('id') == 'qa03_item01') {
-						hlayerOpen('QzEnd');
-					} else {
-						hlayerOpen('QzTips09');
-					}
-
-					clearTimeout(delay);
-				}, 100);
-			}
-		}else {
-			alert('Please select an answer!');return false;
-		}
-	});
-}
-
-function quizBack(set) {
-	$('.quiz_wrap').removeClass('show')
-	$('#' + set).addClass('show')
-}
-
-function quizRefresh() {
-	$('.quiz_wrap').removeClass('show')
-	$('.quiz_wrap').find('.checking').removeClass('checking')
-	$('.quiz_wrap').find('.item').each(function() {
-		$(this).find('input:radio').prop('checked' , false);
-		$(this).find('.figure > img').attr("src",$(this).find('.figure > img').attr("src").replace("-hover.png", ".png"))
-	});
-	$('#quiz01').addClass('show')
-}
-
 function facebookSubmit(set) {
-	var thisurl = 'https://studioohna.cafe24.com/lg/care-for-what-you-wear2021/shareimage/@share_img01.png';
-	var quote = 'https://studioohna.cafe24.com/lg/campaign.html';
+	var thisurl = 'https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg';
+	var quote = 'https://www.lg.com/uk/appliances/care-for-what-you-wear';
 	
 	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
-			var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
-			window.open(popUrl,"",popOption);
+		var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
+		window.open(popUrl,"",popOption);
 }

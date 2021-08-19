@@ -443,6 +443,111 @@
 			</div>
 			<!--// clothing_sustain -->
 
+			<div class="clothing_quiz">
+				<div class="box_row-campaign">
+					<p class="row-tit">Do you care for what you wear?</p>
+					<p class="row-stit">Minimizing your impact on the environment takes smarts!<br>Take this quick quiz to see if
+						you’ve got what it takes to make the clothes you treasure last longer.</p>
+	
+					<div class="howto_enter">
+						<h3>How to enter</h3>
+						<ul>
+							<li><span>Take the test below</span></li>
+							<li><span>Share your score on Facebook or Twitter by clicking the 'share' button.</span></li>
+							<li><strong>Use following hashtags :</strong>
+								<div class="hashtag_group">
+									<span class="hashtags">#CareForWhatYouWear</span> <span class="hashtags">#CherishedClothesTest</span>
+								</div>
+							</li>
+						</ul>
+						<div class="desc">
+							Share on Facebook or Twitter and enter your info to receive a 10% off voucher for LG.com
+						</div>
+					</div>
+	
+					<div id="quiz" class="quiz_wrap"></div>
+	
+					<script>
+						const quizData = [
+							{
+								question:'What should you do when you\'re running short on drying time?',
+								answers:['Dry later','Throw toilet paper ','Throw a dry towel'],
+								tips:'When you’re running short on drying time, throw a dry towel in with the load. The towel will help absorb some of the moisture and help your clothes dry quicker.',
+								product:'Washer', usp:'TuboWash360',
+								feedback:'With TurboWash™360˚your laundry can be thoroughly cleaned in just 39 minutes without compromising fabric protection. Then there’s no need to rush on dry time!'},
+							{
+								question:'How do you remove stain on your shirt?',
+								answers:['Leave it in the water','Rub','Press'],
+								tips:'4. Press on the stain, over and over, to lift it out. Resist the urge to rub, or you might damage the fabric.',
+								product:'Washer', usp:'AI DD',
+								feedback:'Or simply choose LG washer with AI DD™ technology that automatically senses the weight and fabric softness of your load to determine the optimal wash pattern with 18% more fabric protection.'},
+							{
+								question:'How many times per summer should you wash your pants?',
+								answers:['Once','Twice','Weekly'],
+								tips:'Clean pants twice during the summer. And then when you’re done with the season, clean them once again before you put them back into your closet.',
+								product:'Washer', usp:'Bigger Capacity',
+								feedback:'Do you have piles of pants you wore along summer? Get more laundry done without having to increase the space needed for your washer.'},
+							{
+								question:'What should you use for shrunken t-shirt?',
+								answers:['Shampoo','Hair conditioner','Body wash'],
+								tips:'Did your favorite T-shirt shrink? Soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.',
+								product:'Dryer', usp:'DUAL Inverter Heat Pump',
+								feedback:'Or, you can protect your clothes from damage with LG dryer’s low temperature heat pump technology.'},
+							{
+								question:'Where should you put the clothes if clothes moths happen?',
+								answers:['Fridge','Freezer','Microwave'],
+								tips:'If you do find moths have taken up residence in an item, pop it in the freezer for 24 hours, take it out and bring to room temperature, and then repeat again.',
+								product:'Dryer', usp:'DUAL Inverter Heat Pump',
+								feedback:'LG Dryer kills 99.9% bacteria and dust as fine as hair with Allergy Care program and Dual Filter, can you imagine moths!'},
+							{
+								question:'Is softener good for wool laundry?',
+								answers:['Always','Sometimes','Never'],
+								tips:'Contrary to popular belief, the technical Woolmark Company lab in Melbourne says we are never supposed to use softener!',
+								product:'Styler', usp:'TrueSteam',
+								feedback:'How to clean wool without softener? LG Styler’s TrueSteam™ sanitizes fabrics that are hard to wash at home.'},
+							{
+								question:'How to refresh your jeans other than washing?',
+								answers:['Fridge','Freezer','Microwave'],
+								tips:'If you like to wear your jeans more than once between washings, stick them in the freezer between wears. The frigid air will kill bacteria that can cause odor.',
+								product:'Styler', usp:'TrueSteam',
+								feedback:'TrueSteam™ kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home. A fine way to refresh clothing!'},
+							{
+								question:'How should you store your t-shirts?',
+								answers:['Fold','Toss into a pile','Any way you want'],
+								tips:'Don’t hang your T-shirts, folding T-shirts keeps them fluffy.',
+								product:'Styler', usp:'TrueSteam',
+								feedback:'If wrinkled, simply use LG Styler with TrueSteam™ technology that uses hot, vaporized water to lift dirt and odors, while also sanitizing and de-wrinkling any clothing.'},
+							{
+								question:'When out of dryer sheets, what\'s another option?',
+								answers:['A ball of aluminium foil','A ball of plastic bag','A tennis ball'],
+								tips:'If you’re out of dryer sheets, throw a ball of aluminium foil in your tumble dryer. The aluminium will fight static buildup and help keep your clothing separated.',
+								product:'Styler', usp:'Heat Pump Drying',
+								feedback:'If out of dryer sheets, use LG Styler and dry faster than air drying with low-temperature heat pump drying system. '},
+							{
+								question:'How should you store your denims?',
+								answers:['Fold','Toss into a pile','Any way you want'],
+								tips:'Don’t worry about how you store your denim, whether folded neatly in a drawer or tossed into a pile on a chair',
+								product:'Styler', usp:'Moving Hanger',
+								feedback:'The patented hangers gently move side to side up to 200 times per minute, brushing off 99% of the fine dust found on your clothing and allowing steam to evenly smooth away the wrinkles. How’s that for denim jeans sound?'}
+					]
+						const messageData = {
+								backButton: 'Back',
+								nextButton: 'Next',
+								unselect: 'Please select an answer!',
+								tipsTitle: 'Become a master of clothing care tips!',
+								another: 'Another option for you',
+								tryButton: 'Try Again',
+								shareButton1: 'Share Facebook',
+								shareButton2: 'Share Twitter',
+								promoTitle: 'Fancy a 10% off promo code?',
+								placeholderName: 'Enter your name',
+								placeholderEmail: 'Enter your E-mail'
+						}
+					</script>
+				</div>
+			</div>
+			<!--// clothing_quiz -->
+
 			<div class="clothing_product box_row-campaign">
 				<p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
 				<p class="row-stit">How we care for our clothes directly impacts the environment. LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
@@ -707,6 +812,7 @@
 		<!-- <script type="text/javascript" src="https://www.lg.com/uk/appliances/care-for-what-you-wear/js/index.js"></script> -->
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/index.js"></script>
 		<script type="text/javascript" src="./care-for-what-you-wear2021/js/clothing_campaign.js"></script>
+		<script type="text/javascript" src="./care-for-what-you-wear2021/js/quiz.js"></script>
 
 </body>
 
