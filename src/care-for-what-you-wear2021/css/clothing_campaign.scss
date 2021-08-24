@@ -525,7 +525,7 @@
 					display: block;
 					width:100%;
 					height:100%;
-					background-color: rgba(0,0,0, 0.7);
+					background-color: rgba(0,0,0, 0.6);
 					z-index: 1;
 				}
 				.sub_print {
@@ -1392,14 +1392,14 @@
 					&:after {
 						@extend %clearer;
 					}
-					.box_view-item2 {
-						.figure {
-							img {
-								max-height:522px;
-								margin-left:-25px;
-							}
-						}
-					}
+					// .box_view-item2 {
+					// 	.figure {
+					// 		img {
+					// 			max-height:522px;
+					// 			margin-left:-25px;
+					// 		}
+					// 	}
+					// }
 				}
 				.figure {
 					float:left;

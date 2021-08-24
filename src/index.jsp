@@ -12,11 +12,11 @@
     <meta name="theme-color" content="#a50034" />
 
     <title>Care For What You Wear: Clothing Care Appliances | LG UK</title>
-    <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, net-a-porter, washing machine, dryer, styler" />
-    <meta name="description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
+    <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, cherished clothes, washing machine, dryer, styler" />
+    <meta name="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
     <meta property="og:url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
-    <meta property="og:description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
+    <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg" />
     <link rel="canonical" href="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
 
@@ -78,7 +78,7 @@
 
     <div id="btn_float-goto" class="box_main-title">
       <h2 class="text_title">#CareForWhatYouWear</h2>
-      <p class="text_sub">Do you have at least one piece of clothing that holds a precious piece of your history, and your heart?<br>See how to make the stories encoded into your clothes last longer.</p>
+      <p class="text_sub">Do you own a piece of clothing that holds a piece of your history?<br>Watch a few of the charming stories held in our clothes unfold in the videos below.</p>
     </div>
 
     <div class="clothing_keyvisual box_row-campaign">
@@ -92,7 +92,7 @@
         </div>
         <div class="item" title="Thumbnail image of the video.">
           <div class="sub_print">
-            <p>The Date Outfit</p>
+            <p>The Love that Lasts (Couple)</p>
             <span>Our story lies within these clothes</span>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
@@ -115,7 +115,7 @@
         </div>
         <div class="item">
           <div class="sub_print">
-            <p>The Date Outfit<span>Our story lies within these clothes</span></p>
+            <p>The Love that Lasts (Couple)<span>Our story lies within these clothes</span></p>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film>couple-long-married" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
@@ -138,7 +138,7 @@
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
           <source src="/uk/appliances/care-for-what-you-wear-2021/vod/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
         </video>
-        
+        The Love that Lasts (Couple)
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
           <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/ZmyVdhT2mig?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
@@ -161,10 +161,10 @@
 
     <div class="clothing_story box_row-campaign">
       <div class="desc">
-        <p class="tit">Create a Sustainable Clothing-Conscious Lifestyle with LG</p>
+        <p class="tit">Making sustainable choices with what we wear</p>
         <p class="txt">Throwaway fashion contributes to 5.8 million tonnes of post-consumer textile waste every year in Europe.</p>
-        <p class="txt">In pursuit of achieving the UN's 2021 Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.<br>The most sustainable garment is the one you already own. The better you care for it, the longer it will last.
-        <p class="txt">Properly maintaining clothes using fabric protecting features can make your everyday more sustainable.</p>
+        <p class="txt">With the aim of meeting 'responsible consumption and production' targets set out in Goal #12 of the UN's 2021 Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.</p>
+        <p class="txt">Because the most sustainable garment are the ones you already own properly maintaining your clothes using fabric protecting features can make your everyday more sustainable.</p>
         <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Watch</a>
       </div>
 
@@ -211,7 +211,7 @@
     <div class="clothing_howto">
       <div class="box_row-campaign">
         <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and take part in creating a more sustainable lifestyle.</p>
+        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
         <div class="howto">
           <div class="half-left">
             <div class="figure">
@@ -223,8 +223,7 @@
               <p>Find out how below</p>
               <div class="sns_link">
                 <a href="https://www.facebook.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://twitter.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>twitter" target="_blank" class="btn_tw" title="Twitter"><i></i> <span class="a11y-mobile">Twitter</span></a>
-                <!-- <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a> -->
+                <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
               </div>
             </div>
           </div>
@@ -305,7 +304,7 @@
 
     <div class="clothing_product box_row-campaign">
       <p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
-      <p class="row-stit">How we care for our clothes directly impacts the environment. LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
+      <p class="row-stit">How we care for our clothes directly impacts the environment.<br>LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist">
           <li class="list-item item01" id="washer"><a href="#washer" id="anchor_tab1" data-toggle="pill"
@@ -349,9 +348,9 @@
                   </dd>
                 </dl>
                 <dl class="_item item04">
-                  <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Eco-Friendly</dt>
+                  <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Laundry with One Less Step</dt>
                   <dd>
-                    Use just the right amount of detergent needed conveniently, reducing environmental impact with ezDispense
+                    ezDispense automatically dispenses just the right amount of detergent needed for your laundry with no waste, giving you one less thing to worry about.
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="pxjRbmZRRo" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
