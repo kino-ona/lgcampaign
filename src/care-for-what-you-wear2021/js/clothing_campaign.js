@@ -10,7 +10,6 @@ $(document).ready(function(){
 		var r = i + 1;
 
 		if($('.clothing_keyvisual .vodbg').find('video').length > 0) {
-		// if($('.clothing_keyvisual .vodbg').find('.btmiframe').length > 0) {
 			$Item.hover(function() {
 				$('.clothing_keyvisual .over_text._pc').find('.sub_print').removeClass('active')
 				$('.clothing_keyvisual .over_text._pc').find('.print0' + $(this).index()).addClass('active')
@@ -21,13 +20,6 @@ $(document).ready(function(){
 				$('.clothing_keyvisual .vodbg').find('video').stop().fadeOut(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
-
-				// $('.clothing_keyvisual .vodbg').find('.yt_video0' + r).css('display', 'block')	
-				// setTimeout(function(){
-				// 	$('.clothing_keyvisual .vodbg').find('.yt_video0' + r).src += "&autoplay=1"
-				// 	$('.clothing_keyvisual .vodbg').find('.yt_video0' + r)[0].contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-				// }, 500);
-
 			}, function() {
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
@@ -97,7 +89,6 @@ $(document).ready(function(){
 	}
 
 	if($('.clothing_sustain').length > 0){
-
 		$('.clothing_sustain .list_tab-nav .link').on('click', function(){
 			var buttonIdx = $(this).parent().index();
 			$(this).parents('.list_tab-nav').find('.link').removeClass('active');
@@ -116,13 +107,11 @@ $(document).ready(function(){
 			$('.clothing_product .box_view-detail .box_view-item').eq(buttonIdx).addClass('active');
 		});
 	}
-	
 });
-
 $('.clothing-campaign .btn_watch').on('click', function(){
 	var movieCode = $(this).attr('id');
 	$('.clothing-campaign').find('.pop_ytiframe').css('display','block')
-	$('.clothing-campaign').find('.pop_ytiframe').append('<iframe width="100%" height="100%" frameborder="0" src="https://www.youtube.com/embed/'+movieCode+'?enablejsapi=1&rel=0&showinfo=0&hl=en" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen></iframe>');
+	$('.clothing-campaign .pop_ytiframe-inner').find('.movie-box').append('<iframe width="100%" height="100%" frameborder="0" src="https://www.youtube.com/embed/'+movieCode+'?enablejsapi=1&rel=0&showinfo=0&hl=en" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen=""></iframe>');
 	
 	return false;
 })
@@ -178,44 +167,6 @@ $(document).ready(function(){
 	}
 });
 /* responsive e */
-
-var isOpen = false;
-function hlayerOpen(layerId) {
-	var curPos = $(window).scrollTop();
-	$('html').addClass('noscroll');
-	$('#' + layerId).addClass('is-visible');
-	var $layerID = $('#' + layerId);
-	$layerID.attr({
-		'aria-hidden': 'false',
-		'open': 'true',
-		// 'tabindex': '0'
-	});
-
-	if ($('[role="dialog"]:visible').length <= 1 && isOpen == false) {
-		$('.clothing-campaign').css('top', -curPos);
-		isOpen = true;
-	}
-
-	var delay = setTimeout(function () {
-		if (!$('html').hasClass('noscroll')) {
-			$('html').addClass('noscroll');
-		}
-		clearTimeout(delay);
-	}, 50);
-}
-function hlayerClose(layerId) {
-	var curPos = -(parseInt($('.clothing-campaign').css('top')));
-	$('#' + layerId).removeClass('is-visible');
-	$('#' + layerId).attr('aria-hidden', 'true'); 
-	$('html').removeClass('noscroll');
-	if ($('[role="dialog"].is-visible').length < 1) {
-		$('html').removeClass('noscroll').find('.clothing-campaign').css({
-			'top': 0
-		});
-		$(window).scrollTop(curPos);
-		isOpen = false;
-	}
-}
 
 function facebookSubmit(set) {
 	var thisurl = 'https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg';
