@@ -18,10 +18,11 @@ $(document).ready(function(){
 
 				$('.clothing_keyvisual .vodbg').find('video').get(0).pause();
 				$('.clothing_keyvisual .vodbg').find('video').stop().fadeOut(500);
-				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
+
+				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(400);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
 			}, function() {
-				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(500);
+				$('.clothing_keyvisual .vodbg').find('.video0' + r).stop().fadeIn(400);
 				$('.clothing_keyvisual .vodbg').find('.video0' + r).get(0).play();
 			});
 		}
