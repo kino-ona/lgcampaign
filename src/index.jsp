@@ -75,10 +75,9 @@
 
   <!-- Enter Code Here -->
   <div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
-
     <div id="btn_float-goto" class="box_main-title">
       <h2 class="text_title">#CareForWhatYouWear</h2>
-      <p class="text_sub">Do you own a piece of clothing that holds a piece of your history?<br>Watch a few of the charming stories held in our clothes unfold in the videos below.</p>
+      <p class="text_sub">Do you have at least one piece of clothing that holds a precious piece of your history, and your heart?<br>See how to make the stories encoded into your clothes last longer.</p>
     </div>
 
     <div class="clothing_keyvisual box_row-campaign">
@@ -92,7 +91,7 @@
         </div>
         <div class="item" title="Thumbnail image of the video.">
           <div class="sub_print">
-            <p>The Love that Lasts (Couple)</p>
+            <p>The Date Outfit</p>
             <span>Our story lies within these clothes</span>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
@@ -115,7 +114,7 @@
         </div>
         <div class="item">
           <div class="sub_print">
-            <p>The Love that Lasts (Couple)<span>Our story lies within these clothes</span></p>
+            <p>The Date Outfit<span>Our story lies within these clothes</span></p>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film>couple-long-married" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
@@ -138,7 +137,7 @@
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
           <source src="/uk/appliances/care-for-what-you-wear-2021/vod/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
         </video>
-        The Love that Lasts (Couple)
+        
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
           <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/ZmyVdhT2mig?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
@@ -159,13 +158,26 @@
     </div>
     <!--// clothing_keyvisual -->
 
-    <div class="clothing_story box_row-campaign">
+    <div class="box_navigation">
+      <div class="box_nav-position">
+        <div class="box_navigation-inner">
+          <ul class="list_navigation smooth-scroll">
+            <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUCTION</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-wardrobe" data-link-name="main_tap_sustainable_wardrobe" class="link">SUSTAINABLE WARDROBE</a></li>
+            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">CLOTHING TIPS</a></li>
+            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="box_content1" class="clothing_story box_row-campaign box_content">
       <div class="desc">
-        <p class="tit">Making sustainable choices with what we wear</p>
+        <p class="tit">Create a Sustainable Clothing-Conscious Lifestyle with LG</p>
         <p class="txt">Throwaway fashion contributes to 5.8 million tonnes of post-consumer textile waste every year in Europe.</p>
-        <p class="txt">With the aim of meeting 'responsible consumption and production' targets set out in Goal #12 of the UN's 2021 Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.</p>
-        <p class="txt">Because the most sustainable garment are the ones you already own properly maintaining your clothes using fabric protecting features can make your everyday more sustainable.</p>
-        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Watch</a>
+        <p class="txt">In pursuit of achieving the UN's Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.<br>The most sustainable garment is the one you already own. The better you care for it, the longer it will last.
+        <p class="txt">Properly maintaining clothes using fabric protecting features can make your everyday more sustainable.</p>
+        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Watch 2020 LG Clothing Care campaign</a>
       </div>
 
       <div class="visual">
@@ -208,10 +220,10 @@
     </div>
     <!--// clothing_story -->
 
-    <div class="clothing_howto">
+    <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
+        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and take part in creating a more sustainable lifestyle.</p>
         <div class="howto">
           <div class="half-left">
             <div class="figure">
@@ -223,7 +235,8 @@
               <p>Find out how below</p>
               <div class="sns_link">
                 <a href="https://www.facebook.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+                <a href="https://twitter.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>twitter" target="_blank" class="btn_tw" title="Twitter"><i></i> <span class="a11y-mobile">Twitter</span></a>
+                <!-- <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a> -->
               </div>
             </div>
           </div>
@@ -278,7 +291,7 @@
     </div>
     <!--// clothing_sustain -->
 
-    <div class="clothing_quiz">
+    <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
         <div class="tip_wrap">
@@ -302,7 +315,7 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
-    <div class="clothing_product box_row-campaign">
+    <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
       <p class="row-stit">How we care for our clothes directly impacts the environment.<br>LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
       <div class="box_content-tab">
@@ -320,10 +333,10 @@
             <div id="washer" class="box_view-item box_view-item1 active">
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
-              </div>
-              <div class="btn_area">
-                <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>find-out-more" data-link-name="find_out_more" target="_blank" class="_btn">FIND OUT MORE</a>
-                <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse#pdp_where" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>where-to-buy" data-link-name="where_to_buy" target="_blank" class="_btn">WHERE TO BUY</a>
+                <div class="btn_area">
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>find-out-more" data-link-name="find_out_more" target="_blank" class="_btn btn_red">FIND OUT MORE</a>
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse#pdp_where" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>where-to-buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
+                </div>
               </div>
               <div class="desc">
                 <dl class="_item item01">
@@ -348,25 +361,21 @@
                   </dd>
                 </dl>
                 <dl class="_item item04">
-                  <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Laundry with One Less Step</dt>
+                  <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Eco-Friendly</dt>
                   <dd>
-                    ezDispense automatically dispenses just the right amount of detergent needed for your laundry with no waste, giving you one less thing to worry about.
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="pxjRbmZRRo" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    Use just the right amount of detergent needed conveniently, reducing environmental impact with ezDispense
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="RI2WZH5JzB4" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
-                <div class="btn_area">
-                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>find-out-more" data-link-name="find_out_more" target="_blank" class="_btn btn_red">FIND OUT MORE</a>
-                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse#pdp_where" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>where-to-buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
-                </div>
               </div>
             </div>
             <div id="dryer" class="box_view-item box_view-item2">
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
-              </div>
-              <div class="btn_area">
-                <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>find-out-more" data-link-name="find_out_more" class="_btn">FIND OUT MORE</a>
-                <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where-to-buy" data-link-name="where_to_buy" class="_btn">WHERE TO BUY</a>
+                <div class="btn_area">
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>find-out-more" data-link-name="find_out_more" class="_btn btn_red">FIND OUT MORE</a>
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where-to-buy" data-link-name="where_to_buy" class="_btn btn_red">WHERE TO BUY</a>
+                </div>
               </div>
               <div class="desc">
                 <dl class="_item item01">
@@ -394,19 +403,15 @@
                     Kill 99.9% bacteria and dust as fine as hair with Allergy Care program and Dual Filter<sup>3)</sup><sup>4)</sup>
                   </dd>
                 </dl>
-                <div class="btn_area">
-                  <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>find-out-more" data-link-name="find_out_more" class="_btn btn_red">FIND OUT MORE</a>
-                  <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where-to-buy" data-link-name="where_to_buy" class="_btn btn_red">WHERE TO BUY</a>
-                </div>
               </div>
             </div>
             <div id="styler" class="box_view-item box_view-item3">
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
-              </div>
-              <div class="btn_area">
-                <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>find-out-more" data-link-name="find_out_more" class="_btn">FIND OUT MORE</a>
-                <a href="https://www.lg.com/uk/styler/lg-S3WF#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where-to-buy" data-link-name="where_to_buy" class="_btn">WHERE TO BUY</a>
+                <div class="btn_area">
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>find-out-more" data-link-name="find_out_more" class="_btn btn_red">FIND OUT MORE</a>
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where-to-buy" data-link-name="where_to_buy" class="_btn btn_red">WHERE TO BUY</a>
+                </div>
               </div>
               <div class="desc">
                 <dl class="_item item01">
@@ -429,10 +434,6 @@
                     TrueSteam<sup>™</sup> kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home.<sup>2)</sup>
                   </dd>
                 </dl>
-                <div class="btn_area">
-                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>find-out-more" data-link-name="find_out_more" class="_btn btn_red">FIND OUT MORE</a>
-                  <a href="https://www.lg.com/uk/styler/lg-S3WF#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where-to-buy" data-link-name="where_to_buy" class="_btn btn_red">WHERE TO BUY</a>
-                </div>
               </div>
             </div>
           </div>

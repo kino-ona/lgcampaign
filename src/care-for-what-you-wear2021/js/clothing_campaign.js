@@ -4,6 +4,65 @@ $(document).ready(function(){
 		$('.box_main-title .text_sub').addClass('on');
 		$('.box_main-visual').addClass('on');
 	}
+	if ($('.box_content-tab').length) {
+		var currentHash = location.hash;
+		var anchorName = currentHash.substr(1, 10);
+		if (anchorName === "anchor_tab") {
+			$('.list_tab-nav .list-item .link').removeClass('active');
+			$(window.location.hash).trigger('click')
+		}
+	}
+	if ($('.box_navigation').length) {
+		$('.box_navigation').css('height', $('.box_nav-position').height())
+		var $fixbx = $('.box_nav-position');
+		var $fixwrp = $('.box_navigation');
+		$(window).scroll(function () {
+			var $fixbxOffset = $fixwrp.offset();
+			if ($(this).scrollTop() >= $fixbxOffset.top) {
+				$fixbx.addClass('fixed');
+			} else {
+				$fixbx.removeClass('fixed');
+			}
+		});
+		scrollContent(".list_navigation .link", ".box_content");
+	}
+
+	function scrollContent(tabSelector, contentSelector) {
+		var $tabs = $(tabSelector),
+			$contents = $(contentSelector),
+			targetIndex;
+
+		$tabs.on("click", function (e) {
+			e.preventDefault();
+			var id = $(this).attr("href"),
+				posY = $(id).offset().top - $('.box_navigation').height();
+			$("html, body").stop().animate({
+				"scrollTop": posY
+			}, 1000);
+		});
+
+		$(window).on("scroll", function () {
+			changeActiveTab();
+		});
+
+		function changeActiveTab() {
+			var windowTop = $(window).scrollTop();
+			$contents.each(function (index) {
+				var $this = $(this);
+				if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() - 2) {
+					targetIndex = index;
+					return false;
+				}
+			});
+			if ($(window).scrollTop() + 1 < $('.box_navigation').offset().top) {
+				$tabs.parent().eq(0).addClass('active');
+			} else {
+				$tabs.parent().eq(targetIndex).addClass("active").siblings().removeClass("active");
+			}
+
+		}
+	};
+
 
 	$('.clothing_keyvisual .over_text._pc .item:not(".item_title")').each(function(i, e) {
 		var $Item = $(this);

@@ -75,6 +75,13 @@
 	._mo {
 		display: block;
 	}
+	.box_navigation .box_nav-position{height:50px}
+	.box_navigation .box_navigation-inner{width:100%;overflow-x:auto;}
+	.box_navigation .list_navigation{display:block;white-space: nowrap;text-align:center;font-size:0}
+	.box_navigation .list_navigation .list-item{width:auto;display:inline-block;}
+	.box_navigation .list_navigation .link{padding:15px 18px;font-size:14px}
+	.box_navigation .list_navigation .link:hover{color:#6b6b6b}
+	.box_navigation .list_navigation .link:hover::after{content:none;}
 	.box_row-campaign {
 		.row-tit {
 			font-size: 26px;
@@ -136,7 +143,7 @@
 		min-height:auto;
 		padding-top: 133%;
 		background: {
-			image: url(/uk/appliances/care-for-what-you-wear-2021/images/visual_bgcut01.jpg);
+			image: url(../images/visual_bgcut01.jpg);
 		}
 	}
 	.vodbg {
@@ -168,22 +175,6 @@
 		width:100%;
 		height:initial;
 		overflow: hidden;
-		&:before {
-			content: '';
-			position:absolute;
-			right:25px;
-			top:5px;
-			display: block;
-			width:90px;
-			height:100px;
-			background: {
-				image: url(/uk/appliances/care-for-what-you-wear-2021/images/mvisual_elimg01.png);
-				position: right center;
-				repeat: no-repeat;
-				size: 83px;
-			}
-			z-index: 1;
-		}
 		.item_title {
 			display: none;
 		}
@@ -191,38 +182,28 @@
 			float: none;
 			display: inline-block;
 			width: 100%;
-			height: 140px; //auto
+			height: 130px; //auto
 			background-color:rgba(0,0,0, .8);
 			background-image: none !important;
+			border-left:0;
 			.sub_print {
-				padding: 15px 20px 42px 20px;
+				bottom:0;
+				padding: 20px 20px 10px 20px;
 				text-align: left;
+				background-position: right 14px top 25px;
 				p {
 					font-size: 22px;
 					color: #fff;
-					letter-spacing: 2px;
 					text-align: left;
 					> span {
 						display: block;
-						margin-top: 0px;
-						font-size: 14px;
+						margin-top: 10px;
+						font-size: 13px;
 						font-weight: 500;
-						letter-spacing: 1px;
-						color: #fff;
+						color: rgba(255,255,255, 0.6);
 						opacity: 1;
 					}
 				}
-				// @media screen and (max-width:640px) {
-				// 	p {
-				// 		font-weight: 500;
-				// 		> span {
-				// 			max-width:70%;
-				// 			font-size:18px;
-				// 			font-weight: 700;
-				// 			line-height:1.4;
-				// 		}
-				// 	}
-				// }
 				> .btn_play {
 					margin-top: 13px;
 					display: block;
@@ -240,6 +221,9 @@
 					}
 				}
 			}
+			&:after {
+				display: none;
+			}
 		}
 		.btn_play {
 			display: block;
@@ -256,7 +240,8 @@
 
 	.clothing_story {
 		height: auto;
-		margin: 35px auto 0;
+		margin: 0 auto 0;
+		padding-top:40px;
 		.desc {
 			position: static;
 			width: 100%;
@@ -278,17 +263,19 @@
 			position:relative;
 			float: none;
 			width: 100%;
+			margin-top:10px;
 			background-position: center center;
+			overflow: hidden;
 			&:before {
 				content: '';
 				display: block;
 				position:absolute;
-				top:-120px;
-				right:-25px;
+				top:-15px;
+				right:-30px;
 				width:150px;
 				height:150px;
 				background: {
-					image: url(/uk/appliances/care-for-what-you-wear-2021/images/story_cut.png);
+					image: url(../images/story_cut.png);
 					size:150px;
 					repeat: no-repeat;
 					position:right top;
@@ -310,10 +297,11 @@
 					width: 40px;
 					height: 20px;
 					background-size:38px;
+					background-image:url(../images/mstory_cut02-bk.png); 
 				}
 				p {
 					margin-left:0;
-					padding-top: 12px;
+					padding-top:8px;
 					font-size: 20px;
 				}
 			}
@@ -354,7 +342,7 @@
 		background-color: #FAF4F1;
 		overflow: hidden;
 		background: {
-			image: url(/uk/appliances/care-for-what-you-wear-2021/images/goods_bgcut-1.png);
+			image: url(../images/goods_bgcut-1.png);
 			size: 42.5%;
 			position: left -30px top 140px;
 		}
@@ -455,22 +443,22 @@
 				}
 				.btn_yt {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_youtube-b.png);
+						background-image: url(../images/ico_youtube-b.png);
 					}
 				}
 				.btn_fb {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_facebook-b.png);
+						background-image: url(../images/ico_facebook-b.png);
 					}
 				}
 				.btn_ins {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_instagram-b.png);
+						background-image: url(../images/ico_instagram-b.png);
 					}
 				}
 				.btn_tw {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_twitter-b.png);
+						background-image: url(../images/ico_twitter-b.png);
 					}
 				}
 			}
@@ -490,7 +478,7 @@
 					margin:0 auto;
 					.tag {
 						left:-20px;
-						width:47%;
+						width:55%;
 						max-width:210px;
 					}
 				}
@@ -591,7 +579,7 @@
 	.clothing_quiz {		
 		padding: 55px 0 65px;
 		background: {
-			image: url(/uk/appliances/care-for-what-you-wear-2021/images/quiz_bgcut-2.png);
+			image: url(../images/quiz_bgcut-2.png);
 			position: left 25% bottom 25%;
 			size: 180%;
 			color: #EBFAC0;
@@ -681,8 +669,11 @@
 			}
 			@media screen and (max-width:640px) {
 				.tip_item {
+					.figure {
+						padding:5%;
+					}
 					img {
-						max-width:210px;
+						max-width:205px;
 					}
 				}
 			}
@@ -770,7 +761,7 @@
 				.link.active, .link:hover {
 					font-weight: 700;
 					&:before {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/prodtab_over.png);
+						background-image: url(../images/prodtab_over.png);
 						background-size: 70%;
 						background-position: center bottom;
 					}
@@ -804,7 +795,7 @@
 					min-height:auto;
 					max-height:310px;
 					background: {
-						image: url(/uk/appliances/care-for-what-you-wear-2021/images/product_boxbg.png);
+						image: url(../images/product_boxbg.png);
 						repeat: no-repeat;
 						position: center center;
 						size: 100%;
@@ -823,7 +814,6 @@
 					}
 					& + .btn_area {
 						margin-top: 0;
-						// transform: translateY(80px);
 						display: block;
 						._btn {
 							display: inline-block;
@@ -862,7 +852,6 @@
 						padding-left: 65px;
 						font-size: 15px;
 						line-height: 1.3;
-						// white-space: nowrap;
 					}
 					dd {
 						max-width:100%;
@@ -880,7 +869,7 @@
 								bottom: calc(100% + 11px);
 								font-size: 15px;
 								background: {
-									image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_morevw.png);
+									image: url(../images/ico_morevw.png);
 									size: 12px;
 								}
 							}
@@ -932,6 +921,20 @@
 					.figure img {
 						max-height:420px;
 						margin-right:-20%;
+					}
+				}
+				.box_view-item3 {
+					.figure img {
+						margin-left:-10px;
+					}
+				}
+				.btn_area {
+					padding-left:0;
+					text-align: center;
+					._btn {
+						height:50px;
+						font-size:15px;
+						line-height:3.3;
 					}
 				}
 			}
