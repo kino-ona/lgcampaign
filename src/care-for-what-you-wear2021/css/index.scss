@@ -656,8 +656,6 @@
 		min-height:550px;
 		margin:60px auto 150px;
 		padding-top:50px;
-		// padding-bottom:27.414%;
-		// overflow: hidden;
 		.desc {
 			position:absolute;
 			left:0;
@@ -681,14 +679,14 @@
 			.btn_watch {
 				display: inline-block;
 				margin-top:35px;
-				padding-right:24px;
+				padding-right:26px;
 				background: {
 					image: url(../images/ico_morevw.png);
-					size: 20px;
+					size: 18px;
 					repeat: no-repeat;
-					position: right center;
+					position: right 5px center;
 				}
-				font-size:24px;
+				font-size:20px;
 				font-weight: 700;
 				color:#B50031;
 			}
@@ -1898,7 +1896,72 @@
 		}
 	}
 }
-
+.promotion_banner {
+	position:relative;
+	img {
+		max-width:100%;
+	}
+	&._pc {
+		.lnk01 {
+			position:absolute;
+			left:48.3%;
+			bottom:17%;
+			width:9%;
+			height:8%;
+		}
+		.lnk02 {
+			position:absolute;
+			right:29.5%;
+			bottom:17%;
+			width:9%;
+			height:8%;
+		}
+		.lnk03 {
+			position:absolute;
+			right:16.5%;
+			bottom:17%;
+			width:9%;
+			height:8%;
+		}
+		.lnk04 {
+			position:absolute;
+			right:3.3%;
+			bottom:17%;
+			width:9%;
+			height:8%;
+		}
+	}
+	&._mo {
+		.lnk01 {
+			position:absolute;
+			left:5%;
+			bottom:9.6%;
+			width:17%;
+			height:5%;
+		}
+		.lnk02 {
+			position:absolute;
+			left:29%;
+			bottom:9.6%;
+			width:17%;
+			height:5%;
+		}
+		.lnk03 {
+			position:absolute;
+			right:29.5%;
+			bottom:9.6%;
+			width:17%;
+			height:5%;
+		}
+		.lnk04 {
+			position:absolute;
+			right:5%;
+			bottom:9.6%;
+			width:17%;
+			height:5%;
+		}
+	}
+}
 @media screen and (max-width:991px) {
 	@import "index_response";
 }
