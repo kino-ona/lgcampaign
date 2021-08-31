@@ -254,7 +254,7 @@
 		.btn_red {
 			padding-left:20px;
 			padding-right:20px;
-			background-color: #B50031;
+			background-color: #a50034;
 			color:#fff;
 		}
 	}
@@ -688,7 +688,7 @@
 				}
 				font-size:20px;
 				font-weight: 700;
-				color:#B50031;
+				color:#a50034;
 			}
 		}
 		.visual {
@@ -895,7 +895,7 @@
 					}
 					font-size:15px;
 					font-weight: 700;
-					color:#B50031;
+					color:#a50034;
 				}
 			}
 			.sns_link {
@@ -1367,6 +1367,7 @@
 				position:relative;
 				min-height:600px;
 				padding:60px 8.75% 0;
+				padding:60px 8.75% 0 0;
 				&:before {
 					content: '';
 					position: absolute;
@@ -1374,40 +1375,51 @@
 					top:0;
 					width:100%;
 					// height:80%;
-					height:510px;
+					// height:510px;
+					height:100%;
 					display: block;
 					background: {
 						color:#FAF9E8;
 						image: url(../images/product_boxbg.png);
 						repeat: no-repeat;
-						position: left -80px bottom -150px;
-						size: 50%;
+						position: left -30px top 73px;
+						size: 45%;
 					}
 				}
 				.box_view-detail {
+					padding-bottom:60px;
 					&:after {
 						@extend %clearer;
 					}
 				}
 				.figure {
 					float:left;
-					width:45%;
+					width:50%;
+					padding-top:18px;
+					text-align: left;
 					img {
 						max-width:100%;
-						max-height:540px;
+						max-height:470px;
 					}
 					& + .btn_area {
 						display: none;
 					}
-				}
-				.btn_area {
-					padding-left:3%;
-					text-align: left;
+					.btn_area {
+						margin-top:20px;
+						text-align: center;
+						._btn {
+							padding-left:8%;
+							padding-right:8%;
+							height:43px;
+							font-size:16px;
+							line-height:2.7;
+						}
+					}
 				}
 				.desc {
 					float:left;
-					width:55%;
-					margin-top:30px;
+					width:50%;
+					margin-top:70px;
 					.btn_area {
 						clear:both;
 						padding-top:40px;
@@ -1433,7 +1445,7 @@
 						line-height:1;
 					}
 					dd {
-						max-width:80%;
+						max-width:85%;
 						min-height:100px;
 						margin-top:15px;
 						padding-left:55px;
@@ -1491,12 +1503,12 @@
 						}
 						font-size:18px;
 						font-weight: 700;
-						color:#B50031;
+						color:#a50034;
 					}
 				}
 
 				@media screen and (min-width:992px) and (max-width:1600px) {
-					padding:80px 6% 0;
+					padding:80px 6% 0 0;
 					.desc {
 						margin-top:0;
 					}
@@ -1525,12 +1537,10 @@
 					}
 				}
 				.box_view-item3 { 
-					// .btn_area {
-					// 	padding-left:6%;
-					// }
 					.figure {
-						img {
-							margin-left:-40px;
+						padding-top:0;
+						.btn_area {
+							padding-left:0;
 						}
 					}
 					.item01 dt > i{
@@ -1817,7 +1827,7 @@
 				text-transform: uppercase;
 			}
 			.btn_red {
-				background-color: #B50031;
+				background-color: #a50034;
 			}
 			.btn_gray {
 				background-color: #3E3E3E;
@@ -1827,7 +1837,7 @@
 				padding-right: 20px;
 				font-size:15px;
 				font-weight: 700;
-				color:#B50031;
+				color:#a50034;
 				background: {
 					image: url(../images/ico_morevw.png);
 					size: 14px;
