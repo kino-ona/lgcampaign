@@ -129,13 +129,13 @@
       <!-- vod background -->
       <div class="vodbg">
         <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
-          <source src="./care-for-what-you-wear2021/vod/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
+          <source src="/uk/appliances/care-for-what-you-wear-2021/vod/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
-          <source src="./care-for-what-you-wear2021/vod/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
+          <source src="/uk/appliances/care-for-what-you-wear-2021/vod/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
-          <source src="./care-for-what-you-wear2021/vod/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
+          <source src="/uk/appliances/care-for-what-you-wear-2021/vod/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
         </video>
         
         <div class="iframebody YTframe01">
@@ -173,9 +173,10 @@
 
     <div id="box_content1" class="clothing_story box_row-campaign box_content">
       <div class="desc">
-        <p class="tit">Create a Sustainable Clothing-Conscious Lifestyle with LG</p>
-        <p class="txt">In pursuit of achieving the UN's Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.<br>The most sustainable garment is the one you already own. The better you care for it, the longer it will last.
-        <p class="txt">Properly maintaining clothes using fabric protecting features can make your everyday more sustainable.</p>
+        <p class="tit">Making sustainable choices in what we wear </p>
+        <p class="txt">Throwaway fashion contributes to 5.8 million tonnes of post-consumer textile waste every year in Europe.</p>
+        <p class="txt">With the aim of meeting 'responsible consumption and production' targets set out in Goal #12 of the UN's Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.</p>
+        <p class="txt">Because the most sustainable garment are the ones you already own properly maintaining your clothes using fabric protecting features can make your everyday more sustainable.</p>
         <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Watch 2020 LG Clothing Care campaign</a>
       </div>
 
@@ -187,23 +188,23 @@
           <div class="box_slide-wrap">
             <div class="box_slide-item" data-slideidx="1">
               <div class="box_slide-image">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/vod/@story_img01-mo.png" class="image" alt="Image of a father and a child making a doll out of discarded cloth.">
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/@story_img01-mo.png" class="image" alt="Image of a father and a child making a doll out of discarded cloth.">
               </div>
             </div>
             <div class="box_slide-item" data-slideidx="2">
               <div class="box_slide-image">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/vod/@story_img02-mo.png" class="image" alt="Image of her trying on the reformed pants.">
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/@story_img02-mo.png" class="image" alt="Image of her trying on the reformed pants.">
               </div>
             </div>
             <div class="box_slide-item" data-slideidx="3">
               <div class="box_slide-image">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/vod/@story_img03-mo.png" class="image" alt="Image of reforming the pants.">
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/@story_img03-mo.png" class="image" alt="Image of reforming the pants.">
               </div>
             </div>
             <div class="box_slide-item" data-slideidx="4">
               <div class="box_slide-image">
                 <img
-                  src="/uk/appliances/care-for-what-you-wear-2021/vod/@story_img04.jpg"
+                  src="/uk/appliances/care-for-what-you-wear-2021/images/@story_img04.jpg"
                   class="image" alt="Image of a moodboard and neatly stacked rolled-up organic fabrics next to eachother.">
               </div>
             </div>
@@ -222,31 +223,31 @@
     <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and take part in creating a more sustainable lifestyle.</p>
+        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
         <div class="howto">
           <div class="half-left">
             <div class="figure">
-              <p class="tag"><img src="/uk/appliances/care-for-what-you-wear-2021/vod/goods_tag.png" alt=""></p>
-              <img src="/uk/appliances/care-for-what-you-wear-2021/vod/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
+              <p class="tag"><img src="/uk/appliances/care-for-what-you-wear-2021/images/goods_tag.png" alt=""></p>
+              <img src="/uk/appliances/care-for-what-you-wear-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
               <p class="txt">Share your story to win<br>LG clothing care appliance!</p>		
             </div>
             <div class="cta">
               <p>Find out how below</p>
               <div class="sns_link">
                 <a href="https://www.facebook.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://twitter.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>twitter" target="_blank" class="btn_tw" title="Twitter"><i></i> <span class="a11y-mobile">Twitter</span></a>
-                <!-- <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a> -->
+                <!-- <a href="https://twitter.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>twitter" target="_blank" class="btn_tw" title="Twitter"><i></i> <span class="a11y-mobile">Twitter</span></a> -->
+                <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
               </div>
             </div>
           </div>
           <div class="half-right">
             <ul class="pola_list">
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/vod/polaroid01.jpg" alt="The 'lucky catch' shirt on our fishing trip"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/vod/polaroid02.jpg" alt="Jacket HS crush said I looked cute in"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/vod/polaroid03.jpg" alt="Hand tailored suit from our trip to Italy"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/vod/polaroid04.jpg" alt="Dad’s back when he used to write graffiti"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/vod/polaroid05.jpg" alt="Still wearing our favorite date outfits since 1988"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/vod/polaroid06.jpg" alt="Mum’s favorite Dino top she used to wear 32 years ago"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01.jpg" alt="The 'lucky catch' shirt on our fishing trip"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid02.jpg" alt="Jacket HS crush said I looked cute in"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid03.jpg" alt="Hand tailored suit from our trip to Italy"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04.jpg" alt="Dad’s back when he used to write graffiti"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Still wearing our favorite date outfits since 1988"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum’s favorite Dino top she used to wear 32 years ago"></li>
             </ul>
             <a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
           </div>
@@ -275,8 +276,8 @@
         <div class="box_tab-view">
           <div class="box_view-detail"> 
             <div id="thennow" class="box_view-item box_view-item1 active ">
-              <p class="figure _pc"><img src="/uk/appliances/care-for-what-you-wear-2021/vod/@sns.jpg"></p>
-              <p class="figure _mo"><img src="/uk/appliances/care-for-what-you-wear-2021/vod/@sns-m.jpg"></p>
+              <p class="figure _pc"><img src="/uk/appliances/care-for-what-you-wear-2021/images/@sns.jpg"></p>
+              <p class="figure _mo"><img src="/uk/appliances/care-for-what-you-wear-2021/images/@sns-m.jpg"></p>
             </div>
             <div id="runway" class="box_view-item box_view-item2">
                 
@@ -296,17 +297,17 @@
         <p class="row-stit">Are you taking proper care of your clothes? Here’s how to get more from the clothes you cherish.</p>
         <div class="tip_wrap">
           <div class="tip_item">
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/vod/tips_01.jpg" alt="Dry it quicker"></p>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/tips_01.jpg" alt="Dry it quicker"></p>
             <p class="title">Dry it quicker</p>
             <p class="desc">When you’re running short on drying time, throw a dry towel in with the load. The towel will help absorb some of the moisture and help your clothes dry quicker.</p>
           </div>
           <div class="tip_item">
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/vod/tips_02.jpg" alt="‘Un-shrink’ your t-shirt"></p>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/tips_02.jpg" alt="‘Un-shrink’ your t-shirt"></p>
             <p class="title">‘Un-shrink’ your t-shirt</p>
             <p class="desc">Did your favorite T-shirt shrink? Soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.</p>
           </div>
           <div class="tip_item">
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/vod/tips_03.jpg" alt="Wear cleaner jeans"></p>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/tips_03.jpg" alt="Wear cleaner jeans"></p>
             <p class="title">Wear cleaner jeans</p>
             <p class="desc">If you like to wear your jeans more than once between washings, stick them in the freezer between wears. The frigid air will kill bacteria that can cause odor.</p>
           </div>
@@ -332,10 +333,10 @@
           <div class="box_view-detail">
             <div id="washer" class="box_view-item box_view-item1 active">
               <div class="figure">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/vod/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
                   <!-- <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>find-out-more" data-link-name="find_out_more" target="_blank" class="_btn btn_red">FIND OUT MORE</a> -->
-                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse#pdp_where" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v910wtse" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">BUY NOW</a>
                 </div>
               </div>
               <div class="desc">
@@ -347,9 +348,9 @@
                   </dd>
                 </dl>
                 <dl class="_item item02">
-                  <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Energy Savings</dt>
+                  <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Energy Saving</dt>
                   <dd>
-                    Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash™
+                    Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash<sup>™</sup>360
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="RI2WZH5JzB4" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
@@ -361,20 +362,20 @@
                   </dd>
                 </dl>
                 <dl class="_item item04">
-                  <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Eco-Friendly</dt>
+                  <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Laundry with One Less Step</dt>
                   <dd>
-                    Use just the right amount of detergent needed conveniently, reducing environmental impact with ezDispense
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="RI2WZH5JzB4" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    ezDispense automatically dispenses just the right amount of detergent needed for your laundry with no waste, giving you one less thing to worry about.
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="-pxjRbmZRRo" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
               </div>
             </div>
             <div id="dryer" class="box_view-item box_view-item2">
               <div class="figure">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/vod/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
                   <!-- <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>find-out-more" data-link-name="find_out_more" class="_btn btn_red">FIND OUT MORE</a> -->
-                  <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-FDV909W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">BUY NOW</a>
                 </div>
               </div>
               <div class="desc">
@@ -388,7 +389,7 @@
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery."></i>Save energy</dt>
                   <dd>
-                    Save money and the planet with A+++ rated, energy-efficient DUAL Inverter Heat Pump™ dryer.<sup>1)</sup>
+                    Save money and the planet with energy-efficient DUAL Inverter Heat Pump<sup>™</sup> dryer.<sup>1)</sup>
                   </dd>
                 </dl>
                 <dl class="_item item03">
@@ -407,10 +408,10 @@
             </div>
             <div id="styler" class="box_view-item box_view-item3">
               <div class="figure">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/vod/product_thumn03.png" alt="Image of LG Styler"/>
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
                   <!-- <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>find-out-more" data-link-name="find_out_more" class="_btn btn_red">FIND OUT MORE</a> -->
-                  <a href="https://www.lg.com/uk/styler/lg-S3WF#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">BUY NOW</a>
                 </div>
               </div>
               <div class="desc">
@@ -431,7 +432,7 @@
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG Styler's hygienic care feature." title="Icon of LG Styler's hygienic care feature."></i>Hygienic Care</dt>
                   <dd>
-                    TrueSteam<sup>™</sup> kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home.<sup>2)</sup>
+                    TrueSteam kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home.<sup>2)</sup>
                   </dd>
                 </dl>
               </div>
