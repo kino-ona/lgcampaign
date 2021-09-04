@@ -861,6 +861,7 @@
 							.btn_watch {
 								position: absolute;
 								margin-top: 0;
+								left:inherit;
 								right: 0;
 								bottom: calc(100% + 11px);
 								font-size: 15px;
@@ -901,7 +902,7 @@
 				.box_view-item3 {
 					.figure {
 						img {
-							width:120%;
+							margin-left:-15%;
 						}
 					}
 				}
@@ -910,7 +911,7 @@
 						background-size:contain;
 					}
 					.figure img {
-						max-height:420px;
+						max-height:580px;
 					}
 					.box_view-item3 {
 						.figure {
