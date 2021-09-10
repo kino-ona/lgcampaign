@@ -77,7 +77,7 @@
   <div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
     <div id="btn_float-goto" class="box_main-title">
       <h2 class="text_title">#CareForWhatYouWear</h2>
-      <p class="text_sub">Do you have at least one piece of clothing that holds a precious piece of your history, and your heart?<br>See how to make the stories encoded into your clothes last longer.</p>
+      <p class="text_sub">Do you own a piece of clothing that holds a piece of your history?<br>Watch a few of the charming stories held in our clothes unfold in the videos below.</p>
     </div>
 
     <div class="clothing_keyvisual box_row-campaign">
@@ -173,10 +173,10 @@
 
     <div id="box_content1" class="clothing_story box_row-campaign box_content">
       <div class="desc">
-        <p class="tit">Making sustainable choices in what we wear </p>
-        <p class="txt">Throwaway fashion contributes to 5.8 million tonnes of post-consumer textile waste every year in Europe.</p>
+        <p class="tit">Making sustainable choices in what we wear</p>
+        <p class="txt">Every second, the equivalent of a rubbish truck load of clothes is burnt or buried in landfill. <sup>1)</sup></p>
         <p class="txt">With the aim of meeting 'responsible consumption and production' targets set out in Goal #12 of the UN's Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.</p>
-        <p class="txt">Because the most sustainable garment are the ones you already own properly maintaining your clothes using fabric protecting features can make your everyday more sustainable.</p>
+        <p class="txt">Because the most sustainable garments are the ones you already own, properly maintaining your clothes using fabric protecting features can make your everyday more sustainable.</p>
         <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Watch 2020 LG Clothing Care campaign</a>
       </div>
 
@@ -211,7 +211,7 @@
           </div>
 
           <div class="explan">
-            <i alt="Icon of Responsible Consumption Production"></i><p>Responsible Consumption&amp;Production</p>
+            <i alt="Icon of Responsible Consumption Production"></i><p>Responsible Consumption &amp; Production</p>
           </div>
           <p class="story_cut" alt="Background image of the area that dirty and deformed t-shirt is on the ground."><span class="a11y">Background image of the area that dirty and deformed t-shirt is on the ground.</span></p>
           <p class="story_cut-bottom" alt="Background image of the area that dirty and deformed t-shirt is on the ground."><span class="a11y">Background image of the area that dirty and deformed t-shirt is on the ground.</span></p>
@@ -223,7 +223,7 @@
     <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favorite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
+        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favourite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
         <div class="howto">
           <div class="half-left">
             <div class="figure">
@@ -257,33 +257,54 @@
     <!--// clothing_howto -->
 
     <div class="clothing_sustain box_row-campaign">
-      <p class="row-tit">How to stay stylish sustainably</p>
-      <p class="row-stit">You may be stylish but are your fashion habits environmentally sustainable? Let these sustainable style experts show you the way.</p>
-      
+      <p class="row-tit">Stories We Wear</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist">
-          <li class="list-item item01" id="thennow"><a href="#thennow" id="anchor_tab1" data-toggle="pill"
-              adobe-click="clothing-care-campaign-sustainable-style-experts-the-and-now" 	
-              adobe-value="main>sustainable-style-experts>the-and-now>tap" data-link-name="sustainable-style-experts_tap_thennow" class="link active">Then &amp; Now</a></li>
-          <li class="list-item item02" id="runway"><a href="#runway" id="anchor_tab2" data-toggle="pill"
-              adobe-click="clothing-care-campaign-sustainable-style-experts-runway" 
-              adobe-value="main>sustainable-style-experts>runway>tap" data-link-name="runway" class="link">Runway</a></li>
-          <li class="list-item item03" id="productreview"><a href="#productreview" id="anchor_tab3" data-toggle="pill"
-              adobe-click="clothing-care-campaign-sustainable-style-experts-productreview" 
-              adobe-value="main>sustainable-style-experts>productreview>tab" data-link-name="productreview" class="link">Product Review</a></li>
+          <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
+              adobe-click="clothing-care-campaign-sustainable-style-experts-influencer01" 	
+              adobe-value="main>sustainable-style-experts>influencer01>tap" data-link-name="influencer01" class="link active">Beatrice Turner</a></li>
+          <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
+              adobe-click="clothing-care-campaign-sustainable-style-experts-influencer02" 
+              adobe-value="main>sustainable-style-experts>influencer02>tap" data-link-name="influencer02" class="link">Zeena Shah</a></li>
+          <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+              adobe-click="clothing-care-campaign-sustainable-style-experts-influencer03" 
+              adobe-value="main>sustainable-style-experts>influencer03>tab" data-link-name="influencer03" class="link">Jessica Oliveria</a></li>
         </ul>
 
         <div class="box_tab-view">
           <div class="box_view-detail"> 
-            <div id="thennow" class="box_view-item box_view-item1 active ">
-              <p class="figure _pc"><img src="/uk/appliances/care-for-what-you-wear-2021/images/@sns.jpg"></p>
-              <p class="figure _mo"><img src="/uk/appliances/care-for-what-you-wear-2021/images/@sns-m.jpg"></p>
+            <div id="influencer01" class="box_view-item box_view-item1 active ">
+              <div class="influencer influencer-01">
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Beatrice Turner Wears">
+                  <p class="influ_typo"></p>
+                </div>
+                <div class="desc">
+                  <p>Stories Beatrice Turner Wears</p>
+                  <span>"OH HOW I CHERISH this checkered dress. Reminds me of the maddest parties me and my friends had from our trip to Spain."</span>
+                </div>
+              </div>
             </div>
-            <div id="runway" class="box_view-item box_view-item2">
-                
+            <div id="influencer02" class="box_view-item box_view-item2">
+              <div class="influencer influencer-02">
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Zeena Shah Wears">
+                  <p class="influ_typo"></p>
+                </div>
+                <div class="desc">
+                  <p>Stories Zeena Shah Wears</p>
+                  <span>"Hand-made by my loving, caring, talented nonna. I think about our memories every time I wear this."</span>
+                </div>
+              </div>
             </div>
-            <div id="productreview" class="box_view-item box_view-item3">
-              
+            <div id="influencer03" class="box_view-item box_view-item3">
+              <div class="influencer influencer-03">
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Jessica Oliveria Wears">
+                  <p class="influ_typo"></p>
+                </div>
+                <div class="desc">
+                  <p>Stories Jessica Oliveria Wears</p>
+                  <span>"These white gloves go way back to 1970’s, my mum’s wedding day. Still good & gorgeous as new."</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -294,24 +315,64 @@
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
-        <p class="row-stit">Are you taking proper care of your clothes? Here’s how to get more from the clothes you cherish.</p>
+        <p class="row-stit">Wondering how to take care of your clothes better? Here’s how to better care for your cherished clothes.</p>
         <div class="tip_wrap">
-          <div class="tip_item">
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/tips_01.jpg" alt="Dry it quicker"></p>
-            <p class="title">Dry it quicker</p>
-            <p class="desc">When you’re running short on drying time, throw a dry towel in with the load. The towel will help absorb some of the moisture and help your clothes dry quicker.</p>
+          <div class="tip_item tip01">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_01.png" alt="Need a quick dry?" style="max-width:65px;"></span>
+                <span class="title">Need a quick dry?</span>
+              </div>
+              <p class="desc">When you’re running short on drying time, try throwing in a dry towel with the load. The towel works as a sponge to absorb the moisture and help your clothes dry quicker.</p>
+            </div>
           </div>
-          <div class="tip_item">
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/tips_02.jpg" alt="‘Un-shrink’ your t-shirt"></p>
-            <p class="title">‘Un-shrink’ your t-shirt</p>
-            <p class="desc">Did your favorite T-shirt shrink? Soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.</p>
+          <div class="tip_item tip02">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_02.png" alt="Shrunk clothing" style="max-width:58px;"></span>
+                <span class="title">Shrunk clothing</span>
+              </p>
+              <p class="desc">Did your favourite T-shirt shrink? A good way to deal with this is to soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.</p>
+            </div>
           </div>
-          <div class="tip_item">
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/tips_03.jpg" alt="Wear cleaner jeans"></p>
-            <p class="title">Wear cleaner jeans</p>
-            <p class="desc">If you like to wear your jeans more than once between washings, stick them in the freezer between wears. The frigid air will kill bacteria that can cause odor.</p>
+          <div class="tip_item tip03">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_03.png" alt="Nothing like a" style="max-width:61px;"></span>
+                <span class="title">Nothing like a<br>fresh pair of jeans</span>
+              </p>
+              <p class="desc">Want to wear your jeans clean more than once without washing? An effective way is to place them in the freezer between wears to kill the bacteria, which causes odor.</p>
+            </div>
+          </div>
+          <div class="tip_item tip04">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_04.png" alt="Free from odors after a night out partying" style="max-width:74px;"></span>
+                <span class="title">Free from odors after a night out partying</span>
+              </div>
+              <p class="desc">Unlike most clothes, thick fabrics such as wool tend to be harder to get rid of odor. A great way to remove odor from such clothing is to add 2 cups of vinegar into the hot tub, hang the clothes on the shower rod or bathroom door and let the vinegar in the rising steam remove the smell.</p>
+            </div>
+          </div>
+          <div class="tip_item tip05">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_05.png" alt="Save Water, Save Earth" style="max-width:74px;"></span>
+                <span class="title">Save Water, Save Earth</span>
+              </div>
+              <p class="desc">Did you know 2,700L of water is spent to make a piece of t-shirt? That is enough water for a person to drink for 3 years. The longer you use your clothing, the more water you save. Let us all save the world one clothing at a time.</p>
+            </div>
+          </div>
+          <div class="tip_item tip06">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_06.png" alt="Wear your clothes germ-free" style="max-width:68px;"></span>
+                <span class="title">Wear your clothes<br>germ-free</span>
+              </div>
+              <p class="desc">How long should you put the clothes into a dryer to kill the germs? To kill the germs in your laundry, put your clothes in the dryer for at least 30 minutes on the hot heat.</p>
+            </div>
           </div>
         </div>
+        <p class="disclm">* The tips offered are intended as entertainment. The participant is solely responsible for any damage that may occur as a result of acting on the information given.</p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
@@ -343,28 +404,28 @@
                 <dl class="_item item01">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Fabric Protection</dt>
                   <dd>
-                    Extend the life of your clothing with 18% more fabric protection by AI DD<sup>™</sup> Deep-learning technology
+                    Extend the life of your clothing with 18% more fabric protection by AI DD<sup>™</sup> Deep-learning technology<sup>1)</sup>
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="Xghnpg8dC7Q" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Energy Saving</dt>
                   <dd>
-                    Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash<sup>™</sup>360
+                    Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash<sup>™</sup>360<sup>2)</sup>
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="RI2WZH5JzB4" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Reduce Water Consumption</dt>
                   <dd>
-                    Bigger washing capacity reduces water consumption
+                    Bigger washing capacity reduces water consumption<sup>3)</sup>
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="iHc6LLpzOAE" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Laundry with One Less Step</dt>
                   <dd>
-                    ezDispense automatically dispenses just the right amount of detergent needed for your laundry with no waste, giving you one less thing to worry about.
+                    ezDispense automatically dispenses just the right amount of detergent needed for your laundry with no waste, giving you one less thing to worry about.<sup>4)</sup>
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="-pxjRbmZRRo" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
@@ -395,13 +456,13 @@
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer is certified as a TUV Green Product." title="Icon of LG DUAL Inverter Heat Pump™ Dryer is certified as a TUV Green Product."></i>Minimize Environmental Impact</dt>
                   <dd>
-                    World's first dryer certified as a TUV Green product, recognizing our efforts to minimize environmental impact<sup>2)</sup>
+                    World's first dryer certified as a TUV Green product, recognizing our efforts to minimize environmental impact<sup>1)</sup>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Hygiene Care featire that kills 99.9% virus, bacteria and dust." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Hygiene Care featire that kills 99.9% virus, bacteria and dust."></i>Hygiene Care</dt>
                   <dd>
-                    Kill 99.9% bacteria and dust as fine as hair with Allergy Care program and Dual Filter<sup>3)</sup><sup>4)</sup>
+                    Kill 99.9% bacteria and dust as fine as hair with Allergy Care program and Dual Filter<sup>2)</sup>
                   </dd>
                 </dl>
               </div>
@@ -432,7 +493,7 @@
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG Styler's hygienic care feature." title="Icon of LG Styler's hygienic care feature."></i>Hygienic Care</dt>
                   <dd>
-                    TrueSteam kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home.<sup>2)</sup>
+                    TrueSteam kills 99.9% of bacteria, sanitizing fabrics that are hard to wash at home.<sup>1)</sup>
                   </dd>
                 </dl>
               </div>
@@ -443,35 +504,179 @@
     </div>
     <!--// clothing_product -->
 
+    <div class="box_row-campaign box_content">
+      <div class="promotion_banner _pc">
+        <img src="/uk/appliances/care-for-what-you-wear-2021/images/promotion_banner.jpg" alt="Save 10% off during this exclusive promotion.">
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk01"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk02"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk03"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk04"></a>
+        <a href="#" class="lnk05"></a>
+      </div>
+      <div class="promotion_banner _mo">
+        <img src="/uk/appliances/care-for-what-you-wear-2021/images/mpromotion_banner.jpg" alt="Save 10% off during this exclusive promotion.">
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk01"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk02"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk03"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk04"></a>
+        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk05"></a>
+      </div>
+      <div class="promotoin_product">
+        <p>PROMOTIONAL PRODUCTS</p>
+        <ul class="promotoin_product-list">
+          <li class="title">
+            <p>Model</p>
+            <p>Product</p>
+            <p>Price</p>
+            <p></p>
+          </li>
+          <li>
+            <p>F4V1112WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,169.98 <span>£ 1,299.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V909WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 764.98<span>£ 849.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V1112BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,169.98<span>£ 1,299.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V1110BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,124.98<span>£ 1,249.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V1110WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,124.98<span>£ 1,249.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V910BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 854.98<span>£ 949.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V910WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 809.98<span>£ 899.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V909BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 809.98<span>£ 899.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V710STSA</p>
+            <p>Washing Machine</p>
+            <p>£ 746.98<span>£ 829.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V710WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 719.98<span>£ 799.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V709STSA</p>
+            <p>Washing Machine</p>
+            <p>£ 701.98<span>£ 779.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V709WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 674.98<span>£ 749.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>FWV1117WTSA</p>
+            <p>Washer Dryer</p>
+            <p>£ 989.98<span>£ 1,099.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>FWV1128BTSA</p>
+            <p>Washer Dryer</p>
+            <p>£ 1,169.98<span>£ 1,299.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>FWV1117BTSA</p>
+            <p>Washer Dryer</p>
+            <p>£ 1,034.98<span>£ 1,149.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>S3WF</p>
+            <p>Styler</p>
+            <p>£ 1,664.98<span>£ 1,849.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>S3BF</p>
+            <p>Styler</p>
+            <p>£ 1,709.98<span>£ 1,899.98</span></p>
+            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box_row-campaign box_content">
+      <div class="rending-button">
+        <p><i></i>Sign up now and make your stories last</p>
+        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=97fccc72-6c06-43af-b782-ee8bbbf26768" target="_blank" class="btn-link">CLICK HERE</a>
+      </div>
+    </div>
+
     <div class="box_content-info">
       <div class="box_info-inner">
-        <p class="text_emphasis">1) “Textiles and the environment in a circular economy”, European Environment Agency, 2019</p>
+        <p class="text_emphasis">1) Ellen McArthur Foundation</p>
         <div class="box_product-info">
           <strong class="text_strong">LG AI DD™ Washing Machine</strong>
           <ul class="list_detail-info">
-            <li class="list-item">1) AI Direct Drive is available in 3 cycles.(Cotton, Mixed Fabric, Easy Care)</li>
-            <li class="list-item">2) Tested by Intertek on March 2019. Cotton cycle with 2kg of underwear compared to LG Conventional Cotton cycle(F4V9RWP2W vs. FC1450S2W). The results may be different depending on the clothes and environment.</li>
-            <li class="list-item">3) Available with TurboWash39 cycle</li>
-            <li class="list-item">4) Tested by Intertek, based on IEC 60456 : edition 5.0. TurboWash39 cycle with 5kg of IEC load compared to Conventional Cotton Cycle with TurboWash (F4V9RWP2W vs. FC1450S2W). The results may be different.</li>
-            <li class="list-item">5) Increased capacity in 550mm(Depth) Standrad size from 9kg(F4J8VS2W) to 10.5kg(F4V910BTS), which results in reduced water consumption by 57L/kg yearly according to the IEC Standard Energy Label.</li>
-            <li class="list-item">6) The results may be different depending on the clothes and environment.</li>
-            <li class="list-item">7) Tested under the supervision of TUV SUD, LG Steam Washer Dryer&nbsp;kills 99.9% of bacteria (S. aureus,&nbsp;P. aeruginosa,&nbsp;and&nbsp;K. pneumoniae)&nbsp; with Steam Refresh program.</li>
+            <li class="list-item">1) Tested by Intertek on March 2019. Cotton cycle with 2kg of underwear compared to LG Conventional Cotton cycle(FC1450S2W). The results may be different depending on the clothes and environment.
+              <br>* AI Direct Drive is available in 3 cycles.(Cotton, Mixed Fabric, Easy Care)</li>
+            <li class="list-item">2) Tested by Intertek on March 2019. Cotton cycle with 2kg of underwear compared to LG Conventional Cotton cycle(F4V9RWP2W vs. FC1450S2W). The results may be different depending on the clothes and environment.
+              <br>* AI DD is available in 3 cycles.(Cotton, Mixed Fabric, Easy Care)
+            </li>
+            <li class="list-item">3) Vibration sensor included in V900/V700/V500 only. (excluding Slim type)
+              <br>* Friction Damper & Weight Balance's number may be different depending on the model.
+              <br>* Increased capacity
+              <br>- 2kg in 600mm(Depth), 1.5kg in 550mm/440mm(Depth)
+            </li>
+            <li class="list-item">4) Wash up to 20 times with normal dispense level (5 kg load).
+              <br>Tested by LG internal lab. Cotton cycle with "Normal" detergent level.
+            </li>
           </ul>
         </div>
         <div class="box_product-info">
           <strong class="text_strong">LG DUAL Inverter Heat Pump™ Dryer</strong>
           <ul class="list_detail-info">
-            <li class="list-item">1) At a range of energy efficiency classes from A+++ to D scale. According to the IEC standard, Cotton cycle with Energy Mode.</li>
-            <li class="list-item">2) Requirements for the Green Product Mark consist of social compliance, product safety, restrication of hazardous substances, and sustainable use of resources.&#xFEFF; R290 applied LG dryer models were test, August 2020. https://www.tuv.com/world/en/green-product-mark.html</li>
-            <li class="list-item">3) Allergy Care cycle certified by BAF(British Allergy Foundation) reduces 99.9% of live house dust mites.</li>
-            <li class="list-item">4) Tested under the supervision of TUV SUD, LG clothes&nbsp;dryer kills 99.9% of bacteria (S. aureus,&nbsp;P. aeruginosa,&nbsp;and&nbsp;K. pneumoniae) with Allergy Care program.</li>
+            <li class="list-item">1) World's first dryer certified as a TUV Green product, recognizing our efforts to minimize environmental impact</li>
+            <li class="list-item">2) Tested under the supervision of TUV SUD, LG clothes dryer kills 99.9% of bacteria (S. aureus, P. aeruginosa, and K. pneumoniae) with Allergy Care program.
+              <br>* Allergy Care cycle certified by BAF(British Allergy Foundation) reduces 99.9% of live house dust mites.
+            </li>
           </ul>
         </div>
         <div class="box_product-info">
           <strong class="text_strong">LG Styler</strong>
           <ul class="list_detail-info">
-            <li class="list-item">1) Tested by Intertek, based on Sanitary - Normal program, removes 92% of hazardous substance (Perchloroethylene) generated during dry cleaning</li>
-            <li class="list-item">2) Certified by VDE to sterilize 99.9% of E. coli and S. epidermidis</li>
+            <li class="list-item">1) Approved by BAF (British Allergy Foundation) for reduction in exposure to live house dust mite, bacteria (E. coli and S. aureus).</li>
           </ul>
         </div>
       </div>

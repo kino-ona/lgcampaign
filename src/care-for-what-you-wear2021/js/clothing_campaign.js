@@ -180,6 +180,15 @@ $('.clothing-campaign .pop_ytiframe .btn-close').on('click', function(){
 	$('.clothing-campaign .pop_ytiframe').find('iframe').remove();
 })
 
+$('.promotion_banner .lnk05').on('click', function(){
+	if($('.promotoin_product').hasClass('show')) {
+		$('.promotoin_product').removeClass('show')
+	}else{
+		$('.promotoin_product').addClass('show')
+	}
+	return false;
+});
+
 /* responsive s */
 $(document).ready(function(){
 	if($('#clothing_keyvisual').length > 0) {
