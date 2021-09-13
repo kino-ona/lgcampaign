@@ -11,10 +11,10 @@
     <!-- chrome audits -->
     <meta name="theme-color" content="#a50034" />
 
-    <title>Care For What You Wear: Clothing Care Appliances | LG UK</title>
+    <title>Care For What You Wear: Clothing Care Appliances | LG Italia</title>
     <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, cherished clothes, washing machine, dryer, styler" />
     <meta name="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
-    <meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
+    <meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG Italia" />
     <meta property="og:url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
     <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg" />
@@ -37,7 +37,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 
     <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-        <meta itemprop="name" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
+        <meta itemprop="name" content="Care For What You Wear: Clothing Care Appliances | LG Italia" />
         <meta itemprop="image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg" />
         <meta itemprop="url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear" />
         <meta itemprop="description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
@@ -58,12 +58,12 @@
 	<div class="breadcrumb">
 		<ul itemscope itemtype="http://schema.org/BreadcrumbList">
 			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-				<a href="/uk" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home">
+				<a href="/it" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home">
 				<span itemprop="name">HOME</span></a>
 				<meta itemprop="position" content="1" />
 			</li>
 			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-				<a href="/uk/appliances" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
+				<a href="/it" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
 				<span itemprop="name">APPLIANCES</span></a>
 				<meta itemprop="position" content="2">
 			</li>
@@ -72,34 +72,33 @@
 	</div>
 	<!-- // breadcrumb -->
 
-
   <!-- Enter Code Here -->
   <div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
     <div id="btn_float-goto" class="box_main-title">
       <h2 class="text_title">#CareForWhatYouWear</h2>
-      <p class="text_sub">Do you own a piece of clothing that holds a piece of your history?<br>Watch a few of the charming stories held in our clothes unfold in the videos below.</p>
+      <p class="text_sub">Possiedi un capo di abbigliamento che racchiude un pezzo della tua vita? Guarda alcune delle affascinanti storie racchiuse nei nostri vestiti nel video qui sotto.</p>
     </div>
 
     <div class="clothing_keyvisual box_row-campaign">
       <div class="over_text _pc">
         <div class="item" title="Thumbnail image of the video.">
           <div class="sub_print">
-            <p>The Hand-me-down</p>
-            <span>Our stories lie within these clothes</span>
+            <p>I tuoi vestiti, la tua storia</p>
+            <span>Le nostre storie sono conservate nei nostri vestiti</span>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
         <div class="item" title="Thumbnail image of the video.">
           <div class="sub_print">
-            <p>The Love that Lasts</p>
-            <span>Our stories lie within these clothes</span>
+            <p>L'amore che dura</p>
+            <span>Le nostre storie sono conservate nei nostri vestiti</span>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
         <div class="item" title="Thumbnail image of the video.">
           <div class="sub_print">
-            <p>The Stories We Wear</p>
-            <span>Our stories lie within these clothes</span>
+            <p>Le storie che indossiamo</p>
+            <span>Le nostre storie sono conservate nei nostri vestiti</span>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
@@ -108,19 +107,19 @@
       <div id="clothing_keyvisual" class="over_text _mo">
         <div class="item">
           <div class="sub_print">
-            <p>The Hand-me-down<span>Our stories lie within these clothes</span></p>
+            <p>I tuoi vestiti, la tua storia<span>Le nostre storie sono conservate nei nostri vestiti</span></p>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film>baby" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
         <div class="item">
           <div class="sub_print">
-            <p>The Love that Lasts<span>Our stories lie within these clothes</span></p>
+            <p>L'amore che dura<span>Le nostre storie sono conservate nei nostri vestiti</span></p>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film>couple-long-married" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
         <div class="item">
           <div class="sub_print">
-            <p>The Stories We Wear<span>Our stories lie within these clothes</span></p>
+            <p>Le storie che indossiamo<span>Le nostre storie sono conservate nei nostri vestiti</span></p>
             <a href="#" data-show-video="true" adobe-click="clothing-care-campaign-main-video" adobe-value="main>video>brand-film>hero" data-link-name="hero_video_brand_film" class="btn_play">PLAY<i></i></a>
           </div>
         </div>
@@ -173,10 +172,10 @@
 
     <div id="box_content1" class="clothing_story box_row-campaign box_content">
       <div class="desc">
-        <p class="tit">Making sustainable choices in what we wear</p>
-        <p class="txt">Every second, the equivalent of a rubbish truck load of clothes is burnt or buried in landfill. <sup>1)</sup></p>
-        <p class="txt">With the aim of meeting 'responsible consumption and production' targets set out in Goal #12 of the UN's Sustainable Development Goals, LG started the #CareForWhatYouWear campaign in 2020 to support responsible clothing care habits and curb waste.</p>
-        <p class="txt">Because the most sustainable garments are the ones you already own, properly maintaining your clothes using fabric protecting features can make your everyday more sustainable.</p>
+        <p class="tit">Fare scelte sostenibili anche per ciò che indossiamo</p>
+        <p class="txt">La moda usa e getta contribuisce alla produzione di 5,8 milioni di tonnellate di rifiuti tessili ogni anno in Europa. <sup>1)</sup></p>
+        <p class="txt">Per raggiungere gli obiettivi di "consumo e produzione responsabili" stabiliti nell'articolo n. 12 dei presupposti di sviluppo sostenibile 2021 delle Nazioni Unite, LG ha avviato la campagna #CareForWhatYouWear nel 2020 per promuovere abitudini responsabili nell'abbigliamento e limitare gli sprechi.</p>
+        <p class="txt">I capi più sostenibili sono quelli che già possiedi e mantenerli correttamente utilizzando le tecniche di protezione del tessuto può rendere la tua quotidianità più sostenibile.</p>
         <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Watch 2020 LG Clothing Care campaign</a>
       </div>
 
@@ -188,7 +187,8 @@
           <div class="box_slide-wrap">
             <div class="box_slide-item" data-slideidx="1">
               <div class="box_slide-image">
-                <img src="/uk/appliances/care-for-what-you-wear-2021/images/@story_img01-mo.png" class="image" alt="Image of a father and a child making a doll out of discarded cloth.">
+                <img src="/uk/appliances/care-for-what-you-wear-2021/images/@story_img01-mo.png" 
+                class="image" alt="Image of a father and a child making a doll out of discarded cloth.">
               </div>
             </div>
             <div class="box_slide-item" data-slideidx="2">
@@ -212,7 +212,7 @@
           </div>
 
           <div class="explan">
-            <i alt="Icon of Responsible Consumption Production"></i><p>Responsible Consumption &amp; Production</p>
+            <i alt="Icon of Responsible Consumption Production"></i><p>ㅍ</p>
           </div>
           <p class="story_cut" alt="Background image of the area that dirty and deformed t-shirt is on the ground."><span class="a11y">Background image of the area that dirty and deformed t-shirt is on the ground.</span></p>
           <p class="story_cut-bottom" alt="Background image of the area that dirty and deformed t-shirt is on the ground."><span class="a11y">Background image of the area that dirty and deformed t-shirt is on the ground.</span></p>
@@ -223,8 +223,8 @@
 
     <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
-        <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favourite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
+        <p class="row-tit">I miei adorati vestiti</p>
+        <p class="row-stit">Quali bei ricordi restano nel tuo guardaroba?<br> Condividi il tuo ricordo preferito legato a un outfit e dai un'occhiata alle storie condivise dagli altri.</p>
         <div class="howto">
           <div class="half-left">
             <div class="figure">
@@ -235,8 +235,8 @@
             <div class="cta">
               <p>Find out how below</p>
               <div class="sns_link">
-                <a href="https://www.facebook.com/LGUK" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://www.instagram.com/lg_homeappliances/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+                <a href="https://www.facebook.com/LGItalia/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/lg_italia/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Still wearing our favourite date outfits since 1988"></li>
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
             </ul>
-            <a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
+            <a href="#" class="btn_terms">Termini e Condizioni<i></i></a>
           </div>
         </div>
       </div>
@@ -378,21 +378,21 @@
     <!-- clothing_tip(quiz) -->
 
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
-      <p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
-      <p class="row-stit">How we care for our clothes directly impacts the environment.<br>LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
+      <p class="row-tit">Scopri gli elettrodomestici LG Clothing Care Solution</p>
+      <p class="row-stit">Il modo in cui ci prendiamo cura dei nostri vestiti ha un impatto diretto sull'ambiente. L'innovativa tecnologia LG per la cura dell'abbigliamento aiuta i tuoi vestiti a durare più a lungo, contribuendo a ridurre gli sprechi per un futuro migliore.</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist">
-          <li class="list-item item01" id="washer"><a href="#washer" id="anchor_tab1" data-toggle="pill"
-            adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>tap" data-link-name="product_feature_tap_washer" class="link active">Washer</a></li>
-          <li class="list-item item02" id="dryer"><a href="#drayer" id="anchor_tab2" data-toggle="pill"
-            adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>tap" data-link-name="product_feature_tap_dryer" class="link">Dryer</a></li>
+          <li class="list-item item01" id="lavatrice"><a href="#lavatrice" id="anchor_tab1" data-toggle="pill"
+            adobe-click="clothing-care-campaign-main-lavatrice" adobe-value="main>product-feature>lavatrice>tap" data-link-name="product_feature_tap_lavatrice" class="link active">Lavatrice</a></li>
+          <li class="list-item item02" id="asciugatrice"><a href="#asciugatrice" id="anchor_tab2" data-toggle="pill"
+            adobe-click="clothing-care-campaign-main-asciugatrice" adobe-value="main>product-feature>asciugatrice>tap" data-link-name="product_feature_tap_asciugatrice" class="link">Asciugatrice</a></li>
           <li class="list-item item03" id="styler"><a href="#styler" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>tap" data-link-name="product_feature_tap_styler" class="link">Styler</a></li>
         </ul>
 
         <div class="box_tab-view">
           <div class="box_view-detail">
-            <div id="washer" class="box_view-item box_view-item1 active">
+            <div id="lavatrice" class="box_view-item box_view-item1 active">
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
@@ -430,7 +430,7 @@
                 </dl>
               </div>
             </div>
-            <div id="dryer" class="box_view-item box_view-item2">
+            <div id="asciugatrice" class="box_view-item box_view-item2">
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
