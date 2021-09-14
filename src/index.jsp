@@ -249,7 +249,7 @@
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Still wearing our favourite date outfits since 1988"></li>
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
             </ul>
-            <a href="#" class="btn_terms">Terms &amp; Conditions<i></i></a>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Terms &amp; Conditions<i></i></a>
           </div>
         </div>
       </div>
@@ -502,21 +502,65 @@
     <!--// clothing_product -->
 
     <div class="box_row-campaign box_content">
-      <div class="promotion_banner _pc">
-        <img src="/uk/appliances/care-for-what-you-wear-2021/images/promotion_banner.jpg" alt="Save 10% off during this exclusive promotion.">
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk01"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk02"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk03"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk04"></a>
-        <a href="#" class="lnk05"></a>
-      </div>
-      <div class="promotion_banner _mo">
-        <img src="/uk/appliances/care-for-what-you-wear-2021/images/mpromotion_banner.jpg" alt="Save 10% off during this exclusive promotion.">
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk01"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk02"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk03"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk04"></a>
-        <a href="https://www.lgpromotion.co.uk/" target="_blank" class="lnk05"></a>
+      <div class="promotion_banner">
+        <div class="promo_left">
+          <p>Save10% off during<br>this exclusive promotion.<span>20/10 ~17/11/2021</span></p>
+          <span>Get your new clothing care appliances<br>with LG’s special promo code : SAVE10</span>
+        </div>
+        <div class="promo_right">
+          <div class="items">
+            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item01.jpg" alt="Washing Machine 12kg -  TurboWash™360˚ | AIDD™ | Steam+™ | ezDispense™"></p>
+            <p class="model_name">
+              Washing Machine 12kg -  TurboWash™360<sup>˚</sup> | AIDD<sup>™</sup> | Steam+<sup>™</sup> | ezDispense<sup>™</sup>
+              <span class="model_code">F4V1112WTSA</span>
+            </p>
+            <p class="model_price">
+              £ 1,169.98<span>£ 1,299.98</span>
+            </p>
+            <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" target="_blank" data-model-id="MD07535512" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" data-model-year="2021" data-model-name="F4V1112WTSA" data-model-salesmodelcode="F4V1112WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+          </div>
+          <div class="items">
+            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item02.jpg" alt="Washing Machine 9kg -  TurboWash™360˚ | AIDD™ | Steam+™ | ezDispense™ | White"></p>
+            <p class="model_name">
+              Washing Machine 9kg -  TurboWash<sup>™</sup>360<sup>˚</sup> | AIDD<sup>™</sup>| Steam+<sup>™</sup> | ezDispense<sup>™</sup> | White
+              <span class="model_code">F6V909WTSA</span>
+            </p>
+            <p class="model_price">
+              £ 764.98<span>£849.98</span>
+            </p>
+            <a href="https://www.lg.com/uk/washing-machines/lg-f6v909wtsa" target="_blank" data-model-id="MD07535516" data-link-name="add_to_cart" data-category-name="Washer" data-model-year="2021" data-model-salesmodelcode="F6V909WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+          </div>
+          <div class="items">
+            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item03.jpg" alt="LG Turbowash360™ FWV1117WTSA 10.5kg / 7kg, 1400rpm, Washer Dryer - White"></p>
+            <p class="model_name">
+              LG Turbowash360™ FWV1117WTSA 10.5kg / 7kg, 1400rpm, Washer Dryer - White
+              <span class="model_code">FWV1117WTSA</span>
+            </p>
+            <p class="model_price">
+              £ 989.98<span>£ 1099.98</span>
+            </p>
+            <a href="https://www.lg.com/uk/washer-dryers/lg-fwv1117wtsa" target="_blank" data-model-id="MD07535521" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" data-model-year="2021" data-model-name="FWV1117WTSA" data-model-salesmodelcode="FWV1117WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+          </div>
+          <div class="items">
+            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item04.jpg" alt="LG Styler  Steam Clothing Care System® S3WF 3 Hangers - White"></p>
+            <p class="model_name">
+              LG Styler  Steam Clothing Care System<sup>®</sup> S3WF 3 Hangers - White
+              <span class="model_code">S3MFC</span>
+            </p>
+            <p class="model_price">
+              £ 1,664.98<span>£1,849.98</span>
+            </p>
+            <a href="https://www.lg.com/uk/styler/lg-S3WF" target="_blank" data-model-id="MD06210176" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-year="2019" data-model-name="S3WF" data-model-salesmodelcode="S3WF.ALWQKUK" class="btn-buynow">Buy Now</a>
+          </div>
+
+          <div class="btn-area">
+            <a href="#" class="btn-seemore lnk05">See More<i></i></a>
+          </div>
+        </div>
       </div>
       <div class="promotoin_product">
         <p>PROMOTIONAL PRODUCTS</p>
@@ -531,103 +575,103 @@
             <p>F4V1112WTSA</p>
             <p>Washing Machine</p>
             <p>£ 1,169.98 <span>£ 1,299.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F6V909WTSA</p>
             <p>Washing Machine</p>
             <p>£ 764.98<span>£ 849.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://lg.com/uk/washing-machines/lg-f6v909wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F4V1112BTSA</p>
             <p>Washing Machine</p>
             <p>£ 1,169.98<span>£ 1,299.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v1112btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F6V1110BTSA</p>
             <p>Washing Machine</p>
             <p>£ 1,124.98<span>£ 1,249.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v1110btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F6V1110WTSA</p>
             <p>Washing Machine</p>
             <p>£ 1,124.98<span>£ 1,249.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v1110wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F6V910BTSA</p>
             <p>Washing Machine</p>
             <p>£ 854.98<span>£ 949.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v910btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F6V910WTSA</p>
             <p>Washing Machine</p>
             <p>£ 809.98<span>£ 899.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v910wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F6V909BTSA</p>
             <p>Washing Machine</p>
             <p>£ 809.98<span>£ 899.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v909btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F4V710STSA</p>
             <p>Washing Machine</p>
             <p>£ 746.98<span>£ 829.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v710stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F4V710WTSA</p>
             <p>Washing Machine</p>
             <p>£ 719.98<span>£ 799.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v710wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F4V709STSA</p>
             <p>Washing Machine</p>
             <p>£ 701.98<span>£ 779.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v709stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>F4V709WTSA</p>
             <p>Washing Machine</p>
             <p>£ 674.98<span>£ 749.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v709wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>FWV1117WTSA</p>
             <p>Washer Dryer</p>
             <p>£ 989.98<span>£ 1,099.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washer-dryers/lg-fwv1117wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>FWV1128BTSA</p>
             <p>Washer Dryer</p>
             <p>£ 1,169.98<span>£ 1,299.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washer-dryers/lg-fwv1128btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>FWV1117BTSA</p>
             <p>Washer Dryer</p>
             <p>£ 1,034.98<span>£ 1,149.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/washer-dryers/lg-fwv1117btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>S3WF</p>
             <p>Styler</p>
             <p>£ 1,664.98<span>£ 1,849.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/styler/lg-S3WF" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
           <li>
             <p>S3BF</p>
             <p>Styler</p>
             <p>£ 1,709.98<span>£ 1,899.98</span></p>
-            <p><a href="#" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+            <p><a href="https://www.lg.com/uk/styler/lg-S3BF" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
         </ul>
       </div>
@@ -636,7 +680,7 @@
     <div class="box_row-campaign box_content">
       <div class="rending-button">
         <p><i></i>Sign up now and make your stories last</p>
-        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=97fccc72-6c06-43af-b782-ee8bbbf26768" target="_blank" class="btn-link">CLICK HERE</a>
+        <a href="https://ssodev.lg.com/oauth/page/login?authorizeKey=99a80964-4a95-4811-923b-7df35f2d26e6" target="_blank" class="btn-link">CLICK HERE</a>
       </div>
     </div>
 
@@ -680,6 +724,140 @@
     </div>
     <div class="pop_ytiframe">
       <div class="pop_ytiframe-inner"><button class="btn-close"><span class="a11y">close</span></button><div class="movie-box"></div></div>
+    </div>
+  </div>
+
+  <div class="layer_body popup clothingcare-terms_pop" id="clothingcare-terms_pop" aria-hidden="true" role="dialog">
+    <div class="layer_wrap">
+      <div class="layer_close">
+        <button onclick="layerClose('clothingcare-terms_pop')" class="close_btn">close</button>
+      </div>
+      <div class="layer_inner">
+        <div class="layer_cont">
+          <p class="heading-tit">LG will be running the following<br>"My Cherished Clothes Event" on Instagram and Facebook :</p>
+          <p>(1) An LG Clothing Care Solution Appliance (Washer/ Dryer/ Styler) grand prize giveaway at the end of the Event Period.</p>
+          <p>Entrants must follow the criteria set out below, by posting a comment on the original content posted with their own stories about a piece of clothing that holds special memories of them. Please note, there is a criteria for winner selection, the more closely the criteria is followed, the more likely you are to be selected as winner.</p>
+          <dl>
+            <dt>Promotion Period</dt>
+            <dd>
+              <p>Entries can be made from Tuesday 28 th September 2021 until 11:59pm Monday 18 th October 2021. Any entries made outside of this time are not eligible for this promotion.</p>
+              <p>Only open to those in the UK aged 18 or over, a public Instagram and/or a Facebook account is required. Please see the full terms and conditions below.</p>
+            </dd>
+          </dl>
+          <dl>
+            <dt class="numb"><span>1</span> How to enter</dt>
+            <dd class="dd_push">
+              <p>Entrants can choose either option A or B.</p>
+              <p><strong>A.</strong> Entrants must leave a comment with a story about their cherished clothes on the Event Post uploaded on
+                Instagram or Facebook.</p>
+              <p><strong>B.</strong> Entrants must post their own cherished clothing story with a photo of the clothes on their Instagram or
+                Facebook account.</p>
+            </dd>
+            <dd class="dd_push">
+              <strong>Mandatory</strong>
+              <div class="dv_line">
+                <p><strong>Facebook -</strong> Need to include the followings :<br>
+                  #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
+                <p><strong>Instagram -</strong> Need to include the followings:<br>
+                  #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
+              </div>
+            </dd>
+          </dl>
+          <p>Entrants may enter as many times as they like on the Instagram and Facebook posts and winners shall be chosen randomly. The draw will take place after the closing date and winners will be notified via Instagram or Facebook within 7 days of the closing date. Winners will be selected based on the following criteria:</p>
+          <dl>
+            <dt class="numb"><span>2</span> Promoter</dt>
+            <dd class="dd_push">
+              LG Electronics U.K. Limited (“LG”) of Velocity 2, Brooklands Drive, Weybridge, KT130SL.
+            </dd>
+          </dl>
+          <dl>
+            <dt class="numb"><span>3</span> Administrator</dt>
+            <dd class="dd_push">
+              TI Media (UK), 161 Marsh Wall, Canary Wharf, London, E14 9AP.
+            </dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>4</span> No purchase necessary: The giveaway is free to enter to all UK residents that meet the eligibility criteria set out in these terms and conditions.</dd>
+          </dl>
+          <dl>
+            <dt>Eligibility criteria</dt>
+            <dd class="numb"><span>5</span> The giveaway is only open to entrants residing in UK and aged 18 or over. Employees of LG global 
+              companies, the Administrator, their families and agents, and any other company or person involved in the creation or administration of the giveaway are not permitted to enter. Internet access, a Facebook 
+              social media account and a public Instagram social media account are required.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>6</span> By following the instructions provided in the giveaway, you are agreeing to these terms and
+              conditions. All decisions regarding the winners and prizes are final. No correspondence will be entered into by LG or the Administrator.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>7</span> Late, illegible, incomplete, defaced or corrupt entries, as well as entries sent through agencies and
+              third parties or by means other than Instagram will not be accepted. No responsibility can be accepted for lost entries. If LG or the Administrator believes that there has been a breach of these terms and
+              conditions, LG or the Administrator will, at their sole discretion, be entitled to withhold the prize and randomly draw another winner in accordance with these terms and conditions.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Instagram or Facebook direct
+              message requesting their contact details. It is the winner’s responsibility to ensure the details they provide are accurate and neither the Promoter nor Administrator will be responsible for delivery failure
+              where participants have provided incorrect or incomplete delivery information, or fails to sign for delivery, as required.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>9</span> Selection process: The prize winner will be selected randomly by the Administrator.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>10</span> The winner will be announced within seven (7) days of the giveaway ending. The winner will be
+              contacted by the Administrator once selected via Instagram or Facebook direct message requesting their contact details The winner will be asked to provide the relevant contact information including, but
+              not limited to, their email address, telephone number and address in order to send the winner the prizes or to organise a collection (this shall be at the Promoter’s discretion).</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>11</span> There is one (1) grand prize to be won at the end of the Event Period.</dd>
+          </dl>
+          <dl>
+            <dt>The prize include:</dt>
+            <dd>
+              (1). LG Clothing Care Solution Appliance – Washer/ Dryer/ Styler (grand prize selected at the end of the Event Period)
+            </dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>12</span> All entrants acknowledge that third party terms and conditions may apply to any element of the
+              prize and agree to adhere to such third party terms and conditions. It is the responsibility of each entrant to read these terms.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>13</span> The entrants may be expected to participate in LG publicity related to the giveaway. The name
+              and general location of the entrants may be published on LG.com and/or LG social media sites. This could include any images submitted by the user as a part of the promotion.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>14</span> LG will not be liable to perform any of its obligations under the giveaway or in respect of the prize
+              where they are unable to do so as a result of unforeseen circumstances or circumstances beyond LG’s reasonable control, and whilst LG may (but shall not be obliged to) endeavor to provide an
+              alternative prize of equal value, LG shall not be liable to provide additional compensation to the winners in such circumstances.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>15</span> Should the Administrator be unable to reasonably contact the winner, or should the winner fail to
+              respond to attempts to contact them within three (3) days of the first message or the winner is unable to accept the prize, the prize will be forfeited and the Administrator reserves the right to award the
+              prize to an alternative winner, drawn in accordance with these terms and conditions.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>16</span> No exchange: The prize is non-transferable and cannot be exchanged for cash or any other
+              alternative. The prize is subject to availability and LG reserves the right to change the prize at any time.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>17</span> LG acts as data controller as defined in UK data protection legislation (including the Data
+              Protection Act 2018 and where applicable the General Data Protection Regulation). LG agrees to comply with its obligations under data protection legislation. In particular, LG and/or the Administrator
+              will hold all personal data securely and use it solely for the purposes of administering the giveaway as set out in these Terms and Conditions and in accordance with the CAP Code. Further information
+              regarding the LG privacy policy can be found at https://www.lg.com/uk/privacy</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>18</span> Liability: Save for any liability which cannot be excluded by law, LG cannot accept any
+              responsibility for any damage, loss, injury or disappointment suffered by an entrant as a result of entering the giveaway.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>19</span> Amendment/cancellation: LG reserves the right to amend these terms and conditions and/or to
+              amend, suspend, withdraw or cancel the giveaway at any time and without prior notice.</dd>
+          </dl>
+          <dl>
+            <dd class="numb"><span>20</span> Governing law: The giveaway is governed by the Laws of England and Wales and the English
+              Courts shall have exclusive jurisdiction to determine any disputes which may arise out of, under or in connection with it.</dd>
+          </dl>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Enter Code Here -->

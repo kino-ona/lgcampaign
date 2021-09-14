@@ -274,7 +274,6 @@ function layerClose(layerId){
 	var curPos = -(parseInt($('.box_content-wrapper').css('top')));
 	$('#' + layerId).removeClass('is-visible');
 	$('#' + layerId).attr('aria-hidden', 'true');
-	// $('#' + layerId).removeAttr('open tabindex');
 	$('html').removeClass('noscroll');
 	if ($('[role="dialog"].is-visible').length < 1) {
 		$('html').removeClass('noscroll').find('.box_content-wrapper').css({'top':0});
