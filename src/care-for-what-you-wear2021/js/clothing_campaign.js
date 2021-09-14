@@ -245,3 +245,40 @@ function facebookSubmit(set) {
 		var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
 		window.open(popUrl,"",popOption);
 }
+
+/** Overlay Popup
+****************************************/
+var isOpen = false;
+function layerOpen(layerId){
+	var curPos = $(window).scrollTop();
+	$('html').addClass('noscroll');
+	$('#' + layerId).addClass('is-visible');
+	var layerID = $('#' + layerId);
+	layerID.attr({
+		'aria-hidden': 'false',
+		'open': 'true',
+		'tabindex': '0'
+	});
+	if($('[role="dialog"]:visible').length <= 1 && isOpen == false) {
+		$('.box_content-wrapper').css('top',-curPos);
+		isOpen = true
+	}
+	var delay = setTimeout(function(){
+		if(!$('html').hasClass('noscroll')){
+			$('html').addClass('noscroll');
+		}
+		clearTimeout(delay);
+	}, 50);
+}
+function layerClose(layerId){
+	var curPos = -(parseInt($('.box_content-wrapper').css('top')));
+	$('#' + layerId).removeClass('is-visible');
+	$('#' + layerId).attr('aria-hidden', 'true');
+	// $('#' + layerId).removeAttr('open tabindex');
+	$('html').removeClass('noscroll');
+	if ($('[role="dialog"].is-visible').length < 1) {
+		$('html').removeClass('noscroll').find('.box_content-wrapper').css({'top':0});
+		$(window).scrollTop(curPos);
+		isOpen = false;
+	}
+}
