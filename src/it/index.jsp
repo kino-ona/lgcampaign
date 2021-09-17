@@ -625,7 +625,7 @@
     <div class="box_row-campaign box_content">
       <div class="rending-button">
         <p><i></i>Sign up now and make your stories last</p>
-        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=97fccc72-6c06-43af-b782-ee8bbbf26768" target="_blank" class="btn-link">CLICK HERE</a>
+        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=4fb7abd4-3abc-47b9-b481-91995c5393d0" target="_blank" class="btn-link">CLICK HERE</a>
       </div>
     </div>
 

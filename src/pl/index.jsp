@@ -161,10 +161,10 @@
       <div class="box_nav-position">
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
-            <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUCTION</a></li>
-            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
-            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">SUSTAINABLE CLOTHING TIPS</a></li>
-            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
+            <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">WSTĘP</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ</a></li>
+            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">ZRÓWNOWAŻONE DBANIE O ODZIEŻ</a></li>
+            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">ZOBACZ PRODUKT</a></li>
           </ul>
         </div>
       </div>
@@ -173,17 +173,14 @@
     <div id="box_content1" class="clothing_story box_row-campaign box_content">
       <div class="desc">
         <p class="tit">Pielęgnacja ubrań, z troski o środowisko</p>
-        <p class="txt">Moda na ubrania noszone przez krótki czas powoduje, że w Europie co roku powstaje 5,8 mln tony pokonsumenckich odpadów tekstylnych.</p>
+        <p class="txt">Moda na ubrania noszone przez krótki czas powoduje, że w Europie co roku powstaje 5,8 mln ton pokonsumenckich odpadów tekstylnych.</p>
         <p class="txt">W roku 2020 firma LG rozpoczęła kampanię #ZadbajOtoCoNosisz, aby wspierać nawyki odpowiedzialnego pielęgnowania ubrań oraz ograniczyć wytwarzania odpadów i w ten sposób dążyć do osiągnięcia celu nr 12 „Odpowiedzialna konsumpcja i produkcja” agendy zrównoważonego rozwoju ONZ na rok 2021.</p>
         <p class="txt">Najbardziej zrównoważone ubrania to te, której już mamy. Dlatego prawidłowo pielęgnując odzież przy użyciu funkcji chroniących tkaniny, możemy sprawić, że nasza codzienność będzie bliższa zasadom zrównoważonego rozwoju.</p>
-        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Obejrzyj 2020 LG Clothing Care campaign</a>
+        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Zobacz kampanię Zadbaj o to co nosisz 2020</a>
       </div>
 
       <div class="visual">
         <div class="story_slide">
-          <button class="slick-prev slick-arrow" adobe-click="clothing-care-campaign-main-sustainable-clothing-conscious-lifestyle" adobe-value="main>sustainable-clothing-conscious-lifestyle>carousel" data-link-name="sustainable_clothing_conscious_lifestyle_carousel" aria-label="Previous" type="button"><i></i>Previous</button>
-          <button class="slick-next slick-arrow" adobe-click="clothing-care-campaign-main-sustainable-clothing-conscious-lifestyle" adobe-value="main>sustainable-clothing-conscious-lifestyle>carousel" data-link-name="sustainable_clothing_conscious_lifestyle_carousel" aria-label="Next" type="button"><i></i>Next</button>
-
           <div class="box_slide-wrap">
             <div class="box_slide-item" data-slideidx="1">
               <div class="box_slide-image">
@@ -316,7 +313,7 @@
             </div>
           </div>
         </div>
-        <p class="disclm">* Przedstawione tu porady mają wyłącznie charakter poglądowy. Odpowiedzialność za wszelkie szkody, które mogą powstać w wyniku postępowania zgodnie z podanymi informacjami, ponosi wyłącznie uczestnik.</p>
+        <p class="disclm">* Przedstawione tu porady mają wyłącznie charakter poglądowy. Odpowiedzialność za wszelkie szkody, które mogą powstać w wyniku postępowania zgodnie z podanymi informacjami, ponosi wyłącznie użytkownik.</p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
@@ -418,7 +415,7 @@
               </div>
               <div class="desc">
                 <dl class="_item item01">
-                  <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Fabric Protection from Drying Process</dt>
+                  <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Ochrona tkanin podczas suszenia</dt>
                   <dd>
                     Dzięki funkcji suszenia w niskiej temperaturze wysuszysz delikatne ubrania, np. bieliznę lub swetry, szybciej niż na wolnym powietrzu.
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="IRrMuJmIvA8" class="btn_watch">Obejrzyj<i></i></a></p>
@@ -448,8 +445,8 @@
     <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">
-          <p>Save10% off during<br>this exclusive promotion.<span>20/10 ~17/11/2021</span></p>
-          <span>Get your new clothing care appliances<br>with LG’s special promo code : SAVE10</span>
+          <p>Skorzystaj z 10% wyjątkowego rabatu na wybrane produkty AGD LG<span>20/10 ~ 17/11/2021</span></p>
+          <span>Zadbaj o swoje ubrania korzystając<br>ze specjalnego kodu promocyjnego: ZADBAJOTOCONOSISZ</span>
         </div>
         <div class="promo_right">
           <div class="items">
@@ -502,7 +499,7 @@
           </div>
 
           <div class="btn-area">
-            <a href="#" class="btn-seemore lnk05">See More<i></i></a>
+            <a href="#" class="btn-seemore lnk05">Zobacz więcej produktów<i></i></a>
           </div>
         </div>
       </div>
@@ -623,8 +620,8 @@
 
     <div class="box_row-campaign box_content">
       <div class="rending-button">
-        <p><i></i>Sign up now and make your stories last</p>
-        <a href="https://ssodev.lg.com/oauth/page/login?authorizeKey=99a80964-4a95-4811-923b-7df35f2d26e6" target="_blank" class="btn-link">CLICK HERE</a>
+        <p><i></i>Zapisz się, by historie twoich ulubionych ubrań mogły trwać dłużej</p>
+        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=5ccfa76d-65e5-48d9-ab56-fde1b7d9bf78" target="_blank" class="btn-link">Kliknij tutaj</a>
       </div>
     </div>
 

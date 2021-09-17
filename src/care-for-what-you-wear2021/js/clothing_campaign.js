@@ -133,8 +133,10 @@ $(document).ready(function(){
 			infinite: true,
 			slidesToShow: 2,
 			centerMode: false,
-			nextArrow: '.slick-next',
-			prevArrow: '.slick-prev',
+			// nextArrow: '.slick-next',
+			// prevArrow: '.slick-prev',
+			prevArrow:'<button class="slick-prev slick-arrow" adobe-click="clothing-care-campaign-main-net-a-porter" adobe-value="main>net-a-porter>carousel" data-link-name="net_a_porter_carousel" aria-label="Previous" type="button" style=""><i></i>Previous</button>',
+			nextArrow:'<button class="slick-next slick-arrow" adobe-click="clothing-care-campaign-main-net-a-porter" adobe-value="main>net-a-porter>carousel" data-link-name="net_a_porter_carousel" aria-label="Next" type="button" style=""><i></i>Next</button>',
 			responsive: [
 				{
 					breakpoint: 991,
