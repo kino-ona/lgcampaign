@@ -2177,11 +2177,13 @@
 			font-size:56px;
 			font-weight: 700;
 			line-height:1.1;
+			letter-spacing: -1.1px;
 			> span {
 				display: block;
 				padding-top:25px;
 				font-size:20px;
 				font-weight: inherit;
+				letter-spacing: 0;
 			}
 		}
 		> span {

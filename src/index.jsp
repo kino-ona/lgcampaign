@@ -501,7 +501,7 @@
     <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">
-          <p>Save 10% on selected<br>laundry products<span>Plus free delivery, installation and disposal</span></p>
+          <p>Use 'LG10' at checkout<br>to receive 10% off<br>on selected Laundry products<span>Plus free delivery, installation and disposal</span></p>
           <span>offer ending 17<sup>th</sup> Nov 2021<br>*T&amp;Cs apply</span>
         </div>
         <div class="promo_right">
@@ -872,53 +872,51 @@
   <!--// footer main contents -->
   </div>
 
-  <script>
-  // adobe launch - data layer
-  _dl =
-  {
-    "page_name" : {
-      "bu" : "ha",
-      "super_category" : "appliances",
-      "category" : "care-for-what-you-wear",
-      "sub_category" : "",
-      "page_purpose" : "microsite", // Fixed value microsite
-      "product_year" : "",
-      "model_id" : "", // model, review page
-      "bundle_name" : "", // bundle promotion
-      "promotion_name" : "",  // promotion detail page
-      "microsite_name": "main"
-    },
-    "country_code" : "uk",
-    "language_code" : "en",
-    "page_category_l1" : "uk:ha",
-    "page_category_l2" : "uk:ha:appliances",
-    "page_category_l3" : " uk:ha:appliances:care-for-what-you-wear",
-    "page_category_l4" : "",
-    "promotion_name" : "",
-    "products" : "",
-    "page_event" : null
-  };
+    <script>
+    // adobe launch - data layer
+    _dl =
+    {
+      "page_name" : {
+        "bu" : "ha",
+        "super_category" : "appliances",
+        "category" : "care-for-what-you-wear",
+        "sub_category" : "",
+        "page_purpose" : "microsite", // Fixed value microsite
+        "product_year" : "",
+        "model_id" : "", // model, review page
+        "bundle_name" : "", // bundle promotion
+        "promotion_name" : "",  // promotion detail page
+        "microsite_name": "main"
+      },
+      "country_code" : "uk",
+      "language_code" : "en",
+      "page_category_l1" : "uk:ha",
+      "page_category_l2" : "uk:ha:appliances",
+      "page_category_l3" : " uk:ha:appliances:care-for-what-you-wear",
+      "page_category_l4" : "",
+      "promotion_name" : "",
+      "products" : "",
+      "page_event" : null
+    };
 
-  // gtm
-  var standardData = {};
-  standardData = {
-    "siteType" : "B2C",
-    "pageType" : "SUPER CATEGORY",
-    "pdpStatus" : "",
-    "level1" : "HA",
-    "level2" : "",
-    "level3" : ""
-  };
+    // gtm
+    var standardData = {};
+    standardData = {
+      "siteType" : "B2C",
+      "pageType" : "SUPER CATEGORY",
+      "pdpStatus" : "",
+      "level1" : "HA",
+      "level2" : "",
+      "level3" : ""
+    };
 
-  var dataLayer = window.dataLayer || [];
-  dataLayer.push({
-    'event': 'dataLayer',
-    'dataLayer' : _dl,
-    'standardData' : standardData
-  });
-</script>
-
-
+    var dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      'event': 'dataLayer',
+      'dataLayer' : _dl,
+      'standardData' : standardData
+    });
+  </script>
 
   <!-- default code -->
   <jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />

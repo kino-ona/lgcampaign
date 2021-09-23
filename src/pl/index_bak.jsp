@@ -128,28 +128,28 @@
       <!-- vod background -->
       <div class="vodbg">
         <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
-          <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LGBaby.mp4" type="video/mp4" autostart="false">
+          <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
-          <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LGCouple.mp4" type="video/mp4" autostart="false">
+          <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
-          <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LGHero.mp4" type="video/mp4" autostart="false">
+          <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
         </video>
         
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/GqIb6TSxEMI?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://youtu.be/GqIb6TSxEMI?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe02">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/TtDdNl_PlTA?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://youtu.be/TtDdNl_PlTA?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe03">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/jJqKQoAimOE?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://youtu.be/jJqKQoAimOE?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
@@ -441,6 +441,182 @@
       </div>
     </div>
     <!--// clothing_product -->
+
+    <!-- <div class="box_row-campaign box_content">
+      <div class="promotion_banner">
+        <div class="promo_left">
+          <p>Skorzystaj z 10% wyjątkowego rabatu na wybrane produkty AGD LG<span>20/10 ~ 17/11/2021</span></p>
+          <span>Zadbaj o swoje ubrania korzystając<br>ze specjalnego kodu promocyjnego: ZADBAJOTOCONOSISZ</span>
+        </div>
+        <div class="promo_right">
+          <div class="items">
+            <span class="tagg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_item01.jpg" alt="Washing Machine 12kg -  TurboWash™360˚ | AIDD™ | Steam+™ | ezDispense™"></p>
+            <p class="model_name">
+              Washing Machine 12kg -  TurboWash™360<sup>˚</sup> | AIDD<sup>™</sup> | Steam+<sup>™</sup> | ezDispense<sup>™</sup>
+              <span class="model_code">F4V1112WTSA</span>
+            </p>
+            <p class="model_price">
+              £ 1,169.98<span>£ 1,299.98</span>
+            </p>
+            <a href="https://www.lg.com/pl/washing-machines/lg-f4v1112wtsa" target="_blank" data-model-id="MD07535512" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" data-model-year="2021" data-model-name="F4V1112WTSA" data-model-salesmodelcode="F4V1112WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+          </div>
+          <div class="items">
+            <span class="tagg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_item02.jpg" alt="Washing Machine 9kg -  TurboWash™360˚ | AIDD™ | Steam+™ | ezDispense™ | White"></p>
+            <p class="model_name">
+              Washing Machine 9kg -  TurboWash<sup>™</sup>360<sup>˚</sup> | AIDD<sup>™</sup>| Steam+<sup>™</sup> | ezDispense<sup>™</sup> | White
+              <span class="model_code">F6V909WTSA</span>
+            </p>
+            <p class="model_price">
+              £ 764.98<span>£849.98</span>
+            </p>
+            <a href="https://www.lg.com/pl/washing-machines/lg-f6v909wtsa" target="_blank" data-model-id="MD07535516" data-link-name="add_to_cart" data-category-name="Washer" data-model-year="2021" data-model-salesmodelcode="F6V909WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+          </div>
+          <div class="items">
+            <span class="tagg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_item03.jpg" alt="LG Turbowash360™ FWV1117WTSA 10.5kg / 7kg, 1400rpm, Washer Dryer - White"></p>
+            <p class="model_name">
+              LG Turbowash360™ FWV1117WTSA 10.5kg / 7kg, 1400rpm, Washer Dryer - White
+              <span class="model_code">FWV1117WTSA</span>
+            </p>
+            <p class="model_price">
+              £ 989.98<span>£ 1099.98</span>
+            </p>
+            <a href="https://www.lg.com/pl/washer-dryers/lg-fwv1117wtsa" target="_blank" data-model-id="MD07535521" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" data-model-year="2021" data-model-name="FWV1117WTSA" data-model-salesmodelcode="FWV1117WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+          </div>
+          <div class="items">
+            <span class="tagg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/promo_item04.jpg" alt="LG Styler  Steam Clothing Care System® S3WF 3 Hangers - White"></p>
+            <p class="model_name">
+              LG Styler  Steam Clothing Care System<sup>®</sup> S3WF 3 Hangers - White
+              <span class="model_code">S3MFC</span>
+            </p>
+            <p class="model_price">
+              £ 1,664.98<span>£1,849.98</span>
+            </p>
+            <a href="https://www.lg.com/pl/styler/lg-S3WF" target="_blank" data-model-id="MD06210176" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-year="2019" data-model-name="S3WF" data-model-salesmodelcode="S3WF.ALWQKUK" class="btn-buynow">Buy Now</a>
+          </div>
+
+          <div class="btn-area">
+            <a href="#" class="btn-seemore lnk05">Zobacz więcej produktów<i></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="promotoin_product">
+        <p>PROMOTIONAL PRODUCTS</p>
+        <ul class="promotoin_product-list">
+          <li class="title">
+            <p>Model</p>
+            <p>Product</p>
+            <p>Price</p>
+            <p></p>
+          </li>
+          <li>
+            <p>F4V1112WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,169.98 <span>£ 1,299.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f4v1112wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V909WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 764.98<span>£ 849.98</span></p>
+            <p><a href="https://lg.com/uk/washing-machines/lg-f6v909wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V1112BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,169.98<span>£ 1,299.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f4v1112btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V1110BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,124.98<span>£ 1,249.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f6v1110btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V1110WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 1,124.98<span>£ 1,249.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f6v1110wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V910BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 854.98<span>£ 949.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f6v910btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V910WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 809.98<span>£ 899.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f6v910wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F6V909BTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 809.98<span>£ 899.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f6v909btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V710STSA</p>
+            <p>Washing Machine</p>
+            <p>£ 746.98<span>£ 829.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f4v710stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V710WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 719.98<span>£ 799.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f4v710wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V709STSA</p>
+            <p>Washing Machine</p>
+            <p>£ 701.98<span>£ 779.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f4v709stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>F4V709WTSA</p>
+            <p>Washing Machine</p>
+            <p>£ 674.98<span>£ 749.98</span></p>
+            <p><a href="https://www.lg.com/pl/washing-machines/lg-f4v709wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>FWV1117WTSA</p>
+            <p>Washer Dryer</p>
+            <p>£ 989.98<span>£ 1,099.98</span></p>
+            <p><a href="https://www.lg.com/pl/washer-dryers/lg-fwv1117wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>FWV1128BTSA</p>
+            <p>Washer Dryer</p>
+            <p>£ 1,169.98<span>£ 1,299.98</span></p>
+            <p><a href="https://www.lg.com/pl/washer-dryers/lg-fwv1128btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>FWV1117BTSA</p>
+            <p>Washer Dryer</p>
+            <p>£ 1,034.98<span>£ 1,149.98</span></p>
+            <p><a href="https://www.lg.com/pl/washer-dryers/lg-fwv1117btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>S3WF</p>
+            <p>Styler</p>
+            <p>£ 1,664.98<span>£ 1,849.98</span></p>
+            <p><a href="https://www.lg.com/pl/styler/lg-S3WF" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+          <li>
+            <p>S3BF</p>
+            <p>Styler</p>
+            <p>£ 1,709.98<span>£ 1,899.98</span></p>
+            <p><a href="https://www.lg.com/pl/styler/lg-S3BF" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
+          </li>
+        </ul>
+      </div>
+    </div> -->
 
     <div class="box_row-campaign box_content">
       <div class="rending-button">
