@@ -127,13 +127,13 @@
 
       <!-- vod background -->
       <div class="vodbg">
-        <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
+        <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
           <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LGBaby.mp4" type="video/mp4" autostart="false">
         </video>
-        <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
+        <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
           <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LGCouple.mp4" type="video/mp4" autostart="false">
         </video>
-        <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
+        <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
           <source src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/LGHero.mp4" type="video/mp4" autostart="false">
         </video>
         

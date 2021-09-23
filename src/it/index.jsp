@@ -127,13 +127,13 @@
 
       <!-- vod background -->
       <div class="vodbg">
-        <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
+        <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
           <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
         </video>
-        <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
+        <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
           <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
         </video>
-        <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="">
+        <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
           <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
         </video>
         
