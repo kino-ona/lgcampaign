@@ -496,131 +496,192 @@
         </div>
         <div class="layer_inner">
           <div class="layer_cont">
-            <p class="heading-tit">W serwisach Instagram i Facebook firma LG zorganizuje następujące wydarzenie „Ubrania, które wiele dla mnie znaczą” (My Cherished Clothes Event):</p>
-            <p>Nagroda główna – 3 pralko suszarki LG VIVACE 8,5 / 5 kg F2DV5S8S1 lub model o zbliżonych parametrach.</p>
-            <p>Uczestnicy muszą spełnić podane poniżej warunki, zamieszczając komentarz do oryginalnego postu.
-              Komentarz taki musi zawierać opowieść o ubraniu, z którym wiążą się szczególne wspomnienia
-              uczestnika. Prosimy pamiętać, że przy wyłanianiu zwycięzcy jest oceniane spełnienie wymagań, tzn.
-              ściślejsze przestrzeganie warunków przekłada się na większe prawdopodobieństwo wygranej.</p>
+            <p class="heading-tit">REGULAMIN KONKURSU LG <sub>"</sub>UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ"</p>
             <dl>
-              <dt>Okres promocji:</dt>
+              <dt>1. POSTANOWIENIA OGÓLNE</dt>
               <dd>
-                <p>zgłoszeń można dokonywać od Piątku, 24 września do 23:59 10 Października 2021. Zgłoszenia dokonane poza tym przedziałem czasowym nie uprawniają do uczestnictwa w tej promocji.</p>
-                <p>Promocja jest przeznaczona wyłącznie dla osób pełnoletnich zamieszkałych w Polsce, a do uczestnictwa jest wymagany publiczny profil w serwisie Instagram i/lub Facebook. Pełne warunki i zasady zamieszczono poniżej.</p>
+                <p>1.1. Niniejszy regulamin określa warunki przeprowadzenia konkursu pod nazwą <strong><sub>"</sub>Ubrania, które wiele dla mnie znaczą" – dalej zwany „Konkursem".</strong></p>
+                <p>1.2. Organizatorem Konkursu jest Loyalty Point Sp. z o.o. z siedzibą w Warszawie, ul. 
+                  Franciszka Klimczaka 1, 02-797 Warszawa, wpisana do Krajowego Rejestru Sądowego pod numerem KRS 000491369, dalej zwany <strong><sub>"</sub>Organizatorem".</strong></p>
+                <p>1.3. Sponsorem Nagród w Konkursie jest <sub>"</sub>LG Electronics Polska" sp. z o.o. z siedzibą w Warszawie (02-675) przy ul. 
+                  Wołoskiej 22, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS 121072, dalej zwany <strong><sub>"</sub>Sponsorem".</strong></p>
+                <p>1.4. Konkurs prowadzony jest wyłącznie za pośrednictwem portali społecznościowych Facebook oraz Instagram.</p>
+                <p>1.5. Konkurs nie jest organizowany ani administrowany przez portale społecznościowe Facebook oraz Instagram.</p>
+                <p>1.6. Nadsyłanie zgłoszeń uprawniających do wzięcia udziału w Konkursie trwa od 29 września do 19 października 2021 roku.</p>
+                <p>1.7. Wyłanianie Zwycięzców Konkursu trwa od 20 do 22 października 2021 roku.</p>
+                <p>1.8. Wysyłanie nagród trwa do 7 listopada 2021 roku.</p>
               </dd>
             </dl>
             <dl>
-              <dt class="numb"><span>1</span> Sposób uczestnictwa:</dt>
-              <dd class="dd_push">
-                <p>Entrants can choose either option A or B.</p>
-                <p><strong>A.</strong> Uczestnicy muszą pod Postem wydarzenia w serwisie Instagram lub Facebook zamieścić własny komentarz zawierający opowieść o swoich ubraniach, które mają szczególne znaczenie.</p>
-                <p><strong>B.</strong> Uczestnicy muszą zamieścić na własnym profilu w serwisie Instagram lub Facebook post zawierający opowieść o ubraniach, które mają szczególne znaczenie, wraz ze zdjęciem tych ubrań.</p>
-              </dd>
-              <dd class="dd_push">
-                <strong>Obowiązkowe:</strong>
-                <div class="dv_line">
-                  <p><strong>Facebook -</strong> Trzeba zamieścić następujące hasztagi:<br>
-                    #ZadbajOtoCoNosisz #UbraniaKtóreWieleDlaMnieZnaczą #UrządzeniaDoPielęgnacjiUbrańLG #LG</p>
-                  <p><strong>Instagram -</strong> Trzeba zamieścić następujące hasztagi:<br>
-                    #ZadbajOtoCoNosisz #UbraniaKtóreWieleDlaMnieZnaczą #UrządzeniaDoPielęgnacjiUbrańLG #LG</p>
-                </div>
-              </dd>
-            </dl>
-            <p>Uczestnicy mogą zamieścić dowolną liczbę postów w serwisach Instagram i Facebook, a zwycięzcy
-              zostaną wybrani losowo. Losowanie odbędzie się po upływie terminu przyjmowania zgłoszeń, a zwycięzcy zostaną powiadomieni poprzez serwis Instagram lub Facebook w ciągu 7 dni od
-              zakończenia przyjmowania zgłoszeń. Zwycięzcy zostaną wyłonieni na podstawie następujących kryteriów:</p>
-            <dl>
-              <dt class="numb"><span>2</span> Organizator promocji:</dt>
-              <dd class="dd_push">
-                LG Electronics Polska Sp. z o.o. z siedzibą w Warszawie, ul. Wołoska 22, 02-675 Warszawa, wpisana do Krajowego Rejestru Sądowego pod numerem KRS 0000121072
-              </dd>
-            </dl>
-            <dl>
-              <dt class="numb"><span>3</span> Administrator promocji:</dt>
-              <dd class="dd_push">
-                Loyalty Point Sp. z o.o. z siedzibą w Warszawie, ul. Franciszka Klimczaka 1 , 02-797 Warszawa, wpisana do Krajowego Rejestru Sądowego pod numerem KRS 000491369
-              </dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>4</span> Nie jest konieczny zakup: Udział w konkursie jest bezpłatny dla wszystkich osób zamieszkałych w Polsce, które spełniają kryteria ustanowione w niniejszych warunkach i zasadach uczestnictwa.</dd>
-            </dl>
-            <dl>
-              <dt>Kryteria uczestnictwa</dt>
-              <dd class="numb"><span>5</span> W konkursie mogą uczestniczyć wyłącznie osoby pełnoletnie zamieszkałe w Polsce. Z udziału są
-                wyłączeni pracownicy globalnych spółek LG, Administratora promocji, ich rodziny i przedstawiciele, a także inne firmy lub osoby zaangażowane w przygotowanie lub zarządzanie konkursem. Do
-                uczestnictwa jest konieczne posiadanie dostępu do Internetu oraz publicznego profilu w serwisie społecznościowym Facebook lub Instagram.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>6</span> Wykonywania zadań konkursowych oznacza akceptację niniejszych warunków i zasad. Wszystkie
-                decyzje dotyczące zwycięzców i nagród są ostateczne. Firma LG ani Administrator promocji nie będą prowadzić korespondencji.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>7</span> Zgłoszenia przesłane po terminie, niekompletne, zniekształcone lub uszkodzone, a także zgłoszenia
-                przesłane przez agencje lub osoby trzecie oraz przesłane inaczej niż poprzez serwis Instagram, Facebook nie będą akceptowane. Firma LG ani Administrator promocji nie ponoszą odpowiedzialności
-                za utracone zgłoszenia. Jeżeli firma LG lub Administrator promocji uznają, że nastąpiło naruszenie niniejszych warunków i zasad, to firma LG lub Administrator promocji są uprawnieni, aby według
-                własnego uznania odmówić przyznania nagrody i wylosować innego zwycięzcę zgodnie z niniejszymi warunkami i zasadami.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>8</span> Z wyłonionym zwycięzcą skontaktuje się Administrator promocji wysyłając bezpośrednią wiadomość
-                w serwisie Instagram lub Facebook z prośbą o podanie danych kontaktowych. Jeśli uczestnik poda nieprawidłowe lub niekompletne informacje adresowe lub nie podpisze dokumentu odbioru przesyłki
-                gdy jest to wymagane, ani Organizator ani Administrator promocji nie ponoszą odpowiedzialności za niedostarczenie przesyłki.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>9</span> Proces wyboru: zdobywca nagrody zostanie wyłoniony losowo przez Administratora promocji.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>10</span> Zwycięzca zostanie powiadomiony w ciągu siedmiu (7) dni od zakończenia konkursu. Z wyłonionym
-                zwycięzcą skontaktuje się Administrator promocji wysyłając bezpośrednią wiadomość w serwisie Instagram lub Facebook z prośbą o podanie danych kontaktowych. Zwycięzca zostanie poproszony o
-                podanie informacji kontaktowych, między innymi adresu e-mail, numery telefonu i adresu, w celu wysłania nagrody lub zorganizowania odbioru (według uznania Organizatora promocji).</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>11</span> Na zakończenie wydarzania zostaną przyznane 3 nagrody główne.</dd>
-            </dl>
-            <dl>
-              <dt>Nagroda obejmuje:</dt>
+              <dt>2. WARUNKI UCZESTNICTWA W KONKURSIE</dt>
               <dd>
-                (1). Urządzenie LG do pielęgnacji ubrań – F2DV5S8S1 lub model o zbliżonych parametrach (główna nagroda wybrana na zakończenie wydarzenia) – łącznie 3 sztuki
+                <p>2.1. Konkurs przeznaczony jest wyłącznie dla zamieszkałych na terytorium Rzeczypospolitej Polskiej pełnoletnich osób fizycznych, posiadających pełną zdolność do czynności prawnych. Osoby te muszą
+                  przez cały czas trwania Konkursu posiadać aktywne konto na portalu społecznościowym Instagram lub Facebook, które będzie miało status <sub>"</sub>konto publiczne".</p>
+                <p>2.2. W Konkursie nie mogą brać udziału pracownicy i współpracownicy Organizatora oraz Sponsora. W Konkursie nie mogą brać udziału również członkowie rodzin osób powyżej wymienionych. Przez
+                  członków rodziny, o których mowa powyżej, rozumie się: wstępnych, zstępnych, rodzeństwo, małżonków i osoby pozostające w stosunku przysposobienia.</p>
               </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>12</span> Wszyscy uczestnicy przyjmują do wiadomości, że do każdego elementu nagrody mogą mieć
-                zastosowanie warunki i zasady stron trzecich i zgadzają się przestrzegać tych warunki i zasady. Każdy uczestnik jest zobowiązany do zapoznania się z tymi warunkami.</dd>
+              <dt>3. ZASADY PROWADZENIA KONKURSU</dt>
+              <dd>
+                <p>3.1. Osoba chcąca wziąć udział w Konkursie powinna w okresie o jakim mowa w ust. 1.6.:</p>
+                <p>a) na portalu społecznościowym Facebook lub Instagram na profilu LG Electronics Polska sp. z o.o. wejść
+                  w wydarzenie <sub>"</sub>Konkurs Ubrania, które dla mnie wiele znaczą",</p>
+                <p>b) zapoznać się z Regulaminem Konkursu,</p>
+                <p>c) zamieścić na portalu społecznościowym Instagram lub Facebook na swoim koncie albo na koncie Organizatora jako komentarz pod wydarzeniem <sub>"</sub>Konkurs Ubrania, które dla mnie wiele znaczą" treść:
+                  <sub>"</sub>potwierdzam" oznaczającą zapoznanie się z Regulaminem Konkursu i akceptację jego treści, a następnie w tym samym wpisie wykonać zadanie konkursowe opisane w pkt 3.2. oraz dodać do wpisu
+                  każdy z następujących hasztagów:<br>
+                  #ZadbajOtoCoNosisz, #UbraniaKtóreWieleDlaMnieZnaczą, #UrządzeniaDoPielęgnacjiUbrańLG, #LG</p>
+                <p>3.2. Wykonanie zadania konkursowego o jakim mowa w ust. 3.1. lit. c) oznacza stworzenie wpisu (posta) zawierającego opowieść o ulubionym ubraniu Uczestnika, które ma dla niego szczególne
+                  znaczenie. Wpis może być opatrzony zdjęciem zawierającym opisywane ubranie, jednak nie jest to warunek konieczny.</p>
+                <p>3.3. Każdy może zgłosić się do udziału w Konkursie dowolną ilość razy, z zastrzeżeniem ust. 4.4.</p>
+                <p>3.4. W przypadku dodania w zadaniu konkursowym zdjęcia o jakim mowa w ust. 3.2. <strong>zdjęcie to nie powinno przedstawiać wizerunku żadnych osób fizycznych.</strong></p>
+                <p>3.5. Załączone zdjęcie powinno być w formacie JPG lub PNG i mieć rozmiar nie większy niż 5 MB.</p>
+                <p>3.6. O czasie zgłoszenia do Konkursu, decyduje chwila rejestracji w systemie komputerowym
+                  Organizatora. Zgłoszenia w czasie innym niż wskazany w ust. 1.6 . nie biorą udziału w Konkursie.</p>
+                <p>3.7. Zgłoszenia niespełniające warunków opisanych w niniejszym rozdziale nie biorą udziału w Konkursie.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>13</span> Od uczestników może być wymagane uczestnictwo w reklamach LG związanych z konkursem. Imię i nazwisko oraz ogólna informacja o miejscu zamieszkania uczestników mogą zostać opublikowane na
-                stronie LG.com lub kanałach LG w mediach społecznościowych. Publikowane informacje mogą zawierać zdjęcia przesłane przez uczestnika w ramach promocji.</dd>
+              <dt>4. NAGRODY</dt>
+              <dd>
+                <p>4.1. Nagrodami w Konkursie są:</p>
+                <p>a) 3 (trzy) pralko-suszarki LG Vivace o wartości 2499,- zł brutto każda, dalej zwanych <strong><sub>"</sub>Nagrodami".</strong></p>
+                <p>4.2. Zwycięzcom Konkursu nie przysługuje prawo do zastrzeżenia szczególnych właściwości nagród ani
+                  otrzymania ich ekwiwalentu rzeczowego ani pieniężnego.</p>
+                <p>4.3. Zwycięzcom Konkursu, którzy odbiorą Nagrody, zostanie przyznana dodatkowa nagroda pieniężna
+                  w wysokości 275,00 zł. Dodatkowa nagroda pieniężna nie zostanie wypłacona Zwycięzcom, a przeznaczone będzie na zapłatę zryczałtowanego podatku dochodowego od osób fizycznych. Płatność
+                  podatku zostanie dokonana na konto właściwego organu podatkowego przez Organizatora.</p>
+                <p>4.4. Każdy Uczestnik może wygrać tylko jedną Nagrodę w Konkursie. W przypadku ustalenia, że
+                  Uczestnik wygrał już jedną Nagrodę w Konkursie, nie uzyskuje on prawa do kolejnej Nagrody.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>14</span> Firma LG nie ponosi odpowiedzialności za niewywiązanie się z jakichkolwiek zobowiązań
-                wynikających z konkursu lub związanych z nagrodą, jeśli nie jest w stanie ich zrealizować z powodu nieprzewidzianych okoliczności lub okoliczności pozostających poza kontrolą firmy LG, i chociaż firma
-                LG może (ale nie jest zobowiązana) podjąć starania w celu zapewnienia alternatywnej nagrody o takiej samej wartości, w takich okolicznościach firma nie jest zobowiązana do zapewnienia zwycięzcom dodatkowej rekompensaty.</dd>
+              <dt>5. PRZYZNAWANIE NAGRÓD</dt>
+              <dd>
+                <p>5.1. Nagrody w Konkursie przyznawane są przez Komisję Konkursową, w której skład wchodzą trzy osoby wskazane przez Organizatora oraz przez Sponsora.</p>
+                <p>5.2. Wyłanianie laureatów Konkursu odbędzie się w siedzibie Organizatora spośród wszystkich prawidłowych zgłoszeń konkursowych.</p>
+                <p>5.3. Komisja Konkursowa wyłaniając Zwycięzców bierze pod uwagę najciekawsze opowieści i
+                  najpiękniejsze historie opisane przez Uczestników. Poza trzema Zwycięzcami, Komisja wybiera także
+                  trzech Dodatkowych Zwycięzców, kolejno zajmujących miejsca od czwartego do szóstego. Osoby te
+                  uzyskają prawo do nagrody w sytuacji, gdyby któryś ze zwycięzców utracił do niej prawo z przyczyn o
+                  jakich mowa w Regulaminie i dopiero wówczas zostaną o tym poinformowani.</p>
+                <p>5.4. Najpóźniej w dniu 7 listopada 2021 roku na profilach LG Electronics Polska na portalach
+                  społecznościowych Facebook oraz Instagram ogłoszone zostaną wyniki Konkursu publikujące zwycięskie
+                  zgłoszenia i imiona Zwycięzców.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>15</span> Jeżeli Administrator promocji nie będzie w stanie skontaktować się ze zwycięzcą w racjonalny
-                sposób lub zwycięzca nie zareaguje na próby kontaktu w ciągu trzech (3) dni od pierwszej wiadomości lub zwycięzca będzie mógł przyjąć nagrody, to nagroda przepadnie a Administrator promocji zastrzega
-                sobie prawo do wylosowania alternatywnego zwycięzcy zgodnie z niniejszymi warunkami i zasadami.</dd>
+              <dt>6. POWIADOMIENIE O WYGRANEJ, WYDAWANIE NAGRÓD</dt>
+              <dd>
+                <p>6.1. Każdy Zwycięzca, który uzyskał prawo do nagrody, do 15 października 2021 r. powiadamiany jest
+                  przez LG Electronics Polska o wygranej w formie prywatnej wiadomości na portalu społecznościowym
+                  Facebook lub Instagram, w zależności od tego za pośrednictwem, którego z tych portali wziął udział w
+                  Konkursie.</p>
+                <p>6.2. W wiadomości o uzyskaniu prawa do nagrody LG Electronics Polska informuje uczestnika o
+                  konieczności przesłania w formie zwrotnej wiadomości informacji o danych adresowych (imieniu i
+                  nazwisku, adresie zamieszkania na terytorium Rzeczypospolitej Polskiej, numerze telefonu), na jakie ma
+                  zostać wysłana Nagroda.</p>
+                <p>6.3. Nieprzesłanie danych przez Zwycięzcę w terminie 3 dni roboczych, od daty powiadomienia o
+                  wygranej, skutkuje utratą prawa do Nagrody.</p>
+                <p>6.4. Organizator nie ponosi odpowiedzialności za podanie przez zwycięzcę błędnych danych osobowych,
+                  ani za zmianę tych danych przed odbiorem Nagrody.</p>
+                <p>6.5. Nagrody zostają wysłane do Zwycięzcy w formie przesyłki kurierskiej na wskazany adres. W razie
+                  niemożliwości przesłania Nagrody z przyczyn dotyczących Zwycięzcy, traci on prawo do nagrody.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>16</span> Brak możliwości zamiany: nagroda jest niezbywalna i nie może być zamieniona na gotówkę ani na
-                żadną inną formę. Nagroda jest uzależniona od dostępności i firma LG zastrzega sobie prawo do zmiany nagrody w dowolnym czasie.</dd>
+              <dt>7. DANE OSOBOWE</dt>
+              <dd>
+                <p>7.1. Dane osobowe uczestników Konkursu będą przetwarzane zgodnie z Rozporządzeniem Parlamentu
+                  Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w
+                  związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz
+                  uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) dalej <sub>"</sub>RODO". Poniżej
+                  przedstawiono szczegółowe informacje dotyczące przetwarzania danych uczestników w ramach
+                  Konkursu.</p>
+                <p>7.2. Administratorem danych osobowych uczestników Konkursu jest LG Electronics Polska spółka z
+                  ograniczoną odpowiedzialnością z siedzibą w Warszawie, ul. Wołoska 22, 02-675 Warszawa, wpisana do
+                  rejestru przedsiębiorców przez Sąd Rejonowy dla m.st. Warszawy w Warszawie, XIII Wydział
+                  Gospodarczy Krajowego Rejestru Sądowego, pod nr KRS 0000121072, NIP: 521-22-14-808, Regon:
+                  012449587, kapitał zakładowy w wysokości 28.367.000 złotych (dalej: <sub>"</sub>LG" lub <sub>"</sub>Administrator").
+                  Inspektorem danych osobowych jest Pani Jung Ryu.</p>
+                <p>7.3. W razie wątpliwości związanych z przetwarzaniem dotyczących danych osobowych uczestników
+                  Konkursu możliwy jest kontakt z powołanym przez Administratora Inspektorem Ochrony Danych pod
+                  adresem: dpo-eu@lge.com lub iodo@lge.pl bądź pisemnie na adres Administratora.</p>
+                <p>7.4. Dane osobowe uczestnika będą przetwarzane na podstawie:</p>
+                <p>a) art. 6 ust. 1 lit. f. RODO (prawnie uzasadniony interes Administratora) – przez który należy rozumieć :</p>
+              </dd>
+              <dd class="dd_push">
+                <p>- przeprowadzenie Konkursu <sub>"</sub>UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ",</p>
+                <p>- dochodzenie i obrona przed roszczeniami uczestników Konkursu <strong><sub>"</sub>UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ".</strong></p>
+              </dd>
+              <dd>
+                <p>b) art.6 ust.1 lit c RODO - wydanie Nagród i udokumentowania tego faktu na potrzeby podatkowe i
+                  wynikające z przepisów o rachunkowości w celu wypełnienia obowiązków nałożonych obowiązującymi
+                  przepisami prawa.</p>
+                <p>7.5. Dane osobowe Uczestników będą przetwarzane przez okres niezbędny do realizacji Konkursu i
+                  okresu reklamacyjnego nie dłużej niż do 17.11.2021 roku oraz przechowywane do momentu
+                  przedawnienia roszczeń lub wygaśnięcia obowiązków podatkowych, zgodnie z przepisami prawa oraz
+                  wycofania zgody lub zakończenia działań marketingowych prowadzonych przez Administratora.</p>
+                <p>7.6. Uwzględniając strukturę organizacyjną Administratora oraz jego podporządkowanie organizacyjne
+                  w związku z przynależnością do grupy LG, Państwa dane mogą być przekazywane do znajdującej się w
+                  Korei Południowej centrali LG, tj. poza Europejski Obszar Gospodarczy. Dane osobowe, tych
+                  uczestników, którzy są klientami Sponsora lub odbiorcami działań marketingowych prowadzonych przez
+                  Sponsora mogą być również przekazywane do państw spoza Europejskiego Obszaru Gospodarczego, w
+                  związku z korzystaniem przez Administratora z usług dostawców narzędzi służących do przetwarzania
+                  danych osobowych, w tym prowadzenia działań marketingowych. Aktualną listę tych podmiotów wraz
+                  ze wskazaniem państwa, w którym mają one swoją siedzibę, można znaleźć <strong>w tym miejscu.</strong></p>
+                <p>W celu zapewnienia odpowiedniego stopnia tej ochrony, Administrator korzysta z wszelkich możliwych
+                  środków mających na celu zapewnienie bezpieczeństwa przekazywanych danych osobowych, w tym w
+                  szczególności: - opiera przekazywanie danych na decyzji Komisji Europejskiej stwierdzających</p>
+                <p>odpowiedni stopień ochrony w określonym Państwie, zgodnie z art. 45 ust. 1 RODO. - zawiera tzw.
+                  standardowe klauzule umowne wydane przez Komisję Europejską zgodnie z art. 46 ust. 2 lit. c RODO
+                  zapewniające bezpieczeństwo przekazywanych danych osobowych. Więcej informacji dotyczących
+                  stosowanych zabezpieczeń w tym ich kopię można uzyskać od Administratora, zwracając się na jego
+                  adres podany powyżej lub pod adresem mailowym Inspektora ochrony danych.</p>
+                <p>7.7. <strong>Dostęp do danych osobowych uczestników Konkursu mogą mieć następujące podmioty:</strong> firmy
+                  świadczące usługi lub dostarczające rozwiązania informatyczne, firmy archiwizujące i niszczące
+                  dokumenty, firmy świadczące usługi kurierskie i pocztowe, firmy wspierające Administratora w
+                  prowadzeniu działań marketingowych, spółki wchodzące w skład grupy kapitałowej Administratora.</p>
+                <p>7.8. Uczestnikowi przysługuje prawo żądania dostępu do danych osobowych, ich sprostowania,
+                  usunięcia, lub ograniczenia przetwarzania, prawo do przenoszenia danych, a także prawo do wniesienia
+                  sprzeciwu wobec przetwarzania jego danych osobowych na podstawie prawnie uzasadnionych
+                  interesów Organizatora. W celu skorzystania z przysługujących praw uczestnik powinien skontaktować
+                  się z Administratorem i przesłać wiadomość na adres: <strong>dpo-eu@lge.com lub iodo@lge.pl</strong> lub adres
+                  korespondencyjny Administratora. W przypadku żądania usunięcia, ograniczenia lub wniesienia
+                  sprzeciwu wobec przetwarzania danych uniemożliwiającego wykonywanie przez Organizatora czynności
+                  w ramach Konkursu, do których niezbędne jest przetwarzanie danych osobowych uczestnika, żądanie
+                  takie będzie traktowane równoznacznie z rezygnacją uczestnika z udziału w Konkursie.</p>
+                <p>7.9. Uczestnikowi przysługuje prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych,
+                  ul. Stawki 2, 00-193 Warszawa gdy uzna, iż przetwarzanie jego danych osobowych narusza przepisy
+                  RODO.</p>
+                <p>7.10. Wyrażenie zgody na przetwarzanie danych osobowych w celu marketingu bezpośredniego
+                  własnych produktów i usług, w tym w celach analitycznych i statystycznych jest dobrowolne.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>17</span> Firma LG działa jako administrator danych osobowych w rozumieniu polskich przepisów o ochronie
-                danych osobowych (w tym Ustawy o ochronie danych osobowych z 2018 r. i, w stosownych przypadkach, Rozporządzenia o ochronie danych osobowych). Firma LG zobowiązuje się do
-                przestrzegania swoich obowiązków wynikających z przepisów o ochronie danych. W szczególności firma LG i Administrator promocji będą przechowywać wszystkie dane osobowe w bezpieczny sposób i
-                wykorzystywać je wyłącznie w celu administrowania konkursem, zgodnie z niniejszymi Warunkami i zasadami.Dalsze informacje o polityce prywatności LG zamieszczono pod adresem: https://www.lg.com/pl/privacy</dd>
+              <dt>8. POSTĘPOWANIE REKLAMACYJNE</dt>
+              <dd>
+                <p>8.1. Wszelkie reklamacje dotyczące sposobu przeprowadzenia Konkursu Uczestnicy powinni zgłaszać Organizatorowi w formie wiadomości e-mail na adres kontakt@strefalg.pl</p>
+                <p>8.2. Reklamacja powinna zawierać imię i nazwisko Uczestnika, datę i miejsce zdarzenia, którego dotyczy
+                  roszczenie, nazwę Konkursu, jak również dokładny opis i powód reklamacji oraz treść żądania.</p>
+                <p>8.3. Reklamacje wysłane w formie wiadomości e-mail powinny być zatytułowane <sub>"</sub>Ubrania, które wiele
+                  dla mnie znaczą - Reklamacja".</p>
+                <p>8.4. Reklamacje rozpatrywane są w ciągu 14 dni od dnia ich otrzymania. O rozpatrzeniu reklamacji
+                  uczestnicy są powiadamiani w formie wiadomości e-mail.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>18</span> Odpowiedzialność: z wyjątkiem odpowiedzialności, której z mocy prawa nie można wykluczyć, firma
-                LG nie ponosi żadnej odpowiedzialności za jakiekolwiek szkody, straty, obrażenia lub niespełnienie oczekiwań, których uczestnik doświadczył w wyniku udziału w konkursie.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>19</span> Zmiany/anulowanie: firma LG zastrzega sobie prawo do zmiany niniejszych warunków i zasad lub
-                do zmiany, zawieszenia, odwołania lub anulowania konkursu w dowolnej chwili oraz bez uprzedzenia.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>20</span> Prawo właściwe: konkurs podlega Polskiemu Prawu i Polskie Sądy mają wyłączną właściwość do
-                rozstrzygania wszelkich sporów, które mogą wyniknąć z niego lub w związku z nim.</dd>
+              <dt>9. POSTANOWIENIA KOŃCOWE</dt>
+              <dd>
+                <p>9.1. Nagrody, do których Zwycięzcy lub Zwycięzcy Dodatkowi utracili prawa z przyczyn wskazanych w
+                  niniejszym regulaminie pozostają w dyspozycji Organizatora.</p>
+                <p>9.2. W kwestiach nieuregulowanych niniejszym Regulaminem stosuje się obowiązujące przepisy prawa
+                  polskiego.</p>
+                <p>9.3. Niniejszy regulamin Konkursu dostępny jest w siedzibach Organizatora oraz Sponsora, w dni
+                  powszednie od poniedziałku do piątku w godz. od 9:00-17:00 oraz na portalach społecznościowych
+                  Facebook oraz Instagram na profilu Organizatora.</p>
+              </dd>
             </dl>
           </div>
         </div>
