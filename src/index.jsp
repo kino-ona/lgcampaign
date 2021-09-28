@@ -254,52 +254,47 @@
     <!--// clothing_howto -->
 
     <div class="clothing_sustain box_row-campaign">
-      <p class="row-tit">Stories We Wear</p>
+      <p class="row-tit">Inside a Sustainable Clothing Life</p>
+      <p class="row-stit">Hvear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist">
           <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 	
-            adobe-value="main>stories-we-wear>influencer01>tap" data-link-name="influencer01" class="link active">Beatrice Turner</a></li>
+            adobe-value="main>stories-we-wear>influencer01>tap" data-link-name="influencer01" class="link active">Josie London</a></li>
         <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
-            adobe-value="main>stories-we-wear-experts>influencer02>tap" data-link-name="influencer02" class="link">Zeena Shah</a></li>
+            adobe-value="main>stories-we-wear-experts>influencer02>tap" data-link-name="influencer02" class="link">Patricia Bright</a></li>
         <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 
-            adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Jessica Oliveria</a></li>
+            adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Perri Edwards</a></li>
         </ul>
 
         <div class="box_tab-view">
           <div class="box_view-detail"> 
             <div id="influencer01" class="box_view-item box_view-item1 active ">
               <div class="influencer influencer-01">
-                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Beatrice Turner Wears">
-                  <p class="influ_typo"></p>
-                </div>
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Josie London Wears"></div>
                 <div class="desc">
-                  <p>Stories Beatrice Turner Wears</p>
-                  <span>"OH HOW I CHERISH this checkered dress. Reminds me of the maddest parties me and my friends had from our trip to Spain."</span>
+                  <p>Stories <br>Josie London Wears</p>
+                  <span>The same outfit, more than 3 years apart - these pieces are still favourites of mine and I've always taken great care to look after my favourite garments</span>
                 </div>
               </div>
             </div>
             <div id="influencer02" class="box_view-item box_view-item2">
               <div class="influencer influencer-02">
-                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Zeena Shah Wears">
-                  <p class="influ_typo"></p>
-                </div>
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Patricia Bright Wears"></div>
                 <div class="desc">
-                  <p>Stories Zeena Shah Wears</p>
-                  <span>"Hand-made by my loving, caring, talented nonna. I think about our memories every time I wear this."</span>
+                  <p>Stories <br>Patricia Bright Wears</p>
+                  <span>I remember wearing this on my second trip to LA when I was ready to make some moves. It's amazing to have items in your closet that bring back memories and make you smile (or cry).</span>
                 </div>
               </div>
             </div>
             <div id="influencer03" class="box_view-item box_view-item3">
               <div class="influencer influencer-03">
-                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Jessica Oliveria Wears">
-                  <p class="influ_typo"></p>
-                </div>
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Perri Edwards Wears"></div>
                 <div class="desc">
-                  <p>Stories Jessica Oliveria Wears</p>
-                  <span>"These white gloves go way back to 1970’s, my mum’s wedding day. Still good & gorgeous as new."</span>
+                  <p>Stories <br>Perri Edwards Wears</p>
+                  <span>4 years on and my striped trousers are still going strong. I feel it's vital to have a conscious clothing lifestyle whether that means passing down your old favs or making them a new fav, buying clothes harmless to the environment, washing your clothes at the correct temperature.</span>
                 </div>
               </div>
             </div>
