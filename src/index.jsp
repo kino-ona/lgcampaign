@@ -261,12 +261,12 @@
           <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 	
             adobe-value="main>stories-we-wear>influencer01>tap" data-link-name="influencer01" class="link active">Josie London</a></li>
-        <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
-            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
-            adobe-value="main>stories-we-wear-experts>influencer02>tap" data-link-name="influencer02" class="link">Patricia Bright</a></li>
-        <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
-            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 
-            adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Perri Edwards</a></li>
+          <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
+              adobe-value="main>stories-we-wear-experts>influencer02>tap" data-link-name="influencer02" class="link">Patricia Bright</a></li>
+          <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 
+              adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Perri Edwards</a></li>
         </ul>
 
         <div class="box_tab-view">
@@ -396,28 +396,28 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Fabric Protection</dt>
                   <dd>
                     Extend the life of your clothing with 18% more fabric protection by AI DD<sup>™</sup> Deep-learning technology<sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="Xghnpg8dC7Q" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="yfQlu_XWJps" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Energy Saving</dt>
                   <dd>
                     Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash<sup>™</sup>360<sup>2)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="RI2WZH5JzB4" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="OZmuJmXeATY" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Reduce Water Consumption</dt>
                   <dd>
                     Bigger washing capacity reduces water consumption<sup>3)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="iHc6LLpzOAE" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="_6VW2VZbUTU" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Laundry with One Less Step</dt>
                   <dd>
                     ezDispense automatically dispenses just the right amount of detergent needed for your laundry with no waste, giving you one less thing to worry about.<sup>4)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="-pxjRbmZRRo" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="BodM76-2xUI" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
               </div>
@@ -434,13 +434,14 @@
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature."></i>Fabric Protection</dt>
                   <dd>
                     Protect your clothes from damage with low temperature heat pump technology
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="U803vsTGDPo" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="tlYO4v8iJg8" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery."></i>Save energy</dt>
                   <dd>
                     Save money and the planet with energy-efficient DUAL Inverter Heat Pump<sup>™</sup> dryer.<sup>1)</sup>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="EB_cO3-ttMo" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">

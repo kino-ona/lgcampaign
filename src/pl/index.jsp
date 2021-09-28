@@ -139,17 +139,17 @@
         
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/GqIb6TSxEMI?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/h7A0LHRbxrA?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe02">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/TtDdNl_PlTA?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/4w4Tus_BaP8?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe03">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/jJqKQoAimOE?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/sZ8haMGHr80?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
@@ -345,28 +345,28 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Ochrona tkanin</dt>
                   <dd>
                     Wydłuż życie ubrań dzięki funkcji AI DD opartej na algorytmach głębokiego uczenia, która zwiększa skuteczność ochrony tkanin o 18%. <sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="Xghnpg8dC7Q" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_AIDD_01" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Oszczędność energii</dt>
                   <dd>
                     Dzięki funkcji TurboWash<sup>™</sup>360 skrócisz czas prania do 39 minut i zmniejszysz zużycie energii nawet o 28%. <sup>2)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="RI2WZH5JzB4" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_TurboWash02" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Oszczędność wody</dt>
                   <dd>
                     Mniejsze zużycie wody dzięki większej pojemności pralki <sup>3)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="iHc6LLpzOAE" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_Bigger03" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>O jedną czynność mniej podczas prania</dt>
                   <dd>
                     System ezDispense automatycznie dozuje ilość detergentu potrzebną do uprania wsadu. Dzięki temu zapobiega marnowaniu detergentu i uwalnia nas od jednej czynności przy włączaniu prania.<sup>4)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="-pxjRbmZRRo" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_ezDispense04" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
               </div>
@@ -383,13 +383,14 @@
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature."></i>Ochrona tkanin</dt>
                   <dd>
                     Skuteczniejsza ochrona tkanin dzięki pompie ciepła umożliwiającej suszenie w niższej temperaturze
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="U803vsTGDPo" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Dryer_Dual05" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery."></i>Oszczędzanie energii</dt>
                   <dd>
                     Energooszczędna suszarka z pompą ciepła LG DUAL Inverter Heat Pump<sup>™</sup> pomaga oszczędzać pieniądze i chronić środowisko.<sup>1)</sup>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_EnergyGrade" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
@@ -418,14 +419,14 @@
                   <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Ochrona tkanin podczas suszenia</dt>
                   <dd>
                     Dzięki funkcji suszenia w niskiej temperaturze wysuszysz delikatne ubrania, np. bieliznę lub swetry, szybciej niż na wolnym powietrzu.
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="IRrMuJmIvA8" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Styler_Gentle06" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>	
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG Styler's less detergent & chemical use feature." title="Icon of LG Styler's less detergent & chemical use feature."></i>Ograniczenie użycia detergentów i chemikaliów</dt>
                   <dd>
                     Gorąca para wytwarzana z czystej wody – odświeżanie ubrań bez użycia agresywnych chemikaliów lub mydeł, często stosowanych przez tradycyjne pralnie chemiczne.<sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="EJVuTJOl1TM" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Styler_TrueSteam07" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
@@ -451,7 +452,7 @@
 
     <div class="box_content-info">
       <div class="box_info-inner">
-        <p class="text_emphasis">1) „Tekstylia i środowisko w gospodarce o obiegu zamkniętym”, Europejska Agencja Środowiska, 2019 r.</p>
+        <p class="text_emphasis">1) „Tekstylia i środowisko w gospodarce o obiegu zamkniętym", Europejska Agencja Środowiska, 2019 r.</p>
         <div class="box_product-info">
           <strong class="text_strong">Pralka LG AI DD<sup>™</sup></strong>
           <ul class="list_detail-info">
@@ -486,6 +487,9 @@
     </div>
     <div class="pop_ytiframe">
       <div class="pop_ytiframe-inner"><button class="btn-close"><span class="a11y">close</span></button><div class="movie-box"></div></div>
+    </div>
+    <div class="pop_vodframe">
+      <div class="pop_vodframe-inner"><button class="btn-close"><span class="a11y">close</span></button><div class="movie-box"></div></div>
     </div>
 
     <!-- clothingcare-terms_pop -->
