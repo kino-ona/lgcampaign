@@ -403,14 +403,14 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Energy Saving</dt>
                   <dd>
                     Cut your laundry time down to 39 minutes and save up to 28% more energy with TurboWash<sup>™</sup>360<sup>2)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="OZmuJmXeATY" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="jKuB-5w2mjc" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Reduce Water Consumption</dt>
                   <dd>
                     Bigger washing capacity reduces water consumption<sup>3)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="_6VW2VZbUTU" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="yfQlu_XWJps" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
@@ -434,14 +434,13 @@
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature."></i>Fabric Protection</dt>
                   <dd>
                     Protect your clothes from damage with low temperature heat pump technology
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="tlYO4v8iJg8" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="EB_cO3-ttMo" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery."></i>Save energy</dt>
                   <dd>
                     Save money and the planet with energy-efficient DUAL Inverter Heat Pump<sup>™</sup> dryer.<sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="EB_cO3-ttMo" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
@@ -470,14 +469,14 @@
                   <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Fabric Protection from Drying Process</dt>
                   <dd>
                     Dry delicates like lingerie and sweaters faster than air drying with low-temperature heat pump drying system
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="IRrMuJmIvA8" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="tlYO4v8iJg8" class="btn_watch">Watch<i></i></a></p>
                   </dd>	
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG Styler's less detergent & chemical use feature." title="Icon of LG Styler's less detergent & chemical use feature."></i>Less Detergent &amp; Chemical Use</dt>
                   <dd>
                     The high-temperature steam uses pure water - refreshing clothes without harsh chemicals or soaps often left by traditional dry cleaning.<sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="EJVuTJOl1TM" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="_6VW2VZbUTU" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
