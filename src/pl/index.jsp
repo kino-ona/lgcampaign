@@ -337,7 +337,7 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>buy-now" data-link-name="buy_now" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">Gdzie kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -375,7 +375,7 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">Gdzie kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -410,7 +410,7 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">Gdzie kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -445,7 +445,7 @@
     <div class="box_row-campaign box_content">
       <div class="rending-button">
         <p><i></i>Zapisz się, by historie twoich ulubionych ubrań mogły trwać dłużej</p>
-        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=5ccfa76d-65e5-48d9-ab56-fde1b7d9bf78" target="_blank" class="btn-link">Kliknij tutaj</a>
+        <a href="https://www.lg.com/pl/my-lg/login?page=login" target="_blank" class="btn-link">Kliknij tutaj</a>
       </div>
     </div>
 
@@ -724,6 +724,9 @@
       "page_purpose" : "microsite", // Fixed value microsite
       "product_year" : "",
       "model_id" : "", // model, review page
+      "modelYear": "",
+      "modelName": "",
+      "model_name": "",
       "bundle_name" : "", // bundle promotion
       "promotion_name" : "",  // promotion detail page
       "microsite_name": "main"
@@ -736,7 +739,10 @@
     "page_category_l4" : "",
     "promotion_name" : "",
     "products" : "",
-    "page_event" : null
+    "page_event" : {
+      "learn_more_click" : true,
+      "buy_now_click" : true
+    }
   };
 
   // gtm
@@ -763,6 +769,24 @@
 <!-- // default code -->
 
 <!-- your js -->
+<script>
+  $('.clothing_product').find('.btn_red').each(function (i) {
+    $(this).on('click', function() {
+      var _this=$(this);
+      var modelName='';
+      eventName = 'buy_now_click';
+      micrositeName = 'zadbaj-o-to-co-nosisz';
+      dataLayer.push({
+        'event' : eventName,
+        'modelName' : $(this).attr('data-sku'),
+        'modelCode' : $(this).attr('data-model-id'),
+        'sku' : $(this).attr('data-sku'),
+        'suffix' : $(this).attr('data-model-suffixcode'),
+        'microsite_name': micrositeName,
+      })
+    })
+  });
+</script>
 <script type="text/javascript" src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/js/clothing_campaign.js"></script>
 </body>
 
