@@ -396,7 +396,7 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Fabric Protection</dt>
                   <dd>
                     Extend the life of your clothing with 18% more fabric protection by AI DD<sup>™</sup> Deep-learning technology<sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="yfQlu_XWJps" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="r6_K4Da2nXE" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
@@ -410,7 +410,7 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Reduce Water Consumption</dt>
                   <dd>
                     Bigger washing capacity reduces water consumption<sup>3)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="yfQlu_XWJps" target="_blank" class="btn_watch">Watch<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="OZmuJmXeATY" target="_blank" class="btn_watch">Watch<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
@@ -497,7 +497,7 @@
       <div class="promotion_banner">
         <div class="promo_left">
           <p>Use 'LG10' at checkout<br>to receive 10% off<br>on selected Laundry products<span>Plus free delivery, installation and disposal</span></p>
-          <span>offer ending 17<sup>th</sup> Nov 2021<br>*T&amp;Cs apply</span>
+          <span>From 20<sup>th</sup> Oct to 29<sup>th</sup> Nov 2021<br>*T&amp;Cs apply</span>
         </div>
         <div class="promo_right">
           <div class="items">
