@@ -54,7 +54,7 @@
     </c:import>
     <!-- // component (navigation) -->
 
-    <!-- breadcrumb -->
+  <!-- breadcrumb -->
 	<div class="breadcrumb">
 		<ul itemscope itemtype="http://schema.org/BreadcrumbList">
 			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
