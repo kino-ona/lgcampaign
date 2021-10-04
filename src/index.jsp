@@ -239,12 +239,12 @@
           </div>
           <div class="half-right">
             <ul class="pola_list">
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01.jpg" alt="The “lucky catch” shirt on our fishing trip"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01.jpg" alt="The 'lucky catch' shirt on our fishing trip"></li>
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid02.jpg" alt="Jacket high school crush said I looked cute in"></li>
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid03.jpg" alt="Hand tailored suit from our trip to Italy"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04.jpg" alt="Dad’s back when he used to write graffiti"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04.jpg" alt="Dad's back when he used to write graffiti"></li>
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Still wearing our favourite date outfits since 1988"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum's favourite Dino top she used to wear 32 years ago"></li>
             </ul>
             <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Terms &amp; Conditions<i></i></a>
           </div>
@@ -253,6 +253,7 @@
     </div>
     <!--// clothing_howto -->
 
+    <div id="influencer"></div>
     <div class="clothing_sustain box_row-campaign">
       <p class="row-tit">Inside a Sustainable Clothing Life</p>
       <p class="row-stit">Hear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
