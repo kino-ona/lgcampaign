@@ -373,7 +373,7 @@
               <span class="model_code">F4WV5010S0W</span>
             </p>
             <p class="model_price">
-              £ 1,169.98<span>£ 1,299.98</span>
+              <!-- £ 1,169.98<span>£ 1,299.98</span> -->
             </p>
             <a href="https://www.lg.com/es/lavado-y-secado/lg-f4wv5010s0w" target="_blank" data-model-id="MD07516701" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" data-model-year="2021" data-model-name="F4WV5010S0W" data-model-salesmodelcode="F4WV5010S0W.ABWQPES" class="btn-buynow">Comprar ahora</a>
           </div>
@@ -385,7 +385,7 @@
               <span class="model_code">F6V909WTSA</span>
             </p>
             <p class="model_price">
-              £ 764.98<span>£849.98</span>
+              <!-- £ 764.98<span>£849.98</span> -->
             </p>
             <a href="https://www.lg.com/es/lavado-y-secado/lg-f2wv3s85s3w" target="_blank" data-model-id="MD07520264" data-link-name="add_to_cart" data-category-name="Washer" data-model-year="2020" data-model-name="F2WV3S85S3W" data-model-salesmodelcode="F2WV3S85S3W.ABWQPES" class="btn-buynow">Comprar ahora</a>
           </div>
@@ -397,7 +397,7 @@
               <span class="model_code">F4DV5009S0W</span>
             </p>
             <p class="model_price">
-              £ 989.98<span>£ 1099.98</span>
+              <!-- £ 989.98<span>£ 1099.98</span> -->
             </p>
             <a href="https://www.lg.com/es/lavado-y-secado/lg-f4dv5009s0w" target="_blank" data-model-id="MD07516608" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" data-model-year="2020" data-model-name="F4DV5009S0W" data-model-salesmodelcode="F4DV5009S0W.ABWQPES" class="btn-buynow">Comprar ahora</a>
           </div>
@@ -409,7 +409,7 @@
               <span class="model_code">RC80U2AV4D</span>
             </p>
             <p class="model_price">
-              £ 1,664.98<span>£1,849.98</span>
+              <!-- £ 1,664.98<span>£1,849.98</span> -->
             </p>
             <a href="https://www.lg.com/es/lavado-y-secado/lg-RC80U2AV4D" target="_blank" data-model-id="MD06214736" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-year="2019" data-model-name="RC80U2AV4D" data-model-salesmodelcode="RC80U2AV4D.ABWQKES" class="btn-buynow">Comprar ahora</a>
           </div>
