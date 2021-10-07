@@ -2159,7 +2159,7 @@
 		size:auto;
 	}
 	.promo_left {
-		flex:.9;
+		flex:1;
 		p {
 			padding-bottom:25px;
 			font-size:56px;
@@ -2182,7 +2182,7 @@
 		}
 	}
 	.promo_right {
-		flex:1.1;
+		flex:1;
 		&:after {
 			content: '';
 			display: block;
@@ -2191,7 +2191,8 @@
 		.items {
 			position:relative;
 			float:left;
-			width:calc(25% - 10px);
+			// width:calc(25% - 10px);
+			width:calc((100% / 3) - 10px);
 			margin-right:10px;
 			padding:25px 15px;
 			background-color: #fff;

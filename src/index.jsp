@@ -515,18 +515,6 @@
           </div>
           <div class="items">
             <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item02.jpg" alt="Washing Machine 10.5kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™"></p>
-            <p class="model_name">
-              Washing Machine 10.5kg - TurboWash<sup>™</sup> | AIDD<sup>™</sup> | Steam<sup>™</sup> | ezDispense<sup>™</sup>
-              <span class="model_code">F4V710WTSA</span>
-            </p>
-            <p class="model_price">
-              £ 719.98<span>£799.98</span>
-            </p>
-            <a href="https://www.lg.com/uk/washing-machines/lg-f6v909wtsa" target="_blank" data-model-id="F4V710WTSA" data-link-name="add_to_cart" data-category-name="Washer" data-model-year="2021" data-model-salesmodelcode="F4V710WTSA" class="btn-buynow">Buy Now</a>
-          </div>
-          <div class="items">
-            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
             <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item03.jpg" alt="LG Turbowash360™ FWV1117WTSA 10.5kg / 7kg, 1400rpm, Washer Dryer - White"></p>
             <p class="model_name">
               LG Turbowash360™ FWV1117WTSA 10.5kg / 7kg, 1400rpm, Washer Dryer - White
