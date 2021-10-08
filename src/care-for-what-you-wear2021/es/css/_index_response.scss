@@ -67,8 +67,8 @@
 	}
 }
 .clothing-campaign {
-	margin-left:-15px;
-	margin-right:-15px;
+	// margin-left:-15px;
+	// margin-right:-15px;
 	._pc {
 		display: none;
 	}
@@ -142,6 +142,7 @@
 	.clothing_keyvisual {
 		min-height:auto;
 		padding-top: 133%;
+		margin-bottom:25px;
 		background: {
 			image: url(/es/electrodomesticos/cuida-tu-ropa-2021/images/visual_bgcut01.jpg);
 		}
@@ -182,7 +183,7 @@
 			float: none;
 			display: inline-block;
 			width: 100%;
-			height: 140px; //auto
+			// height: 140px; //auto
 			background-color:rgba(0,0,0, .8);
 			background-image: none !important;
 			border-left:0;
