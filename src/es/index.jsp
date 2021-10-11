@@ -268,7 +268,7 @@
               <div class="figure">
                 <img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/es/lavado-y-secado/lg-f4wv5010s0w" adobe-click="cuidaturopayelplaneta-main-washer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Comprar ahora</a>
+                  <a href="https://www.lg.com/es/lavadoras" adobe-click="cuidaturopayelplaneta-main-washer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Descubre la gama</a>
                 </div>
               </div>
               <div class="desc">
@@ -306,7 +306,7 @@
               <div class="figure">
                 <img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/es/secadoras" adobe-click="cuidaturopayelplaneta-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Comprar ahora</a>
+                  <a href="https://www.lg.com/es/secadoras" adobe-click="cuidaturopayelplaneta-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Descubre la gama</a>
                 </div>
               </div>
               <div class="desc">
@@ -318,7 +318,7 @@
                   </dd>
                 </dl>
                 <dl class="_item item02">
-                  <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery."></i>Máxima eficiencia</dt>
+                  <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Eco Hybrid technology feature which saves time or enegery."></i>Máxima eficiencia<sup>2)</sup></dt>
                   <dd>
                     Ahorra electricidad y cuida el planeta con la Bomba de Calor Dual Inverter de las secadoras LG.
                   </dd>
@@ -332,7 +332,7 @@
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Hygiene Care featire that kills 99.9% virus, bacteria and dust." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Hygiene Care featire that kills 99.9% virus, bacteria and dust."></i>Máxima higiene</dt>
                   <dd>
-                    Elimina el 99,9% de las bacterias con el programa antialergias y el doble filtro<sup>2)</sup>.
+                    Elimina el 99,9% de las bacterias con el programa antialergias y el doble filtro. <sup>3)</sup>
                   </dd>
                 </dl>
               </div>
@@ -341,7 +341,7 @@
               <div class="figure">
                 <img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/es/lavado-y-secado/lg-s3mfc" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Comprar ahora</a>
+                  <a href="https://www.lg.com/es/lavado-y-secado/lg-s3mfc" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Descubre la gama</a>
                 </div>
               </div>
               <div class="desc">
@@ -387,9 +387,6 @@
               Lavasecadora inteligente LG, Blanca, A/E
               <span class="model_code">F4DV5010SMW</span>
             </p>
-            <p class="model_price">
-              £ 849,00<span>£ 949,00</span>
-            </p>
             <a href="https://www.tiendalgonline.com/lavadora-secadora/F4DV5010SMW.html" target="_blank" 
             data-model-id="" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Front_Load_Washer_Dryer" 
             data-model-year="" data-model-name="F4DV5010SMW" data-model-salesmodelcode="F4DV5010SMW.ABWQPES" class="btn-buynow">Comprar ahora</a>
@@ -400,9 +397,6 @@
             <p class="model_name">
               Lavadora inteligente LG 8,5kg, C, Blanca
               <span class="model_code">F2WV3S85S3W</span>
-            </p>
-            <p class="model_price">
-              £ 552,57
             </p>
             <a href="https://www.tiendalgonline.com/lavadoras/lavadora-lg-F2WV3S85S3W-ABWQPES.html" target="_blank" 
             data-model-id="" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Front_Load_Washer_Dryer"
@@ -415,9 +409,6 @@
               Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca
               <span class="model_code">F4DV5009S0W</span>
             </p>
-            <p class="model_price">
-              <!-- £ 989.98<span>£ 1099.98</span> -->
-            </p>
             <a href="https://www.tiendalgonline.com/lavadora-secadora/lavadora-secadora-lg-F4DV5009S0W-ABWQPES.html" target="_blank" 
             data-model-id="MD07516608" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" 
             data-model-year="2020" data-model-name="F4DV5009S0W" data-model-salesmodelcode="F4DV5009S0W.ABWQPES" class="btn-buynow">Comprar ahora</a>
@@ -428,9 +419,6 @@
             <p class="model_name">
               Secadora LG 8kg A+++ Blanca
               <span class="model_code">RC80U2AV4D</span>
-            </p>
-            <p class="model_price">
-              £ 619,65<span>£ 699,00</span> 
             </p>
             <a href="https://www.tiendalgonline.com/secadoras/rc80u2av4d-secadora-lg.html" target="_blank" 
             data-model-id="MD06214736" data-link-name="add_to_cart" data-super-category-name="appliances" 
@@ -453,18 +441,12 @@
         <div class="box_product-info">
           <strong class="text_strong">Lavadora LG AI DD<sup>™</sup></strong>
           <ul class="list_detail-info">
-            <li class="list-item">1) Testado por Intertek en noviembre del 2019. Reducción en un 18% del desgaste comparando el ciclo de algodón con 2kg de ropa interior de una lavadora LG con AI Direct Drive con el ciclo de algodón convencional de la lavadora
-              LG (F4V9RWP2W vs. FY10SD4). Los resultados pueden variar en función del tipo de ropa y del entorno. AI Direct Drive está disponible en 3 programas (Algodón, Mixtos, Sintéticos).
+            <li class="list-item">1) Testado por Intertek en noviembre del 2019. Reducción en un 18% del desgaste comparando el ciclo de algodón con 2kg de ropa interior de una lavadora LG con AI Direct Drive con el ciclo de algodón convencional de la lavadora LG (F4V9RWP2W vs. FY10SD4). Los resultados pueden variar en función del tipo de ropa y del entorno. AI Direct Drive está disponible en 3 programas (Algodón, Mixtos, Sintéticos).
             </li>
-            <li class="list-item">2) Testado por Intertek en marzo de 2019 basado en el estándar internacional de medición IEC 60456 edición 5.0: comparando lavado con función TurboWash360 (con media carga de capacidad nominal ciclo de algodón
-              convencional 40ºC; modelos con Turbowash360 F4WV9512P2W, F6WV9510P2W, F6WV7510P2W y F4WV7010S2W) y lavado con función Turbowash (modelo FC1450S2W; ciclo de algodón convencional). Los resultados pueden
-              variar dependiendo de las condiciones del test. Comparativa de consumo hecha únicamente sobre lavadoras LG.
+            <li class="list-item">2) Testado por Intertek en marzo de 2019 basado en el estándar internacional de medición IEC 60456 edición 5.0: comparando lavado con función TurboWash360 (con media carga de capacidad nominal ciclo de algodón convencional 40ºC; modelos con Turbowash360 F4WV9512P2W, F6WV9510P2W, F6WV7510P2W y F4WV7010S2W) y lavado con función Turbowash (modelo FC1450S2W; ciclo de algodón convencional). Los resultados pueden variar dependiendo de las condiciones del test. Comparativa de consumo hecha únicamente sobre lavadoras LG.
             </li>
             <li class="list-item">3) Testado por Intertek en el ciclo TurboWash360 con media carga. Los resultados pueden ser diferentes dependiendo de las condiciones de lavado.</li>
-            <li class="list-item">4) Resultado de ahorro estimado en 10 años en en litros de agua basado en la comparación entre lavadoras con una capacidad de 12kg, 10'5kg y 9kg (dependiendo de la seleccionada) y lavadoras con una capacidad de 7kg
-              teniendo en cuenta que el n<sup>º</sup> de ciclos de lavado a carga completa de la lavadora con la capacidad seleccionada es de 128, 154 y 171 ciclos de lavado por año a carga completa con respecto a lavadoras de 12kg, 10´5kg y 9kg
-              respectivamente y la lavadora de 7kg (220 ciclos a carga completa por año) y el consumo en litros en cada ciclo (49 litros).
-            </li>
+            <li class="list-item">4) Resultado de ahorro estimado en 10 años en en litros de agua basado en la comparación entre lavadoras con una capacidad de 12kg, 10'5kg y 9kg (dependiendo de la seleccionada) y lavadoras con una capacidad de 7kg teniendo en cuenta que el n<sup>º</sup> de ciclos de lavado a carga completa de la lavadora con la capacidad seleccionada es de 128, 154 y 171 ciclos de lavado por año a carga completa con respecto a lavadoras de 12kg, 10´5kg y 9kg respectivamente y la lavadora de 7kg (220 ciclos a carga completa por año) y el consumo en litros en cada ciclo (49 litros).</li>
             <li class="list-item">5) Resultado obtenido poniendo una media de 5,5 ciclos por semana (Fuente: Energy Saving Trust), utilizando ambos depósitos (destinado al suavizante y al detergente) y utilizando el ciclo de algodón con una carga media de 5kg.</li>
           </ul>
         </div>
@@ -472,7 +454,8 @@
           <strong class="text_strong">Secadora LG DUAL Inverter Heat Pump <sup>™</sup></strong>
           <ul class="list_detail-info">
             <li class="list-item">1) La primera secadora del mundo con certificado TUV Producto Verde reconociendo los esfuerzos de LG para minimizar el impacto ambiental.</li>
-            <li class="list-item">2) Testado por TUV SUD que reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
+            <li class="list-item">2) Basado en informe realizado por Youreko a fecha 13/09/2021, el modelo LG RC80V9AV2W es la secadora comercializada en territorio español con mayor eficiencia energética, A+++ (-10%) sobre escala A+++ a D.</li>
+            <li class="list-item">3) Testado por TUV SUD que reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
           </ul>
         </div>
         <div class="box_product-info">
@@ -483,13 +466,9 @@
         </div>
         <div class="box_product-info">
           <ul class="list_detail-info">
-            <li class="list-item">Lavadoras (Basado en un estudio del 17-05-2020 de la Jeonbuk National University de Seúl. La utilización del programa Allergy Care de los modelos de lavadoras LG en distintas prendas de 100% algodón en las cuales se han
-              incluido muestras con un tamaño de 1x1 cm de 2.5X105 GFP transducidas unidades/50 μl del coronavirus humano 229E, con una temperatura de 24 ± 2 y una humedad de 50 ± 5% ha eliminado hasta un 99.99% de las muestras de
-              coronavirus humano 229E introducidas en las referidas prendas. Estudio basado exclusivamente en el análisis del coronavirus humano229E y no en el SARS – Covid19. (2) Bacterias: estudio del 04-05-2020 elaborado por TUV SUD que
-              confirma que la utilización del programa Allergy Care de los modelos LG F4V9RWP2W y F4V9RCP2W en prendas de algodón de 30 x 20 cm en las cuales se han incluido muestras de bacterias (1.7x105 de staphylococcus aureus,
-              4.7x105 de klebsiella pneumoniae y 2.1x105 de pseudonomas aeruginosa) ha eliminado hasta un 99.99% de las muestras de las referidas bacterias. Alérgenos y ácaros de polvo: Resultdos aprobados por la British Allergy Foundation
-              en abril de 2020 sobre el modelo de lavadora LG FH4B3PDYK6N, así como el resto de modelos de lavadoras y lava-secadoras LG que tengan las mismas especificaciones que el anterior modelo.). Secadoras (Testado por TUV SUD que
-              reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
+            <li class="list-item">** Lavadoras (Basado en un estudio del 17-05-2020 de la Jeonbuk National University de Seúl. 
+              La utilización del programa Allergy Care de los modelos de lavadoras LG en distintas prendas de 100% algodón en las cuales se han incluido muestras con un tamaño de 1x1 cm de 2.5X105 GFP transducidas unidades/50 μl del coronavirus humano 229E, con una temperatura de 24 ± 2 y una humedad de 50 ± 5% ha eliminado hasta un 99.99% de las muestras de coronavirus humano 229E introducidas en las referidas prendas. Estudio basado exclusivamente en el análisis del coronavirus humano229E y no en el SARS – Covid19. 
+              <br>(2) Bacterias: estudio del 04-05-2020 elaborado por TUV SUD que confirma que la utilización del programa Allergy Care de los modelos LG F4V9RWP2W y F4V9RCP2W en prendas de algodón de 30 x 20 cm en las cuales se han incluido muestras de bacterias (1.7x105 de staphylococcus aureus, 4.7x105 de klebsiella pneumoniae y 2.1x105 de pseudonomas aeruginosa) ha eliminado hasta un 99.99% de las muestras de las referidas bacterias. Alérgenos y ácaros de polvo: Resultdos aprobados por la British Allergy Foundation en abril de 2020 sobre el modelo de lavadora LG FH4B3PDYK6N, así como el resto de modelos de lavadoras y lava-secadoras LG que tengan las mismas especificaciones que el anterior modelo.). Secadoras (Testado por TUV SUD que reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
           </ul>
         </div>
       </div>

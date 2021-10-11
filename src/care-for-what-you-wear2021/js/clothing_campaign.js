@@ -234,8 +234,7 @@ $(document).ready(function(){
 				});
 			}
 		})
-
-	}
+	} 
 });
 /* responsive e */
 

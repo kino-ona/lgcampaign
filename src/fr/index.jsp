@@ -9,14 +9,14 @@
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-sns-tag.jsp" %>
 
     <!-- chrome audits -->
-    <title>Care For What You Wear 2021| LG Deutschland</title>
-    <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, net-a-porter, washing machine, dryer, styler, nachhaltigkeit, wäschepflege, waschmaschine, trockner, waschtrockner, home appliances, lg haushaltsgeräte, haushaltsgeräte" />
-    <meta name="description" content="LG hat die neue Kampagne “Care For What You Wear” gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
-    <meta property="og:title" content="Care For What You Wear 2021| LG Deutschland" />
-    <meta property="og:url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
-    <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
-    <meta property="og:image" content="@" />
-    <link rel="canonical" href="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
+    <title>Prenez Soin De Ce Que Vous Portez: Appareils d'entretien des vêtements | LG France</title>
+    <meta name="keywords" content="lg electroménager, durabilité, prenez soin de ce que vous portez, entretien des vêtements, net-a-porter, lave-linge, sèche-linge, styler " />
+    <meta name="description" content="LG a lancé une nouvelle campagne 'Prenez Soin De Ce Que Vous Portez' pour un style de vie vestimentaire conscient et un avenir durable. En savoir plus sur la campagne et la technologie d’entretien des vêtements innovante de LG." />
+    <meta property="og:title" content="Prenez Soin De Ce Que Vous Portez: Appareils d'entretien des vêtements | LG France" />
+    <meta property="og:url" content="https://www.lg.com/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021" />
+    <meta property="og:description" content="LG a lancé une nouvelle campagne 'Prenez Soin De Ce Que Vous Portez' pour un style de vie vestimentaire conscient et un avenir durable. En savoir plus sur la campagne et la technologie d’entretien des vêtements innovante de LG." />
+    <meta property="og:image" content="https://www.lg.com/fr/electromenager/prenez-soin-de-ce-que-vous-portez/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg" />
+    <link rel="canonical" href="https://www.lg.com/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021" />
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
@@ -616,142 +616,94 @@
         </div>
         <div class="layer_inner">
           <div class="layer_cont">
-            <p class="heading-tit">LG will be running the following<br>"My Cherished Clothes Event" on Instagram and Facebook:</p>
-            <p>(1) An LG Clothing Care Solution Appliance (Styler) grand prize giveaway at the end of the Event Period.</p>
-            <p>Entrants must follow the criteria set out below, by posting a comment on the original content posted
-              with their own stories about a piece of clothing that holds special memories of them. Please note that
-              entrants who fully meet the criteria below may be selected as winner.</p>
+            <p class="heading-tit">LLG organisera l'évènement<br>"Mes Vêtements Précieux" sur Instagram et Facebook : </p>
+            <p>(1) Un grand prix d'un appareil de solution de soin des vêtements LG (lave-linge/ sèche-linge/ Styler) à la fin de la durée de l'évènement.</p>
+            <p>Les participants doivent respecter les critères énoncés ci-dessous, en publiant un commentaire sur le contenu original posté avec leurs propres histoires sur un vêtement qui leur rappelle des souvenirs spéciaux. Veuillez noter que les participants qui répondent entièrement aux critères ci-dessous peuvent être sélectionnés comme gagnants.</p>
+            <p>Période de promotion : Les participations peuvent être faites du 3-Nov jusqu'au 23-Nov. Toute participation faite en dehors de cette période ne sera pas prise en compte pour cette promotion.</p>
+            <p>Le concours est réservé aux personnes résidant en France âgées de 18 ans ou plus. Un compte Instagram et/ou Facebook public est requis. Veuillez consulter les conditions générales complètes ci-dessous.</p>
             <dl>
-              <dt>Promotion Period</dt>
+              <dt>Comment participer :</dt>
               <dd>
-                <p>Entries can be made from Thursday 30<sup>th</sup> September 2021 until 11:59pm
-                  Wednesday 20<sup>th</sup> October 2021. Any entries made outside of this time are not eligible for this promotion.</p>
-                <p>Only open to those in the UK aged 18 or over, a public Instagram and/or a Facebook account is required. Please see the full terms and conditions below.</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt class="numb"><span>1</span> How to enter</dt>
-              <dd class="dd_push">
-                <p>Entrants can choose either option a or b.</p>
-                <p><strong>a.</strong> Entrants must leave a comment with a story about their cherished clothes on the Event Post uploaded on Instagram or Facebook.</p>
-                <p><strong>b.</strong> Entrants must post their own cherished clothing story with a photo of the clothes on their Instagram or Facebook account.</p>
+                <p>- Les participants peuvent choisir l'option a ou b.</p>
               </dd>
               <dd class="dd_push">
-                <strong>Mandatory</strong>
-                <div class="dv_line">
-                  <p><strong>Facebook -</strong> Need to include the followings:<br>
-                    #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
-                  <p><strong>Instagram -</strong> Need to include the followings:<br>
-                    #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
-                </div>
-              </dd>
-            </dl>
-            <p>Entrants may enter as many times as they like on the Instagram and Facebook posts and winners
-              shall be chosen randomly. The draw will take place after the closing date and winners will be notified
-              via Instagram or Facebook within 7 days of the closing date.</p>
-            <dl>
-              <dt class="numb"><span>2</span> Promoter</dt>
-              <dd class="dd_push">
-                LG Electronics U.K. Limited ("LG") of Velocity 2, Brooklands Drive, Weybridge, KT130SL.
+                <p>a. Les participants doivent laisser sur le post de l'évènement téléchargé sur Instagram ou Facebook un commentaire parlant d'une histoire à propos de leurs vêtements préférés</p>
+                <p>b. Les participants doivent poster sur leur compte Instagram ou Facebook leur propre histoire de vêtements à l'aide d'une photo.</p>
               </dd>
             </dl>
             <dl>
-              <dt class="numb"><span>3</span> Administrator</dt>
-              <dd class="dd_push">
-                LG CNS (KR), 71, Magokjungang 8-ro, Gangseo-gu, Seoul, Republic of Korea.
-              </dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>4</span> No purchase necessary: The giveaway is free to enter to all UK residents that meet the eligibility criteria set out in these terms and conditions.</dd>
-            </dl>
-            <dl>
-              <dt>Eligibility criteria</dt>
-              <dd class="numb"><span>5</span> The giveaway is only open to entrants residing in UK and aged 18 or over. Employees of LG global
-                companies, the Administrator, their families and agents, and any other company or person involved in
-                the creation or administration of the giveaway are not permitted to enter. Internet access, a Facebook
-                social media account and a public Instagram social media account are required.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>6</span> By following the instructions provided in the giveaway, you are agreeing to these terms and
-                conditions. All decisions regarding the winners and prizes are final. No correspondence will be entered into by LG or the Administrator.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>7</span> Late, illegible, incomplete, defaced or corrupt entries, as well as entries sent through agencies and
-                third parties or by means other than Instagram will not be accepted. No responsibility can be accepted
-                for lost entries. If LG or the Administrator believes that there has been a breach of these terms and
-                conditions, LG or the Administrator will, at their sole discretion, be entitled to withhold the prize and
-                randomly draw another winner in accordance with these terms and conditions.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Instagram or Facebook direct
-                message requesting their contact details. It is the winner's responsibility to ensure the details they
-                provide are accurate and neither the Promoter nor Administrator will be responsible for delivery failure
-                where participants have provided incorrect or incomplete delivery information, or fails to sign for
-                delivery, as required.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>9</span> Selection process: The prize winner will be selected randomly by the Administrator.</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>10</span> The winner will be announced within seven (7) days of the giveaway ending. The winner will be
-                contacted by the Administrator once selected via Instagram or Facebook direct message requesting
-                their contact details The winner will be asked to provide the relevant contact information including, but
-                not limited to, their email address, telephone number and address in order to send the winner the
-                prizes or to organise a collection (this shall be at the Promoter’s discretion).</dd>
-            </dl>
-            <dl>
-              <dd class="numb"><span>11</span> There is one (1) grand prize to be won at the end of the Event Period.</dd>
-            </dl>
-            <dl>
-              <dt>The prize include:</dt>
+              <dt>Obligatoire :</dt>
               <dd>
-                (1). LG Clothing Care Solution Appliance –Styler (prize model selected at the end of the Event Period)
+                <p>
+                  Facebook :<br>
+                  Vous devez mentionner les éléments/hashtags suivants :<br>
+                  #PrenezSoinDeCeQueVousPortez #MesVêtementsPrécieux #SoinduLingeLG #LG
+                </p>
+                <p>
+                  Instagram :<br>
+                  Vous devez inclure les éléments suivants :<br>
+                  #PrenezSoinDeCeQueVousPortez #MesVêtementsPrécieux #SoinduLingeLG #LG
+                </p>
+                <p>Les participants peuvent participer autant de fois qu'ils le souhaitent sur les posts Instagram et Facebook et les gagnants seront tirés au sort. Le tirage au sort aura lieu après la date de clôture et les gagnants seront informés via Instagram ou Facebook dans les 7 jours suivant la date de clôture.</p>
               </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>12</span> All entrants acknowledge that third party terms and conditions may apply to any element of the
-                prize and agree to adhere to such third party terms and conditions. It is the responsibility of each entrant to read these terms.</dd>
+              <dt>Promoteur :<br>LG Electronics France, 117 Avenue des Nations, 93420 Villepinte</dt>
             </dl>
             <dl>
-              <dd class="numb"><span>13</span> The entrants may be expected to participate in LG publicity related to the giveaway. The name
-                and general location of the entrants may be published on LG.com and/or LG social media sites. This could include any images submitted by the user as a part of the promotion.</dd>
+              <dt>Aucun achat n'est nécessaire :<br>La participation au concours est gratuite pour tous les résidents du pays qui répondent aux critères d'admissibilité définis dans les présentes conditions générales.</dt>
             </dl>
             <dl>
-              <dd class="numb"><span>14</span> LG will not be liable to perform any of its obligations under the giveaway or in respect of the prize
-                where they are unable to do so as a result of unforeseen circumstances or circumstances beyond
-                LG's reasonable control, and whilst LG may (but shall not be obliged to) endeavor to provide an
-                alternative prize of equal value, LG shall not be liable to provide additional compensation to the
-                winners in such circumstances.</dd>
+              <dt>Critères d'admissibilité</dt>
+              <dd>
+                <p>Le concours est uniquement ouvert aux participants résidant à l'intérieur du pays et âgés de 18 ans ou plus. Les employés des sociétés LG, le promoteur, leurs familles et agents, ainsi que toute autre société ou personne impliquée dans la création ou l'administration du concours ne sont pas autorisés à participer. Un accès à Internet, un compte Facebook et un compte Instagram public sont requis.</p>
+                <p>En suivant les instructions fournies dans le cadre du concours, vous acceptez les présentes conditions générales. Toutes les décisions concernant les gagnants et les prix sont définitives. Aucune correspondance ne sera échangée entre LG ou le promoteur.</p>
+                <p>Les participations tardives, illégales, incomplètes, dégradées ou corrompues, ainsi que les participations envoyées par des agences et des tiers ou par d'autres moyens qu'Instagram ne seront pas acceptées. Aucune responsabilité ne peut être acceptée pour les participations perdues. Si LG ou le promoteur estime qu'il y a eu une violation des présentes conditions générales, LG ou le promoteur sera en droit, à sa seule discrétion, de retenir le prix et de tirer au sort un autre gagnant conformément aux présentes conditions générales.</p>
+                <p>Le gagnant sera contacté par le Promoteur une fois sélectionné par message direct Instagram ou Facebook lui demandant ses coordonnées. Il est de la responsabilité du gagnant de s'assurer que les détails qu'il fournit sont exacts et ni LG ni le promoteur ne seront responsables de l'échec de la livraison parce que les participants ont fourni des informations de livraison incorrectes ou incomplètes, ou ne signent pas pour la livraison, comme requis.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>15</span> Should the Administrator be unable to reasonably contact the winner, or should the winner fail to
-                respond to attempts to contact them within three (3) days of the first message or the winner is unable
-                to accept the prize, the prize will be forfeited and the Administrator reserves the right to award the
-                prize to an alternative winner, drawn in accordance with these terms and conditions.</dd>
+              <dt>Procédure de sélection :<br>Le gagnant du prix sera sélectionné au hasard par le promoteur. </dt>
+              <dd>
+                <p>Le gagnant sera annoncé dans les sept (7) jours suivant la fin du concours. Le gagnant sera contacté par le Promoteur une fois sélectionné via un message direct Instagram ou Facebook lui demandant ses coordonnées. Le gagnant sera invité à fournir ses informations de contact personnelles, y compris, mais sans s'y limiter, son adresse mail, son numéro de téléphone et son adresse afin d'envoyer au gagnant les prix ou d'organiser une collecte (ceci à la discrétion du Promoteur).
+                </p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>16</span> No exchange: The prize is non-transferable and cannot be exchanged for cash or any other
-                alternative. The prize is subject to availability and LG reserves the right to change the prize at any time.</dd>
+              <dt>
+                <p>Il y a un (1) grand prix à gagner à la fin de la durée de l'évènement. </p>
+                Le prix comprend :<br>Un appareil LG pour le soin des vêtements - lave-linge/ sèche-linge/ Styler (grand prix sélectionné à la fin de la durée de l'évènement).
+              </dt>
+              <dd>
+                <p>Tous les participants reconnaissent que des conditions générales de tiers peuvent s'appliquer à tout élément du prix et acceptent d'adhérer à ces conditions générales. Il est de la responsabilité de chaque participant de lire ces conditions.</p>
+                <p>Il faut s'attendre à ce que les participants participent à la publicité de LG liée au concours. Le nom et l'emplacement général des participants peuvent être publiés sur LG.com et/ou sur les sites de médias sociaux de LG. Cela pourrait inclure toute image soumise par l'utilisateur dans le cadre de la promotion.</p>
+                <p>LG ne sera pas tenue d'exécuter ses obligations dans le cadre du concours ou en ce qui concerne le prix si elle n'est pas en mesure de le faire en raison de circonstances imprévues ou de circonstances échappant au contrôle de LG, et bien que LG puisse (sans y être obligée) s'efforcer de fournir un autre prix de valeur égale, LG ne sera pas tenue de fournir une compensation supplémentaire aux gagnants dans de telles circonstances.
+                </p>
+                <p>Si le promoteur n'est pas en mesure de contacter raisonnablement le gagnant, si le gagnant ne répond pas aux tentatives de contact dans les trois (3) jours suivant le premier message ou si le gagnant n'est pas en mesure d'accepter le prix, le prix sera annulé et le promoteur se réserve le droit d'attribuer le prix à un autre gagnant, tiré au sort conformément aux présentes conditions générales.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>17</span> LG acts as data controller as defined in UK data protection legislation (including the Data
-                Protection Act 2018 and where applicable the General Data Protection Regulation). LG agrees to
-                comply with its obligations under data protection legislation. In particular, LG and/or the Administrator
-                will hold all personal data securely and use it solely for the purposes of administering the giveaway as
-                set out in these Terms and Conditions and in accordance with the CAP Code. Further information
-                regarding the LG privacy policy can be found at https://www.lg.com/fr/privacy</dd>
+              <dt>
+                Aucun échange :<br>Le prix est non transférable et ne peut être échangé contre de l'argent ou toute autre alternative. Le prix est soumis à la disponibilité et LG se réserve le droit de modifier le prix à tout moment.
+              </dt>
+              <dd>
+                <p>LG agit en tant que contrôleur de données tel que défini dans la législation sur la protection des données du pays (y compris la loi sur la protection des données de 2018 et, le cas échéant, le règlement général sur la protection des données). LG accepte de se conformer à ses obligations en vertu de la législation sur la protection des données. En particulier, LG et/ou le promoteur conserveront toutes les données personnelles en toute sécurité et les utiliseront uniquement aux fins de l'administration du jeu-concours, comme indiqué dans les présentes conditions générales et conformément au Code PAC. De plus amples informations concernant la politique de confidentialité de LG sont disponibles sur le site https://www.lg.com/fr/privacy.</p>
+              </dd>
             </dl>
             <dl>
-              <dd class="numb"><span>18</span> Liability: Save for any liability which cannot be excluded by law, LG cannot accept any
-                responsibility for any damage, loss, injury or disappointment suffered by an entrant as a result of entering the giveaway.</dd>
+              <dt>
+                Responsabilité :<br>À l'exception de toute responsabilité qui ne peut être exclue par la loi, LG ne peut accepter aucune responsabilité pour tout dommage, perte, blessure ou déception subie par un participant à la suite de sa participation au concours.
+              </dt>
             </dl>
             <dl>
-              <dd class="numb"><span>19</span> Amendment/cancellation: LG reserves the right to amend these terms and conditions and/or to
-                amend, suspend, withdraw or cancel the giveaway at any time and without prior notice.</dd>
+              <dt>
+                Modification/annulation :<br>LG se réserve le droit de modifier les présentes conditions générales et/ou de modifier, suspendre, retirer ou annuler le concours à tout moment et sans préavis.
+              </dt>
             </dl>
             <dl>
-              <dd class="numb"><span>20</span> Governing law: The giveaway is governed by the Laws of England and Wales and the English
-                Courts shall have exclusive jurisdiction to determine any disputes which may arise out of, under or in connection with it.</dd>
+              <dt>
+                Droit applicable :<br>Le cadeau est régi par les lois françaises et les tribunaux français seront les seuls compétents pour trancher tout litige pouvant découler du, sous ou en rapport avec le cadeau.
+              </dt>
             </dl>
           </div>
         </div>
@@ -785,8 +737,8 @@
   {
     "page_name" : {
       "bu" : "ha",
-      "super_category" : "haushaltsgeraete",
-      "category" : "care-for-what-you-wear",
+      "super_category" : "electromenager",
+      "category" : "prenez-soin-de-ce-que-vous-portez",
       "sub_category" : "",
       "page_purpose" : "microsite", // Fixed value microsite
       "product_year" : "",
@@ -801,8 +753,8 @@
     "country_code" : "fr",
     "language_code" : "fr",
     "page_category_l1" : "fr:ha",
-    "page_category_l2" : "fr:ha:haushaltsgeraete",
-    "page_category_l3" : "fr:ha:haushaltsgeraete:care-for-what-you-wear",
+    "page_category_l2" : "fr:ha:electromenager",
+    "page_category_l3" : "fr:ha:electromenager:prenez-soin-de-ce-que-vous-portez",
     "page_category_l4" : "",
     "promotion_name" : "",
     "products" : "",
@@ -842,7 +794,7 @@
       var _this=$(this);
       var modelName='';
       eventName = 'buy_now_click';
-      micrositeName = 'care-for-what-you-wear';
+      micrositeName = 'electromenager';
       dataLayer.push({
         'event' : eventName,
         'modelName' : $(this).attr('data-sku'),
@@ -858,7 +810,7 @@
         var _this=$(this);
         var modelName='';
         eventName = 'buy_now_click';
-        micrositeName = 'care-for-what-you-wear';
+        micrositeName = 'electromenager';
         dataLayer.push({
           'event' : eventName,
           'modelName' : $(this).attr('data-model-id'),
