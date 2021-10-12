@@ -273,10 +273,10 @@ function layerClose(layerId){
 	}
 }
 
-var $img = $("img"), i = 0, speed = 200;
-window.setInterval(function() {
-  $img.fadeOut(speed, function() {
-    $img.attr("src", images[(++i % images.length)]);
-    $img.fadeIn(speed);
-  });
-}, 3000);
+// var $img = $("	img"), i = 0, speed = 200;
+// window.setInterval(function() {
+//   $img.fadeOut(speed, function() {
+//     $img.attr("src", images[(++i % images.length)]);
+//     $img.fadeIn(speed);
+//   });
+// }, 3000);

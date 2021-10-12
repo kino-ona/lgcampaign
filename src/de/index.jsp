@@ -549,14 +549,14 @@
             <p>(1) Ein LG Styler S3BF wird als Hauptpreis am Ende des Veranstaltungszeitraums verlost.</p>
             <p>Die Teilnehmer müssen die unten aufgeführten Kriterien erfüllen, indem sie einen Kommentar zu den geposteten Originalinhalten mit ihren eigenen Geschichten über ein Kleidungsstück, 
               das besondere Erinnerungen an sie weckt, posten. Bitte beachten Sie, dass nur Teilnehmer, die die unten aufgeführten Kriterien vollständig erfüllen, als Gewinner ausgewählt werden können.</p>
-            <p>Aktionszeitraum: Beiträge können vom 13. Oktober bis zum 02. November 2021 eingereicht werden. Alle Beiträge, die außerhalb dieses Zeitraums eingereicht werden, sind von der Teilnahme an dieser Aktion ausgeschlossen.</p>
+            <p>Aktionszeitraum: Beiträge können vom 20. Oktober bis zum 09. November 2021 eingereicht werden. Alle Beiträge, die außerhalb dieses Zeitraums eingereicht werden, sind von der Teilnahme an dieser Aktion ausgeschlossen.</p>
             <p>Teilnahmeberechtigt sind Personen in Deutschland, die mindestens 18 Jahre alt sind. Ein öffentliches Instagram- und/oder Facebook-Konto ist erforderlich. Bitte lesen Sie die vollständigen Teilnahmebedingungen unten.</p>
             <dl>
               <dt>Teilnahmebedingungen:</dt>
               <dd>
                 <p>Die Teilnehmer müssen einen Kommentar mit einer Geschichte über ihre Lieblingskleidung unter dem von LG auf Instagram oder Facebook hochgeladenen Event-Post hinterlassen. </p>
               </dd>
-            </dl>
+            </dl> 
             <dl>
               <dt>Das Posting muss die folgenden Hashtags enthalten:<br>#CareForWhatYouWear #MeineGeliebteKleidung #MyCherishedClothes #LGWaeschepflege #LG</dt>
               <dd>
