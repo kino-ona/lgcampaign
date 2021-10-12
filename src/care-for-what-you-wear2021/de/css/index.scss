@@ -273,7 +273,7 @@
 	.box_navigation .box_nav-position.fixed{position:fixed}
 	.box_navigation .box_navigation-inner{position: relative;max-width: 1284px;margin: 0 auto;z-index: 100;}
 	.box_navigation .list_navigation{display:flex;width:100%}
-	.box_navigation .list_navigation .list-item{width:25%;}
+	.box_navigation .list_navigation .list-item{flex:1}
 	.box_navigation .list_navigation .link{display:block;position:relative;padding: 20px 0;font-weight: 700;text-align: center;white-space: nowrap;color:#6b6b6b}
 	.box_navigation .list_navigation .link:hover{text-decoration:none;color:#000}
 	.box_navigation .list_navigation .list-item.active .link{color:#000}
@@ -1925,7 +1925,10 @@
 			padding-bottom:50%;
 		}
 		@media screen and (max-width:1260px) {
-			padding-bottom:57%;
+			padding-bottom:55%;
+		}
+		@media screen and (min-width:1921px) {
+			padding-bottom:25%;
 		}
 	}
 	.movie-box {

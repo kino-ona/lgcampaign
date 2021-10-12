@@ -63,11 +63,11 @@
 				<meta itemprop="position" content="1" />
 			</li>
 			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-				<a href="/it" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
-				<span itemprop="name">APPLIANCES</span></a>
+				<a href="/it/elettrodomestici" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
+				<span itemprop="name">ELETTRODOMESTICI</span></a>
 				<meta itemprop="position" content="2">
 			</li>
-			<li><strong>Care For What You Wear</strong></li>
+			<li><strong>ELETTRODOMESTICI</strong></li>
 		</ul>
 	</div>
 	<!-- // breadcrumb -->
@@ -624,8 +624,8 @@
 
     <div class="box_row-campaign box_content">
       <div class="rending-button">
-        <p><i></i>Sign up now and make your stories last</p>
-        <a href="https://sso.lg.com/oauth/page/login?authorizeKey=4fb7abd4-3abc-47b9-b481-91995c5393d0" target="_blank" class="btn-link">CLICK HERE</a>
+        <p><i></i>Registrati ora e racconta la tua storia</p>
+        <a href="https://www.lg.com/it/my-lg/login?page=login" target="_blank" class="btn-link">Clicca qui</a>
       </div>
     </div>
 
