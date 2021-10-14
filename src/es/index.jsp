@@ -144,13 +144,13 @@
       <!-- vod background -->
       <div class="vodbg">
         <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/es/electrodomesticos/cuida-tu-ropa-2021/images/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
+          <source src="/es/electrodomesticos/cuida-tu-ropa-2021/images/LGBaby.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/es/electrodomesticos/cuida-tu-ropa-2021/images/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
+          <source src="/es/electrodomesticos/cuida-tu-ropa-2021/images/LGCouple.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/es/electrodomesticos/cuida-tu-ropa-2021/images/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
+          <source src="/es/electrodomesticos/cuida-tu-ropa-2021/images/LGHero.mp4" type="video/mp4" autostart="false">
         </video>
         
         <div class="iframebody YTframe01">
@@ -348,7 +348,7 @@
                 <dl class="_item item01">
                   <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Cuidado delicado con secado a baja temperatura</dt>
                   <dd>
-                    Seca tus prendas delicadas más rápido con la Bomba de Calor Dual Inverter
+                    Sin roces ni golpes, alarga la vida de tus prendas.
                     <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="IRrMuJmIvA8" class="btn_watch">Ver<i></i></a></p>
                   </dd>	
                 </dl>

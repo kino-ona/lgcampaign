@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "mixins";
 
+.box_footer-wrap {margin:0;}
 .box_content-info{padding:30px 24px;margin-left:0;margin-right:0;}
 .box_content-info .box_info-inner{width:auto}
 .box_content-info .box_info-inner .text_emphasis,
@@ -67,8 +68,8 @@
 	}
 }
 .clothing-campaign {
-	margin-left:-15px;
-	margin-right:-15px;
+	// margin-left:-15px;
+	// margin-right:-15px;
 	._pc {
 		display: none;
 	}
@@ -190,7 +191,8 @@
 				bottom:0;
 				padding: 20px 20px 10px 20px;
 				text-align: left;
-				background-position: right 14px top 25px;
+				background-size:20%;
+				background-position: right 40px top 30px;
 				p {
 					font-size: 22px;
 					color: #fff;
