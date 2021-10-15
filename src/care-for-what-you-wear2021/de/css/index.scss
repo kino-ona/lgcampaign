@@ -1500,6 +1500,9 @@
 						border:6px solid red;
 					}
 				}
+				&.is-selected {
+					background-color: #009B30;
+				}
 			}
 			.figure {
 				position:relative;
