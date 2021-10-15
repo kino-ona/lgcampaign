@@ -155,17 +155,17 @@
         
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/OT7_blCcegY?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/XcrANttEFJM?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe02">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/0XgTqmRv3II?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/9BFBWMFjkX0?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe03">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/pUJvxBd8QAE?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/uwR_5JQdmX4?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
@@ -341,7 +341,10 @@
               <div class="figure">
                 <img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/es/lavado-y-secado/lg-s3mfc" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Descubre la gama</a>
+                  <a href="https://www.lg.com/es/lavado-y-secado/lg-s3mfc" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" 
+                    data-content-id="MD07521371" data-model-id="MD07521371" data-super-category-name="electrodomesticos" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler,Washer_Dryer_Combo" 
+                    data-model-name="S3MFC" data-model-salesmodelcode="S3MFC.ALMQKES" data-sku="S3MFC" data-model-suffixcode="ALMQKES" data-bu="HA" data-biztype="B2C" 
+                    data-link-name="buy_now" target="_blank" class="_btn btn_red">Descubre la gama</a>
                 </div>
               </div>
               <div class="desc">

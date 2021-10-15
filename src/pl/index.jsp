@@ -318,6 +318,9 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div class="anchors" id="washer"></div>
+    <div class="anchors" id="dryer"></div>
+    <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Poznaj urządzenia LG do pielęgnacji ubrań</p>
       <p class="row-stit">Sposób, w jaki pielęgnujemy ubrania, bezpośrednio wpływa na środowisko.<br>Innowacje LG w dziedzinie pielęgnowania ubrań zwiększają trwałość odzieży i pomagają ograniczyć ilość odpadów tekstylnych, przyczyniając się do zapewnienia lepszej przyszłości naszej planety.</p>
@@ -785,6 +788,27 @@
         'microsite_name': micrositeName,
       })
     })
+  });
+  $(document).ready(function(){
+    var href = window.location.href;
+    if(href.indexOf('washer') != -1) {
+      $('.clothing_product .list_tab-nav .link').removeClass('active');
+      $('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+    }
+    if(href.indexOf('dryer') != -1) {
+      $('.clothing_product .list_tab-nav .link').removeClass('active');
+      $('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+    }
+    if(href.indexOf('styler') != -1) {
+      $('.clothing_product .list_tab-nav .link').removeClass('active');
+      $('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+    }
   });
 </script>
 <script type="text/javascript" src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/js/clothing_campaign.js"></script>

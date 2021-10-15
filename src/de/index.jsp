@@ -381,6 +381,8 @@
                 <img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/product_thumn01.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
                   <a href="https://www.lg.com/de/waschmaschinen/lg-f4wv912p2" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>buy-now" 
+                    data-model-id="MD07520425" data-super-category-name="haushaltsgeraete" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" 
+                    data-model-year="2021" data-model-name="F4WV912P2" data-model-salesmodelcode="F4WV912P2.ABWQPDG" data-sku="F4WV912P2" data-model-suffixcode="ABWQPDG" data-bu="HA" data-biztype="B2C"
                     data-link-name="buy_now" target="_blank" class="_btn btn_red">JETZT KAUFEN</a>
                 </div>
               </div>
@@ -421,7 +423,10 @@
               <div class="figure">
                 <img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/de/trockner/lg-RT8DIH1Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">JETZT KAUFEN</a>
+                  <a href="https://www.lg.com/de/trockner/lg-RT8DIH1Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" 
+                    data-model-id="MD06163476" data-super-category-name="haushaltsgeraete" data-category-name="Dryer" data-sub-category-name="" data-model-year="2021" 
+                    data-model-name="RT8DIH1Q" data-model-salesmodelcode="RT8DIH1Q.ABWQKDG" data-sku="RT8DIH1Q" data-model-suffixcode="ABWQKDG" data-bu="HA"  data-biztype="B2C"
+                    target="_blank" class="_btn btn_red">JETZT KAUFEN</a>
                 </div>
               </div>
               <div class="desc">
@@ -459,7 +464,9 @@
               <div class="figure">
                 <img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/de/styler/lg-S3BF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">JETZT KAUFEN</a>
+                  <a href="https://www.lg.com/de/styler/lg-S3BF" adobe-click="clothing-care-campaign-main-styler" 
+                  data-model-id="MD06055056" data-super-category-name="haushaltsgeraete" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-year="2018" data-model-name="S3BF" 
+                  adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-biztype="B2C" target="_blank" class="_btn btn_red">JETZT KAUFEN</a>
                 </div>
               </div>
               <div class="desc">

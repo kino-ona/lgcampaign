@@ -370,6 +370,9 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div class="anchors" id="washer"></div>
+    <div class="anchors" id="dryer"></div>
+    <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
       <p class="row-stit">How we care for our clothes directly impacts the environment.<br>LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
@@ -953,6 +956,29 @@
         })
       })
     });
+    
+    $(document).ready(function(){
+      var href = window.location.href;
+      if(href.indexOf('washer') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+      }
+      if(href.indexOf('dryer') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+      }
+      if(href.indexOf('styler') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+      }
+    });
+
   </script>
   <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>
 </body>
