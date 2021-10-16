@@ -75,7 +75,7 @@
   <!-- Enter Code Here -->
   <div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
     <div id="btn_float-goto" class="box_main-title">
-      <h2 class="text_title">#CareForWhatYouWear</h2>
+      <h2 class="text_title">#PrenditiCuradeiTuoiCapi</h2>
       <p class="text_sub">Possiedi un capo di abbigliamento che racchiude un pezzo della tua vita?<br>Guarda alcune delle affascinanti storie racchiuse nei nostri vestiti nel video qui sotto.</p>
     </div>
 
@@ -161,10 +161,10 @@
       <div class="box_nav-position">
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
-            <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUCTION</a></li>
-            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
-            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">SUSTAINABLE CLOTHING TIPS</a></li>
-            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
+            <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUZIONE</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">I MIEI ADORATI VESTITI</a></li>
+            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">PER VESTIRE SOSTENIBILE</a></li>
+            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">CARATTERISTICHE DEL PRODOTTO</a></li>
           </ul>
         </div>
       </div>

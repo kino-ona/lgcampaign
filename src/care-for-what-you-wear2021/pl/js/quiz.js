@@ -7370,7 +7370,7 @@ var campaign_quiz = (function () {
         div0 = element("div");
         img = element("img");
         attr_dev(img, "alt", "");
-        if (!src_url_equal(img.src, img_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q" + ('0' + (
+        if (!src_url_equal(img.src, img_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q" + ('0' + (
         /*currentQuiz*/
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
@@ -7389,7 +7389,7 @@ var campaign_quiz = (function () {
       p: function update(ctx, dirty) {
         if (!current || dirty &
         /*currentQuiz*/
-        4 && !src_url_equal(img.src, img_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q" + ('0' + (
+        4 && !src_url_equal(img.src, img_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q" + ('0' + (
         /*currentQuiz*/
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
@@ -7916,14 +7916,14 @@ var campaign_quiz = (function () {
         add_location(button1, file, 116, 6, 3118);
         attr_dev(div3, "class", "layer_close");
         add_location(div3, file, 115, 4, 3086);
-        if (!src_url_equal(img0.src, img0_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
+        if (!src_url_equal(img0.src, img0_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
         attr_dev(img0, "alt", img0_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
         add_location(img0, file, 120, 24, 3292);
         attr_dev(h40, "class", "_pc");
         add_location(h40, file, 120, 8, 3276);
-        if (!src_url_equal(img1.src, img1_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/mq_slogan.png")) attr_dev(img1, "src", img1_src_value);
+        if (!src_url_equal(img1.src, img1_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/mq_slogan.png")) attr_dev(img1, "src", img1_src_value);
         attr_dev(img1, "alt", img1_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
@@ -7932,7 +7932,7 @@ var campaign_quiz = (function () {
         add_location(h41, file, 121, 8, 3401);
         attr_dev(p1, "class", "q_tips");
         add_location(p1, file, 122, 8, 3527);
-        if (!src_url_equal(img2.src, img2_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_option4u-" +
+        if (!src_url_equal(img2.src, img2_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
@@ -7948,7 +7948,7 @@ var campaign_quiz = (function () {
         add_location(span1, file, 126, 12, 3845);
         attr_dev(p2, "class", "figure");
         add_location(p2, file, 124, 10, 3623);
-        if (!src_url_equal(img3.src, img3_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
+        if (!src_url_equal(img3.src, img3_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
         add_location(img3, file, 129, 30, 3998);
         attr_dev(p3, "class", "slogan");
         add_location(p3, file, 129, 12, 3980);
@@ -7990,16 +7990,16 @@ var campaign_quiz = (function () {
         add_location(button2, file, 146, 6, 4910);
         attr_dev(div11, "class", "layer_close");
         add_location(div11, file, 145, 4, 4878);
-        if (!src_url_equal(img4.src, img4_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
+        if (!src_url_equal(img4.src, img4_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
         add_location(img4, file, 151, 10, 5101);
         attr_dev(div12, "class", "figure");
         add_location(div12, file, 150, 8, 5070);
-        if (!src_url_equal(img5.src, img5_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
+        if (!src_url_equal(img5.src, img5_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
         attr_dev(img5, "alt", "Congratulations on becoming a master of clothing care tips!");
         add_location(img5, file, 154, 25, 5235);
         attr_dev(p5, "class", "_pc");
         add_location(p5, file, 154, 10, 5220);
-        if (!src_url_equal(img6.src, img6_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
+        if (!src_url_equal(img6.src, img6_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
         attr_dev(img6, "alt", "Congratulations on becoming a master of clothing care tips!");
         add_location(img6, file, 155, 25, 5400);
         attr_dev(p6, "class", "_mo");
@@ -8258,7 +8258,7 @@ var campaign_quiz = (function () {
 
         if (!current || dirty &
         /*quizData, currentQuiz*/
-        5 && !src_url_equal(img2.src, img2_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_option4u-" +
+        5 && !src_url_equal(img2.src, img2_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
