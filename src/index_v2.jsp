@@ -163,9 +163,9 @@
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
             <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUCTION</a></li>
-            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
             <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">SUSTAINABLE CLOTHING TIPS</a></li>
-            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
+            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
+            <li class="list-item"><a href="#box_content5" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
           </ul>
         </div>
       </div>
@@ -218,84 +218,51 @@
     </div>
     <!--// clothing_story -->
 
-    <div id="box_content2" class="clothing_howto box_content">
-      <div class="box_row-campaign">
-        <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favourite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
-        <div class="howto">
-          <div class="half-left">
-            <div class="figure">
-              <p class="tag"><img src="/uk/appliances/care-for-what-you-wear-2021/images/goods_tag.png" alt="My Cherished Clothes"></p>
-              <img src="/uk/appliances/care-for-what-you-wear-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
-              <p class="txt">Share your story to win<br>LG clothing care appliance!</p>		
-            </div>
-            <div class="cta">
-              <p>Find out how below</p>
-              <div class="sns_link">
-                <a href="https://www.facebook.com/LGUK/posts/4631671183539363" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://www.instagram.com/p/CUcbOXPs3EZ/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="half-right">
-            <ul class="pola_list">
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01.jpg" alt="The 'lucky catch' shirt on our fishing trip"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid02.jpg" alt="Jacket high school crush said I looked cute in"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid03.jpg" alt="Hand tailored suit from our trip to Italy"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04.jpg" alt="Dad's back when he used to write graffiti"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Still wearing our favourite date outfits since 1988"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum's favourite Dino top she used to wear 32 years ago"></li>
-            </ul>
-            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Terms &amp; Conditions<i></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// clothing_howto -->
-
     <div id="influencer"></div>
-    <div class="clothing_sustain box_row-campaign">
-      <p class="row-tit">Inside a Sustainable Clothing Life</p>
-      <p class="row-stit">Hear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
-      <div class="box_content-tab">
-        <ul class="list_tab-nav scroll-fade" role="tablist">
-          <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
-              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
-              adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Patricia Bright</a></li>
-          <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
-              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
-              adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Perri Edwards</a></li>
-          <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
-            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
-            adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Josie London</a></li>
-        </ul>
-
-        <div class="box_tab-view">
-          <div class="box_view-detail"> 
-            <div id="influencer01" class="box_view-item box_view-item1 active">
-              <div class="influencer influencer-01">
-                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Patricia Bright Wears"></div>
-                <div class="desc">
-                  <p>Reminiscing my trip to LA</p>
-                  <span>I remember wearing this on my second trip to LA when I was ready to make some moves. It's amazing to have items in your closet that bring back memories and make you smile (or cry).</span>
+    <div id="box_content2" class="clothing_sustain box_row-campaign">
+      <div class="inner-box">
+        <p class="row-tit">Inside a Sustainable Clothing Life</p>
+        <p class="row-stit">Hear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
+        <div class="box_content-tab">
+          <ul class="list_tab-nav scroll-fade" role="tablist">
+            <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
+                adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
+                adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Patricia Bright</a></li>
+            <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
+                adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
+                adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Perri Edwards</a></li>
+            <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
+              adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Josie London</a></li>
+          </ul>
+  
+          <div class="box_tab-view">
+            <div class="box_view-detail"> 
+              <div id="influencer01" class="box_view-item box_view-item1 active">
+                <div class="influencer influencer-01">
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Patricia Bright Wears"></div>
+                  <div class="desc">
+                    <p>Reminiscing my trip to LA</p>
+                    <span>I remember wearing this on my second trip to LA when I was ready to make some moves. It's amazing to have items in your closet that bring back memories and make you smile (or cry).</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div id="influencer02" class="box_view-item box_view-item2">
-              <div class="influencer influencer-02">
-                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Perri Edwards Wears"></div>
-                <div class="desc">
-                  <p>Fashion comes and goes, but style is forever</p>
-                  <span>4 years on and my striped trousers are still going strong. I feel it’s vital to have a conscious clothing lifestyle whether that means passing down your old favs or making them a new fav, buying clothes harmless to the environment, washing your clothes at the correct temperature.</span>
+              <div id="influencer02" class="box_view-item box_view-item2">
+                <div class="influencer influencer-02">
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Perri Edwards Wears"></div>
+                  <div class="desc">
+                    <p>Fashion comes and goes, but style is forever</p>
+                    <span>4 years on and my striped trousers are still going strong. I feel it’s vital to have a conscious clothing lifestyle whether that means passing down your old favs or making them a new fav, buying clothes harmless to the environment, washing your clothes at the correct temperature.</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div id="influencer03" class="box_view-item box_view-item3">
-              <div class="influencer influencer-03">
-                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Josie London Wears"></div>
-                <div class="desc">
-                  <p>My All Time Favourite</p>
-                  <span>The same outfit, more than 3 years apart - these pieces are still favourites of mine and I’ve always taken great care to look after my favourite garments</span>
+              <div id="influencer03" class="box_view-item box_view-item3">
+                <div class="influencer influencer-03">
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Josie London Wears"></div>
+                  <div class="desc">
+                    <p>My All Time Favourite</p>
+                    <span>The same outfit, more than 3 years apart - these pieces are still favourites of mine and I’ve always taken great care to look after my favourite garments</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -339,7 +306,17 @@
           </div>
         </div>
 
-        <div id="quiz" class="quiz_wrap"></div>
+        <div id="quiz" class="quiz_wrap">
+          <div class="quiz_start">
+            <div>
+              <p><img src="/uk/appliances/care-for-what-you-wear-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
+              <a href="#" onclick="quizStart();return false;" class="btn_start">START</a>
+            </div>
+          </div>
+          <div class="quiz_end">
+            <p><img src="/uk/appliances/care-for-what-you-wear-2021/images/quiz/qend_txt.png" alt="You have completed the quiz!"></p>
+          </div>
+        </div>
         <script>
           const quizData = [
             {
@@ -421,10 +398,37 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div id="box_content4" class="clothing_howto box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">My Cherished Clothes</p>
+        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favourite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
+        <div class="howto">
+          <div class="pola_wrap">
+            <ul class="pola_list">
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01v2.png" alt="Hand tailored suit from our trip to Italy"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid02v2.png" alt="@"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid03v2.png" alt="Dad’s back when he used to write graffiti"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04v2.png" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05v2.png" alt="@"></li>
+              <li class="last-child"><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+            </ul>
+            <ul class="pola_list line_2">
+              <li class="first-child"><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid07v2.png" alt="Jacket high school crush said I looked cute in"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid08v2.png" alt="@"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
+            </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Terms &amp; Conditions<i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_howto -->
+
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="dryer"></div>
     <div class="anchors" id="styler"></div>
-    <div id="box_content4" class="clothing_product box_row-campaign box_content">
+    <div id="box_content5" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
       <p class="row-stit">How we care for our clothes directly impacts the environment.<br>LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
       <div class="box_content-tab">
@@ -1028,7 +1032,14 @@
         $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
         $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
       }
+
+      $('.quiz_wrap').find('.item').on('click', function(){
+        $('.q_items').find('.is-wrong').removeClass('is-wrong')
+      });
     });
+    function quizStart() {
+      $('.quiz_start').css('display', 'none')
+    }
 
   </script>
   <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>

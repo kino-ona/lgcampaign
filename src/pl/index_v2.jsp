@@ -218,46 +218,11 @@
     </div>
     <!--// clothing_story -->
 
-    <div id="box_content2" class="clothing_howto box_content">
-      <div class="box_row-campaign">
-        <p class="row-tit">Ubrania, które wiele dla mnie znaczą</p>
-        <p class="row-stit">Jakie piękne wspomnienia kryją się w Twojej szafie?<br>Podziel się ulubionymi wspomnieniami, które wiążą się z ubraniem, i poznaj wspaniałe historie udostępnione przez inne osoby.</p>
-        <div class="howto">
-          <div class="half-left">
-            <div class="figure">
-              <p class="tag"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/goods_tag.png" alt="Ubrania, które wiele dla mnie znaczą"></p>
-              <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
-              <p class="txt">Podziel się swoją historią, aby wygrać urządzenie LG do pielęgnacji ubrań!</p>		
-            </div>
-            <div class="cta">
-              <p>Szczegółowe informacje o promocji zamieszczono poniżej</p>
-              <div class="sns_link">
-                <a href="https://www.facebook.com/LGPolska/photos/p.4323489764371510/4323489764371510/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://www.instagram.com/p/CUXmXv0LtjP/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="half-right">
-            <ul class="pola_list">
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid01.jpg" alt="Koszula „udanego wędkowania” z naszych wypraw na ryby"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid02.jpg" alt="Mój chłopak z liceum mówił, że fajnie wyglądam w tej kurtce"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid03.jpg" alt="Ręcznie szyty garnitur z naszej wycieczki do Włoch"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid04.jpg" alt="Tata powrócił do czasów, gdy malował graffiti"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid05.jpg" alt="Nadal nosimy ulubione ubrania na randki z roku 1988"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid06.jpg" alt="Ulubiona bluzka mamy z dinozaurem, którą nosiła 32 lata temu"></li>
-            </ul>
-            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Regulamin promocji<i></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// clothing_howto -->
-
-    <div id="box_content3" class="clothing_quiz box_content">
+    <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
         <p class="row-stit">Wondering how to take care of your clothes better? Here’s how to better care for your cherished clothes.</p>
-
+    
         <div class="howto_enter">
           <div class="desc">
             Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
@@ -286,8 +251,18 @@
             </dl>
           </div>
         </div>
-
-        <div id="quiz" class="quiz_wrap"></div>
+    
+        <div id="quiz" class="quiz_wrap">
+          <div class="quiz_start">
+            <div>
+              <p><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
+              <a href="#" onclick="quizStart();return false;" class="btn_start">START</a>
+            </div>
+          </div>
+          <div class="quiz_end">
+            <p><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qend_txt.png" alt="You have completed the quiz!"></p>
+          </div>
+        </div>
         <script>
           const quizData = [
             {
@@ -364,10 +339,37 @@
               placeholderEmail: 'Enter your E-mail'
           }
         </script>
-					<p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" >Regulamin promocji</a></p>
+          <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" >Regulamin promocji</a></p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
+
+    <div id="box_content3" class="clothing_howto box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">Ubrania, które wiele dla mnie znaczą</p>
+        <p class="row-stit">Jakie piękne wspomnienia kryją się w Twojej szafie?<br>Podziel się ulubionymi wspomnieniami, które wiążą się z ubraniem, i poznaj wspaniałe historie udostępnione przez inne osoby.</p>
+        <div class="howto">
+          <div class="pola_wrap">
+            <ul class="pola_list">
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid01v2.png" alt="Hand tailored suit from our trip to Italy"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid02v2.png" alt="@"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid03v2.png" alt="Dad’s back when he used to write graffiti"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid04v2.png" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid05v2.png" alt="@"></li>
+              <li class="last-child"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+            </ul>
+            <ul class="pola_list line_2">
+              <li class="first-child"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid07v2.png" alt="Jacket high school crush said I looked cute in"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid08v2.png" alt="@"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
+            </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Regulamin promocji<i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_howto -->
 
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="dryer"></div>
@@ -860,7 +862,13 @@
       $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
       $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
     }
+    $('.quiz_wrap').find('.item').on('click', function(){
+      $('.q_items').find('.is-wrong').removeClass('is-wrong')
+    });
   });
+  function quizStart() {
+    $('.quiz_start').css('display', 'none')
+  }
 </script>
 <script type="text/javascript" src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/js/clothing_campaign.js"></script>
 <script type="text/javascript" src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/js/quiz.js"></script>

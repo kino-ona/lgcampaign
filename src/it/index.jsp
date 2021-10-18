@@ -322,6 +322,9 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div class="anchors" id="washer"></div>
+    <div class="anchors" id="drayer"></div>
+    <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Scopri gli elettrodomestici LG Clothing Care Solution</p>
       <p class="row-stit">Il modo in cui ci prendiamo cura dei nostri vestiti ha un impatto diretto sull'ambiente.<br>L'innovativa tecnologia LG per la cura dell'abbigliamento aiuta i tuoi vestiti a durare più a lungo, contribuendo a ridurre gli sprechi per un futuro migliore.</p>
@@ -820,52 +823,71 @@
   </div>
 
   <script>
-  // adobe launch - data layer
-  _dl =
-  {
-    "page_name" : {
-      "bu" : "ha",
-      "super_category" : "elettrodomestici",
-      "category" : "prenditi-curadei-tuoi-capi",
-      "sub_category" : "",
-      "page_purpose" : "microsite", // Fixed value microsite
-      "product_year" : "",
-      "model_id" : "", // model, review page
-      "bundle_name" : "", // bundle promotion
-      "promotion_name" : "",  // promotion detail page
-      "microsite_name": "main"
-    },
-    "country_code" : "it",
-    "language_code" : "it",
-    "page_category_l1" : "it:ha",
-    "page_category_l2" : "it:ha:elettrodomestici",
-    "page_category_l3" : "it:ha:elettrodomestici:prenditi-curadei-tuoi-capi",
-    "page_category_l4" : "",
-    "promotion_name" : "",
-    "products" : "",
-    "page_event" : null
-  };
+    // adobe launch - data layer
+    _dl =
+    {
+      "page_name" : {
+        "bu" : "ha",
+        "super_category" : "elettrodomestici",
+        "category" : "prenditi-curadei-tuoi-capi",
+        "sub_category" : "",
+        "page_purpose" : "microsite", // Fixed value microsite
+        "product_year" : "",
+        "model_id" : "", // model, review page
+        "bundle_name" : "", // bundle promotion
+        "promotion_name" : "",  // promotion detail page
+        "microsite_name": "main"
+      },
+      "country_code" : "it",
+      "language_code" : "it",
+      "page_category_l1" : "it:ha",
+      "page_category_l2" : "it:ha:elettrodomestici",
+      "page_category_l3" : "it:ha:elettrodomestici:prenditi-curadei-tuoi-capi",
+      "page_category_l4" : "",
+      "promotion_name" : "",
+      "products" : "",
+      "page_event" : null
+    };
 
-  // gtm
-  var standardData = {};
-  standardData = {
-    "siteType" : "B2C",
-    "pageType" : "SUPER CATEGORY",
-    "pdpStatus" : "",
-    "level1" : "HA",
-    "level2" : "",
-    "level3" : ""
-  };
+    // gtm
+    var standardData = {};
+    standardData = {
+      "siteType" : "B2C",
+      "pageType" : "SUPER CATEGORY",
+      "pdpStatus" : "",
+      "level1" : "HA",
+      "level2" : "",
+      "level3" : ""
+    };
 
-  var dataLayer = window.dataLayer || [];
-  dataLayer.push({
-    'event': 'dataLayer',
-    'dataLayer' : _dl,
-    'standardData' : standardData
-  });
-</script>
-
-
+    var dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      'event': 'dataLayer',
+      'dataLayer' : _dl,
+      'standardData' : standardData
+    });
+    $(document).ready(function(){
+      var href = window.location.href;
+      if(href.indexOf('washer') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+      }
+      if(href.indexOf('dryer') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+      }
+      if(href.indexOf('styler') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+      }
+    });
+  </script>
 
   <!-- default code -->
   <jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />

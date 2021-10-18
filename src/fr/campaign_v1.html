@@ -427,7 +427,10 @@
 				</div>
 			</div>
 			<!-- clothing_tip(quiz) -->
-	
+			
+			<div class="anchors" id="washer"></div>
+			<div class="anchors" id="drayer"></div>
+			<div class="anchors" id="styler"></div>
 			<div id="box_content4" class="clothing_product box_row-campaign box_content">
 				<p class="row-tit">Découvrez les appareils LG de solution d'entretien des vêtements</p>
 				<p class="row-stit">Le soin du linge innovant LG contribue à préserver vos vêtements plus longtemps.</p>
@@ -830,6 +833,28 @@
 				'event': 'dataLayer',
 				'dataLayer': _dl,
 				'standardData': standardData
+			});
+			
+			$(document).ready(function(){
+				var href = window.location.href;
+				if(href.indexOf('washer') != -1) {
+					$('.clothing_product .list_tab-nav .link').removeClass('active');
+					$('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+				}
+				if(href.indexOf('dryer') != -1) {
+					$('.clothing_product .list_tab-nav .link').removeClass('active');
+					$('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+				}
+				if(href.indexOf('styler') != -1) {
+					$('.clothing_product .list_tab-nav .link').removeClass('active');
+					$('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+				}
 			});
 		</script>
 

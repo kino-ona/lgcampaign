@@ -775,6 +775,14 @@
 					$('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
 				}
 			});
+      $(document).ready(function(){
+				$('.quiz_wrap').find('.item').on('click', function(){
+					$('.q_items').find('.is-wrong').removeClass('is-wrong')
+				});
+			});
+			function quizStart() {
+				$('.quiz_start').css('display', 'none')
+			}
 		</script>
 
 		<!--[if IE 9]>

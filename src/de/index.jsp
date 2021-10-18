@@ -360,6 +360,9 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div class="anchors" id="washer"></div>
+    <div class="anchors" id="drayer"></div>
+    <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Lernen Sie die LG Wäschepflege-Produkte kennen</p>
       <p class="row-stit">Wie wir unsere Kleidung pflegen, hat direkte Auswirkungen auf die Umwelt. 
@@ -731,19 +734,41 @@
     })
   });
   $('.promotion_banner').find('.btn-buynow').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        var modelName='';
-        eventName = 'buy_now_click';
-        micrositeName = 'care-for-what-you-wear';
-        dataLayer.push({
-          'event' : eventName,
-          'modelName' : $(this).attr('data-model-id'),
-          'modelCode' : $(this).attr('data-model-id'),
-          'microsite_name': micrositeName,
-        })
+    $(this).on('click', function() {
+      var _this=$(this);
+      var modelName='';
+      eventName = 'buy_now_click';
+      micrositeName = 'care-for-what-you-wear';
+      dataLayer.push({
+        'event' : eventName,
+        'modelName' : $(this).attr('data-model-id'),
+        'modelCode' : $(this).attr('data-model-id'),
+        'microsite_name': micrositeName,
       })
-    });
+    })
+  });
+
+  $(document).ready(function(){
+    var href = window.location.href;
+    if(href.indexOf('washer') != -1) {
+      $('.clothing_product .list_tab-nav .link').removeClass('active');
+      $('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+    }
+    if(href.indexOf('dryer') != -1) {
+      $('.clothing_product .list_tab-nav .link').removeClass('active');
+      $('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+    }
+    if(href.indexOf('styler') != -1) {
+      $('.clothing_product .list_tab-nav .link').removeClass('active');
+      $('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+      $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+    }
+  });
 </script>
 <script type="text/javascript" src="/de/haushaltsgeraete/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>
 </body>

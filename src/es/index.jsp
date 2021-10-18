@@ -248,6 +248,9 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div class="anchors" id="washer"></div>
+    <div class="anchors" id="drayer"></div>
+    <div class="anchors" id="styler"></div>
     <div id="box_content2" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">LG tiene la solución para el cuidado de tus prendas.</p>
       <p class="row-stit">La forma en que cuidamos nuestra ropa tiene un impacto directo en el medio ambiente.
@@ -573,6 +576,28 @@
           'microsite_name': micrositeName,
         })
       })
+    });
+
+    $(document).ready(function(){
+      var href = window.location.href;
+      if(href.indexOf('washer') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+      }
+      if(href.indexOf('dryer') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+      }
+      if(href.indexOf('styler') != -1) {
+        $('.clothing_product .list_tab-nav .link').removeClass('active');
+        $('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+        $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+      }
     });
   </script>
   <script type="text/javascript" src="/es/electrodomesticos/cuida-tu-ropa-2021/js/clothing_campaign.js"></script>
