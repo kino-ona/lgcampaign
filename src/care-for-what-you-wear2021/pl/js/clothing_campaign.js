@@ -244,6 +244,15 @@ $(document).ready(function(){
 });
 /* responsive e */
 
+function facebookSubmit(set) {
+	var thisurl = 'https://www.lg.com//pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/visual_bgcut03.jpg';
+	var quote = 'https://www.lg.com//pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021#quiz';
+	
+	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
+		var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
+		window.open(popUrl,"",popOption);
+}
+
 /** Overlay Popup
 ****************************************/
 var isOpen = false;

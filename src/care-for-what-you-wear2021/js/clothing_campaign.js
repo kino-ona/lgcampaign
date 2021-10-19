@@ -239,8 +239,8 @@ $(document).ready(function(){
 /* responsive e */
 
 function facebookSubmit(set) {
-	var thisurl = 'https://www.lg.com/uk/appliances/care-for-what-you-wear/images/lg-home-appliances-care-for-what-your-wear-brand-film-w.jpg';
-	var quote = 'https://www.lg.com/uk/appliances/care-for-what-you-wear';
+	var thisurl = 'https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/visual_bgcut03.jpg';
+	var quote = 'https://www.lg.com/uk/appliances/care-for-what-you-wear-2021#quiz';
 	
 	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
 		var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";

@@ -272,26 +272,26 @@
     </div>
     <!--// clothing_sustain -->
 
+    <div id="quiz"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
         <p class="row-stit">Wondering how to take care of your clothes better? Here’s how to better care for your cherished clothes.</p>
 
         <div class="howto_enter">
-          <div class="desc">
-            Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
-          </div>
           <div class="detail">
             <dl>
               <dt>How to enter</dt>
               <dd>
                 <p>Take the quiz! There are 10 questions in total.</p>
-                <p>If you get the questions correct, you can move on to the next question.<br>
-                  If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
+                <p>If you get the questions correct, you can move on to the next question. If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
                 <p>Don’t forget! If you share the quiz, you will get a chance to win your own clothing care appliance.</p>
                 <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips</span></p>
+                <span>* The outcome of your event participation will not be affected by your quiz results.</span>
               </dd>
             </dl>
+          </div>
+          <div class="detail _box2">
             <dl>
               <dt>Participation period</dt>
               <dd>
@@ -299,16 +299,20 @@
               </dd>
             </dl>
             <dl>
-              <dt>Winner <br>announcement</dt>
+              <dt>Winner announcement</dt>
               <dd>
                 <p>One lucky winner will be selected by random on 17-Nov 2021.</p>
                 <p>Keep an eye out for a DM coming your way.</p>
               </dd>
             </dl>
           </div>
+
+          <div class="desc">
+            <i></i>Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
+          </div>
         </div>
 
-        <div id="quiz" class="quiz_wrap">
+        <div id="quizWrap" class="quiz_wrap">
           <div class="quiz_start">
             <div>
               <p><img src="/uk/appliances/care-for-what-you-wear-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>

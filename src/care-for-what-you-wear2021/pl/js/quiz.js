@@ -7886,7 +7886,7 @@ var campaign_quiz = (function () {
         img6 = element("img");
         t35 = space();
         p7 = element("p");
-        p7.textContent = "All you need now is LG Clothing Care appliances to practice the tips. \n            Simply share this quiz on your Facebook or Twitter for a chance to win yours!";
+        p7.textContent = "Teraz potrzebujesz jeszcze tylko pralko-suszarkii LG, \n            by sprawdzić te sposoby w praktyce.";
         t37 = space();
         div13 = element("div");
         a4 = element("a");
@@ -7963,7 +7963,7 @@ var campaign_quiz = (function () {
         attr_dev(a1, "class", "_btn btn_facebook");
         add_location(a1, file, 135, 10, 4271);
         add_location(i1, file, 136, 246, 4594);
-        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear");
+        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021#quiz");
         attr_dev(a2, "target", "_blank");
         attr_dev(a2, "class", "_btn btn_twt");
         add_location(a2, file, 136, 10, 4358);
@@ -8011,7 +8011,7 @@ var campaign_quiz = (function () {
         attr_dev(a4, "class", "_btn btn_facebook ");
         add_location(a4, file, 160, 12, 5841);
         add_location(i3, file, 161, 248, 6167);
-        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear");
+        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021#quiz");
         attr_dev(a5, "target", "_blank");
         attr_dev(a5, "class", "_btn btn_twt");
         add_location(a5, file, 161, 12, 5931);
@@ -8406,6 +8406,13 @@ var campaign_quiz = (function () {
 
     function previous() {
       $$invalidate(2, currentQuiz = Math.max(0, currentQuiz - 1));
+      var delay = setTimeout(function(){
+        $('.q_items').find('.is-selected').removeClass('is-selected')
+        // $('.q_items').find('.is-wrong').removeClass('is-wrong')
+        // $('.q_items').find('.is-correct').removeClass('is-correct');
+        
+        clearTimeout(delay);
+      }, 300);
     }
 
     function next() {
@@ -8416,7 +8423,13 @@ var campaign_quiz = (function () {
 
       if ((correct[currentQuiz] - 1).toString() === selected[currentQuiz].toString()) {
         if (currentQuiz < quizData.length - 1) {
-          $$invalidate(2, currentQuiz++, currentQuiz);
+          $('.q_items').find('.is-selected').addClass('is-correct')
+          var delay = setTimeout(function(){
+            $$invalidate(2, currentQuiz++, currentQuiz);
+            $('.q_items').find('.is-correct').removeClass('is-correct');
+            
+            clearTimeout(delay);
+          }, 600);
         } else {
           showMaster();
         }
@@ -8426,12 +8439,20 @@ var campaign_quiz = (function () {
     }
 
     function showTips() {
-      $$invalidate(4, tipsVisible = true);
+      $('.q_items').find('.is-correct').removeClass('is-correct');
       $('.q_items').find('.is-selected').addClass('is-wrong')
+      var delay = setTimeout(function(){
+        $$invalidate(4, tipsVisible = true);
+        
+        clearTimeout(delay);
+      }, 600);
     }
 
     function hideTips() {
       $$invalidate(4, tipsVisible = false);
+      $('.q_items').find('.is-selected').removeClass('is-selected');
+      $('.q_items').find('.is-wrong').removeClass('is-wrong');
+      $('.q_items').find('.is-correct').removeClass('is-correct');
     }
 
     function showMaster() {
@@ -8444,9 +8465,15 @@ var campaign_quiz = (function () {
     }
 
     function refresh() {
+      $('.quiz_start').css('display', 'flex');
       $$invalidate(2, currentQuiz = 0);
-      $('.q_items').find('.is-selected').removeClass('is-selected')
-      $('.q_items').find('.is-wrong').removeClass('is-wrong')
+      var delay = setTimeout(function(){
+        $('.q_items').find('.is-correct').removeClass('is-correct');
+        $('.q_items').find('.is-selected').removeClass('is-selected');
+        $('.q_items').find('.is-wrong').removeClass('is-wrong');
+        
+        clearTimeout(delay);
+      }, 300);
     }
 
     var writable_props = ['quizData', 'messageData'];
@@ -8566,7 +8593,7 @@ var campaign_quiz = (function () {
   }(SvelteComponentDev);
 
   var clothing_quiz = new App({
-    target: document.getElementById("quiz"),
+    target: document.getElementById("quizWrap"),
     hydratable: true,
     props: {
       quizData: quizData,

@@ -218,15 +218,13 @@
     </div>
     <!--// clothing_story -->
 
+    <div id="quiz"></div>
     <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
-        <p class="row-stit">Wondering how to take care of your clothes better? Here’s how to better care for your cherished clothes.</p>
+        <p class="row-stit">Chcesz poznać więcej sposobów na lepsze dbanie o odzież? Here’s how to better care for your cherished clothes.</p>
     
         <div class="howto_enter">
-          <div class="desc">
-            Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
-          </div>
           <div class="detail">
             <dl>
               <dt>Sposób uczestnictwa</dt>
@@ -239,6 +237,8 @@
                 <p>Wyniki uzyskane w quizie nie wpływają na udział w wydarzeniu.</p>
               </dd>
             </dl>
+          </div>
+          <div class="detail _box2">
             <dl>
               <dt>Okres promocji</dt>
               <dd>
@@ -246,16 +246,20 @@
               </dd>
             </dl>
             <dl>
-              <dt>Ogłoszenie <br>zwycięzcy</dt>
+              <dt>Ogłoszenie zwycięzcy</dt>
               <dd>
                 <p>zwycięzców zostanie wyłonionych do  30 listopada 2021 r.</p>
                 <p>Czekaj na wiadomość prywatną.</p>
               </dd>
             </dl>
           </div>
+
+          <div class="desc">
+            <i></i>Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
+          </div>
         </div>
     
-        <div id="quiz" class="quiz_wrap">
+        <div id="quizWrap" class="quiz_wrap">
           <div class="quiz_start">
             <div>
               <p><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
@@ -330,8 +334,8 @@
               feedback:'Opatentowane wieszaki poruszają się na boki 200 razy na minutę, dzięki czemu para wygładza zagniecenia. Zagniecenia z ubrań możesz usunąć w dowolnej chwili.'}
           ]
           const messageData = {
-              backButton: 'Back',
-              nextButton: 'Next',
+              backButton: 'POPRZEDNIE PYTANIE',
+              nextButton: 'NASTĘPNE PYTANIE',
               unselect: 'Please select an answer!',
               tipsTitle: 'Become a master of clothing care tips!',
               another: 'Another option for you',

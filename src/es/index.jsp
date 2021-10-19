@@ -409,7 +409,10 @@
             data-model-year="2020" data-model-name="F2WV3S85S3W" data-model-salesmodelcode="F2WV3S85S3W.ABWQPES'" class="btn-buynow">Comprar ahora</a>
           </div>
           <div class="items">
-            <span class="tagg"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/ico_label-b.png" alt="Eficiencia Energética del producto Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca"></span>
+            <span class="tagg">
+              <img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/ico_label-b.png" alt="Eficiencia Energética del producto Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca">
+              <img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/ico_label-e.png" alt="Eficiencia Energética del producto Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca">
+            </span>
             <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item03.jpg" alt="Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca"></p>
             <p class="model_name">
               Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca

@@ -1258,36 +1258,51 @@
 			}
 		}
 		.howto_enter {
-			display: flex;
+			// display: flex;
 			position:relative;
 			padding-left:50px;
 			padding-right:50px;
 			margin-top:45px;
 			margin-bottom:40px;
-			align-items: center;
+			align-items: flex-start;
+			
 			&:after {
 				@extend %clearer;
 			}
 			.detail {
-				width:65%;
+				// width:50%;
+				float:left;
+				width:57%;
+				padding-right:100px;
+				&._box2 {
+					width:43%;
+					padding-right:0;
+				}
 				> dl {
-					display: flex;
+					// display: flex;
 					margin-bottom:20px;
 				}
 				dt {
-					flex:.25;
+					// flex:.25;
+					margin-bottom:10px;
 					font-size:20px;
 					font-weight: 700;
 					line-height:1.2;
 				}
 				dd {
-					flex:.75;
+					// flex:.75;
+					> span {
+						display: block;
+						padding-left:10px;
+						padding-top:5px;
+						font-size:14px;
+					}
 					> p {
 						position: relative;
 						padding-left:10px;
 						padding-bottom:8px;
-						font-size:20px;
-						line-height:1.2;
+						font-size:18px;
+						line-height:1.3;
 						&:last-of-type {
 							padding-bottom:0;
 						}
@@ -1306,25 +1321,40 @@
 				}
 			}
 			.desc {
+				clear:both;
 				position:relative;
-				width:35%;
+				width:100%;
 				padding-top:30px;
 				padding-right:7%;
 				padding-left:25px;
-				font-size: 24px;
+				font-size: 22px;
 				font-weight: 700;
-				background: {
-					image: url(/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_crown.png);
-					size:35px;
-					repeat: no-repeat;
-					position: left top;
+				// background: {
+				// 	image: url(../images/ico_crown.png);
+				// 	size:35px;
+				// 	repeat: no-repeat;
+				// 	position: left center;
+				// }
+				text-align: center;
+				i {
+					display: inline-block;
+					width:35px;
+					height:35px;
+					margin-right:10px;
+					background: {
+						image: url(/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_crown.png);
+						size:35px;
+						repeat: no-repeat;
+						position: left center;
+					}
+					vertical-align: bottom;
 				}
 			}
 		}
 		.hashtags {
 			display: inline-block;
 			margin-right:10px;
-			font-size:20px;
+			font-size:18px;
 			font-weight: 700;
 			color:#1DA843;
 		}
@@ -1628,7 +1658,7 @@
 				background: {
 					color:transparent;
 					image: url(/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_refresh.png);
-					size:cover;
+					size:100%;
 					repeat: no-repeat;
 					position: center center;
 				}
@@ -1673,17 +1703,32 @@
 				&:last-child {
 					margin-right:0;
 				}
-				// &.checking {
-				// 	.figure { 
-				// 		border:6px solid red;
-				// 	}
-				// }
 				&.is-selected {
 					background-color: #009B30;
 					.txt {
 						position:relative;
 						color:#fff;
 						font-weight: 700;
+					}
+					&.is-correct {
+						.txt {
+							&:before {
+								content: '';
+								position:absolute;
+								left:50%;
+								top:-45px;
+								display: block;
+								width:40px;
+								height:40px;
+								margin-left:-20px;
+								background: {
+									image: url('/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qico_correct.png');
+									size:cover;
+									repeat: no-repeat;
+									position:0 0;
+								}
+							}
+						}
 					}
 					&.is-wrong {
 						background-color: #DE182F;
@@ -2308,6 +2353,7 @@
 				margin-right: 10px;
 				background-color: #000;
 				color:#fff;
+				cursor: pointer;
 			}
 			.btn_facebook {
 				i {
@@ -2924,16 +2970,25 @@
         padding-right:20px;
         margin-top:20px;
         .desc {
+					max-width:480px;
+					margin:0 auto;
           width:100%;
           margin-bottom:30px;
-          padding-top:25px;
+          padding-top:0;
           background-position:center top;
           background-size:15px;
           font-size:15px;
           text-align: center;
+					i {
+						display: block;
+					}
         }
         .detail {
-          width:100%;
+					float: none;
+					max-width:480px;
+					margin:0 auto;
+          width:100% !important;
+					padding-right:0;
           > dl {
             display: block;
             text-align: center;
