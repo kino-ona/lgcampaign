@@ -285,22 +285,24 @@
             <dl>
               <dt>How to enter</dt>
               <dd>
-                <p>Take the quiz below</p>
-                <p>Share this quiz on your Facebook or Twitter by clicking the 'share' button</p>
-                <p>Use following hashtags : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips</span></p>
+                <p>Take the quiz! There are 10 questions in total.</p>
+                <p>If you get the questions correct, you can move on to the next question.<br>
+                  If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
+                <p>Don’t forget! If you share the quiz, you will get a chance to win your own clothing care appliance.</p>
+                <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips</span></p>
               </dd>
             </dl>
             <dl>
               <dt>Participation period</dt>
               <dd>
-                <p>19-Oct 2021 ~ 8-Nov 2021</p>
+                <p>21-Oct ~ 10-Nov 2021</p>
               </dd>
             </dl>
             <dl>
               <dt>Winner <br>announcement</dt>
               <dd>
-                <p>One lucky winner will be selected by random on 15-Nov 2021.</p>
-                <p>Keep an eye out for some happy DM coming your way.</p>
+                <p>One lucky winner will be selected by random on 17-Nov 2021.</p>
+                <p>Keep an eye out for a DM coming your way.</p>
               </dd>
             </dl>
           </div>
@@ -418,7 +420,6 @@
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid08v2.png" alt="@"></li>
               <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
             </ul>
-            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Terms &amp; Conditions<i></i></a>
           </div>
         </div>
       </div>
@@ -773,7 +774,7 @@
       </div>
       <div class="layer_inner">
         <div class="layer_cont">
-          <p class="heading-tit">LG will be running the following<br>"My Cherished Clothes Event" on Instagram and Facebook:</p>
+          <p class="heading-tit">LG will be running the following: <br>"Sustainable Clothing Tips Event" on Instagram and Facebook:</p>
           <p>(1) An LG Clothing Care Solution Appliance (Styler) grand prize giveaway at the end of the Event Period.</p>
           <p>Entrants must follow the criteria set out below, by posting a comment on the original content posted
             with their own stories about a piece of clothing that holds special memories of them. Please note that
@@ -781,17 +782,20 @@
           <dl>
             <dt>Promotion Period</dt>
             <dd>
-              <p>Entries can be made from Thursday 30<sup>th</sup> September 2021 until 11:59pm
-                Wednesday 20<sup>th</sup> October 2021. Any entries made outside of this time are not eligible for this promotion.</p>
-              <p>Only open to those in the UK aged 18 or over, a public Instagram and/or a Facebook account is required. Please see the full terms and conditions below.</p>
+              <p>Entries can be made from 21-October 2021 until 11:59pm 10-November 2021.
+                Any entries made outside of this time are not eligible for this promotion.</p>
+              <p>Only open to those in the UK aged 18 or over, a public Instagram and/or a Facebook account is required. 
+                Please see the full terms and conditions below.</p>
             </dd>
           </dl>
           <dl>
             <dt class="numb"><span>1</span> How to enter</dt>
             <dd class="dd_push">
-              <p>Entrants can choose either option a or b.</p>
-              <p><strong>a.</strong> Entrants must leave a comment with a story about their cherished clothes on the Event Post uploaded on Instagram or Facebook.</p>
-              <p><strong>b.</strong> Entrants must post their own cherished clothing story with a photo of the clothes on their Instagram or Facebook account.</p>
+              <p>Take the quiz! There are 10 questions in total.</p>
+              <p>If you get the questions correct, you can move on to the next question.</p>
+              <p>If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
+              <p>Share the quiz on either Twitter or Facebook, by clicking the ‘share’ button.</p>
+              <p>The outcome of your event participation will not be affected by your quiz results.</p>
             </dd>
             <dd class="dd_push">
               <strong>Mandatory</strong>
@@ -809,7 +813,7 @@
           <dl>
             <dt class="numb"><span>2</span> Promoter</dt>
             <dd class="dd_push">
-              LG Electronics U.K. Limited ("LG") of Velocity 2, Brooklands Drive, Weybridge, KT130SL.
+              LG Electronics U.K. Limited (“LG”) of Velocity 2, Brooklands Drive, Weybridge, KT130SL.
             </dd>
           </dl>
           <dl>
@@ -819,7 +823,8 @@
             </dd>
           </dl>
           <dl>
-            <dd class="numb"><span>4</span> No purchase necessary: The giveaway is free to enter to all UK residents that meet the eligibility criteria set out in these terms and conditions.</dd>
+            <dd class="numb"><span>4</span> No purchase necessary: The giveaway is free to enter to all UK residents that meet the eligibility
+              criteria set out in these terms and conditions.</dd>
           </dl>
           <dl>
             <dt>Eligibility criteria</dt>
@@ -841,7 +846,7 @@
           </dl>
           <dl>
             <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Instagram or Facebook direct
-              message requesting their contact details. It is the winner's responsibility to ensure the details they
+              message requesting their contact details. It is the winner’s responsibility to ensure the details they
               provide are accurate and neither the Promoter nor Administrator will be responsible for delivery failure
               where participants have provided incorrect or incomplete delivery information, or fails to sign for
               delivery, as required.</dd>
@@ -871,12 +876,13 @@
           </dl>
           <dl>
             <dd class="numb"><span>13</span> The entrants may be expected to participate in LG publicity related to the giveaway. The name
-              and general location of the entrants may be published on LG.com and/or LG social media sites. This could include any images submitted by the user as a part of the promotion.</dd>
+              and general location of the entrants may be published on LG.com and/or LG social media sites. This
+              could include any images submitted by the user as a part of the promotion.</dd>
           </dl>
           <dl>
             <dd class="numb"><span>14</span> LG will not be liable to perform any of its obligations under the giveaway or in respect of the prize
               where they are unable to do so as a result of unforeseen circumstances or circumstances beyond
-              LG's reasonable control, and whilst LG may (but shall not be obliged to) endeavor to provide an
+              LG’s reasonable control, and whilst LG may (but shall not be obliged to) endeavor to provide an
               alternative prize of equal value, LG shall not be liable to provide additional compensation to the
               winners in such circumstances.</dd>
           </dl>
