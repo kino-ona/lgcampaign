@@ -387,7 +387,6 @@
         </div>
         <div class="promo_right">
           <div class="items">
-            <span class="tagg"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_tag.png" alt="special offer"></span>
             <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item01.jpg" alt="Lavasecadora inteligente LG, Blanca, A/E"></p>
             <p class="model_name">
               Lavasecadora inteligente LG, Blanca, A/E
@@ -398,7 +397,6 @@
             data-model-year="" data-model-name="F4DV5010SMW" data-model-salesmodelcode="F4DV5010SMW.ABWQPES" class="btn-buynow">Comprar ahora</a>
           </div>
           <div class="items">
-            <span class="tagg"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_tag.png" alt="special offer"></span>
             <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item02.jpg" alt="Lavadora inteligente LG 8,5kg, C, Blanca"></p>
             <p class="model_name">
               Lavadora inteligente LG 8,5kg, C, Blanca
@@ -409,7 +407,6 @@
             data-model-year="2020" data-model-name="F2WV3S85S3W" data-model-salesmodelcode="F2WV3S85S3W.ABWQPES'" class="btn-buynow">Comprar ahora</a>
           </div>
           <div class="items">
-            <span class="tagg"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_tag.png" alt="special offer"></span>
             <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item03.jpg" alt="Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca"></p>
             <p class="model_name">
               Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca
@@ -420,7 +417,6 @@
             data-model-year="2020" data-model-name="F4DV5009S0W" data-model-salesmodelcode="F4DV5009S0W.ABWQPES" class="btn-buynow">Comprar ahora</a>
           </div>
           <div class="items">
-            <span class="tagg"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_tag.png" alt="special offer"></span>
             <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item04.jpg" alt="Secadora LG 8kg A+++ Blanca"></p>
             <p class="model_name">
               Secadora LG 8kg A+++ Blanca
@@ -437,7 +433,7 @@
 
     <div class="box_row-campaign box_content">
       <div class="rending-button">
-        <p><i></i>Regístrate ahora</p>
+        <p><i></i>Regístrate en nuestra web</p>
         <a href="https://www.lg.com/es/my-lg/login?page=login" target="_blank" class="btn-link">Haz click aquí</a>
       </div>
     </div>
@@ -462,19 +458,6 @@
             <li class="list-item">1) La primera secadora del mundo con certificado TUV Producto Verde reconociendo los esfuerzos de LG para minimizar el impacto ambiental.</li>
             <li class="list-item">2) Basado en informe realizado por Youreko a fecha 13/09/2021, el modelo LG RC80V9AV2W es la secadora comercializada en territorio español con mayor eficiencia energética, A+++ (-10%) sobre escala A+++ a D.</li>
             <li class="list-item">3) Testado por TUV SUD que reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
-          </ul>
-        </div>
-        <div class="box_product-info">
-          <strong class="text_strong">LG Styler</strong>
-          <ul class="list_detail-info">
-            <li class="list-item">1) * Aprobado por BAF (British Allergy Foundation) para reducir la exposición a ácaros del polvo doméstico vivos, bacterias (E. coli y S. aureus)".</li>
-          </ul>
-        </div>
-        <div class="box_product-info">
-          <ul class="list_detail-info">
-            <li class="list-item">** Lavadoras (Basado en un estudio del 17-05-2020 de la Jeonbuk National University de Seúl. 
-              La utilización del programa Allergy Care de los modelos de lavadoras LG en distintas prendas de 100% algodón en las cuales se han incluido muestras con un tamaño de 1x1 cm de 2.5X105 GFP transducidas unidades/50 μl del coronavirus humano 229E, con una temperatura de 24 ± 2 y una humedad de 50 ± 5% ha eliminado hasta un 99.99% de las muestras de coronavirus humano 229E introducidas en las referidas prendas. Estudio basado exclusivamente en el análisis del coronavirus humano229E y no en el SARS – Covid19. 
-              <br>(2) Bacterias: estudio del 04-05-2020 elaborado por TUV SUD que confirma que la utilización del programa Allergy Care de los modelos LG F4V9RWP2W y F4V9RCP2W en prendas de algodón de 30 x 20 cm en las cuales se han incluido muestras de bacterias (1.7x105 de staphylococcus aureus, 4.7x105 de klebsiella pneumoniae y 2.1x105 de pseudonomas aeruginosa) ha eliminado hasta un 99.99% de las muestras de las referidas bacterias. Alérgenos y ácaros de polvo: Resultdos aprobados por la British Allergy Foundation en abril de 2020 sobre el modelo de lavadora LG FH4B3PDYK6N, así como el resto de modelos de lavadoras y lava-secadoras LG que tengan las mismas especificaciones que el anterior modelo.). Secadoras (Testado por TUV SUD que reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
           </ul>
         </div>
       </div>
