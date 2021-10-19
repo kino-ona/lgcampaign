@@ -67,7 +67,7 @@
 				<span itemprop="name">ELETTRODOMESTICI</span></a>
 				<meta itemprop="position" content="2">
 			</li>
-			<li><strong>ELETTRODOMESTICI</strong></li>
+			<li><strong>Prenditi Curadei Tuoi Capi</strong></li>
 		</ul>
 	</div>
 	<!-- // breadcrumb -->
@@ -128,13 +128,13 @@
       <!-- vod background -->
       <div class="vodbg">
         <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
+          <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LGHero.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
+          <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LGCouple.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
+          <source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/LGBaby.mp4" type="video/mp4" autostart="false">
         </video>
         
         <div class="iframebody YTframe01">
@@ -181,9 +181,6 @@
 
       <div class="visual">
         <div class="story_slide">
-          <button class="slick-prev slick-arrow" adobe-click="clothing-care-campaign-main-sustainable-clothing-conscious-lifestyle" adobe-value="main>sustainable-clothing-conscious-lifestyle>carousel" data-link-name="sustainable_clothing_conscious_lifestyle_carousel" aria-label="Previous" type="button"><i></i>Previous</button>
-          <button class="slick-next slick-arrow" adobe-click="clothing-care-campaign-main-sustainable-clothing-conscious-lifestyle" adobe-value="main>sustainable-clothing-conscious-lifestyle>carousel" data-link-name="sustainable_clothing_conscious_lifestyle_carousel" aria-label="Next" type="button"><i></i>Next</button>
-
           <div class="box_slide-wrap">
             <div class="box_slide-item" data-slideidx="1">
               <div class="box_slide-image">
@@ -255,6 +252,53 @@
       </div>
     </div>
     <!--// clothing_howto -->
+
+    <div id="influencer"></div>
+    <div class="clothing_sustain box_row-campaign">
+      <p class="row-tit">Inside a Sustainable Clothing Life</p>
+      <p class="row-stit">Hear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
+      <div class="box_content-tab">
+        <ul class="list_tab-nav scroll-fade" role="tablist">
+          <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
+              adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Adriana</a></li>
+          <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
+              adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Ilaria</a></li>
+        </ul>
+
+        <div class="box_tab-view">
+          <div class="box_view-detail"> 
+            <div id="influencer01" class="box_view-item box_view-item1 active">
+              <div class="influencer influencer-01">
+                <div class="figure"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer01.jpg" alt="Stories Adriana"></div>
+                <div class="desc">
+                  <p>Un prezioso ricordo di famiglia</p>
+                  <span>"Oggi, io e lei, come 40 anni fa.<br><br>
+                    Indossare la camicia da notte di mia nonna, ancora perfetta, e vedere Benedetta nel vestito in tulle realizzato da lei per me, mi emoziona e riporta con la memoria a momenti preziosi.
+                    Amo questi capi e come mia nonna li curo con amore per farli durare nel tempo e passarli, un giorno, alle mie figlie."</span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer02" class="box_view-item box_view-item2">
+              <div class="influencer influencer-02">
+                <div class="figure"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer02.jpg" alt="Stories Ilaria"></div>
+                <div class="desc">
+                  <p>Da sorella a sorella</p>
+                  <span>"La camicetta che vedete, per esempio, la vedrete
+                    indossata da tutte e tre. Per ora da Maty è passata a
+                    Lade ma toccherà anche a#cutieD.<br><br>
+                    Sono troppo i ricordi legati a questo piccolo capo che,
+                    con noi, ha viaggiato tanto fino ad arrivare a Los
+                    Angeles. Chissà quanto posti ancora vedrà…"</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_sustain -->
     
 
     <div id="box_content3" class="clothing_quiz box_content">
@@ -866,6 +910,45 @@
       'dataLayer' : _dl,
       'standardData' : standardData
     });
+  </script>
+
+  <!-- default code -->
+  <jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
+  <!-- // default code -->
+
+  <!-- your js -->
+  <script>
+    $('.clothing_product').find('.btn_red').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        var modelName='';
+        eventName = 'buy_now_click';
+        micrositeName = 'prenditi-curadei-tuoi-capi';
+        dataLayer.push({
+          'event' : eventName,
+          'modelName' : $(this).attr('data-sku'),
+          'modelCode' : $(this).attr('data-model-id'),
+          'sku' : $(this).attr('data-sku'),
+          'suffix' : $(this).attr('data-model-suffixcode'),
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    $('.promotion_banner').find('.btn-buynow').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        var modelName='';
+        eventName = 'buy_now_click';
+        micrositeName = 'prenditi-curadei-tuoi-capi';
+        dataLayer.push({
+          'event' : eventName,
+          'modelName' : $(this).attr('data-model-id'),
+          'modelCode' : $(this).attr('data-model-id'),
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    
     $(document).ready(function(){
       var href = window.location.href;
       if(href.indexOf('washer') != -1) {
@@ -888,12 +971,6 @@
       }
     });
   </script>
-
-  <!-- default code -->
-  <jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
-  <!-- // default code -->
-
-  <!-- your js -->
   <script type="text/javascript" src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/js/clothing_campaign.js"></script>
 </body>
 

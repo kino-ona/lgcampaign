@@ -226,7 +226,7 @@
 		display: none!important;
 	}
 	a {
-		&:focus {
+		&:focus, &:hover {
 			text-decoration: none;
 		}
 	}
@@ -833,7 +833,7 @@
 			font-size: 0;
 			z-index: 10;
 			i{
-				@include iconAngle($direction: 'left', $width: 15px, $height: 30px, $thick: 2px, $color: #999999, $display: inline-block, $position: relative); 
+				@include iconAngle($direction: 'left', $width: 15px, $height: 30px, $thick: 2px, $color: #fefefe, $display: inline-block, $position: relative); 
 			}
 		}
 		.slick-next {
@@ -846,7 +846,7 @@
 			font-size: 0;
 			z-index: 10;
 			i{
-				@include iconAngle($direction: 'right', $width: 15px, $height: 30px, $thick: 2px, $color: #999999, $display: inline-block, $position: relative); 
+				@include iconAngle($direction: 'right', $width: 15px, $height: 30px, $thick: 2px, $color: #fefefe, $display: inline-block, $position: relative); 
 			}
 		}
 		.box_slide-wrap {
@@ -1093,7 +1093,18 @@
 			margin-top:20px;
 		}
 		.list_tab-nav {
+			max-width:325px;
 			margin-bottom:40px;
+			.link {
+				padding:12px 0;
+				text-align: center;
+				&.active, &:hover {
+					&:before {
+						background-size: 80%;
+						background-position:center bottom;
+					}
+				}
+			}
 		}
 		.box_tab-view {
 			max-width:1220px;

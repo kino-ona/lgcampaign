@@ -286,7 +286,7 @@
                 <p>Take the quiz! There are 10 questions in total.</p>
                 <p>If you get the questions correct, you can move on to the next question. If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
                 <p>Don’t forget! If you share the quiz, you will get a chance to win your own clothing care appliance.</p>
-                <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips</span></p>
+                <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</span></p>
                 <span>* The outcome of your event participation will not be affected by your quiz results.</span>
               </dd>
             </dl>
@@ -330,61 +330,71 @@
               answers:['Use dishwasher detergent','Use flour','Use toothpaste'],
               tips:'Yes, you did read right. Dishwasher brightners have very good cleaners in it. Add a couple of tablespoons into a couple gallons of water and wash.',
               product:'wm', usp:'TuboWash360',
-              feedback:'Do\'t need to worry about damaging your clothes. With TurboWash™360 your laundry can be thoroughly cleaned in just 39 minutes without compromising fabric protection.'},
+              feedback:'Do\'t need to worry about damaging your clothes. With TurboWash™360 your laundry can be thoroughly cleaned in just 39 minutes without compromising fabric protection.',
+              qsource:'Linda Cobb'},
             {
               question:'How do you remove stain on your shirt?',
               answers:['Soak it in the water','Rub','Press'],
               tips:'Press on the stain, over and over, to lift it out. Resist the urge to rub, or you might damage the fabric.',
               product:'wm', usp:'TurboWash 360',
-              feedback:'Or simply choose LG washer With TurboWash™360 that thoroughly cleans your laundry without any stains left on your shirt in just 39 minutes. '},
+              feedback:'Or simply choose LG washer With TurboWash™360 that thoroughly cleans your laundry without any stains left on your shirt in just 39 minutes. ',
+              qsource:'Madame Paulette'},
             {
               question:'How much water would be need to make a t-shirt?',
               answers:['2,000L','2,700L','3,000L'],
               tips:'2,700L of water is spent to make a piece of t-shirt., which is enough water for a person to drink for 3 years.',
               product:'wm', usp:'Bigger Capacity',
-              feedback:'We all know obviously the washing machine uses a lot of water considering all the rinsing and washing that goes on. Get more laundry done at once with LG washing machine and reduce water consumption.'},
+              feedback:'We all know obviously the washing machine uses a lot of water considering all the rinsing and washing that goes on. Get more laundry done at once with LG washing machine and reduce water consumption.',
+              qsource:'European Parliament'},
             {
               question:'What kind of detergent is the best for removing stain?',
               answers:['Citrus','Berries','Flower'],
               tips:'Just a drop of dish detergent (a citrus-based soap — anything that smells like lemon or orange) will do for the stain',
               product:'wm', usp:'ezDispense',
-              feedback:'Or simply choose LG washer with ezDispense™ technology that automatically dispenses the optimal detergent. You can even put two different types of detergent at the same time with ezDispense and get your laundry done that fits well for your purpose.'},
+              feedback:'Or simply choose LG washer with ezDispense™ technology that automatically dispenses the optimal detergent. You can even put two different types of detergent at the same time with ezDispense and get your laundry done that fits well for your purpose.',
+              qsource:'Madame Paulette'},
             {
               question:'If your clothes are smelling damp from trapped moisture in the clothes, what should you do?',
               answers:['Put shampoo while washing','Put vinegar while washing','Put a handful of salt while washing'],
               tips:'No matter how well you dry your clothes indoors, some moisture remais after drying. The damp smell is caused by the trapped moisture in your clothes. If your clothes are smelling damp, it\'d great to use bleach, but in case you don\'t have it, vinegar is a natural deodorizer.',
               product:'dryer', usp:'Sensor Dry',
-              feedback:'Have well dried clothes the first time with a dryer. No need to worry about the damp smell! Sensor Dry is humidity sensor that automatically optimizes drying time. It consists of two sensor bars that automatically determines optimal drying time by detecting the moisture level on clothes.'},
+              feedback:'Have well dried clothes the first time with a dryer. No need to worry about the damp smell! Sensor Dry is humidity sensor that automatically optimizes drying time. It consists of two sensor bars that automatically determines optimal drying time by detecting the moisture level on clothes.',
+              qsource:'Persil'},
             {
               question:'What should you do when you\'re running short on drying time?',
               answers:['Dry later','Throw toilet paper','Throw a dry towel'],
               tips:'When you’re running short on drying time, throw a dry towel in with the load. The towel will help absorb some of the moisture and help your clothes dry quicker. You should take out the towel after few minutes. If youare drying just a few items, take it out after around 5 minutes, or 15 minutes for a full load.',
               product:'dryer', usp:'Eco Hybrid™',
-              feedback:'In a hurry? Choose quick dry option! The Inverter Heat Pump can control the speed of refrigerant on both Eco Hybrid and Time modes. Get your laundry dried with the Time Mode! The compressor speeds up to shorten the duration of the cycle.'},
+              feedback:'In a hurry? Choose quick dry option! The Inverter Heat Pump can control the speed of refrigerant on both Eco Hybrid and Time modes. Get your laundry dried with the Time Mode! The compressor speeds up to shorten the duration of the cycle.',
+              qsource:'CNET'},
             {
               question:'What should you use for shrunken t-shirt?',
               answers:['Shampoo','Hair conditioner','Body wash'],
               tips:'Did your favorite T-shirt shrink? Soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.',
               product:'dryer', usp:'DUAL Inverter Heat Pump™',
-              feedback:'Or, you can protect your clothes from damage with LG dryer’s low temperature heat pump technology.'},
+              feedback:'Or, you can protect your clothes from damage with LG dryer’s low temperature heat pump technology.',
+              qsource:'CNET'},
             {
               question:'How can you get rid of tobacco odors?',
               answers:['Use white vinegar','spread shampoo','hang it up outside'],
               tips:'The smell of smoke will come right out of most fabrics when you wash them as normal, but fabrics that lock in odors and are sensitive to washing, like wool, are a bit trickier. To remove the odor, add 2 cups of white vinegar in to hot tub and hadn the clothes on the shower rod and clotes the bathroom door. The vinegar in the rising steam will remove the smell of smoke.',
               product:'styler', usp:'TrueSteam',
-              feedback:'The LG Styler uses TrueSteam™ technology to quickly and gently pull the odors out of your clothes. Because steam is being used, your fabrics smell fresh and clean without harming your garments.'},
+              feedback:'The LG Styler uses TrueSteam™ technology to quickly and gently pull the odors out of your clothes. Because steam is being used, your fabrics smell fresh and clean without harming your garments.',
+              qsource:'The Spruce'},
             {
               question:'Is softener good for wool laundry?',
               answers:['Always','Sometimes','Never'],
               tips:'Contrary to popular belief, the technical Woolmark Company lab in Melbourne says we are never supposed to use softener!',
               product:'styler', usp:'Heat Pump Drying',
-              feedback:'How to clean wool without softener?  LG Styler\'s Heat Pump Drying treats your wool sweater delicately. Get your sweater hung up on the rack and get it dry cleaned fast!'},
+              feedback:'How to clean wool without softener?  LG Styler\'s Heat Pump Drying treats your wool sweater delicately. Get your sweater hung up on the rack and get it dry cleaned fast!',
+              qsource:'Woolmark Company Lab'},
             {
               question:'What would be the simple way to release the wrinkles from your clothes?',
               answers:['Hang them in a bathroom','Lay them down on floor','Put them into a fridge'],
               tips:'If you don\'t have enough time to press your clothes, just simply hang them in your bathroom while taking a hot shower. The steam will release the wrinkles from your clothes.',
               product:'styler', usp:'Moving Hanger',
-              feedback:'The patented hangers gently move side to side up to 200 times per minute, allowing steam to smooth away the wrinkles. You can get rid of the wrinkles from your clothes on time.'}
+              feedback:'The patented hangers gently move side to side up to 200 times per minute, allowing steam to smooth away the wrinkles. You can get rid of the wrinkles from your clothes on time.',
+              qsource:'Real Simple'}
           ]
           const messageData = {
               backButton: 'Back',
@@ -399,6 +409,7 @@
               placeholderEmail: 'Enter your E-mail'
           }
         </script>
+        <p class="disclm">* The tips offered are intended as entertainment. The participant is solely responsible for any damage that may occur as a result of acting on the information given.</p>
         <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;">Terms &amp; Conditions</a></p>
       </div>
     </div>
@@ -919,6 +930,41 @@
           <dl>
             <dd class="numb"><span>20</span> Governing law: The giveaway is governed by the Laws of England and Wales and the English
               Courts shall have exclusive jurisdiction to determine any disputes which may arise out of, under or in connection with it.</dd>
+          </dl>
+          <dl>
+            <dt>Quiz Sources:</dt>
+            <dd>
+              1. <a href="https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/" target="_blank">https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/</a>
+            </dd>
+            <dd>
+              2. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
+            </dd>
+            <dd>
+              3. <a href="https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic" target="_blank">
+                https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic</a>
+            </dd>
+            <dd>
+              4. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
+            </dd>
+            <dd>
+              5. <a href="https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html" target="_blank">
+                https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html</a>
+            </dd>
+            <dd>
+              6. <a href="https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/" target="_blank">https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/</a>
+            </dd>
+            <dd>
+              7. <a href="https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/" target="_blank">https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/</a>
+            </dd>
+            <dd>
+              8. <a href="https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080" target="_blank">https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080</a>
+            </dd>
+            <dd>
+              9. <a href="https://eco-age.com/resources/how-care-wool/" target="_blank">https://eco-age.com/resources/how-care-wool/</a>
+            </dd>
+            <dd>
+              10. <a href="https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes" target="_blank">https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes</a>
+            </dd>
           </dl>
         </div>
       </div>

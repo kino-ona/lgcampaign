@@ -114,28 +114,28 @@
       <!-- vod background -->
       <div class="vodbg">
         <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
+          <source src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/LGHero.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
+          <source src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/LGCouple.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
+          <source src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/LGBaby.mp4" type="video/mp4" autostart="false">
         </video>
         
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/h7A0LHRbxrA?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/wD6LgcpMXNo?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe02">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/4w4Tus_BaP8?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/t7RPuVaQMjc?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe03">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/sZ8haMGHr80?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/e4pvY08rJtY?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
@@ -241,7 +241,7 @@
     <!--// clothing_howto -->
 
     <div id="influencer"></div>
-    <div class="clothing_sustain box_row-campaign">
+    <!-- <div class="clothing_sustain box_row-campaign">
       <p class="row-tit">Einblicke in ein Leben mit nachhaltiger Kleidung</p>
       <p class="row-stit">Erfahren Sie von Experten für nachhaltige Mode, welche Kleidungsstücke ihnen wichtig sind und wie sie diese länger erhalten.</p>
       <div class="box_content-tab">
@@ -289,7 +289,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--// clothing_sustain -->
 
     <div id="box_content3" class="clothing_quiz box_content">

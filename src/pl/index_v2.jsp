@@ -255,7 +255,7 @@
           </div>
 
           <div class="desc">
-            <i></i>Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
+            <i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!<br>Podziel się wynikiem quizu na swoim koncie na Facebooku lub Twitterze i zbierz jak najwięcej reakcji.
           </div>
         </div>
     
@@ -277,76 +277,87 @@
               answers:['Użyć detergentu do zmywarki','Użyć mąki','Użyć pasty do zębów'],
               tips:'Tak, masz dobre informacje. Nabłyszczacze do zmywarki zawierają skuteczne środki czyszczące. Dodaj łyżkę nabłyszczacza do kilku litrów wody i upierz.',
               product:'wm', usp:'TuboWash360',
-              feedback:'Nie obawiaj się uszkodzenia ubrań. Dzięki funkcji TurboWash™360 ubrania mogą zostać dokładnie uprane w zaledwie 39 minut przy zapewnieniu skutecznej ochrony tkanin. '},
+              feedback:'Nie obawiaj się uszkodzenia ubrań. Dzięki funkcji TurboWash™360 ubrania mogą zostać dokładnie uprane w zaledwie 39 minut przy zapewnieniu skutecznej ochrony tkanin. ',
+              qsource:'Linda Cobb'},
             {
               question:'Jak usunąć plamę z koszuli?',
               answers:['Namoczyć w wodzie','Potrzeć','Wyciskać'],
               tips:'Wyciskaj plamę wielokrotnie, aby ją usunąć. Nie pocieraj, ponieważ możesz uszkodzić tkaninę.',
               product:'wm', usp:'TurboWash 360',
-              feedback:'Albo, po prostu wybierz pralkę LG z funkcją TurboWash™360, która w zaledwie 39 minut dokładnie upierze ubrania niepozostawiajac żadnych plam na koszuli.'},
+              feedback:'Albo, po prostu wybierz pralkę LG z funkcją TurboWash™360, która w zaledwie 39 minut dokładnie upierze ubrania niepozostawiajac żadnych plam na koszuli.',
+              qsource:'Madame Paulette'},
             {
               question:'Ile wody potrzeba, aby wyprodukować koszulkę?',
               answers:['2000 l','2700 l','3000 l'],
               tips:'Do wyprodukowania jednej koszulki potrzeba 2700 l wody. Taką ilość wody jedna osoba wypija przez ponad 3 lata.',
               product:'wm', usp:'większa pojemność',
-              feedback:'Wszyscy wiemy, że do uprania i wypłukania ubrań pralka potrzebuje dużo wody. Dzięki pralce LG możesz uprać więcej rzeczy na raz i w ten sposób zmniejszyć zużycie wody.'},
+              feedback:'Wszyscy wiemy, że do uprania i wypłukania ubrań pralka potrzebuje dużo wody. Dzięki pralce LG możesz uprać więcej rzeczy na raz i w ten sposób zmniejszyć zużycie wody.',
+              qsource:'European Parliament'},
             {
               question:'Jaki rodzaj detergentu jest najlepszy do usuwania plam?',
               answers:['Cytrusy','Jagody','Kwiat'],
               tips:'Do usunięcia plamy wystarczy kropla płynu do zmywania naczyń (mydło na bazie cytrusów — wszystko, co pachnie jak cytryna lub pomarańcza)',
               product:'wm', usp:'system ezDispense',
-              feedback:'Albo, po prostu wybierz pralkę LG z systemem ezDispense™, który automatycznie dozuje optymalną ilość detergentu. Dzięki systemowi ezDispense do pralki możesz nawet wlać jednocześnie dwa różne rodzaje detergentu. Podczas prania zostanie użyty ten, który jest lepszy do danego wsadu.'},
+              feedback:'Albo, po prostu wybierz pralkę LG z systemem ezDispense™, który automatycznie dozuje optymalną ilość detergentu. Dzięki systemowi ezDispense do pralki możesz nawet wlać jednocześnie dwa różne rodzaje detergentu. Podczas prania zostanie użyty ten, który jest lepszy do danego wsadu.',
+              qsource:'Madame Paulette'},
             {
               question:'Co należy zrobić z ubraniami, które z powodu zawilgocenia pachną stęchlizną?',
               answers:['Podczas prania dodać szampon','Podczas prania dodać ocet','Podczas prania dodać garść soli'],
               tips:'Trochę wilgoci pozostaje na ubraniach, niezależnie od tego, jak dobrze wysuszysz je w mieszkaniu. Zapach stęchlizny jest spowodowany wilgocią, która jest uwięziona w tkaninach. Jeśli ubrania pachną stęchlizną, świetnie byłoby użyć wybielacza. Jeśli go nie masz, użyj octu, który jest naturalnym środkiem usuwającym zapachy.',
               product:'dryer', usp:'suszenie sterowane czujnikami',
-              feedback:'Wysusz dobrze ubrania po raz pierwszy – używając suszarki. Nie musisz obawiać się zapachu stęchlizny! Dzięki czujnikom wilgoci urządzenie z funkcją Sensor Dry automatycznie optymalizuje czas suszenia. Urządzenie jest wyposażone w dwie listwy z czujnikami, które mierzą poziom wilgotności ubrań i umożliwiają automatyczne określenie optymalnego czasu suszenia.'},
+              feedback:'Wysusz dobrze ubrania po raz pierwszy – używając suszarki. Nie musisz obawiać się zapachu stęchlizny! Dzięki czujnikom wilgoci urządzenie z funkcją Sensor Dry automatycznie optymalizuje czas suszenia. Urządzenie jest wyposażone w dwie listwy z czujnikami, które mierzą poziom wilgotności ubrań i umożliwiają automatyczne określenie optymalnego czasu suszenia.',
+              qsource:'Persil'},
             {
               question:'Co zrobić, gdy brakuje czasu na suszenie?',
               answers:['Wysuszyć później','Wrzucić papier toaletowy','Wrzucić suchy ręcznik'],
               tips:'Gdy brakuje czasu na suszenie, do wsadu dołóż suchy ręcznik. Suchy ręcznik wchłonie część wilgoci, przyspieszając suszenie ubrań. Ręcznik należy wyjąć po kilku minutach. Jeśli suszysz tylko kilka rzeczy, wyjmij ręcznik po 5 minutach. Gdy suszarka jest całkowicie zapełniona, wyjmij go po 15 minutach.',
               product:'dryer', usp:'technologia Eco Hybrid™',
-              feedback:'Śpieszysz się? Wybierz opcję szybkiego suszenia! Suszarka z pompą ciepła Inverter Heat Pump może regulować prędkość przepływu czynnika chłodniczego, zarówno w trybie Eco Hybrid, jak i w trybie szybkiego suszenia. Wysusz pranie korzystając z trybu szybkiego suszenia! Aby skrócić czas trwania cyklu, sprężarka pracuje z większą prędkością.'},
+              feedback:'Śpieszysz się? Wybierz opcję szybkiego suszenia! Suszarka z pompą ciepła Inverter Heat Pump może regulować prędkość przepływu czynnika chłodniczego, zarówno w trybie Eco Hybrid, jak i w trybie szybkiego suszenia. Wysusz pranie korzystając z trybu szybkiego suszenia! Aby skrócić czas trwania cyklu, sprężarka pracuje z większą prędkością.',
+              qsource:'CNET'},
             {
               question:'Czego użyć, gdy skurczy się koszulka?',
               answers:['Szampon','Odżywka do włosów','Płyn do mycia ciała'],
               tips:'Czy Twoja Ulubione koszulka zbiegła się? Przez 15 minut namocz skurczone ubranie w letniej wodzie z odrobiną odżywki do włosów, a następnie delikatne rozciągnij je.',
               product:'dryer', usp:'z pompą ciepła DUAL Inverter Heat Pump™',
-              feedback:'Albo, zapewnij skuteczniejszą ochronę tkanin korzystając z funkcji suszenie w niższej temperaturze, wykorzystującej pompę ciepła.'},
+              feedback:'Albo, zapewnij skuteczniejszą ochronę tkanin korzystając z funkcji suszenie w niższej temperaturze, wykorzystującej pompę ciepła.',
+              qsource:'CNET'},
             {
               question:'W jaki sposób usunąć zapach dymu tytoniowego?',
               answers:['Użyć białego octu','rozprowadzić szampon','ozwiesić na zewnątrz'],
               tips:'Z większości tkanin zapach dymu można usunąć podczas zwykłego prania. Większy problem stanowią tkaniny chłonące zapachy i wrażliwe na pranie, np. wełna. Aby usunąć zapach, do wanny z gorącą wodą wlej 2 kubki białego octu, a następnie rozwieś ubrania na drążku prysznicowym lub drzwiach łazienki. Para z octem usunie zapach dymu.',
               product:'styler', usp:'funkcja TrueSteam',
-              feedback:'Szafa parowa LG Styler jest wyposażona w technologię TrueSteam™, pozwalającą na szybkie i delikatne usuwanie zapachów z ubrań. Ze względu na użycie pary, tkaniny są oczyszczane i zyskują świeży zapach bez ryzyka uszkodzenia.'},
+              feedback:'Szafa parowa LG Styler jest wyposażona w technologię TrueSteam™, pozwalającą na szybkie i delikatne usuwanie zapachów z ubrań. Ze względu na użycie pary, tkaniny są oczyszczane i zyskują świeży zapach bez ryzyka uszkodzenia.',
+              qsource:'The Spruce'},
             {
               question:'Czy zmiękczacz nadaje się do prania wełny?',
               answers:['Zawsze','Czasem','Nigdy'],
               tips:'Wbrew powszechnemu przekonaniu, laboratorium techniczne Woolmark Company w Melbourne twierdzi, że nigdy nie należy używać zmiękczacza!',
               product:'styler', usp:'suszenie z pompą ciepła',
-              feedback:'Jak uprać wełnę bez użycia zmiękczacza?  Szafa parowa LG Styler jest też wyposażona w pompę ciepła, która umożliwia delikatną pielęgnację wełnianego swetra. Rozłóż sweter na półce i uzyskaj efekt, jak w pralni chemicznej!'},
+              feedback:'Jak uprać wełnę bez użycia zmiękczacza?  Szafa parowa LG Styler jest też wyposażona w pompę ciepła, która umożliwia delikatną pielęgnację wełnianego swetra. Rozłóż sweter na półce i uzyskaj efekt, jak w pralni chemicznej!',
+              qsource:'Woolmark Company Lab'},
             {
               question:'Jaki jest najprostszy sposób usuwania zagnieceń z ubrań?',
               answers:['Rozwieś w łazience','Rozłóż na podłodze','Włóż do lodówki'],
               tips:'Jeśli nie masz czasu na prasowanie ubrań, po prostu rozwieś je w łazience i weź gorący prysznic. Para spod prysznica usunie zagniecenia z ubrań.',
               product:'styler', usp:'ruchomy wieszak',
-              feedback:'Opatentowane wieszaki poruszają się na boki 200 razy na minutę, dzięki czemu para wygładza zagniecenia. Zagniecenia z ubrań możesz usunąć w dowolnej chwili.'}
+              feedback:'Opatentowane wieszaki poruszają się na boki 200 razy na minutę, dzięki czemu para wygładza zagniecenia. Zagniecenia z ubrań możesz usunąć w dowolnej chwili.',
+              qsource:'Real Simple'}
           ]
           const messageData = {
               backButton: 'POPRZEDNIE PYTANIE',
               nextButton: 'NASTĘPNE PYTANIE',
               unselect: 'Please select an answer!',
               tipsTitle: 'Become a master of clothing care tips!',
-              another: 'Another option for you',
-              tryButton: 'Try Again',
+              another: 'Inna opcja dla ciebie',
+              tryButton: 'ZACZNIJ OD NOWA',
               shareButton: 'Share',
               promoTitle: 'Fancy a 10% off promo code?',
               placeholderName: 'Enter your name',
               placeholderEmail: 'Enter your E-mail'
           }
         </script>
-          <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" >Regulamin promocji</a></p>
+        <p class="disclm">* Przedstawione tu porady mają wyłącznie charakter poglądowy. Odpowiedzialność za wszelkie szkody, które mogą powstać w wyniku postępowania zgodnie z podanymi informacjami, ponosi wyłącznie użytkownik.</p>
+        <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" >Regulamin promocji</a></p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
@@ -751,6 +762,41 @@
                 <p>9.3. Niniejszy regulamin Konkursu dostępny jest w siedzibach Organizatora oraz Sponsora, w dni
                   powszednie od poniedziałku do piątku w godz. od 9:00-17:00 oraz na portalach społecznościowych
                   Facebook oraz Instagram na profilu Organizatora.</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>Quiz Sources:</dt>
+              <dd>
+                1. <a href="https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/" target="_blank">https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/</a>
+              </dd>
+              <dd>
+                2. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
+              </dd>
+              <dd>
+                3. <a href="https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic" target="_blank">
+                  https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic</a>
+              </dd>
+              <dd>
+                4. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
+              </dd>
+              <dd>
+                5. <a href="https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html" target="_blank">
+                  https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html</a>
+              </dd>
+              <dd>
+                6. <a href="https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/" target="_blank">https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/</a>
+              </dd>
+              <dd>
+                7. <a href="https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/" target="_blank">https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/</a>
+              </dd>
+              <dd>
+                8. <a href="https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080" target="_blank">https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080</a>
+              </dd>
+              <dd>
+                9. <a href="https://eco-age.com/resources/how-care-wool/" target="_blank">https://eco-age.com/resources/how-care-wool/</a>
+              </dd>
+              <dd>
+                10. <a href="https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes" target="_blank">https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes</a>
               </dd>
             </dl>
           </div>

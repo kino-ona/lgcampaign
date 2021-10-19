@@ -954,7 +954,7 @@
 						width:calc(25% - 12px);
 					}
 				}
-			}
+			}	
 			@media screen and (max-width:991px) {
 				.pola_wrap{
 					.pola_list {
@@ -1066,7 +1066,7 @@
 			}
 			.btn_terms {
 				position:absolute;
-				right:0;
+				right:15px;
 				bottom:-20px;
 				display: inline-block;
 				color:#999999;
@@ -1631,6 +1631,17 @@
 				}
 			}
 		}
+		.disclm {
+			width:100%;
+			font-size:16px;
+			color:#999999;
+			text-align: center;
+			@media screen and (max-width:1024px) {
+				max-width:78%;
+				margin:0 auto;
+				font-size:14px;
+			}
+		}
 		.quiz_wrap {
 			position:relative;
 			width:100%;
@@ -1661,11 +1672,18 @@
 				}
 				cursor: pointer;
 			}
-			margin-bottom: 50px; //임시
+			margin-bottom: 25px;
+		}
+		.q_source {
+			position:absolute;
+			left:25px;
+			bottom:25px;
+			font-size:20px;
+			color:#999;
 		}
 		.q_step {
 			position:absolute;
-			left:25px;
+			right:25px;
 			bottom:5px;
 			font-size:30px;
 			color:#999;
@@ -1817,7 +1835,7 @@
 		}
 		.btn_terms {
 			position: absolute;
-			right: 0;
+			right: 15px;
 			bottom: -40px;
 			display: inline-block;
 			color: #999;
@@ -1828,6 +1846,7 @@
 				margin-top:-2px;
 				vertical-align: middle;
 			}
+			a {color: #999;}
 		}
 	} // .clothing_quiz
 
@@ -2910,6 +2929,9 @@
       }
       .btn_terms {
         margin-right:25px;
+				a {
+					font-size:14px;
+				}
       }
     }
   }
@@ -2964,6 +2986,7 @@
 @media screen and (max-width:991px) {
   .clothing-campaign {
     .clothing_quiz {
+			padding-bottom:80px;
       .howto_enter {
         display: block;
         padding-left:20px;
@@ -3030,7 +3053,7 @@
       }
       .quiz_wrap {
         width:calc(100% - 40px);
-        margin:0 auto 80px;
+        margin:0 auto 20px;
         padding-left:5%;
         padding-right:5%;
         .btn_refresh {
@@ -3039,6 +3062,10 @@
           background-size: 140px;
         }
       }
+			.q_source {
+				bottom:17px;
+				font-size:16px;
+			}
       .q_step {
         font-size:24px;
         letter-spacing: -.2rem;
@@ -3161,6 +3188,11 @@
       .q_title {
         margin-top:0;
       }
+			.q_source {
+				left:20px;
+				bottom:17px;
+				font-size:14px;
+			}
       .q_step {
         left:inherit;
         bottom:15px;
