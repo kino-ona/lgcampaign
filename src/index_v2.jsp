@@ -227,41 +227,65 @@
           <ul class="list_tab-nav scroll-fade" role="tablist">
             <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
                 adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
-                adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Patricia Bright</a></li>
-            <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
+                adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Binky Felstead</a></li>
+            <li class="list-item item01" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
                 adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
-                adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Perri Edwards</a></li>
-            <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
-              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
-              adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Josie London</a></li>
+                adobe-value="main>stories-we-wear-experts>influencer02>tap" data-link-name="influencer02" class="link">Patricia Bright</a></li>
+            <li class="list-item item02" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+                adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 
+                adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Perri Edwards</a></li>
+            <li class="list-item item03" id="influencer04"><a href="#influencer04" id="anchor_tab4" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer04" 	
+              adobe-value="main>stories-we-wear>influencer04>tap" data-link-name="influencer04" class="link">Josie London</a></li>
           </ul>
   
           <div class="box_tab-view">
             <div class="box_view-detail"> 
               <div id="influencer01" class="box_view-item box_view-item1 active">
                 <div class="influencer influencer-01">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Patricia Bright Wears"></div>
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_02.jpg" alt="Stories Binky Wears"></div>
                   <div class="desc">
-                    <p>Reminiscing my trip to LA</p>
-                    <span>I remember wearing this on my second trip to LA when I was ready to make some moves. It's amazing to have items in your closet that bring back memories and make you smile (or cry).</span>
+                    <!-- <p>Reminiscing my trip to LA</p> -->
+                    <span>"There are so many wonderful memories we have with our clothes and it’s really important to #CareForWhatYouWear.
+                      <br><br>
+                      My top tip - store those summer dresses and swimwear somewhere warm and dry when it comes to the colder months for more storage space and to avoid ruin."</span>
                   </div>
                 </div>
               </div>
               <div id="influencer02" class="box_view-item box_view-item2">
                 <div class="influencer influencer-02">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Perri Edwards Wears"></div>
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_03.gif" alt="Stories Patricia Bright Wears"></div>
                   <div class="desc">
-                    <p>Fashion comes and goes, but style is forever</p>
-                    <span>4 years on and my striped trousers are still going strong. I feel it’s vital to have a conscious clothing lifestyle whether that means passing down your old favs or making them a new fav, buying clothes harmless to the environment, washing your clothes at the correct temperature.</span>
+                    <!-- <p>Reminiscing my trip to LA</p> -->
+                    <span>"I actually don’t play when it comes to my good clothes, I
+                      need them to last because they are an investment! One of
+                      my top tips for making whites look whiter is to put in a little
+                      dish soap in the drum, trust me, they will sparkle!"</span>
                   </div>
                 </div>
               </div>
               <div id="influencer03" class="box_view-item box_view-item3">
                 <div class="influencer influencer-03">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Josie London Wears"></div>
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_04.gif" alt="Stories Perri Edwards Wears"></div>
                   <div class="desc">
-                    <p>My All Time Favourite</p>
-                    <span>The same outfit, more than 3 years apart - these pieces are still favourites of mine and I’ve always taken great care to look after my favourite garments</span>
+                    <!-- <p>Fashion comes and goes, but style is forever</p> -->
+                    <span>"One small action such as washing your clothes at 30 degrees can help
+                      your clothes last longer. Bigger washing machine capacity reduces water
+                      consumption."</span>
+                  </div>
+                </div>
+              </div>
+              <div id="influencer04" class="box_view-item box_view-item4">
+                <div class="influencer influencer-04">
+                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_01.gif" alt="Stories Josie London Wears"></div>
+                  <div class="desc">
+                    <!-- <p>Runway show</p> -->
+                    <span>"Something I am always talking about across my
+                      channels is buying less but buying better and looking
+                      after the clothes in your wardrobe. By washing less,
+                      freshening between wears and less trips to the dry
+                      cleaner, it’s kinder to the environment and kinder to your
+                      clothes."</span>
                   </div>
                 </div>
               </div>
@@ -568,6 +592,7 @@
     </div>
     <!--// clothing_product -->
 
+    <div id="promo"></div>
     <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">
@@ -632,48 +657,12 @@
             <p>£ 1,169.98 <span>£ 1,299.98</span></p>
             <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
-          <!-- <li>
-            <p>F6V909WTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 764.98<span>£ 849.98</span></p>
-            <p><a href="https://lg.com/uk/washing-machines/lg-f6v909wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li> -->
           <li>
             <p>F4V1112BTSA</p>
             <p>Washing Machine</p>
             <p>£ 1,169.98<span>£ 1,299.98</span></p>
             <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v1112btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
           </li>
-          <!-- <li>
-            <p>F6V1110BTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 1,124.98<span>£ 1,249.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v1110btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>F6V1110WTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 1,124.98<span>£ 1,249.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v1110wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>F6V910BTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 854.98<span>£ 949.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v910btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>F6V910WTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 809.98<span>£ 899.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v910wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>F6V909BTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 809.98<span>£ 899.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f6v909btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li> -->
           <li>
             <p>F4V710STSA</p>
             <p>Washing Machine</p>
@@ -789,7 +778,7 @@
       </div>
       <div class="layer_inner">
         <div class="layer_cont">
-          <p class="heading-tit">LG will be running the following: <br>"Sustainable Clothing Tips Event" on Instagram and Facebook:</p>
+          <p class="heading-tit">LG will be running the following: <br>"Sustainable Clothing Tips Event" on Twitter and Facebook:</p>
           <p>(1) An LG Clothing Care Solution Appliance (Styler) grand prize giveaway at the end of the Event Period.</p>
           <p>Entrants must follow the criteria set out below, by posting a comment on the original content posted
             with their own stories about a piece of clothing that holds special memories of them. Please note that
@@ -799,7 +788,7 @@
             <dd>
               <p>Entries can be made from 21-October 2021 until 11:59pm 10-November 2021.
                 Any entries made outside of this time are not eligible for this promotion.</p>
-              <p>Only open to those in the UK aged 18 or over, a public Instagram and/or a Facebook account is required. 
+              <p>Only open to those in the UK aged 18 or over, a public Twitter and/or a Facebook account is required.
                 Please see the full terms and conditions below.</p>
             </dd>
           </dl>
@@ -816,19 +805,19 @@
               <strong>Mandatory</strong>
               <div class="dv_line">
                 <p><strong>Facebook -</strong> Need to include the followings:<br>
-                  #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
-                <p><strong>Instagram -</strong> Need to include the followings:<br>
-                  #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
+                  #CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</p>
+                <p><strong>Twitter -</strong> Need to include the followings:<br>
+                  #CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</p>
               </div>
             </dd>
           </dl>
-          <p>Entrants may enter as many times as they like on the Instagram and Facebook posts and winners
-            shall be chosen randomly. The draw will take place after the closing date and winners will be notified
-            via Instagram or Facebook within 7 days of the closing date.</p>
+          <p>Entrants may enter as many times as they like on the Twitter and Facebook posts and winners shall
+            be chosen randomly. The draw will take place after the closing date and winners will be notified via
+            Twitter or Facebook within 7 days of the closing date.</p>
           <dl>
             <dt class="numb"><span>2</span> Promoter</dt>
             <dd class="dd_push">
-              LG Electronics U.K. Limited (“LG”) of Velocity 2, Brooklands Drive, Weybridge, KT130SL.
+              LG Electronics U.K. Limited ("LG") of Velocity 2, Brooklands Drive, Weybridge, KT130SL.
             </dd>
           </dl>
           <dl>
@@ -846,7 +835,7 @@
             <dd class="numb"><span>5</span> The giveaway is only open to entrants residing in UK and aged 18 or over. Employees of LG global
               companies, the Administrator, their families and agents, and any other company or person involved in
               the creation or administration of the giveaway are not permitted to enter. Internet access, a Facebook
-              social media account and a public Instagram social media account are required.</dd>
+              social media account and a public Twitter social media account are required.</dd>
           </dl>
           <dl>
             <dd class="numb"><span>6</span> By following the instructions provided in the giveaway, you are agreeing to these terms and
@@ -854,13 +843,13 @@
           </dl>
           <dl>
             <dd class="numb"><span>7</span> Late, illegible, incomplete, defaced or corrupt entries, as well as entries sent through agencies and
-              third parties or by means other than Instagram will not be accepted. No responsibility can be accepted
-              for lost entries. If LG or the Administrator believes that there has been a breach of these terms and
+              third parties or by means other than Twitter will not be accepted. No responsibility can be accepted for
+              lost entries. If LG or the Administrator believes that there has been a breach of these terms and
               conditions, LG or the Administrator will, at their sole discretion, be entitled to withhold the prize and
               randomly draw another winner in accordance with these terms and conditions.</dd>
           </dl>
           <dl>
-            <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Instagram or Facebook direct
+            <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Twitter or Facebook direct
               message requesting their contact details. It is the winner’s responsibility to ensure the details they
               provide are accurate and neither the Promoter nor Administrator will be responsible for delivery failure
               where participants have provided incorrect or incomplete delivery information, or fails to sign for
@@ -871,10 +860,10 @@
           </dl>
           <dl>
             <dd class="numb"><span>10</span> The winner will be announced within seven (7) days of the giveaway ending. The winner will be
-              contacted by the Administrator once selected via Instagram or Facebook direct message requesting
-              their contact details The winner will be asked to provide the relevant contact information including, but
-              not limited to, their email address, telephone number and address in order to send the winner the
-              prizes or to organise a collection (this shall be at the Promoter’s discretion).</dd>
+              contacted by the Administrator once selected via Twitter or Facebook direct message requesting their
+              contact details The winner will be asked to provide the relevant contact information including, but not
+              limited to, their email address, telephone number and address in order to send the winner the prizes
+              or to organise a collection (this shall be at the Promoter’s discretion).</dd>
           </dl>
           <dl>
             <dd class="numb"><span>11</span> There is one (1) grand prize to be won at the end of the Event Period.</dd>

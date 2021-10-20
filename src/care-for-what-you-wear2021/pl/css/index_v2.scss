@@ -810,7 +810,7 @@
 				p {
 					display: inline-block;
 					margin-left:15px;
-					font-size:26px;
+					font-size:20px;
 					font-weight: 700;
 					line-height:1.1;
 					color:#000;
@@ -1249,6 +1249,41 @@
 			repeat: no-repeat;
 			position:center center;
 		}
+		.row-tit {
+			max-width:60%;
+			margin:0 auto;
+			font-size:40px;
+			i {
+				display: inline-block;
+				width:50px;
+				height:50px;
+				margin-right:10px;
+				background: {
+					image: url(/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_crown.png);
+					size:50px;
+					repeat: no-repeat;
+					position: left center;
+				}
+				vertical-align: bottom;
+			}
+			@media screen and (max-width: 1280px) {
+				max-width:70%;
+				font-size:30px;
+				i {
+					width:40px;
+					height:40px;
+					background-size:40px;
+				}
+			}
+			@media screen and (max-width: 1024px) {
+				max-width:90%;
+				i {
+					width:30px;
+					height:30px;
+					background-size:30px;
+				}
+			}
+		}
 		.row-stit {
 			span {
 				display: block;
@@ -1329,12 +1364,6 @@
 				padding-left:25px;
 				font-size: 22px;
 				font-weight: 700;
-				// background: {
-				// 	image: url(/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_crown.png);
-				// 	size:35px;
-				// 	repeat: no-repeat;
-				// 	position: left center;
-				// }
 				text-align: center;
 				i {
 					display: inline-block;
@@ -1542,7 +1571,7 @@
 				size:cover;
 				position:center center;
 			}
-			z-index: 10;
+			z-index: 12;
 			> div {
 				max-width:680px;
 				margin:0 auto;
@@ -1620,7 +1649,7 @@
 			}
 			z-index: 10;
 			> p {
-				max-width:680px;
+				max-width:430px;
 				margin:0 auto;
 				text-align:center;
 				img {
@@ -1629,7 +1658,7 @@
 			}
 			@media screen and (max-width:991px) {
 				> p {
-					width:310px;
+					width:260px;
 					margin:0 auto;
 				}
 			}
@@ -1669,12 +1698,13 @@
 				height:35px;
 				background: {
 					color:transparent;
-					image: url(/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_refresh.png);
+					image: url('/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ico_refresh.png');
 					size:100%;
 					repeat: no-repeat;
 					position: center center;
 				}
 				cursor: pointer;
+				z-index: 11;
 			}
 			margin-bottom: 25px;
 		}

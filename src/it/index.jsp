@@ -176,7 +176,7 @@
         <p class="txt">La moda usa e getta contribuisce alla produzione di 5,8 milioni di tonnellate di rifiuti tessili ogni anno in Europa.</p>
         <p class="txt">Per raggiungere gli obiettivi di "consumo e produzione responsabili" stabiliti nell'articolo n. 12 dei presupposti di sviluppo sostenibile 2021 delle Nazioni Unite, LG ha avviato la campagna #CareForWhatYouWear nel 2020 per promuovere abitudini responsabili nell'abbigliamento e limitare gli sprechi.</p>
         <p class="txt">I capi più sostenibili sono quelli che già possiedi e mantenerli correttamente utilizzando le tecniche di protezione del tessuto può rendere la tua quotidianità più sostenibile.</p>
-        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="EBzM9d1eXbw" target="_blank" class="btn_watch">Obejrzyj 2020 LG Clothing Care campaign</a>
+        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="m2_4MSiEO6k" target="_blank" class="btn_watch">Obejrzyj 2020 LG Clothing Care campaign</a>
       </div>
 
       <div class="visual">
@@ -299,8 +299,8 @@
       </div>
     </div>
     <!--// clothing_sustain -->
-    
 
+    <div id="quiz"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Consigli per l'abbigliamento sostenibile</p>
@@ -493,6 +493,7 @@
     </div>
     <!--// clothing_product -->
 
+    <div id="promo"></div>
     <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">
@@ -573,91 +574,91 @@
           </li>
           <li>
             <p>F4V1112WTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 1,169.98 <span>£ 1,299.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f4v1112wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6V909WTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 764.98<span>£ 849.98</span></p>
             <p><a href="https://lg.com/uk/washing-machines/lg-f6v909wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4V1112BTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 1,169.98<span>£ 1,299.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f4v1112btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6V1110BTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 1,124.98<span>£ 1,249.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f6v1110btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6V1110WTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 1,124.98<span>£ 1,249.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f6v1110wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6V910BTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 854.98<span>£ 949.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f6v910btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6V910WTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 809.98<span>£ 899.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f6v910wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6V909BTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 809.98<span>£ 899.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f6v909btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4V710STSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 746.98<span>£ 829.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f4v710stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4V710WTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 719.98<span>£ 799.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f4v710wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4V709STSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 701.98<span>£ 779.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f4v709stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4V709WTSA</p>
-            <p>Washing Machine</p>
+            <p>Lavatrice</p>
             <p>£ 674.98<span>£ 749.98</span></p>
             <p><a href="https://www.lg.com/it/washing-machines/lg-f4v709wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>FWV1117WTSA</p>
-            <p>Washer Dryer</p>
+            <p>Lavasciuga</p>
             <p>£ 989.98<span>£ 1,099.98</span></p>
             <p><a href="https://www.lg.com/it/washer-dryers/lg-fwv1117wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>FWV1128BTSA</p>
-            <p>Washer Dryer</p>
+            <p>Lavasciuga</p>
             <p>£ 1,169.98<span>£ 1,299.98</span></p>
             <p><a href="https://www.lg.com/it/washer-dryers/lg-fwv1128btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>FWV1117BTSA</p>
-            <p>Washer Dryer</p>
+            <p>Lavasciuga</p>
             <p>£ 1,034.98<span>£ 1,149.98</span></p>
             <p><a href="https://www.lg.com/it/washer-dryers/lg-fwv1117btsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>

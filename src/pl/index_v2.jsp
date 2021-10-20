@@ -221,8 +221,9 @@
     <div id="quiz"></div>
     <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
-        <p class="row-tit">Sustainable Clothing Tips</p>
-        <p class="row-stit">Chcesz poznać więcej sposobów na lepsze dbanie o odzież? Here’s how to better care for your cherished clothes.</p>
+        <p class="row-tit"><i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!
+          <br>Podziel się wynikiem quizu na swoim koncie na Facebooku lub Twitterze i zbierz jak najwięcej reakcji.</p>
+        <p class="row-stit">Zastanawiasz się, jak lepiej pielęgnować ubrania? <br>Oto kilka sposobów, aby lepiej pielęgnować Twoje najcenniejsze ubrania.</p>
     
         <div class="howto_enter">
           <div class="detail">
@@ -248,14 +249,14 @@
             <dl>
               <dt>Ogłoszenie zwycięzcy</dt>
               <dd>
-                <p>zwycięzców zostanie wyłonionych do  30 listopada 2021 r.</p>
+                <p>3 zwycięzców zostanie wyłonionych do 15 listopada 2021 r.</p>
                 <p>Czekaj na wiadomość prywatną.</p>
               </dd>
             </dl>
           </div>
 
           <div class="desc">
-            <i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!<br>Podziel się wynikiem quizu na swoim koncie na Facebooku lub Twitterze i zbierz jak najwięcej reakcji.
+            Wskazówki dotyczące pro-ekologicznego pielęgnowania ubrań
           </div>
         </div>
     
@@ -418,28 +419,28 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Ochrona tkanin</dt>
                   <dd>
                     Wydłuż życie ubrań dzięki funkcji AI DD opartej na algorytmach głębokiego uczenia, która zwiększa skuteczność ochrony tkanin o 18%. <sup>1)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_AIDD_01" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="IG0zDYr-uZo" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Oszczędność energii</dt>
                   <dd>
                     Dzięki funkcji TurboWash<sup>™</sup>360 skrócisz czas prania do 39 minut i zmniejszysz zużycie energii nawet o 28%. <sup>2)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_TurboWash02" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="kZkgkA54vF8" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Oszczędność wody</dt>
                   <dd>
                     Mniejsze zużycie wody dzięki większej pojemności pralki <sup>3)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_Bigger03" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="q-xKTcLTbNY" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>O jedną czynność mniej podczas prania</dt>
                   <dd>
                     System ezDispense automatycznie dozuje ilość detergentu potrzebną do uprania wsadu. Dzięki temu zapobiega marnowaniu detergentu i uwalnia nas od jednej czynności przy włączaniu prania.<sup>4)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_ezDispense04" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="nowCOYPhJJA" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
               </div>
@@ -456,7 +457,7 @@
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature."></i>Ochrona tkanin</dt>
                   <dd>
                     Skuteczniejsza ochrona tkanin dzięki pompie ciepła umożliwiającej suszenie w niższej temperaturze
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Dryer_Dual05" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="oof9jlIxZaw" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
@@ -491,14 +492,14 @@
                   <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Ochrona tkanin podczas suszenia</dt>
                   <dd>
                     Dzięki funkcji suszenia w niskiej temperaturze wysuszysz delikatne ubrania, np. bieliznę lub swetry, szybciej niż na wolnym powietrzu.
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Styler_Gentle06" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="QgdU7ZGmPVI" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>	
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG Styler's less detergent & chemical use feature." title="Icon of LG Styler's less detergent & chemical use feature."></i>Ograniczenie użycia detergentów i chemikaliów</dt>
                   <dd>
                     Gorąca para wytwarzana z czystej wody – odświeżanie ubrań bez użycia agresywnych chemikaliów lub mydeł, często stosowanych przez tradycyjne pralnie chemiczne.<sup>1)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Styler_TrueSteam07" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="YebA6DFpPkk" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">

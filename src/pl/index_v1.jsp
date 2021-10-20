@@ -28,7 +28,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 
     <!-- your css -->
-    <link href="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/css/index_v2.css" type="text/css" rel="stylesheet">
+    <link href="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/css/index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -218,176 +218,106 @@
     </div>
     <!--// clothing_story -->
 
-    <div id="quiz"></div>
-    <div id="box_content2" class="clothing_quiz box_content">
-      <div class="box_row-campaign">
-        <p class="row-tit"><i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!
-          <br>Podziel się wynikiem quizu na swoim koncie na Facebooku lub Twitterze i zbierz jak najwięcej reakcji.</p>
-        <p class="row-stit">Zastanawiasz się, jak lepiej pielęgnować ubrania? <br>Oto kilka sposobów, aby lepiej pielęgnować Twoje najcenniejsze ubrania.</p>
-    
-        <div class="howto_enter">
-          <div class="detail">
-            <dl>
-              <dt>Sposób uczestnictwa</dt>
-              <dd>
-                <p>Weź udział w quizie! Zawiera on 10 pytań.</p>
-                <p>Jeśli udzielisz prawidłowej odpowiedzi, możesz przejść do następnego pytania.
-                  W przypadku błędu, zostanie wyświetlona odpowiedź wraz ze specjalnymi zaleceniami od firmy LG.</p>
-                <p>Nie zapomnij! Jeśli udostępnisz quiz, zyskasz szansę na wygranie jednej z 3 pralko-suszarek LG!</p>
-                <p>Udostępniając quiz, użyj następujących hasztagów: <span class="hashtags">#ZadbajOtoCoNosisz #WskazówkiPro-ekologicznegoPielęgnowaniaUbrań</span></p>
-                <p>Wyniki uzyskane w quizie nie wpływają na udział w wydarzeniu.</p>
-              </dd>
-            </dl>
-          </div>
-          <div class="detail _box2">
-            <dl>
-              <dt>Okres promocji</dt>
-              <dd>
-                <p>20 października ~ 9 listopada 2021</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Ogłoszenie zwycięzcy</dt>
-              <dd>
-                <p>3 zwycięzców zostanie wyłonionych do 15 listopada 2021 r.</p>
-                <p>Czekaj na wiadomość prywatną.</p>
-              </dd>
-            </dl>
-          </div>
-
-          <div class="desc">
-            Wskazówki dotyczące pro-ekologicznego pielęgnowania ubrań
-          </div>
-        </div>
-    
-        <div id="quizWrap" class="quiz_wrap">
-          <div class="quiz_start">
-            <div>
-              <p><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
-              <a href="#" onclick="quizStart();return false;" class="btn_start">START</a>
-            </div>
-          </div>
-          <div class="quiz_end">
-            <p><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qend_txt.png" alt="You have completed the quiz!"></p>
-          </div>
-        </div>
-        <script>
-          const quizData = [
-            {
-              question:'Co zrobić, aby białe ubrania były jeszcze bielsze?',
-              answers:['Użyć detergentu do zmywarki','Użyć mąki','Użyć pasty do zębów'],
-              tips:'Tak, masz dobre informacje. Nabłyszczacze do zmywarki zawierają skuteczne środki czyszczące. Dodaj łyżkę nabłyszczacza do kilku litrów wody i upierz.',
-              product:'wm', usp:'TuboWash360',
-              feedback:'Nie obawiaj się uszkodzenia ubrań. Dzięki funkcji TurboWash™360 ubrania mogą zostać dokładnie uprane w zaledwie 39 minut przy zapewnieniu skutecznej ochrony tkanin. ',
-              qsource:'Linda Cobb'},
-            {
-              question:'Jak usunąć plamę z koszuli?',
-              answers:['Namoczyć w wodzie','Potrzeć','Wyciskać'],
-              tips:'Wyciskaj plamę wielokrotnie, aby ją usunąć. Nie pocieraj, ponieważ możesz uszkodzić tkaninę.',
-              product:'wm', usp:'TurboWash 360',
-              feedback:'Albo, po prostu wybierz pralkę LG z funkcją TurboWash™360, która w zaledwie 39 minut dokładnie upierze ubrania niepozostawiajac żadnych plam na koszuli.',
-              qsource:'Madame Paulette'},
-            {
-              question:'Ile wody potrzeba, aby wyprodukować koszulkę?',
-              answers:['2000 l','2700 l','3000 l'],
-              tips:'Do wyprodukowania jednej koszulki potrzeba 2700 l wody. Taką ilość wody jedna osoba wypija przez ponad 3 lata.',
-              product:'wm', usp:'większa pojemność',
-              feedback:'Wszyscy wiemy, że do uprania i wypłukania ubrań pralka potrzebuje dużo wody. Dzięki pralce LG możesz uprać więcej rzeczy na raz i w ten sposób zmniejszyć zużycie wody.',
-              qsource:'European Parliament'},
-            {
-              question:'Jaki rodzaj detergentu jest najlepszy do usuwania plam?',
-              answers:['Cytrusy','Jagody','Kwiat'],
-              tips:'Do usunięcia plamy wystarczy kropla płynu do zmywania naczyń (mydło na bazie cytrusów — wszystko, co pachnie jak cytryna lub pomarańcza)',
-              product:'wm', usp:'system ezDispense',
-              feedback:'Albo, po prostu wybierz pralkę LG z systemem ezDispense™, który automatycznie dozuje optymalną ilość detergentu. Dzięki systemowi ezDispense do pralki możesz nawet wlać jednocześnie dwa różne rodzaje detergentu. Podczas prania zostanie użyty ten, który jest lepszy do danego wsadu.',
-              qsource:'Madame Paulette'},
-            {
-              question:'Co należy zrobić z ubraniami, które z powodu zawilgocenia pachną stęchlizną?',
-              answers:['Podczas prania dodać szampon','Podczas prania dodać ocet','Podczas prania dodać garść soli'],
-              tips:'Trochę wilgoci pozostaje na ubraniach, niezależnie od tego, jak dobrze wysuszysz je w mieszkaniu. Zapach stęchlizny jest spowodowany wilgocią, która jest uwięziona w tkaninach. Jeśli ubrania pachną stęchlizną, świetnie byłoby użyć wybielacza. Jeśli go nie masz, użyj octu, który jest naturalnym środkiem usuwającym zapachy.',
-              product:'dryer', usp:'suszenie sterowane czujnikami',
-              feedback:'Wysusz dobrze ubrania po raz pierwszy – używając suszarki. Nie musisz obawiać się zapachu stęchlizny! Dzięki czujnikom wilgoci urządzenie z funkcją Sensor Dry automatycznie optymalizuje czas suszenia. Urządzenie jest wyposażone w dwie listwy z czujnikami, które mierzą poziom wilgotności ubrań i umożliwiają automatyczne określenie optymalnego czasu suszenia.',
-              qsource:'Persil'},
-            {
-              question:'Co zrobić, gdy brakuje czasu na suszenie?',
-              answers:['Wysuszyć później','Wrzucić papier toaletowy','Wrzucić suchy ręcznik'],
-              tips:'Gdy brakuje czasu na suszenie, do wsadu dołóż suchy ręcznik. Suchy ręcznik wchłonie część wilgoci, przyspieszając suszenie ubrań. Ręcznik należy wyjąć po kilku minutach. Jeśli suszysz tylko kilka rzeczy, wyjmij ręcznik po 5 minutach. Gdy suszarka jest całkowicie zapełniona, wyjmij go po 15 minutach.',
-              product:'dryer', usp:'technologia Eco Hybrid™',
-              feedback:'Śpieszysz się? Wybierz opcję szybkiego suszenia! Suszarka z pompą ciepła Inverter Heat Pump może regulować prędkość przepływu czynnika chłodniczego, zarówno w trybie Eco Hybrid, jak i w trybie szybkiego suszenia. Wysusz pranie korzystając z trybu szybkiego suszenia! Aby skrócić czas trwania cyklu, sprężarka pracuje z większą prędkością.',
-              qsource:'CNET'},
-            {
-              question:'Czego użyć, gdy skurczy się koszulka?',
-              answers:['Szampon','Odżywka do włosów','Płyn do mycia ciała'],
-              tips:'Czy Twoja Ulubione koszulka zbiegła się? Przez 15 minut namocz skurczone ubranie w letniej wodzie z odrobiną odżywki do włosów, a następnie delikatne rozciągnij je.',
-              product:'dryer', usp:'z pompą ciepła DUAL Inverter Heat Pump™',
-              feedback:'Albo, zapewnij skuteczniejszą ochronę tkanin korzystając z funkcji suszenie w niższej temperaturze, wykorzystującej pompę ciepła.',
-              qsource:'CNET'},
-            {
-              question:'W jaki sposób usunąć zapach dymu tytoniowego?',
-              answers:['Użyć białego octu','rozprowadzić szampon','ozwiesić na zewnątrz'],
-              tips:'Z większości tkanin zapach dymu można usunąć podczas zwykłego prania. Większy problem stanowią tkaniny chłonące zapachy i wrażliwe na pranie, np. wełna. Aby usunąć zapach, do wanny z gorącą wodą wlej 2 kubki białego octu, a następnie rozwieś ubrania na drążku prysznicowym lub drzwiach łazienki. Para z octem usunie zapach dymu.',
-              product:'styler', usp:'funkcja TrueSteam',
-              feedback:'Szafa parowa LG Styler jest wyposażona w technologię TrueSteam™, pozwalającą na szybkie i delikatne usuwanie zapachów z ubrań. Ze względu na użycie pary, tkaniny są oczyszczane i zyskują świeży zapach bez ryzyka uszkodzenia.',
-              qsource:'The Spruce'},
-            {
-              question:'Czy zmiękczacz nadaje się do prania wełny?',
-              answers:['Zawsze','Czasem','Nigdy'],
-              tips:'Wbrew powszechnemu przekonaniu, laboratorium techniczne Woolmark Company w Melbourne twierdzi, że nigdy nie należy używać zmiękczacza!',
-              product:'styler', usp:'suszenie z pompą ciepła',
-              feedback:'Jak uprać wełnę bez użycia zmiękczacza?  Szafa parowa LG Styler jest też wyposażona w pompę ciepła, która umożliwia delikatną pielęgnację wełnianego swetra. Rozłóż sweter na półce i uzyskaj efekt, jak w pralni chemicznej!',
-              qsource:'Woolmark Company Lab'},
-            {
-              question:'Jaki jest najprostszy sposób usuwania zagnieceń z ubrań?',
-              answers:['Rozwieś w łazience','Rozłóż na podłodze','Włóż do lodówki'],
-              tips:'Jeśli nie masz czasu na prasowanie ubrań, po prostu rozwieś je w łazience i weź gorący prysznic. Para spod prysznica usunie zagniecenia z ubrań.',
-              product:'styler', usp:'ruchomy wieszak',
-              feedback:'Opatentowane wieszaki poruszają się na boki 200 razy na minutę, dzięki czemu para wygładza zagniecenia. Zagniecenia z ubrań możesz usunąć w dowolnej chwili.',
-              qsource:'Real Simple'}
-          ]
-          const messageData = {
-              backButton: 'POPRZEDNIE PYTANIE',
-              nextButton: 'NASTĘPNE PYTANIE',
-              unselect: 'Please select an answer!',
-              tipsTitle: 'Become a master of clothing care tips!',
-              another: 'Inna opcja dla ciebie',
-              tryButton: 'ZACZNIJ OD NOWA',
-              shareButton: 'Share',
-              promoTitle: 'Fancy a 10% off promo code?',
-              placeholderName: 'Enter your name',
-              placeholderEmail: 'Enter your E-mail'
-          }
-        </script>
-        <p class="disclm">* Przedstawione tu porady mają wyłącznie charakter poglądowy. Odpowiedzialność za wszelkie szkody, które mogą powstać w wyniku postępowania zgodnie z podanymi informacjami, ponosi wyłącznie użytkownik.</p>
-        <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" >Regulamin promocji</a></p>
-      </div>
-    </div>
-    <!-- clothing_tip(quiz) -->
-
-    <div id="box_content3" class="clothing_howto box_content">
+    <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Ubrania, które wiele dla mnie znaczą</p>
         <p class="row-stit">Jakie piękne wspomnienia kryją się w Twojej szafie?<br>Podziel się ulubionymi wspomnieniami, które wiążą się z ubraniem, i poznaj wspaniałe historie udostępnione przez inne osoby.</p>
         <div class="howto">
-          <div class="pola_wrap">
+          <div class="half-left">
+            <div class="figure">
+              <p class="tag"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/goods_tag.png" alt="Ubrania, które wiele dla mnie znaczą"></p>
+              <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
+              <p class="txt">Podziel się swoją historią, aby wygrać urządzenie LG do pielęgnacji ubrań!</p>		
+            </div>
+            <div class="cta">
+              <p>Szczegółowe informacje o promocji zamieszczono poniżej</p>
+              <div class="sns_link">
+                <a href="https://www.facebook.com/LGPolska/photos/p.4323489764371510/4323489764371510/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/p/CUXmXv0LtjP/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="half-right">
             <ul class="pola_list">
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid01v2.png" alt="Hand tailored suit from our trip to Italy"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid02v2.png" alt="@"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid03v2.png" alt="Dad’s back when he used to write graffiti"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid04v2.png" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid05v2.png" alt="@"></li>
-              <li class="last-child"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid01.jpg" alt="Koszula „udanego wędkowania” z naszych wypraw na ryby"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid02.jpg" alt="Mój chłopak z liceum mówił, że fajnie wyglądam w tej kurtce"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid03.jpg" alt="Ręcznie szyty garnitur z naszej wycieczki do Włoch"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid04.jpg" alt="Tata powrócił do czasów, gdy malował graffiti"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid05.jpg" alt="Nadal nosimy ulubione ubrania na randki z roku 1988"></li>
+              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid06.jpg" alt="Ulubiona bluzka mamy z dinozaurem, którą nosiła 32 lata temu"></li>
             </ul>
-            <ul class="pola_list line_2">
-              <li class="first-child"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid07v2.png" alt="Jacket high school crush said I looked cute in"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid08v2.png" alt="@"></li>
-              <li><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
-            </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Regulamin promocji<i></i></a>
           </div>
         </div>
       </div>
     </div>
     <!--// clothing_howto -->
+    
+    <div id="quiz"></div>
+    <div id="box_content3" class="clothing_quiz box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">Wskazówki dotyczące<br>pro-ekologicznego pielęgnowania ubrań</p>
+        <p class="row-stit">Zastanawiasz się, jak lepiej pielęgnować ubrania? Oto kilka sposobów, aby lepiej pielęgnować Twoje najcenniejsze ubrania.</p>
+        <div class="tip_wrap">
+          <div class="tip_item tip01">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/stips_01.png" alt="Chcesz szybko wysuszyć?" style="max-width:65px;"></span>
+                <span class="title">Chcesz szybko wysuszyć?</span>
+              </div>
+              <p class="desc">Gdy brakuje czasu na suszenie, do suszonego wsadu dołóż suchy ręcznik. Suchy ręcznik wchłonie wilgoć, przyspieszając suszenie ubrań.</p>
+            </div>
+          </div>
+          <div class="tip_item tip02">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/stips_02.png" alt="Ubrania, które się zbiegły" style="max-width:58px;"></span>
+                <span class="title">Ubrania, które się zbiegły</span>
+              </p>
+              <p class="desc">Czy Twoja ulubiona koszulka zbiegła się? Dobry sposób, aby sobie z tym poradzić: przez 15 minut namocz skurczone ubranie w letniej wodzie z odrobiną odżywki do włosów, a następnie delikatne rozciągnij je.</p>
+            </div>
+          </div>
+          <div class="tip_item tip03">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/stips_03.png" alt="Nie ma jak świeża para dżinsów" style="max-width:61px;"></span>
+                <span class="title">Nie ma jak świeża para dżinsów</span>
+              </p>
+              <p class="desc">Chcesz klika razy bez prania zakładać czyste dżinsy? Po noszeniu włóż je do zamrażalnika. Niska temperatura zabije bakterie powodujące nieprzyjemny zapach.</p>
+            </div>
+          </div>
+          <div class="tip_item tip04">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/stips_04.png" alt="Bez nieprzyjemnych zapachów po całonocnej imprezie" style="max-width:74px;"></span>
+                <span class="title">Bez nieprzyjemnych zapachów po całonocnej imprezie</span>
+              </div>
+              <p class="desc">Usuwanie zapachów z grubych tkanin, np. wełnianych, jest trudniejsze niż w przypadku większości ubrań. Aby skutecznie usunąć nieprzyjemne zapachy z takiej odzieży, do wanny z gorącą wodą wlej 2 kubki octu, a następnie rozwieś ubrania na drążku prysznicowym lub drzwiach łazienki, wystawiając je na działanie pary z octem.</p>
+            </div>
+          </div>
+          <div class="tip_item tip05">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/stips_05.png" alt="Oszczędzaj wodę, chroń naszą planetę" style="max-width:74px;"></span>
+                <span class="title">Oszczędzaj wodę, chroń naszą planetę</span>
+              </div>
+              <p class="desc">Czy wiesz, że do wyprodukowania jednej koszulki potrzeba aż 2700 litrów wody. Taką ilość wody jedna osoba wypija przez ponad 3 lata. Im dłużej nosisz ubrania, tym więcej wody oszczędzasz. Chrońmy świat pielęgnując nasze ubrania.</p>
+            </div>
+          </div>
+          <div class="tip_item tip06">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/stips_06.png" alt="Noś ubrania wolne od bakterii" style="max-width:68px;"></span>
+                <span class="title">Noś ubrania wolne od bakterii</span>
+              </div>
+              <p class="desc">Na jak długo trzeba włożyć ubrania do suszarki, aby zniszczyć bakterie? Aby zabić bakterie, włóż pranie do suszarki i włącz program z wysoką temperaturą na przynajmniej 30 minut.</p>
+            </div>
+          </div>
+        </div>
+        <p class="disclm">* Przedstawione tu porady mają wyłącznie charakter poglądowy. Odpowiedzialność za wszelkie szkody, które mogą powstać w wyniku postępowania zgodnie z podanymi informacjami, ponosi wyłącznie użytkownik.</p>
+      </div>
+    </div>
+    <!-- clothing_tip(quiz) -->
 
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="dryer"></div>
@@ -419,28 +349,28 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Ochrona tkanin</dt>
                   <dd>
                     Wydłuż życie ubrań dzięki funkcji AI DD opartej na algorytmach głębokiego uczenia, która zwiększa skuteczność ochrony tkanin o 18%. <sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="IG0zDYr-uZo" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_AIDD_01" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Oszczędność energii</dt>
                   <dd>
                     Dzięki funkcji TurboWash<sup>™</sup>360 skrócisz czas prania do 39 minut i zmniejszysz zużycie energii nawet o 28%. <sup>2)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="kZkgkA54vF8" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_TurboWash02" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Oszczędność wody</dt>
                   <dd>
                     Mniejsze zużycie wody dzięki większej pojemności pralki <sup>3)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="q-xKTcLTbNY" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_Bigger03" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>O jedną czynność mniej podczas prania</dt>
                   <dd>
                     System ezDispense automatycznie dozuje ilość detergentu potrzebną do uprania wsadu. Dzięki temu zapobiega marnowaniu detergentu i uwalnia nas od jednej czynności przy włączaniu prania.<sup>4)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="nowCOYPhJJA" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_WM_ezDispense04" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
               </div>
@@ -457,7 +387,7 @@
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature."></i>Ochrona tkanin</dt>
                   <dd>
                     Skuteczniejsza ochrona tkanin dzięki pompie ciepła umożliwiającej suszenie w niższej temperaturze
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="oof9jlIxZaw" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Dryer_Dual05" target="_blank" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
@@ -492,14 +422,14 @@
                   <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Ochrona tkanin podczas suszenia</dt>
                   <dd>
                     Dzięki funkcji suszenia w niskiej temperaturze wysuszysz delikatne ubrania, np. bieliznę lub swetry, szybciej niż na wolnym powietrzu.
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="QgdU7ZGmPVI" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Styler_Gentle06" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>	
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG Styler's less detergent & chemical use feature." title="Icon of LG Styler's less detergent & chemical use feature."></i>Ograniczenie użycia detergentów i chemikaliów</dt>
                   <dd>
                     Gorąca para wytwarzana z czystej wody – odświeżanie ubrań bez użycia agresywnych chemikaliów lub mydeł, często stosowanych przez tradycyjne pralnie chemiczne.<sup>1)</sup>
-                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="YebA6DFpPkk" class="btn_watch">Obejrzyj<i></i></a></p>
+                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="PL_Styler_TrueSteam07" class="btn_watch">Obejrzyj<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
@@ -573,32 +503,28 @@
         </div>
         <div class="layer_inner">
           <div class="layer_cont">
-            <p class="heading-tit">REGULAMIN KONKURSU <sub>"</sub>„QUIZ O EKOLOGICZNYM PIELĘGNOWANIU UBRAŃ"</p>
+            <p class="heading-tit">REGULAMIN KONKURSU LG <sub>"</sub>UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ"</p>
             <dl>
               <dt>1. POSTANOWIENIA OGÓLNE</dt>
               <dd>
-                <p>1.1. Niniejszy regulamin określa warunki przeprowadzenia konkursu pod nazwą <strong><sub>"</sub>Quiz o ekologicznym pielęgnowaniu ubrań" – dalej zwany <sub>"</sub>Konkursem".</strong></p>
-                <p>1.2. Organizatorem Konkursu jest Loyalty Point Sp. z o.o. z siedzibą w Warszawie, ul. Franciszka
-                  Klimczaka 1, 02-797 Warszawa, wpisana do Krajowego Rejestru Sądowego pod numerem KRS 000491369 (dalej zwany <strong><sub>"</sub>Organizatorem".</strong>).</p>
-                <p>1.3. SSponsorem nagród w Konkursie jest <sub>"</sub>LG Electronics Polska" sp. z o.o. z siedzibą w Warszawie (02-
-                  675) przy ul. Wołoskiej 22, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego pod
-                  numerem KRS: 121072, (dalej zwany <strong><sub>"</sub>Sponsorem".</strong></p>
-                <p>1.4. Konkurs prowadzony jest wyłącznie za pośrednictwem portali społecznościowych Facebook oraz Twitter.</p>
-                <p>1.5. Konkurs nie jest organizowany ani administrowany przez portale społecznościowe Facebook oraz Twitter.</p>
-                <p>1.6. Zgłoszenia do Konkursu trwają od 20 października do 9 listopada 2021 roku.</p>
-                <p>1.7. Wyłanianie Zwycięzców Konkursu odbywa się od 10 do 15 listopada 2021 r.</p>
-                <p>1.8. Wysyłanie nagród trwa do 30 listopada 2021 roku.</p>
+                <p>1.1. Niniejszy regulamin określa warunki przeprowadzenia konkursu pod nazwą <strong><sub>"</sub>Ubrania, które wiele dla mnie znaczą" – dalej zwany „Konkursem".</strong></p>
+                <p>1.2. Organizatorem Konkursu jest Loyalty Point Sp. z o.o. z siedzibą w Warszawie, ul. 
+                  Franciszka Klimczaka 1, 02-797 Warszawa, wpisana do Krajowego Rejestru Sądowego pod numerem KRS 000491369, dalej zwany <strong><sub>"</sub>Organizatorem".</strong></p>
+                <p>1.3. Sponsorem Nagród w Konkursie jest <sub>"</sub>LG Electronics Polska" sp. z o.o. z siedzibą w Warszawie (02-675) przy ul. 
+                  Wołoskiej 22, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego pod numerem KRS 121072, dalej zwany <strong><sub>"</sub>Sponsorem".</strong></p>
+                <p>1.4. Konkurs prowadzony jest wyłącznie za pośrednictwem portali społecznościowych Facebook oraz Instagram.</p>
+                <p>1.5. Konkurs nie jest organizowany ani administrowany przez portale społecznościowe Facebook oraz Instagram.</p>
+                <p>1.6. Nadsyłanie zgłoszeń uprawniających do wzięcia udziału w Konkursie trwa od 29 września do 19 października 2021 roku.</p>
+                <p>1.7. Wyłanianie Zwycięzców Konkursu trwa od 20 do 22 października 2021 roku.</p>
+                <p>1.8. Wysyłanie nagród trwa do 7 listopada 2021 roku.</p>
               </dd>
             </dl>
             <dl>
               <dt>2. WARUNKI UCZESTNICTWA W KONKURSIE</dt>
               <dd>
-                <p>2.1. Konkurs przeznaczony jest wyłącznie dla zamieszkałych na terytorium Rzeczypospolitej Polskiej
-                  pełnoletnich osób fizycznych, posiadających pełną zdolność do czynności prawnych. Osoby te muszą
-                  przez cały czas trwania Konkursu posiadać aktywne konto na portalu społecznościowym Twitter lub
-                  Facebook, które będzie miało status <sub>"</sub>konto publiczne".</p>
-                <p>2.2. W Konkursie nie mogą brać udziału pracownicy i współpracownicy Organizatora oraz Sponsora. W
-                  Konkursie nie mogą brać udziału również członkowie rodzin osób powyżej wymienionych. Przez
+                <p>2.1. Konkurs przeznaczony jest wyłącznie dla zamieszkałych na terytorium Rzeczypospolitej Polskiej pełnoletnich osób fizycznych, posiadających pełną zdolność do czynności prawnych. Osoby te muszą
+                  przez cały czas trwania Konkursu posiadać aktywne konto na portalu społecznościowym Instagram lub Facebook, które będzie miało status <sub>"</sub>konto publiczne".</p>
+                <p>2.2. W Konkursie nie mogą brać udziału pracownicy i współpracownicy Organizatora oraz Sponsora. W Konkursie nie mogą brać udziału również członkowie rodzin osób powyżej wymienionych. Przez
                   członków rodziny, o których mowa powyżej, rozumie się: wstępnych, zstępnych, rodzeństwo, małżonków i osoby pozostające w stosunku przysposobienia.</p>
               </dd>
             </dl>
@@ -606,29 +532,32 @@
               <dt>3. ZASADY PROWADZENIA KONKURSU</dt>
               <dd>
                 <p>3.1. Osoba chcąca wziąć udział w Konkursie powinna w okresie o jakim mowa w ust. 1.6.:</p>
-                <p>a) na portalu społecznościowym Facebook lub Twitter na profilu LG Electronics Polska sp. z o.o. wejść w
-                  wydarzenie <sub>"</sub>Quiz o ekologicznym praniu ubrań",</p>
+                <p>a) na portalu społecznościowym Facebook lub Instagram na profilu LG Electronics Polska sp. z o.o. wejść
+                  w wydarzenie <sub>"</sub>Konkurs Ubrania, które dla mnie wiele znaczą",</p>
                 <p>b) zapoznać się z Regulaminem Konkursu,</p>
-                <p>c) w komentarzu pod wydarzeniem zawierającym informacje o Konkursie napisać <sub>"</sub>potwierdzam", co oznacza zapoznanie się z regulaminem i akceptację jego treści,</p>
-                <p>d) rozwiązać quiz - odpowiedzieć na pytania konkursowe z zakresu wiedzy o ekologicznej pielęgnacji ubrań,</p>
-                <p>e) przy użyciu ikonki „Udostępnij” udostępnić na swoim koncie w portalu społecznościowym Twitter lub
-                  Facebook wynik rozwiązanego quizu oraz dodać do wpisu każdy z następujących hasztagów:<br>
-                  #ZadbajOtoCoNosisz, #WskazówkiPro-ekologicznegoPielegnowaniaUbrań, #UrządzeniaDoPielęgnacjiUbrańLG, #LG</p>
-                <p>3.2. Każdy może zgłosić się do udziału w Konkursie jeden raz. W przypadku kilkukrotnego przystąpienia
-                  do rozwiązania quizu, w rywalizacji konkursowej brane jest pod uwagę tylko pierwsze prawidłowe zgłoszenie.</p>
-                <p>3.3. Niespełnienie warunków opisanych w ust. 3.1. powoduje iż zgłoszenie Uczestnika nie bierze udziału w Konkursie.</p>
+                <p>c) zamieścić na portalu społecznościowym Instagram lub Facebook na swoim koncie albo na koncie Organizatora jako komentarz pod wydarzeniem <sub>"</sub>Konkurs Ubrania, które dla mnie wiele znaczą" treść:
+                  <sub>"</sub>potwierdzam" oznaczającą zapoznanie się z Regulaminem Konkursu i akceptację jego treści, a następnie w tym samym wpisie wykonać zadanie konkursowe opisane w pkt 3.2. oraz dodać do wpisu
+                  każdy z następujących hasztagów:<br>
+                  #ZadbajOtoCoNosisz, #UbraniaKtóreWieleDlaMnieZnaczą, #UrządzeniaDoPielęgnacjiUbrańLG, #LG</p>
+                <p>3.2. Wykonanie zadania konkursowego o jakim mowa w ust. 3.1. lit. c) oznacza stworzenie wpisu (posta) zawierającego opowieść o ulubionym ubraniu Uczestnika, które ma dla niego szczególne
+                  znaczenie. Wpis może być opatrzony zdjęciem zawierającym opisywane ubranie, jednak nie jest to warunek konieczny.</p>
+                <p>3.3. Każdy może zgłosić się do udziału w Konkursie dowolną ilość razy, z zastrzeżeniem ust. 4.4.</p>
+                <p>3.4. W przypadku dodania w zadaniu konkursowym zdjęcia o jakim mowa w ust. 3.2. <strong>zdjęcie to nie powinno przedstawiać wizerunku żadnych osób fizycznych.</strong></p>
+                <p>3.5. Załączone zdjęcie powinno być w formacie JPG lub PNG i mieć rozmiar nie większy niż 5 MB.</p>
+                <p>3.6. O czasie zgłoszenia do Konkursu, decyduje chwila rejestracji w systemie komputerowym
+                  Organizatora. Zgłoszenia w czasie innym niż wskazany w ust. 1.6 . nie biorą udziału w Konkursie.</p>
+                <p>3.7. Zgłoszenia niespełniające warunków opisanych w niniejszym rozdziale nie biorą udziału w Konkursie.</p>
               </dd>
             </dl>
             <dl>
               <dt>4. NAGRODY</dt>
               <dd>
                 <p>4.1. Nagrodami w Konkursie są:</p>
-                <p>a) 3 (trzy) pralko-suszarki LG Vivace o wartości 2499,- zł brutto każda, dalej zwane <strong><sub>"</sub>Nagrodami".</strong></p>
-                <p>4.2. Zwycięzcom Konkursu nie przysługuje prawo do zastrzeżenia szczególnych właściwości Nagród ani
+                <p>a) 3 (trzy) pralko-suszarki LG Vivace o wartości 2499,- zł brutto każda, dalej zwanych <strong><sub>"</sub>Nagrodami".</strong></p>
+                <p>4.2. Zwycięzcom Konkursu nie przysługuje prawo do zastrzeżenia szczególnych właściwości nagród ani
                   otrzymania ich ekwiwalentu rzeczowego ani pieniężnego.</p>
                 <p>4.3. Zwycięzcom Konkursu, którzy odbiorą Nagrody, zostanie przyznana dodatkowa nagroda pieniężna
-                  w wysokości 275,00 zł. Dodatkowa nagroda pieniężna nie zostanie wypłacona Zwycięzcom, a
-                  przeznaczone będzie na zapłatę zryczałtowanego podatku dochodowego od osób fizycznych. Płatność
+                  w wysokości 275,00 zł. Dodatkowa nagroda pieniężna nie zostanie wypłacona Zwycięzcom, a przeznaczone będzie na zapłatę zryczałtowanego podatku dochodowego od osób fizycznych. Płatność
                   podatku zostanie dokonana na konto właściwego organu podatkowego przez Organizatora.</p>
                 <p>4.4. Każdy Uczestnik może wygrać tylko jedną Nagrodę w Konkursie. W przypadku ustalenia, że
                   Uczestnik wygrał już jedną Nagrodę w Konkursie, nie uzyskuje on prawa do kolejnej Nagrody.</p>
@@ -639,24 +568,23 @@
               <dd>
                 <p>5.1. Nagrody w Konkursie przyznawane są przez Komisję Konkursową, w której skład wchodzą trzy osoby wskazane przez Organizatora oraz przez Sponsora.</p>
                 <p>5.2. Wyłanianie laureatów Konkursu odbędzie się w siedzibie Organizatora spośród wszystkich prawidłowych zgłoszeń konkursowych.</p>
-                <p>5.3. Nagrody w Konkursie zostają przyznane trzem Uczestnikom, którzy pod udostępnionymi wynikami
-                  quizu zebrali największą ilość reakcji innych użytkowników portali Twitter lub Facebook. W przypadku
-                  identycznej liczby reakcji dla kilku postów, pod uwagę brana jest wcześniejsza data publikacji posta.
-                  Komisja wybiera także trzech Dodatkowych Zwycięzców, z największą ilością reakcji, kolejno
-                  zajmujących miejsca od czwartego do szóstego. Osoby te uzyskają prawo do nagrody w sytuacji, gdyby
-                  któryś ze zwycięzców utracił do niej prawo z przyczyn o jakich mowa w Regulaminie i dopiero wówczas
-                  zostaną o tym poinformowani.</p>
-                <p>5.4. Najpóźniej w dniu 30 listopada 2021 roku na profilach LG Polska na portalach społecznościowych
-                  Facebook oraz Twitter, ogłoszone zostaną wyniki Konkursu publikujące imiona Zwycięzców oraz ilość
-                  reakcji zebranych pod postem każdego z nich.</p>
+                <p>5.3. Komisja Konkursowa wyłaniając Zwycięzców bierze pod uwagę najciekawsze opowieści i
+                  najpiękniejsze historie opisane przez Uczestników. Poza trzema Zwycięzcami, Komisja wybiera także
+                  trzech Dodatkowych Zwycięzców, kolejno zajmujących miejsca od czwartego do szóstego. Osoby te
+                  uzyskają prawo do nagrody w sytuacji, gdyby któryś ze zwycięzców utracił do niej prawo z przyczyn o
+                  jakich mowa w Regulaminie i dopiero wówczas zostaną o tym poinformowani.</p>
+                <p>5.4. Najpóźniej w dniu 7 listopada 2021 roku na profilach LG Electronics Polska na portalach
+                  społecznościowych Facebook oraz Instagram ogłoszone zostaną wyniki Konkursu publikujące zwycięskie
+                  zgłoszenia i imiona Zwycięzców.</p>
               </dd>
             </dl>
             <dl>
               <dt>6. POWIADOMIENIE O WYGRANEJ, WYDAWANIE NAGRÓD</dt>
               <dd>
-                <p>6.1. Każdy Zwycięzca, który uzyskał prawo do nagrody, do 18 listopada 2021 r. powiadamiany jest przez
-                  LG Electronics Polska o wygranej w formie prywatnej wiadomości na portalu społecznościowym
-                  Facebook lub Twitter, w zależności od tego za pośrednictwem, którego z tych portali wziął udział w Konkursie.</p>
+                <p>6.1. Każdy Zwycięzca, który uzyskał prawo do nagrody, do 15 października 2021 r. powiadamiany jest
+                  przez LG Electronics Polska o wygranej w formie prywatnej wiadomości na portalu społecznościowym
+                  Facebook lub Instagram, w zależności od tego za pośrednictwem, którego z tych portali wziął udział w
+                  Konkursie.</p>
                 <p>6.2. W wiadomości o uzyskaniu prawa do nagrody LG Electronics Polska informuje uczestnika o
                   konieczności przesłania w formie zwrotnej wiadomości informacji o danych adresowych (imieniu i
                   nazwisku, adresie zamieszkania na terytorium Rzeczypospolitej Polskiej, numerze telefonu), na jakie ma
@@ -675,32 +603,31 @@
                 <p>7.1. Dane osobowe uczestników Konkursu będą przetwarzane zgodnie z Rozporządzeniem Parlamentu
                   Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w
                   związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz
-                  uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) dalej „RODO”. Poniżej
+                  uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) dalej <sub>"</sub>RODO". Poniżej
                   przedstawiono szczegółowe informacje dotyczące przetwarzania danych uczestników w ramach
                   Konkursu.</p>
-                <p>7.2. Administratorem danych osobowych uczestników Promocji jest LG Electronics Polska spółka z
+                <p>7.2. Administratorem danych osobowych uczestników Konkursu jest LG Electronics Polska spółka z
                   ograniczoną odpowiedzialnością z siedzibą w Warszawie, ul. Wołoska 22, 02-675 Warszawa, wpisana do
                   rejestru przedsiębiorców przez Sąd Rejonowy dla m.st. Warszawy w Warszawie, XIII Wydział
                   Gospodarczy Krajowego Rejestru Sądowego, pod nr KRS 0000121072, NIP: 521-22-14-808, Regon:
-                  012449587, kapitał zakładowy w wysokości 28.367.000 złotych (dalej: <sub>"</sub>LG" lub <sub>"</sub>Administrator”).
+                  012449587, kapitał zakładowy w wysokości 28.367.000 złotych (dalej: <sub>"</sub>LG" lub <sub>"</sub>Administrator").
                   Inspektorem danych osobowych jest Pani Jung Ryu.</p>
                 <p>7.3. W razie wątpliwości związanych z przetwarzaniem dotyczących danych osobowych uczestników
                   Konkursu możliwy jest kontakt z powołanym przez Administratora Inspektorem Ochrony Danych pod
                   adresem: dpo-eu@lge.com lub iodo@lge.pl bądź pisemnie na adres Administratora.</p>
                 <p>7.4. Dane osobowe uczestnika będą przetwarzane na podstawie:</p>
-                <p>a) art. 6 ust. 1 lit. f. RODO (prawnie uzasadniony interes Administratora) – przez który należy rozumieć :<br>
-                  - przeprowadzenie Konkursu <sub>"</sub>QUIZ O EKOLOGICZNYM PIELĘGNOWANIU UBRAŃ",
-                  - dochodzenie i obrona przed roszczeniami uczestników Konkursu <sub>"</sub>QUIZ O EKOLOGICZNYM PIELĘGNOWANIU UBRAŃ".</p>
-                <p>b) art.6 ust.1 lit c RODO - wydanie Nagród i udokumentowania tego faktu na potrzeby podatkowe i
-                  wynikające z przepisów o rachunkowości w celu wypełnienia obowiązków nałożonych obowiązującymi przepisami prawa.</p>
+                <p>a) art. 6 ust. 1 lit. f. RODO (prawnie uzasadniony interes Administratora) – przez który należy rozumieć :</p>
               </dd>
               <dd class="dd_push">
                 <p>- przeprowadzenie Konkursu <sub>"</sub>UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ",</p>
                 <p>- dochodzenie i obrona przed roszczeniami uczestników Konkursu <strong><sub>"</sub>UBRANIA, KTÓRE WIELE DLA MNIE ZNACZĄ".</strong></p>
               </dd>
               <dd>
+                <p>b) art.6 ust.1 lit c RODO - wydanie Nagród i udokumentowania tego faktu na potrzeby podatkowe i
+                  wynikające z przepisów o rachunkowości w celu wypełnienia obowiązków nałożonych obowiązującymi
+                  przepisami prawa.</p>
                 <p>7.5. Dane osobowe Uczestników będą przetwarzane przez okres niezbędny do realizacji Konkursu i
-                  okresu reklamacyjnego nie dłużej niż do 7.12.2021 roku oraz przechowywane do momentu
+                  okresu reklamacyjnego nie dłużej niż do 17.11.2021 roku oraz przechowywane do momentu
                   przedawnienia roszczeń lub wygaśnięcia obowiązków podatkowych, zgodnie z przepisami prawa oraz
                   wycofania zgody lub zakończenia działań marketingowych prowadzonych przez Administratora.</p>
                 <p>7.6. Uwzględniając strukturę organizacyjną Administratora oraz jego podporządkowanie organizacyjne
@@ -713,23 +640,21 @@
                   ze wskazaniem państwa, w którym mają one swoją siedzibę, można znaleźć <strong>w tym miejscu.</strong></p>
                 <p>W celu zapewnienia odpowiedniego stopnia tej ochrony, Administrator korzysta z wszelkich możliwych
                   środków mających na celu zapewnienie bezpieczeństwa przekazywanych danych osobowych, w tym w
-                  szczególności: - opiera przekazywanie danych na decyzji Komisji Europejskiej stwierdzających
-                  odpowiedni stopień ochrony w określonym Państwie, zgodnie z art. 45 ust. 1 RODO. - zawiera tzw.
+                  szczególności: - opiera przekazywanie danych na decyzji Komisji Europejskiej stwierdzających</p>
+                <p>odpowiedni stopień ochrony w określonym Państwie, zgodnie z art. 45 ust. 1 RODO. - zawiera tzw.
                   standardowe klauzule umowne wydane przez Komisję Europejską zgodnie z art. 46 ust. 2 lit. c RODO
                   zapewniające bezpieczeństwo przekazywanych danych osobowych. Więcej informacji dotyczących
                   stosowanych zabezpieczeń w tym ich kopię można uzyskać od Administratora, zwracając się na jego
                   adres podany powyżej lub pod adresem mailowym Inspektora ochrony danych.</p>
-
                 <p>7.7. <strong>Dostęp do danych osobowych uczestników Konkursu mogą mieć następujące podmioty:</strong> firmy
                   świadczące usługi lub dostarczające rozwiązania informatyczne, firmy archiwizujące i niszczące
-                  dokumenty, firmy zajmujące się realizacją nagród, firmy świadczące usługi kurierskie i pocztowe, firmy
-                  wspierające Administratora w prowadzeniu działań marketingowych, spółki wchodzące w skład grupy
-                  kapitałowej Administratora.</p>
+                  dokumenty, firmy świadczące usługi kurierskie i pocztowe, firmy wspierające Administratora w
+                  prowadzeniu działań marketingowych, spółki wchodzące w skład grupy kapitałowej Administratora.</p>
                 <p>7.8. Uczestnikowi przysługuje prawo żądania dostępu do danych osobowych, ich sprostowania,
                   usunięcia, lub ograniczenia przetwarzania, prawo do przenoszenia danych, a także prawo do wniesienia
                   sprzeciwu wobec przetwarzania jego danych osobowych na podstawie prawnie uzasadnionych
                   interesów Organizatora. W celu skorzystania z przysługujących praw uczestnik powinien skontaktować
-                  się z Administratorem i przesłać wiadomość na adres: dpo-eu@lge.com lub iodo@lge.pl lub adres
+                  się z Administratorem i przesłać wiadomość na adres: <strong>dpo-eu@lge.com lub iodo@lge.pl</strong> lub adres
                   korespondencyjny Administratora. W przypadku żądania usunięcia, ograniczenia lub wniesienia
                   sprzeciwu wobec przetwarzania danych uniemożliwiającego wykonywanie przez Organizatora czynności
                   w ramach Konkursu, do których niezbędne jest przetwarzanie danych osobowych uczestnika, żądanie
@@ -744,11 +669,11 @@
             <dl>
               <dt>8. POSTĘPOWANIE REKLAMACYJNE</dt>
               <dd>
-                <p>8.1. Wszelkie reklamacje dotyczące sposobu przeprowadzenia Konkursu Uczestnicy powinni zgłaszać
-                  Organizatorowi w formie wiadomości e-mail na adres kontakt@strefalg.pl.</p>
+                <p>8.1. Wszelkie reklamacje dotyczące sposobu przeprowadzenia Konkursu Uczestnicy powinni zgłaszać Organizatorowi w formie wiadomości e-mail na adres kontakt@strefalg.pl</p>
                 <p>8.2. Reklamacja powinna zawierać imię i nazwisko Uczestnika, datę i miejsce zdarzenia, którego dotyczy
                   roszczenie, nazwę Konkursu, jak również dokładny opis i powód reklamacji oraz treść żądania.</p>
-                <p>8.3. Reklamacje wysłane w formie wiadomości e-mail powinny być zatytułowane <sub>"</sub>Quiz - Reklamacja".</p>
+                <p>8.3. Reklamacje wysłane w formie wiadomości e-mail powinny być zatytułowane <sub>"</sub>Ubrania, które wiele
+                  dla mnie znaczą - Reklamacja".</p>
                 <p>8.4. Reklamacje rozpatrywane są w ciągu 14 dni od dnia ich otrzymania. O rozpatrzeniu reklamacji
                   uczestnicy są powiadamiani w formie wiadomości e-mail.</p>
               </dd>
@@ -763,41 +688,6 @@
                 <p>9.3. Niniejszy regulamin Konkursu dostępny jest w siedzibach Organizatora oraz Sponsora, w dni
                   powszednie od poniedziałku do piątku w godz. od 9:00-17:00 oraz na portalach społecznościowych
                   Facebook oraz Instagram na profilu Organizatora.</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Quiz Sources:</dt>
-              <dd>
-                1. <a href="https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/" target="_blank">https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/</a>
-              </dd>
-              <dd>
-                2. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
-              </dd>
-              <dd>
-                3. <a href="https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic" target="_blank">
-                  https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic</a>
-              </dd>
-              <dd>
-                4. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
-              </dd>
-              <dd>
-                5. <a href="https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html" target="_blank">
-                  https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html</a>
-              </dd>
-              <dd>
-                6. <a href="https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/" target="_blank">https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/</a>
-              </dd>
-              <dd>
-                7. <a href="https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/" target="_blank">https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/</a>
-              </dd>
-              <dd>
-                8. <a href="https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080" target="_blank">https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080</a>
-              </dd>
-              <dd>
-                9. <a href="https://eco-age.com/resources/how-care-wool/" target="_blank">https://eco-age.com/resources/how-care-wool/</a>
-              </dd>
-              <dd>
-                10. <a href="https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes" target="_blank">https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes</a>
               </dd>
             </dl>
           </div>
@@ -920,16 +810,9 @@
       $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
       $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
     }
-    $('.quiz_wrap').find('.item').on('click', function(){
-      $('.q_items').find('.is-wrong').removeClass('is-wrong')
-    });
   });
-  function quizStart() {
-    $('.quiz_start').css('display', 'none')
-  }
 </script>
 <script type="text/javascript" src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/js/clothing_campaign.js"></script>
-<script type="text/javascript" src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/js/quiz.js"></script>
 </body>
 
 </html>

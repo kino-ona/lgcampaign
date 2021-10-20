@@ -184,6 +184,7 @@
       </div>
     </div>
 
+    <div id="quiz"></div>
     <div id="box_content1" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Consejos para alargar la vida de tu ropa y ser más sostenible</p>
@@ -379,7 +380,8 @@
     </div>
     <!--// clothing_product -->
 
-    <div class="box_row-campaign box_content">
+    <div id="promo"></div>
+    <!-- <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">
           <p>Use 'LG10' at checkout<br>to receive 10% off<br>on selected Laundry products<span>Plus free delivery, installation and disposal</span></p>
@@ -436,7 +438,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="box_row-campaign box_content">
       <div class="rending-button">

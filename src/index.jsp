@@ -305,6 +305,7 @@
     </div>
     <!--// clothing_sustain -->
 
+    <div id="quiz"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
@@ -497,6 +498,7 @@
     </div>
     <!--// clothing_product -->
 
+    <div id="promo"></div>
     <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">

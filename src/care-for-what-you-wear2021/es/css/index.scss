@@ -273,7 +273,7 @@
 	.box_navigation .box_navigation-inner{position: relative;max-width: 1284px;margin: 0 auto;z-index: 100;}
 	.box_navigation .list_navigation{display:flex;width:100%}
 	.box_navigation .list_navigation .list-item{width:50%;}
-	.box_navigation .list_navigation .link{display:block;position:relative;padding: 20px 0;font-weight: 700;text-align: center;white-space: nowrap;color:#6b6b6b}
+	.box_navigation .list_navigation .link{display:block;position:relative;padding: 20px 0 16px;font-size:18px;font-weight: 700;text-align: center;white-space: nowrap;color:#6b6b6b}
 	.box_navigation .list_navigation .link:hover{text-decoration:none;color:#000}
 	.box_navigation .list_navigation .list-item.active .link{color:#000}
 	.box_navigation .list_navigation .list-item.active .link::after,
@@ -626,14 +626,15 @@
 					background: {
 						image: url(/es/electrodomesticos/cuida-tu-ropa-2021/images/mvisual_elimg01.png);
 						repeat: no-repeat;
-						position: right 10px bottom 15px;
-						size:20%;
+						position: right 15px bottom 15px;
+						size:17%;
 					}
 					-webkit-transition: bottom 0.4s ease-in-out;
 					transition: bottom 0.4s ease-in-out;
 					p {
+						padding-right:20px;
 						margin-bottom:5px;
-						font-size:30px;
+						font-size:25px;
 						font-weight:700;
 						line-height:1;
 						color:rgba(255, 255, 255, 1);
@@ -642,7 +643,7 @@
 					}
 					> span {
 						margin-top:5px;
-						font-size:20px;
+						font-size:17px;
 						color:#fff;
 						opacity:1;
 					}

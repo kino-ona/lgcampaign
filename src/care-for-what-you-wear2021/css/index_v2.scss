@@ -1045,22 +1045,22 @@
 				}
 				.btn_yt {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_youtube.png);
+						background-image: url('/uk/appliances/care-for-what-you-wear-2021/images/ico_youtube.png');
 					}
 				}
 				.btn_fb {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_facebook.png);
+						background-image: url('/uk/appliances/care-for-what-you-wear-2021/images/ico_facebook.png');
 					}
 				}
 				.btn_ins {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_instagram.png);
+						background-image: url('/uk/appliances/care-for-what-you-wear-2021/images/ico_instagram.png');
 					}
 				}
 				.btn_tw {
 					i {
-						background-image: url(/uk/appliances/care-for-what-you-wear-2021/images/ico_twitter.png);
+						background-image: url('/uk/appliances/care-for-what-you-wear-2021/images/ico_twitter.png');
 					}
 				}
 			}
@@ -1146,6 +1146,17 @@
 		}
 		.list_tab-nav {
 			margin-bottom:40px;
+			.link {
+				padding:11px 0 12px;
+				text-align: center;
+				z-index: 1;
+				&.active, &:hover {
+					&:before {
+						background-size:auto 30px;
+						background-position:center bottom;
+					}
+				}
+			}
 		}
 		.box_tab-view {
 			max-width:1220px;

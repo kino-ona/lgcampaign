@@ -8493,6 +8493,7 @@ var campaign_quiz = (function () {
     }
 
     function refresh() {
+      $('.quiz_end').css('display', 'none');
       $('.quiz_start').css('display', 'flex');
       $$invalidate(2, currentQuiz = 0);
       var delay = setTimeout(function(){

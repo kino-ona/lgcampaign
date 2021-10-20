@@ -387,6 +387,7 @@
 			</div>
 			<!--// clothing_howto -->
 	
+			<div id="quiz"></div>
 			<div id="box_content3" class="clothing_quiz box_content">
 				<div class="box_row-campaign">
 					<p class="row-tit">Wskazówki dotyczące<br>pro-ekologicznego pielęgnowania ubrań</p>
@@ -452,6 +453,9 @@
 			</div>
 			<!-- clothing_tip(quiz) -->
 	
+			<div class="anchors" id="washer"></div>
+			<div class="anchors" id="drayer"></div>
+			<div class="anchors" id="styler"></div>
 			<div id="box_content4" class="clothing_product box_row-campaign box_content">
 				<p class="row-tit">Poznaj urządzenia LG do pielęgnacji ubrań</p>
 				<p class="row-stit">Sposób, w jaki pielęgnujemy ubrania, bezpośrednio wpływa na środowisko.<br>Innowacje LG w dziedzinie pielęgnowania ubrań zwiększają trwałość odzieży i pomagają ograniczyć ilość odpadów tekstylnych, przyczyniając się do zapewnienia lepszej przyszłości naszej planety.</p>
@@ -576,6 +580,7 @@
 			</div>
 			<!--// clothing_product -->
 	
+			<div id="promo"></div>
 			<div class="box_row-campaign box_content">
 				<div class="promotion_banner">
 					<div class="promo_left">
@@ -800,10 +805,6 @@
 			<div class="pop_vodframe">
 				<div class="pop_vodframe-inner"><button class="btn-close"><span class="a11y">close</span></button><div class="movie-box"></div></div>
 			</div>
-
-			
-
-
 
 			<!-- clothingcare-terms_pop -->
 			<div class="layer_body popup clothingcare-terms_pop" id="clothingcare-terms_pop" aria-hidden="true" role="dialog">
@@ -1061,6 +1062,28 @@
 				'event': 'dataLayer',
 				'dataLayer': _dl,
 				'standardData': standardData
+			});
+			
+			$(document).ready(function(){
+				var href = window.location.href;
+				if(href.indexOf('washer') != -1) {
+					$('.clothing_product .list_tab-nav .link').removeClass('active');
+					$('.clothing_product .list_tab-nav .link').eq(0).addClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').eq(0).addClass('active');
+				}
+				if(href.indexOf('dryer') != -1) {
+					$('.clothing_product .list_tab-nav .link').removeClass('active');
+					$('.clothing_product .list_tab-nav .link').eq(1).addClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').eq(1).addClass('active');
+				}
+				if(href.indexOf('styler') != -1) {
+					$('.clothing_product .list_tab-nav .link').removeClass('active');
+					$('.clothing_product .list_tab-nav .link').eq(2).addClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').removeClass('active');
+					$('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
+				}
 			});
 		</script>
 
