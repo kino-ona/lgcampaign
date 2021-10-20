@@ -2184,8 +2184,9 @@
 	.promo_left {
 		flex:.9;
 		p {
+			padding-right:10%;
 			padding-bottom:25px;
-			font-size:56px;
+			font-size:50px;
 			font-weight: 700;
 			line-height:1.1;
 			> span {
@@ -2238,7 +2239,12 @@
 			top:5px;
 		}
 		.figure {
+			position:relative;
+			width:100%;
+			max-width:110px;
+			max-height:160px;
 			margin-bottom:15px;
+			overflow: hidden;
 		}
 		.model_name {
 			min-height:65px;
