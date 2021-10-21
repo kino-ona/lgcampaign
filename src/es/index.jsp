@@ -469,6 +469,14 @@
             <li class="list-item">3) Testado por TUV SUD que reduce el 99,9% de las bacterias (staphylococcus aureus, pseudomonas aeruginosa y klebsiella pneumoniae).</li>
           </ul>
         </div>
+        <div class="box_product-info">
+          <strong class="text_strong">LG Styler</strong>
+          <ul class="list_detail-info">
+            <li class="list-item">1) Basado en un estudio finalizado el 20.04.2020 por el Laboratorio de Virología Molecular del Instituto de Investigación de Zoonosis de 
+              Corea del Sur de la Jeonbuk National University de Seúl. La utilización del programa Sanitary-heavy (duración del programa: entre 113 y 132 min.) 
+              de los modelos LG Styler (denominado comercialmente “LG Vapor Cleaner Styler”) S3, S5P y S5B entre 3 y 5 prendas (según modelo de producto testado) de composición 100% algodón en las cuales se han incluido muestras con un tamaño de 1 x 1 cm de 5 X 106 GFP transducidas unidades/50 μl del coronavirus humano 229E. Estudio realizado con una temperatura de 23 ± 1ºC y una humedad de 40 ± 5%. Elimina hasta un 99.99% de las muestras de coronavirus humano 229E. Estudio basado únicamente en el análisis del coronavirus humano 229E y no en el SARS – Covid19.</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="pop_ytiframe">
