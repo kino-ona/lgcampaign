@@ -1922,7 +1922,7 @@
 		}
 	} // .clothing_project
 }
-.pop_ytiframe {
+.pop_ytiframe, .pop_vodframe {
 	display: none;
 	position: fixed;
 	left: 0;
@@ -1931,7 +1931,7 @@
 	height: 100%;
 	z-index: 30001;
 	background-color: rgba(0,0,0, .8);
-	.pop_ytiframe-inner {
+	.pop_ytiframe-inner, .pop_vodframe-inner {
 		position: absolute;
     left: 50%;
     top: 50%;
@@ -1958,6 +1958,9 @@
     width: 100%;
     height: 100%;
     z-index: 11;
+	}
+	.vodframe {
+		width:100%;
 	}
 	.btn-close {
 		position:absolute;

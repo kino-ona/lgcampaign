@@ -12,13 +12,17 @@
     <meta name="theme-color" content="#a50034" />
 
     <title>Zadbaj o to co nosisz - Sprzęt AGD | LG Polska</title>
+    <link rel="canonical" href="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
     <meta name="keywords" content="Zadbaj o to co nosisz, Sprzęt AGD LG, Ochrona tkanin" />
     <meta name="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:title" content="Zadbaj o to co nosisz - Sprzęt AGD | LG Polska" />
-    <meta property="og:url" content="http://www.lg.com/pl/sprzet-agd/" />
-    <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
-    <meta property="og:image" content="@" />
-    <link rel="canonical" href="http://www.lg.com/it" />
+    <meta itemprop="url" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
+    <meta property="og:url" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
+		<meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last.">
+    <meta itemprop="image"     content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+    <meta property="og:image"  content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+    <meta name="twitter:image" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+    <meta name="thumbnail" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
@@ -38,10 +42,13 @@
 
   <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
       <meta itemprop="name" content="Zadbaj o to co nosisz - Sprzęt AGD | LG Polska" />
-      <meta itemprop="image" content="@" />
-      <meta itemprop="url" content="http://www.lg.com/pl" />
+      <meta itemprop="url" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
       <meta itemprop="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
       <meta itemprop="Keywords" content="Zadbaj o to co nosisz, Sprzęt AGD LG, Ochrona tkanin" />
+      <meta itemprop="image"     content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+      <meta property="og:image"  content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+      <meta name="twitter:image" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+      <meta name="thumbnail" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
   </div>
 
   <c:set var='bizType' value='${$bizType }' />
@@ -63,7 +70,7 @@
         </a><meta itemprop="position" content="1">
       </li>
 			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-				<a href="/pl/SPRZĘT AGD" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
+				<a href="/pl/sprzet-agd" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
 				<span itemprop="name">SPRZĘT AGD</span></a>
 				<meta itemprop="position" content="2">
 			</li>

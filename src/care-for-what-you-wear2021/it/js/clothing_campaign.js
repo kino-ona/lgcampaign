@@ -170,14 +170,22 @@ $(document).ready(function(){
 });
 $('.clothing-campaign .btn_watch').on('click', function(){
 	var movieCode = $(this).attr('id');
-	$('.clothing-campaign').find('.pop_ytiframe').css('display','block')
-	$('.clothing-campaign .pop_ytiframe-inner').find('.movie-box').append('<iframe width="100%" height="100%" frameborder="0" src="https://www.youtube.com/embed/'+movieCode+'?enablejsapi=1&rel=0&showinfo=0&hl=en" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen=""></iframe>');
+	if($(this).data("type") == 'vodtype') {
+		$('.clothing-campaign').find('.pop_vodframe').css('display','block')
+		$('.clothing-campaign .pop_vodframe-inner').find('.movie-box').append('<video class="vodframe" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline><source src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/'+movieCode+'.mp4" type="video/mp4" autostart="false"></video>');
+		$('.clothing-campaign .pop_vodframe-inner').find('.vodframe').get(0).play();
+	} else {
+		$('.clothing-campaign').find('.pop_ytiframe').css('display','block')
+		$('.clothing-campaign .pop_ytiframe-inner').find('.movie-box').append('<iframe width="100%" height="100%" frameborder="0" src="https://www.youtube.com/embed/'+movieCode+'?enablejsapi=1&rel=0&showinfo=0&hl=en" frameborder="0" allow=" autoplay; encrypted-media;" allowfullscreen=""></iframe>');
+	}
 	
 	return false;
 })
-$('.clothing-campaign .pop_ytiframe .btn-close').on('click', function(){
+$('.clothing-campaign .pop_ytiframe .btn-close, .clothing-campaign .pop_vodframe .btn-close').on('click', function(){
 	$('.clothing-campaign').find('.pop_ytiframe').css('display','none')
+	$('.clothing-campaign').find('.pop_vodframe').css('display','none')
 	$('.clothing-campaign .pop_ytiframe').find('iframe').remove();
+	$('.clothing-campaign .pop_vodframe').find('video').remove();
 })
 
 $('.promotion_banner .lnk05').on('click', function(){

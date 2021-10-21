@@ -1550,7 +1550,7 @@
 				size:cover;
 				position:center center;
 			}
-			z-index: 10;
+			z-index: 12;
 			> div {
 				max-width:680px;
 				margin:0 auto;
@@ -1682,6 +1682,7 @@
 					position: center center;
 				}
 				cursor: pointer;
+				z-index: 11;
 			}
 			margin-bottom: 25px;
 		}
@@ -2534,7 +2535,7 @@
 	margin-bottom:40px;
 	background: {
 		color:#f9f9f9;
-		image: url(/uk/appliances/care-for-what-you-wear-2021/images/promotion_bg.png);
+		image: url('/uk/appliances/care-for-what-you-wear-2021/images/promotion_bg.png');
 		position:left bottom;
 		repeat: no-repeat;
 		size:auto;
@@ -2600,6 +2601,9 @@
 		}
 		.figure {
 			margin-bottom:15px;
+			img {
+				max-height:150px;
+			}
 		}
 		.model_name {
 			min-height:65px;

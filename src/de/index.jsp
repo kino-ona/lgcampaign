@@ -11,11 +11,11 @@
     <!-- chrome audits -->
     <title>Care For What You Wear 2021| LG Deutschland</title>
     <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, net-a-porter, washing machine, dryer, styler, nachhaltigkeit, wäschepflege, waschmaschine, trockner, waschtrockner, home appliances, lg haushaltsgeräte, haushaltsgeräte" />
-    <meta name="description" content="LG hat die neue Kampagne “Care For What You Wear” gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
+    <meta name="description" content="LG hat die neue Kampagne 'Care For What You Wear' gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
     <meta property="og:title" content="Care For What You Wear 2021| LG Deutschland" />
     <meta property="og:url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
     <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
-    <meta property="og:image" content="@" />
+    <meta property="og:image" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/visual_bgcut03.jpg" />
     <link rel="canonical" href="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
@@ -36,10 +36,10 @@
 
   <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
   <meta itemprop="name" content="Care For What You Wear 2021| LG Deutschland" />
-  <meta itemprop="image" content="@" />
-  <meta itemprop="url" content="https://www.lg.com/de" />
+  <meta itemprop="image" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/visual_bgcut03.jpg" />
+  <meta itemprop="url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
   <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, net-a-porter, washing machine, dryer, styler, nachhaltigkeit, wäschepflege, waschmaschine, trockner, waschtrockner, home appliances, lg haushaltsgeräte, haushaltsgeräte" />
-  <meta name="description" content="LG hat die neue Kampagne “Care For What You Wear” gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
+  <meta name="description" content="LG hat die neue Kampagne 'Care For What You Wear' gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
   </div>
 
   <c:set var='bizType' value='${$bizType }' />
@@ -219,8 +219,8 @@
             <div class="cta">
               <p>Wie das geht, erfahren Sie unten.</p>
               <div class="sns_link">
-                <a href="#" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="#" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+                <a href="https://www.facebook.com/lgdeutschland/photos/a.154854208092/10158359999468093/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/p/CVPpjHeAZlX/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
               </div>
             </div>
           </div>

@@ -28,7 +28,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 
     <!-- your css -->
-    <link href="/uk/appliances/care-for-what-you-wear-2021/css/index_v2.css" type="text/css" rel="stylesheet">
+    <link href="/uk/appliances/care-for-what-you-wear-2021/css/index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -163,9 +163,9 @@
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
             <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUCTION</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
             <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">SUSTAINABLE CLOTHING TIPS</a></li>
-            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
-            <li class="list-item"><a href="#box_content5" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
+            <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">PRODUCT FEATURE</a></li>
           </ul>
         </div>
       </div>
@@ -218,75 +218,84 @@
     </div>
     <!--// clothing_story -->
 
+    <div id="box_content2" class="clothing_howto box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">My Cherished Clothes</p>
+        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favourite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
+        <div class="howto">
+          <div class="half-left">
+            <div class="figure">
+              <p class="tag"><img src="/uk/appliances/care-for-what-you-wear-2021/images/goods_tag.png" alt="My Cherished Clothes"></p>
+              <img src="/uk/appliances/care-for-what-you-wear-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
+              <p class="txt">Share your story to win<br>LG clothing care appliance!</p>		
+            </div>
+            <div class="cta">
+              <p>Find out how below</p>
+              <div class="sns_link">
+                <a href="https://www.facebook.com/LGUK/posts/4631671183539363" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/p/CUcbOXPs3EZ/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="half-right">
+            <ul class="pola_list">
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01.jpg" alt="The 'lucky catch' shirt on our fishing trip"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid02.jpg" alt="Jacket high school crush said I looked cute in"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid03.jpg" alt="Hand tailored suit from our trip to Italy"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04.jpg" alt="Dad's back when he used to write graffiti"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Still wearing our favourite date outfits since 1988"></li>
+              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mum's favourite Dino top she used to wear 32 years ago"></li>
+            </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Terms &amp; Conditions<i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_howto -->
+
     <div id="influencer"></div>
-    <div id="box_content2" class="clothing_sustain box_row-campaign">
-      <div class="inner-box">
-        <p class="row-tit">Inside a Sustainable Clothing Life</p>
-        <p class="row-stit">Hear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
-        <div class="box_content-tab">
-          <ul class="list_tab-nav scroll-fade" role="tablist">
-            <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
-                adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
-                adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Binky Felstead</a></li>
-            <li class="list-item item01" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
-                adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
-                adobe-value="main>stories-we-wear-experts>influencer02>tap" data-link-name="influencer02" class="link">Patricia Bright</a></li>
-            <li class="list-item item02" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
-                adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 
-                adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Perri Edwards</a></li>
-            <li class="list-item item03" id="influencer04"><a href="#influencer04" id="anchor_tab4" data-toggle="pill"
-              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer04" 	
-              adobe-value="main>stories-we-wear>influencer04>tap" data-link-name="influencer04" class="link">Josie London</a></li>
-          </ul>
-  
-          <div class="box_tab-view">
-            <div class="box_view-detail"> 
-              <div id="influencer01" class="box_view-item box_view-item1 active">
-                <div class="influencer influencer-01">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_02.jpg" alt="Stories Binky Wears"></div>
-                  <div class="desc">
-                    <!-- <p>Reminiscing my trip to LA</p> -->
-                    <span>"There are so many wonderful memories we have with our clothes and it’s really important to #CareForWhatYouWear.
-                      <br><br>
-                      My top tip - store those summer dresses and swimwear somewhere warm and dry when it comes to the colder months for more storage space and to avoid ruin."</span>
-                  </div>
+    <div class="clothing_sustain box_row-campaign">
+      <p class="row-tit">Inside a Sustainable Clothing Life</p>
+      <p class="row-stit">Hear from sustainable fashion enthusiasts about the clothes they cherish and how to keep them longer</p>
+      <div class="box_content-tab">
+        <ul class="list_tab-nav scroll-fade" role="tablist">
+          <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
+              adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Patricia Bright</a></li>
+          <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
+              adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Perri Edwards</a></li>
+          <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
+            adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Josie London</a></li>
+        </ul>
+
+        <div class="box_tab-view">
+          <div class="box_view-detail"> 
+            <div id="influencer01" class="box_view-item box_view-item1 active">
+              <div class="influencer influencer-01">
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Patricia Bright Wears"></div>
+                <div class="desc">
+                  <p>Reminiscing my trip to LA</p>
+                  <span>I remember wearing this on my second trip to LA when I was ready to make some moves. It's amazing to have items in your closet that bring back memories and make you smile (or cry).</span>
                 </div>
               </div>
-              <div id="influencer02" class="box_view-item box_view-item2">
-                <div class="influencer influencer-02">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_03.gif" alt="Stories Patricia Bright Wears"></div>
-                  <div class="desc">
-                    <!-- <p>Reminiscing my trip to LA</p> -->
-                    <span>"I actually don’t play when it comes to my good clothes, I
-                      need them to last because they are an investment! One of
-                      my top tips for making whites look whiter is to put in a little
-                      dish soap in the drum, trust me, they will sparkle!"</span>
-                  </div>
+            </div>
+            <div id="influencer02" class="box_view-item box_view-item2">
+              <div class="influencer influencer-02">
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Perri Edwards Wears"></div>
+                <div class="desc">
+                  <p>Fashion comes and goes, but style is forever</p>
+                  <span>4 years on and my striped trousers are still going strong. I feel it’s vital to have a conscious clothing lifestyle whether that means passing down your old favs or making them a new fav, buying clothes harmless to the environment, washing your clothes at the correct temperature.</span>
                 </div>
               </div>
-              <div id="influencer03" class="box_view-item box_view-item3">
-                <div class="influencer influencer-03">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_04.gif" alt="Stories Perri Edwards Wears"></div>
-                  <div class="desc">
-                    <!-- <p>Fashion comes and goes, but style is forever</p> -->
-                    <span>"One small action such as washing your clothes at 30 degrees can help
-                      your clothes last longer. Bigger washing machine capacity reduces water
-                      consumption."</span>
-                  </div>
-                </div>
-              </div>
-              <div id="influencer04" class="box_view-item box_view-item4">
-                <div class="influencer influencer-04">
-                  <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer_01.gif" alt="Stories Josie London Wears"></div>
-                  <div class="desc">
-                    <!-- <p>Runway show</p> -->
-                    <span>"Something I am always talking about across my
-                      channels is buying less but buying better and looking
-                      after the clothes in your wardrobe. By washing less,
-                      freshening between wears and less trips to the dry
-                      cleaner, it’s kinder to the environment and kinder to your
-                      clothes."</span>
-                  </div>
+            </div>
+            <div id="influencer03" class="box_view-item box_view-item3">
+              <div class="influencer influencer-03">
+                <div class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Josie London Wears"></div>
+                <div class="desc">
+                  <p>My All Time Favourite</p>
+                  <span>The same outfit, more than 3 years apart - these pieces are still favourites of mine and I’ve always taken great care to look after my favourite garments</span>
                 </div>
               </div>
             </div>
@@ -301,174 +310,71 @@
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
         <p class="row-stit">Wondering how to take care of your clothes better? Here’s how to better care for your cherished clothes.</p>
-
-        <div class="howto_enter">
-          <div class="detail">
-            <dl>
-              <dt>How to enter</dt>
-              <dd>
-                <p>Take the quiz! There are 10 questions in total.</p>
-                <p>If you get the questions correct, you can move on to the next question. If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
-                <p>Don’t forget! If you share the quiz, you will get a chance to win your own clothing care appliance.</p>
-                <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</span></p>
-                <span>* The outcome of your event participation will not be affected by your quiz results.</span>
-              </dd>
-            </dl>
-          </div>
-          <div class="detail _box2">
-            <dl>
-              <dt>Participation period</dt>
-              <dd>
-                <p>21-Oct ~ 10-Nov 2021</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Winner announcement</dt>
-              <dd>
-                <p>One lucky winner will be selected by random on 17-Nov 2021.</p>
-                <p>Keep an eye out for a DM coming your way.</p>
-              </dd>
-            </dl>
-          </div>
-
-          <div class="desc">
-            <i></i>Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
-          </div>
-        </div>
-
-        <div id="quizWrap" class="quiz_wrap">
-          <div class="quiz_start">
-            <div>
-              <p><img src="/uk/appliances/care-for-what-you-wear-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
-              <a href="#" onclick="quizStart();return false;" class="btn_start">START</a>
+        <div class="tip_wrap">
+          <div class="tip_item tip01">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_01.png" alt="Need a quick dry?" style="max-width:65px;"></span>
+                <span class="title">Need a quick dry?</span>
+              </div>
+              <p class="desc">When you’re running short on drying time, try throwing in a dry towel with the load. The towel works as a sponge to absorb the moisture and help your clothes dry quicker.</p>
             </div>
           </div>
-          <div class="quiz_end">
-            <p><img src="/uk/appliances/care-for-what-you-wear-2021/images/quiz/qend_txt.png" alt="You have completed the quiz!"></p>
+          <div class="tip_item tip02">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_02.png" alt="Shrunk clothing" style="max-width:58px;"></span>
+                <span class="title">Shrunk clothing</span>
+              </p>
+              <p class="desc">Did your favourite T-shirt shrink? A good way to deal with this is to soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.</p>
+            </div>
+          </div>
+          <div class="tip_item tip03">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_03.png" alt="Nothing like a fresh pair of jeans" style="max-width:61px;"></span>
+                <span class="title">Nothing like a<br>fresh pair of jeans</span>
+              </p>
+              <p class="desc">Want to wear your jeans clean more than once without washing? An effective way is to place them in the freezer between wears to kill the bacteria, which causes odor.</p>
+            </div>
+          </div>
+          <div class="tip_item tip04">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_04.png" alt="Free from odors after a night out partying" style="max-width:74px;"></span>
+                <span class="title">Free from odors after a night out partying</span>
+              </div>
+              <p class="desc">Unlike most clothes, thick fabrics such as wool tend to be harder to get rid of odor. A great way to remove odor from such clothing is to add 2 cups of vinegar into the hot tub, hang the clothes on the shower rod or bathroom door and let the vinegar in the rising steam remove the smell.</p>
+            </div>
+          </div>
+          <div class="tip_item tip05">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_05.png" alt="Save Water, Save Earth" style="max-width:74px;"></span>
+                <span class="title">Save Water, Save Earth</span>
+              </div>
+              <p class="desc">Did you know 2,700L of water is spent to make a piece of t-shirt? That is enough water for a person to drink for 3 years. The longer you use your clothing, the more water you save. Let us all save the world one clothing at a time.</p>
+            </div>
+          </div>
+          <div class="tip_item tip06">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/stips_06.png" alt="Wear your clothes germ-free" style="max-width:68px;"></span>
+                <span class="title">Wear your clothes<br>germ-free</span>
+              </div>
+              <p class="desc">How long should you put the clothes into a dryer to kill the germs? To kill the germs in your laundry, put your clothes in the dryer for at least 30 minutes on the hot heat.</p>
+            </div>
           </div>
         </div>
-        <script>
-          const quizData = [
-            {
-              question:'How can you make your white clothes whiter?',
-              answers:['Use dishwasher detergent','Use flour','Use toothpaste'],
-              tips:'Yes, you did read right. Dishwasher brightners have very good cleaners in it. Add a couple of tablespoons into a couple gallons of water and wash.',
-              product:'wm', usp:'TuboWash360',
-              feedback:'Do\'t need to worry about damaging your clothes. With TurboWash™360 your laundry can be thoroughly cleaned in just 39 minutes without compromising fabric protection.',
-              qsource:'Linda Cobb'},
-            {
-              question:'How do you remove stain on your shirt?',
-              answers:['Soak it in the water','Rub','Press'],
-              tips:'Press on the stain, over and over, to lift it out. Resist the urge to rub, or you might damage the fabric.',
-              product:'wm', usp:'TurboWash 360',
-              feedback:'Or simply choose LG washer With TurboWash™360 that thoroughly cleans your laundry without any stains left on your shirt in just 39 minutes. ',
-              qsource:'Madame Paulette'},
-            {
-              question:'How much water would be need to make a t-shirt?',
-              answers:['2,000L','2,700L','3,000L'],
-              tips:'2,700L of water is spent to make a piece of t-shirt., which is enough water for a person to drink for 3 years.',
-              product:'wm', usp:'Bigger Capacity',
-              feedback:'We all know obviously the washing machine uses a lot of water considering all the rinsing and washing that goes on. Get more laundry done at once with LG washing machine and reduce water consumption.',
-              qsource:'European Parliament'},
-            {
-              question:'What kind of detergent is the best for removing stain?',
-              answers:['Citrus','Berries','Flower'],
-              tips:'Just a drop of dish detergent (a citrus-based soap — anything that smells like lemon or orange) will do for the stain',
-              product:'wm', usp:'ezDispense',
-              feedback:'Or simply choose LG washer with ezDispense™ technology that automatically dispenses the optimal detergent. You can even put two different types of detergent at the same time with ezDispense and get your laundry done that fits well for your purpose.',
-              qsource:'Madame Paulette'},
-            {
-              question:'If your clothes are smelling damp from trapped moisture in the clothes, what should you do?',
-              answers:['Put shampoo while washing','Put vinegar while washing','Put a handful of salt while washing'],
-              tips:'No matter how well you dry your clothes indoors, some moisture remais after drying. The damp smell is caused by the trapped moisture in your clothes. If your clothes are smelling damp, it\'d great to use bleach, but in case you don\'t have it, vinegar is a natural deodorizer.',
-              product:'dryer', usp:'Sensor Dry',
-              feedback:'Have well dried clothes the first time with a dryer. No need to worry about the damp smell! Sensor Dry is humidity sensor that automatically optimizes drying time. It consists of two sensor bars that automatically determines optimal drying time by detecting the moisture level on clothes.',
-              qsource:'Persil'},
-            {
-              question:'What should you do when you\'re running short on drying time?',
-              answers:['Dry later','Throw toilet paper','Throw a dry towel'],
-              tips:'When you’re running short on drying time, throw a dry towel in with the load. The towel will help absorb some of the moisture and help your clothes dry quicker. You should take out the towel after few minutes. If youare drying just a few items, take it out after around 5 minutes, or 15 minutes for a full load.',
-              product:'dryer', usp:'Eco Hybrid™',
-              feedback:'In a hurry? Choose quick dry option! The Inverter Heat Pump can control the speed of refrigerant on both Eco Hybrid and Time modes. Get your laundry dried with the Time Mode! The compressor speeds up to shorten the duration of the cycle.',
-              qsource:'CNET'},
-            {
-              question:'What should you use for shrunken t-shirt?',
-              answers:['Shampoo','Hair conditioner','Body wash'],
-              tips:'Did your favorite T-shirt shrink? Soak the shrunken clothing item in lukewarm water with a splash of hair conditioner for 15 mins and gently stretch it out.',
-              product:'dryer', usp:'DUAL Inverter Heat Pump™',
-              feedback:'Or, you can protect your clothes from damage with LG dryer’s low temperature heat pump technology.',
-              qsource:'CNET'},
-            {
-              question:'How can you get rid of tobacco odors?',
-              answers:['Use white vinegar','spread shampoo','hang it up outside'],
-              tips:'The smell of smoke will come right out of most fabrics when you wash them as normal, but fabrics that lock in odors and are sensitive to washing, like wool, are a bit trickier. To remove the odor, add 2 cups of white vinegar in to hot tub and hadn the clothes on the shower rod and clotes the bathroom door. The vinegar in the rising steam will remove the smell of smoke.',
-              product:'styler', usp:'TrueSteam',
-              feedback:'The LG Styler uses TrueSteam™ technology to quickly and gently pull the odors out of your clothes. Because steam is being used, your fabrics smell fresh and clean without harming your garments.',
-              qsource:'The Spruce'},
-            {
-              question:'Is softener good for wool laundry?',
-              answers:['Always','Sometimes','Never'],
-              tips:'Contrary to popular belief, the technical Woolmark Company lab in Melbourne says we are never supposed to use softener!',
-              product:'styler', usp:'Heat Pump Drying',
-              feedback:'How to clean wool without softener?  LG Styler\'s Heat Pump Drying treats your wool sweater delicately. Get your sweater hung up on the rack and get it dry cleaned fast!',
-              qsource:'Woolmark Company Lab'},
-            {
-              question:'What would be the simple way to release the wrinkles from your clothes?',
-              answers:['Hang them in a bathroom','Lay them down on floor','Put them into a fridge'],
-              tips:'If you don\'t have enough time to press your clothes, just simply hang them in your bathroom while taking a hot shower. The steam will release the wrinkles from your clothes.',
-              product:'styler', usp:'Moving Hanger',
-              feedback:'The patented hangers gently move side to side up to 200 times per minute, allowing steam to smooth away the wrinkles. You can get rid of the wrinkles from your clothes on time.',
-              qsource:'Real Simple'}
-          ]
-          const messageData = {
-              backButton: 'Back',
-              nextButton: 'Next',
-              unselect: 'Please select an answer!',
-              tipsTitle: 'Become a master of clothing care tips!',
-              another: 'Another option for you',
-              tryButton: 'Try Again',
-              shareButton: 'Share',
-              promoTitle: 'Fancy a 10% off promo code?',
-              placeholderName: 'Enter your name',
-              placeholderEmail: 'Enter your E-mail'
-          }
-        </script>
         <p class="disclm">* The tips offered are intended as entertainment. The participant is solely responsible for any damage that may occur as a result of acting on the information given.</p>
-        <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;">Terms &amp; Conditions</a></p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
 
-    <div id="box_content4" class="clothing_howto box_content">
-      <div class="box_row-campaign">
-        <p class="row-tit">My Cherished Clothes</p>
-        <p class="row-stit">What beautiful memories hang in your wardrobe?<br>Share your favourite memory tied to an outfit and check out the other wonderful stories shared by everyone.</p>
-        <div class="howto">
-          <div class="pola_wrap">
-            <ul class="pola_list">
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid01v2.png" alt="Hand tailored suit from our trip to Italy"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid02v2.png" alt="@"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid03v2.png" alt="Dad’s back when he used to write graffiti"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid04v2.png" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid05v2.png" alt="@"></li>
-              <li class="last-child"><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
-            </ul>
-            <ul class="pola_list line_2">
-              <li class="first-child"><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid07v2.png" alt="Jacket high school crush said I looked cute in"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid08v2.png" alt="@"></li>
-              <li><img src="/uk/appliances/care-for-what-you-wear-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// clothing_howto -->
-
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="dryer"></div>
     <div class="anchors" id="styler"></div>
-    <div id="box_content5" class="clothing_product box_row-campaign box_content">
+    <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Meet the LG Clothing Care Solution Appliances</p>
       <p class="row-stit">How we care for our clothes directly impacts the environment.<br>LG’s innovative clothing care technology helps your clothes last longer, helping reduce garment waste for a better tomorrow.</p>
       <div class="box_content-tab">
@@ -740,7 +646,7 @@
       </div>
       <div class="layer_inner">
         <div class="layer_cont">
-          <p class="heading-tit">LG will be running the following: <br>"Sustainable Clothing Tips Event" on Twitter and Facebook:</p>
+          <p class="heading-tit">LG will be running the following<br>"My Cherished Clothes Event" on Instagram and Facebook:</p>
           <p>(1) An LG Clothing Care Solution Appliance (Styler) grand prize giveaway at the end of the Event Period.</p>
           <p>Entrants must follow the criteria set out below, by posting a comment on the original content posted
             with their own stories about a piece of clothing that holds special memories of them. Please note that
@@ -748,34 +654,31 @@
           <dl>
             <dt>Promotion Period</dt>
             <dd>
-              <p>Entries can be made from 21-October 2021 until 11:59pm 10-November 2021.
-                Any entries made outside of this time are not eligible for this promotion.</p>
-              <p>Only open to those in the UK aged 18 or over, a public Twitter and/or a Facebook account is required.
-                Please see the full terms and conditions below.</p>
+              <p>Entries can be made from Thursday 30<sup>th</sup> September 2021 until 11:59pm
+                Wednesday 20<sup>th</sup> October 2021. Any entries made outside of this time are not eligible for this promotion.</p>
+              <p>Only open to those in the UK aged 18 or over, a public Instagram and/or a Facebook account is required. Please see the full terms and conditions below.</p>
             </dd>
           </dl>
           <dl>
             <dt class="numb"><span>1</span> How to enter</dt>
             <dd class="dd_push">
-              <p>Take the quiz! There are 10 questions in total.</p>
-              <p>If you get the questions correct, you can move on to the next question.</p>
-              <p>If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
-              <p>Share the quiz on either Twitter or Facebook, by clicking the ‘share’ button.</p>
-              <p>The outcome of your event participation will not be affected by your quiz results.</p>
+              <p>Entrants can choose either option a or b.</p>
+              <p><strong>a.</strong> Entrants must leave a comment with a story about their cherished clothes on the Event Post uploaded on Instagram or Facebook.</p>
+              <p><strong>b.</strong> Entrants must post their own cherished clothing story with a photo of the clothes on their Instagram or Facebook account.</p>
             </dd>
             <dd class="dd_push">
               <strong>Mandatory</strong>
               <div class="dv_line">
                 <p><strong>Facebook -</strong> Need to include the followings:<br>
-                  #CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</p>
-                <p><strong>Twitter -</strong> Need to include the followings:<br>
-                  #CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</p>
+                  #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
+                <p><strong>Instagram -</strong> Need to include the followings:<br>
+                  #CareForWhatYouWear #MyCherishedClothes #LGClothingCareSolution #LG</p>
               </div>
             </dd>
           </dl>
-          <p>Entrants may enter as many times as they like on the Twitter and Facebook posts and winners shall
-            be chosen randomly. The draw will take place after the closing date and winners will be notified via
-            Twitter or Facebook within 7 days of the closing date.</p>
+          <p>Entrants may enter as many times as they like on the Instagram and Facebook posts and winners
+            shall be chosen randomly. The draw will take place after the closing date and winners will be notified
+            via Instagram or Facebook within 7 days of the closing date.</p>
           <dl>
             <dt class="numb"><span>2</span> Promoter</dt>
             <dd class="dd_push">
@@ -789,15 +692,14 @@
             </dd>
           </dl>
           <dl>
-            <dd class="numb"><span>4</span> No purchase necessary: The giveaway is free to enter to all UK residents that meet the eligibility
-              criteria set out in these terms and conditions.</dd>
+            <dd class="numb"><span>4</span> No purchase necessary: The giveaway is free to enter to all UK residents that meet the eligibility criteria set out in these terms and conditions.</dd>
           </dl>
           <dl>
             <dt>Eligibility criteria</dt>
             <dd class="numb"><span>5</span> The giveaway is only open to entrants residing in UK and aged 18 or over. Employees of LG global
               companies, the Administrator, their families and agents, and any other company or person involved in
               the creation or administration of the giveaway are not permitted to enter. Internet access, a Facebook
-              social media account and a public Twitter social media account are required.</dd>
+              social media account and a public Instagram social media account are required.</dd>
           </dl>
           <dl>
             <dd class="numb"><span>6</span> By following the instructions provided in the giveaway, you are agreeing to these terms and
@@ -805,14 +707,14 @@
           </dl>
           <dl>
             <dd class="numb"><span>7</span> Late, illegible, incomplete, defaced or corrupt entries, as well as entries sent through agencies and
-              third parties or by means other than Twitter will not be accepted. No responsibility can be accepted for
-              lost entries. If LG or the Administrator believes that there has been a breach of these terms and
+              third parties or by means other than Instagram will not be accepted. No responsibility can be accepted
+              for lost entries. If LG or the Administrator believes that there has been a breach of these terms and
               conditions, LG or the Administrator will, at their sole discretion, be entitled to withhold the prize and
               randomly draw another winner in accordance with these terms and conditions.</dd>
           </dl>
           <dl>
-            <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Twitter or Facebook direct
-              message requesting their contact details. It is the winner’s responsibility to ensure the details they
+            <dd class="numb"><span>8</span> The winner will be contacted by the Administrator once selected via Instagram or Facebook direct
+              message requesting their contact details. It is the winner's responsibility to ensure the details they
               provide are accurate and neither the Promoter nor Administrator will be responsible for delivery failure
               where participants have provided incorrect or incomplete delivery information, or fails to sign for
               delivery, as required.</dd>
@@ -822,10 +724,10 @@
           </dl>
           <dl>
             <dd class="numb"><span>10</span> The winner will be announced within seven (7) days of the giveaway ending. The winner will be
-              contacted by the Administrator once selected via Twitter or Facebook direct message requesting their
-              contact details The winner will be asked to provide the relevant contact information including, but not
-              limited to, their email address, telephone number and address in order to send the winner the prizes
-              or to organise a collection (this shall be at the Promoter’s discretion).</dd>
+              contacted by the Administrator once selected via Instagram or Facebook direct message requesting
+              their contact details The winner will be asked to provide the relevant contact information including, but
+              not limited to, their email address, telephone number and address in order to send the winner the
+              prizes or to organise a collection (this shall be at the Promoter’s discretion).</dd>
           </dl>
           <dl>
             <dd class="numb"><span>11</span> There is one (1) grand prize to be won at the end of the Event Period.</dd>
@@ -842,13 +744,12 @@
           </dl>
           <dl>
             <dd class="numb"><span>13</span> The entrants may be expected to participate in LG publicity related to the giveaway. The name
-              and general location of the entrants may be published on LG.com and/or LG social media sites. This
-              could include any images submitted by the user as a part of the promotion.</dd>
+              and general location of the entrants may be published on LG.com and/or LG social media sites. This could include any images submitted by the user as a part of the promotion.</dd>
           </dl>
           <dl>
             <dd class="numb"><span>14</span> LG will not be liable to perform any of its obligations under the giveaway or in respect of the prize
               where they are unable to do so as a result of unforeseen circumstances or circumstances beyond
-              LG’s reasonable control, and whilst LG may (but shall not be obliged to) endeavor to provide an
+              LG's reasonable control, and whilst LG may (but shall not be obliged to) endeavor to provide an
               alternative prize of equal value, LG shall not be liable to provide additional compensation to the
               winners in such circumstances.</dd>
           </dl>
@@ -881,41 +782,6 @@
           <dl>
             <dd class="numb"><span>20</span> Governing law: The giveaway is governed by the Laws of England and Wales and the English
               Courts shall have exclusive jurisdiction to determine any disputes which may arise out of, under or in connection with it.</dd>
-          </dl>
-          <dl>
-            <dt>Quiz Sources:</dt>
-            <dd>
-              1. <a href="https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/" target="_blank">https://www.considerable.com/home/cleaning-organizing/how-to-wash-white-clothes/</a>
-            </dd>
-            <dd>
-              2. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
-            </dd>
-            <dd>
-              3. <a href="https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic" target="_blank">
-                https://www.europarl.europa.eu/news/en/headlines/society/20201208STO93327/the-impact-of-textile-production-and-waste-on-the-environment-infographic</a>
-            </dd>
-            <dd>
-              4. <a href="https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes" target="_blank">https://www.nytimes.com/guides/tmagazine/how-to-take-care-of-your-clothes</a>
-            </dd>
-            <dd>
-              5. <a href="https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html" target="_blank">
-                https://www.persil.com/uk/laundry/laundry-tips/washing-tips/how-to-get-rid-of-damp-smell-in-clothes.html</a>
-            </dd>
-            <dd>
-              6. <a href="https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/" target="_blank">https://www.cnet.com/home/kitchen-and-household/tips-to-quickly-dry-your-clothes/</a>
-            </dd>
-            <dd>
-              7. <a href="https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/" target="_blank">https://www.cnet.com/home/smart-home/unshrink-your-favorite-t-shirt-with-hair-conditioner/</a>
-            </dd>
-            <dd>
-              8. <a href="https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080" target="_blank">https://www.thespruce.com/remove-cigarette-cigar-smell-from-clothes-2147080</a>
-            </dd>
-            <dd>
-              9. <a href="https://eco-age.com/resources/how-care-wool/" target="_blank">https://eco-age.com/resources/how-care-wool/</a>
-            </dd>
-            <dd>
-              10. <a href="https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes" target="_blank">https://www.realsimple.com/beauty-fashion/clothing-care/remove-wrinkles-from-clothes</a>
-            </dd>
           </dl>
         </div>
       </div>
@@ -1039,18 +905,10 @@
         $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
         $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
       }
-
-      $('.quiz_wrap').find('.item').on('click', function(){
-        $('.q_items').find('.is-wrong').removeClass('is-wrong')
-      });
     });
-    function quizStart() {
-      $('.quiz_start').css('display', 'none')
-    }
 
   </script>
   <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>
-  <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/quiz.js"></script>
 </body>
 
 </html>
