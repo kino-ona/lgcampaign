@@ -6,6 +6,8 @@
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-default-tag.jsp" %>
 
     <!-- sns tag -->
+    <meta name="twitter:card" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg" />
+    <meta name="twitter:site" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-sns-tag.jsp" %>
 
     <!-- chrome audits -->
@@ -271,7 +273,10 @@
           <div class="quiz_start">
             <div>
               <p><img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
-              <a href="#" onclick="quizStart();return false;" class="btn_start">START</a>
+              <a href="#" onclick="quizStart();return false;"  
+              adobe-click="Zadbaj-o-to-co-nosisz-content-quiz" adobe-value="content-page>quiz>start" 
+              data-link-name="quiz_event_start" data-link-area="Zadbaj-o-to-co-nosisz2021-quizevent"
+              class="btn_start">START</a>
             </div>
           </div>
           <div class="quiz_end">
@@ -906,8 +911,64 @@
         'microsite_name': micrositeName,
       })
     })
-  });
+  });  
+    
   $(document).ready(function(){
+    $('.clothing_quiz').find('.btn_next').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_next_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_next',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    $('.clothing_quiz').find('.btn_back').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_prev_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_prev',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    $('.clothing_quiz').find('.btn_refresh').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_refresh_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_refresh',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    $('.QzTipLayer').find('.btn_gray').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_try_again_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_tryagain',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+
+     
+    
     var href = window.location.href;
     if(href.indexOf('washer') != -1) {
       $('.clothing_product .list_tab-nav .link').removeClass('active');

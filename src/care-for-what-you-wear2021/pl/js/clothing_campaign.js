@@ -244,24 +244,22 @@ $(document).ready(function(){
 });
 /* responsive e */
 
-// function openSnsPop(url) {
-// 	var winObj;
-// 	winObj = window.open(url, "NewsWindow", "width=600, height=800,scrollbars=yes");
-// }
-// function sendShareTwitter() {
-// 	var shareurl=document.location.href;
-// 	var text = $("head title").text();
-// 	var url = "https://twitter.com/intent/tweet?url="+shareurl+"&text="+encodeURIComponent(text);
-// 	openSnsPop(url);
-// }
-
 function facebookSubmit(set) {
-	var thisurl = 'https://www.lg.com//pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/visual_bgcut03.jpg';
+	var thisurl = 'https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg';
 	var quote = 'https://www.lg.com//pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021#quiz';
 	
 	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
 		var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
 		window.open(popUrl,"",popOption);
+	
+	eventName = 'quiz_event_tip_facebook_share_click';
+	micrositeName = 'zadbaj-o-to-co-nosisz';
+	dataLayer.push({
+		'event' : eventName,
+		'datalinkname': 'quiz_event_tip_facebook_share',
+		'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
+		'microsite_name': micrositeName,
+	});
 }
 
 /** Overlay Popup

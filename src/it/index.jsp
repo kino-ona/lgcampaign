@@ -15,10 +15,10 @@
     <meta name="keywords" content="lg elettrodomestici, sostenibilità, prenditi curadei tuoi capi, cura dei vestiti, net-a-porter, lavatrici, asciugatrici, styler" />
     <meta name="description" content="LG ha lanciato una nuova campagna 'Prenditi Curadei Tuoi Capi' per uno stile di vita consapevole e un domani sostenibile. Scopri di più sulla campagna e sull'innovativa tecnologia per la cura dell'abbigliamento di LG." />
     <meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG Italia" />
-    <meta property="og:url" content="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021" />
+    <meta property="og:url" content="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/" />
     <meta property="og:description" content="LG ha lanciato una nuova campagna 'Prenditi Curadei Tuoi Capi' per uno stile di vita consapevole e un domani sostenibile. Scopri di più sulla campagna e sull'innovativa tecnologia per la cura dell'abbigliamento di LG." />
     <meta property="og:image" content="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/visual_bgcut03.jpg" />
-    <link rel="canonical" href="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021" />
+    <link rel="canonical" href="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/" />
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
@@ -39,7 +39,7 @@
     <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
         <meta itemprop="name" content="Prenditi Curadei Tuoi Capi: Elettrodomestici per la cura dei vestiti | LG Italia" />
         <meta itemprop="image" content="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/visual_bgcut03.jpg" />
-        <meta itemprop="url" content="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021" />
+        <meta itemprop="url" content="https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/" />
         <meta itemprop="description" content="LG ha lanciato una nuova campagna 'Prenditi Curadei Tuoi Capi' per uno stile di vita consapevole e un domani sostenibile. Scopri di più sulla campagna e sull'innovativa tecnologia per la cura dell'abbigliamento di LG." />
         <meta itemprop="Keywords" content="lg elettrodomestici, sostenibilità, prenditi curadei tuoi capi, cura dei vestiti, net-a-porter, lavatrici, asciugatrici, styler" />
     </div>
@@ -75,7 +75,7 @@
   <!-- Enter Code Here -->
   <div id="box_event-wrap" class="box_content-wrapper clothing-campaign">
     <div id="btn_float-goto" class="box_main-title">
-      <h2 class="text_title">#PrenditiCuradeiTuoiCapi</h2>
+      <h2 class="text_title">#CareForWhatYouWear</h2>
       <p class="text_sub">Possiedi un capo di abbigliamento che racchiude un pezzo della tua vita?<br>Guarda alcune delle affascinanti storie racchiuse nei nostri vestiti nel video qui sotto.</p>
     </div>
 
@@ -162,8 +162,8 @@
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
             <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUZIONE</a></li>
-            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MY CHERISHED CLOTHES</a></li>
-            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">SUSTAINABLE CLOTHING TIPS</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">I MIEI ADORATI VESTITI</a></li>
+            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">Per vestire sostenibile</a></li>
             <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">CARATTERISTICHE DEL PRODOTTO</a></li>
           </ul>
         </div>
@@ -220,7 +220,7 @@
 
     <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
-        <p class="row-tit">My Cherished Clothes</p>
+        <p class="row-tit">I miei adorati vestiti</p>
         <p class="row-stit">Quali bei ricordi restano nel tuo guardaroba?<br>Condividi il tuo ricordo preferito legato a un outfit e dai un'occhiata alle storie condivise dagli altri.</p>
         <div class="howto">
           <div class="half-left">
@@ -303,7 +303,7 @@
     <div id="quiz"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
-        <p class="row-tit">Sustainable Clothing Tips</p>
+        <p class="row-tit">Consigli per l'abbigliamento sostenibile</p>
         <p class="row-stit">Ti stai chiedendo come prenderti cura dei tuoi vestiti? Scopri come.</p>
         <div class="tip_wrap">
           <div class="tip_item tip01">
@@ -498,7 +498,7 @@
       <div class="promotion_banner">
         <div class="promo_left">
           <p>Usa il coupon CURADEICAPI20 per uno sconto extra del 20% su una selezione di prodotti</p>
-          <span>Promo valida dal 27 Ottobre al 28 dicembre 2021<br>esclusivamente su LG Online Shop.<br><br>Non cumulabile con altri coupon. VIP program esclusi.</span>
+          <span>Promo valida dal 25 Ottobre al 26 dicembre 2021<br>esclusivamente su LG Online Shop.<br><br>Non cumulabile con altri coupon. VIP program esclusi.</span>
         </div>
         <div class="promo_right">
           <div class="items">
