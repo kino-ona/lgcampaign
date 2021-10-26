@@ -139,17 +139,17 @@
         
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/ZmyVdhT2mig?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/88225qvN_bw?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe02">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/5BTTUFDoLJ4?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/RN9ms0cH67M?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe03">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/GswyvKVfWiE?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/uzhBta2hb_E?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
@@ -176,7 +176,7 @@
         <p class="txt">La moda usa e getta contribuisce alla produzione di 5,8 milioni di tonnellate di rifiuti tessili ogni anno in Europa.</p>
         <p class="txt">Per raggiungere gli obiettivi di "consumo e produzione responsabili" stabiliti nell'articolo n. 12 dei presupposti di sviluppo sostenibile 2021 delle Nazioni Unite, LG ha avviato la campagna #CareForWhatYouWear nel 2020 per promuovere abitudini responsabili nell'abbigliamento e limitare gli sprechi.</p>
         <p class="txt">I capi più sostenibili sono quelli che già possiedi e mantenerli correttamente utilizzando le tecniche di protezione del tessuto può rendere la tua quotidianità più sostenibile.</p>
-        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="m2_4MSiEO6k" target="_blank" class="btn_watch">Obejrzyj 2020 LG Clothing Care campaign</a>
+        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="m2_4MSiEO6k" target="_blank" class="btn_watch">Guarda la campagna LG Clothing Care 2020</a>
       </div>
 
       <div class="visual">
@@ -232,8 +232,8 @@
             <div class="cta">
               <p>Scopri di più</p>
               <div class="sns_link">
-                <a href="https://www.facebook.com/LGItalia/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="https://www.instagram.com/lg_italia/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+                <a href="https://www.facebook.com/LGItalia/posts/10158925974342585 adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/p/CVc6AHOt-3C/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
               </div>
             </div>
           </div>
@@ -348,7 +348,7 @@
                 <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_05.png" alt="Risparmia acqua, salva la terra" style="max-width:74px;"></span>
                 <span class="title">Risparmia acqua, salva la terra</span>
               </div>
-              <p class="desc">Sapevi che vengono spesi 2.700 litri di acqua per fare un pezzo di t-shirt? È acqua sufficiente per essere bevuta in 3 anni da una persona. Più a lungo usi i tuoi vestiti, più acqua risparmi. Salviamo tutti il</p>
+              <p class="desc">Sapevi che vengono spesi 2.700 litri di acqua per fare un pezzo di t-shirt? È acqua sufficiente per essere bevuta in 3 anni da una persona. Più a lungo usi i tuoi vestiti, più acqua risparmi. Aiutiamo il ​​mondo, un vestito alla volta.</p>
             </div>
           </div>
           <div class="tip_item tip06">
@@ -396,28 +396,28 @@
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature" title="Icon of LG AI DD™ Washing Machine's 18% more fabric protection feature"></i>Protezione dei tessuti</dt>
                   <dd>
                     Prolunga la vita dei tuoi vestiti con il 18% in più di protezione del tessuto grazie alla tecnologia AI DD <sup>1)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="IS_WM_AIDD_Full(32s)_YT" target="_blank" class="btn_watch">Guarda<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="6zCzuVEJhz8" target="_blank" class="btn_watch">Guarda<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy." title="Icon of LG AI DD™ Washing Machine's energy saving feature which can save up to 28% more energy."></i>Risparmio energetico</dt>
                   <dd>
                     Riduci il tempo del bucato a 39 minuti e risparmia fino al 28% di energia in più con TurboWash™360 <sup>2)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="IS_WM_TurboWash360_Full(29s)_YT" target="_blank" class="btn_watch">Guarda<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="qggDkU2jmi0" target="_blank" class="btn_watch">Guarda<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature." title="Icon of LG AI DD™ Washing Machine's less water and detergent consumption feature."></i>Riduci il consumo di acqua</dt>
                   <dd>
                     Una maggiore capacità di lavaggio riduce il consumo di acqua <sup>3)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="IS_WM_BiggerCapacity_Full(30s)_YT" target="_blank" class="btn_watch">Guarda<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="-kM4oAfa2vw" target="_blank" class="btn_watch">Guarda<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item04">
                   <dt><i alt="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen." title="Icon of LG AI DD™ Washing Machine's Hygiene Care feature that kills 99.9% of virus, bacteria and allergen."></i>Fare il bucato con uno step in meno</dt>
                   <dd>
                     ezDispense eroga automaticamente la giusta quantità di detersivo necessaria per il tuo bucato evitanto inutili sprechi.<sup>4)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="-IS_WM_ezDispense_Full(35s)_YT" target="_blank" class="btn_watch">Guarda<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="PPWZf9Y-rag" target="_blank" class="btn_watch">Guarda<i></i></a></p>
                   </dd>
                 </dl>
               </div>
@@ -434,7 +434,7 @@
                   <dt><i alt="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature." title="Icon of LG DUAL Inverter Heat Pump™ Dryer's Fabric Protection feature."></i>Protezione dei tessuti</dt>
                   <dd>
                     Proteggi i tuoi vestiti dai danni con la tecnologia a pompa di calore a bassa temperatura
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="IS_Dryer_DualHeatPump_Full(39s)_YT" target="_blank" class="btn_watch">Guarda<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="eWBefl4qrPY" target="_blank" class="btn_watch">Guarda<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item02">
@@ -466,17 +466,17 @@
               </div>
               <div class="desc">
                 <dl class="_item item01">
-                  <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Fabric Protection from Drying Process</dt>
+                  <dt><i alt="Icon of LG Styler's Fabric Protection (from drying process) feature." title="Icon of LG Styler's Fabric Protection (from drying process) feature."></i>Protezione del tessuto dal processo di asciugatura</dt>
                   <dd>
-                    Dry delicates like lingerie and sweaters faster than air drying with low-temperature heat pump drying system
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="IS_Styler_GentleDry_Full(31s)_YT" class="btn_watch">Guarda<i></i></a></p>
+                    Asciuga capi delicati come biancheria intima e maglioni più velocemente dell'asciugatura ad aria con il sistema di asciugatura a pompa di calore a bassa temperatura
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="a2_segREzN4" class="btn_watch">Guarda<i></i></a></p>
                   </dd>	
                 </dl>
                 <dl class="_item item02">
                   <dt><i alt="Icon of LG Styler's less detergent & chemical use feature." title="Icon of LG Styler's less detergent & chemical use feature."></i>Igienizzazione</dt>
                   <dd>
                     TrueSteam elimina il 99,9% dei batteri, igienizzando anche i tessuti difficili da lavare in casa.<sup>1)</sup>
-                    <p><a href="#" data-type="vodtype" data-link-area="product_feature_image-video_play" id="IS_Styler_TrueSteam_Full(29s)_YT" class="btn_watch">Guarda<i></i></a></p>
+                    <p><a href="#" data-type="youtube" data-link-area="product_feature_image-video_play" id="H1S020xobhY" class="btn_watch">Guarda<i></i></a></p>
                   </dd>
                 </dl>
                 <dl class="_item item03">
