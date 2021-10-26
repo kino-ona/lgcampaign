@@ -2317,6 +2317,9 @@
 			width:100%;
 			margin-bottom:50px;
 			text-align:center;
+			p {
+				padding-right:0;
+			}
 		}
 		.promo_right {
 			flex:inherit;
