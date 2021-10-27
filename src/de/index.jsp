@@ -241,43 +241,43 @@
     <!--// clothing_howto -->
 
     <div id="influencer"></div>
-    <!-- <div class="clothing_sustain box_row-campaign">
+    <div class="clothing_sustain box_row-campaign">
       <p class="row-tit">Einblicke in ein Leben mit nachhaltiger Kleidung</p>
       <p class="row-stit">Erfahren Sie von Experten für nachhaltige Mode, welche Kleidungsstücke ihnen wichtig sind und wie sie diese länger erhalten.</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist">
           <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
-              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
-              adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Patricia Bright</a></li>
+            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
+            adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Anna Frost</a></li>
           <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
               adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
-              adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Perri Edwards</a></li>
-          <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+              adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Eva Klaus</a></li>
+          <!-- <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
-            adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Josie London</a></li>
+            adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Josie London</a></li> -->
         </ul>
 
         <div class="box_tab-view">
           <div class="box_view-detail"> 
             <div id="influencer01" class="box_view-item box_view-item1 active">
               <div class="influencer influencer-01">
-                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Patricia Bright Wears"></div>
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Anna Frost"></div>
                 <div class="desc">
-                  <p>Reminiscing my trip to LA</p>
-                  <span>I remember wearing this on my second trip to LA when I was ready to make some moves. It's amazing to have items in your closet that bring back memories and make you smile (or cry).</span>
+                  <p>Der LG Styler - <br>seit etwas über einem Jahr ist er mein treuer Begleiter in Sachen Wäschepflege!</p>
+                  <span>Den schwarzen Glitzer-Einteiler kaufte ich Anfang Oktober 2018. Seinen ersten größeren Auftritt hatte er am 31. Oktober 2018, also nur wenige Tage nach dem Kauf. Danach/Außerdem zog ich ihn zu diversen Events an, Familienfeierlichkeiten und Fotoshootings. Zuletzt trug ich ihn auf der Premiere des Musicals Wicked. Ich hätte damals nicht geahnt, dass dieser Einteiler zu meinem “go to” Outfit wird.</span>
                 </div>
               </div>
             </div>
             <div id="influencer02" class="box_view-item box_view-item2">
               <div class="influencer influencer-02">
-                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Perri Edwards Wears"></div>
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Eva Klaus"></div>
                 <div class="desc">
-                  <p>Fashion comes and goes, but style is forever</p>
-                  <span>4 years on and my striped trousers are still going strong. I feel it’s vital to have a conscious clothing lifestyle whether that means passing down your old favs or making them a new fav, buying clothes harmless to the environment, washing your clothes at the correct temperature.</span>
+                  <p>Die nachhaltigste Kleidung ist die, die wir schon besitzen.</p>
+                  <span>Kleider erzählen Geschichten, wie beispielsweise mein Hochzeitsdirndl, ein Kleidungsstück mit dem ich viele wunderschöne Momente verbinde. Ich hege und pflege es, damit ich noch lange Freude daran haben werde. Vielleicht sogar noch meine Tochter, wenn sie es später tragen möchte.</span>
                 </div>
               </div>
             </div>
-            <div id="influencer03" class="box_view-item box_view-item3">
+            <!-- <div id="influencer03" class="box_view-item box_view-item3">
               <div class="influencer influencer-03">
                 <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Josie London Wears"></div>
                 <div class="desc">
@@ -285,11 +285,11 @@
                   <span>The same outfit, more than 3 years apart - these pieces are still favourites of mine and I’ve always taken great care to look after my favourite garments</span>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!--// clothing_sustain -->
 
     <div id="quiz"></div>

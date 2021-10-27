@@ -466,10 +466,11 @@
 				}
 			}
 			.btn_terms {
-				display: none;
-				bottom: unset;
-				top: 50%;
-				transform: translateY(-50%);
+				position:relative;
+				width:100%;
+				right:10px;
+				bottom: -10px;
+				text-align: right;
 				font-size: 13px;
 			}
 			.half-left {
@@ -725,7 +726,7 @@
 				&.tip04 {
 					background-position: left -5px center !important;
 					.tip-inner {
-						top: 26% !important;
+						top: 19% !important;
 						left: 52% !important;
 					}
 				}
