@@ -204,6 +204,7 @@
     </div>
     <!--// clothing_story -->
 
+    <div id="event1"></div>
     <div id="box_content2" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Mes vêtements précieux</p>
@@ -292,7 +293,7 @@
     </div>
     <!--// clothing_sustain -->
 
-    <div id="quiz"></div>
+    <div id="quiz"></div><div id="event2"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Conseils responsables pour vos vêtements</p>

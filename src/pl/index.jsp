@@ -227,7 +227,7 @@
     </div>
     <!--// clothing_story -->
 
-    <div id="quiz"></div>
+    <div id="quiz"></div><div id="event2"></div>
     <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit"><i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!
@@ -375,6 +375,7 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div id="event1"></div>
     <div id="box_content3" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Ubrania, które wiele dla mnie znaczą</p>

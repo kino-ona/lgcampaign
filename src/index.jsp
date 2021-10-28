@@ -302,7 +302,7 @@
     </div>
     <!--// clothing_sustain -->
 
-    <div id="quiz"></div>
+    <div id="quiz"></div><div id="event2"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
@@ -447,7 +447,8 @@
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
-
+    
+    <div id="event1"></div>
     <div id="box_content4" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">My Cherished Clothes</p>
