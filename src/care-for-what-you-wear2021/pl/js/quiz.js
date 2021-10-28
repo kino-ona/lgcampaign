@@ -7978,7 +7978,7 @@ var campaign_quiz = (function () {
         attr_dev(a1, "class", "_btn btn_facebook");
         add_location(a1, file, 135, 10, 4277);
         add_location(i1, file, 136, 246, 4600);
-        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
+        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=ZadbajOtoCoNosisz,WskazówkiPro-ekologicznegoPielęgnowaniaUbrań,lg");
         attr_dev(a2, "target", "_blank");
         attr_dev(a2, "class", "_btn btn_twt");
         add_location(a2, file, 136, 10, 4364);
@@ -8026,7 +8026,7 @@ var campaign_quiz = (function () {
         attr_dev(a4, "class", "_btn btn_facebook ");
         add_location(a4, file, 160, 12, 5847);
         add_location(i3, file, 161, 248, 6173);
-        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
+        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=ZadbajOtoCoNosisz,WskazówkiPro-ekologicznegoPielęgnowaniaUbrań,lg");
         attr_dev(a5, "target", "_blank");
         attr_dev(a5, "class", "_btn btn_twt");
         add_location(a5, file, 161, 12, 5937);

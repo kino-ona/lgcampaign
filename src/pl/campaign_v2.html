@@ -1179,14 +1179,7 @@
 				'standardData': standardData
 			});
 
-			$(document).ready(function(){
-				$('.quiz_wrap').find('.item').on('click', function(){
-					$('.q_items').find('.is-wrong').removeClass('is-wrong')
-				});
-			});
-			function quizStart() {
-				$('.quiz_start').css('display', 'none')
-			}
+			
 		</script>
 
 
@@ -1206,6 +1199,34 @@
 
 		<script type="text/javascript" src="../care-for-what-you-wear2021/pl/js/clothing_campaign.js"></script>
 		<script type="text/javascript" src="../care-for-what-you-wear2021/pl/js/quiz.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.quiz_wrap').find('.item').on('click', function(){
+					$('.q_items').find('.is-wrong').removeClass('is-wrong')
+				});
+			});
+			function quizStart() {
+				$('.quiz_start').css('display', 'none')
+			}
+			$(document).ready(function(){
+				$('.q_items').find('.item').each(function () {
+					$(this).find('label').on('click', function() {
+						var qnum = $('.q_step').find('strong').html()
+						var thisVal = $(this).find('input').val()
+
+						eventName = 'quiz_event_item_Checkbox_click';
+						micrositeName = 'zadbaj-o-to-co-nosisz';
+						dataLayer.push({
+							'event' : eventName,
+							'datalinkname': 'quiz_' + qnum + '_' + thisVal,
+							'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
+							'microsite_name': micrositeName,
+						})
+					})
+				});
+
+			});
+		</script>
 
 </body>
 

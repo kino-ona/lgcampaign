@@ -941,6 +941,23 @@
         })
       })
     });
+
+    $('.q_items').find('.item').each(function () {
+      $(this).find('label').on('click', function() {
+        var qnum = $('.q_step').find('strong').html()
+        var thisVal = $(this).find('input').val()
+
+        eventName = 'quiz_event_item_Checkbox_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'data-link-name': 'quiz_' + qnum + '_' + thisVal,
+          'data-link-area': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'microsite': micrositeName,
+        })
+      })
+    });
+
     $('.clothing_quiz').find('.btn_refresh').each(function (i) {
       $(this).on('click', function() {
         var _this=$(this);
