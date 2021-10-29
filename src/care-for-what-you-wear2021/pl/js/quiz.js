@@ -1,4 +1,3 @@
-
 (function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var campaign_quiz = (function () {
   'use strict';
@@ -7447,6 +7446,7 @@ var campaign_quiz = (function () {
     /*answer*/
     ctx[16] + "";
     var t2;
+    var label_data_link_name_value;
     var t3;
     var current;
     var mounted;
@@ -7471,10 +7471,16 @@ var campaign_quiz = (function () {
         /*$$binding_groups*/
 
         ctx[12][0].push(input);
-        add_location(input, file, 88, 8, 2186);
+        add_location(input, file, 88, 8, 2269);
         attr_dev(p, "class", "txt");
-        add_location(p, file, 102, 8, 2673);
+        add_location(p, file, 102, 8, 2757);
         attr_dev(label, "class", "_sel");
+        attr_dev(label, "data-link-name", label_data_link_name_value = "quiz" +
+        /*currentQuiz*/
+        ctx[2] + "-" +
+        /*index*/
+        ctx[18]);
+        attr_dev(label, "data-link-area", "quiz_checkbox_click");
         add_location(label, file, 87, 6, 2157);
         attr_dev(div, "class", "item svelte-1etsde6");
         toggle_class(div, "is-selected",
@@ -7545,6 +7551,16 @@ var campaign_quiz = (function () {
         /*answer*/
         ctx[16] + "")) set_data_dev(t2, t2_value);
 
+        if (!current || dirty &
+        /*currentQuiz*/
+        4 && label_data_link_name_value !== (label_data_link_name_value = "quiz" +
+        /*currentQuiz*/
+        ctx[2] + "-" +
+        /*index*/
+        ctx[18])) {
+          attr_dev(label, "data-link-name", label_data_link_name_value);
+        }
+
         if (dirty &
         /*selected, currentQuiz*/
         12) {
@@ -7603,7 +7619,7 @@ var campaign_quiz = (function () {
         t = text(t_value);
         attr_dev(a, "class", "_btn btn_back");
         attr_dev(a, "href", "#");
-        add_location(a, file, 109, 19, 2787);
+        add_location(a, file, 109, 19, 2871);
       },
       m: function mount(target, anchor) {
         insert_dev(target, a, anchor);
@@ -7924,29 +7940,29 @@ var campaign_quiz = (function () {
         add_location(div2, file, 84, 0, 1995);
         attr_dev(a0, "class", "_btn btn_next");
         attr_dev(a0, "href", "#");
-        add_location(a0, file, 110, 2, 2896);
+        add_location(a0, file, 110, 2, 2980);
         attr_dev(div3, "class", "btn_area");
-        add_location(div3, file, 108, 0, 2745);
+        add_location(div3, file, 108, 0, 2829);
         attr_dev(button1, "class", "close_btn");
-        add_location(button1, file, 117, 6, 3188);
+        add_location(button1, file, 117, 6, 3272);
         attr_dev(div4, "class", "layer_close");
-        add_location(div4, file, 116, 4, 3156);
+        add_location(div4, file, 116, 4, 3240);
         if (!src_url_equal(img0.src, img0_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
         attr_dev(img0, "alt", img0_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
-        add_location(img0, file, 121, 24, 3362);
+        add_location(img0, file, 121, 24, 3446);
         attr_dev(h40, "class", "_pc");
-        add_location(h40, file, 121, 8, 3346);
+        add_location(h40, file, 121, 8, 3430);
         if (!src_url_equal(img1.src, img1_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/mq_slogan.png")) attr_dev(img1, "src", img1_src_value);
         attr_dev(img1, "alt", img1_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
-        add_location(img1, file, 122, 24, 3487);
+        add_location(img1, file, 122, 24, 3571);
         attr_dev(h41, "class", "_mo");
-        add_location(h41, file, 122, 8, 3471);
+        add_location(h41, file, 122, 8, 3555);
         attr_dev(p1, "class", "q_tips");
-        add_location(p1, file, 123, 8, 3597);
+        add_location(p1, file, 123, 8, 3681);
         if (!src_url_equal(img2.src, img2_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
@@ -7958,41 +7974,41 @@ var campaign_quiz = (function () {
         ctx[0][
         /*currentQuiz*/
         ctx[2]].product.toLowerCase());
-        add_location(img2, file, 126, 12, 3724);
+        add_location(img2, file, 126, 12, 3808);
         attr_dev(span1, "class", "a11y");
-        add_location(span1, file, 127, 12, 3915);
+        add_location(span1, file, 127, 12, 3999);
         attr_dev(p2, "class", "figure");
-        add_location(p2, file, 125, 10, 3693);
+        add_location(p2, file, 125, 10, 3777);
         if (!src_url_equal(img3.src, img3_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
-        add_location(img3, file, 130, 30, 4068);
+        add_location(img3, file, 130, 30, 4152);
         attr_dev(p3, "class", "slogan");
-        add_location(p3, file, 130, 12, 4050);
+        add_location(p3, file, 130, 12, 4134);
         attr_dev(p4, "class", "txt");
-        add_location(p4, file, 131, 12, 4150);
+        add_location(p4, file, 131, 12, 4234);
         attr_dev(div5, "class", "desc");
-        add_location(div5, file, 129, 10, 4019);
+        add_location(div5, file, 129, 10, 4103);
         attr_dev(div6, "class", "q_option4u");
-        add_location(div6, file, 124, 8, 3658);
-        add_location(i0, file, 135, 67, 4334);
+        add_location(div6, file, 124, 8, 3742);
+        add_location(i0, file, 135, 67, 4418);
         attr_dev(a1, "onclick", "facebookSubmit();");
         attr_dev(a1, "class", "_btn btn_facebook");
-        add_location(a1, file, 135, 10, 4277);
-        add_location(i1, file, 136, 246, 4600);
+        add_location(a1, file, 135, 10, 4361);
+        add_location(i1, file, 136, 246, 4684);
         attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=ZadbajOtoCoNosisz,WskazówkiPro-ekologicznegoPielęgnowaniaUbrań,lg");
         attr_dev(a2, "target", "_blank");
         attr_dev(a2, "class", "_btn btn_twt");
-        add_location(a2, file, 136, 10, 4364);
+        add_location(a2, file, 136, 10, 4448);
         attr_dev(a3, "href", "#");
         attr_dev(a3, "class", "_btn btn_gray");
-        add_location(a3, file, 137, 10, 4629);
+        add_location(a3, file, 137, 10, 4713);
         attr_dev(div7, "class", "btn_area");
-        add_location(div7, file, 134, 8, 4244);
+        add_location(div7, file, 134, 8, 4328);
         attr_dev(div8, "class", "layer_cont");
-        add_location(div8, file, 120, 6, 3313);
+        add_location(div8, file, 120, 6, 3397);
         attr_dev(div9, "class", "layer_inner");
-        add_location(div9, file, 119, 4, 3281);
+        add_location(div9, file, 119, 4, 3365);
         attr_dev(div10, "class", "layer_wrap");
-        add_location(div10, file, 115, 2, 3127);
+        add_location(div10, file, 115, 2, 3211);
         attr_dev(div11, "class", "layer_body popup QzTipLayer");
         attr_dev(div11, "id", "QzTips07");
         attr_dev(div11, "aria-hidden", "true");
@@ -8000,46 +8016,46 @@ var campaign_quiz = (function () {
         toggle_class(div11, "is-visible",
         /*tipsVisible*/
         ctx[4]);
-        add_location(div11, file, 114, 0, 3003);
+        add_location(div11, file, 114, 0, 3087);
         attr_dev(button2, "class", "close_btn");
-        add_location(button2, file, 147, 6, 4980);
+        add_location(button2, file, 147, 6, 5064);
         attr_dev(div12, "class", "layer_close");
-        add_location(div12, file, 146, 4, 4948);
+        add_location(div12, file, 146, 4, 5032);
         if (!src_url_equal(img4.src, img4_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
-        add_location(img4, file, 152, 10, 5171);
+        add_location(img4, file, 152, 10, 5255);
         attr_dev(div13, "class", "figure");
-        add_location(div13, file, 151, 8, 5140);
+        add_location(div13, file, 151, 8, 5224);
         if (!src_url_equal(img5.src, img5_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
         attr_dev(img5, "alt", "Congratulations on becoming a master of clothing care tips!");
-        add_location(img5, file, 155, 25, 5305);
+        add_location(img5, file, 155, 25, 5389);
         attr_dev(p5, "class", "_pc");
-        add_location(p5, file, 155, 10, 5290);
+        add_location(p5, file, 155, 10, 5374);
         if (!src_url_equal(img6.src, img6_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
         attr_dev(img6, "alt", "Congratulations on becoming a master of clothing care tips!");
-        add_location(img6, file, 156, 25, 5470);
+        add_location(img6, file, 156, 25, 5554);
         attr_dev(p6, "class", "_mo");
-        add_location(p6, file, 156, 10, 5455);
+        add_location(p6, file, 156, 10, 5539);
         attr_dev(p7, "class", "desc");
-        add_location(p7, file, 157, 10, 5621);
-        add_location(i2, file, 160, 70, 5905);
+        add_location(p7, file, 157, 10, 5705);
+        add_location(i2, file, 160, 70, 5989);
         attr_dev(a4, "onclick", "facebookSubmit();");
         attr_dev(a4, "class", "_btn btn_facebook ");
-        add_location(a4, file, 160, 12, 5847);
-        add_location(i3, file, 161, 248, 6173);
+        add_location(a4, file, 160, 12, 5931);
+        add_location(i3, file, 161, 248, 6257);
         attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=ZadbajOtoCoNosisz,WskazówkiPro-ekologicznegoPielęgnowaniaUbrań,lg");
         attr_dev(a5, "target", "_blank");
         attr_dev(a5, "class", "_btn btn_twt");
-        add_location(a5, file, 161, 12, 5937);
+        add_location(a5, file, 161, 12, 6021);
         attr_dev(div14, "class", "btn_area");
-        add_location(div14, file, 159, 10, 5812);
+        add_location(div14, file, 159, 10, 5896);
         attr_dev(div15, "class", "inner");
-        add_location(div15, file, 154, 8, 5260);
+        add_location(div15, file, 154, 8, 5344);
         attr_dev(div16, "class", "layer_cont");
-        add_location(div16, file, 150, 6, 5107);
+        add_location(div16, file, 150, 6, 5191);
         attr_dev(div17, "class", "layer_inner");
-        add_location(div17, file, 149, 4, 5075);
+        add_location(div17, file, 149, 4, 5159);
         attr_dev(div18, "class", "layer_wrap qzend-box");
-        add_location(div18, file, 145, 2, 4909);
+        add_location(div18, file, 145, 2, 4993);
         attr_dev(div19, "class", "layer_body popup QzTipLayer");
         attr_dev(div19, "id", "QzEnd");
         attr_dev(div19, "aria-hidden", "true");
@@ -8047,7 +8063,7 @@ var campaign_quiz = (function () {
         toggle_class(div19, "is-visible",
         /*masterVisible*/
         ctx[5]);
-        add_location(div19, file, 144, 0, 4786);
+        add_location(div19, file, 144, 0, 4870);
       },
       l: function claim(nodes) {
         throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
