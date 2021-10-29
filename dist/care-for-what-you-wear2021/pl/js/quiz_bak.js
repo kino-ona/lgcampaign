@@ -7370,7 +7370,7 @@ var campaign_quiz = (function () {
         div0 = element("div");
         img = element("img");
         attr_dev(img, "alt", "");
-        if (!src_url_equal(img.src, img_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q" + ('0' + (
+        if (!src_url_equal(img.src, img_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q" + ('0' + (
         /*currentQuiz*/
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
@@ -7389,7 +7389,7 @@ var campaign_quiz = (function () {
       p: function update(ctx, dirty) {
         if (!current || dirty &
         /*currentQuiz*/
-        4 && !src_url_equal(img.src, img_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q" + ('0' + (
+        4 && !src_url_equal(img.src, img_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q" + ('0' + (
         /*currentQuiz*/
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
@@ -7899,7 +7899,7 @@ var campaign_quiz = (function () {
         img6 = element("img");
         t38 = space();
         p7 = element("p");
-        p7.textContent = "All you need now is LG Clothing Care appliances to practice the tips. \n            Simply share this quiz on your Facebook or Twitter for a chance to win yours!";
+        p7.textContent = "Teraz potrzebujesz jeszcze tylko pralko-suszarkii LG, \n            by sprawdzić te sposoby w praktyce.";
         t40 = space();
         div14 = element("div");
         a4 = element("a");
@@ -7931,14 +7931,14 @@ var campaign_quiz = (function () {
         add_location(button1, file, 117, 6, 3188);
         attr_dev(div4, "class", "layer_close");
         add_location(div4, file, 116, 4, 3156);
-        if (!src_url_equal(img0.src, img0_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
+        if (!src_url_equal(img0.src, img0_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
         attr_dev(img0, "alt", img0_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
         add_location(img0, file, 121, 24, 3362);
         attr_dev(h40, "class", "_pc");
         add_location(h40, file, 121, 8, 3346);
-        if (!src_url_equal(img1.src, img1_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/mq_slogan.png")) attr_dev(img1, "src", img1_src_value);
+        if (!src_url_equal(img1.src, img1_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/mq_slogan.png")) attr_dev(img1, "src", img1_src_value);
         attr_dev(img1, "alt", img1_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
@@ -7947,7 +7947,7 @@ var campaign_quiz = (function () {
         add_location(h41, file, 122, 8, 3471);
         attr_dev(p1, "class", "q_tips");
         add_location(p1, file, 123, 8, 3597);
-        if (!src_url_equal(img2.src, img2_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_option4u-" +
+        if (!src_url_equal(img2.src, img2_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
@@ -7963,7 +7963,7 @@ var campaign_quiz = (function () {
         add_location(span1, file, 127, 12, 3915);
         attr_dev(p2, "class", "figure");
         add_location(p2, file, 125, 10, 3693);
-        if (!src_url_equal(img3.src, img3_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
+        if (!src_url_equal(img3.src, img3_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
         add_location(img3, file, 130, 30, 4068);
         attr_dev(p3, "class", "slogan");
         add_location(p3, file, 130, 12, 4050);
@@ -7978,7 +7978,7 @@ var campaign_quiz = (function () {
         attr_dev(a1, "class", "_btn btn_facebook");
         add_location(a1, file, 135, 10, 4277);
         add_location(i1, file, 136, 246, 4600);
-        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
+        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=ZadbajOtoCoNosisz,WskazówkiPro-ekologicznegoPielęgnowaniaUbrań,lg");
         attr_dev(a2, "target", "_blank");
         attr_dev(a2, "class", "_btn btn_twt");
         add_location(a2, file, 136, 10, 4364);
@@ -8005,16 +8005,16 @@ var campaign_quiz = (function () {
         add_location(button2, file, 147, 6, 4980);
         attr_dev(div12, "class", "layer_close");
         add_location(div12, file, 146, 4, 4948);
-        if (!src_url_equal(img4.src, img4_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
+        if (!src_url_equal(img4.src, img4_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
         add_location(img4, file, 152, 10, 5171);
         attr_dev(div13, "class", "figure");
         add_location(div13, file, 151, 8, 5140);
-        if (!src_url_equal(img5.src, img5_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
+        if (!src_url_equal(img5.src, img5_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
         attr_dev(img5, "alt", "Congratulations on becoming a master of clothing care tips!");
         add_location(img5, file, 155, 25, 5305);
         attr_dev(p5, "class", "_pc");
         add_location(p5, file, 155, 10, 5290);
-        if (!src_url_equal(img6.src, img6_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
+        if (!src_url_equal(img6.src, img6_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
         attr_dev(img6, "alt", "Congratulations on becoming a master of clothing care tips!");
         add_location(img6, file, 156, 25, 5470);
         attr_dev(p6, "class", "_mo");
@@ -8026,7 +8026,7 @@ var campaign_quiz = (function () {
         attr_dev(a4, "class", "_btn btn_facebook ");
         add_location(a4, file, 160, 12, 5847);
         add_location(i3, file, 161, 248, 6173);
-        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
+        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021&hashtags=ZadbajOtoCoNosisz,WskazówkiPro-ekologicznegoPielęgnowaniaUbrań,lg");
         attr_dev(a5, "target", "_blank");
         attr_dev(a5, "class", "_btn btn_twt");
         add_location(a5, file, 161, 12, 5937);
@@ -8174,29 +8174,29 @@ var campaign_quiz = (function () {
             dirty = _ref2[0];
 
         if ((!current || dirty &
-          /*quizData, currentQuiz*/
-          5) && t3_value !== (t3_value =
-          /*quizData*/
-          ctx[0][
-          /*currentQuiz*/
-          ctx[2]].qsource + "")) set_data_dev(t3, t3_value);
-          if ((!current || dirty &
-          /*currentQuiz*/
-          4) && t5_value !== (t5_value =
-          /*currentQuiz*/
-          ctx[2] + 1 + "")) set_data_dev(t5, t5_value);
-          if ((!current || dirty &
-          /*quizData*/
-          1) && t7_value !== (t7_value =
-          /*quizData*/
-          ctx[0].length + "")) set_data_dev(t7, t7_value);
-          if ((!current || dirty &
-          /*quizData, currentQuiz*/
-          5) && t9_value !== (t9_value =
-          /*quizData*/
-          ctx[0][
-          /*currentQuiz*/
-          ctx[2]].question + "")) set_data_dev(t9, t9_value);
+        /*quizData, currentQuiz*/
+        5) && t3_value !== (t3_value =
+        /*quizData*/
+        ctx[0][
+        /*currentQuiz*/
+        ctx[2]].qsource + "")) set_data_dev(t3, t3_value);
+        if ((!current || dirty &
+        /*currentQuiz*/
+        4) && t5_value !== (t5_value =
+        /*currentQuiz*/
+        ctx[2] + 1 + "")) set_data_dev(t5, t5_value);
+        if ((!current || dirty &
+        /*quizData*/
+        1) && t7_value !== (t7_value =
+        /*quizData*/
+        ctx[0].length + "")) set_data_dev(t7, t7_value);
+        if ((!current || dirty &
+        /*quizData, currentQuiz*/
+        5) && t9_value !== (t9_value =
+        /*quizData*/
+        ctx[0][
+        /*currentQuiz*/
+        ctx[2]].question + "")) set_data_dev(t9, t9_value);
 
         if (dirty &
         /*selected, currentQuiz, quizData*/
@@ -8284,7 +8284,7 @@ var campaign_quiz = (function () {
 
         if (!current || dirty &
         /*quizData, currentQuiz*/
-        5 && !src_url_equal(img2.src, img2_src_value = "/uk/appliances/care-for-what-you-wear-2021/images/quiz/q_option4u-" +
+        5 && !src_url_equal(img2.src, img2_src_value = "/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
