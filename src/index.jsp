@@ -497,7 +497,8 @@
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="F4V1112WTSA" data-model-name="F4V1112WTSA" data-sku="F4V1112WTSA" aria-describedby="F4V1112WTSA" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>learn_more" data-link-name="learn_more" data-model-id="F4V1112WTSA" data-model-name="F4V1112WTSA" data-sku="F4V1112WTSA" aria-describedby="F4V1112WTSA" target="_blank" class="_btn btn_red">LEARN MORE</a>
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa#pdp_where" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>where_to_buy" data-link-name="where_to_buy" data-model-id="F4V1112WTSA" data-model-name="F4V1112WTSA" data-sku="F4V1112WTSA" aria-describedby="F4V1112WTSA" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
                 </div>
               </div>
               <div class="desc">
@@ -535,7 +536,8 @@
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109w" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="FDV1109W" data-model-name="FDV1109W" data-sku="FDV1109W" aria-describedby="FDV1109W" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109w" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>learn_more" data-link-name="learn_more" data-model-id="FDV1109W" data-model-name="FDV1109W" data-sku="FDV1109W" aria-describedby="FDV1109W" target="_blank" class="_btn btn_red">LEARN MORE</a>
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109w" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" data-model-id="FDV1109W" data-model-name="FDV1109W" data-sku="FDV1109W" aria-describedby="FDV1109W" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
                 </div>
               </div>
               <div class="desc">
@@ -570,7 +572,8 @@
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>learn_more" data-link-name="learn_more" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">LEARN MORE</a>
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
                 </div>
               </div>
               <div class="desc">

@@ -424,7 +424,8 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>buy-now" data-link-name="buy_now" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>learn_more" data-link-name="learn_more" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">SPRAWDŹ</a>
+                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T#pdp_where" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>where_to_buy" data-link-name="where_to_buy" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">Gdzie Kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -462,7 +463,8 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">SPRAWDŹ</a>
+                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">Gdzie Kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -497,7 +499,8 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">SPRAWDŹ</a>
+                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">Gdzie Kupić</a>
                 </div>
               </div>
               <div class="desc">

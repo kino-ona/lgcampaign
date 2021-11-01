@@ -389,7 +389,8 @@
               <div class="figure">
                 <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/it/washing-machines/lg-f4v910wtse" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Acquista ora</a>
+                  <a href="https://www.lg.com/it/lavatrici/lg-f4wv912p2ea" adobe-click="clothing-care-campaign-main-Lavatrice" adobe-value="main>product-feature>Lavatrice>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
+                  <a href="https://www.lg.com/it/lavatrici/lg-f4wv912p2ea#pdp_where" adobe-click="clothing-care-campaign-main-Lavatrice" adobe-value="main>product-feature>Lavatrice>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
                 </div>
               </div>
               <div class="desc">
@@ -427,7 +428,8 @@
               <div class="figure">
                 <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/it/tumble-dryers/lg-FDV909W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Acquista ora</a>
+                  <a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
+                  <a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
                 </div>
               </div>
               <div class="desc">
@@ -462,7 +464,8 @@
               <div class="figure">
                 <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/it/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" target="_blank" class="_btn btn_red">Acquista ora</a>
+                  <a href="https://www.lg.com/it/styler/lg-s3bf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
+                  <a href="https://www.lg.com/it/styler/lg-s3bf#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
                 </div>
               </div>
               <div class="desc">
