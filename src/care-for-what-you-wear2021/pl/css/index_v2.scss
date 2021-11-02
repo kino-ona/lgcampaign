@@ -3191,6 +3191,7 @@
           width:70px;
           img {
             max-width: 100% !important;
+						max-height:85px;
           }
         }
       }
@@ -3274,7 +3275,7 @@
     }
   }
   .layer_inner {
-    max-height:inherit;
+    max-height:83vh;
   }
   .popup {
     &.QzTipLayer { 

@@ -1195,7 +1195,7 @@
 			image: url(/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz_bgcut-1.png);
 			size:cover;
 			repeat: no-repeat;
-			position:center center;
+			position:center bottom;
 		}
 		.row-stit {
 			span {
@@ -1579,9 +1579,9 @@
 		.disclm {
 			position:relative;
 			width:85%;
-			padding:10px 10px 0;
+			padding:0 14px 0;
 			margin:0 15px;
-			font-size:17px;
+			font-size:18px;
 			color:#000;
 			line-height:1.4;
 			text-align: left;
@@ -1589,9 +1589,9 @@
 				content: '*';
 				position:absolute;
 				left:0;
-				top:10px;
+				top:4px;
 				display: inline-block;
-				font-size:15px;
+				font-size:16px;
 				color:#000;
 			}
 			@media screen and (max-width:1024px) {
@@ -2994,6 +2994,9 @@
     }
   }
   .popup {
+		.layer_inner {
+			max-height: 83vh;
+		}
     &.QzTipLayer {
       .layer_cont {
         padding: 40px 20px 30px;
@@ -3023,12 +3026,19 @@
           margin: 0 auto;
           .slogan {
             width:100%;
+						height:60px;
             padding-left:15%;
             padding-top:20px;
             text-align: left;
-            // img {
-            //   max-width:190px;
-            // }
+						background: {
+							image: url('/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/mq_tiptxt.png');
+							size: 200px;
+							repeat: no-repeat;
+							position: left 70% bottom;
+						}
+            img {
+							display: none;
+            }
           }
           .txt {
             max-width: 100%;
@@ -3050,6 +3060,7 @@
           width:70px;
           img {
             max-width: 100% !important;
+						max-height:85px;
           }
         }
       }

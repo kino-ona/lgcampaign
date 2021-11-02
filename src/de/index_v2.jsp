@@ -282,7 +282,7 @@
             <dl>
               <dt>Gewinnspiellaufzeit</dt>
               <dd>
-                <p>10. Nov ~ 30. Nov 2021</p>
+                <p>10. - 30. November 2021</p>
               </dd>
             </dl>
             <dl>
