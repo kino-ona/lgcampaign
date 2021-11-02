@@ -1258,7 +1258,7 @@
 							content: '';
 							position: absolute;
 							left:0;
-							top:13px;
+							top:11px;
 							display: inline-block;
 							width:2px;
 							height:2px;
@@ -1295,7 +1295,7 @@
 		}
 		.hashtags {
 			display: inline-block;
-			margin-right:10px;
+			// margin-right:10px;
 			font-size:18px;
 			font-weight: 700;
 			color:#1DA843;
@@ -1478,7 +1478,7 @@
 			width:100%;
 			height:100%;
 			background: {
-				color:rgba(255,255,255, .95);
+				color:rgba(255,255,255, 1);
 				image: url('/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/qstart_bg.png');
 				repeat: no-repeat;
 				size:cover;
@@ -1577,14 +1577,32 @@
 			}
 		}
 		.disclm {
-			width:100%;
-			font-size:16px;
-			color:#999999;
-			text-align: center;
+			position:relative;
+			width:85%;
+			padding:10px 10px 0;
+			margin:0 15px;
+			font-size:17px;
+			color:#000;
+			line-height:1.4;
+			text-align: left;
+			&:before {
+				content: '*';
+				position:absolute;
+				left:0;
+				top:10px;
+				display: inline-block;
+				font-size:15px;
+				color:#000;
+			}
 			@media screen and (max-width:1024px) {
-				max-width:78%;
-				margin:0 auto;
+				// max-width:78%;
+				padding-top:0;
+				margin:0 20px;
 				font-size:14px;
+				line-height:1.3;
+				&:before {
+					top:2px;
+				}
 			}
 		}
 		.quiz_wrap {
@@ -1712,8 +1730,11 @@
 			right: 0;
 			bottom: -40px;
 			display: inline-block;
-			color: #999;
+			color:#999999;
 			text-align: right;
+			a {
+				color:#999999;
+			}
 			i {
 				@include iconAngle($direction: 'right', $width: 6px, $height: 14px, $thick: 1px, $color: #999999, $display: inline-block, $position: relative); 
 				margin-left:8px;
@@ -2165,7 +2186,7 @@
 			justify-content: space-between;
 			.slogan {
 				display: block;
-				width: 270px;
+				width: 80%;
 				height: 50px;
 				margin-bottom:5px;
 			}
@@ -2228,11 +2249,11 @@
 				position:absolute;
 				right:7%;
 				top:0;
-				width:130px;
+				width:165px;
 				height:40px;
 				background: {
 					image: url('/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_btnexp02.png');
-					size:130px;
+					size:contain !important;
 					repeat: no-repeat;
 					position: 0 0;
 				}
@@ -3005,9 +3026,9 @@
             padding-left:15%;
             padding-top:20px;
             text-align: left;
-            img {
-              max-width:190px;
-            }
+            // img {
+            //   max-width:190px;
+            // }
           }
           .txt {
             max-width: 100%;
