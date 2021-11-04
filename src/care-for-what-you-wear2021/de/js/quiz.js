@@ -7345,15 +7345,15 @@ var campaign_quiz = (function () {
   var file = "src/App.svelte";
 
   function add_css(target) {
-    append_styles(target, "svelte-1etsde6", ".clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6{padding-top:0;position:relative;overflow:hidden}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 .figure{padding-bottom:0}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 .figure div{padding-bottom:100%}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 .figure+.figure{position:absolute;width:100%;top:100%}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 label{padding-top:55px;width:100%}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 label input[type=radio]{visibility:visible;z-index:-1;opacity:0;left:50%;top:50%;transform:translate(-50%, -50%)}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLnN2ZWx0ZSIsIm1hcHBpbmdzIjoiQUFJUSxrQkFBQSxDQUFBLGNBQUEsQ0FBQSx1QkFBQSxDQUFBLEtBQUEsZUFBQSxDQUFBLEFBQ0UsV0FBQSxDQUFBLENBQUEsQ0FDQSxRQUFBLENBQUEsUUFBQSxDQUNBLFFBQUEsQ0FBQSxNQUFBLEFDSFYsQ0FBQSxBREtVLGtCQUFBLENBQUEsY0FBQSxDQUFBLHVCQUFBLENBQUEsb0JBQUEsQ0FBQSxBQUFBLE9BQUEsQUFBQSxDQUFBLEFBQ0UsY0FBQSxDQUFBLENBQUEsQUNIWixDQUFBLEFES1ksa0JBQUEsQ0FBQSxjQUFBLENBQUEsdUJBQUEsQ0FBQSxvQkFBQSxDQUFBLEFBQUEsT0FBQSxBQUFBLENBQUEsQUFBQSxHQUFBLEFBQUEsQ0FBQSxBQUNFLGNBQUEsQ0FBQSxJQ0hkLEFER2MsQ0FHRixBQ05aLGtCRE1ZLENBQUEsY0FBQSxDQUFBLHVCQUFBLENBQUEsb0JBQUEsQ0FBQSxBQUFBLE9BQUEsQUFBQSxDQUFBLE9BQUEsQUFBQSxDQUFBLEFBQ0UsUUFBQSxDQUFBLFFBQUEsQ0FDQSxLQUFBLENBQUEsSUFBQSxDQUNBLEdBQUEsQ0FBQSxJQUFBLEFDSmQsQ0FBQSxBRFFVLGtCQUFBLENBQUEsY0FBQSxDQUFBLHVCQUFBLENBQUEsb0JBQUEsQ0FBQSxBQUFBLEtBQUEsQUFBQSxDQUNFLEFBREYsV0FDRSxDQUFBLElBQUEsQ0FDQSxLQUFBLENBQUEsSUFBQSxBQ05aLENBQUEsQURRWSxrQkFBQSxDQUFBLGNBQUEsQ0FBQSx1QkFBQSxDQUFBLG9CQUFBLENBQUEsQUFBQSxLQUFBLEFBQUEsQ0FBQSxBQUFBLGlCQUFBLEFBQUEsQ0FBQSxBQUNFLFVBQUEsQ0FBQSxPQUFBLENBQ0EsT0FBQSxDQUFBLEVBQUEsQ0FDQSxPQUFBLENBQUEsQ0FBQSxDQUNBLElBQUEsQ0FBQSxHQUFBLENBQ0EsR0FBQSxDQUFBLEdBQUEsQ0FDQSxTQUFBLENBQUEsVUFBQSxJQUFBLENBQUEsQ0FBQSxJQUFBLENBQUEsQUNOZCxDQ3NMQSIsIm5hbWVzIjpbXSwic291cmNlcyI6WyJmaWxlOi8vL1VzZXJzL2FkbWluL2xnLWNsb3RoaW5nLWNhcmUvc3JjL0FwcC5zdmVsdGUiLCJzcmMvQXBwLnN2ZWx0ZSIsIkFwcC5zdmVsdGUiXX0= */");
+    append_styles(target, "svelte-1etsde6", ".clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6{padding-top:0;position:relative;overflow:hidden}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 .figure{padding-bottom:0}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 .figure div{padding-bottom:100%}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 .figure+.figure{position:absolute;width:100%;top:100%}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 label{padding-top:55px;width:100%}.clothing-campaign .clothing_quiz .q_items.svelte-1etsde6 .item.svelte-1etsde6 label input[type=radio]{visibility:visible;z-index:-1;opacity:0;left:50%;top:50%;transform:translate(-50%, -50%)}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLnN2ZWx0ZSIsIm1hcHBpbmdzIjoiQUFJUSxrQkFBQSxDQUFBLGNBQUEsQ0FBQSx1QkFBQSxDQUFBLEtBQUEsZUFBQSxDQUFBLEFBQ0UsV0FBQSxDQUFBLENBQUEsQ0FDQSxRQUFBLENBQUEsUUFBQSxDQUNBLFFBQUEsQ0FBQSxNQUFBLEFDSFYsQ0FBQSxBREtVLGtCQUFBLENBQUEsY0FBQSxDQUFBLHVCQUFBLENBQUEsb0JBQUEsQ0FBQSxBQUFBLE9BQUEsQUFBQSxDQUFBLEFBQ0UsY0FBQSxDQUFBLENBQUEsQUNIWixDQUFBLEFES1ksa0JBQUEsQ0FBQSxjQUFBLENBQUEsdUJBQUEsQ0FBQSxvQkFBQSxDQUFBLEFBQUEsT0FBQSxBQUFBLENBQUEsQUFBQSxHQUFBLEFBQUEsQ0FBQSxBQUNFLGNBQUEsQ0FBQSxJQ0hkLEFER2MsQ0FHRixBQ05aLGtCRE1ZLENBQUEsY0FBQSxDQUFBLHVCQUFBLENBQUEsb0JBQUEsQ0FBQSxBQUFBLE9BQUEsQUFBQSxDQUFBLE9BQUEsQUFBQSxDQUFBLEFBQ0UsUUFBQSxDQUFBLFFBQUEsQ0FDQSxLQUFBLENBQUEsSUFBQSxDQUNBLEdBQUEsQ0FBQSxJQUFBLEFDSmQsQ0FBQSxBRFFVLGtCQUFBLENBQUEsY0FBQSxDQUFBLHVCQUFBLENBQUEsb0JBQUEsQ0FBQSxBQUFBLEtBQUEsQUFBQSxDQUNFLEFBREYsV0FDRSxDQUFBLElBQUEsQ0FDQSxLQUFBLENBQUEsSUFBQSxBQ05aLENBQUEsQURRWSxrQkFBQSxDQUFBLGNBQUEsQ0FBQSx1QkFBQSxDQUFBLG9CQUFBLENBQUEsQUFBQSxLQUFBLEFBQUEsQ0FBQSxBQUFBLGlCQUFBLEFBQUEsQ0FBQSxBQUNFLFVBQUEsQ0FBQSxPQUFBLENBQ0EsT0FBQSxDQUFBLEVBQUEsQ0FDQSxPQUFBLENBQUEsQ0FBQSxDQUNBLElBQUEsQ0FBQSxHQUFBLENBQ0EsR0FBQSxDQUFBLEdBQUEsQ0FDQSxTQUFBLENBQUEsVUFBQSxJQUFBLENBQUEsQ0FBQSxJQUFBLENBQUEsQUNOZCxDQzBOQSIsIm5hbWVzIjpbXSwic291cmNlcyI6WyJmaWxlOi8vL1VzZXJzL2FkbWluL2xnLWNsb3RoaW5nLWNhcmUvc3JjL0FwcC5zdmVsdGUiLCJzcmMvQXBwLnN2ZWx0ZSIsIkFwcC5zdmVsdGUiXX0= */");
   }
 
   function get_each_context(ctx, list, i) {
     var child_ctx = ctx.slice();
-    child_ctx[16] = list[i];
-    child_ctx[18] = i;
+    child_ctx[19] = list[i];
+    child_ctx[21] = i;
     return child_ctx;
-  } // (91:12) {#key `figure_${currentQuiz}-${index}`}
+  } // (100:12) {#key `figure_${currentQuiz}-${index}`}
 
 
   function create_key_block(ctx) {
@@ -7374,11 +7374,11 @@ var campaign_quiz = (function () {
         /*currentQuiz*/
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
-        ctx[18] + 1)).slice(-2) + ".png")) attr_dev(img, "src", img_src_value);
-        add_location(img, file, 93, 12, 2421);
-        add_location(div0, file, 92, 10, 2366);
+        ctx[21] + 1)).slice(-2) + ".png")) attr_dev(img, "src", img_src_value);
+        add_location(img, file, 102, 12, 2662);
+        add_location(div0, file, 101, 10, 2607);
         attr_dev(div1, "class", "figure");
-        add_location(div1, file, 91, 8, 2335);
+        add_location(div1, file, 100, 8, 2576);
       },
       m: function mount(target, anchor) {
         insert_dev(target, div1, anchor);
@@ -7393,7 +7393,7 @@ var campaign_quiz = (function () {
         /*currentQuiz*/
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
-        ctx[18] + 1)).slice(-2) + ".png")) {
+        ctx[21] + 1)).slice(-2) + ".png")) {
           attr_dev(img, "src", img_src_value);
         }
       },
@@ -7404,7 +7404,7 @@ var campaign_quiz = (function () {
           div0_intro = create_in_transition(div0, fade, {
             delay: 100 *
             /*index*/
-            ctx[18]
+            ctx[21]
           });
           div0_intro.start();
         });
@@ -7424,11 +7424,11 @@ var campaign_quiz = (function () {
       block: block,
       id: create_key_block.name,
       type: "key",
-      source: "(91:12) {#key `figure_${currentQuiz}-${index}`}",
+      source: "(100:12) {#key `figure_${currentQuiz}-${index}`}",
       ctx: ctx
     });
     return block;
-  } // (86:2) {#each quizData[currentQuiz].answers as answer, index}
+  } // (95:2) {#each quizData[currentQuiz].answers as answer, index}
 
 
   function create_each_block(ctx) {
@@ -7440,13 +7440,14 @@ var campaign_quiz = (function () {
     /*currentQuiz*/
     ctx[2], "-").concat(
     /*index*/
-    ctx[18]);
+    ctx[21]);
     var t1;
     var p;
     var t2_value =
     /*answer*/
-    ctx[16] + "";
+    ctx[19] + "";
     var t2;
+    var label_data_link_name_value;
     var t3;
     var current;
     var mounted;
@@ -7466,16 +7467,22 @@ var campaign_quiz = (function () {
         attr_dev(input, "name", "answer");
         attr_dev(input, "type", "radio");
         input.__value = /*index*/
-        ctx[18];
+        ctx[21];
         input.value = input.__value;
         /*$$binding_groups*/
 
-        ctx[12][0].push(input);
-        add_location(input, file, 88, 8, 2186);
+        ctx[14][0].push(input);
+        add_location(input, file, 97, 8, 2427);
         attr_dev(p, "class", "txt");
-        add_location(p, file, 102, 8, 2673);
+        add_location(p, file, 111, 8, 2915);
         attr_dev(label, "class", "_sel");
-        add_location(label, file, 87, 6, 2157);
+        attr_dev(label, "data-link-name", label_data_link_name_value = "quiz" +
+        /*currentQuiz*/
+        ctx[2] + "-" +
+        /*index*/
+        ctx[21]);
+        attr_dev(label, "data-link-area", "quiz_checkbox_click");
+        add_location(label, file, 96, 6, 2318);
         attr_dev(div, "class", "item svelte-1etsde6");
         toggle_class(div, "is-selected",
         /*selected*/
@@ -7483,8 +7490,8 @@ var campaign_quiz = (function () {
         /*currentQuiz*/
         ctx[2]] ===
         /*index*/
-        ctx[18]);
-        add_location(div, file, 86, 4, 2078);
+        ctx[21]);
+        add_location(div, file, 95, 4, 2239);
       },
       m: function mount(target, anchor) {
         insert_dev(target, div, anchor);
@@ -7506,7 +7513,7 @@ var campaign_quiz = (function () {
         if (!mounted) {
           dispose = listen_dev(input, "change",
           /*input_change_handler*/
-          ctx[11]);
+          ctx[13]);
           mounted = true;
         }
       },
@@ -7527,7 +7534,7 @@ var campaign_quiz = (function () {
         /*currentQuiz*/
         ctx[2], "-").concat(
         /*index*/
-        ctx[18]))) {
+        ctx[21]))) {
           group_outros();
           transition_out(key_block, 1, 1, noop);
           check_outros();
@@ -7543,7 +7550,17 @@ var campaign_quiz = (function () {
         /*quizData, currentQuiz*/
         5) && t2_value !== (t2_value =
         /*answer*/
-        ctx[16] + "")) set_data_dev(t2, t2_value);
+        ctx[19] + "")) set_data_dev(t2, t2_value);
+
+        if (!current || dirty &
+        /*currentQuiz*/
+        4 && label_data_link_name_value !== (label_data_link_name_value = "quiz" +
+        /*currentQuiz*/
+        ctx[2] + "-" +
+        /*index*/
+        ctx[21])) {
+          attr_dev(label, "data-link-name", label_data_link_name_value);
+        }
 
         if (dirty &
         /*selected, currentQuiz*/
@@ -7554,7 +7571,7 @@ var campaign_quiz = (function () {
           /*currentQuiz*/
           ctx[2]] ===
           /*index*/
-          ctx[18]);
+          ctx[21]);
         }
       },
       i: function intro(local) {
@@ -7570,9 +7587,9 @@ var campaign_quiz = (function () {
         if (detaching) detach_dev(div);
         /*$$binding_groups*/
 
-        ctx[12][0].splice(
-        /*$$binding_groups*/
-        ctx[12][0].indexOf(input), 1);
+        ctx[14][0].splice(
+          /*$$binding_groups*/
+          ctx[14][0].indexOf(input), 1);
         key_block.d(detaching);
         mounted = false;
         dispose();
@@ -7582,11 +7599,11 @@ var campaign_quiz = (function () {
       block: block,
       id: create_each_block.name,
       type: "each",
-      source: "(86:2) {#each quizData[currentQuiz].answers as answer, index}",
+      source: "(95:2) {#each quizData[currentQuiz].answers as answer, index}",
       ctx: ctx
     });
     return block;
-  } // (110:2) {#if currentQuiz}
+  } // (119:2) {#if currentQuiz}
 
 
   function create_if_block(ctx) {
@@ -7603,7 +7620,7 @@ var campaign_quiz = (function () {
         t = text(t_value);
         attr_dev(a, "class", "_btn btn_back");
         attr_dev(a, "href", "#");
-        add_location(a, file, 109, 19, 2787);
+        add_location(a, file, 118, 19, 3029);
       },
       m: function mount(target, anchor) {
         insert_dev(target, a, anchor);
@@ -7612,7 +7629,7 @@ var campaign_quiz = (function () {
         if (!mounted) {
           dispose = listen_dev(a, "click", prevent_default(
           /*previous*/
-          ctx[6]), false, true, false);
+          ctx[7]), false, true, false);
           mounted = true;
         }
       },
@@ -7633,7 +7650,7 @@ var campaign_quiz = (function () {
       block: block,
       id: create_if_block.name,
       type: "if",
-      source: "(110:2) {#if currentQuiz}",
+      source: "(119:2) {#if currentQuiz}",
       ctx: ctx
     });
     return block;
@@ -7690,14 +7707,6 @@ var campaign_quiz = (function () {
     var div9;
     var div8;
     var h40;
-    var img0;
-    var img0_src_value;
-    var img0_alt_value;
-    var t17;
-    var h41;
-    var img1;
-    var img1_src_value;
-    var img1_alt_value;
     var t18;
     var p1;
     var t19_value =
@@ -7709,9 +7718,9 @@ var campaign_quiz = (function () {
     var t20;
     var div6;
     var p2;
-    var img2;
-    var img2_src_value;
-    var img2_alt_value;
+    var img0;
+    var img0_src_value;
+    var img0_alt_value;
     var t21;
     var span1;
     var t22_value =
@@ -7724,8 +7733,8 @@ var campaign_quiz = (function () {
     var t24;
     var div5;
     var p3;
-    var img3;
-    var img3_src_value;
+    var img1;
+    var img1_src_value;
     var t25;
     var p4;
     var t26_value =
@@ -7757,29 +7766,96 @@ var campaign_quiz = (function () {
     var t35;
     var div17;
     var div16;
-    var div13;
-    var img4;
-    var img4_src_value;
+    var h41;
     var t36;
-    var div15;
-    var p5;
-    var img5;
-    var img5_src_value;
+    var t37_value =
+    /*quizData*/
+    ctx[0][
+    /*currentQuiz*/
+    ctx[2]].currenttips + "";
     var t37;
-    var p6;
-    var img6;
-    var img6_src_value;
     var t38;
-    var p7;
+    var p5;
+    var t39_value =
+    /*quizData*/
+    ctx[0][
+    /*currentQuiz*/
+    ctx[2]].tips + "";
+    var t39;
     var t40;
     var div14;
+    var p6;
+    var img2;
+    var img2_src_value;
+    var img2_alt_value;
+    var t41;
+    var span2;
+    var t42_value =
+    /*quizData*/
+    ctx[0][
+    /*currentQuiz*/
+    ctx[2]].product.toLowerCase() + "";
+    var t42;
+    var t43;
+    var t44;
+    var div13;
+    var p7;
+    var img3;
+    var img3_src_value;
+    var t45;
+    var p8;
+    var t46_value =
+    /*quizData*/
+    ctx[0][
+    /*currentQuiz*/
+    ctx[2]].feedback + "";
+    var t46;
+    var t47;
+    var div15;
     var a4;
     var i2;
-    var t41;
-    var t42;
+    var t48;
+    var t49;
     var a5;
     var i3;
-    var t43;
+    var t50;
+    var t51;
+    var a6;
+    var t52_value =
+    /*messageData*/
+    ctx[1].tryButton + "";
+    var t52;
+    var t53;
+    var div27;
+    var div26;
+    var div20;
+    var button3;
+    var t55;
+    var div25;
+    var div24;
+    var div21;
+    var img4;
+    var img4_src_value;
+    var t56;
+    var div23;
+    var p9;
+    var img5;
+    var img5_src_value;
+    var t57;
+    var p10;
+    var img6;
+    var img6_src_value;
+    var t58;
+    var p11;
+    var t60;
+    var div22;
+    var a7;
+    var i4;
+    var t61;
+    var t62;
+    var a8;
+    var i5;
+    var t63;
     var current;
     var mounted;
     var dispose;
@@ -7845,17 +7921,14 @@ var campaign_quiz = (function () {
         div9 = element("div");
         div8 = element("div");
         h40 = element("h4");
-        img0 = element("img");
-        t17 = space();
-        h41 = element("h4");
-        img1 = element("img");
+        h40.textContent = "Richtig! Werden Sie Wäschepflege-Experte";
         t18 = space();
         p1 = element("p");
         t19 = text(t19_value);
         t20 = space();
         div6 = element("div");
         p2 = element("p");
-        img2 = element("img");
+        img0 = element("img");
         t21 = space();
         span1 = element("span");
         t22 = text(t22_value);
@@ -7863,7 +7936,7 @@ var campaign_quiz = (function () {
         t24 = space();
         div5 = element("div");
         p3 = element("p");
-        img3 = element("img");
+        img1 = element("img");
         t25 = space();
         p4 = element("p");
         t26 = text(t26_value);
@@ -7888,66 +7961,156 @@ var campaign_quiz = (function () {
         t35 = space();
         div17 = element("div");
         div16 = element("div");
-        div13 = element("div");
-        img4 = element("img");
-        t36 = space();
-        div15 = element("div");
-        p5 = element("p");
-        img5 = element("img");
-        t37 = space();
-        p6 = element("p");
-        img6 = element("img");
+        h41 = element("h4");
+        t36 = text("Nein, leider nicht. Richtig ist: ");
+        t37 = text(t37_value);
         t38 = space();
-        p7 = element("p");
-        p7.textContent = "Alles, was Sie nun noch für eine effektive und nachhaltige Wäschepflege brauchen, ist ein LG Wäschepflege-Gerät. \n            Teilen Sie einfach das Quiz auf Facebook oder Twitter und gewinnen Sie einen LG Styler!";
+        p5 = element("p");
+        t39 = text(t39_value);
         t40 = space();
         div14 = element("div");
+        p6 = element("p");
+        img2 = element("img");
+        t41 = space();
+        span2 = element("span");
+        t42 = text(t42_value);
+        t43 = text("™");
+        t44 = space();
+        div13 = element("div");
+        p7 = element("p");
+        img3 = element("img");
+        t45 = space();
+        p8 = element("p");
+        t46 = text(t46_value);
+        t47 = space();
+        div15 = element("div");
         a4 = element("a");
         i2 = element("i");
-        t41 = text("Facebook");
-        t42 = space();
+        t48 = text("Facebook");
+        t49 = space();
         a5 = element("a");
         i3 = element("i");
-        t43 = text("Twitter");
+        t50 = text("Twitter");
+        t51 = space();
+        a6 = element("a");
+        t52 = text(t52_value);
+        t53 = space();
+        div27 = element("div");
+        div26 = element("div");
+        div20 = element("div");
+        button3 = element("button");
+        button3.textContent = "close";
+        t55 = space();
+        div25 = element("div");
+        div24 = element("div");
+        div21 = element("div");
+        img4 = element("img");
+        t56 = space();
+        div23 = element("div");
+        p9 = element("p");
+        img5 = element("img");
+        t57 = space();
+        p10 = element("p");
+        img6 = element("img");
+        t58 = space();
+        p11 = element("p");
+        p11.textContent = "All you need now is LG Clothing Care appliances to practice the tips. \n            Simply share this quiz on your Facebook or Twitter for a chance to win yours!";
+        t60 = space();
+        div22 = element("div");
+        a7 = element("a");
+        i4 = element("i");
+        t61 = text("Facebook");
+        t62 = space();
+        a8 = element("a");
+        i5 = element("i");
+        t63 = text("Twitter");
         attr_dev(span0, "class", "a11y");
-        add_location(span0, file, 78, 64, 1597);
+        add_location(span0, file, 87, 64, 1758);
         attr_dev(button0, "class", "btn_refresh");
-        add_location(button0, file, 78, 0, 1533);
+        add_location(button0, file, 87, 0, 1694);
         attr_dev(div0, "class", "q_source");
-        add_location(div0, file, 79, 0, 1640);
-        add_location(strong, file, 80, 20, 1729);
+        add_location(div0, file, 88, 0, 1801);
+        add_location(strong, file, 89, 20, 1890);
         attr_dev(div1, "class", "q_step");
-        add_location(div1, file, 80, 0, 1709);
+        add_location(div1, file, 89, 0, 1870);
         attr_dev(p0, "class", "q_title");
-        add_location(p0, file, 82, 0, 1938);
+        add_location(p0, file, 91, 0, 2099);
         attr_dev(div2, "class", "q_items svelte-1etsde6");
-        add_location(div2, file, 84, 0, 1995);
+        add_location(div2, file, 93, 0, 2156);
         attr_dev(a0, "class", "_btn btn_next");
         attr_dev(a0, "href", "#");
-        add_location(a0, file, 110, 2, 2896);
+        add_location(a0, file, 119, 2, 3138);
         attr_dev(div3, "class", "btn_area");
-        add_location(div3, file, 108, 0, 2745);
+        add_location(div3, file, 117, 0, 2987);
         attr_dev(button1, "class", "close_btn");
-        add_location(button1, file, 117, 6, 3188);
+        add_location(button1, file, 125, 6, 3433);
         attr_dev(div4, "class", "layer_close");
-        add_location(div4, file, 116, 4, 3156);
-        if (!src_url_equal(img0.src, img0_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
-        attr_dev(img0, "alt", img0_alt_value =
-        /*messageData*/
-        ctx[1].tipsTitle);
-        add_location(img0, file, 121, 24, 3362);
-        attr_dev(h40, "class", "_pc");
-        add_location(h40, file, 121, 8, 3346);
-        if (!src_url_equal(img1.src, img1_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/mq_slogan.png")) attr_dev(img1, "src", img1_src_value);
-        attr_dev(img1, "alt", img1_alt_value =
-        /*messageData*/
-        ctx[1].tipsTitle);
-        add_location(img1, file, 122, 24, 3487);
-        attr_dev(h41, "class", "_mo");
-        add_location(h41, file, 122, 8, 3471);
+        add_location(div4, file, 124, 4, 3401);
+        add_location(h40, file, 129, 8, 3594);
         attr_dev(p1, "class", "q_tips");
-        add_location(p1, file, 123, 8, 3597);
-        if (!src_url_equal(img2.src, img2_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_option4u-" +
+        add_location(p1, file, 130, 8, 3652);
+        if (!src_url_equal(img0.src, img0_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_option4u-" +
+        /*quizData*/
+        ctx[0][
+        /*currentQuiz*/
+        ctx[2]].product.toLowerCase() + ".png")) attr_dev(img0, "src", img0_src_value);
+        attr_dev(img0, "class", "WM-img");
+        attr_dev(img0, "alt", img0_alt_value =
+        /*quizData*/
+        ctx[0][
+        /*currentQuiz*/
+        ctx[2]].product.toLowerCase());
+        add_location(img0, file, 133, 12, 3780);
+        attr_dev(span1, "class", "a11y");
+        add_location(span1, file, 134, 12, 3971);
+        attr_dev(p2, "class", "figure");
+        add_location(p2, file, 132, 10, 3749);
+        if (!src_url_equal(img1.src, img1_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
+        add_location(img1, file, 137, 30, 4124);
+        attr_dev(p3, "class", "slogan");
+        add_location(p3, file, 137, 12, 4106);
+        attr_dev(p4, "class", "txt");
+        add_location(p4, file, 138, 12, 4206);
+        attr_dev(div5, "class", "desc");
+        add_location(div5, file, 136, 10, 4075);
+        attr_dev(div6, "class", "q_option4u");
+        add_location(div6, file, 131, 8, 3714);
+        add_location(i0, file, 142, 67, 4390);
+        attr_dev(a1, "onclick", "facebookSubmit();");
+        attr_dev(a1, "class", "_btn btn_facebook");
+        add_location(a1, file, 142, 10, 4333);
+        add_location(i1, file, 143, 246, 4656);
+        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,lg,lgclothingcare");
+        attr_dev(a2, "target", "_blank");
+        attr_dev(a2, "class", "_btn btn_twt");
+        add_location(a2, file, 143, 10, 4420);
+        attr_dev(a3, "href", "#");
+        attr_dev(a3, "class", "_btn btn_gray");
+        add_location(a3, file, 144, 10, 4685);
+        attr_dev(div7, "class", "btn_area");
+        add_location(div7, file, 141, 8, 4300);
+        attr_dev(div8, "class", "layer_cont");
+        add_location(div8, file, 128, 6, 3561);
+        attr_dev(div9, "class", "layer_inner");
+        add_location(div9, file, 127, 4, 3529);
+        attr_dev(div10, "class", "layer_wrap");
+        add_location(div10, file, 123, 2, 3372);
+        attr_dev(div11, "class", "layer_body popup QzTipLayer");
+        attr_dev(div11, "id", "QzCurrent");
+        attr_dev(div11, "aria-hidden", "true");
+        attr_dev(div11, "role", "dialog");
+        toggle_class(div11, "is-visible",
+        /*currentVisible*/
+        ctx[6]);
+        add_location(div11, file, 122, 0, 3244);
+        attr_dev(button2, "class", "close_btn");
+        add_location(button2, file, 154, 6, 5030);
+        attr_dev(div12, "class", "layer_close");
+        add_location(div12, file, 153, 4, 4998);
+        add_location(h41, file, 158, 8, 5188);
+        attr_dev(p5, "class", "q_tips");
+        add_location(p5, file, 159, 8, 5274);
+        if (!src_url_equal(img2.src, img2_src_value = "./care-for-what-you-wear2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
@@ -7958,93 +8121,93 @@ var campaign_quiz = (function () {
         ctx[0][
         /*currentQuiz*/
         ctx[2]].product.toLowerCase());
-        add_location(img2, file, 126, 12, 3724);
-        attr_dev(span1, "class", "a11y");
-        add_location(span1, file, 127, 12, 3915);
-        attr_dev(p2, "class", "figure");
-        add_location(p2, file, 125, 10, 3693);
-        if (!src_url_equal(img3.src, img3_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
-        add_location(img3, file, 130, 30, 4068);
-        attr_dev(p3, "class", "slogan");
-        add_location(p3, file, 130, 12, 4050);
-        attr_dev(p4, "class", "txt");
-        add_location(p4, file, 131, 12, 4150);
-        attr_dev(div5, "class", "desc");
-        add_location(div5, file, 129, 10, 4019);
-        attr_dev(div6, "class", "q_option4u");
-        add_location(div6, file, 124, 8, 3658);
-        add_location(i0, file, 135, 67, 4334);
-        attr_dev(a1, "onclick", "facebookSubmit();");
-        attr_dev(a1, "class", "_btn btn_facebook");
-        add_location(a1, file, 135, 10, 4277);
-        add_location(i1, file, 136, 246, 4600);
-        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,lg,lgclothingcare");
-        attr_dev(a2, "target", "_blank");
-        attr_dev(a2, "class", "_btn btn_twt");
-        add_location(a2, file, 136, 10, 4364);
-        attr_dev(a3, "href", "#");
-        attr_dev(a3, "class", "_btn btn_gray");
-        add_location(a3, file, 137, 10, 4629);
-        attr_dev(div7, "class", "btn_area");
-        add_location(div7, file, 134, 8, 4244);
-        attr_dev(div8, "class", "layer_cont");
-        add_location(div8, file, 120, 6, 3313);
-        attr_dev(div9, "class", "layer_inner");
-        add_location(div9, file, 119, 4, 3281);
-        attr_dev(div10, "class", "layer_wrap");
-        add_location(div10, file, 115, 2, 3127);
-        attr_dev(div11, "class", "layer_body popup QzTipLayer");
-        attr_dev(div11, "id", "QzTips07");
-        attr_dev(div11, "aria-hidden", "true");
-        attr_dev(div11, "role", "dialog");
-        toggle_class(div11, "is-visible",
-        /*tipsVisible*/
-        ctx[4]);
-        add_location(div11, file, 114, 0, 3003);
-        attr_dev(button2, "class", "close_btn");
-        add_location(button2, file, 147, 6, 4980);
-        attr_dev(div12, "class", "layer_close");
-        add_location(div12, file, 146, 4, 4948);
-        if (!src_url_equal(img4.src, img4_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
-        add_location(img4, file, 152, 10, 5171);
-        attr_dev(div13, "class", "figure");
-        add_location(div13, file, 151, 8, 5140);
-        if (!src_url_equal(img5.src, img5_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
-        attr_dev(img5, "alt", "Congratulations on becoming a master of clothing care tips!");
-        add_location(img5, file, 155, 25, 5305);
-        attr_dev(p5, "class", "_pc");
-        add_location(p5, file, 155, 10, 5290);
-        if (!src_url_equal(img6.src, img6_src_value = "/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
-        attr_dev(img6, "alt", "Congratulations on becoming a master of clothing care tips!");
-        add_location(img6, file, 156, 25, 5470);
-        attr_dev(p6, "class", "_mo");
-        add_location(p6, file, 156, 10, 5455);
-        attr_dev(p7, "class", "desc");
-        add_location(p7, file, 157, 10, 5621);
-        add_location(i2, file, 160, 70, 5905);
+        add_location(img2, file, 162, 12, 5402);
+        attr_dev(span2, "class", "a11y");
+        add_location(span2, file, 163, 12, 5593);
+        attr_dev(p6, "class", "figure");
+        add_location(p6, file, 161, 10, 5371);
+        if (!src_url_equal(img3.src, img3_src_value = "./care-for-what-you-wear2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
+        add_location(img3, file, 166, 30, 5746);
+        attr_dev(p7, "class", "slogan");
+        add_location(p7, file, 166, 12, 5728);
+        attr_dev(p8, "class", "txt");
+        add_location(p8, file, 167, 12, 5828);
+        attr_dev(div13, "class", "desc");
+        add_location(div13, file, 165, 10, 5697);
+        attr_dev(div14, "class", "q_option4u");
+        add_location(div14, file, 160, 8, 5336);
+        add_location(i2, file, 171, 67, 6012);
         attr_dev(a4, "onclick", "facebookSubmit();");
-        attr_dev(a4, "class", "_btn btn_facebook ");
-        add_location(a4, file, 160, 12, 5847);
-        add_location(i3, file, 161, 248, 6173);
-        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,lg,lgclothingcare");
+        attr_dev(a4, "class", "_btn btn_facebook");
+        add_location(a4, file, 171, 10, 5955);
+        add_location(i3, file, 172, 246, 6278);
+        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear");
         attr_dev(a5, "target", "_blank");
         attr_dev(a5, "class", "_btn btn_twt");
-        add_location(a5, file, 161, 12, 5937);
-        attr_dev(div14, "class", "btn_area");
-        add_location(div14, file, 159, 10, 5812);
-        attr_dev(div15, "class", "inner");
-        add_location(div15, file, 154, 8, 5260);
+        add_location(a5, file, 172, 10, 6042);
+        attr_dev(a6, "href", "#");
+        attr_dev(a6, "class", "_btn btn_gray");
+        add_location(a6, file, 173, 10, 6307);
+        attr_dev(div15, "class", "btn_area");
+        add_location(div15, file, 170, 8, 5922);
         attr_dev(div16, "class", "layer_cont");
-        add_location(div16, file, 150, 6, 5107);
+        add_location(div16, file, 157, 6, 5155);
         attr_dev(div17, "class", "layer_inner");
-        add_location(div17, file, 149, 4, 5075);
-        attr_dev(div18, "class", "layer_wrap qzend-box");
-        add_location(div18, file, 145, 2, 4909);
+        add_location(div17, file, 156, 4, 5123);
+        attr_dev(div18, "class", "layer_wrap");
+        add_location(div18, file, 152, 2, 4969);
         attr_dev(div19, "class", "layer_body popup QzTipLayer");
-        attr_dev(div19, "id", "QzEnd");
+        attr_dev(div19, "id", "QzTips07");
         attr_dev(div19, "aria-hidden", "true");
         attr_dev(div19, "role", "dialog");
         toggle_class(div19, "is-visible",
+        /*tipsVisible*/
+        ctx[4]);
+        add_location(div19, file, 151, 0, 4845);
+        attr_dev(button3, "class", "close_btn");
+        add_location(button3, file, 183, 6, 6658);
+        attr_dev(div20, "class", "layer_close");
+        add_location(div20, file, 182, 4, 6626);
+        if (!src_url_equal(img4.src, img4_src_value = "../care-for-what-you-wear2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
+        add_location(img4, file, 188, 10, 6849);
+        attr_dev(div21, "class", "figure");
+        add_location(div21, file, 187, 8, 6818);
+        if (!src_url_equal(img5.src, img5_src_value = "../care-for-what-you-wear2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
+        attr_dev(img5, "alt", "Congratulations on becoming a master of clothing care tips!");
+        add_location(img5, file, 191, 25, 6983);
+        attr_dev(p9, "class", "_pc");
+        add_location(p9, file, 191, 10, 6968);
+        if (!src_url_equal(img6.src, img6_src_value = "../care-for-what-you-wear2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
+        attr_dev(img6, "alt", "Congratulations on becoming a master of clothing care tips!");
+        add_location(img6, file, 192, 25, 7148);
+        attr_dev(p10, "class", "_mo");
+        add_location(p10, file, 192, 10, 7133);
+        attr_dev(p11, "class", "desc");
+        add_location(p11, file, 193, 10, 7299);
+        add_location(i4, file, 196, 70, 7583);
+        attr_dev(a7, "onclick", "facebookSubmit();");
+        attr_dev(a7, "class", "_btn btn_facebook ");
+        add_location(a7, file, 196, 12, 7525);
+        add_location(i5, file, 197, 248, 7851);
+        attr_dev(a8, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear");
+        attr_dev(a8, "target", "_blank");
+        attr_dev(a8, "class", "_btn btn_twt");
+        add_location(a8, file, 197, 12, 7615);
+        attr_dev(div22, "class", "btn_area");
+        add_location(div22, file, 195, 10, 7490);
+        attr_dev(div23, "class", "inner");
+        add_location(div23, file, 190, 8, 6938);
+        attr_dev(div24, "class", "layer_cont");
+        add_location(div24, file, 186, 6, 6785);
+        attr_dev(div25, "class", "layer_inner");
+        add_location(div25, file, 185, 4, 6753);
+        attr_dev(div26, "class", "layer_wrap qzend-box");
+        add_location(div26, file, 181, 2, 6587);
+        attr_dev(div27, "class", "layer_body popup QzTipLayer");
+        attr_dev(div27, "id", "QzEnd");
+        attr_dev(div27, "aria-hidden", "true");
+        attr_dev(div27, "role", "dialog");
+        toggle_class(div27, "is-visible",
         /*masterVisible*/
         ctx[5]);
         add_location(div19, file, 144, 0, 4786);
@@ -8090,17 +8253,12 @@ var campaign_quiz = (function () {
         append_dev(div10, div9);
         append_dev(div9, div8);
         append_dev(div8, h40);
-        append_dev(h40, img0);
-        append_dev(div8, t17);
-        append_dev(div8, h41);
-        append_dev(h41, img1);
         append_dev(div8, t18);
         append_dev(div8, p1);
         append_dev(p1, t19);
         append_dev(div8, t20);
         append_dev(div8, div6);
         append_dev(div6, p2);
-        append_dev(p2, img2);
         append_dev(p2, t21);
         append_dev(p2, span1);
         append_dev(span1, t22);
@@ -8108,7 +8266,6 @@ var campaign_quiz = (function () {
         append_dev(div6, t24);
         append_dev(div6, div5);
         append_dev(div5, p3);
-        append_dev(p3, img3);
         append_dev(div5, t25);
         append_dev(div5, p4);
         append_dev(p4, t26);
@@ -8132,40 +8289,85 @@ var campaign_quiz = (function () {
         append_dev(div18, t35);
         append_dev(div18, div17);
         append_dev(div17, div16);
-        append_dev(div16, div13);
-        append_dev(div13, img4);
-        append_dev(div16, t36);
+        append_dev(div16, h41);
+        append_dev(h41, t36);
+        append_dev(h41, t37);
+        append_dev(div16, t38);
+        append_dev(div16, p5);
+        append_dev(p5, t39);
+        append_dev(div16, t40);
+        append_dev(div16, div14);
+        append_dev(div14, p6);
+        append_dev(p6, img2);
+        append_dev(p6, t41);
+        append_dev(p6, span2);
+        append_dev(span2, t42);
+        append_dev(span2, t43);
+        append_dev(div14, t44);
+        append_dev(div14, div13);
+        append_dev(div13, p7);
+        append_dev(p7, img3);
+        append_dev(div13, t45);
+        append_dev(div13, p8);
+        append_dev(p8, t46);
+        append_dev(div16, t47);
         append_dev(div16, div15);
-        append_dev(div15, p5);
-        append_dev(p5, img5);
-        append_dev(div15, t37);
-        append_dev(div15, p6);
-        append_dev(p6, img6);
-        append_dev(div15, t38);
-        append_dev(div15, p7);
-        append_dev(div15, t40);
-        append_dev(div15, div14);
-        append_dev(div14, a4);
+        append_dev(div15, a4);
         append_dev(a4, i2);
-        append_dev(a4, t41);
-        append_dev(div14, t42);
-        append_dev(div14, a5);
+        append_dev(a4, t48);
+        append_dev(div15, t49);
+        append_dev(div15, a5);
         append_dev(a5, i3);
-        append_dev(a5, t43);
+        append_dev(a5, t50);
+        append_dev(div15, t51);
+        append_dev(div15, a6);
+        append_dev(a6, t52);
+        insert_dev(target, t53, anchor);
+        insert_dev(target, div27, anchor);
+        append_dev(div27, div26);
+        append_dev(div26, div20);
+        append_dev(div20, button3);
+        append_dev(div26, t55);
+        append_dev(div26, div25);
+        append_dev(div25, div24);
+        append_dev(div24, div21);
+        append_dev(div21, img4);
+        append_dev(div24, t56);
+        append_dev(div24, div23);
+        append_dev(div23, p9);
+        append_dev(p9, img5);
+        append_dev(div23, t57);
+        append_dev(div23, p10);
+        append_dev(p10, img6);
+        append_dev(div23, t58);
+        append_dev(div23, p11);
+        append_dev(div23, t60);
+        append_dev(div23, div22);
+        append_dev(div22, a7);
+        append_dev(a7, i4);
+        append_dev(a7, t61);
+        append_dev(div22, t62);
+        append_dev(div22, a8);
+        append_dev(a8, i5);
+        append_dev(a8, t63);
         current = true;
 
         if (!mounted) {
           dispose = [listen_dev(button0, "click", prevent_default(
           /*refresh*/
-          ctx[10]), false, true, false), listen_dev(a0, "click", prevent_default(
+          ctx[12]), false, true, false), listen_dev(a0, "click", prevent_default(
           /*next*/
-          ctx[7]), false, true, false), listen_dev(button1, "click", prevent_default(
+          ctx[8]), false, true, false), listen_dev(button1, "click", prevent_default(
+          /*hideCurrent*/
+          ctx[11]), false, true, false), listen_dev(a3, "click", prevent_default(
+          /*hideCurrent*/
+          ctx[11]), false, true, false), listen_dev(button2, "click", prevent_default(
           /*hideTips*/
-          ctx[8]), false, true, false), listen_dev(a3, "click", prevent_default(
+          ctx[9]), false, true, false), listen_dev(a6, "click", prevent_default(
           /*hideTips*/
-          ctx[8]), false, true, false), listen_dev(button2, "click", prevent_default(
+          ctx[9]), false, true, false), listen_dev(button3, "click", prevent_default(
           /*hideMaster*/
-          ctx[9]), false, true, false)];
+          ctx[10]), false, true, false)];
           mounted = true;
         }
       },
@@ -8257,23 +8459,6 @@ var campaign_quiz = (function () {
         2) && t13_value !== (t13_value =
         /*messageData*/
         ctx[1].nextButton + "")) set_data_dev(t13, t13_value);
-
-        if (!current || dirty &
-        /*messageData*/
-        2 && img0_alt_value !== (img0_alt_value =
-        /*messageData*/
-        ctx[1].tipsTitle)) {
-          attr_dev(img0, "alt", img0_alt_value);
-        }
-
-        if (!current || dirty &
-        /*messageData*/
-        2 && img1_alt_value !== (img1_alt_value =
-        /*messageData*/
-        ctx[1].tipsTitle)) {
-          attr_dev(img1, "alt", img1_alt_value);
-        }
-
         if ((!current || dirty &
         /*quizData, currentQuiz*/
         5) && t19_value !== (t19_value =
@@ -8281,6 +8466,69 @@ var campaign_quiz = (function () {
         ctx[0][
         /*currentQuiz*/
         ctx[2]].tips + "")) set_data_dev(t19, t19_value);
+
+        if (!current || dirty &
+          /*quizData, currentQuiz*/
+          5 && !src_url_equal(img0.src, img0_src_value = "./care-for-what-you-wear2021/images/quiz/q_option4u-" +
+          /*quizData*/
+          ctx[0][
+          /*currentQuiz*/
+          ctx[2]].product.toLowerCase() + ".png")) {
+            attr_dev(img0, "src", img0_src_value);
+        }
+
+        if (!current || dirty &
+          /*quizData, currentQuiz*/
+          5 && img0_alt_value !== (img0_alt_value =
+          /*quizData*/
+          ctx[0][
+          /*currentQuiz*/
+          ctx[2]].product.toLowerCase())) {
+            attr_dev(img0, "alt", img0_alt_value);
+          }
+  
+          if ((!current || dirty &
+          /*quizData, currentQuiz*/
+          5) && t22_value !== (t22_value =
+          /*quizData*/
+          ctx[0][
+          /*currentQuiz*/
+          ctx[2]].product.toLowerCase() + "")) set_data_dev(t22, t22_value);
+          if ((!current || dirty &
+          /*quizData, currentQuiz*/
+          5) && t26_value !== (t26_value =
+          /*quizData*/
+          ctx[0][
+          /*currentQuiz*/
+          ctx[2]].feedback + "")) set_data_dev(t26, t26_value);
+          if ((!current || dirty &
+        /*messageData*/
+        2) && t32_value !== (t32_value =
+          /*messageData*/
+          ctx[1].tryButton + "")) set_data_dev(t32, t32_value);
+  
+          if (dirty &
+          /*currentVisible*/
+          64) {
+            toggle_class(div11, "is-visible",
+            /*currentVisible*/
+            ctx[6]);
+          }
+
+        if ((!current || dirty &
+        /*quizData, currentQuiz*/
+        5) && t37_value !== (t37_value =
+        /*quizData*/
+        ctx[0][
+        /*currentQuiz*/
+        ctx[2]].currenttips + "")) set_data_dev(t37, t37_value);
+        if ((!current || dirty &
+        /*quizData, currentQuiz*/
+        5) && t39_value !== (t39_value =
+        /*quizData*/
+        ctx[0][
+        /*currentQuiz*/
+        ctx[2]].tips + "")) set_data_dev(t39, t39_value);
 
         if (!current || dirty &
         /*quizData, currentQuiz*/
@@ -8304,28 +8552,28 @@ var campaign_quiz = (function () {
 
         if ((!current || dirty &
         /*quizData, currentQuiz*/
-        5) && t22_value !== (t22_value =
+        5) && t42_value !== (t42_value =
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
-        ctx[2]].product.toLowerCase() + "")) set_data_dev(t22, t22_value);
+        ctx[2]].product.toLowerCase() + "")) set_data_dev(t42, t42_value);
         if ((!current || dirty &
         /*quizData, currentQuiz*/
-        5) && t26_value !== (t26_value =
+        5) && t46_value !== (t46_value =
         /*quizData*/
         ctx[0][
         /*currentQuiz*/
-        ctx[2]].feedback + "")) set_data_dev(t26, t26_value);
+        ctx[2]].feedback + "")) set_data_dev(t46, t46_value);
         if ((!current || dirty &
         /*messageData*/
-        2) && t32_value !== (t32_value =
+        2) && t52_value !== (t52_value =
         /*messageData*/
-        ctx[1].tryButton + "")) set_data_dev(t32, t32_value);
+        ctx[1].tryButton + "")) set_data_dev(t52, t52_value);
 
         if (dirty &
         /*tipsVisible*/
         16) {
-          toggle_class(div11, "is-visible",
+          toggle_class(div19, "is-visible",
           /*tipsVisible*/
           ctx[4]);
         }
@@ -8333,7 +8581,7 @@ var campaign_quiz = (function () {
         if (dirty &
         /*masterVisible*/
         32) {
-          toggle_class(div19, "is-visible",
+          toggle_class(div27, "is-visible",
           /*masterVisible*/
           ctx[5]);
         }
@@ -8374,6 +8622,8 @@ var campaign_quiz = (function () {
         if (detaching) detach_dev(div11);
         if (detaching) detach_dev(t33);
         if (detaching) detach_dev(div19);
+        if (detaching) detach_dev(t53);
+        if (detaching) detach_dev(div27);
         mounted = false;
         run_all(dispose);
       }
@@ -8415,7 +8665,8 @@ var campaign_quiz = (function () {
     var currentQuiz = 0,
         selected = new Array(quizData.length + 1);
     var tipsVisible = false,
-        masterVisible = false;
+    masterVisible = false,
+    currentVisible = false;
     onMount( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/regenerator.mark(function _callee() {
       return regenerator.wrap(function _callee$(_context) {
         while (1) {
@@ -8452,6 +8703,7 @@ var campaign_quiz = (function () {
       if ((correct[currentQuiz] - 1).toString() === selected[currentQuiz].toString()) {
         if (currentQuiz < quizData.length - 1) {
           $('.q_items').find('.is-selected').addClass('is-correct')
+          showCurrent();
           var delay = setTimeout(function(){
             $$invalidate(2, currentQuiz++, currentQuiz);
             $('.q_items').find('.is-correct').removeClass('is-correct');
@@ -8492,6 +8744,13 @@ var campaign_quiz = (function () {
       $$invalidate(5, masterVisible = false);
     }
 
+    function showCurrent() {
+      $$invalidate(6, currentVisible = true);
+    }
+
+    function hideCurrent() {
+      $$invalidate(6, currentVisible = false);
+    }
     function refresh() {
       $('.quiz_end').css('display', 'none');
       $('.quiz_start').css('display', 'flex');
@@ -8534,12 +8793,15 @@ var campaign_quiz = (function () {
         selected: selected,
         tipsVisible: tipsVisible,
         masterVisible: masterVisible,
+        currentVisible: currentVisible,
         previous: previous,
         next: next,
         showTips: showTips,
         hideTips: hideTips,
         showMaster: showMaster,
         hideMaster: hideMaster,
+        showCurrent: showCurrent,
+        hideCurrent: hideCurrent,
         refresh: refresh,
         typewriter: typewriter
       };
@@ -8552,13 +8814,13 @@ var campaign_quiz = (function () {
       if ('selected' in $$props) $$invalidate(3, selected = $$props.selected);
       if ('tipsVisible' in $$props) $$invalidate(4, tipsVisible = $$props.tipsVisible);
       if ('masterVisible' in $$props) $$invalidate(5, masterVisible = $$props.masterVisible);
+      if ('currentVisible' in $$props) $$invalidate(6, currentVisible = $$props.currentVisible);
     };
 
     if ($$props && "$$inject" in $$props) {
       $$self.$inject_state($$props.$$inject);
     }
-
-    return [quizData, messageData, currentQuiz, selected, tipsVisible, masterVisible, previous, next, hideTips, hideMaster, refresh, input_change_handler, $$binding_groups];
+    return [quizData, messageData, currentQuiz, selected, tipsVisible, masterVisible, currentVisible, previous, next, hideTips, hideMaster, hideCurrent, refresh, input_change_handler, $$binding_groups];
   }
 
   var App = /*#__PURE__*/function (_SvelteComponentDev) {
