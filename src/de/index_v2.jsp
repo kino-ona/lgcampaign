@@ -319,7 +319,7 @@
               product:'wm', usp:'TuboWash360',
               feedback:'Sorgen Sie sich nicht um mögliche Schäden an Ihrer Kleidung. TurboWash™ 360° ermöglicht die gründliche Reinigung Ihrer Wäsche in nur 39 Minuten (bei halber Beladung), ohne Kompromisse beim Faserschutz.',
               qsource:'Linda Cobb',
-							currenttips: 'Dry later'},
+              currenttips:'Mit Geschirrspülmittel'},
             {
               question:'Was hilft Ihnen dabei, Flecken aus Hemden zu entfernen?',
               answers:['In Wasser einweichen','Reiben','Pressen'],
@@ -327,56 +327,63 @@
               product:'wm', usp:'TurboWash 360',
               feedback:'Oder entscheiden Sie sich für eine LG Waschmaschine mit TurboWash™ 360°, die Ihre Hemden in nur 39 Minuten (bei halber Beladung) gründlich reinigt.',
               qsource:'Madame Paulette',
-							currenttips: 'In Wasser einweichen'},
+              currenttips:'Pressen'},
             {
               question:'Wie viel Wasser wird für die Herstellung eines T-Shirts benötigt?',
               answers:['2.000 Liter','2.700 Liter','3.000 Liter'],
               tips:'Bei der Herstellung eines T-Shirts werden 2.700 Liter Wasser verbraucht – davon könnte ein Mensch drei Jahre lang trinken.',
               product:'wm', usp:'Größere Kapazität',
               feedback:'Uns allen ist natürlich klar, dass eine Waschmaschine beim Spülen und Waschen viel Wasser verbraucht. Mit einer effizienten Waschmaschine von LG können Sie aber mehr Wäsche pro Durchgang waschen und so den Wasserverbrauch reduzieren.',
-              qsource:'European Parliament'},
+              qsource:'European Parliament',
+              currenttips:'2.700 Liter'},
             {
               question:'Welcher Trick hilft gegen feuchten Geruch in der Kleidung?',
               answers:['Bei der Wäsche Shampoo dazugeben','Bei der Wäsche Essig dazugeben','Bei der Wäsche eine Handvoll Salz dazugeben'],
               tips:'Beim Trocknen von Wäsche in Innenräumen entsteht leicht der typische Feuchtigkeits-Geruch, da in den Textilien Restfeuchte zurückbleibt. Bleichmittel eignet sich zur Vorbeugung am besten – Essig ist als natürliches Deodorierungsmittel jedoch eine gute Alternative.',
               product:'dryer', usp:'Sensor Dry',
               feedback:'Erleben Sie einen Trockner, der Kleidung wirklich gründlich trocknet – ganz ohne zurückbleibenden Feuchtigkeits-Geruch! Möglich wird das durch die Sensor Dry Technologie: Zwei Sensorleisten erkennen die Feuchtigkeit der Kleidung und bestimmen automatisch die optimale Trocknungszeit.',
-              qsource:'Persil'},
+              qsource:'Persil',
+              currenttips:'Bei der Wäsche Essig dazugeben'},
             {
               question:'Mit welchem Trick können Sie Trocknungszeit sparen, wenn es zeitlich knapp wird?',
               answers:['Das Trocknen verschieben','Toilettenpapier zur Wäsche geben','Ein trockenes Handtuch zur Wäsche geben'],
               tips:'Wenn es beim Trocknen besonders schnell gehen muss, können Sie ein trockenes Handtuch mit in den Trockner legen. Dieses nimmt zusätzliche Feuchtigkeit auf und verkürzt somit die Trocknungszeit. Sie sollten allerdings darauf achten, das Handtuch rechtzeitig wieder zu entfernen. Trocknen Sie nur wenige Stücke und entnehmen Sie das Handtuch nach fünf Minuten. Bei voller Beladung entfernen Sie es nach 15 Minuten.',
               product:'dryer', usp:'Eco Hybrid™',
               feedback:'Sie haben es eilig? Nutzen Sie die „Quick Dry“-Schnelltrocknung! Die Inverter Wärmepumpentechnologie steuert die Geschwindigkeit sowohl im Eco Hybrid Modus als auch im Zeitmodus. Da der Kompressor schneller arbeitet, wird Ihre Wäsche im Zeitmodus noch effizienter getrocknet.',
-              qsource:'CNET'},
+              qsource:'CNET',
+              currenttips:'Ein trockenes Handtuch zur Wäsche geben'},
             {
               question:'Welches Mittel kann Ihnen helfen, wenn ein T-Shirt eingelaufen ist?',
               answers:['Shampoo','Haarspülung','Duschgel'],
               tips:'Ist Ihr Lieblings-Shirt eingelaufen? Dann lassen Sie es für 15 Minuten in lauwarmem Wasser mit etwas Haarspülung einweichen. Ziehen Sie es anschließend sanft auseinander.',
               product:'dryer', usp:'DUAL Inverter Heat Pump™',
               feedback:'Oder sorgen Sie mit der Inverter Wärmepumpentechnologie von LG dafür, dass Ihre Kleidung gar nicht erst einlaufen kann – sie arbeitet nämlich mit besonders niedrigerer Temperatur.',
-              qsource:'CNET'},
+              qsource:'CNET',
+              currenttips:'Haarspülung'},
             {
               question:'Welcher Trick kann Ihnen dabei helfen, Tabakgeruch aus Ihrer Kleidung zu entfernen?',
               answers:['Weißweinessig dazugeben','Shampoo dazugeben','An der frischen Luft trocknen'],
               tips:'Der Geruch von Rauch verschwindet bei normaler Wäsche aus den meisten Textilien. Bei besonders empfindlichen Stoffen wie Wolle kann Ihnen dieser Trick helfen: Füllen Sie die Badewanne mit heißem Wasser, geben Sie zwei Tassen Weißweinessig hinzu, hängen Sie die Kleidung an die Duschstange und schließen Sie die Tür. Durch den enthaltenen Essig reduziert der aufsteigende Wasserdampf den unerwünschten Geruch.',
               product:'styler', usp:'TrueSteam',
               feedback:'Der LG Styler entfernt unangenehme Gerüche mit Steam-Technologie zuverlässig und schonend aus Ihrer Kleidung. Der Einsatz von Wasserdampf ermöglicht eine gründliche Auffrischung, ohne dass die Textilien beschädigt werden.',
-              qsource:'The Spruce'},
+              qsource:'The Spruce',
+              currenttips:'Weißweinessig dazugeben'},
             {
               question:'Ist Weichspüler für Wollwäsche geeignet?',
               answers:['Bei jeder Wäsche','Gelegentlich','Niemals'],
               tips:'Auch wenn die landläufige Meinung anders lautet – das technische Labor der Woolmark Company in Melbourne empfiehlt, niemals Weichspüler zu verwenden!',
               product:'styler', usp:'Heat Pump Drying',
               feedback:'Wie reinigen Sie also Wolle und machen sie gleichzeitig ohne Weichspüler geschmeidig? Der LG Styler behandelt Ihre Wollkleidung mit seinem Wärmepumpensystem besonders schonend. Hängen Sie Ihren Pullover einfach auf den Bügel und er wird im Handumdrehen gründlich und sanft aufgefrischt.',
-              qsource:'Woolmark Company Lab'},
+              qsource:'Woolmark Company Lab',
+              currenttips:'Niemals'},
             {
               question:'Mit welcher Methode lassen sich Falten aus der Kleidung entfernen?',
               answers:['Die Wäsche im Badezimmer aufhängen','Die Wäsche auf den Boden legen','Die Wäsche in den Kühlschrank legen'],
               tips:'Wenn Ihnen die Zeit zum Bügeln fehlt, hängen Sie die Stücke einfach im Badezimmer auf, während Sie eine heiße Dusche nehmen. Der Wasserdampf glättet Ihre Kleidung.',
               product:'styler', usp:'Moving Hanger',
               feedback:'Der patentierte Kleiderbügel des Styler schwingt pro Minute bis zu 200 Mal, sodass der Wasserdampf Falten sanft glättet und Ihre Lieblingskleidung immer bestens aussieht.',
-              qsource:'Real Simple'}
+              qsource:'Real Simple',
+              currenttips:'Die Wäsche im Badezimmer aufhängen'}
           ]
           const messageData = {
               backButton: 'Zurück',
@@ -396,6 +403,33 @@
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
+
+    <div id="event1"></div>
+    <div id="box_content4" class="clothing_howto box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">Meine geliebte Kleidung</p>
+        <p class="row-stit">Welche schönen Erinnerungen hängen in Ihrem Kleiderschrank?<br>Teilen Sie Ihre Lieblingserinnerung, die mit einem bestimmten Outfit verbunden ist, mit uns und sehen Sie sich die anderen wunderbaren Geschichten an, die jeder von uns teilt.</p>
+        <div class="howto">
+          <div class="pola_wrap">
+            <ul class="pola_list">
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid01v2.png" alt="Hand tailored suit from our trip to Italy"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid02v2.png" alt="@"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid03v2.png" alt="Dad’s back when he used to write graffiti"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid04v2.png" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid05v2.png" alt="@"></li>
+              <li class="last-child"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+            </ul>
+            <ul class="pola_list line_2">
+              <li class="first-child"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid07v2.png" alt="Jacket high school crush said I looked cute in"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid08v2.png" alt="@"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_howto -->
 
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="drayer"></div>
