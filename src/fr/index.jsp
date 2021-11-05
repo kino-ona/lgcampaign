@@ -125,17 +125,17 @@
         
         <div class="iframebody YTframe01">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/h7A0LHRbxrA?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo01" width="100%" height="100%" src="https://www.youtube.com/embed/3auUy8FdK5s?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe02">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/4w4Tus_BaP8?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo02" width="100%" height="100%" src="https://www.youtube.com/embed/_k_yksg8aQ0?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="iframebody YTframe03">
           <button class="btn-close"><span class="a11y">close</span></button>
-          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/sZ8haMGHr80?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
+          <iframe id="youtube_video" class="YTvideo03" width="100%" height="100%" src="https://www.youtube.com/embed/0Px0reG96yI?enablejsapi=1&rel=0&showinfo=0&hl=en&cc_load_policy=1" 
           allow=" autoplay; encrypted-media;" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
@@ -220,8 +220,7 @@
             <div class="cta">
               <p>Découvrez comment ci-dessous</p>
               <div class="sns_link">
-                <a href="#" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
-                <a href="#" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+                <a href="https://www.facebook.com/LGFrance/photos/a.394429748746/10161763776173747/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
               </div>
             </div>
           </div>
@@ -366,7 +365,7 @@
     <!-- clothing_tip(quiz) -->
 
     <div class="anchors" id="washer"></div>
-    <div class="anchors" id="drayer"></div>
+    <div class="anchors" id="dryer"></div>
     <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Découvrez les appareils LG de solution d'entretien des vêtements</p>
@@ -627,6 +626,13 @@
     </div>
 
     <!-- clothingcare-terms_pop -->
+    <style>
+      .clothingcare-terms_pop dl {padding-bottom:15px;}
+      .clothingcare-terms_pop dl > dt {padding-bottom:20px;}
+      .clothingcare-terms_pop .sub-head {padding-top:20px;margin-bottom:15px;font-size:16px;}
+      .clothingcare-terms_pop .sub-head:first-of-type {padding-top:0;}
+      .clothingcare-terms_pop dd > p {font-size:15px;}
+    </style>
     <div class="layer_body popup clothingcare-terms_pop" id="clothingcare-terms_pop" aria-hidden="true" role="dialog">
       <div class="layer_wrap">
         <div class="layer_close">
@@ -634,94 +640,295 @@
         </div>
         <div class="layer_inner">
           <div class="layer_cont">
-            <p class="heading-tit">LLG organisera l'évènement<br>"Mes Vêtements Précieux" sur Instagram et Facebook : </p>
-            <p>(1) Un grand prix d'un appareil de solution de soin des vêtements LG (lave-linge/ sèche-linge/ Styler) à la fin de la durée de l'évènement.</p>
-            <p>Les participants doivent respecter les critères énoncés ci-dessous, en publiant un commentaire sur le contenu original posté avec leurs propres histoires sur un vêtement qui leur rappelle des souvenirs spéciaux. Veuillez noter que les participants qui répondent entièrement aux critères ci-dessous peuvent être sélectionnés comme gagnants.</p>
-            <p>Période de promotion : Les participations peuvent être faites du 3-Nov jusqu'au 23-Nov. Toute participation faite en dehors de cette période ne sera pas prise en compte pour cette promotion.</p>
-            <p>Le concours est réservé aux personnes résidant en France âgées de 18 ans ou plus. Un compte Instagram et/ou Facebook public est requis. Veuillez consulter les conditions générales complètes ci-dessous.</p>
+            <p class="heading-tit">Règlement du jeu-concours Clothing Care sur Facebook</p>
             <dl>
-              <dt>Comment participer :</dt>
+              <dt>ARTICLE 1 – ORGANISATEUR</dt>
               <dd>
-                <p>- Les participants peuvent choisir l'option a ou b.</p>
+                <p>La société LG Electronics (ci-après « LGE », «l’Organisateur»), organise du 1er novembre au 23 novembre 2021 par l´intermédiaire de la plateforme Facebook, un
+                  jeu-concours (ci-après le « jeu-concours »).</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 2 – PARTICIPATION</dt>
+              <dd>
+                <p class="sub-head">2.1 VALIDITÉ</p>
+                <p>
+                  Le jeu-concours démarre le 1er novembre 2021 à 10h00 et prend fin le 23 novembre
+                  2021 à 16h59 (heure de Paris) (« Période de jeu-concours »). LGE annoncera le
+                  résultat à chacun des gagnants potentiels le 24 novembre 2021 qui devra accepter
+                  son gain au plus tard le 8 décembre 2021. LGE se réserve le droit de prolonger ou de
+                  diminuer la période de jeu-concours à sa seule discrétion. En participant à ce jeuconcours, vous (« vous », « participants ») confirmez que vous remplissez toutes les
+                  conditions d’éligibilité indiquées ci-après.
+                </p>
+                <p class="sub-head">2.2 CONDITIONS DE PARTICIPATIONS</p>
+                <p>Le jeu-concours est accessible sur Facebook sur le compte LG Electronics France : https://www.facebook.com/LGFrance</p>
+                <p>Pour participer au jeu-concours, les participants doivent : <br>- Aimer la publication</p>
+                <p>LGE se réserve le droit d’annuler une participation pour au moins l’une des conditions suivantes :</p>
               </dd>
               <dd class="dd_push">
-                <p>a. Les participants doivent laisser sur le post de l'évènement téléchargé sur Instagram ou Facebook un commentaire parlant d'une histoire à propos de leurs vêtements préférés</p>
-                <p>b. Les participants doivent poster sur leur compte Instagram ou Facebook leur propre histoire de vêtements à l'aide d'une photo.</p>
+                <p>(a) utilisation d’un faux nom ou du nom d’une autre personne pour participer ;</p>
+                <p>(b) participations multiples en utilisant différents comptes ;</p>
+                <p>(c) publication de contenus sexuellement explicites ou suggestifs ; violents ou
+                  injurieux envers tout groupe ethnique, racial, sexuel, religieux, professionnel ou
+                  groupe d’âge ; profanes ou pornographiques ; contenant de la nudité ;
+                <p>(d) promotion d’alcool, drogues illicites, tabac, armes en général et armes à feu en 
+                  particulier (ou consommation/utilisation de ce qui précède) ;</p>
+                <p>(e) promotion de toute activité pouvant être considérée comme contraire à l’éthique, illicite ou dangereuse ;</p>	
+                <p>(f) promotion de tout message ou programme politique ;</p>
+                <p>(g) diffusion de propos obscène ou offensant ou encourageant toute forme de haine ou groupe de propagande haineuse ;</p>
+                <p>(h) diffamation, déformation ou publication de contenu contenant des remarques désobligeantes vis-à-vis d’autres personnes ou de sociétés ;</p>
+                <p>(i) communication de messages ou images ne correspondant pas aux images positives et/ou de bonne volonté auxquelles nous souhaitons être associés ;</p>
+                <p>(j) violation de toute loi ou réglementation en vigueur, y compris, sans s’y limiter,
+                  celles régissant les droits d’auteur, les contenus, la diffamation, la vie privée, la
+                  publicité et l’accès ou l’utilisation des ordinateurs ou systèmes de communication de
+                  tiers.</p>
+                <p>(k) LGE a le droit de révoquer le prix du gagnant si le lieu de résidence et l’adresse du profil sont différents.</p>
+                <p>(l) candidatures incomplètes, indéchiffrables ou incorrectes seront annulées.</p>
               </dd>
-            </dl>
-            <dl>
-              <dt>Obligatoire :</dt>
               <dd>
-                <p>
-                  Facebook :<br>
-                  Vous devez mentionner les éléments/hashtags suivants :<br>
-                  #PrenezSoinDeCeQueVousPortez #MesVêtementsPrécieux #SoinduLingeLG #LG
-                </p>
-                <p>
-                  Instagram :<br>
-                  Vous devez inclure les éléments suivants :<br>
-                  #PrenezSoinDeCeQueVousPortez #MesVêtementsPrécieux #SoinduLingeLG #LG
-                </p>
-                <p>Les participants peuvent participer autant de fois qu'ils le souhaitent sur les posts Instagram et Facebook et les gagnants seront tirés au sort. Le tirage au sort aura lieu après la date de clôture et les gagnants seront informés via Instagram ou Facebook dans les 7 jours suivant la date de clôture.</p>
+                <p class="sub-head">2.3 SELECTION DES GAGNANTS</p>
+                <p>Chacun des gagnants sera désigné via tirage au sort parmi toutes les participations
+                  éligibles reçues. Le gagnant désigné sera contacté par message privé le 24 novembre
+                  2021 (heure de Paris). Il incombe à chaque participant de surveiller l’arrivée d’une
+                  éventuelle notification de prix sur son compte Facebook, ou de tout autre message
+                  en lien avec le jeu-concours. Le gagnant devra répondre au message privé en
+                  indiquant leur nom et prénom véritables, leur numéro de téléphone, leur adresse
+                  postale et leur adresse email. Le gagnant potentiel aura jusqu’au 8 décembre 2021
+                  pour accepter son gain sinon il sera attribué à un autre participant. Dans ce cas le
+                  participant ayant perdu le bénéficie de son gain ne pourra pas engager la
+                  responsabilité de LGE afin de se faire attribuer un lot ou toute autre compensation.
+                  Sur demande de LGE, il pourra être demandé au gagnant potentiel de fournir une
+                  attestation d’éligibilité ainsi qu’un formulaire de transfert et d’acceptation du prix. Si
+                  un gagnant potentiel ne respecte pas les règles de ce jeu-concours, il sera disqualifié.
+                  Si LGE ne parvient pas à le contacter il perdra son prix. Le prix pourrait ne pas être
+                  attribué si le nombre de participations éligibles reçues est insuffisant.</p>
               </dd>
             </dl>
             <dl>
-              <dt>Promoteur :<br>LG Electronics France, 117 Avenue des Nations, 93420 Villepinte</dt>
-            </dl>
-            <dl>
-              <dt>Aucun achat n'est nécessaire :<br>La participation au concours est gratuite pour tous les résidents du pays qui répondent aux critères d'admissibilité définis dans les présentes conditions générales.</dt>
-            </dl>
-            <dl>
-              <dt>Critères d'admissibilité</dt>
+              <dt>ARTICLE 3 - GRATUITÉ DE PARTICIPATION</dt>
               <dd>
-                <p>Le concours est uniquement ouvert aux participants résidant à l'intérieur du pays et âgés de 18 ans ou plus. Les employés des sociétés LG, le promoteur, leurs familles et agents, ainsi que toute autre société ou personne impliquée dans la création ou l'administration du concours ne sont pas autorisés à participer. Un accès à Internet, un compte Facebook et un compte Instagram public sont requis.</p>
-                <p>En suivant les instructions fournies dans le cadre du concours, vous acceptez les présentes conditions générales. Toutes les décisions concernant les gagnants et les prix sont définitives. Aucune correspondance ne sera échangée entre LG ou le promoteur.</p>
-                <p>Les participations tardives, illégales, incomplètes, dégradées ou corrompues, ainsi que les participations envoyées par des agences et des tiers ou par d'autres moyens qu'Instagram ne seront pas acceptées. Aucune responsabilité ne peut être acceptée pour les participations perdues. Si LG ou le promoteur estime qu'il y a eu une violation des présentes conditions générales, LG ou le promoteur sera en droit, à sa seule discrétion, de retenir le prix et de tirer au sort un autre gagnant conformément aux présentes conditions générales.</p>
-                <p>Le gagnant sera contacté par le Promoteur une fois sélectionné par message direct Instagram ou Facebook lui demandant ses coordonnées. Il est de la responsabilité du gagnant de s'assurer que les détails qu'il fournit sont exacts et ni LG ni le promoteur ne seront responsables de l'échec de la livraison parce que les participants ont fourni des informations de livraison incorrectes ou incomplètes, ou ne signent pas pour la livraison, comme requis.</p>
+                <p>La participation à ce jeu-concours est gratuite et ne comprend aucune obligation d’achat ni paiement d’aucune sorte.</p>
+                <p>L’achat d’un produit LG Electronics n’augmentera pas vos chances de gagner.</p>
               </dd>
             </dl>
             <dl>
-              <dt>Procédure de sélection :<br>Le gagnant du prix sera sélectionné au hasard par le promoteur. </dt>
+              <dt>ARTICLE 4 - LES PARTICIPANTS</dt>
               <dd>
-                <p>Le gagnant sera annoncé dans les sept (7) jours suivant la fin du concours. Le gagnant sera contacté par le Promoteur une fois sélectionné via un message direct Instagram ou Facebook lui demandant ses coordonnées. Le gagnant sera invité à fournir ses informations de contact personnelles, y compris, mais sans s'y limiter, son adresse mail, son numéro de téléphone et son adresse afin d'envoyer au gagnant les prix ou d'organiser une collecte (ceci à la discrétion du Promoteur).
-                </p>
+                <p>La participation à ce jeu-concours est ouverte à tous les résidents légaux de France
+                  métropolitaine âgés de 18 ans ou plus à la date de leur participation. Les cadres,
+                  directeurs et salariés de LG Electronics., inc., de ses sociétés parentes, de ses filiales,
+                  de ses sociétés affiliées, des agences de publicité, de promotion et de jury, et les
+                  personnes participant au développement, à la production ou à la distribution des
+                  documentations relatives à l’événement, ne sont pas autorisés à participer. Les entités
+                  ou groupes institutionnels ou autres ne sont pas autorisés à participer. Nous (« nous 
+                  » ou « LGE ») nous réservons le droit de vérifier l’éligibilité de chacun des participants.
+                  Le jeu-concours sera considéré comme nul s’il est limité ou interdit par la loi.</p>
               </dd>
             </dl>
             <dl>
-              <dt>
-                <p>Il y a un (1) grand prix à gagner à la fin de la durée de l'évènement. </p>
-                Le prix comprend :<br>Un appareil LG pour le soin des vêtements - lave-linge/ sèche-linge/ Styler (grand prix sélectionné à la fin de la durée de l'évènement).
-              </dt>
+              <dt>ARTICLE 5 - PARTICIPATION DEPUIS FACEBOOK</dt>
               <dd>
-                <p>Tous les participants reconnaissent que des conditions générales de tiers peuvent s'appliquer à tout élément du prix et acceptent d'adhérer à ces conditions générales. Il est de la responsabilité de chaque participant de lire ces conditions.</p>
-                <p>Il faut s'attendre à ce que les participants participent à la publicité de LG liée au concours. Le nom et l'emplacement général des participants peuvent être publiés sur LG.com et/ou sur les sites de médias sociaux de LG. Cela pourrait inclure toute image soumise par l'utilisateur dans le cadre de la promotion.</p>
-                <p>LG ne sera pas tenue d'exécuter ses obligations dans le cadre du concours ou en ce qui concerne le prix si elle n'est pas en mesure de le faire en raison de circonstances imprévues ou de circonstances échappant au contrôle de LG, et bien que LG puisse (sans y être obligée) s'efforcer de fournir un autre prix de valeur égale, LG ne sera pas tenue de fournir une compensation supplémentaire aux gagnants dans de telles circonstances.
-                </p>
-                <p>Si le promoteur n'est pas en mesure de contacter raisonnablement le gagnant, si le gagnant ne répond pas aux tentatives de contact dans les trois (3) jours suivant le premier message ou si le gagnant n'est pas en mesure d'accepter le prix, le prix sera annulé et le promoteur se réserve le droit d'attribuer le prix à un autre gagnant, tiré au sort conformément aux présentes conditions générales.</p>
+                <p>Le présent jeu-concours est hébergé par le réseau social Facebook. Chaque
+                  participant devra respecter les conditions d’utilisations de Facebook. Le participant
+                  reconnaît par ailleurs être informé des conditions générales d’utilisation et de la
+                  politique de confidentialité de Facebook et qui peuvent être consultées directement
+                  sur Facebook. Le siège social de Facebook est situé au : 1 Hacker Way, Menlo Park,
+                  CA 94025, U.S.A. LGE n’assume aucune responsabilité quant au contenu et à
+                  l’utilisation du site Facebook. De même, le participant décharge Facebook de toute
+                  responsabilité quant à l’organisation de ce jeu-concours et déclare avoir pris
+                  connaissance que Facebook n’en est ni le gestionnaire ni le parrain. A ce titre, une
+                  décharge écrite pourra lui être demandée à tout moment du jeu.</p>
               </dd>
             </dl>
             <dl>
-              <dt>
-                Aucun échange :<br>Le prix est non transférable et ne peut être échangé contre de l'argent ou toute autre alternative. Le prix est soumis à la disponibilité et LG se réserve le droit de modifier le prix à tout moment.
-              </dt>
+              <dt>ARTICLE 6 - VALIDATION DE LA PARTICIPATION</dt>
               <dd>
-                <p>LG agit en tant que contrôleur de données tel que défini dans la législation sur la protection des données du pays (y compris la loi sur la protection des données de 2018 et, le cas échéant, le règlement général sur la protection des données). LG accepte de se conformer à ses obligations en vertu de la législation sur la protection des données. En particulier, LG et/ou le promoteur conserveront toutes les données personnelles en toute sécurité et les utiliseront uniquement aux fins de l'administration du jeu-concours, comme indiqué dans les présentes conditions générales et conformément au Code PAC. De plus amples informations concernant la politique de confidentialité de LG sont disponibles sur le site https://www.lg.com/fr/privacy.</p>
+                <p>Le participant au jeu-concours accessible sur la page Facebook de LG France doit
+                  obligatoirement avoir un compte Facebook actif avec nom et prénom lui permettant
+                  de lui envoyer un message privé s’il a été tiré au sort.</p>
+                <p style="text-decoration: underline;">Disqualification/Limites</p>	
+                <p>Tout participant prenant part à l’événement de manière inappropriée et/ou
+                  frauduleuse sera disqualifié et n’aura pas droit au gain. Toute preuve de manipulation
+                  entraînera une disqualification et une élimination automatiques. Celles-ci peuvent
+                  intervenir après attribution du gain. LGE se réserve le droit de disqualifier tout
+                  participant ayant tenté de falsifier le processus de participation, ayant envoyé une
+                  candidature non conforme aux présentes conditions générales, ou se conduisant de
+                  façon illégale ou inappropriée dans le but de compromettre le bon et juste 
+                  déroulement du jeu-concours. LGE se réserve le droit d’obtenir des dommages et
+                  intérêts ou toute autre compensation de la part de la personne impliquée.</p>
               </dd>
             </dl>
             <dl>
-              <dt>
-                Responsabilité :<br>À l'exception de toute responsabilité qui ne peut être exclue par la loi, LG ne peut accepter aucune responsabilité pour tout dommage, perte, blessure ou déception subie par un participant à la suite de sa participation au concours.
-              </dt>
+              <dt>ARTICLE 7 – GAIN</dt>
+              <dd><p>LGE met en jeu le lot suivant : machine à laver standard dotée du Moteur AI
+                Direct Drive™ garanti 10 ans.</p></dd>
             </dl>
             <dl>
-              <dt>
-                Modification/annulation :<br>LG se réserve le droit de modifier les présentes conditions générales et/ou de modifier, suspendre, retirer ou annuler le concours à tout moment et sans préavis.
-              </dt>
+              <dt>ARTICLE 8 - UTILISATION DU GAIN</dt>
+              <dd>
+                <p>Le lot est nominatif et ne pourra donner lieu à aucune contestation, ni à la remise de
+                  sa contre-valeur en numéraire, ni à son échange ou remplacement pour quelque
+                  cause que ce soit. Le prix doit être accepté tel qu’il est offert, sans aucune
+                  modification. Le gagnant est informé que la vente ou l'échange du lot est interdit.
+                  LGE décline toute responsabilité pour tout incident lié à l’utilisation du gain par le
+                  gagnant pendant la jouissance de celui-ci ainsi que toute variation potentielle de la
+                  valeur du prix et rejettent toute responsabilité quant aux obligations fiscales liées à
+                  l’obtention du prix. Le lot ne peut être cédé (que ce soit à titre gracieux ou payant) à
+                  un tiers, sauf accord préalable et exprès de LGE.</p>
+              </dd>
             </dl>
             <dl>
-              <dt>
-                Droit applicable :<br>Le cadeau est régi par les lois françaises et les tribunaux français seront les seuls compétents pour trancher tout litige pouvant découler du, sous ou en rapport avec le cadeau.
-              </dt>
+              <dt>ARTICLE 9 - DROITS DE LA PERSONNALITE</dt>
+              <dd>
+                <p>Le gagnant autorise LGE à citer son nom et à réaliser, le cas échéant, des prises de
+                  vues ou des enregistrements vidéo, liées à sa participation. Le gagnant autorise LGE à
+                  multi diffuser en direct et/ou en différé, en intégralité et/ou par extraits, sur tous
+                  supports de diffusion connus pour une durée de 12 (douze) mois, à compter du 8
+                  décembre 2021.</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 10 - DONNEES A CARACTERE PERSONNEL</dt>
+              <dd>
+                <p style="text-decoration: underline;">ARTICLE 10.1 – DEFINITIONS</p>
+                <p>« Règlementation de Protection des Données à Caractère Personnel » désigne la Loi
+                  Informatique et Libertés n° 78-17 du 6 janvier 1978 telle que modifiée ultérieurement,
+                  ses décrets d’applications, le Règlement Européen sur la Protection des Données
+                  2016/679 du 27 avril 2016 et tout autre texte législatif ou règlementaire relatif à la
+                  protection des données à caractère personnel venant le compléter ainsi que toutes
+                  les délibérations prises par la CNIL (Commission Nationale de l'Informatique et des
+                  Libertés) et les pratiques de cette dernière;</p>
+                <p>« Données Personnelles » désigne tout type de données confié par LGE à Castor &
+                  Pollux - Digital Communications Agency dans le cadre du présent jeu-concours et
+                  permettant d’identifier de manière directe ou indirecte une personne physique;</p>
+                <p>« Traitement(s) » désigne toute opération en relation avec les Données Personnelles
+                  réalisée par Castor & Pollux en tant que Sous-traitant de LGE, Responsable de
+                  Traitement au sens de la Réglementation de Protection des Données à Caractère
+                  Personnel, dans le cadre de l’exécution du présent jeu-concours.</p>
+                <p style="text-decoration: underline;">ARTICLE 10.2 – RESPECT DE LA REGLEMENTATION</p>
+                <p>Toutes les informations que les Participants communiquent dans le cadre jeuconcours sont recueillies par la société Castor & Pollux (SAS au capital social de 17
+                  424 euros, dont le siège social est situé 72 avenue Pasteur - 93100 Montreuil,
+                  immatriculée au RCS de Paris sous le numéro 528 248 750) à la demande de LGE,
+                  Responsable de traitement, uniquement pour le présent jeu-concours.</p>
+                <p>Ces informations font l’objet d’un traitement informatique destiné à collecter et
+                  examiner les participations au jeu-concours. Les destinataires de ces données sont LG
+                  Electronics France, son prestataire de service de transport et société Castor & Pollux,
+                  en vue de l’extraction et la transmission des données des gagnants uniquement de
+                  société Castor & Pollux à LG Electronics France, afin de permettre la réalisation du
+                  tirage au sort et la livraison du lot.</p>	
+                <p>Conformément à la Réglementation de Protection des Données à Caractère
+                  Personnel, le participant dispose des droits d’accès, de rectification, d’effacement, de
+                  limitation du traitement de ses données personnelles, d’opposition au traitement de
+                  ses données personnelles pour des motifs légitimes et d’opposition à l’utilisation de
+                  ses données personnelles à des fins de prospection commerciale; en adressant une
+                  demande à Service Client LG Electronics France – Paris Nord II – 117 avenue des
+                  Nations – BP 59372 Villepinte – 95942 Roissy CDG Cedex (remboursement du timbre
+                  sur demande, au tarif lent en vigueur, pour toutes les requêtes concernant les
+                  données personnelles uniquement) ou sur lg.donneesperso@lgepartner.com (ceci
+                  n’est pas une adresse de contact pour le suivi de toute participation : elle est
+                  exclusivement dédiée aux demandes relatives aux données personnelles),
+                  accompagnée de la copie d’un titre d’identité portant la signature du participant.</p>
+                <p>Les participants disposent également d’un droit de définir des directives générales et
+                  particulières sur le sort de ses données à caractère personnel après leur mort ainsi
+                  que le droit d’introduire une réclamation auprès de la CNIL.</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 11 - POLITIQUE DE CONFIDENTIALITE</dt>
+              <dd>
+                <p>Vous acceptez que LGE collecte, utilise, stocke et divulgue vos informations
+                  personnelles, y compris les informations relatives à vos activités, conformément à la
+                  <a href="https://www.lg.com/fr/privacy" style="color:blue;text-decoration: underline;">politique de confidentialité.</a></p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 12 – INDEMNISATIONS</dt>
+              <dd>
+                <p>Toute tentative d’endommager délibérément le site web promotionnel de LGE ou les
+                  informations qu’il contient, de causer des dégâts par malveillance ou d’interférer avec
+                  le fonctionnement normal du site web, ou de déstabiliser de quelque manière que ce
+                  soit le fonctionnement légitime de ce jeu-concours peut être une violation des codes
+                  pénal ou civil ; dans l’éventualité d’une telle tentative, réussie ou non, LGE se réserve
+                  le droit de réclamer des dommages et intérêts dans la pleine mesure prévue par la 
+                  loi. Si LGE subit des pertes ou doit engager des frais occasionnés par une quelconque
+                  violation des conditions de participation ou de toute autre obligation légale par un
+                  participant, le participant accepte d’indemniser LGE pour ces pertes, dommages et
+                  frais.</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 13 - LIMITE DE RESPONSABILITE</dt>
+              <dd>
+                <p>Dans la mesure où les lois et réglementations en vigueur le permettent, tout prix
+                  devenu indisponible pour quelque raison que ce soit, indépendante de la volonté de
+                  LGE, pourra être remplacé par un prix similaire de valeur égale ou supérieure.</p>
+                <p>LGE et ses sociétés et agences associées (y compris leurs cadres, salariés et agents
+                  respectifs) ne pourront être tenus pour responsables en cas de perte (y compris, sans
+                  s’y limiter, de perte indirecte ou consécutive) ou de dommages en lien avec cette
+                  offre ou l’utilisation du prix, à l’exception des responsabilités dont l’exclusion est
+                  interdite par la loi (auquel cas la responsabilité est limitée au minimum autorisé par la
+                  loi).</p>
+                <p>LGE ne pourra être tenue pour responsable quant à des informations incorrectes,
+                  inexactes ou incomplètes communiquées pendant ou en lien avec ce jeu-concours si
+                  ce défaut d’information est dû à une cause indépendante de la volonté de LGE.</p>
+                <p>LGE ne pourra être tenu pour responsable quant à des problèmes ou
+                  dysfonctionnements techniques de téléphones, réseaux ou lignes, serveurs ou
+                  fournisseurs d’accès, équipements informatiques, logiciels, problèmes techniques ou
+                  saturation d’un réseau mobile, ou de toute combinaison de ce qui précède, ou à
+                  toutes autres défaillances techniques incluant des dommages sur le téléphone mobile
+                  ou l’ordinateur du participant ou d’un tiers, en lien avec ou résultant de la
+                  participation au présent jeu-concours, ou du téléchargement de documentations
+                  relative à ce jeu-concours.</p>
+                <p>Si, pour une raison quelconque, ce jeu-concours ne peut se dérouler comme prévu en
+                  raison de virus informatiques, de bugs, de falsifications, d’interventions non
+                  autorisées, de défaillances techniques ou pour toute autre indépendante de la 
+                  volonté de LGE faussant ou affectant l’administration, la sécurité, l’équité, l’intégrité
+                  ou le bon déroulement de ce jeu-concours, LGE se réserve le droit, à sa seule
+                  discrétion, de modifier ou de retarder le jeu-concours, sous réserve de directives
+                  écrites conformément aux lois et réglementations en vigueur.</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 14 – LITIGES ET RESPONSABILITE – DROIT APPLICABLE</dt>
+              <dd>
+                <p>La participation au jeu-concours implique l'acceptation sans réserve du règlement
+                  dans son intégralité. Si une ou plusieurs dispositions du présent règlement de 
+                  jeuconcours étaient déclarées nulles ou inapplicables, les autres clauses garderaient
+                  toute leur force et leur portée. En cas de différence entre la version du règlement
+                  déposée auprès de l'étude d'Huissier de Justice et la version du règlement accessible
+                  en ligne, seule la version déposée chez l’Huissier de Justice prévaudra. LGE tranchera
+                  souverainement tout litige relatif au jeu-concours et à son règlement. Il ne sera
+                  répondu à aucune demande téléphonique ou écrite concernant l'interprétation ou
+                  l'application du présent règlement, les mécanismes ou les modalités du jeu-concours.
+                  Toute contestation devra être envoyée par courrier recommandé dans un délai de
+                  deux (2) mois à compter de la clôture du jeu-concours (cachet de la Poste faisant foi).
+                  LGE pourra annuler ou suspendre tout ou partie du jeu-concours s'il apparaît que des
+                  fraudes sont intervenues sous quelque forme que ce soit. LGE se réserve, dans cette
+                  hypothèse, le droit de ne pas attribuer le gain au fraudeur et/ou de poursuivre devant
+                  les juridictions compétentes le ou les auteurs de ces fraudes.</p>
+                <p>Le présent règlement est exclusivement régi par la loi française. Conformément à la
+                  procédure de règlement amiable des litiges, tout conflit découlant du présent
+                  règlement devra faire l’objet préalable d’une mise en demeure adressée à l’autre
+                  partie par lettre recommandée avec demande d’avis de réception. Sans retour ou
+                  sans accord des parties dans un délai de trente (30) jours suivant sa réception, le
+                  litige sera porté devant les tribunaux compétents du domicile du demandeur.</p>
+              </dd>
+            </dl>
+            <dl>
+              <dt>ARTICLE 15 - INFORMATIONS GENERALES</dt>
+              <dd>
+                <p>LG ELECTRONICS FRANCE LG Electronics France, société par actions simplifiée au
+                  capital social de 13.705.491,26 euros située à Paris Nord II, 117 avenue des Nations,
+                  BP59372 Villepinte, 95942 Roissy CDG Cedex, France, enregistrée au RCS de Bobigny
+                  sous le numéro 380 130 567, représentée par son Président Monsieur Yong Soon
+                  HWANG.</p>
+                <p>CASTOR & POLLUX, société par action simplifiées au capital social de 17 424 euros,
+                  dont le siège social est situé 72 avenue Pasteur - 93100 Montreuil, immatriculée au
+                  RCS de Paris sous le numéro 528 248 750.</p>
+                <p>Le jeu-concours n’est en aucune manière sponsorisé, approuvé, administré par, ou
+                  associé avec Facebook. En participant, vous acceptez de fournir les informations vous
+                  concernant au responsable du jeu-concours et non à Facebook.</p>
+              </dd>
             </dl>
           </div>
         </div>
