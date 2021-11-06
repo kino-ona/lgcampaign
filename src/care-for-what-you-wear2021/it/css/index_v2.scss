@@ -71,7 +71,7 @@
 	z-index: 999;
 	top:50%;
 	left:50%;
-	max-width: 830px;
+	max-width: 950px;
 	width: 100%;
 	background-color: #fff;
 	opacity: 0;
@@ -106,11 +106,10 @@
 		border-radius: 50%;
 		text-indent:-9999px;
 		cursor: pointer;
-		outline: none;
 	}
 }
 .layer_inner {
-  max-height: 613px;
+  max-height: 85vh;
 	overflow-x: hidden;
 }
 .layer_cont {
@@ -227,7 +226,7 @@
 		display: none!important;
 	}
 	a {
-		&:hover, &:focus {
+		&:hover {
 			text-decoration: none;
 		}
 	}
@@ -453,13 +452,6 @@
 			}
 		}
 	}
-	.inner-box {
-		position:relative;
-		max-width:1600px;
-		margin:0 auto;
-		padding-top:90px;
-		padding-bottom:90px;
-	}
 	.box_row-campaign {
 		position:relative;
 		max-width:1600px;
@@ -556,7 +548,7 @@
 			top:0;
 			width:100%;
 			height:100%;
-			z-index: 10001;
+			z-index: 30001;
 			padding:10%;
 			background-color:#000;
 			iframe {
@@ -818,7 +810,7 @@
 				p {
 					display: inline-block;
 					margin-left:15px;
-					font-size:26px;
+					font-size:20px;
 					font-weight: 700;
 					line-height:1.1;
 					color:#000;
@@ -915,7 +907,8 @@
 			}
 			.half-right {
 				position:relative;
-				width:100%;
+				float:right;
+				width:calc(100% - 525px);
 			}
 			.pola_wrap{
 				position:relative;
@@ -954,7 +947,7 @@
 						width:calc(25% - 12px);
 					}
 				}
-			}	
+			}
 			@media screen and (max-width:991px) {
 				.pola_wrap{
 					.pola_list {
@@ -1045,22 +1038,22 @@
 				}
 				.btn_yt {
 					i {
-						background-image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_youtube.png');
+						background-image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_youtube.png);
 					}
 				}
 				.btn_fb {
 					i {
-						background-image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_facebook.png');
+						background-image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_facebook.png);
 					}
 				}
 				.btn_ins {
 					i {
-						background-image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_instagram.png');
+						background-image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_instagram.png);
 					}
 				}
 				.btn_tw {
 					i {
-						background-image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_twitter.png');
+						background-image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_twitter.png);
 					}
 				}
 			}
@@ -1138,21 +1131,20 @@
 	} // .clothing_howto
 
 	.clothing_sustain {
-		max-width:100%;
-		background-color: #F8F7F7;
-
+		margin-top:60px;
+		margin-bottom:60px;
 		.row-stit {
 			margin-top:20px;
 		}
 		.list_tab-nav {
+			max-width:325px;
 			margin-bottom:40px;
 			.link {
-				padding:11px 0 12px;
+				padding:12px 0;
 				text-align: center;
-				z-index: 1;
 				&.active, &:hover {
 					&:before {
-						background-size:auto 30px;
+						background-size: 80%;
 						background-position:center bottom;
 					}
 				}
@@ -1173,7 +1165,7 @@
 			}
 			.influencer {
 				position:relative;
-				max-width:1240px;
+				max-width:1060px;
 				margin:0 auto;
 				text-align: left;
 				.figure {
@@ -1181,7 +1173,7 @@
 					width:100%;
 					img {
 						position:relative;
-						max-width:750px;
+						max-width:570px;
 						width:100%;
 						z-index: 1;
 					}
@@ -1189,8 +1181,8 @@
 				.desc {
 					position:absolute;
 					right:0;
-					top:20%;
-					max-width:31%;
+					top:16%;
+					max-width:41%;
 					> p {
 						margin-bottom:15px;
 						font-size:34px;
@@ -1226,6 +1218,12 @@
 			}
 		}
 		.influencer-02 .figure{
+			background: {
+				image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer02-bg.jpg);
+				position: right bottom;
+				repeat: no-repeat;
+				size:485px;
+			};
 			.influ_typo {
 				width:545px;
 				height:225px;
@@ -1237,6 +1235,12 @@
 			}
 		}
 		.influencer-03 .figure{
+			background: {
+				image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer03-bg.jpg);
+				position: right bottom;
+				repeat: no-repeat;
+				size:485px;
+			};
 			.influ_typo {
 				width:495px;
 				height:250px;
@@ -1247,7 +1251,7 @@
 			}
 		}
 	} // .clothing_sustain
-
+	
 	.clothing_quiz {
 		padding:60px 0 60px;
 		background: {
@@ -1255,6 +1259,41 @@
 			size:cover;
 			repeat: no-repeat;
 			position:center center;
+		}
+		.row-tit {
+			max-width:60%;
+			margin:0 auto;
+			font-size:40px;
+			i {
+				display: inline-block;
+				width:50px;
+				height:50px;
+				margin-right:10px;
+				background: {
+					image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_crown.png);
+					size:50px;
+					repeat: no-repeat;
+					position: left center;
+				}
+				vertical-align: bottom;
+			}
+			@media screen and (max-width: 1280px) {
+				max-width:70%;
+				font-size:30px;
+				i {
+					width:40px;
+					height:40px;
+					background-size:40px;
+				}
+			}
+			@media screen and (max-width: 1024px) {
+				max-width:90%;
+				i {
+					width:30px;
+					height:30px;
+					background-size:30px;
+				}
+			}
 		}
 		.row-stit {
 			span {
@@ -1336,12 +1375,6 @@
 				padding-left:25px;
 				font-size: 22px;
 				font-weight: 700;
-				// background: {
-				// 	image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_crown.png);
-				// 	size:35px;
-				// 	repeat: no-repeat;
-				// 	position: left center;
-				// }
 				text-align: center;
 				i {
 					display: inline-block;
@@ -1533,7 +1566,6 @@
 				padding:7.5% 7.5% 5%;
 			}
 		}
-
 		.quiz_start {
 			display: flex;
 			align-items: center;
@@ -1544,7 +1576,7 @@
 			width:100%;
 			height:100%;
 			background: {
-				color:rgba(255,255,255, .95);
+				color:rgba(255,255,255, .9);
 				image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/qstart_bg.png');
 				repeat: no-repeat;
 				size:cover;
@@ -1620,7 +1652,7 @@
 			width:100%;
 			height:100%;
 			background: {
-				color:rgba(255,255,255, .95);
+				color:rgba(255,255,255, .9);
 				image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/qstart_bg.png');
 				repeat: no-repeat;
 				size:cover;
@@ -1628,7 +1660,7 @@
 			}
 			z-index: 10;
 			> p {
-				max-width:680px;
+				max-width:430px;
 				margin:0 auto;
 				text-align:center;
 				img {
@@ -1637,7 +1669,7 @@
 			}
 			@media screen and (max-width:991px) {
 				> p {
-					width:310px;
+					width:260px;
 					margin:0 auto;
 				}
 			}
@@ -1648,9 +1680,10 @@
 			color:#999999;
 			text-align: center;
 			@media screen and (max-width:1024px) {
-				max-width:78%;
+				max-width:75%;
 				margin:0 auto;
 				font-size:14px;
+				line-height:1.3;
 			}
 		}
 		.quiz_wrap {
@@ -1676,8 +1709,8 @@
 				height:35px;
 				background: {
 					color:transparent;
-					image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_refresh.png);
-					size:cover;
+					image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ico_refresh.png');
+					size:100%;
 					repeat: no-repeat;
 					position: center center;
 				}
@@ -1717,7 +1750,7 @@
 		.q_items {
 			display: flex;
 			max-width:1090px;
-			margin:60px auto 0;
+			margin:40px auto 0;
 			.item {
 				position:relative;
 				flex:1;
@@ -1859,6 +1892,20 @@
 				vertical-align: middle;
 			}
 			a {color: #999;}
+			@media screen and (max-width: 1024px) {
+				position:relative;
+				right:inherit;
+				bottom:inherit;
+				text-align: right;
+				width:calc(100% - 15px);
+				padding-top:5px;
+				padding-bottom:25px;
+				padding-right:15px;
+				
+				a {
+					font-size:14px;
+				}
+			}
 		}
 	} // .clothing_quiz
 
@@ -2204,7 +2251,7 @@
 		}
 	} // .clothing_project
 }
-.pop_ytiframe {
+.pop_ytiframe, .pop_vodframe {
 	display: none;
 	position: fixed;
 	left: 0;
@@ -2213,7 +2260,7 @@
 	height: 100%;
 	z-index: 30001;
 	background-color: rgba(0,0,0, .8);
-	.pop_ytiframe-inner {
+	.pop_ytiframe-inner, .pop_vodframe-inner {
 		position: absolute;
     left: 50%;
     top: 50%;
@@ -2342,13 +2389,13 @@
 				content: '';
 				display: block;
 				position:absolute;
-				left:10%;
+				left:3%;
 				top:0;
-				width:310px;
+				width:400px;
 				height:40px;
 				background: {
 					image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_btnexp01.png');
-					size:310px;
+					size:400px;
 					repeat: no-repeat;
 					position: 0 0;
 				}
@@ -2358,12 +2405,12 @@
 				display: block;
 				position:absolute;
 				right:7%;
-				top:0;
-				width:130px;
+				top:-5px;
+				width:185px;
 				height:40px;
 				background: {
 					image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_btnexp02.png');
-					size:130px;
+					size:185px;
 					repeat: no-repeat;
 					position: 0 0;
 				}
@@ -2535,25 +2582,23 @@
 	margin-bottom:40px;
 	background: {
 		color:#f9f9f9;
-		image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/promotion_bg.png');
+		image: url(/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/promotion_bg.png);
 		position:left bottom;
 		repeat: no-repeat;
 		size:auto;
 	}
 	.promo_left {
-		flex:1;
+		flex:.9;
 		p {
 			padding-bottom:25px;
 			font-size:56px;
 			font-weight: 700;
 			line-height:1.1;
-			letter-spacing: -1.1px;
 			> span {
 				display: block;
 				padding-top:25px;
 				font-size:20px;
 				font-weight: inherit;
-				letter-spacing: 0;
 			}
 		}
 		> span {
@@ -2564,7 +2609,7 @@
 		}
 	}
 	.promo_right {
-		flex:1;
+		flex:1.1;
 		&:after {
 			content: '';
 			display: block;
@@ -2573,8 +2618,7 @@
 		.items {
 			position:relative;
 			float:left;
-			// width:calc(25% - 10px);
-			width:calc((100% / 3) - 10px);
+			width:calc(25% - 10px);
 			margin-right:10px;
 			padding:25px 15px;
 			background-color: #fff;
@@ -2601,9 +2645,6 @@
 		}
 		.figure {
 			margin-bottom:15px;
-			img {
-				max-height:150px;
-			}
 		}
 		.model_name {
 			min-height:65px;
@@ -2944,9 +2985,6 @@
       }
       .btn_terms {
         margin-right:25px;
-				a {
-					font-size:14px;
-				}
       }
     }
   }
@@ -3001,7 +3039,6 @@
 @media screen and (max-width:991px) {
   .clothing-campaign {
     .clothing_quiz {
-			padding-bottom:80px;
       .howto_enter {
         display: block;
         padding-left:20px;
@@ -3077,10 +3114,6 @@
           background-size: 140px;
         }
       }
-			.q_source {
-				bottom:17px;
-				font-size:16px;
-			}
       .q_step {
         font-size:24px;
         letter-spacing: -.2rem;
@@ -3201,14 +3234,13 @@
 @media screen and (max-width:768px) {
   .clothing-campaign {
     .clothing_quiz {
+      .q_source {
+        bottom:15px;
+        font-size:14px;
+      }
       .q_title {
         margin-top:0;
       }
-			.q_source {
-				left:20px;
-				bottom:17px;
-				font-size:14px;
-			}
       .q_step {
         left:inherit;
         bottom:15px;
@@ -3248,11 +3280,14 @@
       .btn_area {
         margin-top:20px;
         ._btn {
+          width:100%;
           padding-left:60px;
           padding-right:60px;
-          height:44px;
-          line-height:3.4;
-          font-size:14px;
+          margin-left:0;
+          margin-top:8px;
+          height:50px;
+          line-height:3.3;
+          font-size:15px;
         }
       }
     }
@@ -3275,16 +3310,19 @@
       .btn_area {
         display: block;
         &:before {
+					top:-10px;
           left:15px;
-          width:270px;
-          background-size:265px;
+          width:260px;
+					height:50px;
+					background-image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/mq_btnexp01.png');
+          background-size:260px;
         }
         &:after {
           top:inherit;
-          bottom:45px;
-          background-size:110px;
-          left:50%;
-          margin-left:-65px;
+          bottom:55px;
+					background-image: url('/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/mq_btnexp02.png');
+          background-size:cover;
+          left:10%;
         }
         ._btn {
           flex:none;

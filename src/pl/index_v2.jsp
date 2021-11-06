@@ -941,6 +941,7 @@
         'microsite_name': micrositeName,
       })
     })
+  })
     
   $(document).ready(function(){
     var href = window.location.href;

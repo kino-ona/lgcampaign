@@ -245,6 +245,24 @@ $(document).ready(function(){
 });
 /* responsive e */
 
+function facebookSubmit(set) {
+	var thisurl = 'https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/ogimage.jpg';
+	var quote = 'https://www.lg.com/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/#quiz';
+	
+	var popUrl = 'http://www.facebook.com/sharer/sharer.php?u='+thisurl+'&quote='+quote;
+		var popOption = "width=550,height=700, resizable=no,scrollbars=no, status=no";
+		window.open(popUrl,"",popOption);
+	
+	eventName = 'quiz_event_tip_facebook_share_click';
+	micrositeName = 'prenditi-curadei-tuoi-capi';
+	dataLayer.push({
+		'event' : eventName,
+		'datalinkname': 'quiz_event_tip_facebook_share',
+		'datalinkarea': 'prenditi-curadei-tuoi-capi2021-quizevent',
+		'microsite_name': micrositeName,
+	});
+}
+
 /** Overlay Popup
 ****************************************/
 var isOpen = false;
