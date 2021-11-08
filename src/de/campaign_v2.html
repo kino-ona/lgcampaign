@@ -521,7 +521,7 @@
 						}
 					</script>
        		<p class="disclm">Die dargestellten Tipps sind zur Unterhaltung gedacht. Der Teilnehmer trägt die alleinige Verantwortung für alle Schäden, die durch die Befolgung der gegebenen Informationen entstehen können.</p>
-					<p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" >Teilnahmebedingungen</a></p>
+					<p class="btn_terms"><a href="https://www.lg.com/de/WaeschepflegetippsTNB" target="_blank">Teilnahmebedingungen</a></p>
 				</div>
 			</div>
 			<!-- clothing_tip(quiz) -->
@@ -733,7 +733,68 @@
 			<div class="pop_vodframe">
 				<div class="pop_vodframe-inner"><button class="btn-close"><span class="a11y">close</span></button><div class="movie-box"></div></div>
 			</div>
-	
+			
+			<!-- <div class="layer_body popup QzTipLayer" id="QzCurrent" aria-hidden="true" role="dialog" style="display: block;">
+				<div class="layer_wrap" style="opacity: 1;">
+					<div class="layer_close">
+						<button on:click|preventDefault='{hideCurrent}' class="close_btn">close</button>
+					</div>
+					<div class="layer_inner">
+						<div class="layer_cont">
+							<h4>Richtig! Werden Sie Wäschepflege-Experte</h4>
+							<p class="q_tips">{ quizData[currentQuiz].tips }</p> 
+							<div class="q_option4u">
+								<p class="figure">
+									<img src="./care-for-what-you-wear2021/images/quiz/q_option4u-{quizData[currentQuiz].product.toLowerCase()}.png" class="WM-img" alt={quizData[currentQuiz].product.toLowerCase()}>
+									<span class="a11y">{quizData[currentQuiz].product.toLowerCase()}&trade;</span>
+								</p>
+								<div class="desc">
+									<p class="slogan"><img src="./care-for-what-you-wear2021/images/quiz/q_tiptxt.png"></p>
+									<p class="txt">{ quizData[currentQuiz].feedback }</p>
+								</div>
+							</div>
+							<div class="btn_area">
+								<a onclick="facebookSubmit();" class="_btn btn_facebook"><i></i>Facebook</a>
+								<a href="https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear" target="_blank" class="_btn btn_twt"><i></i>Twitter</a>
+								<a href="#" class="_btn btn_gray" on:click|preventDefault='{hideCurrent}'>Weiter</a>
+							</div>
+			
+							<div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="layer_body popup QzTipLayer" id="QzEnd" aria-hidden="true" role="dialog">
+				<div class="layer_wrap qzend-box">
+					<div class="layer_close">
+						<button on:click|preventDefault='{hideMaster}' class="close_btn">close</button>
+					</div>
+					<div class="layer_inner">
+						<div class="layer_cont">
+							<div class="figure">
+								<img src="../care-for-what-you-wear2021/images/quiz/quizend.png">
+
+								<p class="more_txt">Nicht vergessen, folgende Hashtags einzufügen: <span>#CareForWhatYouWear #Waeschepflege-Tipps #MeineGeliebteKleidung #LGWaeschepflege #LG</span></p>
+							</div>
+							<div class="inner">
+								<p class="_pc"><img src="../care-for-what-you-wear2021/images/quiz/q_crown-txt.png" alt="Congratulations on becoming a master of clothing care tips!"></p>
+								<p class="_mo"><img src="../care-for-what-you-wear2021/images/quiz/mq_crown-txt.png" alt="Congratulations on becoming a master of clothing care tips!"></p>
+								<p class="desc">All you need now is LG Clothing Care appliances to practice the tips. 
+									Simply share this quiz on your Facebook or Twitter for a chance to win yours!</p>
+								<div class="btn_area">
+									<a onclick="facebookSubmit();" class="_btn btn_facebook "><i></i>Facebook</a>
+									<a href="https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear" target="_blank" class="_btn btn_twt"><i></i>Twitter</a>
+								</div>
+
+								<p class="link_tnc"><a href="https://www.lg.com/de/WaeschepflegetippsTNB" target="_blank">* Zu den Teilnahmebedingungen</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+
 	
 			<!-- clothingcare-terms_pop -->
 			<div class="layer_body popup clothingcare-terms_pop" id="clothingcare-terms_pop" aria-hidden="true" role="dialog">

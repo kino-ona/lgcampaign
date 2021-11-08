@@ -399,7 +399,7 @@
           }
         </script>
         <p class="disclm">Die dargestellten Tipps sind zur Unterhaltung gedacht. Der Teilnehmer trägt die alleinige Verantwortung für alle Schäden, die durch die Befolgung der gegebenen Informationen entstehen können.</p>
-        <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;">Teilnahmebedingungen</a></p>
+        <p class="btn_terms"><a href="https://www.lg.com/de/WaeschepflegetippsTNB" target="_blank">Teilnahmebedingungen</a></p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->

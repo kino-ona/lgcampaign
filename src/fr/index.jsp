@@ -240,7 +240,7 @@
     </div>
     <!--// clothing_howto -->
 
-    <div id="influencer"></div>
+    <!-- <div id="influencer"></div>
     <div class="clothing_sustain box_row-campaign">
       <p class="row-tit">Au cœur d'une vie vestimentaire responsable</p>
       <p class="row-stit">Écoutez des passionnés de mode responsable parler de leurs vêtements précieux et de la manière dont ils les conservent plus longtemps.</p>
@@ -289,7 +289,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--// clothing_sustain -->
 
     <div id="quiz"></div><div id="event2"></div>
@@ -387,10 +387,13 @@
                 <img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/product_thumn01.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
                   <a href="https://www.lg.com/fr/lave-linge/lg-f24v92bsta-lave-linge-standards" adobe-click="clothing-care-campaign-main-washer" 
-                  data-super-category-name="electromenager" data-category-name="Washer" data-model-name="LG F24V92BSTA" data-model-salesmodelcode="F24V92BSTA.ABLQPFS" data-model-suffixcode="ABLQPFS" data-price="1399,00" 
+                  data-model-id="MD07532888" data-sku="LG F24V92BSTA" aria-describedby="waGPC0009_0" data-super-category-name="electromenager" data-category-name="Washer" data-model-name="LG-F24V92BSTA" data-model-salesmodelcode="F24V92BSTA.ABLQPFS" 
+                  data-model-suffixcode="ABLQPFS" data-price="1399,00" 
                   adobe-value="main>product-feature>washer>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">En Savoir Plus</a>
                   <a href="https://www.lg.com/fr/lave-linge/lg-f24v92bsta-lave-linge-standards#pdp_where" adobe-click="clothing-care-campaign-main-washer"  
-                  data-super-category-name="electromenager" data-category-name="Washer" data-model-name="LG F24V92BSTA" data-model-salesmodelcode="F24V92BSTA.ABLQPFS" data-model-suffixcode="ABLQPFS" data-price="1399,00" adobe-value="main>product-feature>washer>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Où Acheter</a>
+                  data-model-id="MD07532888" data-sku="LG F24V92BSTA" aria-describedby="waGPC0009_0" data-super-category-name="electromenager" data-category-name="Washer" data-model-name="LG F24V92BSTA" data-model-salesmodelcode="F24V92BSTA.ABLQPFS" 
+                  data-model-suffixcode="ABLQPFS" data-price="1399,00" adobe-value="main>product-feature>washer>where_to_buy" 
+                  data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Où Acheter</a>
                 </div>
               </div>
               <div class="desc">
@@ -429,10 +432,12 @@
                 <img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
                   <a href="https://www.lg.com/fr/seche-linges/lg-RH9V92BS-seche-linge" adobe-click="clothing-care-campaign-main-dryer" 
-                  data-model-id="MD06200997" data-super-category-name="electromenager" data-category-name="Dryer" data-model-name="LG RH9V92BS" data-model-salesmodelcode="RH9V92BS.ABLQKFS" data-model-suffixcode="ABLQKFS" 
-                  adobe-value="main>product-feature>dryer>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">En Savoir Plus</a>
+                  data-model-id="MD06200997" data-sku="LG RH9V92BS" data-super-category-name="electromenager" data-category-name="Dryer" data-model-name="LG RH9V92BS" data-model-salesmodelcode="RH9V92BS.ABLQKFS" data-model-suffixcode="ABLQKFS" 
+                  adobe-value="main>product-feature>dryer>learn_more" data-link-name="learn_more" aria-describedby="waGPC0009_0" target="_blank" class="_btn btn_red">En Savoir Plus</a>
+
                   <a href="https://www.lg.com/fr/seche-linges/lg-RH9V92BS-seche-linge#pdp_where" adobe-click="clothing-care-campaign-main-dryer"
-                  data-model-id="MD06200997" data-super-category-name="electromenager" data-category-name="Dryer" data-model-name="LG RH9V92BS" data-model-salesmodelcode="RH9V92BS.ABLQKFS" data-model-suffixcode="ABLQKFS" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Où Acheter</a>
+                  data-model-id="MD06200997" data-sku="LG RH9V92BS" data-super-category-name="electromenager" data-category-name="Dryer" data-model-name="LG RH9V92BS" data-model-salesmodelcode="RH9V92BS.ABLQKFS" data-model-suffixcode="ABLQKFS" 
+                  adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" aria-describedby="waGPC0009_0" target="_blank" class="_btn btn_red">Où Acheter</a>
                 </div>
               </div>
               <div class="desc">
@@ -468,10 +473,12 @@
                 <img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
                   <a href="https://www.lg.com/fr/styler/lg-s3mfc-armoire-vapeur-sechante" adobe-click="clothing-care-campaign-main-styler" 
-                  data-model-id="MD07529709" data-super-category-name="electromenager" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-name="LG S3MFC" data-model-salesmodelcode="S3MFC.ALMQKFS" data-model-suffixcode="ALMQKFS" 
-                  adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">En Savoir Plus</a>
+                  data-model-id="MD07529709" data-sku="LG S3MFC" data-super-category-name="electromenager" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-name="LG S3MFC" data-model-salesmodelcode="S3MFC.ALMQKFS" data-model-suffixcode="ALMQKFS" 
+                  adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" aria-describedby="waGPC0009_0" target="_blank" class="_btn btn_red">En Savoir Plus</a>
+
                   <a href="https://www.lg.com/fr/styler/lg-s3mfc-armoire-vapeur-sechante#pdp_where" adobe-click="clothing-care-campaign-main-styler" 
-                  data-model-id="MD07529709" data-super-category-name="electromenager" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-name="LG S3MFC" data-model-salesmodelcode="S3MFC.ALMQKFS" data-model-suffixcode="ALMQKFS" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Où Acheter</a>
+                  data-model-id="MD07529709" data-sku="LG S3MFC" data-super-category-name="electromenager" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-name="LG S3MFC" data-model-salesmodelcode="S3MFC.ALMQKFS" data-model-suffixcode="ALMQKFS" 
+                  adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" aria-describedby="waGPC0009_0" target="_blank" class="_btn btn_red">Où Acheter</a>
                 </div>
               </div>
               <div class="desc">
@@ -971,6 +978,7 @@
       "modelYear": "",
       "modelName": "",
       "model_name": "",
+      "sku": "",
       "bundle_name" : "", // bundle promotion
       "promotion_name" : "",  // promotion detail page
       "microsite_name": "main"
@@ -1022,7 +1030,7 @@
       micrositeName = 'electromenager';
       dataLayer.push({
         'event' : eventName,
-        'modelName' : $(this).attr('data-sku'),
+        'modelName' : $(this).attr('data-model-name'),
         'modelCode' : $(this).attr('data-model-id'),
         'sku' : $(this).attr('data-sku'),
         'suffix' : $(this).attr('data-model-suffixcode'),
@@ -1038,7 +1046,7 @@
       micrositeName = 'electromenager';
       dataLayer.push({
         'event' : eventName,
-        'modelName' : $(this).attr('data-model-id'),
+        'modelName' : $(this).attr('data-model-name'),
         'modelCode' : $(this).attr('data-model-id'),
         'microsite_name': micrositeName,
       })
