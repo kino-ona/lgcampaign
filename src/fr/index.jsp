@@ -53,9 +53,24 @@
   <!-- // component (navigation) -->
 
   <!-- breadcrumb -->
-  <c:import url="/${localeCd }/breadCrumb">
+  <!-- <c:import url="/${localeCd }/breadCrumb">
     <c:param name="bizType" value="${bizType}" />
-  </c:import>
+  </c:import> -->
+  <div class="breadcrumb">
+		<ul itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				<a href="/fr" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="accueil">
+				<span itemprop="name">ACCUEIL</span></a>
+				<meta itemprop="position" content="1" />
+			</li>
+			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				<a href="/fr/electromenager" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="accueil_electroménager">
+				<span itemprop="name">Electroménager</span></a>
+				<meta itemprop="position" content="2">
+			</li>
+			<li><strong>#PrenezSoinDeCeQueVousPortez</strong></li>
+		</ul>
+	</div>
   <!-- // breadcrumb -->
 
   <!-- Enter Code Here -->
@@ -114,13 +129,13 @@
       <!-- vod background -->
       <div class="vodbg">
         <video class="video01" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/LG_H&A_Baby.mp4" type="video/mp4" autostart="false">
+          <source src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/LGHnABaby.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video02" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/LG_H&A_Couple.mp4" type="video/mp4" autostart="false">
+          <source src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/LGHnACouple.mp4" type="video/mp4" autostart="false">
         </video>
         <video class="video03" muted="muted" loop onloadedmetadata="this.muted = true" poster="" playsinline>
-          <source src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/LG_H&A_Hero.mp4" type="video/mp4" autostart="false">
+          <source src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/LGHnAHero.mp4" type="video/mp4" autostart="false">
         </video>
         
         <div class="iframebody YTframe01">
@@ -163,7 +178,7 @@
           LG a lancé la campagne #PrenezSoinDeCeQueVousPortez en 2020 pour soutenir les habitudes d'entretien responsable des vêtements et réduire les déchets.</p>
         <p class="txt">Parce que les vêtements les plus responsables sont ceux que vous possédez déjà, entretenir correctement vos vêtements en utilisant 
           des fonctions de protection des tissus peut rendre votre quotidien plus responsable.</p>
-        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="qr9z_d5wb_c" target="_blank" class="btn_watch">Regarder la campagne LG de soin des vêtements 2020</a>
+        <a href="#" data-type="youtube" data-link-area="hero_image-video_play" id="qr9z_d5wb_c" target="_blank" class="btn_watch">Voir la campagne LG de soin des vêtements 2020</a>
       </div>
       <div class="visual">
         <div class="story_slide">
@@ -215,7 +230,7 @@
             <div class="figure">
               <p class="tag"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/goods_tag.png" alt="Mes vêtements précieux"></p>
               <img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
-              <p class="txt">Partagez votre histoire pour gagner<br>un appareil LG d'entretien des vêtements!</p>		
+              <p class="txt">Partagez votre histoire et tentez de gagner un appareil de soin du linge LG !</p>		
             </div>
             <div class="cta">
               <p>Découvrez comment ci-dessous</p>
@@ -324,7 +339,7 @@
                 <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_03.png" alt="Rien de tel qu'un jean tout frais" style="max-width:61px;"></span>
                 <span class="title">Rien de tel qu'un jean tout frais</span>
               </p>
-              <p class="desc">Vous voulez porter vos jeans propres plus d'une fois sans les laver? 
+              <p class="desc">Vous voulez porter vos jeans propres plus d'une fois sans les laver ? 
                 Un moyen efficace consiste à le placer au congélateur entre deux utilisations pour contribuer à éliminer certaines bactéries à l'origine des ordeurs.</p>
             </div>
           </div>
@@ -354,7 +369,7 @@
                 <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_06.png" alt="Portez vos vêtements sans germes" style="max-width:68px;"></span>
                 <span class="title">Portez vos vêtements sans germes</span>
               </div>
-              <p class="desc">Combien de temps faut-il laisser les vêtements dans un sèche-linge pour tuer les germes? 
+              <p class="desc">Combien de temps faut-il laisser les vêtements dans un sèche-linge pour tuer les germes ? 
                 Pour éliminer les germes dans votre linge, mettez vos vêtements dans le sèche-linge pendant au moins 30 minutes dans un cycle haute température.</p>
             </div>
           </div>
@@ -368,14 +383,14 @@
     <div class="anchors" id="dryer"></div>
     <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
-      <p class="row-tit">Découvrez les appareils LG de solution d'entretien des vêtements</p>
+      <p class="row-tit">Découvrez les appareils LG de soin du linge</p>
       <p class="row-stit">Le soin du linge innovant LG contribue à préserver vos vêtements plus longtemps.</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist" style="max-width:680px;">
           <li class="list-item item01" id="Pralka"><a href="#pralka" id="anchor_tab1" data-toggle="pill"
-            adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>tap" data-link-name="pralka" class="link active">Waschmaschine</a></li>
+            adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>Lave-linge>tap" data-link-name="pralka" class="link active">Lave-linge</a></li>
           <li class="list-item item02" id="suszarka"><a href="#suszarka" id="anchor_tab2" data-toggle="pill"
-            adobe-click="clothing-care-campaign-main-suszarka" adobe-value="main>product-feature>suszarka>tap" data-link-name="product_feature_tap_suszarka" class="link">Trockner</a></li>
+            adobe-click="clothing-care-campaign-main-suszarka" adobe-value="main>product-feature>Sèche-linge>tap" data-link-name="product_feature_tap_suszarka" class="link">Sèche-linge</a></li>
           <li class="list-item item03" id="styler"><a href="#styler" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>tap" data-link-name="product_feature_tap_styler" class="link">LG Styler</a></li>
         </ul>
@@ -514,8 +529,8 @@
     <div class="box_row-campaign box_content">
       <div class="promotion_banner">
         <div class="promo_left">
-          <p>Pour l'achat d'un lave-linge ou d'un lave-linge séchant LG équipé de la technologie ezDispense, jusqu'à 1 an de lessive L'ARBRE VERT offert</p>
-          <span>Du 20 octobre au 30 novembre 2021<br>*T&amp;Cs apply</span>
+          <p>Jusqu'à 1 an de lessive L'Arbre Vert offert pour l'achat d'un lave-linge ou d'un lave-linge séchant LG équipé du dosage automatique ezDispense</p>
+          <span>Du 20 octobre au 30 novembre 2021</span>
         </div>
         <div class="promo_right">
           <div class="items">
