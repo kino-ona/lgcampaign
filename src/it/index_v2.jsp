@@ -268,43 +268,10 @@
     <div id="quiz"></div><div id="event2"></div>
     <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
-        <p class="row-tit"><i></i>Consigli per un abbigliamento sostenibile</p>
+        <p class="row-tit">Consigli per un abbigliamento sostenibile</p>
         <p class="row-stit">Ti stai chiedendo come prenderti cura dei tuoi adorati vestiti? Ecco alcuni consigli.</p>
 
-        <div class="howto_enter">
-          <div class="detail">
-            <dl>
-              <dt>How to enter</dt>
-              <dd>
-                <p>Take the quiz! There are 10 questions in total.</p>
-                <p>If you get the questions correct, you can move on to the next question. If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
-                <p>Don’t forget! If you share the quiz, you will get a chance to win your own clothing care appliance.</p>
-                <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</span></p>
-                <span>* The outcome of your event participation will not be affected by your quiz results.</span>
-              </dd>
-            </dl>
-          </div>
-          <div class="detail _box2">
-            <dl>
-              <dt>Participation period</dt>
-              <dd>
-                <p>21-Oct ~ 10-Nov 2021</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Winner announcement</dt>
-              <dd>
-                <p>One lucky winner will be selected by random on 17-Nov 2021.</p>
-                <p>Keep an eye out for a DM coming your way.</p>
-              </dd>
-            </dl>
-          </div>
-
-          <div class="desc">
-            <i></i>Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
-          </div>
-        </div>
-
+        <div class="howto_enter"></div>
         <div id="quizWrap" class="quiz_wrap">
           <div class="quiz_start">
             <div>
@@ -312,7 +279,7 @@
               <a href="#" onclick="quizStart();return false;"  
               adobe-click="Zadbaj-o-to-co-nosisz-content-quiz" adobe-value="content-page>quiz>start" 
               data-link-name="quiz_event_start" data-link-area="Zadbaj-o-to-co-nosisz2021-quizevent"
-              class="btn_start">START</a>
+              class="btn_start">Inizia</a>
             </div>
           </div>
           <div class="quiz_end">
