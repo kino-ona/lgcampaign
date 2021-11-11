@@ -389,8 +389,14 @@
               <div class="figure">
                 <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/it/lavatrici/lg-f4wv912p2ea" adobe-click="clothing-care-campaign-main-Lavatrice" adobe-value="main>product-feature>Lavatrice>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
-                  <a href="https://www.lg.com/it/lavatrici/lg-f4wv912p2ea#pdp_where" adobe-click="clothing-care-campaign-main-Lavatrice" adobe-value="main>product-feature>Lavatrice>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
+                  <a href="https://www.lg.com/it/lavatrici/lg-f4wv912p2ea" adobe-click="clothing-care-campaign-main-Lavatrice" adobe-value="main>product-feature>Lavatrice>learn_more" 
+                    data-model-id="MD07536228" data-super-category-name="elettrodomestici" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" data-model-year="2021" 
+                    data-model-name="F4WV912P2EA" data-model-salesmodelcode="F4WV912P2EA.ABWQPIS" data-sku="F4WV912P2EA" data-model-suffixcode="ABWQPIS" 
+                    data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
+                  <a href="https://www.lg.com/it/lavatrici/lg-f4wv912p2ea#pdp_where" adobe-click="clothing-care-campaign-main-Lavatrice" adobe-value="main>product-feature>Lavatrice>where_to_buy" 
+                    data-model-id="MD07536228" data-super-category-name="elettrodomestici" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" data-model-year="2021" 
+                    data-model-name="F4WV912P2EA" data-model-salesmodelcode="F4WV912P2EA.ABWQPIS" data-sku="F4WV912P2EA" data-model-suffixcode="ABWQPIS" 
+                    data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
                 </div>
               </div>
               <div class="desc">
@@ -428,8 +434,14 @@
               <div class="figure">
                 <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
-                  <a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
+                  <a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>styler>learn_more" 
+                    data-model-id="MD06175496" data-super-category-name="elettrodomestici" data-category-name="Dryer" data-sub-category-name="Electric_Dryer" data-model-year="2019" 
+                    data-model-name="RC90V9AV2W" data-model-salesmodelcode="RC90V9AV2W.ABWQKIS" data-sku="RC90V9AV2W" data-model-suffixcode="ABWQKIS" 
+                    data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
+                  <a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>styler>where_to_buy" 
+                    data-model-id="MD06175496" data-super-category-name="elettrodomestici" data-category-name="Dryer" data-sub-category-name="Electric_Dryer" data-model-year="2019" 
+                    data-model-name="RC90V9AV2W" data-model-salesmodelcode="RC90V9AV2W.ABWQKIS" data-sku="RC90V9AV2W" data-model-suffixcode="ABWQKIS" 
+                    data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
                 </div>
               </div>
               <div class="desc">
@@ -464,8 +476,14 @@
               <div class="figure">
                 <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/it/styler/lg-s3bf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
-                  <a href="https://www.lg.com/it/styler/lg-s3bf#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
+                  <a href="https://www.lg.com/it/styler/lg-s3bf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>learn_more" 
+                    data-model-id="MD07501856" data-super-category-name="elettrodomestici" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" 
+                    data-model-year="2020" data-model-name="S3BF" data-model-salesmodelcode="S3BF.ALBQWEU" data-sku="S3BF" data-model-suffixcode="ALBQWEU" 
+                    data-link-name="learn_more" target="_blank" class="_btn btn_red">Scopri Di Più</a>
+                  <a href="https://www.lg.com/it/styler/lg-s3bf#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" 
+                    data-model-id="MD07501856" data-super-category-name="elettrodomestici" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" 
+                    data-model-year="2020" data-model-name="S3BF" data-model-salesmodelcode="S3BF.ALBQWEU" data-sku="S3BF" data-model-suffixcode="ALBQWEU" 
+                    data-link-name="where_to_buy" target="_blank" class="_btn btn_red">Dove Acquistare</a>
                 </div>
               </div>
               <div class="desc">

@@ -6,19 +6,25 @@
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-default-tag.jsp" %>
 
     <!-- sns tag -->
+    <meta name="twitter:card" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg" />
+    <meta name="twitter:site" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-sns-tag.jsp" %>
 
     <!-- chrome audits -->
     <meta name="theme-color" content="#a50034" />
 
     <title>Zadbaj o to co nosisz - Sprzęt AGD | LG Polska</title>
+    <link rel="canonical" href="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
     <meta name="keywords" content="Zadbaj o to co nosisz, Sprzęt AGD LG, Ochrona tkanin" />
     <meta name="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:title" content="Zadbaj o to co nosisz - Sprzęt AGD | LG Polska" />
-    <meta property="og:url" content="http://www.lg.com/pl/sprzet-agd/" />
-    <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
-    <meta property="og:image" content="@" />
-    <link rel="canonical" href="http://www.lg.com/it" />
+    <meta itemprop="url" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
+    <meta property="og:url" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
+		<meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last.">
+    <meta itemprop="image"     content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+    <meta property="og:image"  content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+    <meta name="twitter:image" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+    <meta name="thumbnail" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
@@ -38,10 +44,13 @@
 
   <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
       <meta itemprop="name" content="Zadbaj o to co nosisz - Sprzęt AGD | LG Polska" />
-      <meta itemprop="image" content="@" />
-      <meta itemprop="url" content="http://www.lg.com/pl" />
+      <meta itemprop="url" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/" />
       <meta itemprop="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
       <meta itemprop="Keywords" content="Zadbaj o to co nosisz, Sprzęt AGD LG, Ochrona tkanin" />
+      <meta itemprop="image"     content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+      <meta property="og:image"  content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+      <meta name="twitter:image" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
+      <meta name="thumbnail" content="https://www.lg.com/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/ogimage.jpg">
   </div>
 
   <c:set var='bizType' value='${$bizType }' />
@@ -63,7 +72,7 @@
         </a><meta itemprop="position" content="1">
       </li>
 			<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-				<a href="/pl/SPRZĘT AGD" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
+				<a href="/pl/sprzet-agd" itemprop="item" data-link-area="gnb-breadcrumb" data-link-name="home_appliances">
 				<span itemprop="name">SPRZĘT AGD</span></a>
 				<meta itemprop="position" content="2">
 			</li>
@@ -218,7 +227,7 @@
     </div>
     <!--// clothing_story -->
 
-    <div id="quiz"></div>
+    <div id="quiz"></div><div id="event2"></div>
     <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit"><i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!
@@ -366,6 +375,7 @@
     </div>
     <!-- clothing_tip(quiz) -->
 
+    <div id="event1"></div>
     <div id="box_content3" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Ubrania, które wiele dla mnie znaczą</p>
@@ -414,7 +424,8 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>buy-now" data-link-name="buy_now" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>learn_more" data-link-name="learn_more" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">SPRAWDŹ</a>
+                  <a href="https://www.lg.com/pl/pralki/lg-F4WN409S2T#pdp_where" adobe-click="clothing-care-campaign-main-pralka" adobe-value="main>product-feature>pralka>where_to_buy" data-link-name="where_to_buy" data-model-id="F4WN409S2T" data-model-name="F4WN409S2T" data-sku="F4WN409S2T" aria-describedby="F4WN409S2T" target="_blank" class="_btn btn_red">Gdzie Kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -452,7 +463,8 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">SPRAWDŹ</a>
+                  <a href="https://www.lg.com/pl/suszarki/lg-RC90V9AV2Q#pdp_where" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" data-model-id="RC90V9AV2Q" data-model-name="RC90V9AV2Q" data-sku="RC90V9AV2Q" aria-describedby="RC90V9AV2Q" target="_blank" class="_btn btn_red">Gdzie Kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -487,7 +499,8 @@
               <div class="figure">
                 <img src="/pl/sprzet-agd/zadbaj-o-to-co-nosisz-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">Gdzie kupić</a>
+                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>learn_more" data-link-name="learn_more" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">SPRAWDŹ</a>
+                  <a href="https://www.lg.com/pl/szafy-parowe-lg-styler/lg-s3wf#pdp_where" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">Gdzie Kupić</a>
                 </div>
               </div>
               <div class="desc">
@@ -902,48 +915,81 @@
         'microsite_name': micrositeName,
       })
     })
-  });
-  $('.clothing_quiz').find('.btn_next').each(function (i) {
-    $(this).on('click', function() {
-      var _this=$(this);
-      eventName = 'quiz_event_next_click';
-      micrositeName = 'zadbaj-o-to-co-nosisz';
-      dataLayer.push({
-        'event' : eventName,
-        'datalinkname': 'quiz_event_next',
-        'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
-        'microsite_name': micrositeName,
-      })
-    })
-  });
-  $('.clothing_quiz').find('.btn_back').each(function (i) {
-    $(this).on('click', function() {
-      var _this=$(this);
-      eventName = 'quiz_event_prev_click';
-      micrositeName = 'zadbaj-o-to-co-nosisz';
-      dataLayer.push({
-        'event' : eventName,
-        'datalinkname': 'quiz_event_prev',
-        'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
-        'microsite_name': micrositeName,
-      })
-    })
-  });
-  $('.clothing_quiz').find('.btn_refresh').each(function (i) {
-    $(this).on('click', function() {
-      var _this=$(this);
-      eventName = 'quiz_event_refresh_click';
-      micrositeName = 'zadbaj-o-to-co-nosisz';
-      dataLayer.push({
-        'event' : eventName,
-        'datalinkname': 'quiz_event_refresh',
-        'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
-        'microsite_name': micrositeName,
-      })
-    })
-  })
+  });  
     
   $(document).ready(function(){
+    $('.clothing_quiz').find('.btn_next').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_next_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_next',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    $('.clothing_quiz').find('.btn_back').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_prev_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_prev',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+
+    $('.q_items').find('.item').each(function () {
+      $(this).find('label').on('click', function() {
+        var qnum = $('.q_step').find('strong').html()
+        var thisVal = $(this).find('input').val()
+
+        eventName = 'quiz_event_item_Checkbox_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'data-link-name': 'quiz_' + qnum + '_' + thisVal,
+          'data-link-area': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'microsite': micrositeName,
+        })
+      })
+    });
+
+    $('.clothing_quiz').find('.btn_refresh').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_refresh_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_refresh',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+    $('.QzTipLayer').find('.btn_gray').each(function (i) {
+      $(this).on('click', function() {
+        var _this=$(this);
+        eventName = 'quiz_event_try_again_click';
+        micrositeName = 'zadbaj-o-to-co-nosisz';
+        dataLayer.push({
+          'event' : eventName,
+          'datalinkname': 'quiz_event_tryagain',
+          'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
+          'microsite_name': micrositeName,
+        })
+      })
+    });
+
+     
+    
     var href = window.location.href;
     if(href.indexOf('washer') != -1) {
       $('.clothing_product .list_tab-nav .link').removeClass('active');

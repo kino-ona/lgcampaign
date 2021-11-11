@@ -6,8 +6,6 @@
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-default-tag.jsp" %>
 
     <!-- sns tag -->
-    <meta name="twitter:card" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/ogimage.png" />
-    <meta name="twitter:site" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/" />
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-sns-tag.jsp" %>
 
     <!-- chrome audits -->
@@ -15,10 +13,10 @@
     <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, net-a-porter, washing machine, dryer, styler, nachhaltigkeit, wäschepflege, waschmaschine, trockner, waschtrockner, home appliances, lg haushaltsgeräte, haushaltsgeräte" />
     <meta name="description" content="LG hat die neue Kampagne 'Care For What You Wear' gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
     <meta property="og:title" content="Care For What You Wear 2021| LG Deutschland" />
-    <meta property="og:url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/" />
+    <meta property="og:url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
     <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
-    <meta property="og:image" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/ogimage.png" />
-    <link rel="canonical" href="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/" />
+    <meta property="og:image" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/visual_bgcut03.jpg" />
+    <link rel="canonical" href="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
@@ -28,7 +26,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 
     <!-- your css -->
-    <link href="/de/haushaltsgeraete/care-for-what-you-wear-2021/css/index_v2.css" type="text/css" rel="stylesheet">
+    <link href="/de/haushaltsgeraete/care-for-what-you-wear-2021/css/index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,12 +35,11 @@
   <jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 
   <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-    <meta itemprop="name" content="Care For What You Wear 2021| LG Deutschland" />
-    <meta itemprop="image" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/ogimage.png" />
-    <meta itemprop="url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/" />
-    <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, net-a-porter, washing machine, dryer, styler, nachhaltigkeit, wäschepflege, waschmaschine, trockner, waschtrockner, home appliances, lg haushaltsgeräte, haushaltsgeräte" />
-    <meta name="twitter:card" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/ogimage.png" />
-    <meta name="twitter:site" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/" />
+  <meta itemprop="name" content="Care For What You Wear 2021| LG Deutschland" />
+  <meta itemprop="image" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021/images/visual_bgcut03.jpg" />
+  <meta itemprop="url" content="https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021" />
+  <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, net-a-porter, washing machine, dryer, styler, nachhaltigkeit, wäschepflege, waschmaschine, trockner, waschtrockner, home appliances, lg haushaltsgeräte, haushaltsgeräte" />
+  <meta name="description" content="LG hat die neue Kampagne 'Care For What You Wear' gestartet: Für einen bewussten Lebensstil hinsichtlich des Umgangs mit Kleidung und eine nachhaltige Zukunft. Erfahre mehr über die Kampagne und der innovativen Wäschepflege-Technologie von LG." />
   </div>
 
   <c:set var='bizType' value='${$bizType }' />
@@ -151,7 +148,7 @@
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
             <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">ALLGEMEIN</a></li>
-            <!-- <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MEINE GELIEBTE KLEIDUNG</a></li> -->
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MEINE GELIEBTE KLEIDUNG</a></li>
             <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">TIPPS FÜR NACHHALTIGE KLEIDUNG</a></li>
             <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">WÄSCHEPFLEGE MIT LG</a></li>
           </ul>
@@ -207,6 +204,43 @@
     </div>
     <!--// clothing_story -->
 
+    <div id="event1"></div>
+    <div id="box_content2" class="clothing_howto box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">Meine geliebte Kleidung</p>
+        <p class="row-stit">Welche schönen Erinnerungen hängen in Ihrem Kleiderschrank?<br>
+          Teilen Sie Ihre Lieblingserinnerung, die mit einem bestimmten Outfit verbunden ist, mit uns und sehen Sie sich die anderen wunderbaren Geschichten an, die jeder von uns teilt.</p>
+        <div class="howto">
+          <div class="half-left">
+            <div class="figure">
+              <p class="tag"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/goods_tag.png" alt="Ubrania, które wiele dla mnie znaczą"></p>
+              <img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
+              <p class="txt">Teilen Sie Ihre Geschichte und gewinnen<br>Sie einen innovativen LG Styler!</p>		
+            </div>
+            <div class="cta">
+              <p>Wie das geht, erfahren Sie unten.</p>
+              <div class="sns_link">
+                <a href="https://www.facebook.com/lgdeutschland/photos/a.154854208092/10158359999468093/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/p/CVPpjHeAZlX/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="half-right">
+            <ul class="pola_list">
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid01.jpg" alt="Sein 'Glücks'-Shirt für unsere Angelausflüge"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid02.jpg" alt="Die Jacke eines Schwarms aus der Schule, in der ich 'süß' aussah"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid03.jpg" alt="Der Maßanzug von unserer Reise nach Italien"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid04.jpg" alt="Papa's Rücken, als er noch Graffitis sprühte"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid05.jpg" alt="Wir tragen immer noch unsere Lieblingsoutfits aus dem Jahr 1988"></li>
+              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid06.jpg" alt="Mama's Lieblings-Dino-Top, das sie vor 32 Jahren getragen hat"></li>
+            </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Teilnahmebedingungen<i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_howto -->
+
     <div id="influencer"></div>
     <div class="clothing_sustain box_row-campaign">
       <p class="row-tit">Einblicke in ein Leben mit nachhaltiger Kleidung</p>
@@ -221,43 +255,47 @@
               adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Eva Klaus</a></li>
           <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
-            adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Massimo Sinato</a></li>
+            adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Kevin Pabel</a></li>
+          <li class="list-item item04" id="influencer04"><a href="#influencer04" id="anchor_tab4" data-toggle="pill"
+            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer04" 	
+            adobe-value="main>stories-we-wear>influencer04>tap" data-link-name="influencer04" class="link">Massimo Sinato</a></li>
         </ul>
 
         <div class="box_tab-view">
           <div class="box_view-detail"> 
             <div id="influencer01" class="box_view-item box_view-item1 active">
               <div class="influencer influencer-01">
-                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv301.jpg" alt="Stories Anna Frost"></div>
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer01.jpg" alt="Stories Anna Frost"></div>
                 <div class="desc">
-                  <p>Was ich alles in den <br>LG Styler hänge?</p>
-                  <span>Alles, was ein bisschen mehr tlc braucht, als meine übliche Kleidung. Und die Klamotten, die nicht zwingend einen Vollwaschgang brauchen oder auch gar nicht in die Waschmaschine dürfen.
-                    <br><br>Dazu zählen Kleidungsstücke aus empfindlichen Stoffen oder auch die fancy Stücke, die Perlen, Pailletten und Schimmer appliziert haben, die eventuell der Waschmaschine schaden könnten. 
-                    Im Styler bekomme ich Gerüche und Allergene aus der Kleidung, ohne sie zu strapazieren und Verschleiß zu provozieren.
-                  </span>
+                  <p>Der LG Styler - <br>seit etwas über einem Jahr ist er mein treuer Begleiter in Sachen Wäschepflege!</p>
+                  <span>Den schwarzen Glitzer-Einteiler kaufte ich Anfang Oktober 2018. Seinen ersten größeren Auftritt hatte er am 31. Oktober 2018, also nur wenige Tage nach dem Kauf. Danach zog ich ihn zu diversen Events an, Familienfeierlichkeiten und Fotoshootings. Zuletzt trug ich ihn auf der Premiere des Musicals Wicked. Ich hätte damals nicht geahnt, dass dieser Einteiler zu meinem “go to” Outfit wird.</span>
                 </div>
               </div>
             </div>
             <div id="influencer02" class="box_view-item box_view-item2">
               <div class="influencer influencer-02">
-                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv302.jpg" alt="Stories Eva Klaus"></div>
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer02.jpg" alt="Stories Eva Klaus"></div>
                 <div class="desc">
-                  <span>Mit dem Styler bietet LG eine perfekte Lösung zur nachhaltigen Kleidungspflege und fördert somit einen bewussten Lifestyle. Mit der Steam Funktion können Kleider in nur 20 Minuten 
-                    aufgefrischt werden und Falten, Gerüche und Allergene effizient reduziert werden.<br><br>
-                    Da wir leicht verschmutze Kleidung nicht mehr unbedingt waschen müssen, tun wir durch den Verbrauch von weniger Waschmittel und damit weniger Verwendung von Chemikalien 
-                    (der Styler funktioniert mit purem Wasser) wieder etwas Gutes für unsere Umwelt, schonen anfällige Stoffe und vernichten dabei sogar Bakterien.
-                  </span>
+                  <p>Die nachhaltigste Kleidung ist die, die wir schon besitzen.</p>
+                  <span>Kleider erzählen Geschichten, wie beispielsweise mein Hochzeitsdirndl, ein Kleidungsstück mit dem ich viele wunderschöne Momente verbinde. Ich hege und pflege es, damit ich noch lange Freude daran haben werde. Vielleicht sogar noch meine Tochter, wenn sie es später tragen möchte.</span>
                 </div>
               </div>
             </div>
             <div id="influencer03" class="box_view-item box_view-item3">
               <div class="influencer influencer-03">
-                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv303.jpg" alt="Stories Massimo Sinato"></div>
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer03.jpg" alt="Stories Kevin Pabel"></div>
                 <div class="desc">
-                  <p>Mein Tipp zum Auffrischen <br>von Sportklamotten ? </p>
-                  <span>Mit Zitronensaft könnt ihr Bakterien und Gerunche ganz leicht beseitigen.<br><br>
-                    Das Feature AI DD™ erkennt die Fasern der Kleidung, passt das Waschmuster darauf an und schützt dadurch das Gewebe. So habe ich lange Freude an meinen Lieblingsteilen und ich schone die Umwelt, 
-                    denn der sorgsame und bewusste Umgang mit Kleidung ist der beste Weg zu einen nachhaltigen Modelifestyle.  </span>
+                  <p>Lasst uns mit nachhaltigen Lebensgewohnheiten im Alltag dafür sorgen, ein bewussteres Leben zu führen und unseren Planeten zu retten.</p>
+                  <span>Ich habe meinen geliebten Mantel, der so viele Erinnerungen weckt, seit 2017. Ich pflege ihn bewusster und nachhaltiger - nicht nur, damit er länger hält, sondern auch, um Textilmüll zu reduzieren.</span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer04" class="box_view-item box_view-item4">
+              <div class="influencer influencer-04">
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencer04.jpg" alt="Stories Massimo Sinato"></div>
+                <div class="desc">
+                  <p>#CareForWhatYouWear – Für einen nachhaltigen Umgang mit Mode im Alltag.</p>
+                  <span>Habt ihr auch dieses eine besondere Lieblingskleidungsstück/Outfit, welches ihr gerne tragt und pflegt? Meins ist mit mir über die letzten Jahre um die halbe Welt gereist – Check My Story!</span>
                 </div>
               </div>
             </div>
@@ -272,172 +310,69 @@
       <div class="box_row-campaign">
         <p class="row-tit">Tipps für nachhaltige Kleidung</p>
         <p class="row-stit">Sie fragen sich, wie Sie Ihre Kleidung nachhaltiger machen können? Hier erfahren Sie, wie Sie Ihre geliebte Kleidung besser pflegen.</p>
-
-        <div class="howto_enter">
-          <div class="detail">
-            <dl>
-              <dt>So machen Sie mit</dt>
-              <dd>
-                <p>Beantworten Sie alle 9 Quizfragen.</p>
-                <p>Wenn Sie eine Frage richtig beantwortet haben, gelangen Sie zur nächsten Frage. Wenn nicht, erfahren Sie natürlich die richtige Antwort sowie eine Erklärung, warum das so ist.</p>
-                <p>Nicht vergessen: Wenn Sie Ihr Quizergebnis am Ende auf Facebook oder Twitter teilen, haben Sie die Chance, einen schwarzen LG Styler zu gewinnen!</p>
-                <p>Verlinken Sie den Facebook- oder Twitter-Account von LG in Ihrem Posting und nutzen Sie dafür die folgenden Hashtags: <span class="hashtags">#CareForWhatYouWear #Waeschepflegetipps #LG</span>.</p>
-                <span>* Das Ergebnis des Quiz beeinflusst nicht die Teilnahme an dem Gewinnspiel.</span>
-              </dd>
-            </dl>
-          </div>
-          <div class="detail _box2">
-            <dl>
-              <dt>Gewinnspiellaufzeit</dt>
-              <dd>
-                <p>10. - 30. November 2021</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Bekanntgabe des Gewinners</dt>
-              <dd>
-                <p>Der glückliche Gewinner wird per Zufallsprinzip am 8. Dezember 2021 ausgewählt.</p>
-                <p>Der Gewinner wird per Direktnachricht auf dem jeweiligen Social Media Kanal kontaktiert. Prüfen Sie Ihr Postfach also regelmäßig.</p>
-              </dd>
-            </dl>
-          </div>
-        </div>
-
-        <div id="quizWrap" class="quiz_wrap">
-          <div class="quiz_start">
-            <div>
-              <p><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/qstart_txt.png" alt="Möchten Sie noch weitere Wäschepflege-Tipps erhalten?"></p>
-              <a href="#" onclick="quizStart();return false;" 
-              adobe-click="clothing-care-campaign-content-quiz" adobe-value="content-page>quiz>start" 
-              data-link-name="quiz_event_start" data-link-area="clothing-care-campaign2021-quizevent"
-              class="btn_start">Starten</a>
+        <div class="tip_wrap">
+          <div class="tip_item tip01">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/stips_01.png" alt="Schnelles Trocknen gewünscht?" style="max-width:65px;"></span>
+                <span class="title">Schnelles Trocknen gewünscht?</span>
+              </div>
+              <p class="desc">Wenn Ihnen die Zeit zum Trocknen knapp wird, legen Sie einfach ein trockenes Handtuch zur Wäsche dazu. Das Handtuch wirkt wie ein Schwamm, der die Feuchtigkeit aufsaugt und Ihre Kleidung schneller trocknen lässt.</p>
             </div>
           </div>
-          <div class="quiz_end">
-            <p><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/quiz/qend_txt.png" alt="Sie haben das Quiz geschafft"></p>
+          <div class="tip_item tip02">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/stips_02.png" alt="Eingelaufene Kleidung" style="max-width:58px;"></span>
+                <span class="title">Eingelaufene Kleidung</span>
+              </p>
+              <p class="desc">Ist Ihr Lieblings-T-Shirt geschrumpft? Ein gutes Mittel dagegen ist, das geschrumpfte Kleidungsstück 15 Minuten lang in lauwarmem Wasser mit einem Spritzer Haarspülung einzuweichen und es dann vorsichtig zu dehnen.</p>
+            </div>
+          </div>
+          <div class="tip_item tip03">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/stips_03.png" alt="Nichts geht über eine frische Jeans" style="max-width:61px;"></span>
+                <span class="title">Nichts geht über eine frische Jeans</span>
+              </p>
+              <p class="desc">Wollen Sie Ihre Jeans mehr als einmal tragen, ohne sie zu waschen? Eine effektive Methode ist, sie zwischen dem Tragen in den Gefrierschrank zu legen, um die Bakterien abzutöten, die unangenehme Gerüche verursachen.</p>
+            </div>
+          </div>
+          <div class="tip_item tip04">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/stips_04.png" alt="Keine Gerüche nach einer durchfeierten Nacht" style="max-width:74px;"></span>
+                <span class="title">Keine Gerüche nach einer durchfeierten Nacht</span>
+              </div>
+              <p class="desc">Im Gegensatz zu den meisten Kleidungsstücken lassen sich Gerüche aus dicken Stoffen wie Wolle nicht so leicht entfernen. Eine gute Methode, um Gerüche aus solchen Kleidungsstücken zu verbannen ist, 
+                zwei Tassen Essig in die heiße Wanne zu geben, die Kleidung an die Duschstange oder die Badezimmertür zu hängen und den Essig im aufsteigenden Dampf den Geruch entfernen zu lassen.</p>
+            </div>
+          </div>
+          <div class="tip_item tip05">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/stips_05.png" alt="Wasser sparen, Erde retten" style="max-width:74px;"></span>
+                <span class="title">Wasser sparen, Erde retten</span>
+              </div>
+              <p class="desc">Wussten Sie, dass für die Herstellung eines T-Shirts 2.700 Liter Wasser verbraucht werden? Das ist genug Wasser für einen Menschen, um drei Jahre lang ausreichend zu trinken. 
+                Je länger Sie Ihre Kleidung benutzen, desto mehr Wasser sparen Sie. Lassen Sie uns gemeinsam die Welt retten, mit einem Kleidungsstück nach dem anderen.</p>
+            </div>
+          </div>
+          <div class="tip_item tip06">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/stips_06.png" alt="Tragen Sie Ihre Kleidung keimfrei" style="max-width:68px;"></span>
+                <span class="title">Tragen Sie Ihre Kleidung keimfrei</span>
+              </div>
+              <p class="desc">Wie lange sollten Sie die Kleidung in den Trockner geben, um Keime abzutöten? 
+                Um Keime in Ihrer Wäsche zu entfernen, geben Sie Ihre Kleidung mindestens 30 Minuten lang bei hoher Hitze in den Trockner.</p>
+            </div>
           </div>
         </div>
-
-        <script>
-          const quizData = [
-            {
-              question:'Wie wird Ihre weiße Kleidung noch weißer?',
-              answers:['Mit Geschirrspülmittel','Mit Mehl','Mit Zahnpasta'],
-              tips:'Ja, Sie haben richtig gelesen. Geschirrspülmittel enthält sehr effektive Reinigungsmittel. Geben Sie deshalb auf einige Liter Waschwasser ruhig wenige Esslöffel Geschirrspülmittel hinzu.',
-              product:'wm', usp:'TuboWash360',
-              feedback:'Sorgen Sie sich nicht um mögliche Schäden an Ihrer Kleidung. TurboWash™ 360° ermöglicht die gründliche Reinigung Ihrer Wäsche in nur 39 Minuten (bei halber Beladung), ohne Kompromisse beim Faserschutz.',
-              qsource:'Linda Cobb',
-              currenttips:'Mit Geschirrspülmittel'},
-            {
-              question:'Was hilft Ihnen dabei, Flecken aus Hemden zu entfernen?',
-              answers:['In Wasser einweichen','Reiben','Pressen'],
-              tips:'Pressen oder drücken Sie wiederholt auf den Fleck, um ihn zu entfernen. Wischen und Reiben sollten Sie unbedingt vermeiden, um den Stoff nicht zu beschädigen.',
-              product:'wm', usp:'TurboWash 360',
-              feedback:'Oder entscheiden Sie sich für eine LG Waschmaschine mit TurboWash™ 360°, die Ihre Hemden in nur 39 Minuten (bei halber Beladung) gründlich reinigt.',
-              qsource:'Madame Paulette',
-              currenttips:'Pressen'},
-            {
-              question:'Wie viel Wasser wird für die Herstellung eines T-Shirts benötigt?',
-              answers:['2.000 Liter','2.700 Liter','3.000 Liter'],
-              tips:'Bei der Herstellung eines T-Shirts werden 2.700 Liter Wasser verbraucht – davon könnte ein Mensch drei Jahre lang trinken.',
-              product:'wm', usp:'Größere Kapazität',
-              feedback:'Uns allen ist natürlich klar, dass eine Waschmaschine beim Spülen und Waschen viel Wasser verbraucht. Mit einer effizienten Waschmaschine von LG können Sie aber mehr Wäsche pro Durchgang waschen und so den Wasserverbrauch reduzieren.',
-              qsource:'European Parliament',
-              currenttips:'2.700 Liter'},
-            {
-              question:'Welcher Trick hilft gegen feuchten Geruch in der Kleidung?',
-              answers:['Bei der Wäsche Shampoo dazugeben','Bei der Wäsche Essig dazugeben','Bei der Wäsche eine Handvoll Salz dazugeben'],
-              tips:'Beim Trocknen von Wäsche in Innenräumen entsteht leicht der typische Feuchtigkeits-Geruch, da in den Textilien Restfeuchte zurückbleibt. Bleichmittel eignet sich zur Vorbeugung am besten – Essig ist als natürliches Deodorierungsmittel jedoch eine gute Alternative.',
-              product:'dryer', usp:'Sensor Dry',
-              feedback:'Erleben Sie einen Trockner, der Kleidung wirklich gründlich trocknet – ganz ohne zurückbleibenden Feuchtigkeits-Geruch! Möglich wird das durch die Sensor Dry Technologie: Zwei Sensorleisten erkennen die Feuchtigkeit der Kleidung und bestimmen automatisch die optimale Trocknungszeit.',
-              qsource:'Persil',
-              currenttips:'Bei der Wäsche Essig dazugeben'},
-            {
-              question:'Mit welchem Trick können Sie Trocknungszeit sparen, wenn es zeitlich knapp wird?',
-              answers:['Das Trocknen verschieben','Toilettenpapier zur Wäsche geben','Ein trockenes Handtuch zur Wäsche geben'],
-              tips:'Wenn es beim Trocknen besonders schnell gehen muss, können Sie ein trockenes Handtuch mit in den Trockner legen. Dieses nimmt zusätzliche Feuchtigkeit auf und verkürzt somit die Trocknungszeit. Sie sollten allerdings darauf achten, das Handtuch rechtzeitig wieder zu entfernen. Trocknen Sie nur wenige Stücke und entnehmen Sie das Handtuch nach fünf Minuten. Bei voller Beladung entfernen Sie es nach 15 Minuten.',
-              product:'dryer', usp:'Eco Hybrid™',
-              feedback:'Sie haben es eilig? Nutzen Sie die „Quick Dry“-Schnelltrocknung! Die Inverter Wärmepumpentechnologie steuert die Geschwindigkeit sowohl im Eco Hybrid Modus als auch im Zeitmodus. Da der Kompressor schneller arbeitet, wird Ihre Wäsche im Zeitmodus noch effizienter getrocknet.',
-              qsource:'CNET',
-              currenttips:'Ein trockenes Handtuch zur Wäsche geben'},
-            {
-              question:'Welches Mittel kann Ihnen helfen, wenn ein T-Shirt eingelaufen ist?',
-              answers:['Shampoo','Haarspülung','Duschgel'],
-              tips:'Ist Ihr Lieblings-Shirt eingelaufen? Dann lassen Sie es für 15 Minuten in lauwarmem Wasser mit etwas Haarspülung einweichen. Ziehen Sie es anschließend sanft auseinander.',
-              product:'dryer', usp:'DUAL Inverter Heat Pump™',
-              feedback:'Oder sorgen Sie mit der Inverter Wärmepumpentechnologie von LG dafür, dass Ihre Kleidung gar nicht erst einlaufen kann – sie arbeitet nämlich mit besonders niedrigerer Temperatur.',
-              qsource:'CNET',
-              currenttips:'Haarspülung'},
-            {
-              question:'Welcher Trick kann Ihnen dabei helfen, Tabakgeruch aus Ihrer Kleidung zu entfernen?',
-              answers:['Weißweinessig dazugeben','Shampoo dazugeben','An der frischen Luft trocknen'],
-              tips:'Der Geruch von Rauch verschwindet bei normaler Wäsche aus den meisten Textilien. Bei besonders empfindlichen Stoffen wie Wolle kann Ihnen dieser Trick helfen: Füllen Sie die Badewanne mit heißem Wasser, geben Sie zwei Tassen Weißweinessig hinzu, hängen Sie die Kleidung an die Duschstange und schließen Sie die Tür. Durch den enthaltenen Essig reduziert der aufsteigende Wasserdampf den unerwünschten Geruch.',
-              product:'styler', usp:'TrueSteam',
-              feedback:'Der LG Styler entfernt unangenehme Gerüche mit Steam-Technologie zuverlässig und schonend aus Ihrer Kleidung. Der Einsatz von Wasserdampf ermöglicht eine gründliche Auffrischung, ohne dass die Textilien beschädigt werden.',
-              qsource:'The Spruce',
-              currenttips:'Weißweinessig dazugeben'},
-            {
-              question:'Ist Weichspüler für Wollwäsche geeignet?',
-              answers:['Bei jeder Wäsche','Gelegentlich','Niemals'],
-              tips:'Auch wenn die landläufige Meinung anders lautet – das technische Labor der Woolmark Company in Melbourne empfiehlt, niemals Weichspüler zu verwenden!',
-              product:'styler', usp:'Heat Pump Drying',
-              feedback:'Wie reinigen Sie also Wolle und machen sie gleichzeitig ohne Weichspüler geschmeidig? Der LG Styler behandelt Ihre Wollkleidung mit seinem Wärmepumpensystem besonders schonend. Hängen Sie Ihren Pullover einfach auf den Bügel und er wird im Handumdrehen gründlich und sanft aufgefrischt.',
-              qsource:'Woolmark Company Lab',
-              currenttips:'Niemals'},
-            {
-              question:'Mit welcher Methode lassen sich Falten aus der Kleidung entfernen?',
-              answers:['Die Wäsche im Badezimmer aufhängen','Die Wäsche auf den Boden legen','Die Wäsche in den Kühlschrank legen'],
-              tips:'Wenn Ihnen die Zeit zum Bügeln fehlt, hängen Sie die Stücke einfach im Badezimmer auf, während Sie eine heiße Dusche nehmen. Der Wasserdampf glättet Ihre Kleidung.',
-              product:'styler', usp:'Moving Hanger',
-              feedback:'Der patentierte Kleiderbügel des Styler schwingt pro Minute bis zu 200 Mal, sodass der Wasserdampf Falten sanft glättet und Ihre Lieblingskleidung immer bestens aussieht.',
-              qsource:'Real Simple',
-              currenttips:'Die Wäsche im Badezimmer aufhängen'}
-          ]
-          const messageData = {
-              backButton: 'Zurück',
-              nextButton: 'Weiter',
-              unselect: 'Please select an answer!',
-              tipsTitle: 'Nein, leider nicht. Richtig ist',
-              another: 'Another option for you',
-              tryButton: 'Noch einmal',
-              shareButton: 'Share',
-              promoTitle: 'Fancy a 10% off promo code?',
-              placeholderName: 'Enter your name',
-              placeholderEmail: 'Enter your E-mail'
-          }
-        </script>
-        <p class="disclm">Die dargestellten Tipps sind zur Unterhaltung gedacht. Der Teilnehmer trägt die alleinige Verantwortung für alle Schäden, die durch die Befolgung der gegebenen Informationen entstehen können.</p>
-        <p class="btn_terms"><a href="https://www.lg.com/de/WaeschepflegetippsTNB" target="_blank">Teilnahmebedingungen</a></p>
+        <p class="disclm">* Die dargestellten Tipps sind zur Unterhaltung gedacht. Der Teilnehmer trägt die alleinige Verantwortung für alle Schäden, die durch die Befolgung der gegebenen Informationen entstehen können.</p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
-
-    <div id="event1"></div>
-    <div id="box_content4" class="clothing_howto box_content">
-      <div class="box_row-campaign">
-        <p class="row-tit">Meine geliebte Kleidung</p>
-        <p class="row-stit">Welche schönen Erinnerungen hängen in Ihrem Kleiderschrank?<br>Teilen Sie Ihre Lieblingserinnerung, die mit einem bestimmten Outfit verbunden ist, mit uns und sehen Sie sich die anderen wunderbaren Geschichten an, die jeder von uns teilt.</p>
-        <div class="howto">
-          <div class="pola_wrap">
-            <ul class="pola_list">
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid01v2.png" alt="Hand tailored suit from our trip to Italy"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid02v2.png" alt="@"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid03v2.png" alt="Dad’s back when he used to write graffiti"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid04v2.png" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid05v2.png" alt="@"></li>
-              <li class="last-child"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
-            </ul>
-            <ul class="pola_list line_2">
-              <li class="first-child"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid06v2.png" alt="The “lucky catch” shirt on our fishing trip"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid07v2.png" alt="Jacket high school crush said I looked cute in"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid08v2.png" alt="@"></li>
-              <li><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/polaroid09v2.png" alt="Still wearing our favourite date outfits since 1988"></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--// clothing_howto -->
 
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="drayer"></div>
@@ -645,27 +580,23 @@
         </div>
         <div class="layer_inner">
           <div class="layer_cont">
-            <p class="heading-tit">LG wird ein Quiz zum Thema<br>"Tipps für nachhaltige Kleidung" veranstalten.</p>
+            <p class="heading-tit">LG führt das Gewinnspiel<br>"Meine geliebte Kleidung" auf Instagram und Facebook durch.</p>
             <p>(1) Ein LG Styler S3BF wird als Hauptpreis am Ende des Veranstaltungszeitraums verlost.</p>
-            <p>Die Teilnehmer müssen die unten aufgeführten Kriterien erfüllen, indem sie an dem Quiz unter  https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021 teilnehmen und das Quizergebnis auf ihrem eigenen Facebook- oder Twitter-Account unter Angabe bestimmter Hashtags mithilfe des "Teilen"-Buttons auf der Aktionsseite nach Beendigung des Quiz posten. 
-              Bitte beachten Sie, dass nur Teilnehmer, die die unten aufgeführten Kriterien vollständig erfüllen, als Gewinner ausgewählt werden können.</p>
-            <p>Aktionszeitraum: Einsendungen können vom 10. November bis zum 30. November 2021 gemacht werden. Alle Beiträge, die außerhalb dieses Zeitraums gemacht werden, können nicht an dieser Aktion teilnehmen.</p>
-            <p>Teilnahmeberechtigt sind Personen in Deutschland, die mindestens 18 Jahre alt sind. Ein öffentliches Twitter- und/oder Facebook-Konto ist erforderlich. Bitte lesen Sie die vollständigen Teilnahmebedingungen unten.</p>
+            <p>Die Teilnehmer müssen die unten aufgeführten Kriterien erfüllen, indem sie einen Kommentar zu den geposteten Originalinhalten mit ihren eigenen Geschichten über ein Kleidungsstück, 
+              das besondere Erinnerungen an sie weckt, posten. Bitte beachten Sie, dass nur Teilnehmer, die die unten aufgeführten Kriterien vollständig erfüllen, als Gewinner ausgewählt werden können.</p>
+            <p>Aktionszeitraum: Beiträge können vom 20. Oktober bis zum 09. November 2021 eingereicht werden. Alle Beiträge, die außerhalb dieses Zeitraums eingereicht werden, sind von der Teilnahme an dieser Aktion ausgeschlossen.</p>
+            <p>Teilnahmeberechtigt sind Personen in Deutschland, die mindestens 18 Jahre alt sind. Ein öffentliches Instagram- und/oder Facebook-Konto ist erforderlich. Bitte lesen Sie die vollständigen Teilnahmebedingungen unten.</p>
             <dl>
               <dt>Teilnahmebedingungen:</dt>
               <dd>
-                <p>a. Die Teilnehmer müssen an dem Quiz auf https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021 teilnehmen.</p>
-                <p>b. Die Teilnehmer müssen das Quizergebnis auf ihrem eigenen Facebook- oder Twitter-Account posten, 
-                  indem der "Teilen"-Button auf der Aktionsseite nach Beendigung des Quiz genutzt wird. Das Posting muss zusätzlich die folgenden Hashtags enthalten:<br>
-                  #CareForWhatYouWear  #Waeschepflege-Tipps #MeineGeliebteKleidung #LGWaeschepflege #LG</p>
+                <p>Die Teilnehmer müssen einen Kommentar mit einer Geschichte über ihre Lieblingskleidung unter dem von LG auf Instagram oder Facebook hochgeladenen Event-Post hinterlassen. </p>
               </dd>
-            </dl>
+            </dl> 
             <dl>
+              <dt>Das Posting muss die folgenden Hashtags enthalten:<br>#CareForWhatYouWear #MeineGeliebteKleidung #MyCherishedClothes #LGWaeschepflege #LG</dt>
               <dd>
-                <p>Jeder Teilnehmer kann einmal mit einem Twitter- und Facebook-Post am Gewinnspiel teilnehmen, und der Gewinner wird nach dem Zufallsprinzip ausgewählt. 
-                  Die Auslosung findet nach Teilnahmeschluss statt und der Gewinner wird innerhalb von 7 Tagen nach Teilnahmeschluss über Twitter oder Facebook benachrichtigt.</p>
-                <p>Die Teilnehmer nehmen zur Kenntnis, dass die angebotenen Tipps zur Unterhaltung gedacht sind. 
-                  Der Teilnehmer trägt die alleinige Verantwortung für alle Schäden, die durch die Befolgung der gegebenen Informationen entstehen können.</p>
+                <p>Jeder Teilnehmer kann einmal mit einem Instagram- und Facebook-Post am Gewinnspiel teilnehmen und der Gewinner wird nach dem Zufallsprinzip ausgewählt. 
+                  Die Auslosung findet nach Teilnahmeschluss statt und der Gewinner wird innerhalb von 7 Tagen nach Teilnahmeschluss über Instagram oder Facebook benachrichtigt.</p>
               </dd>
             </dl>
             <dl>
@@ -677,30 +608,29 @@
             <dl>
               <dt>Teilnahmebedingungen</dt>
               <dd>
-                <p>Die Teilnahme an der Verlosung ist nur für Teilnehmer mit Wohnsitz in Deutschland möglich, die mindestens 18 Jahre alt sind. 
-                  Mitarbeiter von LG und allen dazugehörigen globalen Unternehmen, des Veranstalters, deren Familien und Vertreter sowie andere Unternehmen oder Personen, 
-                  die an der Erstellung oder Verwaltung des Gewinnspiels beteiligt sind, sind von der Teilnahme ausgeschlossen. Ein Internetzugang, ein Facebook-Konto und ein öffentliches Twitter-Konto sind erforderlich.</p>
+                <p>Die Teilnahme an der Verlosung ist nur für Teilnehmer mit Wohnsitz in Deutschland möglich, die mindestens 18 Jahre alt sind. Mitarbeiter von LG und allen dazugehörigen globalen Unternehmen, 
+                  des Veranstalters, deren Familien und Vertreter sowie andere Unternehmen oder Personen, die an der Erstellung oder Verwaltung des Gewinnspiels beteiligt sind, sind von der Teilnahme ausgeschlossen. 
+                  Ein Internetzugang, ein Facebook-Konto und ein öffentliches Instagram-Konto sind erforderlich.</p>
                 <p>Indem Sie den Anweisungen des Gewinnspiels folgen, erklären Sie sich mit diesen Bedingungen und Konditionen einverstanden. 
                   Alle Entscheidungen bezüglich der Gewinner und Preise sind endgültig. LG oder der Veranstalter der Aktion führen keine Korrespondenz.</p>
-                <p>Verspätete, unleserliche, unvollständige, verunstaltete oder beschädigte Beiträge sowie Beiträge, die über Agenturen und Dritte oder auf anderem Wege als über Twitter oder Facebook eingereicht werden, 
+                <p>Verspätete, unleserliche, unvollständige, verunstaltete oder beschädigte Beiträge sowie Beiträge, die über Agenturen und Dritte oder auf anderem Wege als über Instagram oder Facebook eingereicht werden, 
                   werden nicht akzeptiert. Für verloren gegangene Einsendungen kann keine Verantwortung übernommen werden. Wenn LG oder der Veranstalter der Meinung sind, dass ein Verstoß gegen diese Bedingungen vorliegt, 
                   sind LG oder der Veranstalter nach eigenem Ermessen berechtigt, den Preis einzubehalten und einen anderen Gewinner nach dem Zufallsprinzip in Übereinstimmung mit diesen Bedingungen zu ziehen.</p>
-                <p>Der Gewinner wird nach seiner Auswahl vom Veranstalter per Twitter- oder Facebook-Direktnachricht kontaktiert und um seine Kontaktdaten gebeten (siehe Punkt 9). 
-                  Es liegt in der Verantwortung des Gewinners, sicherzustellen, dass die von ihm angegebenen Daten korrekt sind. Weder der Veranstalter noch der Organisator sind für eine fehlgeschlagene Lieferung verantwortlich, 
-                  wenn die Teilnehmer falsche oder unvollständige Lieferinformationen angegeben haben oder die Lieferung nicht wie erforderlich unterzeichnet haben.</p> 
+                 <p>Der Gewinner wird nach seiner Auswahl vom Veranstalter per Instagram- oder Facebook-Direktnachricht kontaktiert und um seine Kontaktdaten gebeten (siehe Punkt 9). Es liegt in der Verantwortung des Gewinners, 
+                   sicherzustellen, dass die von ihm angegebenen Daten korrekt sind. Weder der Veranstalter noch der Organisator sind für eine fehlgeschlagene Lieferung verantwortlich, 
+                   wenn die Teilnehmer falsche oder unvollständige Lieferinformationen angegeben haben oder die Lieferung nicht wie erforderlich unterzeichnet haben.</p> 
               </dd>
             </dl>
             <dl>
-              <dt>Auswahlverfahren:<br>Der Gewinner des Preises wird vom Veranstalter nach dem Zufallsprinzip ausgewählt.</dt>
+              <dt>Auswahlverfahren:<br>Der Gewinner des Preises wird vom Veranstalter nach dem Zufallsprinzip ausgewählt. </dt>
             </dl>
             <dl>
               <dd>
-                <p>Der Gewinner wird innerhalb von sieben (7) Tagen nach Ende des Gewinnspiels ausgelost. Der Gewinner wird nach seiner Auswahl vom Veranstalter per Twitter- oder Facebook-Direktnachricht kontaktiert und um seine Kontaktdaten gebeten. 
+                <p>Der Gewinner wird innerhalb von sieben (7) Tagen nach Ende des Gewinnspiels ausgelost. Der Gewinner wird nach seiner Auswahl vom Veranstalter per Instagram- oder Facebook-Direktnachricht kontaktiert und um seine Kontaktdaten gebeten. 
                   Der Gewinner wird gebeten, die relevanten Kontaktdaten anzugeben, einschließlich, aber nicht beschränkt auf seine E-Mail-Adresse, Telefonnummer und Adresse, um dem Gewinner die Preise zuzusenden.</p>
                 <p>Es gibt einen (1) Hauptpreis zu gewinnen, der am Ende des Veranstaltungszeitraums vergeben wird. 
                   Der Preis umfasst: 1x LG Styler S3BF</p>
-                <p>Alle Teilnehmer erkennen an, dass für jedes Element des Preises die Bedingungen Dritter gelten können, und erklären sich damit einverstanden, 
-                  diese Bedingungen einzuhalten. Es liegt in der Verantwortung jedes Teilnehmers, diese Bedingungen zu lesen.</p>
+                <p>Alle Teilnehmer erkennen an, dass für jedes Element des Preises die Bedingungen Dritter gelten können, und erklären sich damit einverstanden, diese Bedingungen einzuhalten. Es liegt in der Verantwortung jedes Teilnehmers, diese Bedingungen zu lesen.</p>
                 <p>Teilnehmer sind einverstanden, dass sie sich an Werbemaßnahmen von LG im Zusammenhang mit dem Gewinnspiel beteiligen. Der Name des Teilnehmers kann auf LG.com und/oder den sozialen Medien von LG veröffentlicht werden. 
                   Dies kann auch Bilder einschließen, die der Nutzer im Rahmen der Werbeaktion einreicht.</p>
                 <p>LG ist nicht verpflichtet, seinen Verpflichtungen im Rahmen des Gewinnspiels oder in Bezug auf den Preis nachzukommen, wenn dies aufgrund von unvorhergesehenen Umständen oder Umständen, die außerhalb der Kontrolle von LG liegen, 
@@ -712,21 +642,21 @@
                 <p>Kein Umtausch: Der Preis ist nicht übertragbar und kann nicht gegen Bargeld oder eine andere Alternative eingetauscht werden. 
                   Der Preis ist abhängig von der Verfügbarkeit und LG behält sich das Recht vor, den Preis jederzeit zu ändern.</p>  
                 <p>LG handelt als für die Datenverarbeitung Verantwortlicher im Sinne der Datenschutzgesetze (einschließlich des Data Protection Act 2018 und gegebenenfalls der Allgemeinen Datenschutzverordnung). 
-                  LG verpflichtet sich, seine Verpflichtungen gemäß den Datenschutzgesetzen einzuhalten. Insbesondere werden LG und/oder der Veranstalter alle personenbezogenen 
-                  Daten sicher aufbewahren und ausschließlich für die Zwecke der Verwaltung des Gewinnspiels gemäß diesen Teilnahmebedingungen und in Übereinstimmung mit dem CAP-Kodex verwenden. 
+                  LG verpflichtet sich, seine Verpflichtungen gemäß den Datenschutzgesetzen einzuhalten. Insbesondere werden LG und/oder der Veranstalter alle personenbezogenen Daten sicher 
+                  aufbewahren und ausschließlich für die Zwecke der Verwaltung des Gewinnspiels gemäß diesen Teilnahmebedingungen und in Übereinstimmung mit dem CAP-Kodex verwenden. 
                   Weitere Informationen über die Datenschutzbestimmungen von LG finden Sie unter https://www.lg.com/de/privacy.</p>  
               </dd>
             </dl>
             <dl>
-              <dt>Haftung:<br>Abgesehen von jeglicher Haftung, die gesetzlich nicht ausgeschlossen werden kann, kann LG keine Verantwortung für Schäden, 
-                Verluste, Verletzungen oder Enttäuschungen übernehmen, die ein Teilnehmer infolge der Teilnahme an dem Gewinnspiel erleidet.</dt>
+              <dt>Haftung:<br>Abgesehen von jeglicher Haftung, die gesetzlich nicht ausgeschlossen werden kann, kann LG keine Verantwortung für Schäden, Verluste, 
+                Verletzungen oder Enttäuschungen übernehmen, die ein Teilnehmer infolge der Teilnahme an dem Gewinnspiel erleidet.</dt>
             </dl>
             <dl>
               <dt>Änderung/Abbruch:<br>LG behält sich das Recht vor, diese Bedingungen zu ändern und/oder das Gewinnspiel jederzeit und ohne vorherige Ankündigung zu ändern, auszusetzen, zurückzuziehen oder abzubrechen.</dt>
             </dl>
             <dl>
-              <dt>Geltendes Recht:<br>Das Werbegeschenk unterliegt den Gesetzen von der Bundesrepublik Deutschland und die Gerichte der Bundesrepublik Deutschland haben die ausschließliche Zuständigkeit für die Entscheidung von Streitigkeiten, 
-                die sich aus, unter oder in Verbindung mit dem Werbegeschenk ergeben können.</dt>
+              <dt>Geltendes Recht:<br>Das Werbegeschenk unterliegt den Gesetzen von der Bundesrepublik Deutschland und die Gerichte der Bundesrepublik Deutschland haben die ausschließliche 
+                Zuständigkeit für die Entscheidung von Streitigkeiten, die sich aus, unter oder in Verbindung mit dem Werbegeschenk ergeben können.</dt>
             </dl>
           </div>
         </div>
@@ -927,7 +857,5 @@
   }
 </script>
 <script type="text/javascript" src="/de/haushaltsgeraete/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>
-<script type="text/javascript" src="/de/haushaltsgeraete/care-for-what-you-wear-2021/js/quiz.js"></script>
 </body>
-
 </html>
