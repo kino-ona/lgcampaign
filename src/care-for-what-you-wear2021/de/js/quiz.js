@@ -8096,7 +8096,7 @@ var campaign_quiz = (function () {
         attr_dev(a1, "class", "_btn btn_facebook");
         add_location(a1, file, 152, 10, 4589);
         add_location(i1, file, 153, 246, 4912);
-        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,lg,lgclothingcare");
+        attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,MeineGeliebteKleidung,LGWaeschepflege,LG");
         attr_dev(a2, "target", "_blank");
         attr_dev(a2, "class", "_btn btn_twt");
         add_location(a2, file, 153, 10, 4676);
@@ -8158,7 +8158,7 @@ var campaign_quiz = (function () {
         attr_dev(a4, "class", "_btn btn_facebook");
         add_location(a4, file, 184, 10, 6222);
         add_location(i3, file, 185, 246, 6545);
-        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear");
+        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,MeineGeliebteKleidung,LGWaeschepflege,LG");
         attr_dev(a5, "target", "_blank");
         attr_dev(a5, "class", "_btn btn_twt");
         add_location(a5, file, 185, 10, 6309);
@@ -8209,7 +8209,7 @@ var campaign_quiz = (function () {
         attr_dev(a7, "class", "_btn btn_facebook ");
         add_location(a7, file, 210, 12, 7971);
         add_location(i5, file, 211, 248, 8297);
-        attr_dev(a8, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear");
+        attr_dev(a8, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/de/haushaltsgeraete/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,Waeschepflegetipps,MeineGeliebteKleidung,LGWaeschepflege,LG");
         attr_dev(a8, "target", "_blank");
         attr_dev(a8, "class", "_btn btn_twt");
         add_location(a8, file, 211, 12, 8061);

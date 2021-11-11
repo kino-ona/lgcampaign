@@ -281,7 +281,7 @@
                 <p>Beantworten Sie alle 9 Quizfragen.</p>
                 <p>Wenn Sie eine Frage richtig beantwortet haben, gelangen Sie zur nächsten Frage. Wenn nicht, erfahren Sie natürlich die richtige Antwort sowie eine Erklärung, warum das so ist.</p>
                 <p>Nicht vergessen: Wenn Sie Ihr Quizergebnis am Ende auf Facebook oder Twitter teilen, haben Sie die Chance, einen schwarzen LG Styler zu gewinnen!</p>
-                <p>Verlinken Sie den Facebook- oder Twitter-Account von LG in Ihrem Posting und nutzen Sie dafür die folgenden Hashtags: <span class="hashtags">#CareForWhatYouWear #Waeschepflegetipps #LG</span>.</p>
+                <p>Verlinken Sie den Facebook- oder Twitter-Account von LG in Ihrem Posting und nutzen Sie dafür die folgenden Hashtags: <span class="hashtags">#CareForWhatYouWear #WaeschepflegeTipps #MeineGeliebteKleidung #LGWaeschepflege #LG</span>.</p>
                 <span>* Das Ergebnis des Quiz beeinflusst nicht die Teilnahme an dem Gewinnspiel.</span>
               </dd>
             </dl>
