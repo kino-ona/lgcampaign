@@ -230,9 +230,8 @@
     <div id="quiz"></div><div id="event2"></div>
     <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
-        <p class="row-tit"><i></i>Weź udział w konkursie, by mieć szansę na wygranie pralko-suszarki LG!
-          <br>Podziel się wynikiem quizu na swoim koncie na Facebooku lub Twitterze i zbierz jak najwięcej reakcji.</p>
-        <p class="row-stit">Zastanawiasz się, jak lepiej pielęgnować ubrania? <br>Oto kilka sposobów, aby lepiej pielęgnować Twoje najcenniejsze ubrania.</p>
+        <p class="row-tit"><i></i>Zastanawiasz się jak lepiej pielęgnować ubranie?</p>
+        <p class="row-stit">Weź udział w quizie o pro-ekologicznej pielęgnacji ubrań i dowiedz się jak sprawić, <br>by były z Tobą jak najdłużej.</p>
     
         <div class="howto_enter">
         </div>
@@ -954,8 +953,6 @@
         })
       })
     });
-
-     
     
     var href = window.location.href;
     if(href.indexOf('washer') != -1) {
