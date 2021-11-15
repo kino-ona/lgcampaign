@@ -222,6 +222,9 @@
           <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
             adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Massimo Sinato</a></li>
+          <li class="list-item item04" id="influencer04"><a href="#influencer04" id="anchor_tab4" data-toggle="pill"
+            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer04" 	
+            adobe-value="main>stories-we-wear>influencer04>tap" data-link-name="influencer04" class="link">Kevin Pabel</a></li>
         </ul>
 
         <div class="box_tab-view">
@@ -258,6 +261,24 @@
                   <span>Mit Zitronensaft könnt ihr Bakterien und Gerunche ganz leicht beseitigen.<br><br>
                     Das Feature AI DD™ erkennt die Fasern der Kleidung, passt das Waschmuster darauf an und schützt dadurch das Gewebe. So habe ich lange Freude an meinen Lieblingsteilen und ich schone die Umwelt, 
                     denn der sorgsame und bewusste Umgang mit Kleidung ist der beste Weg zu einen nachhaltigen Modelifestyle.  </span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer04" class="box_view-item box_view-item4">
+              <div class="influencer influencer-04">
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv304.jpg" alt="Stories Kevin Pabel"></div>
+                <div class="desc">
+                  <span>In Sachen Kleiderpflege ist der #LGStyler eine
+                    intelligente, nachhaltige und effiziente Lösung. Die
+                    Steam-Technologie frischt deine geliebten
+                    Kleidungsstücke auf, beseitigt Gerüche und reduziert
+                    Falten und das ganz ohne Chemie, was letztlich auch
+                    die Umwelt schont.<br><br>
+                    Hier noch ein Tipp von mir: Um Knitterfalten in
+                    Kleidung zu reduzieren, einfach die Kleidung während
+                    einer heißen Dusche im Badezimmer aufhängen und
+                    der heiße Wasserdampf glättet die Falten in der
+                    Kleidung ;)</span>
                 </div>
               </div>
             </div>

@@ -263,9 +263,22 @@
           <li class="list-item item01" id="influencer01"><a href="#influencer01" id="anchor_tab1" data-toggle="pill"
               adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer01" 
               adobe-value="main>stories-we-wear-experts>influencer01>tap" data-link-name="influencer01" class="link active">Adriana</a></li>
+
           <li class="list-item item02" id="influencer02"><a href="#influencer02" id="anchor_tab2" data-toggle="pill"
               adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer02" 
               adobe-value="main>stories-we-wear-experts>influencer02>tab" data-link-name="influencer02" class="link">Ilaria</a></li>
+
+          <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 
+              adobe-value="main>stories-we-wear-experts>influencer03>tab" data-link-name="influencer03" class="link">Marco</a></li>
+
+          <li class="list-item item04" id="influencer04"><a href="#influencer04" id="anchor_tab4" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer04" 
+              adobe-value="main>stories-we-wear-experts>influencer04>tab" data-link-name="influencer04" class="link">Beatrice</a></li>
+              
+          <li class="list-item item05" id="influencer05"><a href="#influencer05" id="anchor_tab5" data-toggle="pill"
+              adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer05" 
+              adobe-value="main>stories-we-wear-experts>influencer05>tab" data-link-name="influencer05" class="link">Sistiana</a></li>
         </ul>
 
         <div class="box_tab-view">
@@ -292,6 +305,52 @@
                     Sono troppo i ricordi legati a questo piccolo capo che,
                     con noi, ha viaggiato tanto fino ad arrivare a Los
                     Angeles. Chissà quanto posti ancora vedrà…"</span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer03" class="box_view-item box_view-item3">
+              <div class="influencer influencer-03">
+                <div class="figure"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer01v1.jpg" alt="Stories Marco"></div>
+                <div class="desc">
+                  <span>Qualche anno fa in questi vestiti vedevo crescere
+                    Bianca, adesso vederli indosso ad Azzurra rende
+                    tutto ancora più magico ✨<br><br>
+                    Prendiamoci cura dei nostri vestiti per dare loro una
+                    vita più lunga e per conservare il più possibile i
+                    ricordi migliori delle nostre vite!</span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer04" class="box_view-item box_view-item4">
+              <div class="influencer influencer-04">
+                <div class="figure"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer02v1.jpg" alt="Stories Beatrice"></div>
+                <div class="desc">
+                  <span>Nostalgia portami via il vestito che indossavo
+                    quando il Marchini mi ha fatto la sua proposta di
+                    matrimonio è ancora perfetto ed io ancora lo amo
+                    alla follia!<br><br>
+                    Prenderci cura dei nostri capi è un po’ come
+                    prenderci cura dei nostri ricordi! Chissà, magari, lo
+                    stesso vestito lo indosseranno Bianca o Azzurra per
+                    una loro occasione speciale!</span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer05" class="box_view-item box_view-item5">
+              <div class="influencer influencer-05">
+                <div class="figure"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/influencer03v1.jpg" alt="Stories Sistiana"></div>
+                <div class="desc">
+                  <span>Le cose più belle hanno una storia. Come questo
+                    cardigan, che amo non soltanto per lo stile e il
+                    colore, ma anche e soprattutto perché è di mia
+                    nonna. Me lo ha regalato così che potessimo
+                    sentirci sempre vicine pur vivendo tanto lontane
+                    (anche la cintura è sua 🥰). È un cardigan
+                    caldissimo, morbido.<br><br>
+                    È stato indossato da lei per tanti anni, infatti
+                    custodisco diversi ricordi di lei che lo indossa, e da
+                    quando è diventato mio cerco prendermene cura
+                    ogni giorno.</span>
                 </div>
               </div>
             </div>
