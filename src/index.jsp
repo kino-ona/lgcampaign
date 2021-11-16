@@ -32,7 +32,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 
     <!-- your css -->
-    <link href="/uk/appliances/care-for-what-you-wear-2021/css/index_v2.css" type="text/css" rel="stylesheet">
+    <link href="/uk/appliances/care-for-what-you-wear-2021/css/index_v3.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -309,37 +309,6 @@
         <p class="row-stit">Wondering how to take care of your clothes better? Here’s how to better care for your cherished clothes.</p>
 
         <div class="howto_enter">
-          <div class="detail">
-            <dl>
-              <dt>How to enter</dt>
-              <dd>
-                <p>Take the quiz! There are 10 questions in total.</p>
-                <p>If you get the questions correct, you can move on to the next question. If incorrect, the answer will pop up along with some of LG’s special recommendation.</p>
-                <p>Don’t forget! If you share the quiz, you will get a chance to win your own clothing care appliance.</p>
-                <p>Use following hashtags when sharing the quiz : <span class="hashtags">#CareForWhatYouWear #SustainableClothingTips #LGClothingCareSolution #LG</span></p>
-                <span>* The outcome of your event participation will not be affected by your quiz results.</span>
-              </dd>
-            </dl>
-          </div>
-          <div class="detail _box2">
-            <dl>
-              <dt>Participation period</dt>
-              <dd>
-                <p>21-Oct ~ 10-Nov 2021</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Winner announcement</dt>
-              <dd>
-                <p>One lucky winner will be selected by random on 17-Nov 2021.</p>
-                <p>Keep an eye out for a DM coming your way.</p>
-              </dd>
-            </dl>
-          </div>
-
-          <div class="desc">
-            <i></i>Share this quiz on your Facebook or Twitter and get a chance to WIN your own clothing care appliance!
-          </div>
         </div>
 
         <div id="quizWrap" class="quiz_wrap">
@@ -443,7 +412,6 @@
           }
         </script>
         <p class="disclm">* The tips offered are intended as entertainment. The participant is solely responsible for any damage that may occur as a result of acting on the information given.</p>
-        <p class="btn_terms"><a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;">Terms &amp; Conditions</a></p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
@@ -1085,7 +1053,7 @@
 
   </script>
   <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>
-  <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/quiz.js"></script>
+  <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/quiz_v3.js"></script>
 </body>
 
 </html>

@@ -28,7 +28,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 
     <!-- your css -->
-    <link href="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/css/index_v2.css" type="text/css" rel="stylesheet">
+    <link href="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/css/index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -162,8 +162,8 @@
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
             <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">INTRODUZIONE</a></li>
-            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">PER VESTIRE SOSTENIBILE</a></li>
-            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">I MIEI ADORATI VESTITI</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">I MIEI ADORATI VESTITI</a></li>
+            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">Per vestire sostenibile</a></li>
             <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">CARATTERISTICHE DEL PRODOTTO</a></li>
           </ul>
         </div>
@@ -217,6 +217,42 @@
       </div>
     </div>
     <!--// clothing_story -->
+
+    <div id="event1"></div>
+    <div id="box_content2" class="clothing_howto box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">I miei adorati vestiti</p>
+        <p class="row-stit">Quali bei ricordi restano nel tuo guardaroba?<br>Condividi il tuo ricordo preferito legato a un outfit e dai un'occhiata alle storie condivise dagli altri.</p>
+        <div class="howto">
+          <div class="half-left">
+            <div class="figure">
+              <p class="tag"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/goods_tag.png" alt="I miei adorati vestiti"></p>
+              <img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
+              <p class="txt">Condividi la tua storia per vincere uno degli elettrodomestici LG per la cura dei tuoi capi!</p>		
+            </div>
+            <div class="cta">
+              <p>Scopri di più</p>
+              <div class="sns_link">
+                <a href="https://www.facebook.com/LGItalia/posts/10158925974342585 adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+                <a href="https://www.instagram.com/p/CVc6AHOt-3C/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>instagram" target="_blank" class="btn_ins" title="Instagram"><i></i> <span class="a11y-mobile">Instagram</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="half-right">
+            <ul class="pola_list">
+              <li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid01.jpg" alt="La sua maglietta 'presa fortunata' per le nostre battute di pesca"></li>
+              <li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid02.jpg" alt="Il tipo del liceo per cui avevo una cotta che mi ha detto che ero catica con quella giacca"></li>
+              <li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid03.jpg" alt="Abito fatto a mano in Italia durante il nostro viaggio"></li>
+              <li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid04.jpg" alt="Papà è tornato a quando scriveva graffiti"></li>
+              <li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid05.jpg" alt="Indossi ancora i nostri outfit preferiti dal 1988"></li>
+              <li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid06.jpg" alt="La maglietta con il dinosauro che mamma indossava 32 anni fa"></li>
+            </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Termini e Condizioni<i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// clothing_howto -->
 
     <div id="influencer"></div>
     <div class="clothing_sustain box_row-campaign">
@@ -325,146 +361,73 @@
     <!--// clothing_sustain -->
 
     <div id="quiz"></div><div id="event2"></div>
-    <div id="box_content2" class="clothing_quiz box_content">
+    <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Consigli per un abbigliamento sostenibile</p>
-        <p class="row-stit">Ti stai chiedendo come prenderti cura dei tuoi adorati vestiti? Ecco alcuni consigli.</p>
-
-        <div class="howto_enter"></div>
-        <div id="quizWrap" class="quiz_wrap">
-          <div class="quiz_start">
-            <div>
-              <p><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
-              <a href="#" onclick="quizStart();return false;"  
-              adobe-click="Zadbaj-o-to-co-nosisz-content-quiz" adobe-value="content-page>quiz>start" 
-              data-link-name="quiz_event_start" data-link-area="Zadbaj-o-to-co-nosisz2021-quizevent"
-              class="btn_start">Inizia</a>
+        <p class="row-stit">Ti stai chiedendo come prenderti cura dei tuoi adorati vestiti? Ecco alcuni consigli</p>
+        <div class="tip_wrap">
+          <div class="tip_item tip01">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_01.png" alt="Avere un'asciugatura rapida?" style="max-width:65px;"></span>
+                <span class="title">Avere un'asciugatura rapida?</span>
+              </div>
+              <p class="desc">Quando hai poco tempo, prova a mettere un asciugamano asciutto nel carico insieme ai tuoi vestiti. L'asciugamano funziona come una spugna per assorbire l'umidità e aiutare ad asciugare i i tuoi vestiti più velocemente.</p>
             </div>
           </div>
-          <div class="quiz_end">
-            <p><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/qend_txt.png" alt="You have completed the quiz!"></p>
+          <div class="tip_item tip02">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_02.png" alt="Salvare i vestiti ristretti?" style="max-width:58px;"></span>
+                <span class="title">Salvare i vestiti ristretti?</span>
+              </p>
+              <p class="desc">La tua maglietta preferita si è ristretta? Un buon modo per affrontare questo problema è immergerla per 15 minuti in acqua tiepida con un po' di balsamo per capelli.</p>
+            </div>
+          </div>
+          <div class="tip_item tip03">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_03.png" alt="Tenere i jeans più a lungo?" style="max-width:61px;"></span>
+                <span class="title">Tenere i jeans più a lungo?</span>
+              </p>
+              <p class="desc">Vuoi indossare i tuoi jeans più volte come fossero sempre puliti ma senza lavarli? Un modo efficace è metterli nel congelatore tra un utilizzo e l'altro per uccidere i batteri, che causano l'odore.</p>
+            </div>
+          </div>
+          <div class="tip_item tip04">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_04.png" alt="Rimuovere i cattivi odori?" style="max-width:74px;"></span>
+                <span class="title">Rimuovere i cattivi odori?</span>
+              </div>
+              <p class="desc">A differenza della maggior parte dei vestiti i tessuti spessi come la lana trattengono gli odori. Un ottimo modo per rimuovere l'odore è aggiungere 2 tazze di aceto nella vasca, appendere i vestiti sull'asta della doccia o sulla porta del bagno e lasciare che l'aceto evapori.</p>
+            </div>
+          </div>
+          <div class="tip_item tip05">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_05.png" alt="Risparmiare acqua?" style="max-width:74px;"></span>
+                <span class="title">Risparmiare acqua?</span>
+              </div>
+              <p class="desc">Sapevi che vengono utilizzati 2.700 litri di acqua per realizzare una t-shirt? È acqua sufficiente per dissetare una persona per 3 anni. Più a lungo usi i tuoi vestiti, più acqua risparmi. Aiutiamo il</p>
+            </div>
+          </div>
+          <div class="tip_item tip06">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/stips_06.png" alt="Indossa i tuoi vestiti ma senza germi" style="max-width:68px;"></span>
+                <span class="title">Indossa i tuoi vestiti ma senza germi</span>
+              </div>
+              <p class="desc">Per quanto tempo dovresti mettere i vestiti nell'asciugatrice per eliminare i germi?<br>Basta mettere i vestiti nell'asciugatrice per almeno 30 minuti con una temperatura calda.</p>
+            </div>
           </div>
         </div>
-        <script>
-          const quizData = [
-            { //1
-              question:'Come rendere ancora più bianchi I tuoi vestiti?',
-              answers:['Usa il detersivo per lavastoviglie','Usa la farina','Usa il dentifricio'],
-              tips:'Si, hai letto bene. I brillantantanti per lavastoviglie sono ottimi detersivi.  Aggiungi due cucchiaini in un paio di litri d\'acqua e lava.',
-              product:'wm', usp:'TuboWash360',
-              feedback:'Nie obawiaj się uszkodzenia ubrań. Dzięki funkcji TurboWash™360 ubrania mogą zostać dokładnie uprane w zaledwie 39 minut przy zapewnieniu skutecznej ochrony tkanin. ',
-              qsource:'Linda Cobb'},
-            { //2
-              question:'Come si tolgono le macchie dalla camicia?',
-              answers:['Immergila nell\'acqua','Strofinala','Premi sulla macchia'],
-              tips:'Premi sulla macchia, più e più volte, per rimuoverla. Resisti alla tentazione di strofinare o potresti danneggiare il tessuto.',
-              product:'wm', usp:'TurboWash 360',
-              feedback:'O semplicemente scegli la lavatrice LG con TurboWash™360 che in soli 39 minuti pulisce in profondità in vestiti rimuovendo anche le macchie più difficili.',
-              qsource:'Madame Paulette'},
-            { //3
-              question:'Quanta acqua si consuma per lavare una T-shirt',
-              answers:['2,000L','2,700L','3,000L'],
-              tips:'2,700L di acqua sono usati per fare una pezzo di  t-shirt, che e\' la quantita\' che una persona dovrebbe bere in 3 anni.',
-              product:'wm', usp:'większa pojemność',
-              feedback:'Sappiamo tutti ovviamente che la lavatrice consuma molta acqua considerando tutti i risciacqui e i lavaggi che si fanno. Lava  più capi contemporaneamente con la lavatrice LG e riduci il consumo di acqua.',
-              qsource:'European Parliament'},
-            { //4
-              question:'Quale è il detersivo migliore per rimuovere le macchie?',
-              answers:['Agli agrumi','Ai frutti di bosco','Ai fiori'],
-              tips:'Basta una goccia di detersivo per piatti (un sapone a base di agrumi, limone o arancia) per rimuovere la macchia',
-              product:'wm', usp:'system ezDispense',
-              feedback:'Oppure scegli semplicemente la lavatrice LG con tecnologia ezDispense™ che eroga automaticamente il detersivo ottimale. Puoi anche mettere due diversi tipi di detersivo contemporaneamente con ezDispense per ottenere il bucato perfetto.',
-              qsource:'Madame Paulette'},
-            { //5
-              question:'Cosa fare se I tuoi vestiti puzzano di umido?',
-              answers:['Usa lo shampoo ','Usa l\'aceto','Metti una manciata di sale durante il lavaggio'],
-              tips:'Non importa quanto bene asciughi i tuoi vestiti in casa, un po\' di umidità rimane dopo l\'asciugatura. L\'odore di umido è causato dall\'umidità intrappolata nei vestiti. Se i tuoi vestiti hanno un odore di umido, sarebbe fantastico usare la candeggina, ma nel caso non ce l\'hai, l\'aceto è un deodorante naturale.',
-              product:'dryer', usp:'suszenie sterowane czujnikami',
-              feedback:'Con l\'asciugatrice LG puoi avere vestiti perfettamente asciutti. Non c\'è bisogno di preoccuparsi per l\'odore di umidità! Sensor Dry è un sensore di umidità che ottimizza automaticamente il tempo di asciugatura. È costituito da due  sensori che determinano automaticamente il tempo di asciugatura ottimale rilevando il livello di umidità sui vestiti.',
-              qsource:'Persil'},
-            { //6
-              question:'Che fare se hai poco tempo per l\'asciugatura?',
-              answers:['Asciuga dopo','Butta anche la carta igienica','Butta anche un asciugamani'],
-              tips:'Quando sei a corto di tempo di asciugatura, getta un asciugamano asciutto con il carico. L\'asciugamano aiuterà ad assorbire parte dell\'umidità e aiuterà i tuoi vestiti ad asciugarsi più velocemente. Dovresti togliere l\'asciugamano dopo pochi minuti. Se stai asciugando solo pochi capi, estrailo dopo circa 5 minuti o 15 minuti per un carico completo.',
-              product:'dryer', usp:'technologia Eco Hybrid™',
-              feedback:'Di fretta? Scegli l\'opzione di asciugatura rapida! La pompa di calore inverter può controllare la velocità del refrigerante in entrambe le modalità Eco Hybrid e Time. Fai asciugare il bucato con la modalità Time! Il compressore accelera per accorciare la durata del ciclo.',
-              qsource:'CNET'},
-            { //7
-              question:'Che fare se si è rimpicciolita la maglietta?',
-              answers:['Shampoo','Balsamo','Sapone corpo'],
-              tips:'La tua maglietta preferita si è ristretta? Immergere il capo di abbigliamento ristretto in acqua tiepida con una spruzzata di balsamo per capelli per 15 minuti e stenderlo delicatamente.',
-              product:'dryer', usp:'z pompą ciepła DUAL Inverter Heat Pump™',
-              feedback:'In alternativa, puoi proteggere i tuoi vestiti dai danni con la tecnologia a pompa di calore a bassa temperatura dell\'asciugatrice LG.',
-              qsource:'CNET'},
-            { //8
-              question:'Come eliminare gli odori di tabacco?',
-              answers:['Usa aceto bianco','Shampoo','Fai arieggiare fuori I vestiti'],
-              tips:'L\'odore di fumo esce dalla maggior parte dei tessuti quando li lavi normalmente, ma i tessuti che trattengono gli odori e sensibili al lavaggio, come la lana, sono un po\' più complicati. Per rimuovere l\'odore, aggiungi 2 tazze di aceto bianco nella vasca e metti i vestiti sull\'asta della doccia e chiudi la porta del bagno. L\'aceto nel vapore che sale rimuoverà l\'odore di fumo.',
-              product:'styler', usp:'funkcja TrueSteam',
-              feedback:'LG Styler utilizza la tecnologia TrueSteam™ per rimuovere rapidamente e delicatamente gli odori dai vestiti. Poiché viene utilizzato il vapore, i tessuti hanno un profumo fresco e sono perfettamente puliti senza danni.',
-              qsource:'The Spruce'},
-            { //9
-              question:'L\'ammorbidente va bene per la lana?',
-              answers:['Sempre','Qualche volta','No'],
-              tips:'Contrariamente alla credenza popolare, il laboratorio tecnico della Woolmark Company a Melbourne afferma che non dovremmo mai usare l\'ammorbidente!',
-              product:'styler', usp:'suszenie z pompą ciepła',
-              feedback:'Come pulire la lana senza ammorbidente? L\'asciugatura a pompa di calore di LG Styler tratta il tuo maglione di lana con delicatezza. Appendi il tuo maglione alla rastrelliera e lavalo a secco velocemente!',
-              qsource:'Woolmark Company Lab'},
-            { //10
-              question:'Quale è il modo più semplice per rimuovere le piege dai vestiti?',
-              answers:['Stendili in bagno','Stendili per terra','Mettili nel frigo'],
-              tips:'Se non hai abbastanza tempo per stirare i tuoi vestiti, appendili semplicemente nel tuo bagno mentre fai una doccia calda. Il vapore toglierà le pieghe dai tuoi vestiti',
-              product:'styler', usp:'ruchomy wieszak',
-              feedback:'I ganci brevettati si muovono delicatamente da un lato all\'altro fino a 200 volte al minuto, consentendo al vapore di levigare le pieghe. Puoi liberarti delle pieghe dai tuoi vestiti in tempo.',
-              qsource:'Real Simple'}
-          ]
-          const messageData = {
-              backButton: 'INDIETRO',
-              nextButton: 'PROSSIMO',
-              unselect: 'Seleziona una risposta!',
-              tipsTitle: 'Become a master of clothing care tips!',
-              another: 'Un\'altra opzione per te',
-              tryButton: 'Riprova',
-              shareButton: 'Condividere',
-              promoTitle: 'Fancy a 10% off promo code?',
-              placeholderName: 'Enter your name',
-              placeholderEmail: 'Enter your E-mail'
-          }
-        </script>
         <p class="disclm">* Il partecipante è l'unico responsabile per eventuali danni che possono verificarsi ai suoi abiti se dovesse seguire questi consigli.</p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
 
-    <div id="event1"></div>
-			<div id="box_content3" class="clothing_howto box_content">
-				<div class="box_row-campaign">
-					<p class="row-tit">I miei adorati vestiti</p>
-					<p class="row-stit">Quali bei ricordi restano nel tuo guardaroba?<br>Condividi il tuo ricordo preferito legato a un outfit e dai un'occhiata alle storie condivise dagli altri.</p>
-					<div class="howto">
-						<div class="pola_wrap">
-							<ul class="pola_list">
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid01.jpg" alt="Hand tailored suit from our trip to Italy"></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid02v2.png" alt="@"></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid02.jpg" alt="Dad’s back when he used to write graffiti"></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid03.jpg" alt="Mum’s favourite Dino top she used to wear 32 years ago"></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid05v2.png" alt="@"></li>
-								<li class="last-child"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid04.jpg" alt=""></li>
-							</ul>
-							<ul class="pola_list line_2">
-								<li class="first-child"><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid04.jpg" alt=""></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid05.jpg" alt="Jacket high school crush said I looked cute in"></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid08v2.png" alt="@"></li>
-								<li><img src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/polaroid06.jpg" alt="Still wearing our favourite date outfits since 1988"></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--// clothing_howto -->
-
     <div class="anchors" id="washer"></div>
-    <div class="anchors" id="dryer"></div>
+    <div class="anchors" id="drayer"></div>
     <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
       <p class="row-tit">Scopri gli elettrodomestici LG Clothing Care Solution</p>
@@ -1297,65 +1260,7 @@
         })
       })
     });
-  </script>
-
-  <script>
-    $('.clothing_product').find('.btn_red').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        var modelName='';
-        eventName = 'buy_now_click';
-        micrositeName = 'prenditi-curadei-tuoi-capi';
-        dataLayer.push({
-          'event' : eventName,
-          'modelName' : $(this).attr('data-sku'),
-          'modelCode' : $(this).attr('data-model-id'),
-          'sku' : $(this).attr('data-sku'),
-          'suffix' : $(this).attr('data-model-suffixcode'),
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_next').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_next_click';
-        micrositeName = 'prenditi-curadei-tuoi-capi';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_next',
-          'datalinkarea': 'prenditi-curadei-tuoi-capi-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_back').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_prev_click';
-        micrositeName = 'prenditi-curadei-tuoi-capi';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_prev',
-          'datalinkarea': 'prenditi-curadei-tuoi-capi-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_refresh').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_refresh_click';
-        micrositeName = 'prenditi-curadei-tuoi-capi';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_refresh',
-          'datalinkarea': 'prenditi-curadei-tuoi-capi-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    })
-      
+    
     $(document).ready(function(){
       var href = window.location.href;
       if(href.indexOf('washer') != -1) {
@@ -1376,16 +1281,9 @@
         $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
         $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
       }
-      $('.quiz_wrap').find('.item').on('click', function(){
-        $('.q_items').find('.is-wrong').removeClass('is-wrong')
-      });
     });
-    function quizStart() {
-      $('.quiz_start').css('display', 'none')
-    }
   </script>
   <script type="text/javascript" src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/js/clothing_campaign.js"></script>
-  <script type="text/javascript" src="/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/js/quiz.js"></script>
 </body>
 
 </html>

@@ -234,7 +234,7 @@
                 <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv301.jpg" alt="Stories Anna Frost"></div>
                 <div class="desc">
                   <p>Was ich alles in den <br>LG Styler hänge?</p>
-                  <span>Alles, was ein bisschen mehr tlc braucht, als meine übliche Kleidung. Und die Klamotten, die nicht zwingend einen Vollwaschgang brauchen oder auch gar nicht in die Waschmaschine dürfen.
+                  <span>Alles, was ein bisschen mehr <i>tender loving care</i> braucht als meine übliche Kleidung. Und die Klamotten, die nicht zwingend einen Vollwaschgang brauchen oder auch gar nicht in die Waschmaschine dürfen.
                     <br><br>Dazu zählen Kleidungsstücke aus empfindlichen Stoffen oder auch die fancy Stücke, die Perlen, Pailletten und Schimmer appliziert haben, die eventuell der Waschmaschine schaden könnten. 
                     Im Styler bekomme ich Gerüche und Allergene aus der Kleidung, ohne sie zu strapazieren und Verschleiß zu provozieren.
                   </span>
@@ -247,7 +247,7 @@
                 <div class="desc">
                   <span>Mit dem Styler bietet LG eine perfekte Lösung zur nachhaltigen Kleidungspflege und fördert somit einen bewussten Lifestyle. Mit der Steam Funktion können Kleider in nur 20 Minuten 
                     aufgefrischt werden und Falten, Gerüche und Allergene effizient reduziert werden.<br><br>
-                    Da wir leicht verschmutze Kleidung nicht mehr unbedingt waschen müssen, tun wir durch den Verbrauch von weniger Waschmittel und damit weniger Verwendung von Chemikalien 
+                    Da wir leicht verschmutzte Kleidung nicht mehr unbedingt waschen müssen, tun wir durch den Verbrauch von weniger Waschmittel und damit weniger Verwendung von Chemikalien 
                     (der Styler funktioniert mit purem Wasser) wieder etwas Gutes für unsere Umwelt, schonen anfällige Stoffe und vernichten dabei sogar Bakterien.
                   </span>
                 </div>
@@ -257,10 +257,10 @@
               <div class="influencer influencer-03">
                 <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv303.jpg" alt="Stories Massimo Sinato"></div>
                 <div class="desc">
-                  <p>Mein Tipp zum Auffrischen <br>von Sportklamotten ? </p>
-                  <span>Mit Zitronensaft könnt ihr Bakterien und Gerunche ganz leicht beseitigen.<br><br>
+                  <p>Mein Tipp zum Auffrischen <br>von Sportklamotten?</p>
+                  <span>Mit Zitronensaft könnt ihr Bakterien und Gerüche ganz leicht beseitigen.<br><br>
                     Das Feature AI DD™ erkennt die Fasern der Kleidung, passt das Waschmuster darauf an und schützt dadurch das Gewebe. So habe ich lange Freude an meinen Lieblingsteilen und ich schone die Umwelt, 
-                    denn der sorgsame und bewusste Umgang mit Kleidung ist der beste Weg zu einen nachhaltigen Modelifestyle.  </span>
+                    denn der sorgsame und bewusste Umgang mit Kleidung ist der beste Weg zu einem nachhaltigen Modelifestyle.  </span>
                 </div>
               </div>
             </div>

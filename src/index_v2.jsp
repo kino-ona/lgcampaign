@@ -6,19 +6,23 @@
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-default-tag.jsp" %>
 
     <!-- sns tag -->
+    <meta name="twitter:card" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/ogimage.jpg" />
+    <meta name="twitter:site" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/" />
     <%@ include file="/WEB-INF/jsp/gp/common/include/head/meta-sns-tag.jsp" %>
 
     <!-- chrome audits -->
     <meta name="theme-color" content="#a50034" />
 
     <title>Care For What You Wear: Clothing Care Appliances | LG UK</title>
+    <link rel="canonical" href="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/" />
     <meta name="keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, cherished clothes, washing machine, dryer, styler" />
     <meta name="description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:title" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
-    <meta property="og:url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021" />
+    <meta property="og:url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/" />
     <meta property="og:description" content="LG has launched a second phase #CareForWhatYouWear campaign with voices of individuals with cherished clothes, full of memories. Find out more about how LG Clothing Care Solution helps make them last." />
     <meta property="og:image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/ogimage.jpg" />
-    <link rel="canonical" href="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021" />
+    <meta name="twitter:card" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/ogimage.jpg" />
+    <meta name="twitter:site" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/" />
 
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
@@ -37,12 +41,14 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 
     <div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-        <meta itemprop="name" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
-        <meta itemprop="image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/ogimage.jpg" />
-        <meta itemprop="url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021" />
-        <meta itemprop="description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
-        <meta itemprop="Keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, net-a-porter, washing machine, dryer, styler" />
-    </div>
+      <meta itemprop="name" content="Care For What You Wear: Clothing Care Appliances | LG UK" />
+      <meta itemprop="image" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/ogimage.jpg" />
+      <meta itemprop="url" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/" />
+      <meta itemprop="description" content="LG has launched a new 'Care For What You Wear' campaign for conscious clothing lifestyle and a sustainable tomorrow. Find out more about campaign and LG’s innovative clothing care technology." />
+      <meta itemprop="Keywords" content="lg home appliances, sustainability, care for what you wear, clothing care, net-a-porter, washing machine, dryer, styler" />
+      <meta name="twitter:card" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/images/ogimage.jpg" />
+      <meta name="twitter:site" content="https://www.lg.com/uk/appliances/care-for-what-you-wear-2021/" />
+  </div>
 
     <c:set var='bizType' value='${$bizType }' />
     <c:set var='siteType' value='MKT' />
@@ -296,7 +302,7 @@
     </div>
     <!--// clothing_sustain -->
 
-    <div id="quiz"></div>
+    <div id="quiz"></div><div id="event2"></div>
     <div id="box_content3" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Sustainable Clothing Tips</p>
@@ -340,7 +346,10 @@
           <div class="quiz_start">
             <div>
               <p><img src="/uk/appliances/care-for-what-you-wear-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
-              <a href="#" onclick="quizStart();return false;" class="btn_start">START</a>
+              <a href="#" onclick="quizStart();return false;" 
+              adobe-click="clothing-care-campaign-content-quiz" adobe-value="content-page>quiz>start" 
+              data-link-name="quiz_event_start" data-link-area="clothing-care-campaign2021-quizevent" 
+              class="btn_start">START</a>
             </div>
           </div>
           <div class="quiz_end">
@@ -438,7 +447,8 @@
       </div>
     </div>
     <!-- clothing_tip(quiz) -->
-
+    
+    <div id="event1"></div>
     <div id="box_content4" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">My Cherished Clothes</p>
@@ -487,7 +497,8 @@
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn.png" alt="Image of LG LG AI DD™ Washing Machine."/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="F4V1112WTSA" data-model-name="F4V1112WTSA" data-sku="F4V1112WTSA" aria-describedby="F4V1112WTSA" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>learn_more" data-link-name="learn_more" data-model-id="F4V1112WTSA" data-model-name="F4V1112WTSA" data-sku="F4V1112WTSA" aria-describedby="F4V1112WTSA" target="_blank" class="_btn btn_red">LEARN MORE</a>
+                  <a href="https://www.lg.com/uk/washing-machines/lg-f4v1112wtsa#pdp_where" adobe-click="clothing-care-campaign-main-washer" adobe-value="main>product-feature>washer>where_to_buy" data-link-name="where_to_buy" data-model-id="F4V1112WTSA" data-model-name="F4V1112WTSA" data-sku="F4V1112WTSA" aria-describedby="F4V1112WTSA" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
                 </div>
               </div>
               <div class="desc">
@@ -525,7 +536,8 @@
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn02.png" alt="Image of LG DUAL Inverter Heat Pump™ Dryer"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109w" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="FDV1109W" data-model-name="FDV1109W" data-sku="FDV1109W" aria-describedby="FDV1109W" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109w" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>learn_more" data-link-name="learn_more" data-model-id="FDV1109W" data-model-name="FDV1109W" data-sku="FDV1109W" aria-describedby="FDV1109W" target="_blank" class="_btn btn_red">LEARN MORE</a>
+                  <a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109w" adobe-click="clothing-care-campaign-main-dryer" adobe-value="main>product-feature>dryer>where_to_buy" data-link-name="where_to_buy" data-model-id="FDV1109W" data-model-name="FDV1109W" data-sku="FDV1109W" aria-describedby="FDV1109W" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
                 </div>
               </div>
               <div class="desc">
@@ -560,7 +572,8 @@
               <div class="figure">
                 <img src="/uk/appliances/care-for-what-you-wear-2021/images/product_thumn03.png" alt="Image of LG Styler"/>
                 <div class="btn_area">
-                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>buy-now" data-link-name="buy_now" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">BUY NOW</a>
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>washer>learn_more" data-link-name="learn_more" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">LEARN MORE</a>
+                  <a href="https://www.lg.com/uk/styler/lg-S3WF" adobe-click="clothing-care-campaign-main-styler" adobe-value="main>product-feature>styler>where_to_buy" data-link-name="where_to_buy" data-model-id="S3WF" data-model-name="S3WF" data-sku="S3WF" aria-describedby="S3WF" target="_blank" class="_btn btn_red">WHERE TO BUY</a>
                 </div>
               </div>
               <div class="desc">
@@ -610,13 +623,13 @@
             <p class="model_price">
               £813.38<span>£829.98</span>
             </p>
-            <a href="https://www.lg.com/uk/washing-machines/lg-f4v710stsa" target="_blank" 
+            <a href="https://www.lg.com/uk/washing-machines/lg-f4v710stsa#pdp_where" target="_blank" 
             data-model-id="F4V710STSA" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" 
-            data-model-year="2021" data-model-name="F4V710STSA" data-model-salesmodelcode="F4V710STSA.APTQPUK" class="btn-buynow">Buy Now</a>
+            data-model-year="2021" data-model-name="F4V710STSA" data-model-salesmodelcode="F4V710STSA.APTQPUK" class="btn-buynow">Where To Buy</a>
           </div>
           <div class="items">
             <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item03.jpg" alt="Washing Machine 9 kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™"></p>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item02_1.jpg" alt="Washing Machine 9 kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™"></p>
             <p class="model_name">
               Washing Machine 9 kg - TurboWash<sup>™</sup> | AIDD<sup>™</sup> | Steam<sup>™</sup> | ezDispense<sup>™</sup>
               <span class="model_code">F4V709WTSA</span>
@@ -624,63 +637,31 @@
             <p class="model_price">
               £734.98<span>£749.98</span>
             </p>
-            <a href="https://www.lg.com/uk/washing-machines/lg-f4v709wtsa" target="_blank" 
+            <a href="https://www.lg.com/uk/washing-machines/lg-f4v709wtsa#pdp_where" target="_blank" 
             data-model-id="F4V709WTSA" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" 
-            data-model-year="2021" data-model-name="F4V709WTSA" data-model-salesmodelcode="FWV1117WTSA.ABWQPUK" class="btn-buynow">Buy Now</a>
+            data-model-year="2021" data-model-name="F4V709WTSA" data-model-salesmodelcode="FWV1117WTSA.ABWQPUK" class="btn-buynow">Where To Buy</a>
           </div>
           <div class="items">
             <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item04.jpg" alt="LG Styler  Steam Clothing Care System® S3WF 3 Hangers - White"></p>
+            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item03.jpg" alt="Washing Machine 9 kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™ | Graphite"></p>
             <p class="model_name">
-              LG Styler  Steam Clothing Care System<sup>®</sup> S3WF 3 Hangers - White
-              <span class="model_code">S3MFC</span>
+              Washing Machine 9 kg - TurboWash<sup>™</sup> | AIDD<sup>™</sup> | Steam<sup>™</sup> | ezDispense<sup>™</sup> | Graphite
+              <span class="model_code">F4V709STSA</span>
             </p>
             <p class="model_price">
-              £1,664.98<span>£1,849.98</span>
+              £701.98<span>£779.98</span>
             </p>
-            <a href="https://www.lg.com/uk/styler/lg-S3WF" target="_blank" data-model-id="S3MFC" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-year="2019" data-model-name="S3WF" data-model-salesmodelcode="S3WF.ALWQKUK" class="btn-buynow">Buy Now</a>
+            <a href="https://www.lg.com/uk/washing-machines/lg-f4v709stsa#pdp_where" target="_blank" 
+            data-model-id="MD07535539" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Front_Load_Washer" 
+            data-sub-category-name="Washer" data-model-year="2021" data-model-name="F4V709STSA" data-model-salesmodelcode="F4V709STSA.APTQPUK" class="btn-buynow">Where To Buy</a>
           </div>
 
-          <div class="btn-area">
+          <!-- <div class="btn-area">
             <a href="#" class="btn-seemore lnk05">See More<i></i></a>
-          </div>
+          </div> -->
         </div>
       </div>
-      <div class="promotoin_product">
-        <p>PROMOTIONAL PRODUCTS</p>
-        <ul class="promotoin_product-list">
-          <li class="title">
-            <p>Model</p>
-            <p>Product</p>
-            <p>Price</p>
-            <p></p>
-          </li>
-          <li>
-            <p>F4V710STSA</p>
-            <p>Washing Machine</p>
-            <p>£ 746.98<span>£ 829.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v710stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>F4V709STSA</p>
-            <p>Washing Machine</p>
-            <p>£ 701.98<span>£ 779.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v709stsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>F4V709WTSA</p>
-            <p>Washing Machine</p>
-            <p>£ 674.98<span>£ 749.98</span></p>
-            <p><a href="https://www.lg.com/uk/washing-machines/lg-f4v709wtsa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-          <li>
-            <p>S3WF</p>
-            <p>Styler</p>
-            <p>£ 1,664.98<span>£ 1,849.98</span></p>
-            <p><a href="https://www.lg.com/uk/styler/lg-S3WF" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">FIND OUT MORE</a></p>
-          </li>
-        </ul>
-      </div>
+      
     </div>
 
     <div class="box_row-campaign box_content">
@@ -1020,6 +1001,60 @@
     });
     
     $(document).ready(function(){
+      $('.clothing_quiz').find('.btn_next').each(function (i) {
+        $(this).on('click', function() {
+          var _this=$(this);
+          eventName = 'quiz_event_next_click';
+          micrositeName = 'care-for-what-you-wear';
+          dataLayer.push({
+            'event' : eventName,
+            'datalinkname': 'quiz_event_next',
+            'datalinkarea': 'clothing-care-campaign2021-quizevent',
+            'microsite_name': micrositeName,
+          })
+        })
+      });
+      $('.clothing_quiz').find('.btn_back').each(function (i) {
+        $(this).on('click', function() {
+          var _this=$(this);
+          eventName = 'quiz_event_prev_click';
+          micrositeName = 'care-for-what-you-wear';
+          dataLayer.push({
+            'event' : eventName,
+            'datalinkname': 'quiz_event_prev',
+            'datalinkarea': 'clothing-care-campaign2021-quizevent',
+            'microsite_name': micrositeName,
+          })
+        })
+      });
+      $('.clothing_quiz').find('.btn_refresh').each(function (i) {
+        $(this).on('click', function() {
+          var _this=$(this);
+          eventName = 'quiz_event_refresh_click';
+          micrositeName = 'care-for-what-you-wear';
+          dataLayer.push({
+            'event' : eventName,
+            'datalinkname': 'quiz_event_refresh',
+            'datalinkarea': 'clothing-care-campaign2021-quizevent',
+            'microsite_name': micrositeName,
+          })
+        })
+      });
+      $('.QzTipLayer').find('.btn_gray').each(function (i) {
+        $(this).on('click', function() {
+          var _this=$(this);
+          eventName = 'quiz_event_try_again_click';
+          micrositeName = 'care-for-what-you-wear';
+          dataLayer.push({
+            'event' : eventName,
+            'datalinkname': 'quiz_event_tryagain',
+            'datalinkarea': 'clothing-care-campaign2021-quizevent',
+            'microsite_name': micrositeName,
+          })
+        })
+      });
+
+      
       var href = window.location.href;
       if(href.indexOf('washer') != -1) {
         $('.clothing_product .list_tab-nav .link').removeClass('active');
