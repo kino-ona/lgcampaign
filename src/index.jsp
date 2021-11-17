@@ -909,7 +909,7 @@
       "page_category_l4" : "",
       "promotion_name" : "",
       "products" : "",
-      "page_event" : null
+      'page_event' : null
     };
 
     // gtm
@@ -927,7 +927,9 @@
     dataLayer.push({
       'event': 'dataLayer',
       'dataLayer' : _dl,
-      'standardData' : standardData
+      'standardData' : standardData,
+      'dataLinkName' : '',
+      'dataLinkArea' : '',
     });
   </script>
 
@@ -949,7 +951,10 @@
           'modelCode' : $(this).attr('data-model-id'),
           'sku' : $(this).attr('data-sku'),
           'suffix' : $(this).attr('data-model-suffixcode'),
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'buy_now_click' : true
+          }
         })
       })
     });
@@ -963,51 +968,15 @@
           'event' : eventName,
           'modelName' : $(this).attr('data-model-id'),
           'modelCode' : $(this).attr('data-model-id'),
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'buy_now_click' : true
+          }
         })
       })
     });
     
     $(document).ready(function(){
-      $('.clothing_quiz').find('.btn_next').each(function (i) {
-        $(this).on('click', function() {
-          var _this=$(this);
-          eventName = 'quiz_event_next_click';
-          micrositeName = 'care-for-what-you-wear';
-          dataLayer.push({
-            'event' : eventName,
-            'datalinkname': 'quiz_event_next',
-            'datalinkarea': 'clothing-care-campaign2021-quizevent',
-            'microsite_name': micrositeName,
-          })
-        })
-      });
-      $('.clothing_quiz').find('.btn_back').each(function (i) {
-        $(this).on('click', function() {
-          var _this=$(this);
-          eventName = 'quiz_event_prev_click';
-          micrositeName = 'care-for-what-you-wear';
-          dataLayer.push({
-            'event' : eventName,
-            'datalinkname': 'quiz_event_prev',
-            'datalinkarea': 'clothing-care-campaign2021-quizevent',
-            'microsite_name': micrositeName,
-          })
-        })
-      });
-      $('.clothing_quiz').find('.btn_refresh').each(function (i) {
-        $(this).on('click', function() {
-          var _this=$(this);
-          eventName = 'quiz_event_refresh_click';
-          micrositeName = 'care-for-what-you-wear';
-          dataLayer.push({
-            'event' : eventName,
-            'datalinkname': 'quiz_event_refresh',
-            'datalinkarea': 'clothing-care-campaign2021-quizevent',
-            'microsite_name': micrositeName,
-          })
-        })
-      });
       $('.QzTipLayer').find('.btn_gray').each(function (i) {
         $(this).on('click', function() {
           var _this=$(this);
@@ -1017,7 +986,10 @@
             'event' : eventName,
             'datalinkname': 'quiz_event_tryagain',
             'datalinkarea': 'clothing-care-campaign2021-quizevent',
-            'microsite_name': micrositeName,
+            'micrositeName': micrositeName,
+            'page_event' : {
+              'quiz_tryagain_click' : true
+            }
           })
         })
       });

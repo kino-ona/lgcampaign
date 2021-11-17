@@ -1239,7 +1239,7 @@
       "page_category_l4" : "",
       "promotion_name" : "",
       "products" : "",
-      "page_event" : null
+      "page_event" : null,
     };
 
     // gtm
@@ -1257,7 +1257,9 @@
     dataLayer.push({
       'event': 'dataLayer',
       'dataLayer' : _dl,
-      'standardData' : standardData
+      'standardData' : standardData,
+      'dataLinkName' : '',
+      'dataLinkArea' : '',
     });
   </script>
 
@@ -1279,7 +1281,10 @@
           'modelCode' : $(this).attr('data-model-id'),
           'sku' : $(this).attr('data-sku'),
           'suffix' : $(this).attr('data-model-suffixcode'),
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'buy_now_click' : true
+          }
         })
       })
     });
@@ -1293,7 +1298,10 @@
           'event' : eventName,
           'modelName' : $(this).attr('data-model-id'),
           'modelCode' : $(this).attr('data-model-id'),
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'buy_now_click' : true
+          }
         })
       })
     });
@@ -1312,49 +1320,26 @@
           'modelCode' : $(this).attr('data-model-id'),
           'sku' : $(this).attr('data-sku'),
           'suffix' : $(this).attr('data-model-suffixcode'),
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'buy_now_click' : true
+          }
         })
       })
     });
-    $('.clothing_quiz').find('.btn_next').each(function (i) {
+    $('.QzTipLayer').find('.btn_gray').each(function (i) {
       $(this).on('click', function() {
         var _this=$(this);
-        eventName = 'quiz_event_next_click';
+        eventName = 'quiz_event_try_again_click';
         micrositeName = 'prenditi-curadei-tuoi-capi';
         dataLayer.push({
           'event' : eventName,
-          'datalinkname': 'quiz_event_next',
-          'datalinkarea': 'prenditi-curadei-tuoi-capi-quizevent',
-          'microsite_name': micrositeName,
+          'dataLinkName': 'quiz_event_tryagain',
+          'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+          'micrositeName': micrositeName,
         })
       })
     });
-    $('.clothing_quiz').find('.btn_back').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_prev_click';
-        micrositeName = 'prenditi-curadei-tuoi-capi';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_prev',
-          'datalinkarea': 'prenditi-curadei-tuoi-capi-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_refresh').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_refresh_click';
-        micrositeName = 'prenditi-curadei-tuoi-capi';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_refresh',
-          'datalinkarea': 'prenditi-curadei-tuoi-capi-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    })
       
     $(document).ready(function(){
       var href = window.location.href;

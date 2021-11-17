@@ -8441,6 +8441,13 @@ var campaign_quiz = (function () {
         
         clearTimeout(delay);
       }, 300);
+
+      dataLayer.push({
+        'event' : 'quiz_event_back',
+        'dataLinkName': 'quiz_event_back',
+        'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+        'micrositeName': 'prenditi-curadei-tuoi-capi',
+      })
     }
 
     function next() {
@@ -8458,6 +8465,13 @@ var campaign_quiz = (function () {
             
             clearTimeout(delay);
           }, 600);
+
+          dataLayer.push({
+            'event': 'quiz_event_next_click',
+            'dataLinkName': 'quiz_event_next',
+            'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+            'micrositeName': 'prenditi-curadei-tuoi-capi'
+          })
         } else {
           showMaster();
         }
@@ -8503,6 +8517,13 @@ var campaign_quiz = (function () {
         
         clearTimeout(delay);
       }, 300);
+
+      dataLayer.push({
+        'event' : 'quiz_event_refresh_click',
+        'dataLinkName': 'quiz_event_refresh',
+        'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+        'micrositeName': 'prenditi-curadei-tuoi-capi',
+      })
     }
 
     var writable_props = ['quizData', 'messageData'];

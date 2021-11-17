@@ -835,9 +835,9 @@
     "page_category_l4" : "",
     "promotion_name" : "",
     "products" : "",
-    "page_event" : {
+    'page_event' : {
       "learn_more_click" : true,
-      "buy_now_click" : true
+      'buy_now_click' : true
     }
   };
 
@@ -878,39 +878,15 @@
         'modelCode' : $(this).attr('data-model-id'),
         'sku' : $(this).attr('data-sku'),
         'suffix' : $(this).attr('data-model-suffixcode'),
-        'microsite_name': micrositeName,
+        'micrositeName': micrositeName,
+        'page_event' : {
+          'buy_now_click' : true
+        }
       })
     })
   });  
     
   $(document).ready(function(){
-    $('.clothing_quiz').find('.btn_next').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_next_click';
-        micrositeName = 'zadbaj-o-to-co-nosisz';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_next',
-          'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_back').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_prev_click';
-        micrositeName = 'zadbaj-o-to-co-nosisz';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_prev',
-          'datalinkarea': 'zadbaj-o-to-co-nosisz021-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-
     $('.q_items').find('.item').each(function () {
       $(this).find('label').on('click', function() {
         var qnum = $('.q_step').find('strong').html()
@@ -920,26 +896,16 @@
         micrositeName = 'zadbaj-o-to-co-nosisz';
         dataLayer.push({
           'event' : eventName,
-          'data-link-name': 'quiz_' + qnum + '_' + thisVal,
-          'data-link-area': 'zadbaj-o-to-co-nosisz021-quizevent',
-          'microsite': micrositeName,
+          'data_link_name': 'quiz_' + qnum + '_' + thisVal,
+          'data_link_area': 'zadbaj-o-to-co-nosisz021-quizevent',
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'quiz_item_click' : true
+          }
         })
       })
     });
 
-    $('.clothing_quiz').find('.btn_refresh').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_refresh_click';
-        micrositeName = 'zadbaj-o-to-co-nosisz';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_refresh',
-          'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
     $('.QzTipLayer').find('.btn_gray').each(function (i) {
       $(this).on('click', function() {
         var _this=$(this);
@@ -949,7 +915,10 @@
           'event' : eventName,
           'datalinkname': 'quiz_event_tryagain',
           'datalinkarea': 'zadbaj-o-to-co-nosisz2021-quizevent',
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'quiz_tryagain_click' : true
+          }
         })
       })
     });

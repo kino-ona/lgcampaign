@@ -8722,6 +8722,13 @@ var campaign_quiz = (function () {
         
         clearTimeout(delay);
       }, 300);
+
+      dataLayer.push({
+        'event' : 'quiz_event_back_click',
+        'dataLinkName': 'quiz_event_back',
+        'dataLinkArea': 'care-for-what-you-wear2021-quizevent',
+        'micrositeName': 'care-for-what-you-wear',
+      })
     }
 
     function next() {
@@ -8742,6 +8749,14 @@ var campaign_quiz = (function () {
             
             clearTimeout(delay);
           }, 600);
+
+          dataLayer.push({
+            'event' : 'quiz_event_next_click',
+            'dataLinkName': 'quiz_event_next',
+            'dataLinkArea': 'care-for-what-you-wear2021-quizevent',
+            'micrositeName': 'care-for-what-you-wear',
+          })
+
         } else {
           showMaster();
         }
@@ -8802,6 +8817,13 @@ var campaign_quiz = (function () {
         
         clearTimeout(delay);
       }, 300);
+
+      dataLayer.push({
+        'event' : 'quiz_event_refresh_click',
+        'dataLinkName': 'quiz_event_refresh',
+        'dataLinkArea': 'care-for-what-you-wear2021-quizevent',
+        'micrositeName': 'care-for-what-you-wear',
+      })
     }
 
     var writable_props = ['quizData', 'messageData'];
