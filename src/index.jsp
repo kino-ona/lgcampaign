@@ -928,8 +928,8 @@
       'event': 'dataLayer',
       'dataLayer' : _dl,
       'standardData' : standardData,
-      'dataLinkName' : '',
-      'dataLinkArea' : '',
+      'linkName' : '',
+      'linkArea' : '',
     });
   </script>
 
@@ -947,6 +947,8 @@
         micrositeName = 'care-for-what-you-wear';
         dataLayer.push({
           'event' : eventName,
+          'dataLayer' : _dl,
+          'standardData' : standardData,
           'modelName' : $(this).attr('data-sku'),
           'modelCode' : $(this).attr('data-model-id'),
           'sku' : $(this).attr('data-sku'),
@@ -966,6 +968,8 @@
         micrositeName = 'care-for-what-you-wear';
         dataLayer.push({
           'event' : eventName,
+          'dataLayer' : _dl,
+          'standardData' : standardData,
           'modelName' : $(this).attr('data-model-id'),
           'modelCode' : $(this).attr('data-model-id'),
           'micrositeName': micrositeName,
@@ -980,16 +984,15 @@
       $('.QzTipLayer').find('.btn_gray').each(function (i) {
         $(this).on('click', function() {
           var _this=$(this);
-          eventName = 'quiz_event_try_again_click';
           micrositeName = 'care-for-what-you-wear';
+          
           dataLayer.push({
-            'event' : eventName,
-            'datalinkname': 'quiz_event_tryagain',
-            'datalinkarea': 'clothing-care-campaign2021-quizevent',
+            'event' : 'dataLayer',
+            'dataLayer' : _dl,
+            'standardData' : standardData,
+            'linkName': 'quiz_event_try_again_click',
+            'linkArea': 'clothing-care-campaign2021-quizevent',
             'micrositeName': micrositeName,
-            'page_event' : {
-              'quiz_tryagain_click' : true
-            }
           })
         })
       });
@@ -1022,6 +1025,8 @@
     function quizStart() {
       $('.quiz_start').css('display', 'none')
     }
+
+    $('.quiz_wrap')
 
   </script>
   <script type="text/javascript" src="/uk/appliances/care-for-what-you-wear-2021/js/clothing_campaign.js"></script>
