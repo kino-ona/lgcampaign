@@ -7375,10 +7375,10 @@ var campaign_quiz = (function () {
         ctx[2] + 1)).slice(-2) + "_item" + ('0' + (
         /*index*/
         ctx[18] + 1)).slice(-2) + ".png")) attr_dev(img, "src", img_src_value);
-        add_location(img, file, 93, 12, 2421);
-        add_location(div0, file, 92, 10, 2366);
+        add_location(img, file, 93, 12, 2661);
+        add_location(div0, file, 92, 10, 2606);
         attr_dev(div1, "class", "figure");
-        add_location(div1, file, 91, 8, 2335);
+        add_location(div1, file, 91, 8, 2575);
       },
       m: function mount(target, anchor) {
         insert_dev(target, div1, anchor);
@@ -7447,6 +7447,7 @@ var campaign_quiz = (function () {
     /*answer*/
     ctx[16] + "";
     var t2;
+    var label_data_link_name_value;
     var t3;
     var current;
     var mounted;
@@ -7471,11 +7472,17 @@ var campaign_quiz = (function () {
         /*$$binding_groups*/
 
         ctx[12][0].push(input);
-        add_location(input, file, 88, 8, 2186);
+        add_location(input, file, 88, 8, 2426);
         attr_dev(p, "class", "txt");
-        add_location(p, file, 102, 8, 2673);
+        add_location(p, file, 102, 8, 2914);
         attr_dev(label, "class", "_sel");
-        add_location(label, file, 87, 6, 2157);
+        attr_dev(label, "data-link-name", label_data_link_name_value = "quiz" +
+        /*currentQuiz*/
+        ctx[2] + "-" +
+        /*index*/
+        ctx[18]);
+        attr_dev(label, "data-link-area", "quiz_checkbox_click");
+        add_location(label, file, 87, 6, 2317);
         attr_dev(div, "class", "item svelte-1etsde6");
         toggle_class(div, "is-selected",
         /*selected*/
@@ -7484,7 +7491,7 @@ var campaign_quiz = (function () {
         ctx[2]] ===
         /*index*/
         ctx[18]);
-        add_location(div, file, 86, 4, 2078);
+        add_location(div, file, 86, 4, 2238);
       },
       m: function mount(target, anchor) {
         insert_dev(target, div, anchor);
@@ -7544,6 +7551,16 @@ var campaign_quiz = (function () {
         5) && t2_value !== (t2_value =
         /*answer*/
         ctx[16] + "")) set_data_dev(t2, t2_value);
+        
+        if (!current || dirty &
+        /*currentQuiz*/
+        4 && label_data_link_name_value !== (label_data_link_name_value = "quiz" +
+        /*currentQuiz*/
+        ctx[2] + "-" +
+        /*index*/
+        ctx[18])) {
+          attr_dev(label, "data-link-name", label_data_link_name_value);
+        }
 
         if (dirty &
         /*selected, currentQuiz*/
@@ -7590,7 +7607,7 @@ var campaign_quiz = (function () {
 
 
   function create_if_block(ctx) {
-    var a;
+    var button;
     var t_value =
     /*messageData*/
     ctx[1].backButton + "";
@@ -7599,18 +7616,21 @@ var campaign_quiz = (function () {
     var dispose;
     var block = {
       c: function create() {
-        a = element("a");
+        button = element("button");
         t = text(t_value);
-        attr_dev(a, "class", "_btn btn_back");
-        attr_dev(a, "href", "#");
-        add_location(a, file, 109, 19, 2787);
+        attr_dev(button, "class", "_btn btn_back");
+        attr_dev(button, "role", "button");
+        attr_dev(button, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(button, "data-link-name", "quiz_back_click");
+        attr_dev(button, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz back");
+        add_location(button, file, 109, 19, 3028);
       },
       m: function mount(target, anchor) {
-        insert_dev(target, a, anchor);
-        append_dev(a, t);
+        insert_dev(target, button, anchor);
+        append_dev(button, t);
 
         if (!mounted) {
-          dispose = listen_dev(a, "click", prevent_default(
+          dispose = listen_dev(button, "click", prevent_default(
           /*previous*/
           ctx[6]), false, true, false);
           mounted = true;
@@ -7624,7 +7644,7 @@ var campaign_quiz = (function () {
         ctx[1].backButton + "")) set_data_dev(t, t_value);
       },
       d: function destroy(detaching) {
-        if (detaching) detach_dev(a);
+        if (detaching) detach_dev(button);
         mounted = false;
         dispose();
       }
@@ -7676,7 +7696,7 @@ var campaign_quiz = (function () {
     var t11;
     var div3;
     var t12;
-    var a0;
+    var button1;
     var t13_value =
     /*messageData*/
     ctx[1].nextButton + "";
@@ -7685,7 +7705,7 @@ var campaign_quiz = (function () {
     var div11;
     var div10;
     var div4;
-    var button1;
+    var button2;
     var t16;
     var div9;
     var div8;
@@ -7736,15 +7756,15 @@ var campaign_quiz = (function () {
     var t26;
     var t27;
     var div7;
-    var a1;
+    var a0;
     var i0;
     var t28;
     var t29;
-    var a2;
+    var a1;
     var i1;
     var t30;
     var t31;
-    var a3;
+    var button3;
     var t32_value =
     /*messageData*/
     ctx[1].tryButton + "";
@@ -7753,7 +7773,7 @@ var campaign_quiz = (function () {
     var div19;
     var div18;
     var div12;
-    var button2;
+    var button4;
     var t35;
     var div17;
     var div16;
@@ -7773,11 +7793,11 @@ var campaign_quiz = (function () {
     var p7;
     var t40;
     var div14;
-    var a4;
+    var a2;
     var i2;
     var t41;
     var t42;
-    var a5;
+    var a3;
     var i3;
     var t43;
     var current;
@@ -7833,14 +7853,14 @@ var campaign_quiz = (function () {
         div3 = element("div");
         if (if_block) if_block.c();
         t12 = space();
-        a0 = element("a");
+        button1 = element("button");
         t13 = text(t13_value);
         t14 = space();
         div11 = element("div");
         div10 = element("div");
         div4 = element("div");
-        button1 = element("button");
-        button1.textContent = "close";
+        button2 = element("button");
+        button2.textContent = "close";
         t16 = space();
         div9 = element("div");
         div8 = element("div");
@@ -7869,22 +7889,22 @@ var campaign_quiz = (function () {
         t26 = text(t26_value);
         t27 = space();
         div7 = element("div");
-        a1 = element("a");
+        a0 = element("a");
         i0 = element("i");
         t28 = text("Facebook");
         t29 = space();
-        a2 = element("a");
+        a1 = element("a");
         i1 = element("i");
         t30 = text("Twitter");
         t31 = space();
-        a3 = element("a");
+        button3 = element("button");
         t32 = text(t32_value);
         t33 = space();
         div19 = element("div");
         div18 = element("div");
         div12 = element("div");
-        button2 = element("button");
-        button2.textContent = "close";
+        button4 = element("button");
+        button4.textContent = "close";
         t35 = space();
         div17 = element("div");
         div16 = element("div");
@@ -7902,51 +7922,58 @@ var campaign_quiz = (function () {
         p7.textContent = "Ora, per mettere in pratica questi consigli, ti serve solo un elettrodomestico LG Clothing Care!\n            ";
         t40 = space();
         div14 = element("div");
-        a4 = element("a");
+        a2 = element("a");
         i2 = element("i");
         t41 = text("Facebook");
         t42 = space();
-        a5 = element("a");
+        a3 = element("a");
         i3 = element("i");
         t43 = text("Twitter");
         attr_dev(span0, "class", "a11y");
-        add_location(span0, file, 78, 64, 1597);
+        add_location(span0, file, 78, 226, 1757);
         attr_dev(button0, "class", "btn_refresh");
-        add_location(button0, file, 78, 0, 1533);
+        attr_dev(button0, "role", "button");
+        attr_dev(button0, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(button0, "data-link-name", "quiz_refresh_click");
+        attr_dev(button0, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz refresh");
+        add_location(button0, file, 78, 0, 1531);
         attr_dev(div0, "class", "q_source");
-        add_location(div0, file, 79, 0, 1640);
-        add_location(strong, file, 80, 20, 1729);
+        add_location(div0, file, 79, 0, 1800);
+        add_location(strong, file, 80, 20, 1889);
         attr_dev(div1, "class", "q_step");
-        add_location(div1, file, 80, 0, 1709);
+        add_location(div1, file, 80, 0, 1869);
         attr_dev(p0, "class", "q_title");
-        add_location(p0, file, 82, 0, 1938);
+        add_location(p0, file, 82, 0, 2098);
         attr_dev(div2, "class", "q_items svelte-1etsde6");
-        add_location(div2, file, 84, 0, 1995);
-        attr_dev(a0, "class", "_btn btn_next");
-        attr_dev(a0, "href", "#");
-        add_location(a0, file, 110, 2, 2896);
+        add_location(div2, file, 84, 0, 2155);
+        attr_dev(button1, "class", "_btn btn_next");
+        attr_dev(button1, "role", "button");
+        attr_dev(button1, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(button1, "data-link-name", "quiz_next_click");
+        attr_dev(button1, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz next");
+        add_location(button1, file, 110, 2, 3294);
         attr_dev(div3, "class", "btn_area");
-        add_location(div3, file, 108, 0, 2745);
-        attr_dev(button1, "class", "close_btn");
-        add_location(button1, file, 117, 6, 3188);
+        add_location(div3, file, 108, 0, 2986);
+        attr_dev(button2, "class", "close_btn");
+        add_location(button2, file, 117, 6, 3743);
         attr_dev(div4, "class", "layer_close");
-        add_location(div4, file, 116, 4, 3156);
+        add_location(div4, file, 116, 4, 3711);
         if (!src_url_equal(img0.src, img0_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_slogan.png")) attr_dev(img0, "src", img0_src_value);
         attr_dev(img0, "alt", img0_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
-        add_location(img0, file, 121, 24, 3362);
+        add_location(img0, file, 121, 24, 3917);
         attr_dev(h40, "class", "_pc");
-        add_location(h40, file, 121, 8, 3346);
+        add_location(h40, file, 121, 8, 3901);
         if (!src_url_equal(img1.src, img1_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_slogan.png")) attr_dev(img1, "src", img1_src_value);
         attr_dev(img1, "alt", img1_alt_value =
         /*messageData*/
         ctx[1].tipsTitle);
-        add_location(img1, file, 122, 24, 3487);
+        add_location(img1, file, 122, 24, 4042);
         attr_dev(h41, "class", "_mo");
-        add_location(h41, file, 122, 8, 3471);
+        add_location(h41, file, 122, 8, 4026);
         attr_dev(p1, "class", "q_tips");
-        add_location(p1, file, 123, 8, 3597);
+        add_location(p1, file, 123, 8, 4152);
         if (!src_url_equal(img2.src, img2_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_option4u-" +
         /*quizData*/
         ctx[0][
@@ -7958,41 +7985,52 @@ var campaign_quiz = (function () {
         ctx[0][
         /*currentQuiz*/
         ctx[2]].product.toLowerCase());
-        add_location(img2, file, 126, 12, 3724);
+        add_location(img2, file, 126, 12, 4279);
         attr_dev(span1, "class", "a11y");
-        add_location(span1, file, 127, 12, 3915);
+        add_location(span1, file, 127, 12, 4470);
         attr_dev(p2, "class", "figure");
-        add_location(p2, file, 125, 10, 3693);
+        add_location(p2, file, 125, 10, 4248);
         if (!src_url_equal(img3.src, img3_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_tiptxt.png")) attr_dev(img3, "src", img3_src_value);
-        add_location(img3, file, 130, 30, 4068);
+        add_location(img3, file, 130, 30, 4623);
         attr_dev(p3, "class", "slogan");
-        add_location(p3, file, 130, 12, 4050);
+        add_location(p3, file, 130, 12, 4605);
         attr_dev(p4, "class", "txt");
-        add_location(p4, file, 131, 12, 4150);
+        add_location(p4, file, 131, 12, 4705);
         attr_dev(div5, "class", "desc");
-        add_location(div5, file, 129, 10, 4019);
+        add_location(div5, file, 129, 10, 4574);
         attr_dev(div6, "class", "q_option4u");
-        add_location(div6, file, 124, 8, 3658);
-        add_location(i0, file, 135, 67, 4334);
-        attr_dev(a1, "onclick", "facebookSubmit();");
-        attr_dev(a1, "class", "_btn btn_facebook");
-        add_location(a1, file, 135, 10, 4277);
-        add_location(i1, file, 136, 246, 4600);
+        add_location(div6, file, 124, 8, 4213);
+        add_location(i0, file, 135, 241, 5063);
+        attr_dev(a0, "onclick", "facebookSubmit();");
+        attr_dev(a0, "role", "button");
+        attr_dev(a0, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(a0, "data-link-name", "quiz_facebookshare_click");
+        attr_dev(a0, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz facebookshare");
+        attr_dev(a0, "class", "_btn btn_facebook");
+        add_location(a0, file, 135, 10, 4832);
+        add_location(i1, file, 136, 418, 5501);
         attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
-        attr_dev(a2, "target", "_blank");
-        attr_dev(a2, "class", "_btn btn_twt");
-        add_location(a2, file, 136, 10, 4364);
-        attr_dev(a3, "href", "#");
-        attr_dev(a3, "class", "_btn btn_gray");
-        add_location(a3, file, 137, 10, 4629);
+        attr_dev(a1, "target", "_blank");
+        attr_dev(a1, "role", "button");
+        attr_dev(a1, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(a1, "data-link-name", "quiz_twittershare_click");
+        attr_dev(a1, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz twittershare");
+        attr_dev(a1, "class", "_btn btn_twt");
+        add_location(a1, file, 136, 10, 5093);
+        attr_dev(button3, "class", "_btn btn_gray");
+        attr_dev(button3, "role", "button");
+        attr_dev(button3, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(button3, "data-link-name", "quiz_tryagain_click");
+        attr_dev(button3, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz tryagain");
+        add_location(button3, file, 137, 10, 5530);
         attr_dev(div7, "class", "btn_area");
-        add_location(div7, file, 134, 8, 4244);
+        add_location(div7, file, 134, 8, 4799);
         attr_dev(div8, "class", "layer_cont");
-        add_location(div8, file, 120, 6, 3313);
+        add_location(div8, file, 120, 6, 3868);
         attr_dev(div9, "class", "layer_inner");
-        add_location(div9, file, 119, 4, 3281);
+        add_location(div9, file, 119, 4, 3836);
         attr_dev(div10, "class", "layer_wrap");
-        add_location(div10, file, 115, 2, 3127);
+        add_location(div10, file, 115, 2, 3682);
         attr_dev(div11, "class", "layer_body popup QzTipLayer");
         attr_dev(div11, "id", "QzTips07");
         attr_dev(div11, "aria-hidden", "true");
@@ -8000,46 +8038,54 @@ var campaign_quiz = (function () {
         toggle_class(div11, "is-visible",
         /*tipsVisible*/
         ctx[4]);
-        add_location(div11, file, 114, 0, 3003);
-        attr_dev(button2, "class", "close_btn");
-        add_location(button2, file, 147, 6, 4980);
+        add_location(div11, file, 114, 0, 3558);
+        attr_dev(button4, "class", "close_btn");
+        add_location(button4, file, 147, 6, 6046);
         attr_dev(div12, "class", "layer_close");
-        add_location(div12, file, 146, 4, 4948);
+        add_location(div12, file, 146, 4, 6014);
         if (!src_url_equal(img4.src, img4_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/quizend.png")) attr_dev(img4, "src", img4_src_value);
-        add_location(img4, file, 152, 10, 5171);
+        add_location(img4, file, 152, 10, 6237);
         attr_dev(div13, "class", "figure");
-        add_location(div13, file, 151, 8, 5140);
+        add_location(div13, file, 151, 8, 6206);
         if (!src_url_equal(img5.src, img5_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/q_crown-txt.png")) attr_dev(img5, "src", img5_src_value);
         attr_dev(img5, "alt", "Congratulations on becoming a master of clothing care tips!");
-        add_location(img5, file, 155, 25, 5305);
+        add_location(img5, file, 155, 25, 6371);
         attr_dev(p5, "class", "_pc");
-        add_location(p5, file, 155, 10, 5290);
+        add_location(p5, file, 155, 10, 6356);
         if (!src_url_equal(img6.src, img6_src_value = "/it/elettrodomestici/prenditi-curadei-tuoi-capi-2021/images/quiz/mq_crown-txt.png")) attr_dev(img6, "src", img6_src_value);
         attr_dev(img6, "alt", "Congratulations on becoming a master of clothing care tips!");
-        add_location(img6, file, 156, 25, 5470);
+        add_location(img6, file, 156, 25, 6536);
         attr_dev(p6, "class", "_mo");
-        add_location(p6, file, 156, 10, 5455);
+        add_location(p6, file, 156, 10, 6521);
         attr_dev(p7, "class", "desc");
-        add_location(p7, file, 157, 10, 5621);
-        add_location(i2, file, 160, 70, 5905);
-        attr_dev(a4, "onclick", "facebookSubmit();");
-        attr_dev(a4, "class", "_btn btn_facebook ");
-        add_location(a4, file, 160, 12, 5847);
-        add_location(i3, file, 161, 248, 6173);
+        add_location(p7, file, 157, 10, 6687);
+        add_location(i2, file, 160, 244, 7145);
+        attr_dev(a2, "onclick", "facebookSubmit();");
+        attr_dev(a2, "role", "button");
+        attr_dev(a2, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(a2, "data-link-name", "quiz_facebookshare_click");
+        attr_dev(a2, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz facebookshare");
+        attr_dev(a2, "class", "_btn btn_facebook ");
+        add_location(a2, file, 160, 12, 6913);
+        add_location(i3, file, 161, 420, 7585);
         attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
-        attr_dev(a5, "target", "_blank");
-        attr_dev(a5, "class", "_btn btn_twt");
-        add_location(a5, file, 161, 12, 5937);
+        attr_dev(a3, "target", "_blank");
+        attr_dev(a3, "role", "button");
+        attr_dev(a3, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
+        attr_dev(a3, "data-link-name", "quiz_twittershare_click");
+        attr_dev(a3, "data-model-description", "prenditi-curadei-tuoi-capi2021 quiz twittershare");
+        attr_dev(a3, "class", "_btn btn_twt");
+        add_location(a3, file, 161, 12, 7177);
         attr_dev(div14, "class", "btn_area");
-        add_location(div14, file, 159, 10, 5812);
+        add_location(div14, file, 159, 10, 6878);
         attr_dev(div15, "class", "inner");
-        add_location(div15, file, 154, 8, 5260);
+        add_location(div15, file, 154, 8, 6326);
         attr_dev(div16, "class", "layer_cont");
-        add_location(div16, file, 150, 6, 5107);
+        add_location(div16, file, 150, 6, 6173);
         attr_dev(div17, "class", "layer_inner");
-        add_location(div17, file, 149, 4, 5075);
+        add_location(div17, file, 149, 4, 6141);
         attr_dev(div18, "class", "layer_wrap qzend-box");
-        add_location(div18, file, 145, 2, 4909);
+        add_location(div18, file, 145, 2, 5975);
         attr_dev(div19, "class", "layer_body popup QzTipLayer");
         attr_dev(div19, "id", "QzEnd");
         attr_dev(div19, "aria-hidden", "true");
@@ -8047,7 +8093,7 @@ var campaign_quiz = (function () {
         toggle_class(div19, "is-visible",
         /*masterVisible*/
         ctx[5]);
-        add_location(div19, file, 144, 0, 4786);
+        add_location(div19, file, 144, 0, 5852);
       },
       l: function claim(nodes) {
         throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8079,13 +8125,13 @@ var campaign_quiz = (function () {
         insert_dev(target, div3, anchor);
         if (if_block) if_block.m(div3, null);
         append_dev(div3, t12);
-        append_dev(div3, a0);
-        append_dev(a0, t13);
+        append_dev(div3, button1);
+        append_dev(button1, t13);
         insert_dev(target, t14, anchor);
         insert_dev(target, div11, anchor);
         append_dev(div11, div10);
         append_dev(div10, div4);
-        append_dev(div4, button1);
+        append_dev(div4, button2);
         append_dev(div10, t16);
         append_dev(div10, div9);
         append_dev(div9, div8);
@@ -8114,16 +8160,16 @@ var campaign_quiz = (function () {
         append_dev(p4, t26);
         append_dev(div8, t27);
         append_dev(div8, div7);
-        append_dev(div7, a1);
-        append_dev(a1, i0);
-        append_dev(a1, t28);
+        append_dev(div7, a0);
+        append_dev(a0, i0);
+        append_dev(a0, t28);
         append_dev(div7, t29);
-        append_dev(div7, a2);
-        append_dev(a2, i1);
-        append_dev(a2, t30);
+        append_dev(div7, a1);
+        append_dev(a1, i1);
+        append_dev(a1, t30);
         append_dev(div7, t31);
-        append_dev(div7, a3);
-        append_dev(a3, t32);
+        append_dev(div7, button3);
+        append_dev(button3, t32);
         insert_dev(target, t33, anchor);
         insert_dev(target, div19, anchor);
         append_dev(div19, div18);
@@ -8145,25 +8191,25 @@ var campaign_quiz = (function () {
         append_dev(div15, p7);
         append_dev(div15, t40);
         append_dev(div15, div14);
-        append_dev(div14, a4);
-        append_dev(a4, i2);
-        append_dev(a4, t41);
+        append_dev(div14, a2);
+        append_dev(a2, i2);
+        append_dev(a2, t41);
         append_dev(div14, t42);
-        append_dev(div14, a5);
-        append_dev(a5, i3);
-        append_dev(a5, t43);
+        append_dev(div14, a3);
+        append_dev(a3, i3);
+        append_dev(a3, t43);
         current = true;
 
         if (!mounted) {
           dispose = [listen_dev(button0, "click", prevent_default(
           /*refresh*/
-          ctx[10]), false, true, false), listen_dev(a0, "click", prevent_default(
+          ctx[10]), false, true, false), listen_dev(button1, "click", prevent_default(
           /*next*/
-          ctx[7]), false, true, false), listen_dev(button1, "click", prevent_default(
+          ctx[7]), false, true, false), listen_dev(button2, "click", prevent_default(
           /*hideTips*/
-          ctx[8]), false, true, false), listen_dev(a3, "click", prevent_default(
+          ctx[8]), false, true, false), listen_dev(button3, "click", prevent_default(
           /*hideTips*/
-          ctx[8]), false, true, false), listen_dev(button2, "click", prevent_default(
+          ctx[8]), false, true, false), listen_dev(button4, "click", prevent_default(
           /*hideMaster*/
           ctx[9]), false, true, false)];
           mounted = true;
@@ -8436,17 +8482,18 @@ var campaign_quiz = (function () {
       $$invalidate(2, currentQuiz = Math.max(0, currentQuiz - 1));
       var delay = setTimeout(function(){
         $('.q_items').find('.is-selected').removeClass('is-selected')
-        // $('.q_items').find('.is-wrong').removeClass('is-wrong')
-        // $('.q_items').find('.is-correct').removeClass('is-correct');
         
         clearTimeout(delay);
       }, 300);
 
       dataLayer.push({
-        'event' : 'quiz_event_back',
-        'dataLinkName': 'quiz_event_back',
-        'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
-        'micrositeName': 'prenditi-curadei-tuoi-capi',
+        'event' : 'dataLayer',
+        'dataLayer' : _dl,
+        'standardData' : standardData,
+        'category' : 'prenditi-curadei-tuoi-capi',
+        'LinkName': 'quiz_event_back',
+        'LinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+        'micrositeName': '',
       })
     }
 
@@ -8468,8 +8515,8 @@ var campaign_quiz = (function () {
 
           dataLayer.push({
             'event': 'quiz_event_next_click',
-            'dataLinkName': 'quiz_event_next',
-            'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+            'linkName': 'quiz_event_next',
+            'linkArea': 'prenditi-curadei-tuoi-capi-quizevent',
             'micrositeName': 'prenditi-curadei-tuoi-capi'
           })
         } else {
@@ -8520,8 +8567,8 @@ var campaign_quiz = (function () {
 
       dataLayer.push({
         'event' : 'quiz_event_refresh_click',
-        'dataLinkName': 'quiz_event_refresh',
-        'dataLinkArea': 'prenditi-curadei-tuoi-capi-quizevent',
+        'linkName': 'quiz_event_refresh',
+        'linkArea': 'prenditi-curadei-tuoi-capi-quizevent',
         'micrositeName': 'prenditi-curadei-tuoi-capi',
       })
     }
