@@ -669,7 +669,7 @@
               <span class="model_code">RH80V3AV6N</span>
             </p>
             <p class="model_price">
-              €799.20<span>€999.00</span>
+              €549.00<span>€999.00</span>
             </p>
             <a href="https://www.lg.com/it/asciugatrici/lg-rh80v3av6n" target="_blank" 
             data-model-id="MD07536702" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Dryer" 
