@@ -8068,7 +8068,7 @@ var campaign_quiz = (function () {
         attr_dev(a2, "class", "_btn btn_facebook ");
         add_location(a2, file, 160, 12, 6913);
         add_location(i3, file, 161, 420, 7585);
-        attr_dev(a5, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
+        attr_dev(a3, "href", "https://twitter.com/intent/tweet?text=CareForWhatYouWear%20%20-%20%20Creating%20a%20conscious%20clothing%20lifestyle%20with%20LG&url=https://www.lg.com/uk/appliances/care-for-what-you-wear-2021&hashtags=CareForWhatYouWear,SustainableClothingTips,lg,lgclothingcare");
         attr_dev(a3, "target", "_blank");
         attr_dev(a3, "role", "button");
         attr_dev(a3, "data-link-area", "prenditi-curadei-tuoi-capi2021_quiz_event");
