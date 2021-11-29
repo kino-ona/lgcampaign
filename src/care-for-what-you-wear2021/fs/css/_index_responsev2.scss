@@ -143,7 +143,7 @@
 		min-height:auto;
 		padding-top: 133%;
 		background: {
-			image: url(../../images/visual_bgcut01.jpg);
+			image: url(/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/visual_bgcut01.jpg);
 		}
 	}
 	.vodbg {
@@ -182,17 +182,19 @@
 			float: none;
 			display: inline-block;
 			width: 100%;
-			height: 130px; //auto
+			height: 140px; //auto
 			background-color:rgba(0,0,0, .8);
 			background-image: none !important;
 			border-left:0;
 			.sub_print {
 				bottom:0;
-				padding: 20px 20px 10px 20px;
+				padding: 20px 20px 25px 20px;
 				text-align: left;
-				background-position: right 14px top 25px;
+				background-position: right 14px bottom 10px;
+				background-size: 20%;
 				p {
-					font-size: 22px;
+					width:100%;
+					font-size: 16px;
 					color: #fff;
 					text-align: left;
 					> span {
@@ -277,7 +279,7 @@
 				width:150px;
 				height:150px;
 				background: {
-					image: url(../../images/story_cut.png);
+					image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/story_cut.png');
 					size:150px;
 					repeat: no-repeat;
 					position:right top;
@@ -299,7 +301,7 @@
 					width: 40px;
 					height: 20px;
 					background-size:38px;
-					background-image:url(../../images/mstory_cut02-bk.png); 
+					background-image:url(/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/mstory_cut02-bk.png); 
 				}
 				p {
 					margin-left:0;
@@ -344,7 +346,7 @@
 		background-color: #FAF4F1;
 		overflow: hidden;
 		background: {
-			image: url(../../images/goods_bgcut-1.png);
+			image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/goods_bgcut-1.png');
 			size: 42.5%;
 			position: left -30px top 140px;
 		}
@@ -444,22 +446,22 @@
 				}
 				.btn_yt {
 					i {
-						background-image: url(../../images/ico_youtube-b.png);
+						background-image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/ico_youtube-b.png');
 					}
 				}
 				.btn_fb {
 					i {
-						background-image: url(../../images/ico_facebook-b.png);
+						background-image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/ico_facebook-b.png');
 					}
 				}
 				.btn_ins {
 					i {
-						background-image: url(../../images/ico_instagram-b.png);
+						background-image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/ico_instagram-b.png');
 					}
 				}
 				.btn_tw {
 					i {
-						background-image: url(../../images/ico_twitter-b.png);
+						background-image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/ico_twitter-b.png');
 					}
 				}
 			}
@@ -525,8 +527,8 @@
 	} // .clothing_howto
 
 	.clothing_sustain {
-		margin-top: 0;
-		margin-bottom: 0;
+		margin-top: 55px;
+		margin-bottom: 60px;
 		.row-tit {
 			max-width: 280px;
 			width: 100%;
@@ -546,7 +548,6 @@
 					text-align: center;
 					padding: 0;
 					font-size: 17px;
-					line-height:1.2;
 					text-decoration: none;
 				}
 			}
@@ -612,21 +613,21 @@
 			.influencer-01 {
 				.figure .influ_typo {
 					background: {
-						image: url('../../images/minfluencer_txt01.png');
+						image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/minfluencer_txt01.png');
 					}
 				}
 			}
 			.influencer-02 {
 				.figure .influ_typo {
 					background: {
-						image: url('../../images/minfluencer_txt02.png');
+						image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/minfluencer_txt02.png');
 					}
 				}
 			}
 			.influencer-03 {
 				.figure .influ_typo {
 					background: {
-						image: url('../../images/minfluencer_txt03.png');
+						image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/minfluencer_txt03.png');
 					}
 				}
 			}
@@ -637,7 +638,7 @@
 	.clothing_quiz {		
 		padding: 55px 0 10px;
 		background: {
-			image: url(../../images/quiz_bgcut-2.png);
+			image: url(/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/quiz_bgcut-2.png);
 			position: left 25% bottom 25%;
 			size: 180%;
 			color: #EBFAC0;
@@ -647,9 +648,55 @@
 			margin: 0 auto;
 			line-height: 28px;
 		}
-		.btn_terms {
-			bottom: -35px;
-      color:#999999;
+		.howto_enter {
+			margin: 40px 0 25px;
+			padding: 0 25px;
+			text-align: center;
+			h3 {
+				margin-bottom:13px;
+				font-size: 18px;
+			}
+			ul {
+				float: none;
+				max-width: 100%;
+				width: 100%;
+				> li {
+					margin-top: 5px;
+					padding-left: 0;
+					font-size: 15px;
+					&:first-child {
+						margin-top:0;
+					}
+					&:before {
+						content: none;
+					}
+					> span, strong {
+						position: relative;
+						&:before {
+							content: '';
+							position: absolute;
+							left: -8px;
+							top: 8px;
+							width: 2px;
+							height: 2px;
+							display: inline-block;
+							border-radius: 25px;
+							background-color: #000;
+						}
+					}
+				}
+			}
+			.hashtag_group {
+				display: block;
+			}
+			.hashtags {				
+				&:before {
+					content: none;
+				}
+			}
+			.desc {
+				display: none;
+			}
 		}
 	} // .clothing_quiz
 
@@ -665,7 +712,7 @@
 				.link.active, .link:hover {
 					font-weight: 700;
 					&:before {
-						background-image: url(../../images/prodtab_over.png);
+						background-image: url(/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/prodtab_over.png);
 						background-size: 70%;
 						background-position: center bottom;
 					}
@@ -698,7 +745,7 @@
 				&:before {
 					min-height:auto;
 					background: {
-						image: url(../../images/product_boxbg.png);
+						image: url(/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/product_boxbg.png);
 						repeat: no-repeat;
 						position: center top 70px;
 						size: 150%;
@@ -713,7 +760,7 @@
 					margin-bottom:30px;
 					text-align: center;
 					img {
-						max-width:130%;
+						max-width:125%;
 					}
 					.btn_area {
 						display: block;
@@ -773,7 +820,7 @@
 								bottom: calc(100% + 11px);
 								font-size: 15px;
 								background: {
-									image: url(../../images/ico_morevw.png);
+									image: url(/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/ico_morevw.png);
 									size: 12px;
 								}
 							}
@@ -1009,10 +1056,108 @@
 				right:-25px;
 				width:33px;
 				height:35px;
-				background-image: url('../../images/msignbox_img02.png');
+				background-image: url('/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/msignbox_img02.png');
 			}
 		}
 	}
 }
 // .clothing-campaign
 
+.popup {
+	&.QzTipLayer {
+		.layer_cont {
+			padding: 40px 20px 30px;
+		}
+		h4 {
+			max-width: 350px;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.q_tips {
+			max-width: 100%;
+			font-size:16px;
+		}
+		.q_option4u {
+			position: relative;
+			display: block;
+			> div {
+				position: static;
+				max-width: 100%;
+				transform: translateY(0);
+				text-align: center;
+				margin: 0 auto;
+				.slogan {
+					width: 100%;
+					background-size: auto 100%;
+					background-position: center center;
+				}
+				.txt {
+					max-width: 100%;
+					display: block;
+					text-align: center;
+					em {
+						font-style: normal;
+						font-weight: inherit;
+					}
+				}
+			}
+			.figure {
+				// padding-bottom: 355px;
+				padding-bottom:100%;
+				&.dryer {
+					margin-left: 5.5%;
+				}
+			}
+		}
+		.btn_area {
+			margin-top: 30px;
+			._btn {
+				min-width: 10px;
+				max-width: calc(50% - 20px);
+				width: 100%;
+				height: 50px;
+				font-size: 13px;
+				line-height: 50px;
+				& + ._btn {
+					margin-left: 5px;
+				}
+			}
+			.btn_more {
+				padding-top: 2px;
+				font-size: 16px;
+				line-height: 1;
+				& + .btn_more {
+					margin-left: 10px;
+				}
+			}
+		}
+		.promo_area {
+			position: relative;
+			width: 100%;
+			padding: 30px 30px 50px;
+			display: block;
+			.slogan {
+				position: static;
+				display: block;
+			}
+		}
+		.frm_field {
+			width: 100%;
+			display: block;
+			.frm {
+				max-width: 100%;
+				width: 100%;
+				& + .frm {
+					margin-left: 0;
+				}
+			}
+			dd {
+				margin-bottom: 10px;
+			}
+		}
+		.qzend-box {
+			padding-bottom:60%;
+		}
+	}
+}
