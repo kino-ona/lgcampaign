@@ -294,36 +294,6 @@
         <p class="row-tit">Tipps für nachhaltige Kleidung</p>
         <p class="row-stit">Sie fragen sich, wie Sie Ihre Kleidung nachhaltiger machen können? Hier erfahren Sie, wie Sie Ihre geliebte Kleidung besser pflegen.</p>
 
-        <div class="howto_enter">
-          <div class="detail">
-            <dl>
-              <dt>So machen Sie mit</dt>
-              <dd>
-                <p>Beantworten Sie alle 9 Quizfragen.</p>
-                <p>Wenn Sie eine Frage richtig beantwortet haben, gelangen Sie zur nächsten Frage. Wenn nicht, erfahren Sie natürlich die richtige Antwort sowie eine Erklärung, warum das so ist.</p>
-                <p>Nicht vergessen: Wenn Sie Ihr Quizergebnis am Ende auf Facebook oder Twitter teilen, haben Sie die Chance, einen schwarzen LG Styler zu gewinnen!</p>
-                <p>Verlinken Sie den Facebook- oder Twitter-Account von LG in Ihrem Posting und nutzen Sie dafür die folgenden Hashtags: <span class="hashtags">#CareForWhatYouWear #WaeschepflegeTipps #MeineGeliebteKleidung #LGWaeschepflege #LG</span>.</p>
-                <span>* Das Ergebnis des Quiz beeinflusst nicht die Teilnahme an dem Gewinnspiel.</span>
-              </dd>
-            </dl>
-          </div>
-          <div class="detail _box2">
-            <dl>
-              <dt>Gewinnspiellaufzeit</dt>
-              <dd>
-                <p>10. - 30. November 2021</p>
-              </dd>
-            </dl>
-            <dl>
-              <dt>Bekanntgabe des Gewinners</dt>
-              <dd>
-                <p>Der glückliche Gewinner wird per Zufallsprinzip am 8. Dezember 2021 ausgewählt.</p>
-                <p>Der Gewinner wird per Direktnachricht auf dem jeweiligen Social Media Kanal kontaktiert. Prüfen Sie Ihr Postfach also regelmäßig.</p>
-              </dd>
-            </dl>
-          </div>
-        </div>
-
         <div id="quizWrap" class="quiz_wrap">
           <div class="quiz_start">
             <div>
@@ -428,7 +398,6 @@
           }
         </script>
         <p class="disclm">Die dargestellten Tipps sind zur Unterhaltung gedacht. Der Teilnehmer trägt die alleinige Verantwortung für alle Schäden, die durch die Befolgung der gegebenen Informationen entstehen können.</p>
-        <p class="btn_terms"><a href="https://www.lg.com/de/WaeschepflegetippsTNB" target="_blank">Teilnahmebedingungen</a></p>
       </div>
     </div>
     <!-- clothing_tip(quiz) -->

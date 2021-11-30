@@ -151,8 +151,8 @@
         <div class="box_navigation-inner">
           <ul class="list_navigation smooth-scroll">
             <li class="list-item active"><a href="#box_content1" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>introduction" data-link-name="main_tap_introduction" class="link">ALLGEMEIN</a></li>
-            <!-- <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MEINE GELIEBTE KLEIDUNG</a></li> -->
-            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">TIPPS FÜR NACHHALTIGE KLEIDUNG</a></li>
+            <li class="list-item"><a href="#box_content2" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>sustainable-clothing-tips" data-link-name="main_tap_sustainable_clothing_tips" class="link">TIPPS FÜR NACHHALTIGE KLEIDUNG</a></li>
+            <li class="list-item"><a href="#box_content3" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>my-cherished-clothes" data-link-name="main_tap_my_cherished_clothes" class="link">MEINE GELIEBTE KLEIDUNG</a></li>
             <li class="list-item"><a href="#box_content4" adobe-click="clothing-care-campaign-main-hero-tap" adobe-value="main>hero>tap>product-feature" data-link-name="main_tap_product_feature" class="link">WÄSCHEPFLEGE MIT LG</a></li>
           </ul>
         </div>
@@ -222,6 +222,9 @@
           <li class="list-item item03" id="influencer03"><a href="#influencer03" id="anchor_tab3" data-toggle="pill"
             adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer03" 	
             adobe-value="main>stories-we-wear>influencer03>tap" data-link-name="influencer03" class="link">Massimo Sinato</a></li>
+          <li class="list-item item04" id="influencer04"><a href="#influencer04" id="anchor_tab4" data-toggle="pill"
+            adobe-click="clothing-care-campaign-stories-we-wear-experts-influencer04" 	
+            adobe-value="main>stories-we-wear>influencer04>tap" data-link-name="influencer04" class="link">Kevin Pabel</a></li>
         </ul>
 
         <div class="box_tab-view">
@@ -231,7 +234,7 @@
                 <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv301.jpg" alt="Stories Anna Frost"></div>
                 <div class="desc">
                   <p>Was ich alles in den <br>LG Styler hänge?</p>
-                  <span>Alles, was ein bisschen mehr tlc braucht, als meine übliche Kleidung. Und die Klamotten, die nicht zwingend einen Vollwaschgang brauchen oder auch gar nicht in die Waschmaschine dürfen.
+                  <span>Alles, was ein bisschen mehr <i>tender loving care</i> braucht als meine übliche Kleidung. Und die Klamotten, die nicht zwingend einen Vollwaschgang brauchen oder auch gar nicht in die Waschmaschine dürfen.
                     <br><br>Dazu zählen Kleidungsstücke aus empfindlichen Stoffen oder auch die fancy Stücke, die Perlen, Pailletten und Schimmer appliziert haben, die eventuell der Waschmaschine schaden könnten. 
                     Im Styler bekomme ich Gerüche und Allergene aus der Kleidung, ohne sie zu strapazieren und Verschleiß zu provozieren.
                   </span>
@@ -244,7 +247,7 @@
                 <div class="desc">
                   <span>Mit dem Styler bietet LG eine perfekte Lösung zur nachhaltigen Kleidungspflege und fördert somit einen bewussten Lifestyle. Mit der Steam Funktion können Kleider in nur 20 Minuten 
                     aufgefrischt werden und Falten, Gerüche und Allergene effizient reduziert werden.<br><br>
-                    Da wir leicht verschmutze Kleidung nicht mehr unbedingt waschen müssen, tun wir durch den Verbrauch von weniger Waschmittel und damit weniger Verwendung von Chemikalien 
+                    Da wir leicht verschmutzte Kleidung nicht mehr unbedingt waschen müssen, tun wir durch den Verbrauch von weniger Waschmittel und damit weniger Verwendung von Chemikalien 
                     (der Styler funktioniert mit purem Wasser) wieder etwas Gutes für unsere Umwelt, schonen anfällige Stoffe und vernichten dabei sogar Bakterien.
                   </span>
                 </div>
@@ -254,10 +257,28 @@
               <div class="influencer influencer-03">
                 <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv303.jpg" alt="Stories Massimo Sinato"></div>
                 <div class="desc">
-                  <p>Mein Tipp zum Auffrischen <br>von Sportklamotten ? </p>
-                  <span>Mit Zitronensaft könnt ihr Bakterien und Gerunche ganz leicht beseitigen.<br><br>
+                  <p>Mein Tipp zum Auffrischen <br>von Sportklamotten?</p>
+                  <span>Mit Zitronensaft könnt ihr Bakterien und Gerüche ganz leicht beseitigen.<br><br>
                     Das Feature AI DD™ erkennt die Fasern der Kleidung, passt das Waschmuster darauf an und schützt dadurch das Gewebe. So habe ich lange Freude an meinen Lieblingsteilen und ich schone die Umwelt, 
-                    denn der sorgsame und bewusste Umgang mit Kleidung ist der beste Weg zu einen nachhaltigen Modelifestyle.  </span>
+                    denn der sorgsame und bewusste Umgang mit Kleidung ist der beste Weg zu einem nachhaltigen Modelifestyle.  </span>
+                </div>
+              </div>
+            </div>
+            <div id="influencer04" class="box_view-item box_view-item4">
+              <div class="influencer influencer-04">
+                <div class="figure"><img src="/de/haushaltsgeraete/care-for-what-you-wear-2021/images/influencerv304.jpg" alt="Stories Kevin Pabel"></div>
+                <div class="desc">
+                  <span>In Sachen Kleiderpflege ist der #LGStyler eine
+                    intelligente, nachhaltige und effiziente Lösung. Die
+                    Steam-Technologie frischt deine geliebten
+                    Kleidungsstücke auf, beseitigt Gerüche und reduziert
+                    Falten und das ganz ohne Chemie, was letztlich auch
+                    die Umwelt schont.<br><br>
+                    Hier noch ein Tipp von mir: Um Knitterfalten in
+                    Kleidung zu reduzieren, einfach die Kleidung während
+                    einer heißen Dusche im Badezimmer aufhängen und
+                    der heiße Wasserdampf glättet die Falten in der
+                    Kleidung ;)</span>
                 </div>
               </div>
             </div>
@@ -268,7 +289,7 @@
     <!--// clothing_sustain -->
 
     <div id="quiz"></div><div id="event2"></div>
-    <div id="box_content3" class="clothing_quiz box_content">
+    <div id="box_content2" class="clothing_quiz box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Tipps für nachhaltige Kleidung</p>
         <p class="row-stit">Sie fragen sich, wie Sie Ihre Kleidung nachhaltiger machen können? Hier erfahren Sie, wie Sie Ihre geliebte Kleidung besser pflegen.</p>
@@ -281,7 +302,7 @@
                 <p>Beantworten Sie alle 9 Quizfragen.</p>
                 <p>Wenn Sie eine Frage richtig beantwortet haben, gelangen Sie zur nächsten Frage. Wenn nicht, erfahren Sie natürlich die richtige Antwort sowie eine Erklärung, warum das so ist.</p>
                 <p>Nicht vergessen: Wenn Sie Ihr Quizergebnis am Ende auf Facebook oder Twitter teilen, haben Sie die Chance, einen schwarzen LG Styler zu gewinnen!</p>
-                <p>Verlinken Sie den Facebook- oder Twitter-Account von LG in Ihrem Posting und nutzen Sie dafür die folgenden Hashtags: <span class="hashtags">#CareForWhatYouWear #Waeschepflegetipps #LG</span>.</p>
+                <p>Verlinken Sie den Facebook- oder Twitter-Account von LG in Ihrem Posting und nutzen Sie dafür die folgenden Hashtags: <span class="hashtags">#CareForWhatYouWear #WaeschepflegeTipps #MeineGeliebteKleidung #LGWaeschepflege #LG</span>.</p>
                 <span>* Das Ergebnis des Quiz beeinflusst nicht die Teilnahme an dem Gewinnspiel.</span>
               </dd>
             </dl>
@@ -413,7 +434,7 @@
     <!-- clothing_tip(quiz) -->
 
     <div id="event1"></div>
-    <div id="box_content4" class="clothing_howto box_content">
+    <div id="box_content3" class="clothing_howto box_content">
       <div class="box_row-campaign">
         <p class="row-tit">Meine geliebte Kleidung</p>
         <p class="row-stit">Welche schönen Erinnerungen hängen in Ihrem Kleiderschrank?<br>Teilen Sie Ihre Lieblingserinnerung, die mit einem bestimmten Outfit verbunden ist, mit uns und sehen Sie sich die anderen wunderbaren Geschichten an, die jeder von uns teilt.</p>
@@ -825,6 +846,9 @@
         'sku' : $(this).attr('data-sku'),
         'suffix' : $(this).attr('data-model-suffixcode'),
         'microsite_name': micrositeName,
+        'page_event' : {
+          'buy_now_click' : true
+        }
       })
     })
   });
@@ -838,51 +862,15 @@
         'event' : eventName,
         'modelName' : $(this).attr('data-model-id'),
         'modelCode' : $(this).attr('data-model-id'),
-        'microsite_name': micrositeName,
+        'micrositeName': micrositeName,
+        'page_event' : {
+          'buy_now_click' : true
+        }
       })
     })
   });
 
   $(document).ready(function(){
-    $('.clothing_quiz').find('.btn_next').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_next_click';
-        micrositeName = 'care-for-what-you-wear';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_next',
-          'datalinkarea': 'clothing-care-campaign2021-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_back').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_prev_click';
-        micrositeName = 'care-for-what-you-wear';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_prev',
-          'datalinkarea': 'clothing-care-campaign2021-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
-    $('.clothing_quiz').find('.btn_refresh').each(function (i) {
-      $(this).on('click', function() {
-        var _this=$(this);
-        eventName = 'quiz_event_refresh_click';
-        micrositeName = 'care-for-what-you-wear';
-        dataLayer.push({
-          'event' : eventName,
-          'datalinkname': 'quiz_event_refresh',
-          'datalinkarea': 'clothing-care-campaign2021-quizevent',
-          'microsite_name': micrositeName,
-        })
-      })
-    });
     $('.QzTipLayer').find('.btn_gray').each(function (i) {
       $(this).on('click', function() {
         var _this=$(this);
@@ -892,7 +880,10 @@
           'event' : eventName,
           'datalinkname': 'quiz_event_tryagain',
           'datalinkarea': 'clothing-care-campaign2021-quizevent',
-          'microsite_name': micrositeName,
+          'micrositeName': micrositeName,
+          'page_event' : {
+            'quiz_tryagain_click' : true
+          }
         })
       })
     });
