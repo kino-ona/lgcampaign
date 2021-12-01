@@ -26,7 +26,7 @@
     <jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 
     <!-- your css -->
-    <link href="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/css/index_v2.css" type="text/css" rel="stylesheet">
+    <link href="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/css/index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -226,21 +226,29 @@
         <p class="row-stit">Quels beaux souvenirs traînent dans votre garde-robe?<br>
           Partagez votre souvenir préféré lié à une tenue et découvrez les autres merveilleuses histoires partagées par tous.</p>
         <div class="howto">
-          <div class="pola_wrap">
+          <div class="half-left">
+            <div class="figure">
+              <p class="tag"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/goods_tag.png" alt="Mes vêtements précieux"></p>
+              <img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/goods_cut.png" alt="Image of LG Washing Machine and LG DUAL Inverter Heat Pump™ Dryer and LG Styler">	
+              <p class="txt">Partagez votre histoire et tentez de gagner un appareil de soin du linge LG !</p>		
+            </div>
+            <div class="cta">
+              <p>Découvrez comment ci-dessous</p>
+              <div class="sns_link">
+                <a href="https://www.facebook.com/LGFrance/photos/a.394429748746/10161763776173747/" adobe-click="clothing-care-campaign-content-page-share" adobe-value="content-page>share>facebook" target="_blank" class="btn_fb" title="Facebook"><i></i> <span class="a11y-mobile">Facebook</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="half-right">
             <ul class="pola_list">
               <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid01.png" alt="Sa chemise porte bonheur de nos sorties à la pêche"></li>
-              <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid02v2.png" alt="@"></li>
               <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid02.png" alt="La veste dans laquelle mon amour du lycée me trouvait jolie"></li>
               <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid03.png" alt="Costume sur mesure de notre voyage en Italie"></li>
-              <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid05v2.png" alt="@"></li>
-              <li class="last-child"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid04.png" alt="Papa quand il faisait des graffitis"></li>
-            </ul>
-            <ul class="pola_list line_2">
-              <li class="first-child"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid04.png" alt="Papa quand il faisait des graffitis"></li>
-              <li class="first-child"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid05.png" alt="Nous portons toujours nos tenues préférées de rendez-vous depuis 1988"></li>
-              <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid08v2.png" alt="@"></li>
+              <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid04.png" alt="Papa quand il faisait des graffitis"></li>
+              <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid05.png" alt="Nous portons toujours nos tenues préférées de rendez-vous depuis 1988"></li>
               <li><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/polaroid06.png" alt="Le haut dinosaure préféré de maman qu'elle portait il y a 32 ans"></li>
             </ul>
+            <a href="#" onclick="layerOpen('clothingcare-terms_pop');return false;" class="btn_terms">Conditions générales<i></i></a>
           </div>
         </div>
       </div>
@@ -300,122 +308,82 @@
     <!--// clothing_sustain -->
 
     <div id="quiz"></div><div id="event2"></div>
-			<div id="box_content3" class="clothing_quiz box_content">
-				<div class="box_row-campaign">
-					<p class="row-tit">Conseils responsables pour vos vêtements</p>
-					<p class="row-stit">Vous vous demandez comment mieux prendre soin de vos vêtements? Voici quelques conseils pour un meilleur entretien de votre garde-robe.</p>
-
-					<div id="quizWrap" class="quiz_wrap">
-						<div class="quiz_start">
-							<div>
-								<p><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/quiz/qstart_txt.png" alt="Want to know more tips on taking care of your clothes better?"></p>
-								<a href="#" onclick="quizStart();return false;" 
-								adobe-click="clothing-care-campaign-content-quiz" adobe-value="content-page>quiz>start" 
-								data-link-name="quiz_event_start" data-link-area="clothing-care-campaign2021-quizevent"
-								class="btn_start" >COMMENCER</a>
-							</div>
-						</div>
-						<div class="quiz_end">
-							<p><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/quiz/qend_txt.png" alt="You have completed the quiz!"></p>
-						</div>
-					</div>
-
-					<script>
-						const quizData = [
-							{
-								question:'Comment rendre vos vêtements plus blancs?',
-								answers:['Utiliser du savon pour lave-vaisselle','Utiliser du de la farine','Utiliser du dentifrice'],
-								tips:'Oui, vous avez bien lu. Les produits pour lave-vaisselle contiennent de très bons nettoyants. Ajoutez quelques cuillères à soupe dans de l\'eau avant de laver.',
-								product:'wm', usp:'TuboWash360',
-								feedback:'N\'ayez plus peur d\'abîmer vos vêtements. Avec TurboWash™ 360°, votre linge peut être nettoyé en profondeur en seulement 39 minutes environ sans compromettre la protection des tissus. ',
-								qsource:'Linda Cobb'},
-							{
-								question:'Comment laver la tâche de votre chemise?',
-								answers:['La mettre dans l\'eau','La frotter','La presser'],
-								tips:'Exercez de la pression, encore et encore, pour la faire disparaître. Résistez à l\'envie de frotter car vous risqueriez d\'endommager le tissu.',
-								product:'wm', usp:'TurboWash 360',
-								feedback:'Ou choisissez simplement le lave-linge LG avec TurboWash™ 360° qui nettoie en profondeur votre linge sans laisser de tache sur vos chemises en seulement 39 minutes environ.',
-								qsource:'Madame Paulette'},
-							{
-								question:'Combien d\'eau faut-il pour fabriquer un t-shirt?',
-								answers:['2000 litres','2700 litres','3000 litres'],
-								tips:'2700 litres d\'eau sont utilisés pour fabriquer un t-shirt, ce qui représente assez d\'eau pour permettre à une personne de boire pendant 3 ans.',
-								product:'wm', usp:'Bigger Capacity',
-								feedback:'Nous savons tous que les lave-linge consomment beaucoup d\'eau, compte tenu de tous les rinçages et lavages qu\'ils effectuent. Faites plus de lessive en une seule fois avec le lave-linge LG et réduisez votre consommation d\'eau.',
-								qsource:'European Parliament'},
-							{
-								question:'Quel type de savon est le meilleur pour retirer une tâche?',
-								answers:['Aux agrumes','Aux baies','Aux fleurs'],
-								tips:'Juste une goutte de savon pour la vaisselle (un savon à base d\'agrumes - tout ce qui sent le citron ou l\'orange) suffira pour la tache.',
-								product:'wm', usp:'ezDispense',
-								feedback:'Ou tout simplement, choisissez le lave-linge LG doté de la technologie ezDispense™ qui distribue automatiquement la dose de détergent optimal. Vous pouvez même mettre deux types de détergent différents en même temps avec ezDispense et obtenir une lessive qui correspond bien à votre usage.',
-								qsource:'Madame Paulette'},
-							{
-								question:'Si vos vêtements sentent la moisissure, que faut-il faire?',
-								answers:['Rajouter du shampooing','Rajouter du vinaigre','Rajouter une pincée de sel'],
-								tips:'Même si vous séchez vos vêtements à l\'intérieur, de l\'humidité peut rester après le séchage. La mauvaise odeur d\'humidité est causée par l\'humidité incrustée dans vos vêtements. Si vos vêtements sentent l\'humidité, il est bon d\'utiliser de l\'eau de javel, mais si vous n\'en avez pas, le vinaigre est un désodorisant naturel.',
-								product:'dryer', usp:'Sensor Dry',
-								feedback:'Ayez des vêtements bien secs du premier coup avec un sèche-linge. Plus besoin de s\'inquiéter de l\'odeur d\'humidité ! Le sèche-linge comporte des sondes qui déterminent automatiquement le temps de séchage optimal en détectant le niveau d\'humidité des vêtements.',
-								qsource:'Persil'},
-							{
-								question:'Que faire quand vous n\'avez que peu de temps pour le séchage?',
-								answers:['Sécher plus tard','Mettre du papier toilette','Mettre une serviette sèche'],
-								tips:'Lorsque le temps de séchage est compté, ajoutez une serviette sèche à votre linge. La serviette absorbera une partie de l\'humidité et aidera vos articles à sécher plus rapidement. Vous devez retirer la serviette après quelques minutes. Si vous ne séchez que quelques articles retirez-la après environ 5 minutes, ou 15 minutes pour une charge complète.',
-								product:'dryer', usp:'Eco Hybrid™',
-								feedback:'Vous êtes pressé ? Choisissez l\'option de séchage rapide ! La pompe à chaleur EcoHybrid peut contrôler la vitesse du réfrigérant avec les modes Eco ou Rapide. En mode Rapide, le compresseur s\'accélère pour raccourcir la durée du cycle.',
-								qsource:'CNET'},
-							{
-								question:'Que pouvez-vous utiliser pour un t-shirt qui a rétréci?',
-								answers:['Shampooing','Soin pour les cheveux','Gel douche'],
-								tips:'Votre T-shirt préféré a rétréci ? Faites tremper le vêtement rétréci dans de l\'eau tiède avec un peu d\'après-shampooing pendant 15 minutes et étirez-le doucement.',
-								product:'dryer', usp:'DUAL Inverter Heat Pump™',
-								feedback:'Ou bien, vous pouvez protéger vos vêtements contre les dommages grâce à la technologie de pompe à chaleur basse température du sèche-linge LG.',
-								qsource:'CNET'},
-							{
-								question:'Comment se débarrasser des odeurs de tabac?',
-								answers:['Avec du vinaigre blanc','Mettre du shampooing','Le laisser'],
-								tips:'L\'odeur de fumée disparaîtra de la plupart des tissus si vous les lavez normalement, mais les tissus qui retiennent les odeurs et sont sensibles au lavage, comme la laine par exemple, sont un peu plus délicats. Pour éliminer l\'odeur, ajoutez deux tasses de vinaigre blanc dans un bain chaud et accrochez les vêtements à la barre de douche et fermez la porte de la salle de bain. Le vinaigre dans la vapeur montante enlèvera l\'odeur de fumée.',
-								product:'styler', usp:'TrueSteam',
-								feedback:'Le LG Styler utilise la technologie TrueSteam™ pour éliminer rapidement et en douceur les odeurs de vos vêtements. Avec le générateur de vapeur TrueSteam™, vos tissus sentent la fraîcheur et la propreté sans endommager vos vêtements.',
-								qsource:'The Spruce'},
-							{
-								question:'Est-ce que l\'adoucissant est recommandé pour laver la laine?',
-								answers:['Toujours','De temps en temps','Jamais'],
-								tips:'Contrairement à la croyance populaire, le laboratoire technique de la Woolmark Company à Melbourne affirme que nous ne sommes jamais censés utiliser d\'adoucissant!',
-								product:'styler', usp:'Heat Pump Drying',
-								feedback:'Comment nettoyer la laine sans adoucissant ? Le séchage par pompe à chaleur du LG Styler traite votre pull en laine avec délicatesse. Accrochez votre pull à un support et faites-le nettoyer à sec rapidement !',
-								qsource:'Woolmark Company Lab'},
-							{
-								question:'Quel est un moyen simple de rétrécir les plis de vos vêtements?',
-								answers:['Les étendre dans la salle de bain','Les étaler sur le sol','Les mettre au réfrigérateur'],
-								tips:'Si vous n\'avez pas le temps de repasser vos vêtements, il suffit de les suspendre dans votre salle de bain en prenant une douche chaude. La vapeur fera disparaître les plis de vos vêtements.',
-								product:'styler', usp:'Moving Hanger',
-								feedback:'La penderie mobile se déplace doucement d\'un côté à l\'autre jusqu\'à 200 fois par minute, ce qui aide la vapeur de faire disparaître les plis. Vous pouvez vous débarrasser des plis de vos vêtements à temps.',
-								qsource:'Real Simple'}
-						]
-						const messageData = {
-								backButton: 'RETOUR',
-								nextButton: 'SUIVANT',
-								unselect: 'Please select an answer!',
-								tipsTitle: 'Devenir un expert de soin du linge',
-								another: 'Une autre option pour vous',
-								tryButton: 'RECOMMENCEZ',
-								shareButton: 'Share',
-								promoTitle: 'Fancy a 10% off promo code?',
-								placeholderName: 'Enter your name',
-								placeholderEmail: 'Enter your E-mail'
-						}
-					</script>
-					<p class="disclm">* Les conseils proposés ont pour but de divertir. Le participant est seul responsable de tout dommage pouvant résulter de l'utilisation des informations fournies.</p>
-				</div>
-			</div>
+    <div id="box_content3" class="clothing_quiz box_content">
+      <div class="box_row-campaign">
+        <p class="row-tit">Conseils responsables pour vos vêtements</p>
+        <p class="row-stit">Vous vous demandez comment mieux prendre soin de vos vêtements? Voici quelques conseils pour un meilleur entretien de votre garde-robe.</p>
+        <div class="tip_wrap">
+          <div class="tip_item tip01">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_01.png" alt="Besoin d'un séchage rapide ?" style="max-width:65px;"></span>
+                <span class="title">Besoin d'un séchage rapide ?</span>
+              </div>
+              <p class="desc">Lorsque le temps de séchage est compté, ajoutez une serviette sèche à votre linge. 
+                La serviette agit comme une éponge absorbant l'humidité et aide vos vêtements à sécher rapidement.</p>
+            </div>
+          </div>
+          <div class="tip_item tip02">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_02.png" alt="Vêtements rétrécis" style="max-width:58px;"></span>
+                <span class="title">Vêtements rétrécis</span>
+              </p>
+              <p class="desc">Votre t-shirt préféré a rétréci ? Un bon moyen d'y remédier est de faire tremper le vêtement rétréci dans 
+                de l'eau tiède avec un peu d'après-shampooing pendant 15 minutes et de l'étirer doucement.</p>
+            </div>
+          </div>
+          <div class="tip_item tip03">
+            <div class="tip-inner">
+              <p class="figure">
+                <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_03.png" alt="Rien de tel qu'un jean tout frais" style="max-width:61px;"></span>
+                <span class="title">Rien de tel qu'un jean tout frais</span>
+              </p>
+              <p class="desc">Vous voulez porter vos jeans propres plus d'une fois sans les laver ? 
+                Un moyen efficace consiste à le placer au congélateur entre deux utilisations pour contribuer à éliminer certaines bactéries à l'origine des ordeurs.</p>
+            </div>
+          </div>
+          <div class="tip_item tip04">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_04.png" alt="Eliminez les odeurs après une nuit festive" style="max-width:74px;"></span>
+                <span class="title">Eliminez les odeurs après une nuit festive</span>
+              </div>
+              <p class="desc">Il est difficile de débarrasser les tissus épais comme la laine des mauvaises odeurs. Une bonne astuce est d'ajouter deux tasses de vinaigre après un bain, 
+                de suspendre les vêtements à la barre de douche ou à la porte de la salle de bains et de laisser le vinaigre dans la vapeur ascendante éliminer l'odeur.</p>
+            </div>
+          </div>
+          <div class="tip_item tip05">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_05.png" alt="Économisez de l'eau et sauvez la planète" style="max-width:74px;"></span>
+                <span class="title">Économisez de l'eau et sauvez la planète</span>
+              </div>
+              <p class="desc">Saviez-vous que 2700 litres d'eau sont nécessaires à la fabrication d'un t-shirt ? C'est la quantité d'eau à boire pour une personne pendant 3 ans. 
+                Plus vous utilisez vos vêtements longtemps, plus vous économisez de l'eau. Faisons un geste tous ensemble, un vêtement à la fois.</p>
+            </div>
+          </div>
+          <div class="tip_item tip06">
+            <div class="tip-inner">
+              <div class="figure">
+                <span class="icimg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/stips_06.png" alt="Portez vos vêtements sans germes" style="max-width:68px;"></span>
+                <span class="title">Portez vos vêtements sans germes</span>
+              </div>
+              <p class="desc">Combien de temps faut-il laisser les vêtements dans un sèche-linge pour tuer les germes ? 
+                Pour éliminer les germes dans votre linge, mettez vos vêtements dans le sèche-linge pendant au moins 30 minutes dans un cycle haute température.</p>
+            </div>
+          </div>
+        </div>
+        <p class="disclm">* Les conseils proposés ont pour but de divertir. Le participant est seul responsable de tout dommage pouvant résulter de l'utilisation des informations fournies.</p>
+      </div>
+    </div>
     <!-- clothing_tip(quiz) -->
 
     <div class="anchors" id="washer"></div>
     <div class="anchors" id="dryer"></div>
     <div class="anchors" id="styler"></div>
     <div id="box_content4" class="clothing_product box_row-campaign box_content">
-      <p class="row-tit">Découvrez les appareils <br>LG de soin du linge</p>
+      <p class="row-tit">Découvrez les appareils LG <br>de soin du linge</p>
       <p class="row-stit">Le soin du linge innovant LG contribue à préserver vos vêtements plus longtemps.</p>
       <div class="box_content-tab">
         <ul class="list_tab-nav scroll-fade" role="tablist" style="max-width:680px;">
@@ -556,6 +524,77 @@
       </div>
     </div>
     <!--// clothing_product -->
+
+    <div id="promo"></div>
+    <div class="box_row-campaign box_content">
+      <div class="promotion_banner">
+        <div class="promo_left">
+          <p>Jusqu'à 1 an de lessive L'Arbre Vert offert pour l'achat d'un lave-linge ou d'un lave-linge séchant LG équipé du dosage automatique ezDispense</p>
+          <span>Du 20 octobre au 30 novembre 2021</span>
+        </div>
+        <div class="promo_right">
+          <div class="items">
+            <span class="tagg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_item01.jpg" alt="Lave-linge 9 kg - 68L | AI Direct Drive™ | Dosage automatique | Moteur Direct Drive™ garanti 10 ans"></p>
+            <p class="model_name">
+              Lave-linge 9 kg - 68L | AI Direct Drive™ | Dosage automatique | Moteur Direct Drive™ garanti 10 ans
+              <span class="model_code">F94V52IXA</span>
+            </p>
+            <a href="https://www.lg.com/fr/lave-linge/lg-f94v52ixa-lave-linge-standards" target="_blank" 
+            data-model-id="MD07532952" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" 
+            data-model-year="2021" data-model-name="LG F94V52IXA" data-model-salesmodelcode="F94V52IXA.ASSQPFS" class="btn-buynow">ACHETER MAINTENANT</a>
+          </div>
+
+          <div class="items">
+            <span class="tagg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_item02.jpg" alt="LG F14V71WSTA | Lave-linge 10.5 kg - 68L | AI Direct Drive™ | Moteur Direct Drive™ garanti 10 ans"></p>
+            <p class="model_name">
+              LG F14V71WSTA | Lave-linge 10.5 kg - 68L | AI Direct Drive™ | Moteur Direct Drive™ garanti 10 ans
+              <span class="model_code">F14V71WSTA</span>
+            </p>
+            <a href="https://www.lg.com/fr/lave-linge/lg-f14v71wsta-lave-linge-standards" target="_blank" 
+            data-model-id="MD07535850" data-link-name="add_to_cart" data-category-name="Washer" data-model-year="2021" 
+            data-model-salesmodelcode="F14V71WSTA.ABWQPFS" class="btn-buynow">ACHETER MAINTENANT</a>
+          </div>
+
+          <div class="items">
+            <span class="tagg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_item03.jpg" alt="Lave-linge 12 kg - 81L | AI Direct Drive™ | Dosage automatique | Moteur Direct Drive™ garanti 10 ans"></p>
+            <p class="model_name">
+              Lave-linge 12 kg - 81L | AI Direct Drive™ | Dosage automatique | Moteur Direct Drive™ garanti 10 ans
+              <span class="model_code">F24V92BSTA</span>
+            </p>
+            <a href="https://www.lg.com/fr/lave-linge/lg-f24v92bsta-lave-linge-standards" target="_blank" 
+            data-model-id="MD07532888" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" 
+            data-model-year="2021" data-model-name="F24V92BSTA" data-model-salesmodelcode="F24V92BSTA.ABLQPFS" class="btn-buynow">ACHETER MAINTENANT</a>
+          </div>
+
+          <div class="items">
+            <span class="tagg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_item04.jpg" alt="LLavante-séchante 10.5/ 7 kg - 68L | AI Direct Drive™ | Moteur Direct Drive™ garanti 10"></p>
+            <p class="model_name">
+              Lavante-séchante 10.5/ 7 kg - 68L | AI Direct Drive™ | Moteur Direct Drive™ garanti 10
+              <span class="model_code">F174V71WSTA</span>
+            </p>
+            <a href="https://www.lg.com/fr/lave-linge/lg-f174v71wsta-lavante-sechante" target="_blank" 
+            data-model-id="MD07535876" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Washer_Dryer" 
+            data-sub-category-name="Washer_Dryer_Combo" data-model-year="2021" data-model-name="F174V71WSTA" data-model-salesmodelcode="F174V71WSTA.ABWQPFS" class="btn-buynow">ACHETER MAINTENANT</a>
+          </div>
+
+          <div class="items">
+            <span class="tagg"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_tag.png" alt="special offer"></span>
+            <p class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/promo_item04.jpg" alt="Lavante-séchante 12/8kg kg - 81L | AI Direct Drive™ | Dosage automatique | Moteur Direct Drive™ garanti 10 ans"></p>
+            <p class="model_name">
+              Lavante-séchante 12/8kg kg - 81L | AI Direct Drive™ | Dosage automatique | Moteur Direct Drive™ garanti 10 ans
+              <span class="model_code">F284V92WSTA</span>
+            </p>
+            <a href="https://www.lg.com/fr/lave-linge/lg-f284v92wsta-lavante-sechante" target="_blank" 
+            data-model-id="MD07532605" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Washer_Dryer" 
+            data-sub-category-name="Washer_Dryer_Combo" data-model-year="2021" data-model-name="F284V92WSTA" data-model-salesmodelcode="F284V92WSTA.ABWQPFS" class="btn-buynow">ACHETER MAINTENANT</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="box_row-campaign box_content">
       <div class="rending-button">
@@ -1014,6 +1053,20 @@
       })
     })
   });
+  $('.promotion_banner').find('.btn-buynow').each(function (i) {
+    $(this).on('click', function() {
+      var _this=$(this);
+      var modelName='';
+      eventName = 'buy_now_click';
+      micrositeName = 'electromenager';
+      dataLayer.push({
+        'event' : eventName,
+        'modelName' : $(this).attr('data-model-name'),
+        'modelCode' : $(this).attr('data-model-id'),
+        'microsite_name': micrositeName,
+      })
+    })
+  });
   $(document).ready(function(){
     var href = window.location.href;
     if(href.indexOf('washer') != -1) {
@@ -1034,18 +1087,9 @@
       $('.clothing_product .box_view-detail .box_view-item').removeClass('active');
       $('.clothing_product .box_view-detail .box_view-item').eq(2).addClass('active');
     }
-
-    $('.quiz_wrap').find('.item').on('click', function(){
-      $('.q_items').find('.is-wrong').removeClass('is-wrong')
-    });
   });
-
-  function quizStart() {
-    $('.quiz_start').css('display', 'none')
-  }
 </script>
 <script type="text/javascript" src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/js/clothing_campaign.js"></script>
-<script type="text/javascript" src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/js/quiz.js"></script>
 </body>
 
 </html>

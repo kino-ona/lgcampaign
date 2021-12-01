@@ -573,65 +573,6 @@
     </div>
     <!--// clothing_product -->
 
-    <div id="promo"></div>
-    <div class="box_row-campaign box_content">
-      <div class="promotion_banner">
-        <div class="promo_left">
-          <p>Use 'LG10' at checkout<br>to receive 10% off<br>on selected Laundry products<span>Plus free delivery, installation and disposal</span></p>
-          <span>From 20<sup>th</sup> Oct to 29<sup>th</sup> Nov 2021<br>*T&amp;Cs apply</span>
-        </div>
-        <div class="promo_right">
-          <div class="items">
-            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item01.jpg" alt="Washing Machine 10.5kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™"></p>
-            <p class="model_name">
-              Washing Machine 10.5kg - TurboWash<sup>™</sup> | AIDD<sup>™</sup> | Steam<sup>™</sup> | ezDispense<sup>™</sup>
-              <span class="model_code">F4V710STSA</span>
-            </p>
-            <p class="model_price">
-              £813.38<span>£829.98</span>
-            </p>
-            <a href="https://www.lg.com/uk/washing-machines/lg-f4v710stsa#pdp_where" target="_blank" 
-            data-model-id="F4V710STSA" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" 
-            data-model-year="2021" data-model-name="F4V710STSA" data-model-salesmodelcode="F4V710STSA.APTQPUK" class="btn-buynow">Where To Buy</a>
-          </div>
-          <div class="items">
-            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item02_1.jpg" alt="Washing Machine 9 kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™"></p>
-            <p class="model_name">
-              Washing Machine 9 kg - TurboWash<sup>™</sup> | AIDD<sup>™</sup> | Steam<sup>™</sup> | ezDispense<sup>™</sup>
-              <span class="model_code">F4V709WTSA</span>
-            </p>
-            <p class="model_price">
-              £734.98<span>£749.98</span>
-            </p>
-            <a href="https://www.lg.com/uk/washing-machines/lg-f4v709wtsa#pdp_where" target="_blank" 
-            data-model-id="F4V709WTSA" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" 
-            data-model-year="2021" data-model-name="F4V709WTSA" data-model-salesmodelcode="FWV1117WTSA.ABWQPUK" class="btn-buynow">Where To Buy</a>
-          </div>
-          <div class="items">
-            <span class="tagg"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_tag.png" alt="special offer"></span>
-            <p class="figure"><img src="/uk/appliances/care-for-what-you-wear-2021/images/promo_item03.jpg" alt="Washing Machine 9 kg - TurboWash™ | AIDD™ | Steam™ | ezDispense™ | Graphite"></p>
-            <p class="model_name">
-              Washing Machine 9 kg - TurboWash<sup>™</sup> | AIDD<sup>™</sup> | Steam<sup>™</sup> | ezDispense<sup>™</sup> | Graphite
-              <span class="model_code">F4V709STSA</span>
-            </p>
-            <p class="model_price">
-              £701.98<span>£779.98</span>
-            </p>
-            <a href="https://www.lg.com/uk/washing-machines/lg-f4v709stsa#pdp_where" target="_blank" 
-            data-model-id="MD07535539" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Front_Load_Washer" 
-            data-sub-category-name="Washer" data-model-year="2021" data-model-name="F4V709STSA" data-model-salesmodelcode="F4V709STSA.APTQPUK" class="btn-buynow">Where To Buy</a>
-          </div>
-
-          <!-- <div class="btn-area">
-            <a href="#" class="btn-seemore lnk05">See More<i></i></a>
-          </div> -->
-        </div>
-      </div>
-      
-    </div>
-
     <div class="box_row-campaign box_content">
       <div class="rending-button">
         <p><i></i>Sign up now and make your stories last</p>

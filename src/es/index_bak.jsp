@@ -385,6 +385,64 @@
     </div>
     <!--// clothing_product -->
 
+    <div id="promo"></div>
+    <div class="box_row-campaign box_content">
+      <div class="promotion_banner">
+        <div class="promo_left">
+          <p>Hasta un 30% de descuento en una selección de lavadoras, lavasecadoras y secadoras LG</span></p>
+          <span>Descuento aplicable en <a href="https://www.tiendalgonline.com/">www.tiendalgonline.com</a><br>entre el 22 y 28 de noviembre 2021</span>
+        </div>
+        <div class="promo_right">
+          <div class="items">
+            <span class="tagg txt">-32%</span>
+            <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item01.jpg" alt="Lavasecadora inteligente LG, Blanca, A/E"></p>
+            <p class="model_name">
+              Lavasecadora inteligente LG, Blanca, A/E
+              <span class="model_code">F4DV5010SMW</span>
+            </p>
+            <p class="model_price">389 €</p>
+            <a href="https://www.tiendalgonline.com/lavadora-secadora/F4DV5010SMW.html" target="_blank" 
+            data-model-id="" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Front_Load_Washer_Dryer" 
+            data-model-year="" data-model-name="F4DV5010SMW" data-model-salesmodelcode="F4DV5010SMW.ABWQPES" class="btn-buynow">Comprar ahora</a>
+          </div>
+          <div class="items">
+            <span class="tagg txt">-19%</span>
+            <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item02.jpg" alt="Lavadora inteligente LG 8,5kg, C, Blanca"></p>
+            <p class="model_name">
+              Lavadora inteligente LG 8,5kg, C, Blanca
+              <span class="model_code">F2WV3S85S3W</span>
+            </p>
+            <p class="model_price">599 €</p>
+            <a href="https://www.tiendalgonline.com/lavadoras/lavadora-lg-F2WV3S85S3W-ABWQPES.html" target="_blank" 
+            data-model-id="" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Front_Load_Washer_Dryer"
+            data-model-year="2020" data-model-name="F2WV3S85S3W" data-model-salesmodelcode="F2WV3S85S3W.ABWQPES'" class="btn-buynow">Comprar ahora</a>
+          </div>
+          <div class="items">
+            <span class="tagg txt">-32%</span>
+            <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item03.jpg" alt="Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca"></p>
+            <p class="model_name">
+              Lavadora Secadora LG con vapor 9/6kg 1400 B/E Blanca
+              <span class="model_code">F4DV5009S0W</span>
+            </p>
+            <p class="model_price">499 €</p>
+            <a href="https://www.tiendalgonline.com/lavadora-secadora/lavadora-secadora-lg-F4DV5009S0W-ABWQPES.html" target="_blank" 
+            data-model-id="MD07516608" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" 
+            data-model-year="2020" data-model-name="F4DV5009S0W" data-model-salesmodelcode="F4DV5009S0W.ABWQPES" class="btn-buynow">Comprar ahora</a>
+          </div>
+          <div class="items">
+            <span class="tagg txt">-18%</span>
+            <p class="figure"><img src="/es/electrodomesticos/cuida-tu-ropa-2021/images/promo_item04.jpg" alt="Secadora LG 8kg A+++ Blanca"></p>
+            <p class="model_name">
+              Secadora LG 8kg A+++ Blanca
+              <span class="model_code">RC80U2AV4D</span>
+            </p>
+            <p class="model_price">629 €</p>
+            <a href="https://www.tiendalgonline.com/secadoras/rc80u2av4d-secadora-lg.html" target="_blank" data-model-id="MD06214736" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Steam_Clothing_Care_System" data-sub-category-name="Styler" data-model-year="2019" data-model-name="RC80U2AV4D" data-model-salesmodelcode="RC80U2AV4D.ABWQKES" class="btn-buynow">Comprar ahora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="box_row-campaign box_content">
       <div class="rending-button">
         <p><i></i>Regístrate en nuestra web</p>
