@@ -629,7 +629,7 @@
             <p class="model_price">
               €879.20<span>€1,099.00</span>
             </p>
-            <a href="https://www.lg.com/it/lavatrici/lg-f4wv510s1e" target="_blank" 
+            <a href="https://www.lg.com/it/lavatrici/lg-f4wv510s1e#pdp_where" target="_blank" 
             data-model-id="MD07522656" data-link-name="add_to_cart" data-category-name="Washer" data-sub-category-name="Front_Load_Washer" 
             data-model-year="2021" data-model-name="F4WV510S1E" data-model-salesmodelcode="F4WV510S1E.ABWQWIS" class="btn-buynow">ACQUISTA ORA</a>
           </div>
@@ -643,7 +643,7 @@
             <p class="model_price">
               €1,119.20<span>€1,399.00</span>
             </p>
-            <a href="https://www.lg.com/it/lavatrici/lg-f4wv512s0e" target="_blank" 
+            <a href="https://www.lg.com/it/lavatrici/lg-f4wv512s0e#pdp_where" target="_blank" 
             data-model-id="MD07515738" data-link-name="add_to_cart" data-category-name="Washer" data-model-year="2020" 
             data-model-name="F4WV512S0E" data-model-salesmodelcode="F4WV512S0E.ABWQPIS" class="btn-buynow">ACQUISTA ORA</a>
           </div>
@@ -657,7 +657,7 @@
             <p class="model_price">
               €959.20<span>€1,199.00</span>
             </p>
-            <a href="https://www.lg.com/it/lavatrici/lg-f4wv710s1e" target="_blank" 
+            <a href="https://www.lg.com/it/lavatrici/lg-f4wv710s1e#pdp_where" target="_blank" 
             data-model-id="MD07518345" data-link-name="add_to_cart" data-category-name="Washer_Dryer" data-sub-category-name="Washer_Dryer_Combo" 
             data-model-year="2020" data-model-name="F4WV710S1E" data-model-salesmodelcode="F4WV710S1E.ABWQPIS" class="btn-buynow">ACQUISTA ORA</a>
           </div>
@@ -671,7 +671,7 @@
             <p class="model_price">
               €549.00<span>€999.00</span>
             </p>
-            <a href="https://www.lg.com/it/asciugatrici/lg-rh80v3av6n" target="_blank" 
+            <a href="https://www.lg.com/it/asciugatrici/lg-rh80v3av6n#pdp_where" target="_blank" 
             data-model-id="MD07536702" data-link-name="add_to_cart" data-super-category-name="appliances" data-category-name="Dryer" 
             data-sub-category-name="Electric_Dryer" data-model-year="2021" data-model-name="RH80V3AV6N" data-model-salesmodelcode="RH80V3AV6N.ABWQKIS" class="btn-buynow">ACQUISTA ORA</a>
           </div>
@@ -694,67 +694,67 @@
             <p>S3WF</p>
             <p>Styler</p>
             <p>€2,399.20<span>€2,999.00</span></p>
-            <p><a href="https://www.lg.com/it/styler/lg-s3wf" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/styler/lg-s3wf#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV512S0E</p>
             <p>Lavatrice</p>
             <p>€1,119.20<span>€1,399.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv512s0e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv512s0e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV708S1E</p>
             <p>Lavatrice</p>
             <p>€799.2<span>€999.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv708s1e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv708s1e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV708S2E</p>
             <p>Lavatrice</p>
             <p>€799.20<span>€999.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv708s2e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv708s2e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV709S1E</p>
             <p>Lavatrice</p>
             <p>€879.20<span>€1,099.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv709s1e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv709s1e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV709S2E</p>
             <p>Lavatrice</p>
             <p>€879.20<span>€1,099.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv709s2e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv709s2e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV710S1E</p>
             <p>Lavatrice</p>
             <p>€959.20<span>€1,199.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv710s1e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv710s1e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6WV909P2E</p>
             <p>Lavatrice</p>
             <p>€1,031.20<span>€1,289.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f6wv909p2e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f6wv909p2e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F6WV910P2SA</p>
             <p>Lavatrice</p>
             <p>€1,199.20<span>€1,499.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f6wv910p2sa" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f6wv910p2sa#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>RH80V3AV6N</p>
             <p>Asciugatrice</p>
             <p>€799.20<span>€999.00</span></p>
-            <p><a href="https://www.lg.com/it/asciugatrici/lg-rh80v3av6n" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/asciugatrici/lg-rh80v3av6n#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
           <li>
             <p>F4WV510S1E</p>
             <p>Lavatrice</p>
             <p>€879.20<span>€1,099.00</span></p>
-            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv510s1e" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
+            <p><a href="https://www.lg.com/it/lavatrici/lg-f4wv510s1e#pdp_where" target="_blank" class="btn-more" alt="PROMOTIONAL-PRODUCTS>find-out-more">Scopri di più</a></p>
           </li>
         </ul>
       </div>
