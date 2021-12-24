@@ -282,7 +282,7 @@
 	.box_content-tab {
 		.list_tab-nav {
 			display: flex;	
-			max-width: 768px;
+			max-width: 830px;
 			margin: 0 auto;
 			border:0;
 			.list-item {
@@ -301,6 +301,7 @@
 				padding:11px 0 12px 70px;
 				font-size:20px;
 				font-weight: 400;	
+				letter-spacing: -.04rem;
 				&.active, &:hover {
 					font-weight: 700;
 					&:before {
