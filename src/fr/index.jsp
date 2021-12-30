@@ -315,7 +315,7 @@
             </div>
             <div id="influencer04" class="box_view-item box_view-item4">
               <div class="influencer influencer-04">
-                <div class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/influencer_03.jpg" alt="Stories Jesta Hillmann"></div>
+                <div class="figure"><img src="/fr/electromenager/prenez-soin-de-ce-que-vous-portez-2021/images/influencer_04.jpg" alt="Stories Jesta Hillmann"></div>
 									<div class="desc">
 										<span>Comme toutes les mamans, je passe mon temps à
 											m’occuper du linge 🧺<br>
